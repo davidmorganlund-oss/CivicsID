@@ -778,7 +778,7 @@ def normalize_boardbook(src, page, tz):
         start = datetime.combine(datetime.strptime(m.group("day"), "%B %d, %Y").date(),
                                  parse_clock(m.group("clock")), tz)
         rest = m.group("rest")
-        place = [boardbook_text(x) for x in re.findall(r'<span id="location[^"]*-(?:description|line1)">(.*?)</span>', rest, re.S)]
+        place = [boardbook_text(x) for x in re.findall(r"<span[^>]*id=[\"']?location[^\"'>]*-(?:description|line1)[\"']?[^>]*>(.*?)</span>", rest, re.S)]
         agenda = re.search(r'href="(/Public/Agenda/\d+\?meeting=(\d+))"', rest)
         e = make_event(
             src, title=tidy_caps(raw), start=start, location=", ".join(p for p in place if p),
@@ -804,6 +804,7 @@ def boardbook_items(page):
             continue
         text = re.sub(r"^\d+(\.[A-Za-z0-9]+)*\.?\s*", "", text)
         text = re.sub(r"^\(?ACTION ITEM\)?[:\s-]*", "", text).strip()
+        text = re.sub(r"[\s-]*\(?ACTION ITEM\)?$", "", text).strip()
         if not text:
             continue
         out.append(f"Public hearing: {text}" if re.search(r"public hearing", heading, re.I) else text)
