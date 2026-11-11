@@ -362,8 +362,10 @@ def test_libcal_libraries():
          "categories": "Board Meetings", "campus": "Post Falls", "location": "Meeting Room 1, Meeting Room 2",
          "url": "https://communitylibrary.libcal.com/event/2"},
         {"id": 3, "title": "Preschool Storytime", "startdt": "2026-11-18 10:30:00", "categories": "Youth Programs", "campus": "Hayden"},
-        {"id": 4, "title": "Know Your Rights as a Renter", "startdt": "2026-11-20 17:00:00", "enddt": "2026-11-20 18:00:00",
+        {"id": 4, "title": "Meet Your Legislators", "startdt": "2026-11-20 17:00:00", "enddt": "2026-11-20 18:00:00",
          "categories": "Adult Programs > Civil/Social", "campus": "Pinehurst", "location": "Meeting Room"},
+        {"id": 6, "title": "Fiction Book Club", "startdt": "2026-11-20 17:00:00", "categories": "Adult Programs > Civil/Social", "campus": "Hayden"},
+        {"id": 7, "title": "Board of Trustees Regular Meeting", "startdt": "2026-11-19 14:00:00", "categories": "Board Meetings", "campus": "Post Falls"},
         {"id": 5, "title": "Voter Registration Help", "startdt": "2026-11-21 11:00:00", "categories": "Adult Programs", "campus": "Hayden"}]
     board, renter, voter = build.normalize_libcal(cln, rows, pt)
     assert board["category"] == "council" and board["area"] == "countywide" and board["county"] == "Kootenai"

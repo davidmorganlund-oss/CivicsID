@@ -826,12 +826,13 @@ def fetch_boardbook(src, start_day, end_day, tz):
 
 # --- LibCal (Springshare) library calendars: the public event list as JSON ---
 # Libraries post everything here, from storytime to trustee meetings. With
-# civic_only set, only the civic ones are kept: board and Friends meetings,
-# programs the library files under Civil/Social, and titles about voting,
-# government and the like. Closures are always dropped.
+# civic_only set, only the civic ones are kept: trustee and Friends meetings,
+# and titles about voting, government and the like. (The libraries' own
+# "Civil/Social" label turned out to cover book clubs and chess, so it is not
+# used.) Closures are always dropped.
 
 def libcal_is_civic(title, categories):
-    if re.search(r"board|trustee", categories, re.I) or re.search(r"civil/social", categories, re.I):
+    if re.search(r"board|trustee", categories + " " + title, re.I):
         return True
     if re.search(r"friends of the library", categories + " " + title, re.I) and re.search(r"meeting", title, re.I):
         return True
@@ -843,7 +844,7 @@ def normalize_libcal(src, rows, tz):
     only = src.get("only_categories")
     skip = re.compile(src["skip_titles"], re.I) if src.get("skip_titles") else None
     counties = src.get("campus_counties", {})
-    events = []
+    seen = {}
     for r in rows:
         title = htmllib.unescape(r.get("title") or "").strip()
         cats = r.get("categories") or ""
@@ -872,12 +873,15 @@ def normalize_libcal(src, rows, tz):
             url=r.get("url") or "", uid=str(r.get("id", "")),
             category=src.get("default_category") or
                      (("hearing" if re.search(r"hearing", title, re.I) else "council") if board else "library"),
-            area=src.get("campus_areas", {}).get(campus, src["area"]) if not board or src.get("campus_areas", {}).get(campus) else src["area"],
+            area=src["area"] if board else src.get("campus_areas", {}).get(campus, src["area"]),
         )
-        if counties.get(campus):
+        if counties.get(campus) and not board:
             e["county"] = counties[campus]
-        events.append(e)
-    return events
+        # A district lists one board meeting on several branch calendars; keep the fullest.
+        key = (e["title"], e["start"])
+        if key not in seen or len(e["location"]) > len(seen[key]["location"]):
+            seen[key] = e
+    return list(seen.values())
 
 
 def fetch_libcal(src, start_day, end_day, tz):

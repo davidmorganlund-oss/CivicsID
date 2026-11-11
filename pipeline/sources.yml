@@ -176,7 +176,7 @@ sources:
     host: cdalibrary.libcal.com
     calendar: 21178
     only_categories: [City Meeting]
-    skip_titles: ^city council meeting
+    skip_titles: ^city council meeting|preparation|executive session|meet and greet|foundation
     default_category: council
     default_location: Coeur d'Alene Public Library
     county: Kootenai
@@ -185,8 +185,8 @@ sources:
     homepage: https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/
 
   # ---------- North Idaho libraries ----------
-  # Kept to civic programs: trustee and Friends meetings, programs filed
-  # under Civil/Social, and titles about voting, government and the like.
+  # Kept to civic programs: trustee and Friends meetings, and titles about
+  # voting, government and the like.
   - id: cda-library
     name: Coeur d'Alene Public Library
     type: libcal
