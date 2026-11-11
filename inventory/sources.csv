@@ -9,7 +9,7 @@ City,Pocatello,Bannock,CivicPlus,pocatello.gov/iCalendar.aspx,Live on CivicsID,M
 City,Coeur d'Alene,Kootenai,Own website,cdaid.org/government/mayor-and-council/council-meeting-schedule/,Live on CivicsID,Council only (first and third Tuesdays 6 p.m.); agenda packets are PDFs so there are no agenda highlights; commissions not added
 City,Hayden,Kootenai,BoardBook,meetings.boardbook.org/Public/Organization/2366,Live on CivicsID,Reaches as far ahead as posted agendas; agenda highlights work
 City,Rathdrum,Kootenai,Municipal One,rathdrum.gov,Live on CivicsID (by hand),Site refuses automated readers; council and commission dates typed in from the city's pages
-City,Dalton Gardens,Kootenai,Unknown,,Not yet,Could not find or open the city's website
+City,Dalton Gardens,Kootenai,GovOffice,daltongardens.com,Live on CivicsID (by hand),No feed and robots.txt disallows the calendar's data address; council and board dates typed in from the city calendar
 City,Twin Falls,Twin Falls,CivicClerk,twinfallsid.portal.civicclerk.com,Live on CivicsID,City site also has a CivicPlus calendar (category 21)
 City,Post Falls,Kootenai,CivicPlus,postfalls.gov/iCalendar.aspx,Live on CivicsID,Category 24
 City,Lewiston,Nez Perce,CivicClerk,lewistonid.portal.civicclerk.com,Live on CivicsID,

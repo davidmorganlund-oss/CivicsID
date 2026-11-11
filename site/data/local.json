@@ -208,6 +208,11 @@
    "site": "https://www.cdaid.org/",
    "meetings": "https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/"
   },
+  "Dalton Gardens": {
+   "county": "Kootenai",
+   "site": "https://daltongardens.com/",
+   "meetings": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6"
+  },
   "Eagle": {
    "county": "Ada",
    "site": "https://www.cityofeagle.org/"

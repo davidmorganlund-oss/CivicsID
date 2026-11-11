@@ -273,6 +273,42 @@ sources:
         category: council
         url: https://www.rathdrum.gov/450/parks-and-recreation-commission
 
+  # Dalton Gardens' calendar has no feed and its site asks automated readers
+  # to stay out of the address the calendar loads from, so these are entered
+  # by hand from the city's calendar page. Check that page and update monthly.
+  - id: dalton-gardens
+    name: City of Dalton Gardens
+    type: schedule
+    county: Kootenai
+    area: Dalton Gardens
+    timezone: America/Los_Angeles
+    homepage: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+    meetings:
+      - title: Regular City Council Meeting
+        dates: [2026-11-18, 2026-12-30]
+        time: "18:00"
+        end: "19:30"
+        category: council
+        url: https://daltongardens.com/citycouncil
+      - title: Planning and Zoning Meeting
+        dates: [2026-12-03]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+      - title: Dalton Water Board Meeting
+        dates: [2026-11-11, 2026-12-09]
+        time: "17:00"
+        end: "18:00"
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+      - title: Dalton Irrigation Board Meeting
+        dates: [2026-12-14]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+
   - id: post-falls
     name: City of Post Falls
     type: civicplus
