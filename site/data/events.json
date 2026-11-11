@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T11:08:14-07:00",
+ "generated": "2026-11-11T11:29:32-07:00",
  "events": [
   {
    "id": "bf2220ee19d2",
@@ -53,6 +53,24 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "b2533d06879f",
+   "title": "Dalton Water Board Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-11T17:00:00-08:00",
+   "end": "2026-11-11T18:00:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
@@ -941,6 +959,24 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "0192d0b90d9f",
+   "title": "Regular City Council Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-18T18:00:00-08:00",
+   "end": "2026-11-18T19:30:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/citycouncil",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
@@ -2186,6 +2222,24 @@
    "cancelled": false
   },
   {
+   "id": "3b21e60fc667",
+   "title": "Planning and Zoning Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-03T18:00:00-08:00",
+   "end": "2026-12-03T19:00:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "9a5c5765634e",
    "title": "Hearing Examiner: Community Development - Public Hearing",
    "host": "Kootenai County",
@@ -2654,6 +2708,24 @@
    "cancelled": false
   },
   {
+   "id": "eee2d4ca3929",
+   "title": "Dalton Water Board Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-09T17:00:00-08:00",
+   "end": "2026-12-09T18:00:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "0a46991fe1be",
    "title": "Airport Advisory Board Meeting",
    "host": "Kootenai County",
@@ -3083,6 +3155,24 @@
    "url": "https://caldwellid.portal.civicclerk.com/event/1042/overview",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "fd3ebb799db6",
+   "title": "Dalton Irrigation Board Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-14T18:00:00-08:00",
+   "end": "2026-12-14T19:00:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
@@ -4055,6 +4145,24 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "3ace93167883",
+   "title": "Regular City Council Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-30T18:00:00-08:00",
+   "end": "2026-12-30T19:30:00-08:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://daltongardens.com/citycouncil",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
