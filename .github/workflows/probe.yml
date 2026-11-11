@@ -1,0 +1,27 @@
+name: Probe county sites
+
+on:
+  push:
+    branches: [probe]
+    paths: ["probe/probe.py", ".github/workflows/probe.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python probe/probe.py | tee "$GITHUB_STEP_SUMMARY"
+      - run: |
+          git config user.name "civicsid-bot"
+          git config user.email "civicsid-bot@users.noreply.github.com"
+          git add probe/report.json
+          git commit -m "Probe report"
+          git push
