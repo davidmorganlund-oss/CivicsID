@@ -2,4 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Benewah County
+BEGIN:VEVENT
+UID:b10cce24f46c@civicsid
+DTSTAMP:20261111T192203Z
+DTSTART:20261126T080000Z
+DTEND:20261127T080000Z
+SUMMARY:Thanksgiving (Benewah County)
+LOCATION:
+URL:https://benewahcountyid.gov/mc-events/thanksgiving/
+END:VEVENT
 END:VCALENDAR
