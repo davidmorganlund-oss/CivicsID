@@ -290,6 +290,19 @@ def normalize_ics(src, ics_text, start_day, end_day, tz):
     import recurring_ical_events
 
     cal = icalendar.Calendar.from_ical(ics_text)
+    # Some WordPress calendars publish repeat rules that can't be expanded
+    # (e.g. "COUNT=0"). Drop just those events rather than the whole feed.
+    from dateutil.rrule import rrulestr
+    for comp in list(cal.walk("VEVENT")):
+        rule = comp.get("RRULE")
+        if rule is None:
+            continue
+        try:
+            if "COUNT=0" in rule.to_ical().decode().replace("\\", ""):
+                raise ValueError("empty repeat rule")
+            rrulestr(rule.to_ical().decode(), dtstart=comp["DTSTART"].dt if isinstance(comp["DTSTART"].dt, datetime) else None)
+        except Exception:
+            cal.subcomponents.remove(comp)
     window_start = datetime.combine(start_day, time(0, 0), tz)
     window_end = datetime.combine(end_day, time(23, 59), tz)
     events = []

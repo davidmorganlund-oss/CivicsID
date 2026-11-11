@@ -638,15 +638,9 @@ sources:
     timezone: America/Los_Angeles
     homepage: https://benewahcountyid.gov/commissioners/
 
-  - id: lincoln-county
-    name: Lincoln County
-    type: drupal_meetings
-    site: https://www.lincolncountyid.gov
-    default_category: council
-    default_location: 111 W B St, Shoshone
-    county: Lincoln
-    area: countywide
-    homepage: https://www.lincolncountyid.gov/meetings
+  # Lincoln County's site (lincolncountyid.gov/meetings) turns away automated
+  # readers, so it isn't connected. Its meetings page is linked from the
+  # county card instead.
 
   - id: ketchum
     name: City of Ketchum

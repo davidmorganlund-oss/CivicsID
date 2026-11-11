@@ -460,3 +460,14 @@ def test_drupal_meetings():
     (e,) = build.normalize_drupal_meetings(src, page, ZoneInfo("America/Boise"))
     assert e["title"] == "Board of Commissioners Meeting" and e["start"] == "2026-11-09T10:00:00-07:00"
     assert e["url"].endswith("/board-commissioners-meeting-85") and e["agenda_url"].endswith("a.pdf")
+
+
+def test_ics_skips_broken_repeat_rules():
+    ics = ("BEGIN:VCALENDAR\r\nVERSION:2.0\r\n"
+           "BEGIN:VEVENT\r\nUID:a\r\nSUMMARY:Veterans Day\r\nDTSTART:20261111T090000Z\r\nRRULE:FREQ=YEARLY;BYMONTH=11;COUNT=0\r\nEND:VEVENT\r\n"
+           "BEGIN:VEVENT\r\nUID:b\r\nSUMMARY:Commissioners Meeting\r\nDTSTART:20261116T160000Z\r\nEND:VEVENT\r\n"
+           "END:VCALENDAR\r\n")
+    src = {"id": "benewah", "name": "Benewah County", "area": "countywide", "county": "Benewah"}
+    tz = ZoneInfo("America/Los_Angeles")
+    evs = build.normalize_ics(src, ics, date(2026, 11, 1), date(2026, 12, 31), tz)
+    assert [e["title"] for e in evs] == ["Commissioners Meeting"]
