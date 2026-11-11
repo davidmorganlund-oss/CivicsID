@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:26:40-07:00",
+ "generated": "2026-11-11T12:32:48-07:00",
  "events": [
   {
    "id": "a7c4346a04cf",
@@ -150,6 +150,24 @@
    "cancelled": true
   },
   {
+   "id": "b6b0a4ffb137",
+   "title": "City Council",
+   "host": "Malad City",
+   "source": "malad-city",
+   "area": "Malad City",
+   "county": "Oneida",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-11T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Malad City Hall (in person or by Zoom)",
+   "url": "https://maladidaho.org/city-council-calendar/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "98c2bd9897bc",
    "title": "Harvest Park Subcommittee Regular Meeting",
    "host": "City of Moscow",
@@ -199,6 +217,24 @@
    "all_day": false,
    "location": "",
    "url": "https://legislature.idaho.gov/?p=18021&mc_id=2666",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "b50949c3edf1",
+   "title": "Bannock County Commissioners\u2019 Work Session and Claims Meeting",
+   "host": "Bannock County",
+   "source": "bannock-county",
+   "area": "countywide",
+   "county": "Bannock",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-12T09:00:00-07:00",
+   "end": "2026-11-12T10:00:00-07:00",
+   "all_day": false,
+   "location": "Bannock County Courthouse, room 119",
+   "url": "https://www.bannockcounty.gov/event/work-session-12nov-2026/",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4982,6 +5018,24 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "7839fcb3c66c",
+   "title": "City Council",
+   "host": "Malad City",
+   "source": "malad-city",
+   "area": "Malad City",
+   "county": "Oneida",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-09T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Malad City Hall (in person or by Zoom)",
+   "url": "https://maladidaho.org/city-council-calendar/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
