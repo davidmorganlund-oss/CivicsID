@@ -134,6 +134,7 @@
     }
 
     var city = layer(g, /Incorporated Places/);
+    if (city === 'Boise City') city = 'Boise';  // the Census Bureau's formal name for Boise
     var county = layer(g, /^Counties$/);
     var ld = layer(g, /State Legislative Districts - Upper/);
     var cd = layer(g, /Congressional Districts/);
