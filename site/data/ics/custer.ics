@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CivicsID//Public meetings//EN
+X-WR-CALNAME:CivicsID Custer County
+BEGIN:VEVENT
+UID:91c2aa9391d0@civicsid
+DTSTAMP:20261111T190602Z
+DTSTART;VALUE=DATE:20261123
+SUMMARY:Board of County Commissioners (Custer County)
+LOCATION:
+URL:https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:d518a7750552@civicsid
+DTSTAMP:20261111T190602Z
+DTSTART;VALUE=DATE:20261214
+SUMMARY:Board of County Commissioners (Custer County)
+LOCATION:
+URL:https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:06622a6cdbf4@civicsid
+DTSTAMP:20261111T190602Z
+DTSTART;VALUE=DATE:20261228
+SUMMARY:Board of County Commissioners (Custer County)
+LOCATION:
+URL:https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/
+END:VEVENT
+END:VCALENDAR
