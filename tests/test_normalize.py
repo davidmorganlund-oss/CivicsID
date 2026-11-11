@@ -300,3 +300,52 @@ def test_alerts_pick_long_failures():
         {"name": "B", "state": "failing", "failing_since": "2026-11-10"},
         {"name": "C", "state": "ok", "failing_since": ""}]}
     assert [s["name"] for s in alerts.stuck_sources(status, date(2026, 11, 11))] == ["A"]
+
+
+def test_schedule_dates_and_agenda_links():
+    pt = ZoneInfo("America/Los_Angeles")
+    src = {"id": "r", "name": "City of Rathdrum", "area": "Rathdrum", "county": "Kootenai", "timezone": "America/Los_Angeles",
+           "meetings": [{"title": "City Council Meeting", "dates": [date(2026, 12, 9), "2027-03-01"], "time": "17:30"},
+                        {"title": "Council", "when": "1st, 3rd Tuesday", "until": "2026-12-15", "time": "18:00"}]}
+    got = build.fetch_schedule(src, date(2026, 11, 11), date(2027, 1, 10), pt)
+    assert [e["start"][:16] for e in got] == ["2026-12-09T17:30", "2026-11-17T18:00", "2026-12-01T18:00", "2026-12-15T18:00"]
+    page = '''<li><a href="/media/hrybgkzc/packet110326web.pdf" target="_blank">November 3,2026</a></li>
+              <li><a href="https://www.cdaid.org/media/x/packet-100626-web.pdf">October 6, 2026</a></li>'''
+    found = build.dated_agendas(page, "https://www.cdaid.org/government/mayor-and-council/council-agendas/")
+    assert found[date(2026, 11, 3)] == "https://www.cdaid.org/media/hrybgkzc/packet110326web.pdf" and date(2026, 10, 6) in found
+
+
+def test_boardbook():
+    src = {"id": "hayden", "name": "City of Hayden", "area": "Hayden", "county": "Kootenai",
+           "organization": 2366, "timezone": "America/Los_Angeles"}
+    page = '''<table><tr class="header"> <th> Meeting </th> </tr>
+    <tr class=" row-for-unit-4328 row-for-unit"> <td> <div> November 12, 2026 at 3:00 PM - ARTS COMMISSION MEETING </div>
+      <div class="margin-top-10"> <b>Meeting Type:</b> Commission (Arts Commission) </div> </td>
+      <td> <div><span id="location15441-773366-description">Hayden City Hall Council Chambers</span><br>
+      <span id="location15441-773366-line1">8930 N. Government Way</span><br><span id="location15441-773366-csz">Hayden, ID 83835</span></div> </td>
+      <td class="nowrap"> <ul> <li> <a href="/Public/Agenda/2366?meeting=773366">Agenda</a> </li> </ul> </td> </tr>
+    <tr class=" row-for-board"> <td> <div> November 19, 2026 at 4:00 PM - CANCELLED Veterans Commission Meeting </div> </td>
+      <td></td><td></td> </tr></table>'''
+    arts, vets = build.normalize_boardbook(src, page, ZoneInfo("America/Los_Angeles"))
+    assert arts["title"] == "Arts Commission Meeting" and arts["start"] == "2026-11-12T15:00:00-08:00" and arts["tz"] == "PT"
+    assert arts["location"] == "Hayden City Hall Council Chambers, 8930 N. Government Way"
+    assert arts["url"].endswith("/Public/Agenda/2366?meeting=773366") and arts["category"] == "council"
+    assert vets["cancelled"] and vets["title"] == "Veterans Commission Meeting"
+
+    def row(i, parent, kids, text):
+        return (f'<tr class="agenda-item-information agenda-item-children-of-{parent}" data-agendaitemid="{i}"> <td> '
+                f'<input type="hidden" class="hasChildren" name="hasChildren" value="{kids}"> <div style="padding-left: 0em"> '
+                f'<div class="form-check"> <i class="fa"></i> {text} </div> </div> </td> </tr>')
+    agenda = "".join([
+        row(1, 0, "true", "2. CONSENT CALENDAR <em>All items are Action Items</em>"),
+        row(2, 1, "false", "2.A. Approval of Bills for Payment"),
+        row(3, 0, "false", "3. VISITOR/PUBLIC COMMENT (3-minutes maximum)"),
+        row(4, 0, "true", "4. PUBLIC HEARING (Public Testimony will be received for these items)"),
+        row(5, 4, "false", "4.A. ACTION ITEM PZE-24-0013 Hazelnut Glen Phased Subdivision Preliminary Plat"),
+        row(6, 0, "true", "5. UNFINISHED BUSINESS"),
+        row(7, 6, "false", "5.A. ACTION ITEM Automatic License Plate Readers Policy Discussion"),
+        row(8, 0, "true", "7. REPORTS"), row(9, 8, "false", "7.B. Finance"),
+        row(10, 0, "false", "10. ADJOURNMENT")])
+    assert build.boardbook_items(agenda) == [
+        "Public hearing: PZE-24-0013 Hazelnut Glen Phased Subdivision Preliminary Plat",
+        "Automatic License Plate Readers Policy Discussion"]

@@ -40,11 +40,14 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of McCall | Valley | CivicPlus | `civicplus` | |
 | Kootenai County | Kootenai | CivicPlus | `civicplus` | Pacific time |
 | City of Post Falls | Kootenai | CivicPlus | `civicplus` | Pacific time |
+| City of Coeur d'Alene | Kootenai | Published council schedule | `schedule` | Council only; links the agenda packet once posted |
+| City of Hayden | Kootenai | BoardBook | `boardbook` | Shows a meeting once its agenda is posted, with agenda highlights |
+| City of Rathdrum | Kootenai | Entered by hand | `schedule` | Site turns away automated readers; update each January |
 | City of Lewiston | Nez Perce | CivicClerk | `civicclerk` | Pacific time |
 | City of Moscow | Latah | CivicClerk | `civicclerk` | Pacific time |
 
 `inventory/sources.csv` lists what was checked and what is still to do,
-including Nampa, Coeur d'Alene, Ada County and Canyon County.
+including Nampa, Dalton Gardens, Ada County and Canyon County.
 
 Counties with no readable calendar yet show a link to the county's own
 meetings page instead, from `site/data/local.json`.

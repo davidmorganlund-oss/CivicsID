@@ -206,11 +206,17 @@
   "Coeur d'Alene": {
    "county": "Kootenai",
    "site": "https://www.cdaid.org/",
-   "meetings": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/"
+   "meetings": "https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/"
   },
   "Eagle": {
    "county": "Ada",
    "site": "https://www.cityofeagle.org/"
+  },
+  "Hayden": {
+   "county": "Kootenai",
+   "site": "https://www.haydenid.gov/",
+   "meetings": "https://meetings.boardbook.org/Public/Organization/2366",
+   "boards": "https://www.haydenid.gov/boards___commissions/index.php"
   },
   "Idaho Falls": {
    "county": "Bonneville",
@@ -251,6 +257,12 @@
    "county": "Kootenai",
    "site": "https://www.postfalls.gov/",
    "meetings": "https://www.postfalls.gov/calendar.aspx"
+  },
+  "Rathdrum": {
+   "county": "Kootenai",
+   "site": "https://www.rathdrum.gov/",
+   "meetings": "https://www.rathdrum.gov/agenda.aspx",
+   "boards": "https://www.rathdrum.gov/516/boards-and-committees"
   },
   "Star": {
    "county": "Ada",

@@ -147,6 +147,68 @@ sources:
     default_category: council
     homepage: https://www.kcgov.us/calendar.aspx?CID=22
 
+  # Coeur d'Alene posts no feed. The council's regular schedule and its 2026
+  # date list are on the city's site; the agenda packet is linked to each
+  # meeting once the city posts it.
+  - id: coeur-dalene
+    name: City of Coeur d'Alene
+    type: schedule
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Tuesday
+        until: 2026-12-15       # the last date on the city's published 2026 schedule
+        time: "18:00"
+        location: Coeur d'Alene Public Library Community Room
+        category: council
+        url: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
+        agenda_page: https://www.cdaid.org/government/mayor-and-council/council-agendas/
+
+  # Hayden's meetings portal. A meeting shows up when its agenda is posted.
+  - id: hayden
+    name: City of Hayden
+    type: boardbook
+    organization: 2366
+    county: Kootenai
+    area: Hayden
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://meetings.boardbook.org/Public/Organization/2366
+
+  # Rathdrum's site has no feed and turns away automated readers, so these
+  # are entered by hand from the pages the city publishes. Update each January
+  # when the city posts the new year's council schedule.
+  - id: rathdrum
+    name: City of Rathdrum
+    type: schedule
+    county: Kootenai
+    area: Rathdrum
+    timezone: America/Los_Angeles
+    homepage: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
+    meetings:
+      - title: City Council Meeting
+        dates: [2026-12-09]     # the 2026 schedule lists no meeting on Nov. 25 or Dec. 23
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
+      - title: Planning & Zoning Commission Meeting
+        dates: [2026-11-18]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/66/planning-and-zoning-commission
+      - title: Parks & Recreation Commission
+        when: 4th Tuesday
+        skip_months: [1, 3, 4, 6, 7, 9, 10, 12]   # meets in February, May, August and November
+        time: "18:00"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/450/parks-and-recreation-commission
+
   - id: post-falls
     name: City of Post Falls
     type: civicplus

@@ -640,6 +640,40 @@ def schedule_dates(rule: str, start_day: date, end_day: date):
         day += timedelta(days=1)
 
 
+DATED_LINK = re.compile(r'<a[^>]+href="([^"]+\.pdf)"[^>]*>\s*([A-Z][a-z]+ \d{1,2},\s*\d{4})\s*</a>')
+
+
+def dated_agendas(page_html, base):
+    """{date: pdf address} from a page that lists agenda packets as dated links
+    ("November 3,2026")."""
+    from urllib.parse import urljoin
+    found = {}
+    for href, label in DATED_LINK.findall(page_html):
+        try:
+            day = datetime.strptime(re.sub(r",\s*", ", ", label), "%B %d, %Y").date()
+        except ValueError:
+            continue
+        found.setdefault(day, urljoin(base, href))
+    return found
+
+
+def link_dated_agendas(events):
+    """For scheduled meetings whose host posts agenda packets on one page,
+    attach the packet for that date once it is posted."""
+    pages = {}
+    for e in events:
+        page = e.get("_agenda_page")
+        if not page:
+            continue
+        if page not in pages:
+            try:
+                pages[page] = dated_agendas(get(page).text, page)
+            except Exception as exc:
+                print(f"[info] {e['source']}: agenda page not read: {exc}", file=sys.stderr)
+                pages[page] = {}
+        e["agenda_url"] = pages[page].get(datetime.fromisoformat(e["start"]).date(), "")
+
+
 def fetch_schedule(src, start_day, end_day, tz):
     events = []
     for mtg in src["meetings"]:
@@ -647,7 +681,15 @@ def fetch_schedule(src, start_day, end_day, tz):
         end = None
         if mtg.get("end"):
             eh, em = (int(x) for x in mtg["end"].split(":"))
-        for day in schedule_dates(mtg["when"], start_day, end_day):
+        if mtg.get("dates"):  # a published list of dates, for bodies whose schedule has exceptions
+            days = [d if isinstance(d, date) else date.fromisoformat(str(d)) for d in mtg["dates"]]
+            days = [d for d in days if start_day <= d <= end_day]
+        else:
+            days = list(schedule_dates(mtg["when"], start_day, end_day))
+            if mtg.get("until"):  # the host has only published its schedule this far
+                last = mtg["until"] if isinstance(mtg["until"], date) else date.fromisoformat(str(mtg["until"]))
+                days = [d for d in days if d <= last]
+        for day in days:
             if day.month in mtg.get("skip_months", []):
                 continue
             start = datetime.combine(day, time(hh, mm), tz)
@@ -660,6 +702,8 @@ def fetch_schedule(src, start_day, end_day, tz):
                 uid=f"{mtg['title']}|{day.isoformat()}", category=mtg.get("category", ""),
             ))
             events[-1]["cancelled"] = False  # the note's wording ("can be cancelled") is not a cancellation
+            events[-1]["_agenda_page"] = mtg.get("agenda_page", "")
+    link_dated_agendas(events)
     return events
 
 
@@ -699,11 +743,91 @@ def fetch_iqm2_rss(src, start_day, end_day, tz):
     return normalize_iqm2_rss(src, get(src["url"]).text, tz)
 
 
+# --- BoardBook Premier public pages (a table of posted meetings, each with an agenda page) ---
+# Meetings appear when their agenda is posted, so this reaches a week or so ahead.
+
+BOARDBOOK = "https://meetings.boardbook.org"
+BOARDBOOK_ROW = re.compile(
+    r"<tr class=\"[^\"]*row-for-[^\"]*\">\s*<td>\s*<div>\s*(?P<day>[A-Z][a-z]+ \d{1,2}, \d{4}) at "
+    r"(?P<clock>\d{1,2}:\d{2} [AP]M)\s*-\s*(?P<title>.*?)</div>(?P<rest>.*?)</tr>", re.S)
+BOARDBOOK_ITEM = re.compile(
+    r'<tr class="agenda-item-information agenda-item-children-of-(?P<parent>\d+)"\s+data-agendaitemid="(?P<id>\d+)">'
+    r'.*?name="hasChildren" value="(?P<kids>true|false)".*?<div class="form-check">(?P<text>.*?)</div>', re.S)
+BOARDBOOK_SKIP = re.compile(r"consent|report|executive session|presentation|call to order|pledge|adjourn|"
+                            r"public comment|future agenda", re.I)
+
+
+def boardbook_text(fragment):
+    import html as htmllib
+    return " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", fragment)).split())
+
+
+def tidy_caps(text):
+    """'CITY COUNCIL MEETING' -> 'City Council Meeting'; mixed-case text is left alone."""
+    if text != text.upper():
+        return text
+    small = {"and", "of", "the", "for", "to", "in", "on", "at", "a"}
+    words = [w.lower() if w.lower() in small and i else w.capitalize() for i, w in enumerate(text.split())]
+    return " ".join(words)
+
+
+def normalize_boardbook(src, page, tz):
+    events = []
+    for m in BOARDBOOK_ROW.finditer(page):
+        raw = boardbook_text(m.group("title"))
+        start = datetime.combine(datetime.strptime(m.group("day"), "%B %d, %Y").date(),
+                                 parse_clock(m.group("clock")), tz)
+        rest = m.group("rest")
+        place = [boardbook_text(x) for x in re.findall(r'<span id="location[^"]*-(?:description|line1)">(.*?)</span>', rest, re.S)]
+        agenda = re.search(r'href="(/Public/Agenda/\d+\?meeting=(\d+))"', rest)
+        e = make_event(
+            src, title=tidy_caps(raw), start=start, location=", ".join(p for p in place if p),
+            url=(BOARDBOOK + agenda.group(1)) if agenda else f"{BOARDBOOK}/Public/Organization/{src['organization']}",
+            uid=agenda.group(2) if agenda else raw, cancelled=is_cancelled(raw),
+        )
+        e["_agenda"] = (BOARDBOOK + agenda.group(1)) if agenda else ""
+        events.append(e)
+    return events
+
+
+def boardbook_items(page):
+    """The decisions on a BoardBook agenda: items under hearings and business
+    headings, with the numbering and "ACTION ITEM" labels removed. Hearing
+    items are marked as such."""
+    rows = [(m.group("id"), m.group("parent"), m.group("kids") == "true", boardbook_text(m.group("text")))
+            for m in BOARDBOOK_ITEM.finditer(page)]
+    sections = {i: text for i, parent, kids, text in rows if parent == "0"}
+    out = []
+    for i, parent, kids, text in rows:
+        heading = sections.get(parent, "")
+        if kids or (parent == "0") or BOARDBOOK_SKIP.search(heading):
+            continue
+        text = re.sub(r"^\d+(\.[A-Za-z0-9]+)*\.?\s*", "", text)
+        text = re.sub(r"^\(?ACTION ITEM\)?[:\s-]*", "", text).strip()
+        if not text:
+            continue
+        out.append(f"Public hearing: {text}" if re.search(r"public hearing", heading, re.I) else text)
+    return out
+
+
+def fetch_boardbook(src, start_day, end_day, tz):
+    events = normalize_boardbook(src, get(f"{BOARDBOOK}/Public/Organization/{src['organization']}").text, tz)
+    for e in events:
+        day = datetime.fromisoformat(e["start"]).date()
+        if e["cancelled"] or not e.get("_agenda") or not (start_day <= day) or not soon(e, start_day):
+            continue
+        try:
+            add_highlights(e, boardbook_items(get(e["_agenda"]).text))
+        except Exception as exc:
+            print(f"[info] {src['id']}: no agenda items for {e['_agenda']}: {exc}", file=sys.stderr)
+    return events
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
               "primegov": fetch_primegov, "civicweb": fetch_civicweb,
-              "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss}
+              "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook}
 
 
 # ---------- outputs ----------
