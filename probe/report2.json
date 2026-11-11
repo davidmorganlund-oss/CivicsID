@@ -1,1002 +1,327 @@
 {
- "civicplus Power": {
+ "gem agendas": {
   "status": 200,
-  "cats": {
-   "15 Quick Links": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   },
-   "16 Site Links": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   },
-   "23 Board of Commissioners (1)": {
-    "status": 200,
-    "n": 3,
-    "future": 3,
-    "titles": [
-     "Commissioner's Meeting"
-    ]
-   },
-   "26 Noxious Weed Control (1)": {
-    "status": 200,
-    "n": 1,
-    "future": 1,
-    "titles": [
-     "Power County CWMA Fall Meeting"
-    ]
-   }
-  }
- },
- "civicplus Lemhi": {
-  "status": 200,
-  "cats": {
-   "14 Main Calendar (1)": {
-    "status": 200,
-    "n": 235,
-    "future": 232,
-    "titles": [
-     "Christmas Day",
-     "Fair Board Mtg",
-     "Independence Day",
-     "Lemhi County Commissioners Meeting",
-     "New Year's Day"
-    ]
-   }
-  }
- },
- "civicplus Clark": {
-  "status": 200,
-  "cats": {
-   "14 Federal Holidays (1)": {
-    "status": 200,
-    "n": 45,
-    "future": 45,
-    "titles": [
-     "Christmas Day",
-     "Independence Day",
-     "Juneteenth",
-     "New Year's Day",
-     "Veterans Day"
-    ]
-   }
-  }
- },
- "civicplus Jefferson": {
-  "status": 200,
-  "cats": {
-   "13 Quick Links": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   },
-   "14 Events Calendar (3)": {
-    "status": 200,
-    "n": 15,
-    "future": 13,
-    "titles": [
-     "Christmas - Offices Closed",
-     "Christmas Day",
-     "Independence Day",
-     "New Year's Day - Offices Closed",
-     "Thanksgiving - Offices Closed",
-     "Veteran's Day - Offices Closed"
-    ]
-   },
-   "14 Quick Links": {
-    "status": 200,
-    "n": 15,
-    "future": 13,
-    "titles": [
-     "Christmas - Offices Closed",
-     "Christmas Day",
-     "Independence Day",
-     "New Year's Day - Offices Closed",
-     "Thanksgiving - Offices Closed",
-     "Veteran's Day - Offices Closed"
-    ]
-   },
-   "24 Meetings (3)": {
-    "status": 200,
-    "n": 59,
-    "future": 59,
-    "titles": [
-     "County Commissioner Meeting"
-    ]
-   },
-   "31 Planning, Zoning & Building (1)": {
-    "status": 200,
-    "n": 2,
-    "future": 2,
-    "titles": [
-     "December 16th\\, 2026 P&Z",
-     "November 18th\\, 2026 P&Z"
-    ]
-   },
-   "32 Park & Recreation  (1)": {
-    "status": 200,
-    "n": 1,
-    "future": 0,
-    "titles": [
-     "Basketball Registration Boys & Girls K-6th Grade"
-    ]
-   }
-  }
- },
- "civicplus Gooding": {
-  "status": 200,
-  "cats": {
-   "16 USING THIS SITE": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   }
-  }
- },
- "civicplus Minidoka": {
-  "status": 200,
-  "cats": {
-   "14 Main Calendar (3)": {
-    "status": 200,
-    "n": 23,
-    "future": 9,
-    "titles": [
-     "Birthday of Martin Luther King\\, Jr.",
-     "Christmas Day",
-     "Columbus Day",
-     "County Commission Meeting",
-     "Independence Day",
-     "Labor Day",
-     "Memorial Day",
-     "New Year's Day",
-     "Presidents' Day",
-     "Thanksgiving Day",
-     "Veterans Day"
-    ]
-   },
-   "16 USING THIS SITE": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   },
-   "17 Helpful Links": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   },
-   "27 CivicRec (57)": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   }
-  }
- },
- "civicplus Washington": {
-  "status": 200,
-  "cats": {
-   "14 Main Calendar (7)": {
-    "status": 200,
-    "n": 155,
-    "future": 152,
-    "titles": [
-     "Christmas Day",
-     "P & Z Commission Meeting",
-     "Rodent Annual Board Meeting",
-     "Thanksgiving Day",
-     "Veterans Day",
-     "Washington County Commissioners",
-     "Washington County Planning & Zoning Meeting",
-     "Washington County Rodent Board",
-     "Weed Advisory Board Meeting",
-     "Weiser Ambulance District Meeting"
-    ]
-   },
-   "16 SITE LINKS:": {
-    "status": 200,
-    "n": 0,
-    "future": 0,
-    "titles": []
-   }
-  }
- },
- "civicplus Jerome": {
-  "status": 200,
-  "cats": {
-   "24 Human Resources (3)": {
-    "status": 200,
-    "n": 220,
-    "future": 220,
-    "titles": [
-     "Christmas Day - Offices Closed",
-     "Columbus Day - Offices Closed",
-     "Independence Day - Offices Closed",
-     "Juneteenth - Offices Closed",
-     "Labor Day - Offices Closed",
-     "MLK Jr. Day - Offices Closed",
-     "Memorial Day - Offices Closed",
-     "New Year's Day - Offices Closed",
-     "Payday",
-     "President's Day - Offices Closed",
-     "Thanksgiving Day - Offices Closed",
-     "Veterans Day - Offices Closed"
-    ]
-   }
-  }
- },
- "tribe Bannock": [
-  [
-   "2026-11-10 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-10 09:00:00",
-   "Bannock County Commissioners&#8217; Meeting (action items)",
-   [
-    "Board of County Commissioners"
-   ],
-   "Bannock County Courthouse, room 119"
-  ],
-  [
-   "2026-11-10 10:00:00",
-   "Bid Opening for 4th of July Fireworks Celebration Display RFP (action item)",
-   [
-    "Board of County Commissioners"
-   ],
-   "Bannock County Courthouse, room 119"
-  ],
-  [
-   "2026-11-10 10:30:00",
-   "Review of Land Use and Development Ordiance with potential signature on a Public Hearing Notice (action item)",
-   [
-    "Board of County Commissioners"
-   ],
-   "Bannock County Courthouse, room 119"
-  ],
-  [
-   "2026-11-10 13:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-10 17:00:00",
-   "Bannock County Historical Society Board Meeting",
-   [
-    "Historical Society Board"
-   ],
-   "Bannock County Historical Museum"
-  ],
-  [
-   "2026-11-10 17:30:00",
-   "Marine Corps 251st Birthday Celebration",
-   [
-    "Veterans Event"
-   ],
-   "The Purpose Center"
-  ],
-  [
-   "2026-11-11 00:00:00",
-   "COUNTY OFFICES CLOSED",
-   [
-    "Holidays"
-   ],
-   ""
-  ],
-  [
-   "2026-11-11 08:00:00",
-   "Closed for federal holiday",
-   [
-    "Holidays"
-   ],
-   ""
-  ],
-  [
-   "2026-11-11 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-11 10:30:00",
-   "Downey Elementary Veterans Day Program 2026",
-   [
-    "Veterans Event"
-   ],
-   "Downey Elementary School"
-  ],
-  [
-   "2026-11-11 11:00:00",
-   "Veterans Day Ceremony",
-   [
-    "Veterans Event"
-   ],
-   "Bannock County Veterans Memorial Building"
-  ],
-  [
-   "2026-11-11 13:30:00",
-   "Mountain View Elementary School Veterans Day Program",
-   [
-    "Veterans Event"
-   ],
-   "Mountain View Elementary School"
-  ],
-  [
-   "2026-11-11 14:30:00",
-   "Idaho State Veterans Home Veterans Day Program",
-   [
-    "Veterans Event"
-   ],
-   "Idaho State Veterans Home Pocatello"
-  ],
-  [
-   "2026-11-11 18:00:00",
-   "Pocatello Elks-Amvets Joint Veterans Committee Veterans Day Dinner",
-   [
-    "Veterans Event"
-   ],
-   "410 S Main Street, Pocatello"
-  ],
-  [
-   "2026-11-11 19:00:00",
-   "American Legion Post 4 Monthly Meeting",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-12 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-12 09:00:00",
-   "Bannock County Commissioners&#8217; Work Session and Claims Meeting (action items)",
-   [
-    "Board of County Commissioners"
-   ],
-   "Bannock County Courthouse, room 119"
-  ],
-  [
-   "2026-11-13 11:30:00",
-   "Military Affairs Committee",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-13 17:00:00",
-   "American Legion Post 4 Steak Night",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-14 11:00:00",
-   "2026 Veterans Day Parade",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-16 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-16 18:30:00",
-   "Bannock County Veterans Memorial Association",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-17 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-17 13:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-18 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-18 10:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-18 19:00:00",
-   "Veterans of Foreign Wars, Post 735 &#038; Auxiliary",
-   [
-    "Veterans Event"
-   ],
-   "Pocatello Elks Lodge"
-  ],
-  [
-   "2026-11-19 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-19 19:00:00",
-   "AMVETS Post 1 &#038; Auxiliary",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-20 19:00:00",
-   "POW*MIA General Membership meeting",
-   [
-    "Veterans Event"
-   ],
-   "Liberty Hall"
-  ],
-  [
-   "2026-11-21 12:00:00",
-   "Daughters of the American Revolution, Wyeth Chapter",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-23 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-24 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-24 13:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-25 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-25 10:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-11-25 15:00:00",
-   "Veteran Services Outreach &#8211; McCammon",
-   [
-    "Veterans Services Event"
-   ],
-   "McCammon Public Library"
-  ],
-  [
-   "2026-11-26 00:00:00",
-   "COUNTY OFFICES CLOSED",
-   [
-    "Holidays"
-   ],
-   ""
-  ],
-  [
-   "2026-11-26 08:00:00",
-   "Closed for federal holiday",
-   [
-    "Holidays"
-   ],
-   ""
-  ],
-  [
-   "2026-11-26 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-11-30 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-01 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-01 13:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-12-01 18:00:00",
-   "Military Officers Association of America",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-02 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-02 10:30:00",
-   "Virtual Walk-in Hours with Bannock County Veteran Services",
-   [
-    "Veterans Event"
-   ],
-   ""
-  ],
-  [
-   "2026-12-03 09:00:00",
-   "Veterans Coffee Shop",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-03 18:30:00",
-   "Marine Corps League",
-   [
-    "Veterans Event"
-   ],
-   "Veterans Memorial Building"
-  ],
-  [
-   "2026-12-04 09:00:00",
-   "Eastern Idaho Joining Forces Meeting",
-   [
-    "Veterans Event"
-   ],
-   "Learning Center at State Hospital South"
-  ]
- ],
- "wp Butte": {
-  "status": 200,
-  "url": "https://buttecountyid.us/events/feed/",
-  "n": 0,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": [],
-  "ical": []
- },
- "wp Camas": {
-  "status": 200,
-  "url": "https://camascounty.id.gov/events/feed/",
-  "n": 0,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": [],
-  "ical": []
- },
- "wp Elmore": {
-  "status": 200,
-  "url": "https://elmorecounty.org/events/feed/",
-  "n": 0,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": [],
-  "ical": []
- },
- "wp Idaho": {
-  "status": 200,
-  "url": "https://idahocounty.org/events/feed/",
-  "n": 0,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndi",
-  "items": [],
-  "ical": []
- },
- "wp Owyhee": {
-  "status": 200,
-  "url": "https://owyheecounty.net/events/feed/",
-  "n": 0,
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom",
-  "items": [],
-  "ical": []
- },
- "wp Owyhee ical": {
-  "status": 200,
-  "url": "https://owyheecounty.net/events/?ical=1",
-  "n": 0,
-  "head": "",
-  "items": [],
-  "ical": []
- },
- "wp Owyhee api": {
-  "status": 200,
-  "url": "https://owyheecounty.net/wp-json/tribe/events/v1/events?per_page=20&start_date=2026-11-01",
-  "n": 0,
-  "head": "{\"events\":[],\"rest_url\":\"https:\\/\\/owyheecounty.net\\/wp-json\\/tribe\\/events\\/v1\\/events\\/?page=1&per_page=20&start_date=2026-11-01 00:00:00&end_date=2028-11-11 23:59:59&status=publish\",\"total\":0,\"total_pages\":0}",
-  "items": [],
-  "ical": []
- },
- "page Cassia": {
-  "status": 200,
-  "url": "https://www.cassia.gov/meetings",
-  "gen": [],
-  "feedlinks": [],
-  "scripts": [
-   "https://code.jquery.com/jquery-3.7.1.min.js",
-   "https://code.jquery.com/ui/1.14.1/jquery-ui.min.js",
-   "https://evocloud-prod1-static.evogov.com/evo_access/evo_access.js?v=4",
-   "https://evocloud-prod1-static.evogov.com/evo_common.js",
-   "https://evocloud-prod1-static.evogov.com/evo_misc/evo_page_view_beacon.js",
-   "https://kit.fontawesome.com/ff18cd2265.js"
-  ],
-  "sample": "-serif; font-weight:400; background:#fff; width:100%; max-width:100%; } body.home-page {background:#fff;} main { flex:1 0 auto; max-width:100%; } /* necessary for sticky footer */ @media (max-width: 1000px) { main {margin-top:0px;} } /* IFrames */ iframe {max-width:90vw;margin:0;} /* Keeps youtube iframe from overflowing the site containers */ /* Back to top */ a.back-to-top { color: #fff; text-align: center; margin: 0 auto; position: relative; display: block; font-size: 1.2rem; text-decoration: none; } body .active, body .evodir_collapsible:hover {background-color:transparent;} /* remove bootstrap gray on level one items */ a.btn { display:block; background:#eee; clear: both; padding:4px; border-radius:4px; color:#121212; } /* standard Button */ /* Editor fixes */ body .fa-twitter::before {content: \"\\e61b\" !important;} /* new twitterX logo */ body div#evo_interior_breadcrumbs div.wrapper.wrapper-breadcrumbs img {display:none !important;} /* remove images globally from breadcrumb menus"
- },
- "page Bonner": {
-  "status": 200,
-  "url": "https://www.bonnercountyid.gov/meetings",
-  "gen": [],
-  "feedlinks": [],
-  "scripts": [
-   "https://cdn.evo.cloud/bootstrap/3.3.7/js/bootstrap.min.js",
-   "https://code.jquery.com/jquery-3.7.1.min.js",
-   "https://code.jquery.com/ui/1.14.0/jquery-ui.min.js",
-   "https://evocloud-prod1-static.evogov.com/evo_access/evo_access.js?v=4",
-   "https://evocloud-prod1-static.evogov.com/evo_common.js",
-   "https://evocloud-prod1-static.evogov.com/evo_misc/evo_page_view_beacon.js",
-   "https://kit.fontawesome.com/c4d8fce140.js",
-   "https://www.googletagmanager.com/gtag/js?id=G-QCX7E9D4LC"
-  ],
-  "sample": "_search_wrap_header .evo_v2_search_input { color: #121212; background: #ffffff; border-color: #b9c2cf; border-radius: 6px 0 0 6px; } .evo_v2_search_wrap_header ::placeholder {color: #333;} .evo_v2_search_wrap_header .evo_v2_search_input:focus { border-color: #264653; } .evo_v2_search_wrap_header .evo_v2_search_submit { background: #264653; border-color: #264653; border-radius: 0 6px 6px 0; } .evo_v2_search_wrap_header .evo_v2_search_chip { color: #264653; } .evo_v2_search_wrap_header .evo_v2_search_chip:hover { border-color: #264653; } /* Global Table Style */ body table { border: 1px solid #DDDDDD; margin: 10px 20px; background: #FFFFFF; border-collapse: collapse; width:100%; } body table thead {border:none !important;} body table th { background: #DDDDDD; margin: 0; color: #333333; text-align: center; border: 1px solid #bbb; } body table td { border: 1px solid #DDDDDD; margin: 0; font-size: 1em; padding: 4px; font-size:.8rem; } body table tr:nth-child(2n+1) {background: #EEEEEE !impo"
- },
- "page Valley": {
-  "status": 200,
-  "url": "https://www.valleycountyid.gov/calendar/72/",
-  "gen": [],
-  "feedlinks": [
-   "https://www.valleycountyid.gov/calendar/106/",
-   "https://www.valleycountyid.gov/calendar/125/",
-   "https://www.valleycountyid.gov/calendar/129/",
-   "https://www.valleycountyid.gov/calendar/159/",
-   "https://www.valleycountyid.gov/calendar/175/",
-   "https://www.valleycountyid.gov/calendar/186/",
-   "https://www.valleycountyid.gov/calendar/199/",
-   "https://www.valleycountyid.gov/calendar/218/",
-   "https://www.valleycountyid.gov/calendar/66/",
-   "https://www.valleycountyid.gov/calendar/67/",
-   "https://www.valleycountyid.gov/calendar/68/",
-   "https://www.valleycountyid.gov/calendar/72/",
-   "https://www.valleycountyid.gov/calendar/75/",
-   "https://www.valleycountyid.gov/calendar/76/",
-   "https://www.valleycountyid.gov/calendar/77/",
-   "https://www.valleycountyid.gov/calendar/78/",
-   "https://www.valleycountyid.gov/calendar/79/"
-  ],
-  "scripts": [
-   "https://cdn.evo.cloud/scripts/jquery/3.3.1/jquery-3.3.1.min.js",
-   "https://evocloud-prod2-static.evogov.com/evo_access/evo_access.js?v=4",
-   "https://evocloud-prod2-static.evogov.com/evo_common.js",
-   "https://evocloud-prod2-static.evogov.com/evo_misc/evo_page_view_beacon.js",
-   "https://kit.fontawesome.com/8114333233.js",
-   "https://www.googletagmanager.com/gtag/js?id=UA-39530212-1"
-  ],
-  "sample": "=Montserrat:wght@200;300;400;500;600;700;900&display=swap'); /* Montserrat Google Font */ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); /* Lato Google Font */ /* The root HTML tag is where the root font size (rem) is set for the entire website. */ html { box-sizing: border-box; color: #333; height: auto; font-size: 16px; } body { background: #FFF; font-family: 'Roboto', sans-serif; display: block; margin: 0; width: 100%; max-width:100vw; height: 100%; box-sizing: border-box; font-smooth: auto; font-size: 16px; } img {max-width:90vw;} /* Overall Wrapper */ body #evo_overall_content_wrapper { min-height: 100%; display: block; width:100%; max-width: 100vw; } body #evo_overall_content_wrapper.evo_menu_mobile_visible_content_wrapper { height:100%; width:100%; margin:0; padding:0; } /* evo common has y scrolling on the mobile menu/page - this fixes that */ /* FontAwesome DuoTone Colors */ .fad { --fa-primary-color: #f8f8ff; --fa-secondary-col"
- },
- "page Payette": {
-  "status": 200,
-  "url": "https://www.payettecounty.org/calendar",
-  "gen": [
-   "Joomla! - Open Source Content Management"
-  ],
-  "feedlinks": [
-   "/calendar/monthcalendar/2026/11/-",
-   "/calendar/monthcalendar/2026/11/16",
-   "/calendar/monthcalendar/2026/11/17",
-   "https://www.payettecounty.org/index.php?option=com_jevents&amp;task=modlatest.rss&amp;format=feed&amp;type=atom&amp;Itemid=374&amp;modid=0",
-   "https://www.payettecounty.org/index.php?option=com_jevents&amp;task=modlatest.rss&amp;format=feed&amp;type=rss&amp;Itemid=374&amp;modid=0"
-  ],
-  "scripts": [
-   "//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js",
-   "/components/com_jevents/assets/js/jQnc.min.js?v=3.6.93",
-   "/components/com_jevents/assets/js/view_detailJQ.min.js?v=3.6.93",
-   "/media/com_finder/js/finder-es5.min.js?e6d3d1f535e33b5641e406eb08d15093e7038cc2",
-   "/media/com_finder/js/finder.min.js?a2c3894d062787a266d59d457ffba5481b639f64",
-   "/media/com_jevents/lib_jevmodal/js/jevmodal.min.js",
-   "/media/legacy/js/joomla-chosen.min.js?22d4d9ad7b52b48e620c98718ca4fa24",
-   "/media/legacy/js/jquery-noconflict.min.js?647005fc12b79b3ca2bb30c059899d5994e3e34d",
-   "/media/system/js/core.min.js?37ffe4186289eba9c5df81bea44080aff77b9684",
-   "/media/system/js/messages-es5.min.js?c29829fd2432533d05b15b771f86c6637708bd9d",
-   "/media/system/js/messages.min.js?7f7aa28ac8e8d42145850e8b45b3bc82ff9a6411",
-   "/media/vendor/awesomplete/js/awesomplete.min.js?1.1.5",
-   "/media/vendor/bootstrap/js/alert.min.js?5.3.2",
-   "/media/vendor/bootstrap/js/bootstrap-es5.min.js?5.3.2",
-   "/media/vendor/bootstrap/js/button.min.js?5.3.2"
-  ],
-  "sample": "ormat=json&amp;tmpl=component&amp;Itemid=101\"},\"system.paths\":{\"root\":\"\",\"rootFull\":\"https:\\/\\/www.payettecounty.org\\/\",\"base\":\"\",\"baseFull\":\"https:\\/\\/www.payettecounty.org\\/\"},\"csrf.token\":\"c8c2be40da4b7072fb3aa5c91a52acc8\"} rltaSettings = {\"switchToAccordions\":true,\"switchBreakPoint\":576,\"buttonScrollSpeed\":5,\"addHashToUrls\":true,\"rememberActive\":false,\"wrapButtons\":false} jQuery(document).ready(function (){ jQuery('.advancedSelect').jchosen({\"disable_search_threshold\":10,\"search_contains\":true,\"allow_single_deselect\":true,\"placeholder_text_multiple\":\"Type or select some options\",\"placeholder_text_single\":\"Select an option\",\"no_results_text\":\"No results match\"}); }); document.addEventListener('DOMContentLoaded', function() { // bootstrap may not be available if this module is loaded remotely if (typeof bootstrap === 'undefined') return; var elements = document.querySelectorAll(\".hasjevtip\"); elements.forEach(function(myPopoverTrigger) { myPopoverTrigger.addEventListener('inserted.bs"
- },
- "page Bonneville": {
-  "status": 200,
-  "url": "https://www.bonnevillecountyidaho.gov/calendar",
-  "gen": [],
-  "feedlinks": [],
-  "scripts": [
-   "/haqt6iy0yx2eNWZiOTU1MGE4YjA1N2U0MTY2MTVjMDhl/nXbNxJvR_6wvKa2MiQpO6A9hf38",
-   "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
-   "https://api.memberstack.io/static/memberstack.js?webflow",
-   "https://cdn.prod.website-files.com/5fb9550a8b057e416615c08e/js/webflow.ac948f20.9e795079249a9feb.js",
-   "https://cdn.prod.website-files.com/5fb9550a8b057e416615c08e/js/webflow.schunk.411ceb392564d06a.js",
-   "https://cdn.prod.website-files.com/5fb9550a8b057e416615c08e/js/webflow.schunk.78cb8371a037d463.js",
-   "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fb9550a8b057e416615c08e"
-  ],
-  "sample": "uwn69ktl.cloudfront.net/assets/livesite.js?\" + r; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'livesite-jssdk')); (function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['G-P0YYVVFE35'],'google_tags_first_party'); window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW', true);gtag('js', new Date());gtag('config', 'G-P0YYVVFE35', {'anonymize_ip': false}); Bonneville County is undergoing internet service upgrades between 8pm-11pm MST Employees I want to... Apply For Beer and Alcohol License Beer and Alcohol License Building &amp; Zoning Applications Building &amp; Zoning Applications Catering Permit Catering Permit Driver&#x27;s License Renewal Driver&#x27;s License Renewal Employment Opportunities Employment Opportunities Marriage License Marriage License Passport Passport Property Assessment Appeal Prope"
- },
- "page Nez Perce": {
-  "status": 200,
-  "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
-  "gen": [],
-  "feedlinks": [
-   "https://www.co.nezperce.id.us/Departments/Justice-Services/Clinical-Services"
-  ],
-  "scripts": [
-   "/DependencyHandler.axd/35898be95dae6b7143a051eb32704f1f/311/js",
-   "/DependencyHandler.axd/66c5af76f5197a78b61a0d156fc957a2/311/js",
-   "/ScriptResource.axd?d=NJmAwtEo3IpLxyAyZumBnuy33Afg_6dKR537SGMnDJIivQmfDMbgG_B4soYak1W8692HVjxObc15yN1IcxNeltLopB2k-GQRx5DDUDIRDQTcwIkzEhbzygU4upn2JH8yHVUDOg2&amp;t=ffffffffd202a464",
-   "/ScriptResource.axd?d=dwY9oWetJoKvuPVnjnZOtu4hgmuyO2twKTINQgeu30ZyymDb7AfekKLOW1UchpluU_RLXEWJ5xuoWE-aoGuBtskC5Fxbd4VFvbMQRDqGLpHAymGwfuwpjquoE-TLrwMYCNj7Wg81_wx4bcTY0&amp;t=ffffffffd202a464",
-   "https://www.googletagmanager.com/gtag/js?id=UA-168562206-1"
-  ],
-  "sample": "Vehicle Glossary Pick A Plate Idaho Transportation Department Clerk Auditor Employee Corner Financial Information Clerk of the Board of Commissioners Adult Detention Center Financial Info District Court Jury Jury Service in Idaho Citations and Fees Payment Court Assistance Office Civil Court Small Claims Criminal Court Second Judicial District Family Court Services Elections Jury Recorder Alcohol Beverage License Marriage License Passport Recording and Inquiry Social Services Commissioners Commissioner Agendas Advisory Boards Airport Authority Board Waterways Accessibility Information Board of Community Guardians Board of Equalization Budgets Press Releases Request for Qualifications Transportation Info Coroner Prosecutor Prosecutor Bio Prosecutors Government Ethics Complaint Victim and Witness Unit Victims Services Reporting a Crime Victim Rights Crime Victims Compensation Witness Services Domestic Violence and Sexual Assault Emergency Pet Fostering Civil Division Child Protective Act"
- },
- "revize Madison": {
-  "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
-   "/revize/plugins/revize_calendar/core/main.css",
-   "/revize/plugins/revize_calendar/core/main.min.js",
-   "/revize/plugins/revize_calendar/core/nav-panels.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.js",
-   "/revize/plugins/revize_calendar/doT.min.js",
-   "/revize/plugins/revize_calendar/google-calendar/main.min.js",
-   "/revize/plugins/revize_calendar/ical.min.js",
-   "/revize/plugins/revize_calendar/ics/ics.deps.min.js",
-   "/revize/plugins/revize_calendar/index.js",
-   "/revize/plugins/revize_calendar/jquery.query-object.js",
-   "/revize/plugins/revize_calendar/list/main.min.css",
-   "/revize/plugins/revize_calendar/list/main.min.js",
-   "/revize/plugins/revize_calendar/moment-timezone.min.js",
-   "/revize/plugins/revize_calendar/moment.min.js",
-   "/revize/plugins/revize_calendar/rrule.js",
-   "/revize/plugins/revize_calendar/rrule/main.min.js",
-   "/revize/plugins/revize_calendar/timegrid/main.min.css",
-   "/revize/plugins/revize_calendar/timegrid/main.min.js",
-   "http://www.madisoncountyid.gov/calendar.php",
-   "https://cms2.revize.com/revize/security/index.jsp?webspace=madisoncounty&filename=/calendar.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.madisoncountyid.gov/calendar.php",
-   "https://www.madisoncountyid.gov/_assets_/plugins/revizeCalendar/css/mini.css",
-   "https://www.madisoncountyid.gov/calendar.php",
-   "https://www.reddit.com/submit?url=http://www.madisoncountyid.gov/calendar.php"
-  ]
- },
- "revize Franklin": {
-  "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
-   "/revize/plugins/revize_calendar/core/main.css",
-   "/revize/plugins/revize_calendar/core/nav-panels.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.css",
-   "/revize/plugins/revize_calendar/index.v2.js",
-   "/revize/plugins/revize_calendar/list/main.min.css",
-   "/revize/plugins/revize_calendar/timegrid/main.min.css",
-   "https://cms2.revize.com/revize/security/index.jsp?webspace=franklincounty&filename=/calendar.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.franklincountyidaho.org/calendar.php",
-   "https://www.franklincountyidaho.org/_assets_/plugins/revizeCalendar/css/mini.css",
-   "https://www.franklincountyidaho.org/services/robinson_building_and_event_center/highlighted_events.php",
-   "https://www.linkedin.com/sharing/share-offsite/?url=http://www.franklincountyidaho.org/calendar.php",
-   "https://www.reddit.com/submit?url=http://www.franklincountyidaho.org/calendar.php",
-   "https://www.twitter.com/intent/tweet?url=http://www.franklincountyidaho.org/calendar.php"
-  ]
- },
- "revize Clearwater": {
-  "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
-   "/revize/plugins/revize_calendar/core/main.css",
-   "/revize/plugins/revize_calendar/core/main.min.js",
-   "/revize/plugins/revize_calendar/core/nav-panels.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.js",
-   "/revize/plugins/revize_calendar/doT.min.js",
-   "/revize/plugins/revize_calendar/google-calendar/main.min.js",
-   "/revize/plugins/revize_calendar/ical.min.js",
-   "/revize/plugins/revize_calendar/ics/ics.deps.min.js",
-   "/revize/plugins/revize_calendar/index.js",
-   "/revize/plugins/revize_calendar/jquery.query-object.js",
-   "/revize/plugins/revize_calendar/list/main.min.css",
-   "/revize/plugins/revize_calendar/list/main.min.js",
-   "/revize/plugins/revize_calendar/moment-timezone.min.js",
-   "/revize/plugins/revize_calendar/moment.min.js",
-   "/revize/plugins/revize_calendar/rrule.js",
-   "/revize/plugins/revize_calendar/rrule/main.min.js",
-   "/revize/plugins/revize_calendar/timegrid/main.min.css",
-   "/revize/plugins/revize_calendar/timegrid/main.min.js",
-   "https://cms3.revize.com/revize/security/index.jsp?webspace=clearwaternew&filename=/calendar.php",
-   "https://www.clearwatercounty.org/_assets_/plugins/revizeCalendar/css/mini.css",
-   "https://www.clearwatercounty.org/visitors/special_events/index.php"
-  ]
- },
- "revize Caribou": {
-  "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
-   "calendar_app/index.html#css=css/calendar_style_cariboucounty.css",
-   "departments/weed_department/upcoming_events.php",
-   "http://www.cariboucounty.us/calendar.php",
-   "https://cms7.revize.com/revize/security/index.jsp?webspace=cariboucounty&filename=/calendar.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.cariboucounty.us/calendar.php",
-   "https://www.plus.google.com/share?url=http://www.cariboucounty.us/calendar.php",
-   "https://www.reddit.com/submit?url=http://www.cariboucounty.us/calendar.php",
-   "https://www.twitter.com/home?status=http://www.cariboucounty.us/calendar.php"
-  ]
- },
- "revize Gem": {
-  "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
+  "final": "https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+  "len": 59938,
+  "robots": "",
+  "schedule": [],
+  "links": [
    "Gem County Island Sports Complex Special Events Application & Checklist 5.2025.pdf",
-   "calendar_app/index.html#css=css/calendar_colors.css",
-   "http://www.gemcounty.org/calendar.php",
-   "https://webgen1.revize.com/revize/security/index.jsp?webspace=gemcountyid&filename=/calendar.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.gemcounty.org/calendar.php",
-   "https://www.linkedin.com/sharing/share-offsite/?url=http://www.gemcounty.org/calendar.php",
-   "https://www.reddit.com/submit?url=http://www.gemcounty.org/calendar.php",
-   "https://www.twitter.com/home?status=http://www.gemcounty.org/calendar.php",
+   "departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567 ",
+   "government/county_commissioners/agendas_and_minutes.php",
+   "government/county_commissioners/agendas_and_minutes.php#",
+   "government/county_commissioners/agendas_and_minutes.php#main",
+   "government/county_commissioners/previous_agendas.php",
+   "http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+   "https://webgen1.revize.com/revize/security/index.jsp?webspace=gemcountyid&filename=/government/county_commissioners/agendas_and_minutes.php",
+   "https://www.facebook.com/sharer/sharer.php?u=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+   "https://www.gemcounty.org/departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567",
+   "https://www.linkedin.com/sharing/share-offsite/?url=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+   "https://www.reddit.com/submit?url=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+   "https://www.twitter.com/home?status=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
    "residents/fairgrounds/calendar.php"
-  ]
+  ],
+  "head": "Gem County, ID SKIP TO CONTENT close menu This website uses cookies to store your accessibility preferences. No personal / identifying information is stored. More info . Dismiss Note: Translate Afrikaans Albanian Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chinese (Simplified) Chinese (Traditional) Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Galician Georgian German Greek Gujarati Haitian Creole Hausa Hebrew Hindi Hmo",
+  "gen": [],
+  "hint": "revize"
  },
- "revize Teton revize": {
+ "gem commissioners": {
   "status": 200,
-  "google": [],
-  "gcal": [],
-  "hints": [
-   "/revize/plugins/revize_calendar/core/main.css",
-   "/revize/plugins/revize_calendar/core/main.min.js",
-   "/revize/plugins/revize_calendar/core/nav-panels.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.css",
-   "/revize/plugins/revize_calendar/daygrid/main.min.js",
-   "/revize/plugins/revize_calendar/doT.min.js",
-   "/revize/plugins/revize_calendar/google-calendar/main.min.js",
-   "/revize/plugins/revize_calendar/ical.min.js",
-   "/revize/plugins/revize_calendar/ics/ics.deps.min.js",
-   "/revize/plugins/revize_calendar/index.js",
-   "/revize/plugins/revize_calendar/jquery.query-object.js",
-   "/revize/plugins/revize_calendar/list/main.min.css",
-   "/revize/plugins/revize_calendar/list/main.min.js",
-   "/revize/plugins/revize_calendar/moment-timezone.min.js",
-   "/revize/plugins/revize_calendar/moment.min.js",
-   "/revize/plugins/revize_calendar/rrule.js",
-   "/revize/plugins/revize_calendar/rrule/main.min.js",
-   "/revize/plugins/revize_calendar/timegrid/main.min.css",
-   "/revize/plugins/revize_calendar/timegrid/main.min.js",
-   "http://www.tetoncountyidaho.gov/calendar.php",
-   "https://cms3.revize.com/revize/security/index.jsp?webspace=tetoncounty&filename=/calendar.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.tetoncountyidaho.gov/calendar.php",
-   "https://www.reddit.com/submit?url=http://www.tetoncountyidaho.gov/calendar.php",
-   "https://www.tetoncountyidaho.gov/_assets_/plugins/revizeCalendar/css/mini.css",
-   "https://www.tetoncountyidaho.gov/calendar.php"
-  ]
+  "final": "https://www.gemcounty.org/government/county_commissioners/index.php",
+  "len": 61530,
+  "robots": "",
+  "schedule": [],
+  "links": [
+   "Gem County Island Sports Complex Special Events Application & Checklist 5.2025.pdf",
+   "departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567 ",
+   "government/county_commissioners/agendas_and_minutes.php",
+   "government/county_commissioners/previous_agendas.php",
+   "https://www.gemcounty.org/departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567",
+   "residents/fairgrounds/calendar.php"
+  ],
+  "head": "Board of County Commissioners (BOCC) SKIP TO CONTENT close menu This website uses cookies to store your accessibility preferences. No personal / identifying information is stored. More info . Dismiss Note: Translate Afrikaans Albanian Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chinese (Simplified) Chinese (Traditional) Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Galician Georgian German Greek Gujarati Haitian Creole ",
+  "gen": [],
+  "hint": "revize"
  },
- "escribe Teton": {
-  "status": 200,
-  "body": "{\"d\":[]}"
+ "gem robots": {
+  "status": 404,
+  "final": "https://webgen1files.revize.com/gemcountyid/robots.txt",
+  "len": 1245,
+  "robots": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}",
+  "schedule": [],
+  "links": [],
+  "head": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-11": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Wednesday, November 11, 2026 &lt; &gt; Select Date Apply Date Start Time 08:00 AM End Time 05:00 PM Courthouse Closed in Observance of Veterans Day Supporting Documents: Event linked to"
+ "lewis home": {
+  "status": 0,
+  "final": "https://www.lewiscountyid.us/",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify fa",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-12": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Thursday, November 12, 2026 &lt; &gt; Select Date Apply Date Start Time 08:00 AM End Time 05:00 PM Ministerial, Administrative acts, and action items including but not limited to: The B"
+ "lewis robots": {
+  "status": 0,
+  "final": "https://www.lewiscountyid.us/robots.txt",
+  "len": 200,
+  "robots": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-13": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Friday, November 13, 2026 &lt; &gt; Select Date Apply Date Start Time 08:00 AM End Time 05:00 PM Ministerial, Administrative acts, and action items including but not limited to: The Boa"
+ "lewis commissioners": {
+  "status": 0,
+  "final": "https://www.lewiscountyid.us/commissioners",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /commissioners (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certific",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-14": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Saturday, November 14, 2026 &lt; &gt; Select Date Apply Date No events are scheduled for the selected date. Commissioner attendance for Saturday, November 14, 2026 No attendance records"
+ "oneida home": {
+  "status": 403,
+  "final": "https://oneidacountyid.com/",
+  "len": 5551,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "Just a moment... Enable JavaScript and cookies to continue",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-15": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Sunday, November 15, 2026 &lt; &gt; Select Date Apply Date No events are scheduled for the selected date. Commissioner attendance for Sunday, November 15, 2026 No attendance records hav"
+ "oneida commissioners": {
+  "status": 403,
+  "final": "https://oneidacountyid.com/commissioners/",
+  "len": 5615,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "Just a moment... Enable JavaScript and cookies to continue",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-16": {
-  "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Monday, November 16, 2026 &lt; &gt; Select Date Apply Date No events are scheduled for the selected date. Commissioner attendance for Monday, November 16, 2026 No attendance records hav"
+ "lincoln us": {
+  "status": 0,
+  "final": "https://www.lincolncountyid.us/",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.lincolncountyid.us', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lincolncountyid.us', port=443): Failed to r",
+  "gen": [],
+  "hint": ""
  },
- "canyon 2026-11-17": {
+ "emmett home": {
   "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Tuesday, November 17, 2026 &lt; &gt; Select Date Apply Date No events are scheduled for the selected date. Commissioner attendance for Tuesday, November 17, 2026 No attendance records h"
+  "final": "https://www.cityofemmett.org/",
+  "len": 1329850,
+  "robots": "",
+  "schedule": [],
+  "links": [
+   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=4ec38d2e.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_a54244868b2b5db717ff9b8fa6e2f1d5_9609.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=4ec38d2e.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=617ffe4c.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_a54244868b2b5db717ff9b8fa6e2f1d5_9609.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
+   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=617ffe4c.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
+   "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[ClassicSection].698c66d5.min.css",
+   "https://www.cityofemmett.org/blog-feed.xml",
+   "https://www.cityofemmett.org/community-calendar-form",
+   "https://www.cityofemmett.org/library-calendar",
+   "https://www.cityofemmett.org/meeting-information"
+  ],
+  "head": "--> HOME | city-of-emmett top of page HOME ABOUT US Contact Us Our Community Air Quality and Weather Road Construction &amp; Closures Meeting Information Job Openings Important Dates PAY UTILITIES HERE DEPARTMENTS Mayor &amp; City Council Building Department Planning and Zoning Department City Clerk&#x27;s Office Fire Department Emmett Public Library Police Department Cemetery Emmett Municipal Airport Public Works Department Systems Administration BUSINESS CORNER Contacts COMMUNITY VIDEO TOUR CI",
+  "gen": [
+   "Wix.com Website Builder"
+  ],
+  "hint": "wix"
  },
- "canyon 2026-11-18": {
+ "emmett council": {
+  "status": 404,
+  "final": "https://www.cityofemmett.org/citycouncil",
+  "len": 2045,
+  "robots": "",
+  "schedule": [],
+  "links": [
+   "//static.parastorage.com/services/classic-error-pages-statics/1.98.0/app.min.css"
+  ],
+  "head": "404 Error: Page Not Found",
+  "gen": [],
+  "hint": "wix"
+ },
+ "emmett robots": {
   "status": 200,
-  "text": " Commissioners' Agenda Commissioners' Agenda The Board of Canyon County Commissioners typically holds open session meetings daily in their meeting room of the first floor of the County Courthouse at 1115 Albany Street, Caldwell, Idaho. Executive Sessions (closed meetings) may be held pursuant to Idaho Code 74-206 as needed during regular scheduled meetings, with the purpose of such sessions and authority to close the meeting announced at that time. Times are advisory. Meeting Location Search Agenda Events for Wednesday, November 18, 2026 &lt; &gt; Select Date Apply Date No events are scheduled for the selected date. Commissioner attendance for Wednesday, November 18, 2026 No attendance recor"
+  "final": "https://www.cityofemmett.org/robots.txt",
+  "len": 494,
+  "robots": "User-agent: *\nAllow: /\nDisallow: *?lightbox=\n\n# Optimization for Google Ads Bot\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google\nDisallow: /_partials*\nDisallow: /pro-gallery-webapp/v1/galleries/*\n\n# Block PetalBot\nUser-agent: PetalBot\nDisallow: /\n\n# Crawl delay for overly enthusiastic bots\nUser-agent: dotbot\nCrawl-delay: 10\nUser-agent: AhrefsBot\nCrawl-delay: 10\n\nSitemap: https://www.cityofemmett.org/sitemap.xml\n\n# Auto generated, go to SEO Tools > Robots.txt Editor to change this",
+  "schedule": [],
+  "links": [],
+  "head": "User-agent: * Allow: / Disallow: *?lightbox= # Optimization for Google Ads Bot User-agent: AdsBot-Google-Mobile User-agent: AdsBot-Google Disallow: /_partials* Disallow: /pro-gallery-webapp/v1/galleries/* # Block PetalBot User-agent: PetalBot Disallow: / # Crawl delay for overly enthusiastic bots User-agent: dotbot Crawl-delay: 10 User-agent: AhrefsBot Crawl-delay: 10 Sitemap: https://www.cityofemmett.org/sitemap.xml # Auto generated, go to SEO Tools > Robots.txt Editor to change this",
+  "gen": [],
+  "hint": ""
+ },
+ "malad home": {
+  "status": 200,
+  "final": "https://www.maladidaho.org/",
+  "len": 125385,
+  "robots": "",
+  "schedule": [
+   "Learn More Doing Business Doing Business Malad City supports both small to large businesses to meet the needs of its residents, surrounding communities, and the region"
+  ],
+  "links": [
+   "https://maladidaho.org/city-council-calendar/",
+   "https://maladidaho.org/events-attractions/",
+   "https://maladidaho.org/events/",
+   "https://maladidaho.org/minutes-agendas/",
+   "https://www.maladidaho.org/city-council-calendar/",
+   "https://www.maladidaho.org/event/christmas-light-parade/",
+   "https://www.maladidaho.org/event/deck-the-halls-christmas-event-2/",
+   "https://www.maladidaho.org/event/deck-the-halls-christmas-event/",
+   "https://www.maladidaho.org/event/firemens-ball-2/",
+   "https://www.maladidaho.org/event/hometown-christmas-festival-4/",
+   "https://www.maladidaho.org/event/hometown-christmas-festival-5/",
+   "https://www.maladidaho.org/event/retirement-party-for-gaylen-garrett/",
+   "https://www.maladidaho.org/event/shop-malad/",
+   "https://www.maladidaho.org/event/veterans-day-program-2/",
+   "https://www.maladidaho.org/events-attractions/",
+   "https://www.maladidaho.org/minutes-agendas-2/",
+   "https://www.maladidaho.org/wp-json/tribe/events/v1/"
+  ],
+  "head": "Welcome to Malad City, Idaho! Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery County Library Education Events Gallery Health Mental Health Services Family History Pioneer Museum Text Messaging Tourism Tourism Dining Options Places to Stay Things To Do Business Business Licenses and Permits Ordinances Pay Utilities Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery ",
+  "gen": [
+   "All in One SEO (AIOSEO) 5.0.5",
+   "Elementor 4.3.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+  ],
+  "hint": ""
+ },
+ "nezperce home": {
+  "status": 200,
+  "final": "https://www.cityofnezperce.gov/",
+  "len": 40735,
+  "robots": "",
+  "schedule": [],
+  "links": [
+   "/_app/immutable/chunks/Calendar-4efde5ea.js",
+   "/news/city-council-meeting-changed-to-7-a-m-oct-13",
+   "/news/library-plans-halloween-party-reading-week-event",
+   "/news/nhs-senior-class-to-hold-sausage-feed-nov-11"
+  ],
+  "head": "Official Web Site of City of Nezperce, ID Nezperce, ID Documents News Welcome To City of Nezperce, ID Latest News View All November 9, 2026 NHS Senior Class to hold sausage feed Nov. 11 Save and Sane fundraiser set in school's multipurpose room November 9, 2026 Lion's Club to throw Fall Ball on Nov. 20 Autumn event gets a shake up November 9, 2026 Hope Baptist Church offers Thanksgiving dinner Free meal starts at 4 p.m. at the Legion Hall October 21, 2026 Lynda Riggers writes WWII novel NHS grad",
+  "gen": [],
+  "hint": ""
+ },
+ "kamiah home": {
+  "status": 0,
+  "final": "https://www.kamiahidaho.org/",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.kamiahidaho.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.kamiahidaho.org', port=443): Failed to resolve",
+  "gen": [],
+  "hint": ""
+ },
+ "kamiah alt": {
+  "status": 0,
+  "final": "https://kamiah.org/",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='kamiah.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: cert",
+  "gen": [],
+  "hint": ""
+ },
+ "shoshone city": {
+  "status": 0,
+  "final": "https://www.shoshonecity.com/",
+  "len": 200,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "ERR HTTPSConnectionPool(host='www.shoshonecity.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shoshonecity.com', port=443): Failed to establ",
+  "gen": [],
+  "hint": ""
+ },
+ "hailey meetings": {
+  "status": 200,
+  "final": "https://haileycityhall.org/public-meetings/",
+  "len": 1287045,
+  "robots": "",
+  "schedule": [],
+  "links": [
+   "https://global.gotomeeting.com/install/543667133",
+   "https://global.gotomeeting.com/join/686570877",
+   "https://haileycityhall.org/arts-historic-preservation-commission-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/dif/dif-advisory-committee-agenda-packets/",
+   "https://haileycityhall.org/boards-and-commissions/hahpc/arts-historic-preservation-commission-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/urban-renewal-agency-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/housing-committee/housing-committee-agenda-packets/",
+   "https://haileycityhall.org/boards-and-commissions/joint-fire-board/joint-fire-board-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/parks-and-lands-board/parks-lands-board-agendas/",
+   "https://haileycityhall.org/boards-and-commissions/pz-commission/planning-zoning-commission-agenda-packets/",
+   "https://haileycityhall.org/boards-and-commissions/sustainabilityactionplancommittee/sustainability-action-plan-committee-agenda-and-packets/",
+   "https://haileycityhall.org/boards-and-commissions/tree-committee/tree-committee-agendas/",
+   "https://haileycityhall.org/comments/feed/",
+   "https://haileycityhall.org/events/?ical=1",
+   "https://haileycityhall.org/feed/",
+   "https://haileycityhall.org/hailey-police-department/crime-prevention/",
+   "https://haileycityhall.org/planning-zoning-commission-agenda-packets/",
+   "https://haileycityhall.org/public-meetings/",
+   "https://haileycityhall.org/urban-renewal-agency-agendas/",
+   "https://haileycityhall.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhaileycityhall.org%2Fpublic-meetings%2F",
+   "https://haileycityhall.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhaileycityhall.org%2Fpublic-meetings%2F&#038;format=xml",
+   "https://haileycityhall.org/wp-json/tribe/events/v1/",
+   "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzNjNjA2Y2MtMzQ0OC00MWI5LWE3OWQtNDZkNWIzMTc4ZDUz%40thread.v2/0?context=%7b%22Tid%22%3a%2242e19083-76f7-4129-9fde-874e596ed1a7%22%2c%22Oid%22%3a%22c9ec8de0-ef8c-4f17-8990-44c172695a20%22%7d",
+   "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FlZDM1NzktMzQ0YS00YjdiLWI3YjUtNWJmNGNkOGM0NGQ5%40thread.v2/0?context=%7b%22Tid%22%3a%2242e19083-76f7-4129-9fde-874e596ed1a7%22%2c%22Oid%22%3a%22c9ec8de0-ef8c-4f17-8990-44c172695a20%22%7d",
+   "https://www.microsoft.com/microsoft-teams/join-a-meeting"
+  ],
+  "head": "Public Meetings | City Council by City of Hailey, ID Skip to content Home Departments &#038; Projects City Administration Election Information Finance &#038; Records Mayor, Council, Administrator Community Development Hailey Comprehensive Plan Update Flood Information Building Services Building Services FAQs Building Inspections and Reports Development Impact Fees Community Development FAQs Forms &#038; Fees Land Use Sustainability &#038; Resilience Community Development Mission &#038; Core Valu",
+  "gen": [
+   "WordPress 7.1.4",
+   "ResponsiveVoice Text To Speech"
+  ],
+  "hint": "tribe"
+ },
+ "hailey robots": {
+  "status": 200,
+  "final": "https://www.haileycityhall.org/robots.txt",
+  "len": 24,
+  "robots": "User-Agent: *\nDisallow:\n",
+  "schedule": [],
+  "links": [],
+  "head": "User-Agent: * Disallow:",
+  "gen": [],
+  "hint": ""
+ },
+ "hailey tribe": {
+  "status": 200,
+  "final": "https://www.haileycityhall.org/wp-json/tribe/events/v1/events?per_page=30",
+  "len": 213,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "{\"events\":[],\"rest_url\":\"https:\\/\\/haileycityhall.org\\/wp-json\\/tribe\\/events\\/v1\\/events\\/?page=1&per_page=30&start_date=2026-11-10 00:00:00&end_date=2028-11-11 23:59:59&status=publish\",\"total\":0,\"total_pages\":0}",
+  "gen": [],
+  "hint": ""
+ },
+ "blaine us": {
+  "status": 403,
+  "final": "https://www.blainecountyid.gov",
+  "len": 5660,
+  "robots": "",
+  "schedule": [],
+  "links": [],
+  "head": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access civicplus.io Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them k",
+  "gen": [],
+  "hint": ""
  }
 }
