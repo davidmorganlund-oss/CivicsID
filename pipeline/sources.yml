@@ -1,0 +1,177 @@
+# CivicsID sources, State of Idaho.
+# Each source names a connector type and the public feed it reads.
+# "county" groups sources by county. "area" is what the site matches a
+# visitor's city against; "countywide" sources show for everyone in the county.
+# "timezone" defaults to Mountain time. Sources in the northern counties
+# (Pacific time) say so.
+# Every feed below was checked by hand in November 2026 before it was added.
+
+window_days: 60
+timezone: America/Boise
+
+sources:
+  # Statewide: the Idaho Legislature's own calendar of committee meetings
+  # (standing committees in session, interim committees the rest of the year).
+  - id: legislature
+    name: Idaho Legislature
+    type: ics
+    url: https://legislature.idaho.gov/feeds/my-calendar-ics/
+    county: Statewide
+    area: statewide
+    force_category: legislature
+    homepage: https://legislature.idaho.gov/calendar
+
+  # ---------- Ada County ----------
+  # Boise's agendas feed. A meeting appears once its agenda is published, so
+  # this reaches about a week ahead. Boise is moving its boards to a new
+  # meeting portal through January 2027; this source needs replacing then.
+  - id: boise
+    name: City of Boise
+    type: iqm2_rss
+    url: https://boisecityid.iqm2.com/Services/RSS.aspx?Feed=Calendar
+    county: Ada
+    area: Boise
+    default_category: council
+    homepage: https://www.cityofboise.org/departments/city-clerk/public-meetings/
+
+  - id: meridian
+    name: City of Meridian
+    type: civicclerk
+    tenant: meridianid
+    county: Ada
+    area: Meridian
+    homepage: https://meridianid.portal.civicclerk.com/
+
+  - id: kuna
+    name: City of Kuna
+    type: civicplus
+    site: https://www.kunacity.id.gov
+    categories: [14]          # "Public Meetings - Main Calendar"
+    county: Ada
+    area: Kuna
+    default_category: council
+    homepage: https://www.kunacity.id.gov/calendar.aspx
+
+  - id: star
+    name: City of Star
+    type: civicplus
+    site: https://www.staridaho.org
+    categories: [22]          # "City Council Meetings"
+    county: Ada
+    area: Star
+    default_category: council
+    homepage: https://www.staridaho.org/calendar.aspx
+
+  # The highway district publishes a standing schedule, not a feed.
+  - id: achd
+    name: Ada County Highway District
+    type: schedule
+    county: Ada
+    area: countywide
+    homepage: https://www.achdidaho.org/about-achd/commission/commission-meetings
+    meetings:
+      - title: ACHD Commission meeting
+        when: 1st, 2nd, 3rd Wednesday
+        time: "12:00"
+        category: council
+        url: https://www.achdidaho.org/about-achd/commission/commission-meetings
+      - title: ACHD Commission evening meeting
+        when: 4th Wednesday
+        time: "18:00"
+        category: council
+        url: https://www.achdidaho.org/about-achd/commission/commission-meetings
+
+  # ---------- Canyon County ----------
+  - id: caldwell
+    name: City of Caldwell
+    type: civicclerk
+    tenant: caldwellid
+    county: Canyon
+    area: Caldwell
+    homepage: https://caldwellid.portal.civicclerk.com/
+
+  # ---------- Bonneville County ----------
+  - id: idaho-falls
+    name: City of Idaho Falls
+    type: civicplus
+    site: https://www.idahofallsidaho.gov
+    # City Council, Planning Commission, Utility Board, Idaho Falls Power,
+    # Redevelopment Agency, Parks & Recreation Commission, Historic
+    # Preservation Commission, Airport Board, Golf Advisory Board, Shade Tree Committee
+    categories: [28, 42, 29, 61, 67, 48, 59, 79, 47, 49]
+    county: Bonneville
+    area: Idaho Falls
+    default_category: council
+    homepage: https://www.idahofallsidaho.gov/calendar.aspx
+
+  # ---------- Bannock County ----------
+  - id: pocatello
+    name: City of Pocatello
+    type: civicplus
+    site: https://www.pocatello.gov
+    categories: [14]          # "Main Calendar", which mixes meetings with city events
+    county: Bannock
+    area: Pocatello
+    drop_uncategorized: true
+    homepage: https://www.pocatello.gov/calendar.aspx
+
+  # ---------- Twin Falls County ----------
+  - id: twin-falls
+    name: City of Twin Falls
+    type: civicclerk
+    tenant: twinfallsid
+    county: Twin Falls
+    area: Twin Falls
+    homepage: https://twinfallsid.portal.civicclerk.com/
+
+  # ---------- Valley County ----------
+  - id: mccall
+    name: City of McCall
+    type: civicplus
+    site: https://www.mccall.id.us
+    categories: [23, 27]      # City Council; Boards & Commissions
+    county: Valley
+    area: McCall
+    default_category: council
+    homepage: https://www.mccall.id.us/calendar.aspx
+
+  # ---------- North Idaho (Pacific time) ----------
+  - id: kootenai-county
+    name: Kootenai County
+    type: civicplus
+    site: https://www.kcgov.us
+    categories: [22]          # "County Commissioners Public Meeting Calendar"
+    county: Kootenai
+    area: countywide
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://www.kcgov.us/calendar.aspx?CID=22
+
+  - id: post-falls
+    name: City of Post Falls
+    type: civicplus
+    site: https://www.postfalls.gov
+    categories: [24]          # "City Meetings"
+    county: Kootenai
+    area: Post Falls
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://www.postfalls.gov/calendar.aspx
+
+  - id: lewiston
+    name: City of Lewiston
+    type: civicclerk
+    tenant: lewistonid
+    county: Nez Perce
+    area: Lewiston
+    timezone: America/Los_Angeles
+    homepage: https://lewistonid.portal.civicclerk.com/
+
+  - id: moscow
+    name: City of Moscow
+    type: civicclerk
+    tenant: moscowid
+    county: Latah
+    area: Moscow
+    timezone: America/Los_Angeles
+    homepage: https://moscowid.portal.civicclerk.com/

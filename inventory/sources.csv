@@ -1,0 +1,27 @@
+Type,Jurisdiction,County,Meeting platform,Where we found it,Can CivicsID read it?,Notes
+State,Idaho Legislature,Statewide,WordPress calendar feed,legislature.idaho.gov/feeds/my-calendar-ics/,Live on CivicsID,Events carry a link but no room
+City,Boise,Ada,IQM2 (moving to a new portal),boisecityid.iqm2.com,Live on CivicsID,Agenda feed reaches about a week ahead; City Council moves to the new portal Jan. 12 2027 and the source must be replaced
+City,Meridian,Ada,CivicClerk,meridianid.portal.civicclerk.com,Live on CivicsID,
+City,Nampa,Canyon,Unknown,cityofnampa.us,Not yet,City calendar page looked out of date; agenda system not found
+City,Caldwell,Canyon,CivicClerk,caldwellid.portal.civicclerk.com,Live on CivicsID,
+City,Idaho Falls,Bonneville,CivicPlus,idahofallsidaho.gov/iCalendar.aspx,Live on CivicsID,Ten categories
+City,Pocatello,Bannock,CivicPlus,pocatello.gov/iCalendar.aspx,Live on CivicsID,Main Calendar filtered to meetings
+City,Coeur d'Alene,Kootenai,Own website,cdaid.org/government/mayor-and-council/council-meeting-schedule/,Not yet,Council meets first and third Tuesdays; meeting time and room could not be confirmed so it was left out
+City,Twin Falls,Twin Falls,CivicClerk,twinfallsid.portal.civicclerk.com,Live on CivicsID,City site also has a CivicPlus calendar (category 21)
+City,Post Falls,Kootenai,CivicPlus,postfalls.gov/iCalendar.aspx,Live on CivicsID,Category 24
+City,Lewiston,Nez Perce,CivicClerk,lewistonid.portal.civicclerk.com,Live on CivicsID,
+City,Moscow,Latah,CivicClerk,moscowid.portal.civicclerk.com,Live on CivicsID,
+City,Kuna,Ada,CivicPlus,kunacity.id.gov/iCalendar.aspx,Live on CivicsID,Category 14
+City,Star,Ada,CivicPlus,staridaho.org/iCalendar.aspx,Live on CivicsID,Category 22
+City,Eagle,Ada,CivicPlus,cityofeagle.org/iCalendar.aspx,Not yet,Only an events and closures calendar is published as a feed
+City,McCall,Valley,CivicPlus,mccall.id.us/iCalendar.aspx,Live on CivicsID,Categories 23 and 27
+City,Rexburg,Madison,Unknown,,Not yet,Site did not answer an automated reader
+City,Sandpoint,Bonner,Unknown,,Not yet,Site did not answer an automated reader
+District,Ada County Highway District,Ada,Own website,achdidaho.org/about-achd/commission/commission-meetings,Live on CivicsID,Entered from the published regular schedule
+County,Ada,Ada,Own file browser,apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas,Links only,Commissioners meet most weekdays; no feed
+County,Canyon,Canyon,Own agenda system,agenda.canyoncounty.id.gov,Links only,No feed; has a CSV download worth a look
+County,Kootenai,Kootenai,CivicPlus,kcgov.us/iCalendar.aspx,Live on CivicsID,Category 22
+County,Teton,Teton,eScribe,pub-tetoncounty.escribemeetings.com,Links only,eScribe has a calendar feed; needs a connector
+County,Cassia,Cassia,Own website,cassia.gov/meetings,Links only,
+County,Clark; Gooding; Jerome; Lemhi; Minidoka; Washington,,CivicPlus,AgendaCenter or calendar.aspx on each site,Links only,Likely readable with the civicplus connector once category numbers are looked up
+County,All others,,Various,site/data/local.json,Links only,See local.json for each county's website and meetings page

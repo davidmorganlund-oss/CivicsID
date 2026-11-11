@@ -1,0 +1,288 @@
+/* CivicsID calendar page. Reads data/events.json and data/status.json,
+   which the nightly pipeline writes. Everything runs in the browser. */
+(function () {
+  'use strict';
+
+  var CATEGORIES = [
+    { id: 'all', label: 'All' },
+    { id: 'council', label: 'Councils and commissions' },
+    { id: 'hearing', label: 'Public hearings' },
+    { id: 'legislature', label: 'Idaho Legislature' },
+    { id: 'school', label: 'School boards' },
+    { id: 'library', label: 'Library programs' },
+    { id: 'other', label: 'Other' }
+  ];
+  var LABELS = { legislature: 'Idaho Legislature', council: 'Councils and commissions', hearing: 'Public hearings', school: 'School boards', library: 'Library programs', other: 'Other' };
+
+  // The visitor's county and city, shared with the Engage guides' "Near you"
+  // boxes and the representatives lookup. Kept in this browser only.
+  var KEY = 'civicsid.place';
+  function loadPlace() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
+  function savePlace(p) { try { localStorage.setItem(KEY, JSON.stringify(p)); } catch (e) { /* private mode */ } }
+  function slug(c) { return c.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, ''); }
+
+  var state = { events: [], sources: [], local: {}, connected: null, cat: 'all', county: '', city: '', days: 14 };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+  function safeUrl(url) { return /^https?:\/\//i.test(url || '') ? url : ''; }
+
+  // Event times arrive as local wall-clock ISO strings (Mountain time for most
+  // of Idaho, Pacific in the north); read the parts directly so the page shows
+  // the meeting's own local time wherever the visitor is. Each event carries
+  // a "tz" label, MT or PT, shown under the time.
+  function parts(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(iso);
+    return { y: +m[1], mo: +m[2], d: +m[3], h: +m[4], mi: +m[5], key: m[1] + '-' + m[2] + '-' + m[3] };
+  }
+  function clock(p) {
+    var h = p.h % 12 || 12;
+    return h + (p.mi ? ':' + String(p.mi).padStart(2, '0') : '') + (p.h < 12 ? ' AM' : ' PM');
+  }
+  function dayLabel(p) {
+    return new Date(p.y, p.mo - 1, p.d).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+  }
+  function todayKey() {
+    var s = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Boise' });
+    return s.slice(0, 10);
+  }
+  function addDays(key, n) {
+    var d = new Date(key + 'T12:00:00Z');
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function visible() {
+    var from = todayKey(), to = addDays(from, state.days);
+    return state.events.filter(function (e) {
+      var key = e.start.slice(0, 10);
+      if (key < from || key > to) return false;
+      if (state.cat !== 'all' && e.category !== state.cat) return false;
+      // Legislature meetings belong to everyone: they show statewide, and in a
+      // county view when the "Idaho Legislature" filter is on.
+      if (e.county === 'Statewide') return !state.county || state.cat === 'legislature';
+      if (state.county && e.county !== state.county) return false;
+      if (state.city && e.area !== 'countywide' && e.area !== state.city) return false;
+      return true;
+    });
+  }
+
+  function icsLink(e) {
+    var p = parts(e.start);
+    var stamp = function (q) { return '' + q.y + String(q.mo).padStart(2, '0') + String(q.d).padStart(2, '0'); };
+    var esc = function (s) { return String(s || '').replace(/([\\;,])/g, '\\$1').replace(/\n/g, '\\n'); };
+    var lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//CivicsID//EN', 'BEGIN:VEVENT', 'UID:' + e.id + '@civicsid'];
+    if (e.all_day) {
+      lines.push('DTSTART;VALUE=DATE:' + stamp(p));
+    } else {
+      var t = function (q) { return stamp(q) + 'T' + String(q.h).padStart(2, '0') + String(q.mi).padStart(2, '0') + '00'; };
+      var zone = e.tz === 'PT' ? 'America/Los_Angeles' : 'America/Boise';
+      lines.push('DTSTART;TZID=' + zone + ':' + t(p));
+      if (e.end) lines.push('DTEND;TZID=' + zone + ':' + t(parts(e.end)));
+    }
+    lines.push('SUMMARY:' + esc(e.title + ' (' + e.host + ')'), 'LOCATION:' + esc(e.location), 'URL:' + (safeUrl(e.url) || ''), 'END:VEVENT', 'END:VCALENDAR');
+    return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(lines.join('\r\n'));
+  }
+
+  // Hosts often paste a raw web address into the note ("Register to Attend:
+  // https://us02web.zoom.us/..."). Show it as a short link so it can't spill
+  // across the card, and keep long notes to a couple of lines.
+  function noteNode(note) {
+    var p = el('p', 'note');
+    var budget = 220;
+    note.split(/(https?:\/\/[^\s<>"']+)/).forEach(function (part) {
+      if (!part) return;
+      if (/^https?:\/\//.test(part)) {
+        var url = part.replace(/[.,;:)\]]+$/, '');
+        var host = '';
+        try { host = new URL(url).hostname.replace(/^www\./, ''); } catch (err) { return; }
+        var a = el('a', null, 'Open link (' + host + ')');
+        a.href = url;
+        a.rel = 'noopener';
+        p.appendChild(a);
+        return;
+      }
+      if (budget <= 0) return;
+      var text = part.length > budget ? part.slice(0, budget - 1) + '…' : part;
+      budget -= text.length;
+      p.appendChild(document.createTextNode(text));
+    });
+    return p;
+  }
+
+  function card(e) {
+    var p = parts(e.start);
+    var art = el('article', 'event' + (e.cancelled ? ' is-cancelled' : ''));
+    var when = el('div', 'when', e.all_day ? 'Time not listed' : clock(p));
+    if (!e.all_day) when.appendChild(el('small', null, e.tz === 'PT' ? 'Pacific' : 'Mountain'));
+    art.appendChild(when);
+
+    var what = el('div', 'what');
+    what.appendChild(el('span', 'tag' + (e.cancelled ? ' cancelled' : ''), e.cancelled ? 'Cancelled' : (LABELS[e.category] || 'Other')));
+    what.appendChild(el('h3', null, e.title));
+    what.appendChild(el('p', 'meta', e.host + (e.location ? ' · ' + e.location : '')));
+    if (e.highlights && e.highlights.length) {
+      var box = el('div', 'agenda');
+      box.appendChild(el('p', 'agenda-label', 'On the agenda'));
+      var ul = el('ul');
+      e.highlights.forEach(function (h) { ul.appendChild(el('li', null, h)); });
+      if (e.highlights_more) ul.appendChild(el('li', 'more-items', 'and ' + e.highlights_more + ' more ' + (e.highlights_more === 1 ? 'item' : 'items')));
+      box.appendChild(ul);
+      what.appendChild(box);
+    }
+    if (e.note) what.appendChild(noteNode(e.note));
+    art.appendChild(what);
+
+    var actions = el('div', 'actions');
+    var link = function (href, text, download) {
+      var a = el('a', null, text);
+      a.href = href;
+      a.setAttribute('aria-label', text + ': ' + e.title + ', ' + dayLabel(p));
+      if (download) a.download = download; else a.rel = 'noopener';
+      actions.appendChild(a);
+    };
+    if (safeUrl(e.url)) link(safeUrl(e.url), 'Details from the host');
+    if (safeUrl(e.agenda_url)) link(safeUrl(e.agenda_url), 'Agenda');
+    if (!e.cancelled) link(icsLink(e), 'Add to my calendar', 'civicsid-event.ics');
+    art.appendChild(actions);
+    return art;
+  }
+
+  function render() {
+    var list = $('list');
+    list.textContent = '';
+    var rows = visible();
+    var from = todayKey(), to = addDays(from, state.days);
+    var fmt = function (k) { return new Date(k + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
+    $('range').textContent = fmt(from) + ' to ' + fmt(to) + ' · ' + rows.length + (rows.length === 1 ? ' event' : ' events');
+    $('heading').textContent = 'Coming up ' + (state.city ? 'in and around ' + state.city : state.county ? 'in ' + state.county + ' County' : 'across Idaho');
+    // One county is the useful subscription. With no county picked, offer the
+    // Legislature, which matters to everyone.
+    var sub = $('subscribe'), connected = state.county && (!state.connected || state.connected[state.county]);
+    sub.href = 'data/ics/' + (connected ? slug(state.county) : 'statewide') + '.ics';
+    sub.textContent = connected ? 'Subscribe to ' + state.county + ' County meetings' : 'Subscribe to Idaho Legislature committee meetings';
+    $('subscribe-text').textContent = connected
+      ? 'Subscribe once and ' + state.county + ' County meetings show up in the calendar app you already use.'
+      : 'Pick your county above to subscribe to its meetings. Or follow the Legislature’s committee meetings in your own calendar app.';
+    renderStatus();
+
+    if (state.county && state.connected && !state.connected[state.county]) {
+      list.appendChild(notConnected());
+    } else if (!rows.length) {
+      list.appendChild(el('p', 'empty', state.events.length
+        ? 'Nothing of this type is listed for these dates. Try another filter or show more weeks.'
+        : 'No events are loaded yet. The calendar fills in after its first nightly run.'));
+    }
+    var lastDay = '';
+    rows.forEach(function (e) {
+      var p = parts(e.start);
+      if (p.key !== lastDay) { list.appendChild(el('h3', 'day', dayLabel(p))); lastDay = p.key; }
+      list.appendChild(card(e));
+    });
+
+    var lastKey = state.events.length ? state.events[state.events.length - 1].start.slice(0, 10) : from;
+    $('more').hidden = to >= lastKey;
+    Array.prototype.forEach.call($('chips').children, function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.cat === state.cat));
+    });
+  }
+
+  function setup() {
+    CATEGORIES.forEach(function (c) {
+      var b = el('button', 'chip', c.label);
+      b.type = 'button';
+      b.dataset.cat = c.id;
+      b.addEventListener('click', function () { state.cat = c.id; render(); });
+      $('chips').appendChild(b);
+    });
+    $('more').addEventListener('click', function () { state.days += 14; render(); });
+    $('county').addEventListener('change', function () {
+      state.county = $('county').value; state.city = '';
+      savePlace({ county: state.county }); fillCities(); render();
+    });
+    $('city').addEventListener('change', function () {
+      state.city = $('city').value;
+      savePlace({ county: state.county, city: state.city }); render();
+    });
+  }
+
+  // Counties and cities come from the sources we read, so the lists only
+  // offer places that have meetings here.
+  function fillCounties() {
+    var counties = {};
+    state.sources.forEach(function (s) { if (s.county && s.county !== 'Statewide') counties[s.county] = true; });
+    var all = Object.keys(state.local.counties || {});
+    if (!all.length) all = Object.keys(counties);
+    var sel = $('county');
+    sel.textContent = '';
+    sel.appendChild(new Option('All of Idaho', ''));
+    all.sort().forEach(function (c) {
+      sel.appendChild(new Option(c + ' County' + (counties[c] ? '' : ' (links only)'), c, false, c === state.county));
+    });
+    if (all.indexOf(state.county) === -1) state.county = '';
+    sel.value = state.county;
+    state.connected = counties;
+    $('coverage').textContent = 'Meetings from ' + Object.keys(counties).length + ' of Idaho’s 44 counties so far, and links for the rest.';
+  }
+
+  // For a county whose calendar we can't read yet, point to its own page.
+  function notConnected() {
+    var c = state.county, info = (state.local.counties || {})[c] || {};
+    var box = el('div', 'card notice-card');
+    box.appendChild(el('h3', null, 'We can’t read ' + c + ' County’s meeting calendar yet'));
+    box.appendChild(el('p', null, 'The county posts its commissioners’ meetings and agendas on its own website. Until we can add them here, that’s the place to check. Idaho law requires an agenda to be posted at least 48 hours before a regular meeting.'));
+    var href = safeUrl(info.meetings || info.site);
+    if (href) {
+      var a = el('a', 'link', c + ' County meetings and agendas');
+      a.href = href; a.rel = 'noopener';
+      box.appendChild(a);
+    }
+    return box;
+  }
+  function fillCities() {
+    var cities = {};
+    state.events.forEach(function (e) { if (e.county === state.county && e.area !== 'countywide') cities[e.area] = true; });
+    var sel = $('city');
+    sel.textContent = '';
+    sel.appendChild(new Option(state.county ? 'Anywhere in ' + state.county + ' County' : 'Choose a county first', ''));
+    Object.keys(cities).sort().forEach(function (c) { sel.appendChild(new Option(c, c, false, c === state.city)); });
+    if (!cities[state.city]) state.city = '';
+    sel.value = state.city;
+    sel.disabled = !state.county;
+  }
+
+  function renderStatus() {
+    var status = state.status;
+    if (!status) return;
+    var when = new Date(status.generated);
+    if (!isNaN(when)) $('updated').textContent = 'Last refreshed ' + when.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Boise' }) + '.';
+  }
+
+  var place = loadPlace();
+  var wanted = (location.search.match(/[?&]cat=([a-z]+)/) || [])[1];
+  if (wanted && CATEGORIES.some(function (c) { return c.id === wanted; })) state.cat = wanted;
+  state.county = place.county || '';
+  state.city = place.city || '';
+  setup();
+  Promise.all([
+    fetch('data/events.json').then(function (r) { return r.json(); }),
+    fetch('data/status.json').then(function (r) { return r.json(); }).catch(function () { return { sources: [] }; }),
+    fetch('data/local.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ]).then(function (res) {
+    state.local = res[2] || {};
+    state.events = res[0].events || [];
+    state.status = res[1];
+    state.sources = res[1].sources || [];
+    fillCounties();
+    fillCities();
+    render();
+  }).catch(function () {
+    $('list').textContent = '';
+    $('list').appendChild(el('p', 'empty', 'The calendar could not be loaded. Please try again later.'));
+  });
+})();

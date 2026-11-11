@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community Calendar | CivicsID</title>
+<meta name="description" content="City councils, county commissioners, public hearings and the Idaho Legislature, in one calendar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#events">Skip to events</a>
+<div class="notice">A project of BarNone, a nonprofit. Not affiliated with any government agency.</div>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Civics<span>ID</span></a>
+  <nav aria-label="Main">
+    <a href="index.html" aria-current="page">Community Calendar</a>
+    <a href="engage.html">Engage</a>
+    <a href="reps.html">My representatives</a>
+  </nav>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow light">Community Calendar</p>
+  <h1>Find out what your community is deciding this week.</h1>
+  <p class="lede">City councils, county commissioners, public hearings and the Legislature, from across Idaho, in one calendar. Pick where you live and we'll show you what's near you.</p>
+  <form class="search" id="search" onsubmit="return false">
+    <div class="field">
+      <label for="county">County</label>
+      <select id="county"><option value="">All of Idaho</option></select>
+    </div>
+    <div class="field">
+      <label for="city">City</label>
+      <select id="city" disabled><option value="">Choose a county first</option></select>
+    </div>
+  </form>
+  <p class="small"><span id="coverage">Covering more of Idaho every month.</span> No account needed, and your choice stays in your browser.</p>
+</div></section>
+
+<div class="wrap layout">
+  <main class="main" id="events">
+    <div class="heading">
+      <h2 id="heading">Coming up across Idaho</h2>
+      <span id="range"></span>
+    </div>
+    <p class="muted" id="place-msg" role="status" hidden></p>
+    <div class="chips" role="group" aria-label="Filter by type" id="chips"></div>
+    <div class="list" id="list" aria-live="polite"><p class="empty">Loading events…</p></div>
+    <button class="more" id="more" type="button" hidden>Show two more weeks</button>
+  </main>
+
+  <aside class="side">
+    <div class="card">
+      <h2>Get it on your phone</h2>
+      <p id="subscribe-text">Subscribe once and these meetings show up in the calendar app you already use.</p>
+      <a class="link" id="subscribe" href="data/ics/statewide.ics">Subscribe to Idaho Legislature committee meetings</a>
+    </div>
+    <div class="card">
+      <h2>Two time zones</h2>
+      <p>Each meeting is listed in its own local time: Mountain for most of Idaho, Pacific for the Panhandle and the north-central counties.</p>
+    </div>
+    <div class="card warm">
+      <span class="eyebrow">Engage</span>
+      <h2>First time at a public meeting?</h2>
+      <p>What Idaho law lets you do, what to say in two minutes, and what happens after you speak.</p>
+      <a class="link" href="guides/speak-at-a-public-meeting.html">Read the guide</a>
+    </div>
+  </aside>
+</div>
+
+<footer><div class="wrap">
+  <p>Listings come straight from public agency calendars and are refreshed every night. <span id="updated"></span> Schedules change, so confirm with the host before you go.</p>
+  <p class="by-barnone"><a href="https://barnoneinc.org"><img src="barnone-phoenix.png" alt="" width="28" height="28"><span>A service of <strong>BarNone, Inc.</strong></span></a> An independent nonprofit. CivicsID is not a government website, is not affiliated with any government agency, and does not speak for any public office.</p>
+</div></footer>
+
+<script src="app.js"></script>
+</body>
+</html>

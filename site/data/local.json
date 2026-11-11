@@ -1,0 +1,266 @@
+{
+ "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page.",
+ "counties": {
+  "Ada": {
+   "site": "https://adacounty.id.gov/",
+   "commissioners": "https://adacounty.id.gov/commissioners/",
+   "meetings": "https://apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas",
+   "boards": "https://adacounty.id.gov/commissioners/volunteer-board-information-applications/"
+  },
+  "Adams": {
+   "site": "https://www.co.adams.id.us/",
+   "commissioners": "https://www.co.adams.id.us/county-commissioners",
+   "meetings": "https://www.co.adams.id.us/public-meetings"
+  },
+  "Bannock": {
+   "site": "https://www.bannockcounty.gov/",
+   "commissioners": "https://www.bannockcounty.gov/commissioners/",
+   "meetings": "https://www.bannockcounty.gov/meetings/",
+   "boards": "https://www.bannockcounty.gov/commissioners/#advisoryboards"
+  },
+  "Bear Lake": {
+   "site": "https://www.bearlakecounty.info/",
+   "commissioners": "https://www.bearlakecounty.info/commissioners.html",
+   "meetings": "https://www.bearlakecounty.info/meetings.html"
+  },
+  "Benewah": {
+   "site": ""
+  },
+  "Bingham": {
+   "site": "https://www.co.bingham.id.us/"
+  },
+  "Blaine": {
+   "site": "https://www.co.blaine.id.us/"
+  },
+  "Boise": {
+   "site": "https://www.boisecounty.us/"
+  },
+  "Bonner": {
+   "site": "https://www.bonnercountyid.gov/"
+  },
+  "Bonneville": {
+   "site": "https://www.bonnevillecountyidaho.gov/",
+   "meetings": "https://www.bonnevillecountyidaho.gov/calendar"
+  },
+  "Boundary": {
+   "site": "https://www.boundarycountyid.org/"
+  },
+  "Butte": {
+   "site": "https://buttecountyid.us/",
+   "commissioners": "https://buttecountyid.us/officials/butte-county-commissioners/",
+   "meetings": "https://buttecountyid.us/butte-county-public-meetings/"
+  },
+  "Camas": {
+   "site": "https://camascounty.id.gov/",
+   "commissioners": "https://camascounty.id.gov/commissioners/",
+   "meetings": "https://camascounty.id.gov/category/commissioner-agenda/"
+  },
+  "Canyon": {
+   "site": "https://www.canyoncounty.id.gov/",
+   "commissioners": "https://www.canyoncounty.id.gov/elected-officials/commissioners/",
+   "meetings": "https://agenda.canyoncounty.id.gov/Search"
+  },
+  "Caribou": {
+   "site": "https://www.cariboucounty.us/",
+   "commissioners": "https://www.cariboucounty.us/government/county_commissioners/index.php",
+   "meetings": "https://www.cariboucounty.us/government/public_meeting.php"
+  },
+  "Cassia": {
+   "site": "https://www.cassia.gov/",
+   "commissioners": "https://www.cassia.gov/clerk-of-the-board-of-county-commissioners",
+   "meetings": "https://www.cassia.gov/meetings"
+  },
+  "Clark": {
+   "site": "https://www.clark-co.id.gov/",
+   "meetings": "https://www.clark-co.id.gov/agendacenter"
+  },
+  "Clearwater": {
+   "site": "https://www.clearwatercounty.org/",
+   "commissioners": "https://www.clearwatercounty.org/departments/commissioners/index.php",
+   "meetings": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
+   "boards": "https://www.clearwatercounty.org/i_want_to/volunteer/index.php"
+  },
+  "Custer": {
+   "site": "https://www.co.custer.id.us/"
+  },
+  "Elmore": {
+   "site": "https://elmorecounty.org/",
+   "commissioners": "https://elmorecounty.org/commissioners/",
+   "meetings": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/"
+  },
+  "Franklin": {
+   "site": "https://www.franklincountyidaho.org/",
+   "commissioners": "https://www.franklincountyidaho.org/government/county_commissioners.php",
+   "meetings": "https://www.franklincountyidaho.org/government/agendas_minutes.php"
+  },
+  "Fremont": {
+   "site": "https://www.co.fremont.id.us/"
+  },
+  "Gem": {
+   "site": "https://www.gemcounty.org/",
+   "commissioners": "https://www.gemcounty.org/government/county_commissioners/index.php",
+   "meetings": "https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
+   "boards": "https://www.gemcounty.org/government/county_commissioners/county_boards/index.php"
+  },
+  "Gooding": {
+   "site": "https://www.goodingcounty.org/",
+   "meetings": "https://www.goodingcounty.org/agendacenter"
+  },
+  "Idaho": {
+   "site": "https://idahocounty.org/",
+   "commissioners": "https://idahocounty.org/planb/commissioners/",
+   "meetings": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
+   "boards": "https://idahocounty.org/planb/commissioners/idaho-county-commissioners-advisory-boards/"
+  },
+  "Jefferson": {
+   "site": "https://www.co.jefferson.id.us/"
+  },
+  "Jerome": {
+   "site": "https://www.jeromecountyid.us/",
+   "meetings": "https://www.jeromecountyid.us/agendacenter"
+  },
+  "Kootenai": {
+   "site": "https://www.kcgov.us/",
+   "commissioners": "https://www.kcgov.us/487/Board-of-County-Commissioners",
+   "meetings": "https://www.kcgov.us/AgendaCenter"
+  },
+  "Latah": {
+   "site": "https://latahcountyid.gov/",
+   "commissioners": "https://latahcountyid.gov/commissioners/",
+   "boards": "https://latahcountyid.gov/commissions/"
+  },
+  "Lemhi": {
+   "site": "https://www.lemhicountyidaho.org/",
+   "meetings": "https://www.lemhicountyidaho.org/AgendaCenter"
+  },
+  "Lewis": {
+   "site": "https://www.lewiscountyid.us/"
+  },
+  "Lincoln": {
+   "site": "https://www.lincolncountyid.us/"
+  },
+  "Madison": {
+   "site": "https://www.madisoncountyid.gov/"
+  },
+  "Minidoka": {
+   "site": "https://www.minidoka.id.us/",
+   "meetings": "https://www.minidoka.id.us/AgendaCenter"
+  },
+  "Nez Perce": {
+   "site": "https://www.co.nezperce.id.us/"
+  },
+  "Oneida": {
+   "site": "https://oneidacountyid.com/"
+  },
+  "Owyhee": {
+   "site": "https://owyheecounty.net/",
+   "commissioners": "https://owyheecounty.net/commissioners/"
+  },
+  "Payette": {
+   "site": "https://www.payettecounty.org/",
+   "commissioners": "https://www.payettecounty.org/elected-officials/commissioners",
+   "meetings": "https://www.payettecounty.org/elected-officials/commissioners/agenda",
+   "boards": "https://www.payettecounty.org/other-resources/advisory-board"
+  },
+  "Power": {
+   "site": "https://www.powercounty.gov/"
+  },
+  "Shoshone": {
+   "site": "https://shoshonecounty.id.gov/",
+   "commissioners": "https://shoshonecounty.id.gov/commissioners/",
+   "meetings": "https://shoshonecounty.id.gov/commissioners/"
+  },
+  "Teton": {
+   "site": "https://www.tetoncountyidaho.gov/",
+   "commissioners": "https://www.tetoncountyidaho.gov/government/elected_officials/county_commissioners/index.php",
+   "meetings": "https://pub-tetoncounty.escribemeetings.com/",
+   "boards": "https://www.tetoncountyidaho.gov/government/boards/index.php"
+  },
+  "Twin Falls": {
+   "site": "https://twinfallscounty.org/",
+   "commissioners": "https://twinfallscounty.org/commissioners/",
+   "meetings": "https://twinfallscounty.org/commissioners/agenda/",
+   "boards": "https://twinfallscounty.org/hr/advisory-board/"
+  },
+  "Valley": {
+   "site": "https://www.valleycountyid.gov/",
+   "meetings": "https://www.valleycountyid.gov/calendar/72/"
+  },
+  "Washington": {
+   "site": "https://www.co.washington.id.us/",
+   "commissioners": "https://www.co.washington.id.us/183",
+   "meetings": "https://www.co.washington.id.us/calendar.aspx?CID=14"
+  }
+ },
+ "cities": {
+  "Boise": {
+   "county": "Ada",
+   "site": "https://www.cityofboise.org/",
+   "meetings": "https://www.cityofboise.org/departments/city-clerk/public-meetings/"
+  },
+  "Caldwell": {
+   "county": "Canyon",
+   "site": "https://www.cityofcaldwell.org/",
+   "meetings": "https://caldwellid.portal.civicclerk.com/"
+  },
+  "Coeur d'Alene": {
+   "county": "Kootenai",
+   "site": "https://www.cdaid.org/",
+   "meetings": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/"
+  },
+  "Eagle": {
+   "county": "Ada",
+   "site": "https://www.cityofeagle.org/"
+  },
+  "Idaho Falls": {
+   "county": "Bonneville",
+   "site": "https://www.idahofallsidaho.gov/",
+   "meetings": "https://www.idahofallsidaho.gov/calendar.aspx"
+  },
+  "Kuna": {
+   "county": "Ada",
+   "site": "https://www.kunacity.id.gov/",
+   "meetings": "https://www.kunacity.id.gov/calendar.aspx"
+  },
+  "Lewiston": {
+   "county": "Nez Perce",
+   "site": "",
+   "meetings": "https://lewistonid.portal.civicclerk.com/"
+  },
+  "McCall": {
+   "county": "Valley",
+   "site": "https://www.mccall.id.us/",
+   "meetings": "https://www.mccall.id.us/calendar.aspx"
+  },
+  "Meridian": {
+   "county": "Ada",
+   "site": "https://meridiancity.org/",
+   "meetings": "https://meridianid.portal.civicclerk.com/"
+  },
+  "Moscow": {
+   "county": "Latah",
+   "site": "",
+   "meetings": "https://moscowid.portal.civicclerk.com/"
+  },
+  "Pocatello": {
+   "county": "Bannock",
+   "site": "https://www.pocatello.gov/",
+   "meetings": "https://www.pocatello.gov/calendar.aspx"
+  },
+  "Post Falls": {
+   "county": "Kootenai",
+   "site": "https://www.postfalls.gov/",
+   "meetings": "https://www.postfalls.gov/calendar.aspx"
+  },
+  "Star": {
+   "county": "Ada",
+   "site": "https://www.staridaho.org/",
+   "meetings": "https://www.staridaho.org/calendar.aspx"
+  },
+  "Twin Falls": {
+   "county": "Twin Falls",
+   "site": "https://www.tfid.org/",
+   "meetings": "https://twinfallsid.portal.civicclerk.com/"
+  }
+ }
+}

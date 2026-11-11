@@ -1,0 +1,34 @@
+{
+ "generated": "",
+ "legislators": {},
+ "congress": {
+  "senators": [
+   {
+    "name": "James E. Risch",
+    "party": "Republican",
+    "phone": "202-224-2752",
+    "url": "https://www.risch.senate.gov"
+   },
+   {
+    "name": "Mike Crapo",
+    "party": "Republican",
+    "phone": "202-224-6142",
+    "url": "https://www.crapo.senate.gov"
+   }
+  ],
+  "house": {
+   "2": {
+    "name": "Michael K. Simpson",
+    "party": "Republican",
+    "phone": "202-225-5531",
+    "url": "https://simpson.house.gov"
+   },
+   "1": {
+    "name": "Russ Fulcher",
+    "party": "Republican",
+    "phone": "202-225-6611",
+    "url": "https://fulcher.house.gov"
+   }
+  }
+ }
+}
