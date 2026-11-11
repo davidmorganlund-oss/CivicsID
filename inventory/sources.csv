@@ -24,7 +24,7 @@ County,Ada County,Ada,City of Boise (IQM2 feed); City of Meridian (CivicClerk); 
 County,Adams County,Adams,Adams County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
 County,Bannock County,Bannock,City of Pocatello (CivicPlus calendar); Bannock County (WordPress events feed),site/data/local.json,Live on CivicsID,Live feed
 County,Bear Lake County,Bear Lake,Bear Lake County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
-County,Benewah County,Benewah,Benewah County (calendar feed),site/data/local.json,Live on CivicsID,"Live feed: Agendas post a few days ahead, so the calendar is often quiet"
+County,Benewah County,Benewah,Benewah County (calendar feed),site/data/local.json,Live on CivicsID,"Live feed: connected, but the county calendar lists no upcoming meetings right now"
 County,Bingham County,Bingham,Bingham County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
 County,Blaine County,Blaine,City of Ketchum (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed: County site turns away automated readers; covered through Ketchum
 County,Boise County,Boise,Boise County (published schedule),site/data/local.json,Live on CivicsID,Published schedule

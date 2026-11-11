@@ -68,7 +68,7 @@ meetings page instead, from `site/data/local.json`.
 | Adams | Published schedule | Adams County (published schedule) |  |
 | Bannock | Live feed | City of Pocatello (CivicPlus calendar); Bannock County (WordPress events feed) |  |
 | Bear Lake | Published schedule | Bear Lake County (published schedule) |  |
-| Benewah | Live feed | Benewah County (calendar feed) | Agendas post a few days ahead, so the calendar is often quiet |
+| Benewah | Live feed | Benewah County (calendar feed) | Connected, but the county calendar lists no upcoming meetings right now |
 | Bingham | Published schedule | Bingham County (published schedule) |  |
 | Blaine | Live feed | City of Ketchum (CivicPlus calendar) | County site turns away automated readers; covered through Ketchum |
 | Boise | Published schedule | Boise County (published schedule) |  |
