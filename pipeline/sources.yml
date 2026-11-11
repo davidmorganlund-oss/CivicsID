@@ -632,7 +632,6 @@ sources:
     type: ics
     url: https://benewahcountyid.gov/?feed=my-calendar-ics
     drop_uncategorized: true
-    default_category: council
     county: Benewah
     area: countywide
     timezone: America/Los_Angeles
