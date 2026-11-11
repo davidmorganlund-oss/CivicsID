@@ -30,7 +30,7 @@
    "site": "https://www.co.bingham.id.us/"
   },
   "Blaine": {
-   "site": "https://www.co.blaine.id.us/"
+   "site": "https://www.blainecountyid.gov/"
   },
   "Boise": {
    "site": "https://www.boisecounty.us/"
@@ -137,7 +137,8 @@
    "site": "https://www.lewiscountyid.us/"
   },
   "Lincoln": {
-   "site": "https://www.lincolncountyid.us/"
+   "site": "https://www.lincolncountyid.gov/",
+   "meetings": "https://www.lincolncountyid.gov/meetings"
   },
   "Madison": {
    "site": "https://www.madisoncountyid.gov/"

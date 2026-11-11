@@ -1,35 +1,72 @@
 Type,Jurisdiction,County,Meeting platform,Where we found it,Can CivicsID read it?,Notes
 State,Idaho Legislature,Statewide,WordPress calendar feed,legislature.idaho.gov/feeds/my-calendar-ics/,Live on CivicsID,Events carry a link but no room
 City,Boise,Ada,IQM2 (moving to a new portal),boisecityid.iqm2.com,Live on CivicsID,Agenda feed reaches about a week ahead; City Council moves to the new portal Jan. 12 2027 and the source must be replaced
-City,Meridian,Ada,CivicClerk,meridianid.portal.civicclerk.com,Live on CivicsID,
-City,Nampa,Canyon,Unknown,cityofnampa.us,Not yet,City calendar page looked out of date; agenda system not found
 City,Caldwell,Canyon,CivicClerk,caldwellid.portal.civicclerk.com,Live on CivicsID,
-City,Idaho Falls,Bonneville,CivicPlus,idahofallsidaho.gov/iCalendar.aspx,Live on CivicsID,Ten categories
-City,Pocatello,Bannock,CivicPlus,pocatello.gov/iCalendar.aspx,Live on CivicsID,Main Calendar filtered to meetings
 City,Coeur d'Alene,Kootenai,Own website,cdaid.org/government/mayor-and-council/council-meeting-schedule/,Live on CivicsID,Council only (first and third Tuesdays 6 p.m.); agenda packets are PDFs so there are no agenda highlights; commissions not added
-City,Hayden,Kootenai,BoardBook,meetings.boardbook.org/Public/Organization/2366,Live on CivicsID,Reaches as far ahead as posted agendas; agenda highlights work
-City,Rathdrum,Kootenai,Municipal One,rathdrum.gov,Live on CivicsID (by hand),Site refuses automated readers; council and commission dates typed in from the city's pages
 City,Dalton Gardens,Kootenai,GovOffice,daltongardens.com,Live on CivicsID (by hand),No feed and robots.txt disallows the calendar's data address; council and board dates typed in from the city calendar
-City,Twin Falls,Twin Falls,CivicClerk,twinfallsid.portal.civicclerk.com,Live on CivicsID,City site also has a CivicPlus calendar (category 21)
-City,Post Falls,Kootenai,CivicPlus,postfalls.gov/iCalendar.aspx,Live on CivicsID,Category 24
-City,Lewiston,Nez Perce,CivicClerk,lewistonid.portal.civicclerk.com,Live on CivicsID,
-City,Moscow,Latah,CivicClerk,moscowid.portal.civicclerk.com,Live on CivicsID,
-City,Kuna,Ada,CivicPlus,kunacity.id.gov/iCalendar.aspx,Live on CivicsID,Category 14
-City,Star,Ada,CivicPlus,staridaho.org/iCalendar.aspx,Live on CivicsID,Category 22
 City,Eagle,Ada,CivicPlus,cityofeagle.org/iCalendar.aspx,Not yet,Only an events and closures calendar is published as a feed
+City,Hayden,Kootenai,BoardBook,meetings.boardbook.org/Public/Organization/2366,Live on CivicsID,Reaches as far ahead as posted agendas; agenda highlights work
+City,Idaho Falls,Bonneville,CivicPlus,idahofallsidaho.gov/iCalendar.aspx,Live on CivicsID,Ten categories
+City,Kuna,Ada,CivicPlus,kunacity.id.gov/iCalendar.aspx,Live on CivicsID,Category 14
+City,Lewiston,Nez Perce,CivicClerk,lewistonid.portal.civicclerk.com,Live on CivicsID,
 City,McCall,Valley,CivicPlus,mccall.id.us/iCalendar.aspx,Live on CivicsID,Categories 23 and 27
+City,Meridian,Ada,CivicClerk,meridianid.portal.civicclerk.com,Live on CivicsID,
+City,Moscow,Latah,CivicClerk,moscowid.portal.civicclerk.com,Live on CivicsID,
+City,Nampa,Canyon,Unknown,cityofnampa.us,Not yet,City calendar page looked out of date; agenda system not found
+City,Pocatello,Bannock,CivicPlus,pocatello.gov/iCalendar.aspx,Live on CivicsID,Main Calendar filtered to meetings
+City,Post Falls,Kootenai,CivicPlus,postfalls.gov/iCalendar.aspx,Live on CivicsID,Category 24
+City,Rathdrum,Kootenai,Municipal One,rathdrum.gov,Live on CivicsID (by hand),Site refuses automated readers; council and commission dates typed in from the city's pages
 City,Rexburg,Madison,Unknown,,Not yet,Site did not answer an automated reader
 City,Sandpoint,Bonner,Unknown,,Not yet,Site did not answer an automated reader
-District,Ada County Highway District,Ada,Own website,achdidaho.org/about-achd/commission/commission-meetings,Live on CivicsID,Entered from the published regular schedule
-County,Ada,Ada,Own file browser,apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas,Links only,Commissioners meet most weekdays; no feed
-County,Canyon,Canyon,Own agenda system,agenda.canyoncounty.id.gov,Links only,No feed; has a CSV download worth a look
-County,Kootenai,Kootenai,CivicPlus,kcgov.us/iCalendar.aspx,Live on CivicsID,Category 22
-County,Teton,Teton,eScribe,pub-tetoncounty.escribemeetings.com,Links only,eScribe has a calendar feed; needs a connector
-County,Cassia,Cassia,Own website,cassia.gov/meetings,Links only,
-County,Clark; Gooding; Jerome; Lemhi; Minidoka; Washington,,CivicPlus,AgendaCenter or calendar.aspx on each site,Links only,Likely readable with the civicplus connector once category numbers are looked up
-County,All others,,Various,site/data/local.json,Links only,See local.json for each county's website and meetings page
+City,Star,Ada,CivicPlus,staridaho.org/iCalendar.aspx,Live on CivicsID,Category 22
+City,Twin Falls,Twin Falls,CivicClerk,twinfallsid.portal.civicclerk.com,Live on CivicsID,City site also has a CivicPlus calendar (category 21)
+County,Ada County,Ada,City of Boise (IQM2 feed); City of Meridian (CivicClerk); City of Kuna (CivicPlus calendar); City of Star (CivicPlus calendar); Ada County Highway District (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Adams County,Adams,Adams County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Bannock County,Bannock,City of Pocatello (CivicPlus calendar); Bannock County (WordPress events feed),site/data/local.json,Live on CivicsID,Live feed
+County,Bear Lake County,Bear Lake,Bear Lake County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Benewah County,Benewah,Benewah County (calendar feed),site/data/local.json,Live on CivicsID,"Live feed: Agendas post a few days ahead, so the calendar is often quiet"
+County,Bingham County,Bingham,Bingham County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Blaine County,Blaine,City of Ketchum (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed: County site turns away automated readers; covered through Ketchum
+County,Boise County,Boise,Boise County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Bonner County,Bonner,East Bonner County Library District (events feed); Bonner County (meeting calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Bonneville County,Bonneville,City of Idaho Falls (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Boundary County,Boundary,Boundary County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Butte County,Butte,Butte County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Camas County,Camas,Camas County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Canyon County,Canyon,City of Caldwell (CivicClerk); Canyon County (county agenda system),site/data/local.json,Live on CivicsID,Live feed
+County,Caribou County,Caribou,Caribou County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Cassia County,Cassia,Cassia County (meeting calendar); Cassia County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Clark County,Clark,Clark County (CivicPlus Agenda Center),site/data/local.json,Live on CivicsID,"Live feed: Agendas post a few days ahead, so the calendar is often quiet"
+County,Clearwater County,Clearwater,Clearwater County (Revize calendar); Clearwater County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Custer County,Custer,Custer County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Elmore County,Elmore,Elmore County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Franklin County,Franklin,Franklin County (Revize calendar); Franklin County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Fremont County,Fremont,Fremont County (published schedule),site/data/local.json,Live on CivicsID,Published schedule: County site turns away automated readers; posted dates entered by hand
+County,Gem County,Gem,Own website,site/data/local.json,Links only,County calendar is out of date and no regular schedule is published; Emmett's meeting page lists no dates
+County,Gooding County,Gooding,Gooding County (CivicPlus Agenda Center); Gooding County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Idaho County,Idaho,Idaho County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Jefferson County,Jefferson,Jefferson County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Jerome County,Jerome,Jerome County (CivicPlus Agenda Center),site/data/local.json,Live on CivicsID,"Live feed: Agendas post a few days ahead, so the calendar is often quiet"
+County,Kootenai County,Kootenai,Kootenai County (CivicPlus calendar); City of Coeur d'Alene (published schedule); City of Coeur d'Alene (LibCal); Coeur d'Alene Public Library (LibCal); Community Library Network (LibCal); City of Hayden (BoardBook); City of Rathdrum (published schedule); City of Dalton Gardens (published schedule); City of Post Falls (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Latah County,Latah,Latah County Library District (events feed); City of Moscow (CivicClerk),site/data/local.json,Live on CivicsID,Live feed
+County,Lemhi County,Lemhi,Lemhi County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Lewis County,Lewis,Own website,site/data/local.json,Links only,"County website's security certificate fails, so it can't be read safely; no published schedule found"
+County,Lincoln County,Lincoln,Own website,site/data/local.json,Links only,County meetings page turns away automated readers; linked from the county card
+County,Madison County,Madison,Madison County (Revize calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Minidoka County,Minidoka,Minidoka County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Nez Perce County,Nez Perce,City of Lewiston (CivicClerk); Nez Perce County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Oneida County,Oneida,Malad City (published schedule),site/data/local.json,Live on CivicsID,Published schedule: County site behind a bot challenge; covered through Malad City's council
+County,Owyhee County,Owyhee,Owyhee County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Payette County,Payette,Payette County (events feed),site/data/local.json,Live on CivicsID,Live feed
+County,Power County,Power,Power County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Shoshone County,Shoshone,Shoshone County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
+County,Teton County,Teton,Teton County (Revize calendar); Teton County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
+County,Twin Falls County,Twin Falls,City of Twin Falls (CivicClerk),site/data/local.json,Live on CivicsID,Live feed
+County,Valley County,Valley,City of McCall (CivicPlus calendar); Valley County (meeting calendar),site/data/local.json,Live on CivicsID,Live feed
+County,Washington County,Washington,Washington County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
+Library,Boundary County; West Bonner; Benewah; Shoshone; Clearwater; Prairie River; Lewiston,,Unknown,,Not yet,Not looked up yet
 Library,Coeur d'Alene Public Library,Kootenai,LibCal,cdalibrary.libcal.com,Live on CivicsID,Civic programs only; its City Meetings calendar also feeds Coeur d'Alene city boards
 Library,Community Library Network,Kootenai and Shoshone,LibCal,communitylibrary.libcal.com,Live on CivicsID,Athol Harrison Hayden Pinehurst Post Falls Rathdrum Spirit Lake; civic programs only
 Library,East Bonner County Library District,Bonner,Modern Events Calendar feed,ebonnerlibrary.org/events/feed/,Live on CivicsID,Civic programs only
 Library,Latah County Library District,Latah,Modern Events Calendar feed,latahlibrary.org/events/feed/,Live on CivicsID,Civic programs only
-Library,Boundary County; West Bonner; Benewah; Shoshone; Clearwater; Prairie River; Lewiston,,Unknown,,Not yet,Not looked up yet
+District,Ada County Highway District,Ada,Own website,achdidaho.org/about-achd/commission/commission-meetings,Live on CivicsID,Entered from the published regular schedule

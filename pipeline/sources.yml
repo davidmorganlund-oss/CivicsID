@@ -848,3 +848,20 @@ sources:
         location: Courtroom No. 2, Owyhee County Courthouse, Murphy
         category: council
         url: https://owyheecounty.net/commissioners/meetings/
+
+  # Oneida County's own site sits behind a bot challenge; Malad City (the
+  # county seat) publishes its council's regular schedule.
+  - id: malad-city
+    name: Malad City
+    type: schedule
+    county: Oneida
+    area: Malad City
+    homepage: https://maladidaho.org/city-council-calendar/
+    meetings:
+      - title: City Council
+        when: 2nd Wednesday
+        time: "18:00"
+        location: Malad City Hall (in person or by Zoom)
+        category: council
+        url: https://maladidaho.org/city-council-calendar/
+        agenda_page: https://maladidaho.org/minutes-agendas/
