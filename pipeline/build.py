@@ -60,7 +60,7 @@ def make_event(src, *, title, start, end=None, all_day=False, location="", url="
     # Hosts often prefix the title ("Canceled: Board Work Session"); the site
     # shows its own Cancelled tag, so drop the prefix.
     title = re.sub(r"^[\s*]*cancel+ed[\s*]*(?:[:\-–]\s*|\s+(?=\S))", "", title or "", flags=re.I)
-    title = re.sub(r"\s*[-–:(]\s*cancel+ed\s*\)?\s*$", "", title, flags=re.I)
+    title = re.sub(r"\s*(?:[-–:(]|\|+)\s*cancel+ed\s*\)?\s*$", "", title, flags=re.I)
     # Some calendars put HTML or stray separators in the location field.
     location = re.sub(r"<[^>]+>", " ", location or "")
     location = re.sub(r"^[\s\-–,]+|[\s\-–,]+$", "", " ".join(location.split()))
@@ -676,14 +676,19 @@ IQM2_TITLE = re.compile(
 def normalize_iqm2_rss(src, xml_text, tz):
     import html as htmllib
     found = {}
-    for item in rss_items(xml_text):
-        f = fields(item)
-        m = IQM2_TITLE.match(htmllib.unescape(f.get("title", "")).strip())
+    # The feed is not always well-formed XML (bare "&" in titles), so read the
+    # items with a pattern instead of an XML parser.
+    def tag(block, name):
+        m = re.search(rf"<{name}>\s*(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?\s*</{name}>", block, re.S)
+        return htmllib.unescape(m.group(1)).strip() if m else ""
+
+    for block in re.findall(r"<item\b.*?</item>", xml_text, re.S):
+        m = IQM2_TITLE.match(tag(block, "title"))
         if not m:
             continue
         day = datetime.strptime(m.group("day"), "%b %d, %Y").date()
         start = datetime.combine(day, parse_clock(m.group("clock")), tz)
-        link = (f.get("link", "") or "").strip()
+        link = tag(block, "link")
         e = make_event(src, title=m.group("body"), start=start, url=link, uid=link or m.group("body"))
         # An agenda and its minutes are two items for one meeting; keep one.
         found.setdefault(e["id"], e)

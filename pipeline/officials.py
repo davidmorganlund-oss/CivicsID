@@ -41,13 +41,11 @@ def parse_legislators(csv_text: str) -> dict:
         name = (row.get("name") or "").strip()
         if not m or not chamber or not name:
             continue
-        link = (row.get("links") or "").split(";")[0].strip()
         entry = {
             "name": name,
             "party": PARTY.get(row.get("current_party", ""), row.get("current_party", "")),
             "phone": (row.get("capitol_voice") or row.get("district_voice") or "").strip(),
             "email": (row.get("email") or "").strip(),
-            "url": link if link.startswith("https://") else "",
         }
         if chamber == "house" and m.group(2):
             entry["seat"] = m.group(2).upper()

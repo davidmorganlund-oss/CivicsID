@@ -170,7 +170,7 @@ def test_officials_parsers():
     leg = officials.parse_legislators(text)
     assert list(leg) == ["16"]
     assert leg["16"]["senate"][0] == {"name": "Sam Sample", "party": "Democrat", "phone": "208-555-0100",
-                                      "email": "sam@example.org", "url": "https://legislature.idaho.gov/s"}
+                                      "email": "sam@example.org"}
     assert [(m["seat"], m["name"]) for m in leg["16"]["house"]] == [("A", "Al Seat"), ("B", "Bea Seat")]
     assert leg["16"]["house"][1]["phone"] == "208-555-0102"
     rows = [{"name": {"official_full": "A Senator"}, "terms": [{"type": "sen", "state": "ID", "party": "Republican"}]},
@@ -239,7 +239,7 @@ def test_boise_agenda_feed():
       <link>https://BoiseCityID.IQM2.com/Citizens/Detail_Meeting.aspx?ID=5476</link></item>
     <item><title>City Council - Minutes - Nov 10, 2026 6:00 PM</title>
       <link>https://BoiseCityID.IQM2.com/Citizens/Detail_Meeting.aspx?ID=5476</link></item>
-    <item><title>Planning &amp; Zoning Commission - Agenda - Nov 9, 2026 12:00 PM</title>
+    <item><title>Planning & Zoning Commission - Agenda - Nov 9, 2026 12:00 PM</title>
       <link>https://BoiseCityID.IQM2.com/Citizens/Detail_Meeting.aspx?ID=5470</link></item>
     <item><title>Something else entirely</title><link>https://example.org</link></item>
     </channel></rss>"""
@@ -247,6 +247,8 @@ def test_boise_agenda_feed():
     assert council["title"] == "City Council" and council["start"] == "2026-11-10T18:00:00-07:00"
     assert council["url"].endswith("ID=5476") and council["category"] == "council"
     assert pz["title"] == "Planning & Zoning Commission" and pz["start"] == "2026-11-09T12:00:00-07:00"
+    kc = build.make_event(src, title="Planning & Zoning Commission ||CANCELLED", start=build.datetime(2026, 11, 19, 13, 30))
+    assert kc["title"] == "Planning & Zoning Commission" and kc["cancelled"]
 
 
 def test_legislature_calendar_and_time_zones():
