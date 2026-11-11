@@ -3,8 +3,16 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Kootenai County
 BEGIN:VEVENT
+UID:bda32e12a4f1@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART;VALUE=DATE:20261112
+SUMMARY:Books And Brews at the Athol Library! (Community Library Network)
+LOCATION:Athol Library\, Athol Library Main Space
+URL:https://communitylibrary.libcal.com/event/16826872
+END:VEVENT
+BEGIN:VEVENT
 UID:6a479bf65157@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261112T170000Z
 DTEND:20261112T174500Z
 SUMMARY:Board of County Canvassers - Elections (Kootenai County)
@@ -12,8 +20,17 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:d69641ba89f7@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261112T180000Z
+DTEND:20261112T200000Z
+SUMMARY:Tubbs Hill Foundation (City of Coeur d'Alene)
+LOCATION:Nelson Room (Room 202)
+URL:https://cdalibrary.libcal.com/event/14811414
+END:VEVENT
+BEGIN:VEVENT
 UID:e605a7d333ff@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261112T180000Z
 DTEND:20261112T200000Z
 SUMMARY:BOCC: Community Development AM (Kootenai County)
@@ -22,7 +39,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:767b6fd3774d@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261112T190000Z
 DTEND:20261112T200000Z
 SUMMARY:Historic Preservation Commission Meeting (City of Hayden)
@@ -31,7 +48,7 @@ URL:https://meetings.boardbook.org/Public/Agenda/2366?meeting=772713
 END:VEVENT
 BEGIN:VEVENT
 UID:a68c6c633d8a@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261112T213000Z
 DTEND:20261112T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
@@ -40,7 +57,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:9292b415b6ff@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261112T230000Z
 DTEND:20261113T000000Z
 SUMMARY:Arts Commission Meeting (City of Hayden)
@@ -49,7 +66,7 @@ URL:https://meetings.boardbook.org/Public/Agenda/2366?meeting=773366
 END:VEVENT
 BEGIN:VEVENT
 UID:e50158943976@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261113T020000Z
 DTEND:20261113T040000Z
 SUMMARY:CANCELLED: BOCC: Community Development - PM (Kootenai County)
@@ -57,8 +74,35 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:9a39047268ea@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261113T183000Z
+DTEND:20261113T203000Z
+SUMMARY:Sewing Basics with a Machine\, Part 2 (Community Library Network)
+LOCATION:Hayden Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/16509696
+END:VEVENT
+BEGIN:VEVENT
+UID:601233f208f9@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261116T203000Z
+DTEND:20261116T223000Z
+SUMMARY:Meet and Greet with Mayor/City Officials (City of Coeur d'Alene)
+LOCATION:Community Room (Room 116)
+URL:https://cdalibrary.libcal.com/event/17893384
+END:VEVENT
+BEGIN:VEVENT
+UID:637c0d4595a2@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261116T230000Z
+DTEND:20261117T050000Z
+SUMMARY:City Meetings-Preparation and Executive Sessions (City of Coeur d'Alene)
+LOCATION:Jameson Conference Room (Room 123)
+URL:https://cdalibrary.libcal.com/event/14060212
+END:VEVENT
+BEGIN:VEVENT
 UID:83b35980d580@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261117T180000Z
 DTEND:20261117T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -67,7 +111,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:7b2e9421a5bc@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261117T220000Z
 DTEND:20261117T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -76,7 +120,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:a5325c3d6fbd@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261118T010000Z
 DTEND:20261118T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
@@ -85,7 +129,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:2f70e8575528@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261118T010000Z
 DTEND:20261118T020000Z
 SUMMARY:North Idaho Fair Board Meeting (Kootenai County)
@@ -94,7 +138,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:ae95a0983d42@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261118T020000Z
 DTEND:20261118T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -103,7 +147,7 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:2ddee781c8d2@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261118T233000Z
 DTEND:20261119T010000Z
 SUMMARY:Historic Preservation Commission (Kootenai County)
@@ -112,7 +156,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:23faece1fabd@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261119T000000Z
 DTEND:20261119T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
@@ -121,7 +165,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:5461efd123ef@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261119T013000Z
 DTEND:20261119T023000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Rathdrum)
@@ -129,8 +173,16 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/66/planning-and-zoning-commission
 END:VEVENT
 BEGIN:VEVENT
+UID:f7181b6f0c8b@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Books And Brews at the Athol Library! (Community Library Network)
+LOCATION:Athol Library\, Athol Library Main Space
+URL:https://communitylibrary.libcal.com/event/16826873
+END:VEVENT
+BEGIN:VEVENT
 UID:8379e0b1454b@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261119T170000Z
 DTEND:20261119T180000Z
 SUMMARY:Post Falls Urban Renewal Agency Meeting (City of Post Falls)
@@ -139,7 +191,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:c2385f5e4b43@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261119T180000Z
 DTEND:20261119T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
@@ -147,8 +199,17 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:92478ac3342b@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261119T183000Z
+DTEND:20261119T200000Z
+SUMMARY:Zen Doodle (Community Library Network)
+LOCATION:Hayden Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/16335365
+END:VEVENT
+BEGIN:VEVENT
 UID:790fb00793ea@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261119T213000Z
 DTEND:20261119T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
@@ -156,8 +217,26 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:c6a9fd4fbcf9@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261119T220000Z
+DTEND:20261120T010000Z
+SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
+LOCATION:Post Falls Library\, Meeting Room 1\, Meeting Room 2
+URL:https://communitylibrary.libcal.com/event/17709652
+END:VEVENT
+BEGIN:VEVENT
+UID:2e27f669a880@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261119T220000Z
+DTEND:20261120T010000Z
+SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
+LOCATION:Post Falls Library
+URL:https://communitylibrary.libcal.com/event/17709659
+END:VEVENT
+BEGIN:VEVENT
 UID:eb8874d74554@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261120T020000Z
 DTEND:20261120T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai County)
@@ -165,8 +244,35 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:1521c77d0d5f@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261121T183000Z
+DTEND:20261121T183500Z
+SUMMARY:CANCELLED: — The Right Tools for the Job: AI vs Alternative Information Sources (Community Library Network)
+LOCATION:Hayden Library
+URL:https://communitylibrary.libcal.com/event/16514180
+END:VEVENT
+BEGIN:VEVENT
+UID:d5b31000aaed@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261121T203000Z
+DTEND:20261121T220000Z
+SUMMARY:Stitching Magic – Needle Art Club (Community Library Network)
+LOCATION:Athol Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/15846969
+END:VEVENT
+BEGIN:VEVENT
+UID:55cc5b360dd2@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261123T183000Z
+DTEND:20261123T200000Z
+SUMMARY:Origami Bookmarks & More (Community Library Network)
+LOCATION:Hayden Library\, Hayden Library Information Desk
+URL:https://communitylibrary.libcal.com/event/17890282
+END:VEVENT
+BEGIN:VEVENT
 UID:f3a698da5105@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261124T170000Z
 DTEND:20261125T075900Z
 SUMMARY:CANCELLED: BOCC: Airport (Kootenai County)
@@ -175,7 +281,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:b02c96218579@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261124T180000Z
 DTEND:20261124T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -184,7 +290,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:4d57b0f64ea1@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261124T220000Z
 DTEND:20261124T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -193,7 +299,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:06104bdd83a9@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261125T020000Z
 DTEND:20261125T040000Z
 SUMMARY:Parks\, Recreation & Urban Forestry Commission Meeting (City of Post Falls)
@@ -202,7 +308,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:cf34c405619d@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261125T020000Z
 DTEND:20261125T030000Z
 SUMMARY:Parks & Recreation Commission (City of Rathdrum)
@@ -210,8 +316,17 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/450/parks-and-recreation-commission
 END:VEVENT
 BEGIN:VEVENT
+UID:783ca608af03@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261125T193000Z
+DTEND:20261125T203000Z
+SUMMARY:Fiction Book Club (Community Library Network)
+LOCATION:Harrison Library
+URL:https://communitylibrary.libcal.com/event/16267089
+END:VEVENT
+BEGIN:VEVENT
 UID:e617dba8eb17@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261126T213000Z
 DTEND:20261126T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
@@ -219,8 +334,17 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:adf7c1d1647e@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261128T203000Z
+DTEND:20261128T233000Z
+SUMMARY:Tabletop Gaming: Adult Adventure Guild (Community Library Network)
+LOCATION:Post Falls Library\, Meeting Room 2
+URL:https://communitylibrary.libcal.com/event/17267302
+END:VEVENT
+BEGIN:VEVENT
 UID:2fe9f09561df@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -229,7 +353,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:bf7a23369e85@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261201T220000Z
 DTEND:20261201T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -237,8 +361,17 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:5b5551d6ad4b@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261201T230000Z
+DTEND:20261202T010000Z
+SUMMARY:Spirit Lake Chess Club @ Spirit Lake Community Center (Community Library Network)
+LOCATION:Spirit Lake Library\, Spirit Lake Community Center — 32564 4th Ave\, Spirit Lake\, ID 83869
+URL:https://communitylibrary.libcal.com/event/15855951
+END:VEVENT
+BEGIN:VEVENT
 UID:d43b33f0a8e5@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261202T010000Z
 DTEND:20261202T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
@@ -247,7 +380,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:98aef67189b0@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -256,7 +389,7 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:216d03d4451f@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261202T163000Z
 DTEND:20261202T183000Z
 SUMMARY:Snowmobile Advisory Board (Kootenai County)
@@ -265,7 +398,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:8263ca9ac160@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261203T000000Z
 DTEND:20261203T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
@@ -273,8 +406,16 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:b14def374282@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART;VALUE=DATE:20261203
+SUMMARY:Books And Brews at the Athol Library! (Community Library Network)
+LOCATION:Athol Library\, Athol Library Main Space
+URL:https://communitylibrary.libcal.com/event/16826875
+END:VEVENT
+BEGIN:VEVENT
 UID:dc92e867af09@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261203T180000Z
 DTEND:20261203T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
@@ -283,7 +424,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:f06516d6a42a@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261203T213000Z
 DTEND:20261203T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
@@ -292,7 +433,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:9a5c5765634e@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261204T020000Z
 DTEND:20261204T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai County)
@@ -300,8 +441,17 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:bcdb7a8cfd3a@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261207T200000Z
+DTEND:20261207T220000Z
+SUMMARY:General Services/Public Works (City of Coeur d'Alene)
+LOCATION:Community Room (Room 116)
+URL:https://cdalibrary.libcal.com/event/13648095
+END:VEVENT
+BEGIN:VEVENT
 UID:b8ff397ccc04@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261208T180000Z
 DTEND:20261208T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -309,8 +459,17 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:e6f715f1d180@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261208T183000Z
+DTEND:20261208T193000Z
+SUMMARY:Friends of the Library Meeting (Coeur d'Alene Public Library)
+LOCATION:Gozzer Conference Room (Room 132)
+URL:https://cdalibrary.libcal.com/event/16011085
+END:VEVENT
+BEGIN:VEVENT
 UID:9f640244b967@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261208T220000Z
 DTEND:20261208T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -318,8 +477,26 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:d37c3c44699b@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261209T000000Z
+DTEND:20261209T010000Z
+SUMMARY:TLC Chat Club (Ages 12-19) (Coeur d'Alene Public Library)
+LOCATION:Coeur d'Alene Public Library\, Teen Zone (Room 231)
+URL:https://cdalibrary.libcal.com/event/17907422
+END:VEVENT
+BEGIN:VEVENT
+UID:91f6d12636c4@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261209T010000Z
+DTEND:20261209T020000Z
+SUMMARY:Legacy Planning Workshop (18+) (Coeur d'Alene Public Library)
+LOCATION:Coeur d'Alene Public Library\, Gozzer Conference Room (Room 132)
+URL:https://cdalibrary.libcal.com/event/16066220
+END:VEVENT
+BEGIN:VEVENT
 UID:0ae85a2a825d@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:North Idaho Fair Advisory Board Meeting (Kootenai County)
@@ -328,7 +505,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:4aa60f68c59a@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261209T013000Z
 DTEND:20261209T040000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Post Falls)
@@ -337,7 +514,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:72ca1789140e@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261209T190000Z
 DTEND:20261209T191000Z
 SUMMARY:CANCELLED: BOCC: Requests for Cancellation of Taxes (Kootenai County)
@@ -346,7 +523,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:9b323721f58a@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261209T191000Z
 DTEND:20261209T194000Z
 SUMMARY:BOE: Board of Equalization (Kootenai County)
@@ -354,8 +531,26 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:eb1ad72293f5@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261209T193000Z
+DTEND:20261209T203000Z
+SUMMARY:Classic Book Club (Community Library Network)
+LOCATION:Harrison Library
+URL:https://communitylibrary.libcal.com/event/16267655
+END:VEVENT
+BEGIN:VEVENT
+UID:e7b8cd946c20@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261210T000000Z
+DTEND:20261210T010000Z
+SUMMARY:Library Board Meetings (Coeur d'Alene Public Library)
+LOCATION:Coeur d'Alene Public Library\, Nelson Room (Room 202)
+URL:https://cdalibrary.libcal.com/event/13684603
+END:VEVENT
+BEGIN:VEVENT
 UID:0a46991fe1be@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261210T010000Z
 DTEND:20261210T020000Z
 SUMMARY:Airport Advisory Board Meeting (Kootenai County)
@@ -364,7 +559,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:c62aea8ff682@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
 SUMMARY:City Council Meeting (City of Rathdrum)
@@ -372,8 +567,16 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/1114/2026-council-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
+UID:5aae1aabdfb1@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART;VALUE=DATE:20261210
+SUMMARY:Books And Brews at the Athol Library! (Community Library Network)
+LOCATION:Athol Library\, Athol Library Main Space
+URL:https://communitylibrary.libcal.com/event/16826876
+END:VEVENT
+BEGIN:VEVENT
 UID:b46960ae98ad@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261210T170000Z
 DTEND:20261210T190000Z
 SUMMARY:Parks & Waterways Advisory Board (Kootenai County)
@@ -381,8 +584,17 @@ LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd Hayden ID 83835
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:f7e0a61f965e@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261210T180000Z
+DTEND:20261210T200000Z
+SUMMARY:Tubbs Hill Foundation (City of Coeur d'Alene)
+LOCATION:Nelson Room (Room 202)
+URL:https://cdalibrary.libcal.com/event/14811415
+END:VEVENT
+BEGIN:VEVENT
 UID:e2f531f9623f@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:BOCC: Community Development AM (Kootenai County)
@@ -391,7 +603,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:ae1f3e38cff4@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261210T213000Z
 DTEND:20261210T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission 1:30 Workshop (Kootenai County)
@@ -400,7 +612,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:25f743f85986@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:CANCELLED: BOCC: Community Development - PM (Kootenai County)
@@ -409,7 +621,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:bbe7775820bc@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:Planning & Zoning Commission - Public Hearing (Kootenai County)
@@ -417,8 +629,35 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:034783854210@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261212T180000Z
+DTEND:20261212T193000Z
+SUMMARY:Breakfast Book Club (Community Library Network)
+LOCATION:Hayden Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/15415379
+END:VEVENT
+BEGIN:VEVENT
+UID:7a8e326e51c8@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261214T230000Z
+DTEND:20261215T050000Z
+SUMMARY:City Meetings-Preparation and Executive Sessions (City of Coeur d'Alene)
+LOCATION:Jameson Conference Room (Room 123)
+URL:https://cdalibrary.libcal.com/event/14060222
+END:VEVENT
+BEGIN:VEVENT
+UID:271842207d6b@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261214T230000Z
+DTEND:20261215T010000Z
+SUMMARY:All Ages Chess (Community Library Network)
+LOCATION:Hayden Library\, High Space
+URL:https://communitylibrary.libcal.com/event/16348044
+END:VEVENT
+BEGIN:VEVENT
 UID:86563f1b30af@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261215T180000Z
 DTEND:20261215T190000Z
 SUMMARY:CANCELLED: BOCC: Status Update (Kootenai County)
@@ -427,7 +666,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:f33f407e1b67@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261215T220000Z
 DTEND:20261215T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -436,7 +675,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:d7d39b5bb613@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261215T230000Z
 DTEND:20261215T233000Z
 SUMMARY:BOCC: Fair Board Quarterly Update (Kootenai County)
@@ -445,7 +684,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:521333cbf2a6@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261216T010000Z
 DTEND:20261216T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
@@ -453,8 +692,17 @@ LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
+UID:dcd16670aabe@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261216T010000Z
+DTEND:20261216T020000Z
+SUMMARY:Legacy Planning Workshop (18+) (Coeur d'Alene Public Library)
+LOCATION:Coeur d'Alene Public Library\, Gozzer Conference Room (Room 132)
+URL:https://cdalibrary.libcal.com/event/16066221
+END:VEVENT
+BEGIN:VEVENT
 UID:c63ede5530a4@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -463,7 +711,7 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
 END:VEVENT
 BEGIN:VEVENT
 UID:9ee9001f4cec@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261216T233000Z
 DTEND:20261217T010000Z
 SUMMARY:Historic Preservation Commission (Kootenai County)
@@ -472,7 +720,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:2ec8c7cec0ad@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261217T000000Z
 DTEND:20261217T020000Z
 SUMMARY:CANCELLED: Aquifer Protection District Advisory Board (Kootenai County)
@@ -480,8 +728,16 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:75f8575d3a66@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART;VALUE=DATE:20261217
+SUMMARY:Books And Brews at the Athol Library! (Community Library Network)
+LOCATION:Athol Library\, Athol Library Main Space
+URL:https://communitylibrary.libcal.com/event/16826877
+END:VEVENT
+BEGIN:VEVENT
 UID:197631f791ba@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261217T170000Z
 DTEND:20261217T180000Z
 SUMMARY:Post Falls Urban Renewal Agency Meeting (City of Post Falls)
@@ -490,7 +746,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:f17127c2ab45@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261217T180000Z
 DTEND:20261217T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
@@ -498,8 +754,17 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:1e16983e8714@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261217T183000Z
+DTEND:20261217T200000Z
+SUMMARY:Zen Doodle (Community Library Network)
+LOCATION:Hayden Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/16335366
+END:VEVENT
+BEGIN:VEVENT
 UID:abaf614f8c9b@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261217T213000Z
 DTEND:20261217T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
@@ -507,8 +772,26 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:a24267861246@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261217T220000Z
+DTEND:20261218T010000Z
+SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
+LOCATION:Post Falls Library\, Meeting Room 1\, Meeting Room 2
+URL:https://communitylibrary.libcal.com/event/17409309
+END:VEVENT
+BEGIN:VEVENT
+UID:78efa3075baf@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261217T220000Z
+DTEND:20261218T010000Z
+SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
+LOCATION:Post Falls Library
+URL:https://communitylibrary.libcal.com/event/17709670
+END:VEVENT
+BEGIN:VEVENT
 UID:4ba1ba409b95@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261218T020000Z
 DTEND:20261218T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai County)
@@ -516,8 +799,26 @@ LOCATION:451 N Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:fe73ac5352db@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261219T203000Z
+DTEND:20261219T220000Z
+SUMMARY:Stitching Magic – Needle Art Club (Community Library Network)
+LOCATION:Athol Library\, Meeting Room
+URL:https://communitylibrary.libcal.com/event/15846970
+END:VEVENT
+BEGIN:VEVENT
+UID:8202bf43b065@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261221T200000Z
+DTEND:20261221T220000Z
+SUMMARY:General Services/Public Works (City of Coeur d'Alene)
+LOCATION:Community Room (Room 116)
+URL:https://cdalibrary.libcal.com/event/13648096
+END:VEVENT
+BEGIN:VEVENT
 UID:b5bde9bf3882@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261222T170000Z
 DTEND:20261223T075900Z
 SUMMARY:CANCELLED: BOCC: Airport (Kootenai County)
@@ -526,7 +827,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:12471c67f2b5@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261222T180000Z
 DTEND:20261222T190000Z
 SUMMARY:CANCELLED: BOCC: Status Update (Kootenai County)
@@ -535,7 +836,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:3dd6ffea2ca4@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261222T220000Z
 DTEND:20261222T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -544,7 +845,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:3522c0323ce6@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261224T213000Z
 DTEND:20261224T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
@@ -553,7 +854,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:d5756cfa5368@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261229T180000Z
 DTEND:20261229T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -562,7 +863,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:41edaef12403@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261229T220000Z
 DTEND:20261229T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -570,8 +871,17 @@ LOCATION:451 Government Way Coeur d'Alene ID 83814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
+UID:92fd1636a9f5@civicsid
+DTSTAMP:20261111T180210Z
+DTSTART:20261230T193000Z
+DTEND:20261230T203000Z
+SUMMARY:Fiction Book Club (Community Library Network)
+LOCATION:Harrison Library
+URL:https://communitylibrary.libcal.com/event/16267090
+END:VEVENT
+BEGIN:VEVENT
 UID:c45892108b23@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20261231T213000Z
 DTEND:20261231T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
@@ -580,7 +890,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:481d1c7d5fbb@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270105T180000Z
 DTEND:20270105T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
@@ -589,7 +899,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:0db335b5b006@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270105T190000Z
 DTEND:20270105T200000Z
 SUMMARY:BOCC: Solid Waste (Kootenai County)
@@ -598,7 +908,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:3820ae278635@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270105T220000Z
 DTEND:20270105T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
@@ -607,7 +917,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:cdee1c9fef0d@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270106T010000Z
 DTEND:20270106T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
@@ -616,7 +926,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:7309b5243809@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270106T163000Z
 DTEND:20270106T183000Z
 SUMMARY:Snowmobile Advisory Board (Kootenai County)
@@ -625,7 +935,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:2f404e126666@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270107T000000Z
 DTEND:20270107T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
@@ -634,7 +944,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:b5da29f93ea8@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270107T180000Z
 DTEND:20270107T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
@@ -643,7 +953,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:713850fb5778@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270107T213000Z
 DTEND:20270107T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
@@ -652,7 +962,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:cbfcafb11590@civicsid
-DTSTAMP:20261111T175625Z
+DTSTAMP:20261111T180210Z
 DTSTART:20270108T020000Z
 DTEND:20270108T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai County)
