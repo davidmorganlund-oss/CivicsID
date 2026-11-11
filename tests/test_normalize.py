@@ -367,6 +367,7 @@ def test_libcal_libraries():
         {"id": 6, "title": "Fiction Book Club", "startdt": "2026-11-20 17:00:00", "categories": "Adult Programs > Civil/Social", "campus": "Hayden"},
         {"id": 7, "title": "Board of Trustees Regular Meeting", "startdt": "2026-11-19 14:00:00", "categories": "Board Meetings", "campus": "Post Falls"},
         {"id": 5, "title": "Voter Registration Help", "startdt": "2026-11-21 11:00:00", "categories": "Adult Programs", "campus": "Hayden"}]
+    assert not build.libcal_is_civic("Tween STEAM: Cardboard Kingdom", "Make > Arts/Crafts")
     board, renter, voter = build.normalize_libcal(cln, rows, pt)
     assert board["category"] == "council" and board["area"] == "countywide" and board["county"] == "Kootenai"
     assert board["start"] == "2026-11-19T14:00:00-08:00" and board["location"] == "Post Falls Library, Meeting Room 1, Meeting Room 2"

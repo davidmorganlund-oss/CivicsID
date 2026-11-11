@@ -832,7 +832,7 @@ def fetch_boardbook(src, start_day, end_day, tz):
 # used.) Closures are always dropped.
 
 def libcal_is_civic(title, categories):
-    if re.search(r"board|trustee", categories + " " + title, re.I):
+    if re.search(r"\bboards?\b|trustee", categories + " " + title, re.I):
         return True
     if re.search(r"friends of the library", categories + " " + title, re.I) and re.search(r"meeting", title, re.I):
         return True
@@ -865,7 +865,7 @@ def normalize_libcal(src, rows, tz):
         campus = (r.get("campus") or "").strip()
         room = htmllib.unescape(r.get("location") or "").strip()
         building = campus if re.search(r"library", campus, re.I) or not campus else f"{campus} Library"
-        board = bool(re.search(r"board|trustee", cats + " " + title, re.I))
+        board = bool(re.search(r"\bboards?\b|trustee", cats + " " + title, re.I))
         e = make_event(
             src, title=title, start=start, end=end, all_day=all_day,
             location=", ".join(p for p in [building if src.get("civic_only") else "", room] if p)
@@ -921,7 +921,7 @@ def normalize_mec_library(src, xml_text, tz):
         area = src["area"]
         if branch and branch.group(1) in src.get("branches", []):
             area, title = branch.group(1), branch.group(2)
-        board = bool(re.search(r"board|trustee", title, re.I))
+        board = bool(re.search(r"\bboards?\b|trustee", title, re.I))
         events.append(make_event(
             src, title=title, start=datetime.combine(d, clock_ or time(0, 0), tz),
             end=datetime.combine(d, end_clock, tz) if clock_ and end_clock and tag("mec:endDate") == day else None,
