@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:48:08-07:00",
+ "generated": "2026-11-11T10:55:22-07:00",
  "events": [
   {
    "id": "bf2220ee19d2",
@@ -182,6 +182,30 @@
    "cancelled": false
   },
   {
+   "id": "767b6fd3774d",
+   "title": "Historic Preservation Commission Meeting",
+   "host": "City of Hayden",
+   "source": "hayden",
+   "area": "Hayden",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-12T11:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://meetings.boardbook.org/Public/Agenda/2366?meeting=772713",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Ordinary People, Extraordinary Lives Volume 1 Book Order ACTION ITEM",
+    "Discuss historical items to donate to the Museum of North Idaho",
+    "Update on: Ordinary People, Extraordinary Lives: Volume 2"
+   ],
+   "highlights_more": 4
+  },
+  {
    "id": "17fd0538acf1",
    "title": "Disability Advisory Commission Meeting",
    "host": "City of Lewiston",
@@ -216,6 +240,30 @@
    "agenda_url": "",
    "note": "",
    "cancelled": true
+  },
+  {
+   "id": "9292b415b6ff",
+   "title": "Arts Commission Meeting",
+   "host": "City of Hayden",
+   "source": "hayden",
+   "area": "Hayden",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-12T15:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://meetings.boardbook.org/Public/Agenda/2366?meeting=773366",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false,
+   "highlights": [
+    "Come Together Bench Walk",
+    "Hayden Lights Parade",
+    "Winter Wonderland Immersive Light Display"
+   ],
+   "highlights_more": 4
   },
   {
    "id": "ed08e991e3c2",
@@ -602,6 +650,24 @@
    "cancelled": false
   },
   {
+   "id": "ae95a0983d42",
+   "title": "City Council Meeting",
+   "host": "City of Coeur d'Alene",
+   "source": "coeur-dalene",
+   "area": "Coeur d'Alene",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-17T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Coeur d'Alene Public Library Community Room",
+   "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "7ef3608b1dda",
    "title": "Sustainable Environment Commission",
    "host": "City of Moscow",
@@ -840,6 +906,24 @@
     "CARLTON RADIO ADDITION PRELIMINARY PLAT (ACTION ITEM)"
    ],
    "highlights_more": 3
+  },
+  {
+   "id": "5461efd123ef",
+   "title": "Planning & Zoning Commission Meeting",
+   "host": "City of Rathdrum",
+   "source": "rathdrum",
+   "area": "Rathdrum",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-18T17:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Rathdrum City Hall, 8047 W. Main Street",
+   "url": "https://www.rathdrum.gov/66/planning-and-zoning-commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
   },
   {
    "id": "b66c4ff86542",
@@ -1346,6 +1430,24 @@
    "cancelled": false
   },
   {
+   "id": "cf34c405619d",
+   "title": "Parks & Recreation Commission",
+   "host": "City of Rathdrum",
+   "source": "rathdrum",
+   "area": "Rathdrum",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-24T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Rathdrum City Hall, 8047 W. Main Street",
+   "url": "https://www.rathdrum.gov/450/parks-and-recreation-commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "c7e33b180634",
    "title": "Cemetery and Urban Forestry Advisory Commission Meeting",
    "host": "City of Lewiston",
@@ -1739,6 +1841,24 @@
    "url": "https://meridianid.portal.civicclerk.com/event/42/overview",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "98aef67189b0",
+   "title": "City Council Meeting",
+   "host": "City of Coeur d'Alene",
+   "source": "coeur-dalene",
+   "area": "Coeur d'Alene",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-01T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Coeur d'Alene Public Library Community Room",
+   "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
@@ -2516,6 +2636,24 @@
    "cancelled": false
   },
   {
+   "id": "c62aea8ff682",
+   "title": "City Council Meeting",
+   "host": "City of Rathdrum",
+   "source": "rathdrum",
+   "area": "Rathdrum",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-09T17:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Rathdrum City Hall, 8047 W. Main Street",
+   "url": "https://www.rathdrum.gov/1114/2026-council-meeting-schedule",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
    "id": "09990809d1a5",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Pocatello",
@@ -3089,6 +3227,24 @@
    "url": "https://twinfallsid.portal.civicclerk.com/event/6057/overview",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "c63ede5530a4",
+   "title": "City Council Meeting",
+   "host": "City of Coeur d'Alene",
+   "source": "coeur-dalene",
+   "area": "Coeur d'Alene",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-15T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Coeur d'Alene Public Library Community Room",
+   "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false
   },
   {
