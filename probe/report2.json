@@ -1,327 +1,135 @@
 {
- "gem agendas": {
+ "malad": {
   "status": 200,
-  "final": "https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-  "len": 59938,
-  "robots": "",
-  "schedule": [],
-  "links": [
+  "total": 12,
+  "events": [
+   [
+    "2026-11-05 17:30:00",
+    "Pasture, Rangeland &#038; Forage Insurance Program Workshop",
+    [
+     "Cattle Producers"
+    ],
+    "Oneida County Event Center"
+   ],
+   [
+    "2026-11-07 18:00:00",
+    "Malad Stake Emergency Preparedness Fair",
+    [
+     "Community Event",
+     "Emergency Preparedness"
+    ],
+    "Malad Idaho LDS Stake Center"
+   ],
+   [
+    "2026-11-10 13:00:00",
+    "Dementia Friends Information Session",
+    [
+     "Caregivers"
+    ],
+    "Oneida County Extension Office"
+   ],
+   [
+    "2026-11-11 19:00:00",
+    "Veterans Day Program",
+    [
+     "Community Event",
+     "Veterans"
+    ],
+    "Malad Elementary School"
+   ],
+   [
+    "2026-11-14 14:00:00",
+    "Retirement Party for Gaylen Garrett",
+    [
+     "Community Event"
+    ],
+    "Malad Idaho LDS Stake Center"
+   ],
+   [
+    "2026-11-20 08:00:00",
+    "Shop Malad",
+    [
+     "Christmas event",
+     "Shoppers"
+    ],
+    ""
+   ],
+   [
+    "2026-11-27 11:00:00",
+    "Hometown Christmas Festival",
+    [
+     "Christmas event",
+     "Community Event",
+     "Shoppers"
+    ],
+    "Oneida County Event Center"
+   ],
+   [
+    "2026-11-28 09:00:00",
+    "Hometown Christmas Festival",
+    [
+     "Christmas event",
+     "Community Event",
+     "Shoppers"
+    ],
+    "Oneida County Event Center"
+   ],
+   [
+    "2026-11-28 19:00:00",
+    "Christmas Light Parade",
+    [
+     "Christmas event",
+     "Community Event",
+     "Parade"
+    ],
+    "Malad Fire Station"
+   ],
+   [
+    "2026-12-04 14:00:00",
+    "Deck the Halls Christmas Event",
+    [
+     "Christmas event",
+     "Shoppers"
+    ],
+    "Oneida County Event Center"
+   ],
+   [
+    "2026-12-05 10:00:00",
+    "Deck the Halls Christmas Event",
+    [
+     "Christmas event",
+     "Shoppers"
+    ],
+    "Oneida County Event Center"
+   ],
+   [
+    "2026-12-12 20:00:00",
+    "Firemen&#8217;s Ball",
+    [
+     "Christmas event",
+     "Community Event",
+     "Dance"
+    ],
+    "Oneida County Event Center"
+   ]
+  ]
+ },
+ "malad cats": "{\"rest_url\":\"https:\\/\\/www.maladidaho.org\\/wp-json\\/tribe\\/events\\/v1\\/categories\\/\",\"total\":64,\"total_pages\":2,\"categories\":[{\"id\":71,\"count\":19,\"description\":\"\",\"name\":\"Animal lovers\",\"slug\":\"animal-lovers\",\"taxonomy\":\"tribe_events_cat\",\"parent\":0,\"meta\":[],\"aioseo_head\":\"\\n\\t\\t<!-- All in One SEO 5.0.5 - aioseo.com -->\\n\\t<meta name=\\\"robots\\\" content=\\\"max-image-preview:large\\\" \\/>\\n\\t<link rel=\\\"canonical\\\" href=\\\"https:\\/\\/www.maladidaho.org\\/events\\/category\\/animal-lovers\\/\\\" \\/>\\n\\t\\t<meta name=\\\"generator\\\" content=\\\"All in One SEO (AIOSEO) 5.0.5\\\" \\/>\\n\\t\\t<script type=\\\"application\\/ld+json\\\" class=\\\"aioseo-schema\\\">\\n\\t\\t\\t{\\\"@context\\\":\\\"https:\\\\\\/\\\\\\/schema.org\\\",\\\"@graph\\\":[{\\\"@type\\\":\\\"BreadcrumbList\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/#breadcrumblist\\\",\\\"itemListElement\\\":[{\\\"@type\\\":\\\"ListItem\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#listItem\\\",\\\"position\\\":1,\\\"name\\\":\\\"Home\\\",\\\"item\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/\\\",\\\"nextItem\\\":{\\\"@type\\\":\\\"ListItem\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/events\\\\\\/category\\\\\\/animal-lovers\\\\\\/#listItem\\\",\\\"name\\\":\\\"Animal lovers\\\"}},{\\\"@type\\\":\\\"ListItem\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/events\\\\\\/category\\\\\\/animal-lovers\\\\\\/#listItem\\\",\\\"position\\\":2,\\\"name\\\":\\\"Animal lovers\\\",\\\"previousItem\\\":{\\\"@type\\\":\\\"ListItem\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#listItem\\\",\\\"name\\\":\\\"Home\\\"}}]},{\\\"@type\\\":\\\"CollectionPage\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/#collectionpage\\\",\\\"url\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/\\\",\\\"name\\\":\\\"Animal lovers - Malad City, ID\\\",\\\"inLanguage\\\":\\\"en-US\\\",\\\"isPartOf\\\":{\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#website\\\"},\\\"breadcrumb\\\":{\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/#breadcrumblist\\\"}},{\\\"@type\\\":\\\"Organization\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#organization\\\",\\\"name\\\":\\\"Malad City, ID\\\",\\\"url\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/\\\",\\\"email\\\":\\\"maladcityid@gmail.com\\\",\\\"telephone\\\":\\\"+12087664160\\\",\\\"foundingDate\\\":\\\"1864-07-01\\\",\\\"logo\\\":{\\\"@type\\\":\\\"ImageObject\\\",\\\"url\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-content\\\\\\/uploads\\\\\\/2023\\\\\\/08\\\\\\/ezgif-SVG-to-PNG.png\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/#organizationLogo\\\"},\\\"image\\\":{\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/wp-json\\\\\\/tribe\\\\\\/events\\\\\\/v1\\\\\\/categories\\\\\\/#organizationLogo\\\"}},{\\\"@type\\\":\\\"WebSite\\\",\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#website\\\",\\\"url\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/\\\",\\\"name\\\":\\\"Malad City, ID\\\",\\\"inLanguage\\\":\\\"en-US\\\",\\\"publisher\\\":{\\\"@id\\\":\\\"https:\\\\\\/\\\\\\/www.maladidaho.org\\\\\\/#organization\\\"}}]}\\n\\t\\t<\\/script>\\n\\t\\t<!-- All in One SEO -->\\n\\n\",\"aioseo_head_json\":{\"title\":\"Animal lov",
+ "malad council page": "Malad City Council Calendar | Malad City, Idaho Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery County Library Education Events Gallery Health Mental Health Services Family History Pioneer Museum Text Messaging Tourism Tourism Dining Options Places to Stay Things To Do Business Business Licenses and Permits Ordinances Pay Utilities Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery County Library Education Events Gallery Health Mental Health Services Family History Pioneer Museum Text Messaging Tourism Tourism Dining Options Places to Stay Things To Do Business Business Licenses and Permits Ordinances Pay Utilities Government City Government Council Calendar Community About Us Events Our History Education Services Health Mental Health Gallery Public Library Tourism Places to Stay Dining Options Things To Do County Library Business Pay Utilities Licenses and Permits Documents &amp; Forms About Malad Newsletter Calendars Events Calendar City Council Calendar Contact Us Malad City Economic Development 4-CASI REDI Government City Government Council Calendar Community About Us Events Our History Education Services Health Mental Health Gallery Public Library Tourism Places to Stay Dining Options Things To Do County Library Business Pay Utilities Licenses and Permits Documents &amp; Forms About Malad Newsletter Calendars Events Calendar City Council Calendar Contact Us Malad City Economic Development 4-CASI REDI About Malad Newsletter Calendars Calendars Events Calendar City Council Calendar Contact Us About Malad Newsletter Calendars Calendars Events Calendar City Council Calendar Contact Us Malad City Council Calendar Malad City Council meetings are held regularly the second Wednesday of each month at Malad City Hall starting at 6:00 p.m. Visitors may attend the meeting in person or by Zoom. View Events Calendar Contact Us All Events About Malad About Us Contact Us Event Calendar Newsletters About Us Contact Us Event Calendar Newsletters Government City Council Calendar City Government Minutes &#038; Agendas City Council Calendar City Government Minutes &#038; Agendas Tourism Dining Options Events Places to Stay Things To Do Dining Options Events Places to Stay Things To Do Business Licenses and Permits Ordinances Pay Utilities Licenses and Permits Ordinances Pay Utilities \u00a9Malad City, ID Privacy Policy Privacy Policy Text Messagi",
+ "gem text": "e",
+ "gem pdfs": [
+  [
    "Gem County Island Sports Complex Special Events Application & Checklist 5.2025.pdf",
-   "departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567 ",
-   "government/county_commissioners/agendas_and_minutes.php",
-   "government/county_commissioners/agendas_and_minutes.php#",
-   "government/county_commissioners/agendas_and_minutes.php#main",
-   "government/county_commissioners/previous_agendas.php",
-   "http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "https://webgen1.revize.com/revize/security/index.jsp?webspace=gemcountyid&filename=/government/county_commissioners/agendas_and_minutes.php",
-   "https://www.facebook.com/sharer/sharer.php?u=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "https://www.gemcounty.org/departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567",
-   "https://www.linkedin.com/sharing/share-offsite/?url=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "https://www.reddit.com/submit?url=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "https://www.twitter.com/home?status=http://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "residents/fairgrounds/calendar.php"
-  ],
-  "head": "Gem County, ID SKIP TO CONTENT close menu This website uses cookies to store your accessibility preferences. No personal / identifying information is stored. More info . Dismiss Note: Translate Afrikaans Albanian Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chinese (Simplified) Chinese (Traditional) Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Galician Georgian German Greek Gujarati Haitian Creole Hausa Hebrew Hindi Hmo",
-  "gen": [],
-  "hint": "revize"
- },
- "gem commissioners": {
-  "status": 200,
-  "final": "https://www.gemcounty.org/government/county_commissioners/index.php",
-  "len": 61530,
-  "robots": "",
-  "schedule": [],
-  "links": [
-   "Gem County Island Sports Complex Special Events Application & Checklist 5.2025.pdf",
-   "departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567 ",
-   "government/county_commissioners/agendas_and_minutes.php",
-   "government/county_commissioners/previous_agendas.php",
-   "https://www.gemcounty.org/departments_offices/development_services/zoning_commission_meeting_and_legal_notice.php#outer-532sub-567",
-   "residents/fairgrounds/calendar.php"
-  ],
-  "head": "Board of County Commissioners (BOCC) SKIP TO CONTENT close menu This website uses cookies to store your accessibility preferences. No personal / identifying information is stored. More info . Dismiss Note: Translate Afrikaans Albanian Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chinese (Simplified) Chinese (Traditional) Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Galician Georgian German Greek Gujarati Haitian Creole ",
-  "gen": [],
-  "hint": "revize"
- },
- "gem robots": {
-  "status": 404,
-  "final": "https://webgen1files.revize.com/gemcountyid/robots.txt",
-  "len": 1245,
-  "robots": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}",
-  "schedule": [],
-  "links": [],
-  "head": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
-  "gen": [],
-  "hint": ""
- },
- "lewis home": {
-  "status": 0,
-  "final": "https://www.lewiscountyid.us/",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify fa",
-  "gen": [],
-  "hint": ""
- },
- "lewis robots": {
-  "status": 0,
-  "final": "https://www.lewiscountyid.us/robots.txt",
-  "len": 200,
-  "robots": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate",
-  "gen": [],
-  "hint": ""
- },
- "lewis commissioners": {
-  "status": 0,
-  "final": "https://www.lewiscountyid.us/commissioners",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.lewiscountyid.us', port=443): Max retries exceeded with url: /commissioners (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certific",
-  "gen": [],
-  "hint": ""
- },
- "oneida home": {
-  "status": 403,
-  "final": "https://oneidacountyid.com/",
-  "len": 5551,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "Just a moment... Enable JavaScript and cookies to continue",
-  "gen": [],
-  "hint": ""
- },
- "oneida commissioners": {
-  "status": 403,
-  "final": "https://oneidacountyid.com/commissioners/",
-  "len": 5615,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "Just a moment... Enable JavaScript and cookies to continue",
-  "gen": [],
-  "hint": ""
- },
- "lincoln us": {
-  "status": 0,
-  "final": "https://www.lincolncountyid.us/",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.lincolncountyid.us', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lincolncountyid.us', port=443): Failed to r",
-  "gen": [],
-  "hint": ""
- },
- "emmett home": {
-  "status": 200,
-  "final": "https://www.cityofemmett.org/",
-  "len": 1329850,
-  "robots": "",
-  "schedule": [],
-  "links": [
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=4ec38d2e.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_a54244868b2b5db717ff9b8fa6e2f1d5_9609.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=4ec38d2e.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=617ffe4c.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_a54244868b2b5db717ff9b8fa6e2f1d5_9609.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CmenuDropdownHugContent%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=617ffe4c.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
-   "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[ClassicSection].698c66d5.min.css",
-   "https://www.cityofemmett.org/blog-feed.xml",
-   "https://www.cityofemmett.org/community-calendar-form",
-   "https://www.cityofemmett.org/library-calendar",
-   "https://www.cityofemmett.org/meeting-information"
-  ],
-  "head": "--> HOME | city-of-emmett top of page HOME ABOUT US Contact Us Our Community Air Quality and Weather Road Construction &amp; Closures Meeting Information Job Openings Important Dates PAY UTILITIES HERE DEPARTMENTS Mayor &amp; City Council Building Department Planning and Zoning Department City Clerk&#x27;s Office Fire Department Emmett Public Library Police Department Cemetery Emmett Municipal Airport Public Works Department Systems Administration BUSINESS CORNER Contacts COMMUNITY VIDEO TOUR CI",
-  "gen": [
-   "Wix.com Website Builder"
-  ],
-  "hint": "wix"
- },
- "emmett council": {
-  "status": 404,
-  "final": "https://www.cityofemmett.org/citycouncil",
-  "len": 2045,
-  "robots": "",
-  "schedule": [],
-  "links": [
-   "//static.parastorage.com/services/classic-error-pages-statics/1.98.0/app.min.css"
-  ],
-  "head": "404 Error: Page Not Found",
-  "gen": [],
-  "hint": "wix"
- },
- "emmett robots": {
-  "status": 200,
-  "final": "https://www.cityofemmett.org/robots.txt",
-  "len": 494,
-  "robots": "User-agent: *\nAllow: /\nDisallow: *?lightbox=\n\n# Optimization for Google Ads Bot\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google\nDisallow: /_partials*\nDisallow: /pro-gallery-webapp/v1/galleries/*\n\n# Block PetalBot\nUser-agent: PetalBot\nDisallow: /\n\n# Crawl delay for overly enthusiastic bots\nUser-agent: dotbot\nCrawl-delay: 10\nUser-agent: AhrefsBot\nCrawl-delay: 10\n\nSitemap: https://www.cityofemmett.org/sitemap.xml\n\n# Auto generated, go to SEO Tools > Robots.txt Editor to change this",
-  "schedule": [],
-  "links": [],
-  "head": "User-agent: * Allow: / Disallow: *?lightbox= # Optimization for Google Ads Bot User-agent: AdsBot-Google-Mobile User-agent: AdsBot-Google Disallow: /_partials* Disallow: /pro-gallery-webapp/v1/galleries/* # Block PetalBot User-agent: PetalBot Disallow: / # Crawl delay for overly enthusiastic bots User-agent: dotbot Crawl-delay: 10 User-agent: AhrefsBot Crawl-delay: 10 Sitemap: https://www.cityofemmett.org/sitemap.xml # Auto generated, go to SEO Tools > Robots.txt Editor to change this",
-  "gen": [],
-  "hint": ""
- },
- "malad home": {
-  "status": 200,
-  "final": "https://www.maladidaho.org/",
-  "len": 125385,
-  "robots": "",
-  "schedule": [
-   "Learn More Doing Business Doing Business Malad City supports both small to large businesses to meet the needs of its residents, surrounding communities, and the region"
-  ],
-  "links": [
-   "https://maladidaho.org/city-council-calendar/",
-   "https://maladidaho.org/events-attractions/",
-   "https://maladidaho.org/events/",
-   "https://maladidaho.org/minutes-agendas/",
-   "https://www.maladidaho.org/city-council-calendar/",
-   "https://www.maladidaho.org/event/christmas-light-parade/",
-   "https://www.maladidaho.org/event/deck-the-halls-christmas-event-2/",
-   "https://www.maladidaho.org/event/deck-the-halls-christmas-event/",
-   "https://www.maladidaho.org/event/firemens-ball-2/",
-   "https://www.maladidaho.org/event/hometown-christmas-festival-4/",
-   "https://www.maladidaho.org/event/hometown-christmas-festival-5/",
-   "https://www.maladidaho.org/event/retirement-party-for-gaylen-garrett/",
-   "https://www.maladidaho.org/event/shop-malad/",
-   "https://www.maladidaho.org/event/veterans-day-program-2/",
-   "https://www.maladidaho.org/events-attractions/",
-   "https://www.maladidaho.org/minutes-agendas-2/",
-   "https://www.maladidaho.org/wp-json/tribe/events/v1/"
-  ],
-  "head": "Welcome to Malad City, Idaho! Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery County Library Education Events Gallery Health Mental Health Services Family History Pioneer Museum Text Messaging Tourism Tourism Dining Options Places to Stay Things To Do Business Business Licenses and Permits Ordinances Pay Utilities Government Government City Government Council Calendar Minutes &#038; Agendas Community Community About Us Cemetery ",
-  "gen": [
-   "All in One SEO (AIOSEO) 5.0.5",
-   "Elementor 4.3.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
-  ],
-  "hint": ""
- },
- "nezperce home": {
-  "status": 200,
-  "final": "https://www.cityofnezperce.gov/",
-  "len": 40735,
-  "robots": "",
-  "schedule": [],
-  "links": [
-   "/_app/immutable/chunks/Calendar-4efde5ea.js",
-   "/news/city-council-meeting-changed-to-7-a-m-oct-13",
-   "/news/library-plans-halloween-party-reading-week-event",
-   "/news/nhs-senior-class-to-hold-sausage-feed-nov-11"
-  ],
-  "head": "Official Web Site of City of Nezperce, ID Nezperce, ID Documents News Welcome To City of Nezperce, ID Latest News View All November 9, 2026 NHS Senior Class to hold sausage feed Nov. 11 Save and Sane fundraiser set in school's multipurpose room November 9, 2026 Lion's Club to throw Fall Ball on Nov. 20 Autumn event gets a shake up November 9, 2026 Hope Baptist Church offers Thanksgiving dinner Free meal starts at 4 p.m. at the Legion Hall October 21, 2026 Lynda Riggers writes WWII novel NHS grad",
-  "gen": [],
-  "hint": ""
- },
- "kamiah home": {
-  "status": 0,
-  "final": "https://www.kamiahidaho.org/",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.kamiahidaho.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.kamiahidaho.org', port=443): Failed to resolve",
-  "gen": [],
-  "hint": ""
- },
- "kamiah alt": {
-  "status": 0,
-  "final": "https://kamiah.org/",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='kamiah.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: cert",
-  "gen": [],
-  "hint": ""
- },
- "shoshone city": {
-  "status": 0,
-  "final": "https://www.shoshonecity.com/",
-  "len": 200,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "ERR HTTPSConnectionPool(host='www.shoshonecity.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shoshonecity.com', port=443): Failed to establ",
-  "gen": [],
-  "hint": ""
- },
- "hailey meetings": {
-  "status": 200,
-  "final": "https://haileycityhall.org/public-meetings/",
-  "len": 1287045,
-  "robots": "",
-  "schedule": [],
-  "links": [
-   "https://global.gotomeeting.com/install/543667133",
-   "https://global.gotomeeting.com/join/686570877",
-   "https://haileycityhall.org/arts-historic-preservation-commission-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/dif/dif-advisory-committee-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/hahpc/arts-historic-preservation-commission-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/urban-renewal-agency-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/housing-committee/housing-committee-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/joint-fire-board/joint-fire-board-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/parks-and-lands-board/parks-lands-board-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/pz-commission/planning-zoning-commission-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/sustainabilityactionplancommittee/sustainability-action-plan-committee-agenda-and-packets/",
-   "https://haileycityhall.org/boards-and-commissions/tree-committee/tree-committee-agendas/",
-   "https://haileycityhall.org/comments/feed/",
-   "https://haileycityhall.org/events/?ical=1",
-   "https://haileycityhall.org/feed/",
-   "https://haileycityhall.org/hailey-police-department/crime-prevention/",
-   "https://haileycityhall.org/planning-zoning-commission-agenda-packets/",
-   "https://haileycityhall.org/public-meetings/",
-   "https://haileycityhall.org/urban-renewal-agency-agendas/",
-   "https://haileycityhall.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhaileycityhall.org%2Fpublic-meetings%2F",
-   "https://haileycityhall.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhaileycityhall.org%2Fpublic-meetings%2F&#038;format=xml",
-   "https://haileycityhall.org/wp-json/tribe/events/v1/",
-   "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzNjNjA2Y2MtMzQ0OC00MWI5LWE3OWQtNDZkNWIzMTc4ZDUz%40thread.v2/0?context=%7b%22Tid%22%3a%2242e19083-76f7-4129-9fde-874e596ed1a7%22%2c%22Oid%22%3a%22c9ec8de0-ef8c-4f17-8990-44c172695a20%22%7d",
-   "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FlZDM1NzktMzQ0YS00YjdiLWI3YjUtNWJmNGNkOGM0NGQ5%40thread.v2/0?context=%7b%22Tid%22%3a%2242e19083-76f7-4129-9fde-874e596ed1a7%22%2c%22Oid%22%3a%22c9ec8de0-ef8c-4f17-8990-44c172695a20%22%7d",
-   "https://www.microsoft.com/microsoft-teams/join-a-meeting"
-  ],
-  "head": "Public Meetings | City Council by City of Hailey, ID Skip to content Home Departments &#038; Projects City Administration Election Information Finance &#038; Records Mayor, Council, Administrator Community Development Hailey Comprehensive Plan Update Flood Information Building Services Building Services FAQs Building Inspections and Reports Development Impact Fees Community Development FAQs Forms &#038; Fees Land Use Sustainability &#038; Resilience Community Development Mission &#038; Core Valu",
-  "gen": [
-   "WordPress 7.1.4",
-   "ResponsiveVoice Text To Speech"
-  ],
-  "hint": "tribe"
- },
- "hailey robots": {
-  "status": 200,
-  "final": "https://www.haileycityhall.org/robots.txt",
-  "len": 24,
-  "robots": "User-Agent: *\nDisallow:\n",
-  "schedule": [],
-  "links": [],
-  "head": "User-Agent: * Disallow:",
-  "gen": [],
-  "hint": ""
- },
- "hailey tribe": {
-  "status": 200,
-  "final": "https://www.haileycityhall.org/wp-json/tribe/events/v1/events?per_page=30",
-  "len": 213,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "{\"events\":[],\"rest_url\":\"https:\\/\\/haileycityhall.org\\/wp-json\\/tribe\\/events\\/v1\\/events\\/?page=1&per_page=30&start_date=2026-11-10 00:00:00&end_date=2028-11-11 23:59:59&status=publish\",\"total\":0,\"total_pages\":0}",
-  "gen": [],
-  "hint": ""
- },
- "blaine us": {
-  "status": 403,
-  "final": "https://www.blainecountyid.gov",
-  "len": 5660,
-  "robots": "",
-  "schedule": [],
-  "links": [],
-  "head": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access civicplus.io Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them k",
-  "gen": [],
-  "hint": ""
- }
+   "Special Events"
+  ]
+ ],
+ "emmett meeting info": "--> Meeting Information | city-of-emmett top of page HOME ABOUT US Contact Us Our Community Air Quality and Weather Road Construction &amp; Closures Meeting Information Job Openings Important Dates PAY UTILITIES HERE DEPARTMENTS Mayor &amp; City Council Building Department Planning and Zoning Department City Clerk&#x27;s Office Fire Department Emmett Public Library Police Department Cemetery Emmett Municipal Airport Public Works Department Systems Administration BUSINESS CORNER Contacts COMMUNITY VIDEO TOUR CITY CODE LINKS More Use tab to navigate through the menu items. Emmett Meeting Information Page \u200b City Council Meetings Library Board Meetings Zoning Commission Meetings Joint Planning Commission Meetings Development Impact Fee Advisory Committee Meetings Photo by Bob Bales Webmaster Login bottom of page",
+ "nezperce api": [
+  "https://fonts.googleapis.com",
+  "https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@400;700&display=swap"
+ ],
+ "nezperce calendar": [
+  404,
+  "Nezperce, ID Documents News We lost this page We searched high and low but couldn\u00e2\u0080\u0099t find what you\u00e2\u0080\u0099re looking for. We recently updated our site so some things might have moved during the update. Let&#39;s get you back on track. Homepage 404 | Not found: /calendar City of Nezperce, ID 606 Maple Street PO Box 367 Nezperce, ID 83543 United States of America Hours of Operation Monday: 8:30 AM - 4:00 PM Tuesday: 8:30 AM - 4:00 PM Wednesday: 8:30 AM - 4:00 PM Thursday: 8:30 AM - 4:00 PM Friday: 8:30 AM - 4:00 PM Saturday: CLOSED - CLOSED Sunday: CLOSED - CLOSED Facebook Email clerk@cityofnezperce.com Phone (208) 937-1021 (208) 937-9984 Made with by TownCloud \u00c2\u00a9 Copyright 2026. All rights reserved."
+ ]
 }
