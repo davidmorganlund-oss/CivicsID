@@ -502,25 +502,23 @@ sources:
         category: council
         url: https://pub-tetoncounty.escribemeetings.com/
 
-  - id: blaine-county
-    name: Blaine County
-    type: civicplus
-    site: https://www.blainecountyid.gov
-    categories: [23, 25]          # County Commissioners; Land Use & Building Services
-    default_category: council
-    county: Blaine
-    area: countywide
-    homepage: https://www.blainecountyid.gov/calendar.aspx
-
+  # Fremont County's site turns away automated readers, so its posted
+  # commissioners' meetings are entered by hand from the county calendar.
+  # Update when the county posts December dates.
   - id: fremont-county
     name: Fremont County
-    type: civicplus
-    site: https://www.fremontcountyid.gov
-    categories: [41, 25]          # Board of County Commissioners; Planning & Zoning
-    default_category: council
+    type: schedule
     county: Fremont
     area: countywide
-    homepage: https://www.fremontcountyid.gov/calendar.aspx
+    homepage: https://www.fremontcountyid.gov/calendar.aspx?CID=41
+    meetings:
+      - title: BOCC Regular Meeting
+        dates: [2026-11-16, 2026-11-23]
+        time: "09:00"
+        end: "17:00"
+        location: Fremont County Courthouse
+        category: council
+        url: https://www.fremontcountyid.gov/calendar.aspx?CID=41
 
   - id: jefferson-county
     name: Jefferson County
@@ -632,7 +630,8 @@ sources:
   - id: benewah-county
     name: Benewah County
     type: ics
-    url: https://benewahcountyid.gov/feeds/my-calendar-ics/
+    url: https://benewahcountyid.gov/?feed=my-calendar-ics
+    drop_uncategorized: true
     default_category: council
     county: Benewah
     area: countywide
@@ -641,19 +640,23 @@ sources:
 
   - id: lincoln-county
     name: Lincoln County
-    type: civicclerk
-    tenant: lnclnctyid
+    type: drupal_meetings
+    site: https://www.lincolncountyid.gov
+    default_category: council
+    default_location: 111 W B St, Shoshone
     county: Lincoln
     area: countywide
-    homepage: https://www.lincolncountyid.gov/
+    homepage: https://www.lincolncountyid.gov/meetings
 
   - id: ketchum
     name: City of Ketchum
-    type: civicclerk
-    tenant: ketchid
+    type: civicplus
+    site: https://ketchumidaho.gov
+    categories: [22, 14]
+    drop_uncategorized: true
     county: Blaine
     area: Ketchum
-    homepage: https://www.ketchumidaho.org/
+    homepage: https://ketchumidaho.gov/AgendaCenter
 
   # Counties that publish a regular schedule and no calendar we can read.
   - id: idaho-county

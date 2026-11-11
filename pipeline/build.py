@@ -1142,6 +1142,36 @@ def fetch_jevents(src, start_day, end_day, tz):
     return normalize_jevents(src, get(src["url"]).text, tz)
 
 
+
+# --- CivicPlus "HCMS" (Drupal) county sites: the Upcoming Meetings table ---
+
+def normalize_drupal_meetings(src, page, tz):
+    import html as htmllib
+    from urllib.parse import urljoin
+    events = []
+    for row in re.findall(r"<tr>\s*<td headers=\"view-field-smart-date.*?</tr>", page, re.S):
+        cells = {k: v for k, v in re.findall(r'headers="view-([\w-]+)-table-column"[^>]*>(.*?)</td>', row, re.S)}
+        text = lambda h: " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", re.sub(r'<strong class="tablesaw-cell-label".*?</strong>', "", h or "", flags=re.S))).split())
+        when = text(cells.get("field-smart-date"))
+        m = re.match(r"([A-Z][a-z]{2} \d{1,2}, \d{4})(?:\s*\|\s*(.+))?", when)
+        if not m:
+            continue
+        d = datetime.strptime(m.group(1), "%b %d, %Y").date()
+        clock = parse_clock(m.group(2) or "")
+        view = re.search(r'href="([^"]+)"', cells.get("view-node", ""))
+        agenda = re.search(r'href="([^"]+)"', cells.get("nothing-1", ""))
+        events.append(make_event(src, title=text(cells.get("title")) or "Public meeting",
+                                 start=datetime.combine(d, clock or time(0, 0), tz), all_day=clock is None,
+                                 url=urljoin(src["site"], view.group(1)) if view else src.get("homepage", ""),
+                                 agenda_url=htmllib.unescape(agenda.group(1)) if agenda else "",
+                                 location=src.get("default_location", ""), uid=view.group(1) if view else when))
+    return events
+
+
+def fetch_drupal_meetings(src, start_day, end_day, tz):
+    return normalize_drupal_meetings(src, get(src["site"].rstrip("/") + "/meetings").text, tz)
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1149,7 +1179,8 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook,
               "libcal": fetch_libcal, "mec_library": fetch_mec_library, "tribe": fetch_tribe,
               "evo": fetch_evo, "revize": fetch_revize, "agendacenter": fetch_agendacenter,
-              "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents}
+              "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents,
+              "drupal_meetings": fetch_drupal_meetings}
 
 
 # ---------- outputs ----------

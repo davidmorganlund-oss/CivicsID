@@ -448,3 +448,15 @@ def test_new_county_connectors():
              "meetings": [{"title": "Commissioners", "when": "2nd, 4th Monday"}]}
     got = build.fetch_schedule(sched, date(2026, 11, 1), date(2026, 11, 30), mt)
     assert [g["start"][:10] for g in got] == ["2026-11-09", "2026-11-23"] and all(g["all_day"] for g in got)
+
+
+def test_drupal_meetings():
+    src = {"id": "lincoln", "name": "Lincoln County", "area": "countywide", "county": "Lincoln", "site": "https://www.lincolncountyid.gov"}
+    page = ('<tbody> <tr> <td headers="view-field-smart-date-table-column" class="x"><strong class="tablesaw-cell-label" aria-hidden="true">Date</strong> '
+            '<span class="tablesaw-cell-content">Nov 9, 2026 | 10am </span></td> <td headers="view-title-table-column" class="x">'
+            '<strong class="tablesaw-cell-label" aria-hidden="true">Meeting</strong> <span>Board of Commissioners Meeting </span></td> '
+            '<td headers="view-nothing-1-table-column"><a href="https://mccmeetings.blob.core.usgovcloudapi.net/a.pdf">Agenda</a></td> '
+            '<td headers="view-view-node-table-column"><a href="/commissioners/meeting/board-commissioners-meeting-85">View</a></td> </tr></tbody>')
+    (e,) = build.normalize_drupal_meetings(src, page, ZoneInfo("America/Boise"))
+    assert e["title"] == "Board of Commissioners Meeting" and e["start"] == "2026-11-09T10:00:00-07:00"
+    assert e["url"].endswith("/board-commissioners-meeting-85") and e["agenda_url"].endswith("a.pdf")
