@@ -337,3 +337,518 @@ sources:
     area: Moscow
     timezone: America/Los_Angeles
     homepage: https://moscowid.portal.civicclerk.com/
+
+  # ---------- County commissioners, statewide (November 2026) ----------
+  # Where a county publishes a calendar, it is read directly. Where it only
+  # publishes a regular schedule, that schedule is entered here (and labeled
+  # on the site as coming from the regular schedule). "yield_to" names the
+  # county's own feed: on days that feed lists a meeting, the schedule
+  # placeholder is dropped so the meeting isn't listed twice.
+
+  - id: bannock-county
+    name: Bannock County
+    type: tribe
+    site: https://www.bannockcounty.gov
+    categories: [Board of County Commissioners]
+    default_category: council
+    county: Bannock
+    area: countywide
+    homepage: https://www.bannockcounty.gov/commissioners/
+
+  - id: bonner-county
+    name: Bonner County
+    type: evo
+    site: https://www.bonnercountyid.gov
+    calendars: [642, 837, 836, 840, 839, 841, 826, 843, 805, 803, 825]
+    default_category: council
+    county: Bonner
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.bonnercountyid.gov/meetings
+
+  - id: valley-county
+    name: Valley County
+    type: evo
+    site: https://www.valleycountyid.gov
+    calendars: [66, 75, 186, 77, 76, 78, 79, 129, 125, 218]
+    default_category: council
+    county: Valley
+    area: countywide
+    homepage: https://www.valleycountyid.gov/calendar/66/
+
+  - id: cassia-county
+    name: Cassia County
+    type: evo
+    site: https://www.cassia.gov
+    calendars: [419, 870, 871, 873]
+    default_category: council
+    county: Cassia
+    area: countywide
+    homepage: https://www.cassia.gov/meetings
+
+  - id: cassia-county-schedule
+    name: Cassia County
+    type: schedule
+    yield_to: [cassia-county]
+    county: Cassia
+    area: countywide
+    homepage: https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "09:00"
+        location: Commission Chambers, Room 206, 1459 Overland Avenue, Burley
+        category: council
+        url: https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
+
+  - id: canyon-county
+    name: Canyon County
+    type: canyon_agenda
+    site: https://agenda.canyoncounty.id.gov
+    default_location: County Courthouse, 1115 Albany Street, Caldwell
+    county: Canyon
+    area: countywide
+    homepage: https://agenda.canyoncounty.id.gov/Search
+
+  - id: madison-county
+    name: Madison County
+    type: revize
+    site: https://www.madisoncountyid.gov
+    webspace: madisoncounty
+    cms: cms2
+    drop_uncategorized: true
+    county: Madison
+    area: countywide
+    homepage: https://www.madisoncountyid.gov/calendar.php
+
+  - id: franklin-county
+    name: Franklin County
+    type: revize
+    site: https://www.franklincountyidaho.org
+    webspace: franklincounty
+    cms: cms2
+    drop_uncategorized: true
+    county: Franklin
+    area: countywide
+    homepage: https://www.franklincountyidaho.org/government/agendas_minutes.php
+
+  - id: franklin-county-schedule
+    name: Franklin County
+    type: schedule
+    yield_to: [franklin-county]
+    county: Franklin
+    area: countywide
+    homepage: https://www.franklincountyidaho.org/government/county_commissioners.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://www.franklincountyidaho.org/government/agendas_minutes.php
+
+  - id: clearwater-county
+    name: Clearwater County
+    type: revize
+    site: https://www.clearwatercounty.org
+    webspace: clearwaternew
+    cms: cms3
+    drop_uncategorized: true
+    county: Clearwater
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
+
+  - id: clearwater-county-schedule
+    name: Clearwater County
+    type: schedule
+    yield_to: [clearwater-county]
+    county: Clearwater
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.clearwatercounty.org/departments/commissioners/index.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "08:00"
+        category: council
+        url: https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
+
+  - id: teton-county
+    name: Teton County
+    type: revize
+    site: https://www.tetoncountyidaho.gov
+    webspace: tetoncounty
+    cms: cms3
+    drop_uncategorized: true
+    county: Teton
+    area: countywide
+    homepage: https://pub-tetoncounty.escribemeetings.com/
+
+  - id: teton-county-schedule
+    name: Teton County
+    type: schedule
+    yield_to: [teton-county]
+    county: Teton
+    area: countywide
+    homepage: https://www.tetoncountyidaho.gov/government/elected_officials/county_commissioners/index.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        category: council
+        url: https://pub-tetoncounty.escribemeetings.com/
+      - title: Board of County Commissioners
+        when: 4th Tuesday
+        time: "09:00"
+        category: council
+        url: https://pub-tetoncounty.escribemeetings.com/
+
+  - id: blaine-county
+    name: Blaine County
+    type: civicplus
+    site: https://www.blainecountyid.gov
+    categories: [23, 25]          # County Commissioners; Land Use & Building Services
+    default_category: council
+    county: Blaine
+    area: countywide
+    homepage: https://www.blainecountyid.gov/calendar.aspx
+
+  - id: fremont-county
+    name: Fremont County
+    type: civicplus
+    site: https://www.fremontcountyid.gov
+    categories: [41, 25]          # Board of County Commissioners; Planning & Zoning
+    default_category: council
+    county: Fremont
+    area: countywide
+    homepage: https://www.fremontcountyid.gov/calendar.aspx
+
+  - id: jefferson-county
+    name: Jefferson County
+    type: civicplus
+    site: https://www.jcgov.us
+    categories: [24, 31]          # Meetings; Planning, Zoning & Building
+    default_category: council
+    county: Jefferson
+    area: countywide
+    homepage: https://www.jcgov.us/calendar.aspx
+
+  - id: lemhi-county
+    name: Lemhi County
+    type: civicplus
+    site: https://www.lemhicountyidaho.org
+    categories: [14]
+    drop_uncategorized: true
+    county: Lemhi
+    area: countywide
+    homepage: https://www.lemhicountyidaho.org/AgendaCenter
+
+  - id: minidoka-county
+    name: Minidoka County
+    type: civicplus
+    site: https://www.minidoka.id.us
+    categories: [14, 26]          # Main Calendar; Planning and Zoning Hearing
+    drop_uncategorized: true
+    county: Minidoka
+    area: countywide
+    homepage: https://www.minidoka.id.us/AgendaCenter
+
+  - id: power-county
+    name: Power County
+    type: civicplus
+    site: https://www.powercounty.gov
+    categories: [23]              # Board of Commissioners
+    default_category: council
+    county: Power
+    area: countywide
+    homepage: https://www.powercounty.gov/AgendaCenter
+
+  - id: washington-county
+    name: Washington County
+    type: civicplus
+    site: https://www.co.washington.id.us
+    categories: [14]
+    drop_uncategorized: true
+    county: Washington
+    area: countywide
+    homepage: https://www.co.washington.id.us/calendar.aspx?CID=14
+
+  - id: clark-county
+    name: Clark County
+    type: agendacenter
+    site: https://www.clark-co.id.gov
+    category: 2
+    default_category: council
+    default_location: Commissioners' Chambers, 224 W. Main Street, Dubois
+    county: Clark
+    area: countywide
+    homepage: https://www.clark-co.id.gov/agendacenter
+
+  - id: jerome-county
+    name: Jerome County
+    type: agendacenter
+    site: https://www.jeromecountyid.us
+    category: 2
+    default_category: council
+    county: Jerome
+    area: countywide
+    homepage: https://www.jeromecountyid.us/AgendaCenter
+
+  - id: gooding-county
+    name: Gooding County
+    type: agendacenter
+    site: https://www.goodingcounty.org
+    category: 2
+    time: "10:00 AM"
+    default_category: council
+    default_location: 145 7th Avenue East, Gooding
+    county: Gooding
+    area: countywide
+    homepage: https://www.goodingcounty.org/agendacenter
+
+  - id: gooding-county-schedule
+    name: Gooding County
+    type: schedule
+    yield_to: [gooding-county]
+    county: Gooding
+    area: countywide
+    homepage: https://www.goodingcounty.org/agendacenter
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "10:00"
+        location: 145 7th Avenue East, Gooding
+        category: council
+        url: https://www.goodingcounty.org/agendacenter
+
+  - id: payette-county
+    name: Payette County
+    type: jevents
+    url: https://www.payettecounty.org/index.php?option=com_jevents&task=modlatest.rss&format=feed&type=rss&Itemid=374&modid=0
+    default_category: council
+    county: Payette
+    area: countywide
+    homepage: https://www.payettecounty.org/elected-officials/commissioners/agenda
+
+  - id: benewah-county
+    name: Benewah County
+    type: ics
+    url: https://benewahcountyid.gov/feeds/my-calendar-ics/
+    default_category: council
+    county: Benewah
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://benewahcountyid.gov/commissioners/
+
+  - id: lincoln-county
+    name: Lincoln County
+    type: civicclerk
+    tenant: lnclnctyid
+    county: Lincoln
+    area: countywide
+    homepage: https://www.lincolncountyid.gov/
+
+  - id: ketchum
+    name: City of Ketchum
+    type: civicclerk
+    tenant: ketchid
+    county: Blaine
+    area: Ketchum
+    homepage: https://www.ketchumidaho.org/
+
+  # Counties that publish a regular schedule and no calendar we can read.
+  - id: idaho-county
+    name: Idaho County
+    type: schedule
+    county: Idaho
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://idahocounty.org/planb/commissioners/
+    meetings:
+      - title: Idaho County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "09:00"
+        location: Idaho County Courthouse, 320 West Main Street, Grangeville
+        category: council
+        url: https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/
+
+  - id: nez-perce-county
+    name: Nez Perce County
+    type: schedule
+    county: Nez Perce
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas
+    meetings:
+      - title: County Commissioners agenda meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "13:30"
+        location: Confluence Room, 1st Floor, New Courthouse, 1230 Main Street, Lewiston
+        category: council
+        url: https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas
+
+  - id: shoshone-county
+    name: Shoshone County
+    type: schedule
+    county: Shoshone
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://shoshonecounty.id.gov/commissioners/
+    meetings:
+      - title: Commissioners Regular Business Meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Wednesday
+        time: "09:30"
+        category: council
+        url: https://shoshonecounty.id.gov/commissioners/
+
+  - id: boundary-county
+    name: Boundary County
+    type: schedule
+    county: Boundary
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://boundarycountyid.org/meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        category: council
+        url: https://boundarycountyid.org/meetings/
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        category: council
+        url: https://boundarycountyid.org/meetings/
+
+  - id: adams-county
+    name: Adams County
+    type: schedule
+    county: Adams
+    area: countywide
+    homepage: https://www.co.adams.id.us/county-commissioners
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 3rd, 4th Monday
+        category: council
+        url: https://www.co.adams.id.us/public-meetings
+
+  - id: bear-lake-county
+    name: Bear Lake County
+    type: schedule
+    county: Bear Lake
+    area: countywide
+    homepage: https://www.bearlakecounty.info/meetings.html
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        location: Commissioners' Room, Bear Lake County Courthouse, 30 North Main Street, Paris
+        category: council
+        url: https://www.bearlakecounty.info/meetings.html
+
+  - id: bingham-county
+    name: Bingham County
+    type: schedule
+    county: Bingham
+    area: countywide
+    homepage: https://www.binghamid.gov/
+    meetings:
+      - title: Bingham County Commission
+        when: 1st, 2nd, 3rd, 4th, 5th Wednesday
+        time: "08:15"
+        location: 501 N. Maple, Blackfoot
+        category: council
+        url: https://www.binghamid.gov/
+      - title: Bingham County Commission
+        when: 1st, 2nd, 3rd, 4th, 5th Friday
+        time: "08:15"
+        location: 501 N. Maple, Blackfoot
+        category: council
+        url: https://www.binghamid.gov/
+
+  - id: boise-county
+    name: Boise County
+    type: schedule
+    county: Boise
+    area: countywide
+    homepage: https://www.boisecounty.us/?p=620
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "09:00"
+        category: council
+        url: https://www.boisecounty.us/?p=620
+
+  - id: butte-county
+    name: Butte County
+    type: schedule
+    county: Butte
+    area: countywide
+    homepage: https://buttecountyid.us/butte-county-public-meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://buttecountyid.us/butte-county-public-meetings/
+
+  - id: camas-county
+    name: Camas County
+    type: schedule
+    county: Camas
+    area: countywide
+    homepage: https://camascounty.id.gov/category/commissioner-agenda/
+    meetings:
+      - title: Board of County Commissioners
+        dates: [2026-11-16, 2026-11-23, 2026-12-14, 2026-12-21, 2026-12-28]
+        location: Camas County Annex, 517 Soldier Road, Fairfield
+        category: council
+        url: https://camascounty.id.gov/category/commissioner-agenda/
+
+  - id: caribou-county
+    name: Caribou County
+    type: schedule
+    county: Caribou
+    area: countywide
+    homepage: https://www.cariboucounty.us/government/public_meeting.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        category: council
+        url: https://www.cariboucounty.us/government/public_meeting.php
+
+  - id: custer-county
+    name: Custer County
+    type: schedule
+    county: Custer
+    area: countywide
+    homepage: https://custercountyidaho.org/departments/commissioners/
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/
+
+  - id: elmore-county
+    name: Elmore County
+    type: schedule
+    county: Elmore
+    area: countywide
+    homepage: https://elmorecounty.org/commissioners/
+    meetings:
+      - title: Board of County Commissioners
+        dates: [2026-11-13, 2026-11-20, 2026-12-04, 2026-12-11, 2026-12-18]
+        location: Commissioners Room, basement of the Elmore County Courthouse, 150 South 4th East, Mountain Home
+        category: council
+        url: https://elmorecounty.org/commissioners/meeting-minutes-2-2/
+
+  - id: owyhee-county
+    name: Owyhee County
+    type: schedule
+    county: Owyhee
+    area: countywide
+    homepage: https://owyheecounty.net/commissioners/meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th Monday
+        time: "09:00"
+        location: Courtroom No. 2, Owyhee County Courthouse, Murphy
+        category: council
+        url: https://owyheecounty.net/commissioners/meetings/

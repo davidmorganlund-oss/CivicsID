@@ -677,7 +677,8 @@ def link_dated_agendas(events):
 def fetch_schedule(src, start_day, end_day, tz):
     events = []
     for mtg in src["meetings"]:
-        hh, mm = (int(x) for x in mtg["time"].split(":"))
+        timed = bool(mtg.get("time"))
+        hh, mm = (int(x) for x in mtg["time"].split(":")) if timed else (0, 0)
         end = None
         if mtg.get("end"):
             eh, em = (int(x) for x in mtg["end"].split(":"))
@@ -696,12 +697,13 @@ def fetch_schedule(src, start_day, end_day, tz):
             if mtg.get("end"):
                 end = datetime.combine(day, time(eh, em), tz)
             events.append(make_event(
-                src, title=mtg["title"], start=start, end=end,
+                src, title=mtg["title"], start=start, end=end, all_day=not timed,
                 location=mtg.get("location", ""), url=mtg.get("url", ""),
                 note=SCHEDULE_NOTE + (" " + mtg["note"] if mtg.get("note") else ""),
                 uid=f"{mtg['title']}|{day.isoformat()}", category=mtg.get("category", ""),
             ))
             events[-1]["cancelled"] = False  # the note's wording ("can be cancelled") is not a cancellation
+            events[-1]["_scheduled"] = True
             events[-1]["_agenda_page"] = mtg.get("agenda_page", "")
     link_dated_agendas(events)
     return events
@@ -947,12 +949,207 @@ def fetch_mec_library(src, start_day, end_day, tz):
     return list(found.values())
 
 
+
+# --- The Events Calendar (WordPress) REST API ---
+
+def normalize_tribe(src, rows, tz):
+    import html as htmllib
+    wanted = set(src.get("categories", []))
+    events = []
+    for r in rows:
+        cats = [c.get("name", "") for c in r.get("categories") or []]
+        if wanted and not wanted.intersection(cats):
+            continue
+        title = htmllib.unescape(r.get("title") or "").strip()
+        all_day = bool(r.get("all_day"))
+        start = datetime.strptime(r["start_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz)
+        end = datetime.strptime(r["end_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz) if r.get("end_date") and not all_day else None
+        if end and end.date() != start.date():
+            end = None
+        venue = r.get("venue") if isinstance(r.get("venue"), dict) else {}
+        place = ", ".join(p for p in [htmllib.unescape(venue.get("venue", "") or ""), venue.get("address", "")] if p)
+        title = re.sub(r"\s*\(action items?\)\s*$", "", title, flags=re.I)
+        events.append(make_event(src, title=title, start=start, end=end, all_day=all_day, location=place,
+                                 url=r.get("url", ""), uid=str(r.get("id", "")),
+                                 note=""))
+    return events
+
+
+def fetch_tribe(src, start_day, end_day, tz):
+    rows, url = [], src["site"].rstrip("/") + "/wp-json/tribe/events/v1/events"
+    params = {"per_page": 50, "start_date": start_day.isoformat(), "end_date": end_day.isoformat()}
+    for _ in range(10):
+        data = get(url, params).json()
+        rows.extend(data.get("events", []))
+        url, params = data.get("next_rest_url"), None
+        if not url:
+            break
+    return normalize_tribe(src, rows, tz)
+
+
+# --- evoGov county sites (Bonner, Cassia, Valley): the meetings list as JSON ---
+
+def href_of(fragment, base):
+    from urllib.parse import urljoin
+    m = re.search(r'href=\\?"([^"\\]+)', fragment or "")
+    return urljoin(base, m.group(1)) if m else ""
+
+
+def normalize_evo(src, rows, tz):
+    import html as htmllib
+    base = src["site"].rstrip("/") + "/"
+    events = []
+    for r in rows:
+        m = re.match(r"(\d{2}/\d{2}/\d{4})(?:\s*@\s*(\d{1,2}:\d{2}\s*[AP]M))?", r.get("start_date") or "")
+        if not m:
+            continue
+        day = datetime.strptime(m.group(1), "%m/%d/%Y").date()
+        clock = None if r.get("is_all_day") else parse_clock(m.group(2) or "")
+        place = ", ".join(p for p in [r.get("location") or "", r.get("location_street_address_1") or "",
+                                      r.get("location_city") or ""] if p.strip())
+        e = make_event(
+            src, title=htmllib.unescape(r.get("title") or "").strip(),
+            start=datetime.combine(day, clock or time(0, 0), tz), all_day=clock is None,
+            location=place, url=href_of(r.get("detail_link"), base),
+            agenda_url=href_of((r.get("agenda_links") or [""])[0], base), uid=str(r.get("id", "")),
+            note=htmllib.unescape(re.sub(r"<[^>]+>", " ", r.get("description") or "")),
+        )
+        events.append(e)
+    return events
+
+
+def fetch_evo(src, start_day, end_day, tz):
+    rows = get(src["site"].rstrip("/") + "/meetings/get_list",
+               {"selected_calendar_ids": ",".join(str(c) for c in src["calendars"]),
+                "start_date": start_day.strftime("%m/%d/%Y"), "end_date": end_day.strftime("%m/%d/%Y"),
+                "search": "", "sort_order": "date_start", "current_webpage": "meeting"}).json()
+    return normalize_evo(src, rows, tz)
+
+
+# --- Revize county and city sites: the calendar plugin's JSON ---
+
+def normalize_revize(src, rows, tz):
+    import html as htmllib
+    wanted = src.get("calendars")
+    events = []
+    for r in rows:
+        if wanted and r.get("primary_calendar_name") not in wanted:
+            continue
+        raw = r.get("start") or ""
+        if not raw:
+            continue
+        all_day = "T" not in raw
+        start = datetime.fromisoformat(raw[:19] if not all_day else raw[:10] + "T00:00").replace(tzinfo=tz)
+        end_raw = r.get("end") or ""
+        end = datetime.fromisoformat(end_raw[:19]).replace(tzinfo=tz) if "T" in end_raw and end_raw[:10] == raw[:10] else None
+        url = r.get("url") or ""
+        if re.search(r"goo\.gl/maps|google\.com/maps", url):
+            url = ""
+        events.append(make_event(src, title=htmllib.unescape(r.get("title") or "").strip(), start=start, end=end,
+                                 all_day=all_day, location=htmllib.unescape(r.get("location") or ""),
+                                 url=url, uid=str(r.get("id", "")) + "|" + raw))
+    return events
+
+
+def fetch_revize(src, start_day, end_day, tz):
+    rows = get(src["site"].rstrip("/") + "/_assets_/plugins/revizeCalendar/calendar_data_handler.php",
+               {"webspace": src["webspace"], "relative_revize_url": f"//{src['cms']}.revize.com", "protocol": "https:"}).json()
+    return normalize_revize(src, rows, tz)
+
+
+# --- CivicPlus Agenda Center: agendas as they are posted (no meeting time) ---
+
+AC_ROW = re.compile(r'aria-label="Agenda for ([A-Z][a-z]+ \d{1,2}, \d{4})".*?href="(/AgendaCenter/ViewFile/Agenda/[^"]+)"[^>]*>\s*(.*?)\s*</a>', re.S)
+
+
+def normalize_agendacenter(src, page, tz):
+    import html as htmllib
+    base = src["site"].rstrip("/")
+    m = re.search(rf'id="category-panel-{src["category"]}"(.*?)(?:id="category-panel-\d+"|$)', page, re.S)
+    if not m:
+        raise ValueError(f"agenda category {src['category']} not found")
+    clock = parse_clock(src.get("time", "")) if src.get("time") else None
+    events = []
+    for day, href, title in AC_ROW.findall(m.group(1)):
+        d = datetime.strptime(day, "%B %d, %Y").date()
+        title = htmllib.unescape(re.sub(r"<[^>]+>", "", title)).strip() or src.get("title", "Commissioners meeting")
+        events.append(make_event(src, title=title, start=datetime.combine(d, clock or time(0, 0), tz), all_day=clock is None,
+                                 location=src.get("default_location", ""), url=base + "/AgendaCenter",
+                                 agenda_url=base + href, uid=href))
+    return events
+
+
+def fetch_agendacenter(src, start_day, end_day, tz):
+    return normalize_agendacenter(src, get(src["site"].rstrip("/") + "/AgendaCenter").text, tz)
+
+
+# --- Canyon County Commissioners' agenda: one page per day ---
+
+CANYON_BLOCK = re.compile(r'Start Time</div>\s*<div class="cell-data">\s*([^<]+)</div>.*?End Time</div>.*?<div class="cell-header">\s*(.*?)\s*</div>\s*<div class="cell-data">\s*(?:<pre>(.*?)</pre>)?', re.S)
+
+
+def normalize_canyon_day(src, page, day, tz):
+    import html as htmllib
+    items = []
+    for clock, header, body in CANYON_BLOCK.findall(page):
+        header = htmllib.unescape(re.sub(r"<[^>]+>", "", header)).strip().rstrip(":")
+        if re.match(r"ministerial", header, re.I):
+            continue
+        items.append((parse_clock(clock), header))
+    if not items:
+        return []
+    first = min(c for c, _ in items if c) if any(c for c, _ in items) else None
+    e = make_event(src, title="Board of County Commissioners", start=datetime.combine(day, first or time(0, 0), tz),
+                   all_day=first is None, location=src.get("default_location", ""),
+                   url=f"{src['site'].rstrip('/')}/Agenda/Index?date={day.isoformat()}", uid=day.isoformat(),
+                   category="council")
+    add_highlights(e, [h for _, h in items])
+    return [e]
+
+
+def fetch_canyon_agenda(src, start_day, end_day, tz):
+    import time as clock
+    events = []
+    for i in range(src.get("days_ahead", 21)):
+        day = start_day + timedelta(days=i)
+        if day.weekday() >= 5:
+            continue
+        events += normalize_canyon_day(src, get(f"{src['site'].rstrip('/')}/Agenda/Index", {"date": day.isoformat()}).text, day, tz)
+        clock.sleep(0.5)
+    return events
+
+
+# --- Joomla JEvents "latest events" RSS: titles like "16 Nov 2026 09:00 : Commissioners Meeting" ---
+
+def normalize_jevents(src, xml_text, tz):
+    import html as htmllib
+    events = []
+    for block in re.findall(r"<item>.*?</item>", xml_text, re.S):
+        t = re.search(r"<title>(.*?)</title>", block, re.S)
+        link = re.search(r"<link>(.*?)</link>", block, re.S)
+        m = re.match(r"\s*(\d{1,2} [A-Z][a-z]{2} \d{4})(?:\s+(\d{1,2}:\d{2}))?\s*:\s*(.+)", htmllib.unescape(t.group(1)) if t else "")
+        if not m or CLOSURE_TITLE.search(m.group(3)):
+            continue
+        d = datetime.strptime(m.group(1), "%d %b %Y").date()
+        hh, mm = (int(x) for x in m.group(2).split(":")) if m.group(2) else (0, 0)
+        events.append(make_event(src, title=m.group(3).strip(), start=datetime.combine(d, time(hh, mm), tz),
+                                 all_day=not m.group(2), url=link.group(1).strip() if link else "",
+                                 location=src.get("default_location", ""), uid=link.group(1).strip() if link else m.group(3)))
+    return events
+
+
+def fetch_jevents(src, start_day, end_day, tz):
+    return normalize_jevents(src, get(src["url"]).text, tz)
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
               "primegov": fetch_primegov, "civicweb": fetch_civicweb,
               "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook,
-              "libcal": fetch_libcal, "mec_library": fetch_mec_library}
+              "libcal": fetch_libcal, "mec_library": fetch_mec_library, "tribe": fetch_tribe,
+              "evo": fetch_evo, "revize": fetch_revize, "agendacenter": fetch_agendacenter,
+              "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents}
 
 
 # ---------- outputs ----------
@@ -1051,6 +1248,16 @@ def main() -> int:
             print(f"[warn] {src['id']}: {status['error']}", file=sys.stderr)
         all_events.extend(found)
         statuses.append(status)
+
+    # A regular-schedule source can name the feeds it stands in for ("yield_to").
+    # On any day one of those feeds lists a meeting, the placeholder is dropped.
+    by_id = {src["id"]: src for src in cfg["sources"]}
+    real_days = {}
+    for e in all_events:
+        if not e.get("_scheduled"):
+            real_days.setdefault(e["source"], set()).add(e["start"][:10])
+    all_events = [e for e in all_events if not (e.get("_scheduled") and any(
+        e["start"][:10] in real_days.get(other, set()) for other in by_id.get(e["source"], {}).get("yield_to", [])))]
 
     for e in all_events:
         for k in [k for k in e if k.startswith("_")]:

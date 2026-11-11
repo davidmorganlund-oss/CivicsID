@@ -402,3 +402,49 @@ def test_mec_library_feed():
     assert cls["title"] == "Citizenship Class" and cls["area"] == "Moscow" and cls["category"] == "library"
     assert cls["start"] == "2026-11-12T17:30:00-08:00" and cls["end"] == "2026-11-12T18:30:00-08:00"
     assert board["category"] == "council" and board["area"] == "countywide"
+
+
+def test_new_county_connectors():
+    mt, pt = ZoneInfo("America/Boise"), ZoneInfo("America/Los_Angeles")
+    evo = {"id": "bonner", "name": "Bonner County", "area": "countywide", "county": "Bonner", "site": "https://www.bonnercountyid.gov"}
+    (e,) = build.normalize_evo(evo, [{"id": 5, "title": "Bonner County - Business Meeting", "start_date": "11/17/2026 @ 09:00AM",
+        "is_all_day": False, "location": "Bonner County Administrative Building", "location_street_address_1": "1500 Hwy 2",
+        "location_city": "Sandpoint", "detail_link": '<a href="https://www.bonnercountyid.gov/events/5/">x</a>',
+        "agenda_links": ['<a target="_blank" href="/meetingfiles/5/agendas/a.pdf">a.pdf</a>']}], pt)
+    assert e["start"] == "2026-11-17T09:00:00-08:00" and e["agenda_url"] == "https://www.bonnercountyid.gov/meetingfiles/5/agendas/a.pdf"
+    assert e["url"].endswith("/events/5/") and e["location"].startswith("Bonner County Administrative Building, 1500 Hwy 2")
+    rev = {"id": "madison", "name": "Madison County", "area": "countywide", "county": "Madison", "calendars": ["Board of County Commissioners"]}
+    (r,) = build.normalize_revize(rev, [
+        {"title": "Commissioner's Meeting", "primary_calendar_name": "Board of County Commissioners", "start": "2026-12-14T08:30:00",
+         "end": "2026-12-14T13:30:00", "url": "https://goo.gl/maps/x", "location": "Commissioners Meeting Room", "id": "1"},
+        {"title": "Rodeo", "primary_calendar_name": "Community", "start": "2026-12-15T08:30:00"}], mt)
+    assert r["start"] == "2026-12-14T08:30:00-07:00" and r["url"] == "" and r["category"] == "council"
+    tribe = {"id": "bannock", "name": "Bannock County", "area": "countywide", "county": "Bannock", "categories": ["Board of County Commissioners"]}
+    (b,) = build.normalize_tribe(tribe, [
+        {"id": 1, "title": "Bannock County Commissioners&#8217; Meeting (action items)", "start_date": "2026-11-10 09:00:00",
+         "end_date": "2026-11-10 10:00:00", "categories": [{"name": "Board of County Commissioners"}],
+         "venue": {"venue": "Bannock County Courthouse, room 119"}, "url": "https://x.org/1"},
+        {"id": 2, "title": "Veterans Coffee", "start_date": "2026-11-10 09:00:00", "categories": [{"name": "Veterans Event"}]}], mt)
+    assert b["title"] == "Bannock County Commissioners\u2019 Meeting" and b["location"] == "Bannock County Courthouse, room 119"
+    ac = {"id": "jerome", "name": "Jerome County", "area": "countywide", "county": "Jerome", "site": "https://www.jeromecountyid.us", "category": 2}
+    page = ('<div id="category-panel-2" > <table><tr class="catAgendaRow"><td><h3><strong aria-label="Agenda for November 10, 2026">Nov 10, 2026</strong></h3>'
+            '<p><a id="x" name="1726" href="/AgendaCenter/ViewFile/Agenda/_11102026-1726" target="_blank"> Commissioners Meeting </a></p></td></tr></table></div>'
+            '<div id="category-panel-3" ><strong aria-label="Agenda for November 12, 2026"></strong><a href="/AgendaCenter/ViewFile/Agenda/_x">P&Z</a></div>')
+    (j,) = build.normalize_agendacenter(ac, page, mt)
+    assert j["all_day"] and j["start"].startswith("2026-11-10") and j["agenda_url"].endswith("_11102026-1726") and j["title"] == "Commissioners Meeting"
+    canyon = {"id": "canyon", "name": "Canyon County", "area": "countywide", "county": "Canyon", "site": "https://agenda.canyoncounty.id.gov"}
+    blk = lambda t1, t2, h, body: (f'<div class="cell-header">Start Time</div> <div class="cell-data">{t1}</div> </div> <div><div class="cell-header">End Time</div> '
+                                   f'<div class="cell-data">{t2}</div> </div> <div class="col-lg mb-2"> <div class="cell-header">{h}</div> <div class="cell-data"> <pre>{body}</pre> </div>')
+    page = blk("08:00 AM", "05:00 PM", "Ministerial, Administrative acts, and action items including but not limited to:", "x") + \
+           blk("09:30 AM", "10:30 AM", "Meeting with County Attorneys for a Legal Staff Update", "y") + blk("11:00 AM", "11:30 AM", "Meeting with DSD for General Business", "z")
+    (c,) = build.normalize_canyon_day(canyon, page, date(2026, 11, 12), mt)
+    assert c["start"] == "2026-11-12T09:30:00-07:00" and c["highlights"] == ["Meeting with County Attorneys for a Legal Staff Update", "Meeting with DSD for General Business"]
+    jev = {"id": "payette", "name": "Payette County", "area": "countywide", "county": "Payette"}
+    xml = ("<rss><channel><item><title>11 Nov 2026 08:00 : Holiday Closure</title><link>https://x/1</link></item>"
+           "<item><title>16 Nov 2026 09:00 : Commissioners Meeting </title><link>https://x/2</link></item></channel></rss>")
+    (p,) = build.normalize_jevents(jev, xml, mt)
+    assert p["title"] == "Commissioners Meeting" and p["start"] == "2026-11-16T09:00:00-07:00"
+    sched = {"id": "s", "name": "Butte County", "area": "countywide", "county": "Butte",
+             "meetings": [{"title": "Commissioners", "when": "2nd, 4th Monday"}]}
+    got = build.fetch_schedule(sched, date(2026, 11, 1), date(2026, 11, 30), mt)
+    assert [g["start"][:10] for g in got] == ["2026-11-09", "2026-11-23"] and all(g["all_day"] for g in got)
