@@ -637,9 +637,24 @@ sources:
     timezone: America/Los_Angeles
     homepage: https://benewahcountyid.gov/commissioners/
 
-  # Lincoln County's site (lincolncountyid.gov/meetings) turns away automated
-  # readers, so it isn't connected. Its meetings page is linked from the
-  # county card instead.
+  # Lincoln County's meetings page turns away automated readers, so this is
+  # the regular schedule the county publishes on its Commissioners page:
+  # "the first 4 Mondays of every month, unless the Monday is a holiday and
+  # then generally the meeting will be held on Tuesday." Time from its listings.
+  - id: lincoln-county
+    name: Lincoln County
+    type: schedule
+    county: Lincoln
+    area: countywide
+    homepage: https://www.lincolncountyid.gov/commissioners
+    meetings:
+      - title: Board of Commissioners Meeting
+        when: 1st, 2nd, 3rd, 4th Monday
+        time: "10:00"
+        location: Lincoln County Courthouse, 111 W B St, Shoshone
+        category: council
+        url: https://www.lincolncountyid.gov/meetings
+        note: Moves to Tuesday when Monday is a holiday
 
   - id: ketchum
     name: City of Ketchum
@@ -865,3 +880,27 @@ sources:
         category: council
         url: https://maladidaho.org/city-council-calendar/
         agenda_page: https://maladidaho.org/minutes-agendas/
+
+  # Gem County posts each week's Monday/Tuesday agenda as a PDF on this list.
+  - id: gem-county
+    name: Gem County
+    type: pdf_agendas
+    list_url: https://www.gemcounty.org/government/county_commissioners/previous_agendas.php
+    link_match: Commissioner Agenda
+    default_location: Commissioners Meeting Room, Gem County Courthouse, 415 E. Main St, Emmett
+    county: Gem
+    area: countywide
+    homepage: https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php
+
+  # Lewis County's https certificate fails, but the same site over http names
+  # the next commissioners' meeting.
+  - id: lewis-county
+    name: Lewis County
+    type: next_meeting
+    page: http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas
+    meeting_title: Board of Lewis County Commissioners
+    default_location: Lewis County Courthouse, 510 Oak St, Nezperce
+    county: Lewis
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas

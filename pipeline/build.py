@@ -1185,6 +1185,86 @@ def fetch_drupal_meetings(src, start_day, end_day, tz):
     return normalize_drupal_meetings(src, get(src["site"].rstrip("/") + "/meetings").text, tz)
 
 
+
+# --- Agendas posted as Word-made PDFs on a list page (Gem County) ---
+
+PDF_DAY = re.compile(r"DATE:\s*(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s*([A-Z][a-z]+ \d{1,2}, \d{4})")
+PDF_ITEM = re.compile(r"^\s*(\d{1,2}(?::\d{2})?\s*[AP]\.?M\.?|NOON)\s+(.+)$", re.M)
+ROUTINE = re.compile(r"^(administrative time|lunch|review agenda|prosecuting attorney matters|public walk-in|"
+                     r"consent agenda|minutes|expense claims approval|commissioner room discussion)$", re.I)
+
+
+def sentence_case(text):
+    words = text.split()
+    out = [w if re.search(r"\d", w) else w.lower() for w in words]
+    return (out[0][:1].upper() + out[0][1:] + " " + " ".join(out[1:])).strip() if out else ""
+
+
+def normalize_pdf_agenda(src, text, pdf_url, start_day, end_day, tz):
+    text = re.sub(r"\s*[–-]\s*ACTION\s+ITEM", "", text)
+    days = list(PDF_DAY.finditer(text))
+    events = []
+    for i, m in enumerate(days):
+        d = datetime.strptime(m.group(1), "%B %d, %Y").date()
+        if not (start_day <= d <= end_day):
+            continue
+        body = text[m.end(): days[i + 1].start() if i + 1 < len(days) else len(text)]
+        body = body.split("OTHER MEETINGS:")[0]
+        items = [(clk, " ".join(what.split())) for clk, what in PDF_ITEM.findall(body)]
+        real = [(clk, what) for clk, what in items if not ROUTINE.match(what.strip())]
+        if not real:
+            continue  # a day of administrative time only
+        clock = parse_clock(items[0][0]) or time(9, 0)
+        ev = make_event(src, title=src.get("meeting_title", "Board of County Commissioners"),
+                        start=datetime.combine(d, clock, tz), url=pdf_url, agenda_url=pdf_url,
+                        location=src.get("default_location", ""), category="council", uid=pdf_url + m.group(1))
+        add_highlights(ev, [sentence_case(w) for _, w in real])
+        events.append(ev)
+    return events
+
+
+def fetch_pdf_agendas(src, start_day, end_day, tz):
+    import html as htmllib
+    import io
+    from urllib.parse import urljoin, quote
+    import pypdf
+    page = get(src["list_url"]).text
+    links = [htmllib.unescape(h) for h in re.findall(r'href="([^"]+?\.pdf)(?:\?[^"]*)?"', page, re.I)
+             if re.search(src.get("link_match", "Agenda"), h, re.I)]
+    events = []
+    for href in links[: src.get("recent", 3)]:
+        # Revize pages set <base> to the site root, so bare file names live there.
+        base = re.search(r"""<base[^>]*href=["']([^"']+)""", page, re.I)
+        url = urljoin(base.group(1) if base else urljoin(src["list_url"], "/"), quote(href, safe="/:"))
+        reader = pypdf.PdfReader(io.BytesIO(get(url).content))
+        text = "\n".join(pg.extract_text() or "" for pg in reader.pages)
+        events += normalize_pdf_agenda(src, text, url, start_day, end_day, tz)
+    return events
+
+
+# --- "Next meeting" notice on a county page (Lewis County, DNN) ---
+
+def normalize_next_meeting(src, page, page_url, tz):
+    import html as htmllib
+    text = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I))).split())
+    events = []
+    for m in re.finditer(r"(?:Monday|Tuesday|Wednesday|Thursday|Friday),\s*([A-Z][a-z]+ \d{1,2}, \d{4})\s*-\s*([A-Z][A-Za-z ]{3,60}?)(?=\s+(?:Agenda|Public|Lewis|BOARD|Notices|$))", text):
+        d = datetime.strptime(m.group(1), "%B %d, %Y").date()
+        kind = m.group(2).strip()
+        ev = make_event(src, title=f"{src.get('meeting_title', 'Board of County Commissioners')} ({kind})",
+                        start=datetime.combine(d, time(0, 0), tz), all_day=True, url=page_url,
+                        location=src.get("default_location", ""), category="council", uid=m.group(1) + kind)
+        if "coming soon" not in text.lower():
+            ev["agenda_url"] = page_url
+        events.append(ev)
+    return events
+
+
+def fetch_next_meeting(src, start_day, end_day, tz):
+    return [e for e in normalize_next_meeting(src, get(src["page"]).text, src["page"], tz)
+            if start_day.isoformat() <= e["start"][:10] <= end_day.isoformat()]
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1193,7 +1273,8 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "libcal": fetch_libcal, "mec_library": fetch_mec_library, "tribe": fetch_tribe,
               "evo": fetch_evo, "revize": fetch_revize, "agendacenter": fetch_agendacenter,
               "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents,
-              "drupal_meetings": fetch_drupal_meetings}
+              "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
+              "next_meeting": fetch_next_meeting}
 
 
 # ---------- outputs ----------

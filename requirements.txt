@@ -3,3 +3,4 @@ icalendar
 recurring-ical-events
 pyyaml
 pytest
+pypdf

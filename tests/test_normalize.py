@@ -471,3 +471,16 @@ def test_ics_skips_broken_repeat_rules():
     tz = ZoneInfo("America/Los_Angeles")
     evs = build.normalize_ics(src, ics, date(2026, 11, 1), date(2026, 12, 31), tz)
     assert [e["title"] for e in evs] == ["Commissioners Meeting"]
+
+
+def test_pdf_agenda_and_next_meeting():
+    src = {"id": "gem", "name": "Gem County", "area": "countywide", "county": "Gem"}
+    text = ("DATE: Monday, November 16, 2026 \n8:30 A.M. REVIEW AGENDA \u2013 ACTION ITEM \n9:30 A.M. TAX DEED PUBLIC HEARING \u2013 ACTION \nITEM \n"
+            "10:30 A.M. PUBLIC WALK-IN \nNOON LUNCH \nDATE: Tuesday, November 17, 2026 \n9:00 A.M. ADMINISTRATIVE TIME \nOTHER MEETINGS: x")
+    tz = ZoneInfo("America/Boise")
+    (e,) = build.normalize_pdf_agenda(src, text, "https://x/a.pdf", date(2026, 11, 11), date(2027, 1, 1), tz)
+    assert e["start"] == "2026-11-16T08:30:00-07:00" and e["highlights"] == ["Tax deed public hearing"]
+    page = "<div>BOARD OF LEWIS COUNTY COMMISSIONERS - MEETING AGENDA</div><p>Monday, November 16, 2026 - Regular Business Meeting</p><p>Agenda coming soon.</p><div>Public Records Request</div>"
+    (m,) = build.normalize_next_meeting({"id": "lewis", "name": "Lewis County", "area": "countywide", "county": "Lewis",
+                                          "meeting_title": "Board of Lewis County Commissioners"}, page, "http://p", tz)
+    assert m["title"] == "Board of Lewis County Commissioners (Regular Business Meeting)" and m["all_day"] and not m["agenda_url"]
