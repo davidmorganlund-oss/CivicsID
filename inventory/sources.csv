@@ -28,3 +28,8 @@ County,Teton,Teton,eScribe,pub-tetoncounty.escribemeetings.com,Links only,eScrib
 County,Cassia,Cassia,Own website,cassia.gov/meetings,Links only,
 County,Clark; Gooding; Jerome; Lemhi; Minidoka; Washington,,CivicPlus,AgendaCenter or calendar.aspx on each site,Links only,Likely readable with the civicplus connector once category numbers are looked up
 County,All others,,Various,site/data/local.json,Links only,See local.json for each county's website and meetings page
+Library,Coeur d'Alene Public Library,Kootenai,LibCal,cdalibrary.libcal.com,Live on CivicsID,Civic programs only; its City Meetings calendar also feeds Coeur d'Alene city boards
+Library,Community Library Network,Kootenai and Shoshone,LibCal,communitylibrary.libcal.com,Live on CivicsID,Athol Harrison Hayden Pinehurst Post Falls Rathdrum Spirit Lake; civic programs only
+Library,East Bonner County Library District,Bonner,Modern Events Calendar feed,ebonnerlibrary.org/events/feed/,Live on CivicsID,Civic programs only
+Library,Latah County Library District,Latah,Modern Events Calendar feed,latahlibrary.org/events/feed/,Live on CivicsID,Civic programs only
+Library,Boundary County; West Bonner; Benewah; Shoshone; Clearwater; Prairie River; Lewiston,,Unknown,,Not yet,Not looked up yet

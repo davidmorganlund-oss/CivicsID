@@ -167,6 +167,70 @@ sources:
         url: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
         agenda_page: https://www.cdaid.org/government/mayor-and-council/council-agendas/
 
+  # Other city boards that meet at the Coeur d'Alene library, from the
+  # library's "City Meetings at the Library" calendar. Council meetings are
+  # left to the source above, which carries the agenda link.
+  - id: coeur-dalene-boards
+    name: City of Coeur d'Alene
+    type: libcal
+    host: cdalibrary.libcal.com
+    calendar: 21178
+    only_categories: [City Meeting]
+    skip_titles: ^city council meeting
+    default_category: council
+    default_location: Coeur d'Alene Public Library
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/
+
+  # ---------- North Idaho libraries ----------
+  # Kept to civic programs: trustee and Friends meetings, programs filed
+  # under Civil/Social, and titles about voting, government and the like.
+  - id: cda-library
+    name: Coeur d'Alene Public Library
+    type: libcal
+    host: cdalibrary.libcal.com
+    calendar: 21136
+    civic_only: true
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://cdalibrary.org/events/
+
+  # Seven libraries in Kootenai and Shoshone counties.
+  - id: community-library-network
+    name: Community Library Network
+    type: libcal
+    host: communitylibrary.libcal.com
+    civic_only: true
+    county: Kootenai
+    area: countywide
+    campus_areas: {Hayden: Hayden, Post Falls: Post Falls, Rathdrum: Rathdrum, Athol: Athol,
+                   Spirit Lake: Spirit Lake, Harrison: Harrison, Pinehurst: Pinehurst}
+    campus_counties: {Pinehurst: Shoshone}
+    timezone: America/Los_Angeles
+    homepage: https://communitylibrary.libcal.com/
+
+  - id: east-bonner-library
+    name: East Bonner County Library District
+    type: mec_library
+    url: https://ebonnerlibrary.org/events/feed/
+    county: Bonner
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://ebonnerlibrary.org/events/
+
+  - id: latah-library
+    name: Latah County Library District
+    type: mec_library
+    url: https://www.latahlibrary.org/events/feed/
+    branches: [Moscow, Genesee, Potlatch, Troy, Deary, Bovill, Juliaetta]
+    county: Latah
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.latahlibrary.org/events-calendar/
+
   # Hayden's meetings portal. A meeting shows up when its agenda is posted.
   - id: hayden
     name: City of Hayden

@@ -824,11 +824,131 @@ def fetch_boardbook(src, start_day, end_day, tz):
     return events
 
 
+# --- LibCal (Springshare) library calendars: the public event list as JSON ---
+# Libraries post everything here, from storytime to trustee meetings. With
+# civic_only set, only the civic ones are kept: board and Friends meetings,
+# programs the library files under Civil/Social, and titles about voting,
+# government and the like. Closures are always dropped.
+
+def libcal_is_civic(title, categories):
+    if re.search(r"board|trustee", categories, re.I) or re.search(r"civil/social", categories, re.I):
+        return True
+    if re.search(r"friends of the library", categories + " " + title, re.I) and re.search(r"meeting", title, re.I):
+        return True
+    return bool(CIVIC_TITLE.search(title or ""))
+
+
+def normalize_libcal(src, rows, tz):
+    import html as htmllib
+    only = src.get("only_categories")
+    skip = re.compile(src["skip_titles"], re.I) if src.get("skip_titles") else None
+    counties = src.get("campus_counties", {})
+    events = []
+    for r in rows:
+        title = htmllib.unescape(r.get("title") or "").strip()
+        cats = r.get("categories") or ""
+        names = [c.strip() for c in cats.split(",")]
+        if not title or not r.get("startdt") or re.search(r"clos(ed|ure)", cats + " " + title, re.I):
+            continue
+        if only is not None and not any(n in only for n in names):
+            continue
+        if src.get("civic_only") and not libcal_is_civic(title, cats):
+            continue
+        if skip and skip.search(title):
+            continue
+        all_day = bool(r.get("all_day"))
+        start = datetime.strptime(r["startdt"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz)
+        end = None
+        if not all_day and r.get("enddt") and r["enddt"][:10] == r["startdt"][:10]:
+            end = datetime.strptime(r["enddt"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz)
+        campus = (r.get("campus") or "").strip()
+        room = htmllib.unescape(r.get("location") or "").strip()
+        building = campus if re.search(r"library", campus, re.I) or not campus else f"{campus} Library"
+        board = bool(re.search(r"board|trustee", cats + " " + title, re.I))
+        e = make_event(
+            src, title=title, start=start, end=end, all_day=all_day,
+            location=", ".join(p for p in [building if src.get("civic_only") else "", room] if p)
+                     or src.get("default_location", ""),
+            url=r.get("url") or "", uid=str(r.get("id", "")),
+            category=src.get("default_category") or
+                     (("hearing" if re.search(r"hearing", title, re.I) else "council") if board else "library"),
+            area=src.get("campus_areas", {}).get(campus, src["area"]) if not board or src.get("campus_areas", {}).get(campus) else src["area"],
+        )
+        if counties.get(campus):
+            e["county"] = counties[campus]
+        events.append(e)
+    return events
+
+
+def fetch_libcal(src, start_day, end_day, tz):
+    import time as clock
+    rows = []
+    for page in range(1, 41):  # 20 events a page, soonest first
+        data = get(f"https://{src['host']}/ajax/calendar/list",
+                   {"c": src.get("calendar", -1), "date": "0000-00-00", "perpage": 20, "page": page,
+                    "audience": "", "cats": "", "camps": "", "inc": 0}).json()
+        batch = data.get("results") or []
+        rows.extend(batch)
+        if len(batch) < 20 or batch[-1].get("startdt", "")[:10] > end_day.isoformat():
+            break
+        clock.sleep(0.5)  # be gentle with the library's server
+    return normalize_libcal(src, rows, tz)
+
+
+# --- Library sites on WordPress "Modern Events Calendar": the events feed, page by page ---
+# The time is in mec:startHour ("10:30 am" or "All Day"). Kept to civic programs, like LibCal.
+
+def normalize_mec_library(src, xml_text, tz):
+    import html as htmllib
+    events = []
+    for block in re.findall(r"<item>.*?</item>", xml_text, re.S):
+        def tag(name):
+            m = re.search(rf"<{name}>\s*(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?\s*</{name}>", block, re.S)
+            return htmllib.unescape(htmllib.unescape(m.group(1))).strip() if m else ""
+        title, day, cats = tag("title"), tag("mec:startDate"), tag("mec:category")
+        if not title or not day or re.search(r"\bclosed\b|closure", title, re.I):
+            continue
+        if not libcal_is_civic(title, cats):
+            continue
+        clock_ = parse_clock(tag("mec:startHour"))
+        end_clock = parse_clock(tag("mec:endHour"))
+        d = date.fromisoformat(day)
+        branch = re.match(r"^([A-Z][A-Za-z .']+?)\s+[–-]\s+(.+)$", title)
+        area = src["area"]
+        if branch and branch.group(1) in src.get("branches", []):
+            area, title = branch.group(1), branch.group(2)
+        board = bool(re.search(r"board|trustee", title, re.I))
+        events.append(make_event(
+            src, title=title, start=datetime.combine(d, clock_ or time(0, 0), tz),
+            end=datetime.combine(d, end_clock, tz) if clock_ and end_clock and tag("mec:endDate") == day else None,
+            all_day=clock_ is None, location=tag("mec:location"),
+            url=tag("link"), uid=tag("link") or title,
+            category=("hearing" if re.search(r"hearing", title, re.I) else "council") if board else "library",
+            area=src["area"] if board else area,
+        ))
+    return events
+
+
+def fetch_mec_library(src, start_day, end_day, tz):
+    import time as clock
+    found = {}
+    for page in range(1, 16):  # 10 events a page, soonest first
+        xml_text = get(src["url"], {"paged": page}).text
+        days = re.findall(r"<mec:startDate>(\d{4}-\d{2}-\d{2})</mec:startDate>", xml_text)
+        for e in normalize_mec_library(src, xml_text, tz):
+            found[e["id"]] = e
+        if len(days) < 10 or max(days) > end_day.isoformat():
+            break
+        clock.sleep(0.5)
+    return list(found.values())
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
               "primegov": fetch_primegov, "civicweb": fetch_civicweb,
-              "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook}
+              "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook,
+              "libcal": fetch_libcal, "mec_library": fetch_mec_library}
 
 
 # ---------- outputs ----------

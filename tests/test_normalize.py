@@ -349,3 +349,53 @@ def test_boardbook():
     assert build.boardbook_items(agenda) == [
         "Public hearing: PZE-24-0013 Hazelnut Glen Phased Subdivision Preliminary Plat",
         "Automatic License Plate Readers Policy Discussion"]
+
+
+def test_libcal_libraries():
+    pt = ZoneInfo("America/Los_Angeles")
+    cln = {"id": "cln", "name": "Community Library Network", "area": "countywide", "county": "Kootenai",
+           "timezone": "America/Los_Angeles", "civic_only": True,
+           "campus_areas": {"Hayden": "Hayden", "Pinehurst": "Pinehurst"}, "campus_counties": {"Pinehurst": "Shoshone"}}
+    rows = [
+        {"id": 1, "title": "Veterans Day", "startdt": "2026-11-11 00:00:00", "all_day": True, "categories": "Closures and Notices"},
+        {"id": 2, "title": "Board of Trustees Regular Meeting", "startdt": "2026-11-19 14:00:00", "enddt": "2026-11-19 16:00:00",
+         "categories": "Board Meetings", "campus": "Post Falls", "location": "Meeting Room 1, Meeting Room 2",
+         "url": "https://communitylibrary.libcal.com/event/2"},
+        {"id": 3, "title": "Preschool Storytime", "startdt": "2026-11-18 10:30:00", "categories": "Youth Programs", "campus": "Hayden"},
+        {"id": 4, "title": "Know Your Rights as a Renter", "startdt": "2026-11-20 17:00:00", "enddt": "2026-11-20 18:00:00",
+         "categories": "Adult Programs > Civil/Social", "campus": "Pinehurst", "location": "Meeting Room"},
+        {"id": 5, "title": "Voter Registration Help", "startdt": "2026-11-21 11:00:00", "categories": "Adult Programs", "campus": "Hayden"}]
+    board, renter, voter = build.normalize_libcal(cln, rows, pt)
+    assert board["category"] == "council" and board["area"] == "countywide" and board["county"] == "Kootenai"
+    assert board["start"] == "2026-11-19T14:00:00-08:00" and board["location"] == "Post Falls Library, Meeting Room 1, Meeting Room 2"
+    assert renter["category"] == "library" and renter["county"] == "Shoshone" and renter["area"] == "Pinehurst"
+    assert voter["area"] == "Hayden" and voter["end"] is None
+    city = {"id": "c", "name": "City of Coeur d'Alene", "area": "Coeur d'Alene", "county": "Kootenai",
+            "timezone": "America/Los_Angeles", "only_categories": ["City Meeting"], "skip_titles": "^city council meeting",
+            "default_category": "council", "default_location": "Coeur d'Alene Public Library"}
+    rows = [{"id": 1, "title": "City Council Meeting", "startdt": "2026-11-17 18:00:00", "categories": "City Meeting"},
+            {"id": 2, "title": "Planning Commission", "startdt": "2026-11-10 17:30:00", "categories": "City Meeting",
+             "location": "Community Room (Room 116)"},
+            {"id": 3, "title": "Planning Commission setup", "startdt": "2026-11-10 16:30:00", "categories": "City Meeting Prep"}]
+    (pc,) = build.normalize_libcal(city, rows, pt)
+    assert pc["title"] == "Planning Commission" and pc["location"] == "Community Room (Room 116)" and pc["category"] == "council"
+
+
+def test_mec_library_feed():
+    src = {"id": "latah", "name": "Latah County Library District", "area": "countywide", "county": "Latah",
+           "timezone": "America/Los_Angeles", "branches": ["Moscow", "Genesee"]}
+    xml = """<rss><channel><title>Events</title>
+    <item><title>Closed on Veterans Day</title><link>https://x.org/a</link>
+      <mec:startDate>2026-11-11</mec:startDate><mec:startHour>All Day</mec:startHour></item>
+    <item><title>Moscow &#8211; Babes &#038; Books</title><link>https://x.org/b</link>
+      <mec:startDate>2026-11-12</mec:startDate><mec:startHour>10:30 am</mec:startHour></item>
+    <item><title>Moscow &#8211; Citizenship Class</title><link>https://x.org/c</link>
+      <mec:startDate>2026-11-12</mec:startDate><mec:startHour>5:30 pm</mec:startHour>
+      <mec:endDate>2026-11-12</mec:endDate><mec:endHour>6:30 pm</mec:endHour><mec:location>Moscow Library</mec:location></item>
+    <item><title>Board of Trustees Meeting</title><link>https://x.org/d</link>
+      <mec:startDate>2026-11-18</mec:startDate><mec:startHour>4:00 pm</mec:startHour></item>
+    </channel></rss>"""
+    cls, board = build.normalize_mec_library(src, xml, ZoneInfo("America/Los_Angeles"))
+    assert cls["title"] == "Citizenship Class" and cls["area"] == "Moscow" and cls["category"] == "library"
+    assert cls["start"] == "2026-11-12T17:30:00-08:00" and cls["end"] == "2026-11-12T18:30:00-08:00"
+    assert board["category"] == "council" and board["area"] == "countywide"

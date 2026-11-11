@@ -43,6 +43,11 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of Coeur d'Alene | Kootenai | Published council schedule | `schedule` | Council only; links the agenda packet once posted |
 | City of Hayden | Kootenai | BoardBook | `boardbook` | Shows a meeting once its agenda is posted, with agenda highlights |
 | City of Rathdrum | Kootenai | Entered by hand | `schedule` | Site turns away automated readers; update each January |
+| Coeur d'Alene city boards | Kootenai | Library's LibCal calendar | `libcal` | City boards that meet at the library |
+| Coeur d'Alene Public Library | Kootenai | LibCal | `libcal` | Civic programs only |
+| Community Library Network | Kootenai, Shoshone | LibCal | `libcal` | Seven libraries; civic programs only |
+| East Bonner County Library District | Bonner | Events feed | `mec_library` | Civic programs only |
+| Latah County Library District | Latah | Events feed | `mec_library` | Civic programs only |
 | City of Lewiston | Nez Perce | CivicClerk | `civicclerk` | Pacific time |
 | City of Moscow | Latah | CivicClerk | `civicclerk` | Pacific time |
 
