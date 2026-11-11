@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:55:22-07:00",
+ "generated": "2026-11-11T10:56:25-07:00",
  "events": [
   {
    "id": "bf2220ee19d2",
@@ -193,13 +193,13 @@
    "start": "2026-11-12T11:00:00-08:00",
    "end": null,
    "all_day": false,
-   "location": "",
+   "location": "Hayden City Hall Council Chambers, 8930 N. Government Way",
    "url": "https://meetings.boardbook.org/Public/Agenda/2366?meeting=772713",
    "agenda_url": "",
    "note": "",
    "cancelled": false,
    "highlights": [
-    "Ordinary People, Extraordinary Lives Volume 1 Book Order ACTION ITEM",
+    "Ordinary People, Extraordinary Lives Volume 1 Book Order",
     "Discuss historical items to donate to the Museum of North Idaho",
     "Update on: Ordinary People, Extraordinary Lives: Volume 2"
    ],
@@ -253,7 +253,7 @@
    "start": "2026-11-12T15:00:00-08:00",
    "end": null,
    "all_day": false,
-   "location": "",
+   "location": "Hayden City Hall Council Chambers, 8930 N. Government Way",
    "url": "https://meetings.boardbook.org/Public/Agenda/2366?meeting=773366",
    "agenda_url": "",
    "note": "",
