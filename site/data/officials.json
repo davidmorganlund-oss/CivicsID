@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:41:27-07:00",
+ "generated": "2026-11-11T10:44:00-07:00",
  "legislators": {
   "16": {
    "senate": [
@@ -7,8 +7,7 @@
      "name": "Ali Rabe",
      "party": "Democrat",
      "phone": "",
-     "email": "arabe@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6687/"
+     "email": "arabe@senate.idaho.gov"
     }
    ],
    "house": [
@@ -17,7 +16,6 @@
      "party": "Democrat",
      "phone": "",
      "email": "sgalaviz@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7862/",
      "seat": "A"
     },
     {
@@ -25,7 +23,6 @@
      "party": "Democrat",
      "phone": "208-332-1075",
      "email": "ahendersonhaws@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2026/id10055/",
      "seat": "B"
     }
    ]
@@ -36,8 +33,7 @@
      "name": "Dave Lent",
      "party": "Republican",
      "phone": "208-521-0716",
-     "email": "dlent@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5345/"
+     "email": "dlent@senate.idaho.gov"
     }
    ],
    "house": [
@@ -46,7 +42,6 @@
      "party": "Republican",
      "phone": "208-332-1189",
      "email": "behardt@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id4945/",
      "seat": "A"
     },
     {
@@ -54,7 +49,6 @@
      "party": "Republican",
      "phone": "208-241-5665",
      "email": "merickson@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6700/",
      "seat": "B"
     }
    ]
@@ -65,8 +59,7 @@
      "name": "Ben Adams",
      "party": "Republican",
      "phone": "208-546-9393",
-     "email": "badams@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6685/"
+     "email": "badams@senate.idaho.gov"
     }
    ],
    "house": [
@@ -75,7 +68,6 @@
      "party": "Republican",
      "phone": "208-880-3562",
      "email": "jcornilles@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7802/",
      "seat": "A"
     },
     {
@@ -83,7 +75,6 @@
      "party": "Republican",
      "phone": "",
      "email": "jcrane@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7803/",
      "seat": "B"
     }
    ]
@@ -94,8 +85,7 @@
      "name": "Julie VanOrden",
      "party": "Republican",
      "phone": "208-684-4052",
-     "email": "jvanorden@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2129/"
+     "email": "jvanorden@senate.idaho.gov"
     }
    ],
    "house": [
@@ -104,7 +94,6 @@
      "party": "Republican",
      "phone": "208-332-1086",
      "email": "dcannon@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6699/",
      "seat": "A"
     },
     {
@@ -112,7 +101,6 @@
      "party": "Republican",
      "phone": "",
      "email": "bfuhriman@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9429/",
      "seat": "B"
     }
    ]
@@ -123,8 +111,7 @@
      "name": "Ben Toews",
      "party": "Republican",
      "phone": "208-209-7791",
-     "email": "btoews@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7795/"
+     "email": "btoews@senate.idaho.gov"
     }
    ],
    "house": [
@@ -133,7 +120,6 @@
      "party": "Republican",
      "phone": "",
      "email": "jalfieri@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7857/",
      "seat": "A"
     },
     {
@@ -141,7 +127,6 @@
      "party": "Republican",
      "phone": "208-654-3228",
      "email": "eprice@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7856/",
      "seat": "B"
     }
    ]
@@ -152,8 +137,7 @@
      "name": "Dan Foreman",
      "party": "Republican",
      "phone": "",
-     "email": "dforeman@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id4269/"
+     "email": "dforeman@senate.idaho.gov"
     }
    ],
    "house": [
@@ -162,7 +146,6 @@
      "party": "Republican",
      "phone": "208-743-5517",
      "email": "lmccann@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id6955/",
      "seat": "A"
     },
     {
@@ -170,7 +153,6 @@
      "party": "Republican",
      "phone": "",
      "email": "bmitchell@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6704/",
      "seat": "B"
     }
    ]
@@ -181,8 +163,7 @@
      "name": "Brandon Shippy",
      "party": "Republican",
      "phone": "208-332-1325",
-     "email": "bshippy@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id9215/"
+     "email": "bshippy@senate.idaho.gov"
     }
    ],
    "house": [
@@ -191,7 +172,6 @@
      "party": "Republican",
      "phone": "",
      "email": "jshirts@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9421/",
      "seat": "A"
     },
     {
@@ -199,7 +179,6 @@
      "party": "Republican",
      "phone": "",
      "email": "jboyle@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id745/",
      "seat": "B"
     }
    ]
@@ -210,8 +189,7 @@
      "name": "Brian Lenney",
      "party": "Republican",
      "phone": "",
-     "email": "blenney@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7778/"
+     "email": "blenney@senate.idaho.gov"
     }
    ],
    "house": [
@@ -220,7 +198,6 @@
      "party": "Republican",
      "phone": "",
      "email": "bcrane@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id21/",
      "seat": "A"
     },
     {
@@ -228,7 +205,6 @@
      "party": "Republican",
      "phone": "208-332-1063",
      "email": "stanner@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9419/",
      "seat": "B"
     }
    ]
@@ -239,8 +215,7 @@
      "name": "Doug Ricks",
      "party": "Republican",
      "phone": "208-557-9665",
-     "email": "dricks@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5383/"
+     "email": "dricks@senate.idaho.gov"
     }
    ],
    "house": [
@@ -249,7 +224,6 @@
      "party": "Republican",
      "phone": "208-390-6128",
      "email": "jweber@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6709/",
      "seat": "A"
     },
     {
@@ -257,7 +231,6 @@
      "party": "Republican",
      "phone": "",
      "email": "braybould@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5381/",
      "seat": "B"
     }
    ]
@@ -268,8 +241,7 @@
      "name": "Janie Ward-Engelking",
      "party": "Democrat",
      "phone": "208-861-6434",
-     "email": "jwardengelking@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2091/"
+     "email": "jwardengelking@senate.idaho.gov"
     }
    ],
    "house": [
@@ -278,7 +250,6 @@
      "party": "Democrat",
      "phone": "208-866-4776",
      "email": "irubel@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2888/",
      "seat": "A"
     },
     {
@@ -286,7 +257,6 @@
      "party": "Democrat",
      "phone": "208-332-1080",
      "email": "bgreen@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5374/",
      "seat": "B"
     }
    ]
@@ -297,8 +267,7 @@
      "name": "Tammy Nichols",
      "party": "Republican",
      "phone": "",
-     "email": "tnichols@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5380/"
+     "email": "tnichols@senate.idaho.gov"
     }
    ],
    "house": [
@@ -307,7 +276,6 @@
      "party": "Republican",
      "phone": "208-286-7842",
      "email": "mmoyle@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id43/",
      "seat": "A"
     },
     {
@@ -315,7 +283,6 @@
      "party": "Republican",
      "phone": "208-332-1178",
      "email": "bskaug@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6708/",
      "seat": "B"
     }
    ]
@@ -326,8 +293,7 @@
      "name": "Scott Grow",
      "party": "Republican",
      "phone": "",
-     "email": "sgrow@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5126/"
+     "email": "sgrow@senate.idaho.gov"
     }
    ],
    "house": [
@@ -336,7 +302,6 @@
      "party": "Republican",
      "phone": "208-332-1124",
      "email": "thill@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7859/",
      "seat": "A"
     },
     {
@@ -344,7 +309,6 @@
      "party": "Republican",
      "phone": "",
      "email": "jtanner@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7860/",
      "seat": "B"
     }
    ]
@@ -355,8 +319,7 @@
      "name": "Camille Blaylock",
      "party": "Republican",
      "phone": "208-484-3183",
-     "email": "cblaylock@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9400/"
+     "email": "cblaylock@senate.idaho.gov"
     }
    ],
    "house": [
@@ -365,7 +328,6 @@
      "party": "Republican",
      "phone": "",
      "email": "kmarmon@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9417/",
      "seat": "A"
     },
     {
@@ -373,7 +335,6 @@
      "party": "Republican",
      "phone": "208-800-2579",
      "email": "lcayler@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9418/",
      "seat": "B"
     }
    ]
@@ -384,8 +345,7 @@
      "name": "Carl Bjerke",
      "party": "Republican",
      "phone": "208-704-0925",
-     "email": "cbjerke@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7796/"
+     "email": "cbjerke@senate.idaho.gov"
     }
    ],
    "house": [
@@ -394,7 +354,6 @@
      "party": "Republican",
      "phone": "208-667-9330",
      "email": "rmendive@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id2124/",
      "seat": "A"
     },
     {
@@ -402,7 +361,6 @@
      "party": "Republican",
      "phone": "",
      "email": "twisniewski@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5384/",
      "seat": "B"
     }
    ]
@@ -413,8 +371,7 @@
      "name": "Carrie Semmelroth",
      "party": "Democrat",
      "phone": "",
-     "email": "csemmelroth@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7115/"
+     "email": "csemmelroth@senate.idaho.gov"
     }
    ],
    "house": [
@@ -423,7 +380,6 @@
      "party": "Democrat",
      "phone": "208-343-1608",
      "email": "jgannon@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2144/",
      "seat": "A"
     },
     {
@@ -431,7 +387,6 @@
      "party": "Democrat",
      "phone": "",
      "email": "megbert@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id9195/",
      "seat": "B"
     }
    ]
@@ -442,8 +397,7 @@
      "name": "Cindy Carlson",
      "party": "Republican",
      "phone": "208-494-2633",
-     "email": "ccarlson@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7776/"
+     "email": "ccarlson@senate.idaho.gov"
     }
    ],
    "house": [
@@ -452,7 +406,6 @@
      "party": "Republican",
      "phone": "208-305-0185",
      "email": "kharris@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9415/",
      "seat": "A"
     },
     {
@@ -460,7 +413,6 @@
      "party": "Republican",
      "phone": "",
      "email": "cshepherd@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6707/",
      "seat": "B"
     }
    ]
@@ -471,8 +423,7 @@
      "name": "Todd Lakey",
      "party": "Republican",
      "phone": "208-908-4415",
-     "email": "tlakey@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2132/"
+     "email": "tlakey@senate.idaho.gov"
     }
    ],
    "house": [
@@ -481,7 +432,6 @@
      "party": "Republican",
      "phone": "",
      "email": "cbruce@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9423/",
      "seat": "A"
     },
     {
@@ -489,7 +439,6 @@
      "party": "Republican",
      "phone": "208-250-9882",
      "email": "sdygert@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9424/",
      "seat": "B"
     }
    ]
@@ -500,8 +449,7 @@
      "name": "Melissa Wintrow",
      "party": "Democrat",
      "phone": "",
-     "email": "mwintrow@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3139/"
+     "email": "mwintrow@senate.idaho.gov"
     }
    ],
    "house": [
@@ -510,7 +458,6 @@
      "party": "Democrat",
      "phone": "",
      "email": "mchurch@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9422/",
      "seat": "A"
     },
     {
@@ -518,7 +465,6 @@
      "party": "Democrat",
      "phone": "",
      "email": "cmathias@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id6703/",
      "seat": "B"
     }
    ]
@@ -529,8 +475,7 @@
      "name": "Christy Zito",
      "party": "Republican",
      "phone": "208-590-4633",
-     "email": "czito@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id4281/"
+     "email": "czito@senate.idaho.gov"
     }
    ],
    "house": [
@@ -539,7 +484,6 @@
      "party": "Republican",
      "phone": "",
      "email": "rbeiswenger@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9416/",
      "seat": "A"
     },
     {
@@ -547,7 +491,6 @@
      "party": "Republican",
      "phone": "208-634-6569",
      "email": "fthompson@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9420/",
      "seat": "B"
     }
    ]
@@ -558,8 +501,7 @@
      "name": "Kelly Anthon",
      "party": "Republican",
      "phone": "",
-     "email": "kanthon@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3524/"
+     "email": "kanthon@senate.idaho.gov"
     }
    ],
    "house": [
@@ -568,7 +510,6 @@
      "party": "Republican",
      "phone": "208-862-3387",
      "email": "dpickett@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7810/",
      "seat": "A"
     },
     {
@@ -576,7 +517,6 @@
      "party": "Republican",
      "phone": "",
      "email": "chandy@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7811/",
      "seat": "B"
     }
    ]
@@ -587,8 +527,7 @@
      "name": "Glenneda Zuiderveld",
      "party": "Republican",
      "phone": "",
-     "email": "gzuiderveld@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7798/"
+     "email": "gzuiderveld@senate.idaho.gov"
     }
    ],
    "house": [
@@ -597,7 +536,6 @@
      "party": "Republican",
      "phone": "",
      "email": "chostetler@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9425/",
      "seat": "A"
     },
     {
@@ -605,7 +543,6 @@
      "party": "Republican",
      "phone": "208-332-1061",
      "email": "smiller@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2134/",
      "seat": "B"
     }
    ]
@@ -616,8 +553,7 @@
      "name": "Codi Galloway",
      "party": "Republican",
      "phone": "208-614-2634",
-     "email": "cgalloway@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id6702/"
+     "email": "cgalloway@senate.idaho.gov"
     }
    ],
    "house": [
@@ -626,7 +562,6 @@
      "party": "Democrat",
      "phone": "",
      "email": "sberch@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5368/",
      "seat": "A"
     },
     {
@@ -634,7 +569,6 @@
      "party": "Republican",
      "phone": "208-718-0464",
      "email": "dhealey@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id7861/",
      "seat": "B"
     }
    ]
@@ -645,8 +579,7 @@
      "name": "Jim Woodward",
      "party": "Republican",
      "phone": "",
-     "email": "jwoodward@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2021/id5347/"
+     "email": "jwoodward@senate.idaho.gov"
     }
    ],
    "house": [
@@ -655,7 +588,6 @@
      "party": "Republican",
      "phone": "",
      "email": "msauter@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7799/",
      "seat": "A"
     },
     {
@@ -663,7 +595,6 @@
      "party": "Republican",
      "phone": "208-290-7403",
      "email": "crasor@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id9315/",
      "seat": "B"
     }
    ]
@@ -674,8 +605,7 @@
      "name": "Phil Hart",
      "party": "Republican",
      "phone": "",
-     "email": "phil.hart@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id26/"
+     "email": "phil.hart@senate.idaho.gov"
     }
    ],
    "house": [
@@ -684,7 +614,6 @@
      "party": "Republican",
      "phone": "",
      "email": "hscott@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3137/",
      "seat": "A"
     },
     {
@@ -692,7 +621,6 @@
      "party": "Republican",
      "phone": "",
      "email": "dhawkins@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7855/",
      "seat": "B"
     }
    ]
@@ -703,8 +631,7 @@
      "name": "Jim Guthrie",
      "party": "Republican",
      "phone": "208-251-9303",
-     "email": "jguthrie@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id1179/"
+     "email": "jguthrie@senate.idaho.gov"
     }
    ],
    "house": [
@@ -713,7 +640,6 @@
      "party": "Republican",
      "phone": "208-339-2629",
      "email": "rcheatum@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7812/",
      "seat": "A"
     },
     {
@@ -721,7 +647,6 @@
      "party": "Republican",
      "phone": "",
      "email": "dgarner@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7813/",
      "seat": "B"
     }
    ]
@@ -732,8 +657,7 @@
      "name": "Josh Kohl",
      "party": "Republican",
      "phone": "",
-     "email": "jkohl@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9401/"
+     "email": "jkohl@senate.idaho.gov"
     }
    ],
    "house": [
@@ -742,7 +666,6 @@
      "party": "Republican",
      "phone": "",
      "email": "dhall@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2026/id10355/",
      "seat": "A"
     },
     {
@@ -750,7 +673,6 @@
      "party": "Republican",
      "phone": "208-358-0203",
      "email": "dleavitt@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9426/",
      "seat": "B"
     }
    ]
@@ -761,8 +683,7 @@
      "name": "Doug Okuniewicz",
      "party": "Republican",
      "phone": "",
-     "email": "dougo@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6706/"
+     "email": "dougo@senate.idaho.gov"
     }
    ],
    "house": [
@@ -771,7 +692,6 @@
      "party": "Republican",
      "phone": "208-620-0873",
      "email": "vbar@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id1171/",
      "seat": "A"
     },
     {
@@ -779,7 +699,6 @@
      "party": "Republican",
      "phone": "208-252-5070",
      "email": "jredman@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7800/",
      "seat": "B"
     }
    ]
@@ -790,8 +709,7 @@
      "name": "James Ruchti",
      "party": "Democrat",
      "phone": "",
-     "email": "jruchti@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2024/id52/"
+     "email": "jruchti@senate.idaho.gov"
     }
    ],
    "house": [
@@ -800,7 +718,6 @@
      "party": "Republican",
      "phone": "208-252-5295",
      "email": "dmanwaring@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id4277/",
      "seat": "A"
     },
     {
@@ -808,7 +725,6 @@
      "party": "Republican",
      "phone": "208-252-5502",
      "email": "tburgoyne@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9428/",
      "seat": "B"
     }
    ]
@@ -819,8 +735,7 @@
      "name": "Kevin Cook",
      "party": "Republican",
      "phone": "208-521-6776",
-     "email": "kcook@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id6686/"
+     "email": "kcook@senate.idaho.gov"
     }
    ],
    "house": [
@@ -829,7 +744,6 @@
      "party": "Republican",
      "phone": "208-715-7770",
      "email": "smickelsen@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7814/",
      "seat": "A"
     },
     {
@@ -837,7 +751,6 @@
      "party": "Republican",
      "phone": "208-332-1071",
      "email": "ebingham@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2026/id10415/",
      "seat": "B"
     }
    ]
@@ -848,8 +761,7 @@
      "name": "Ron Taylor",
      "party": "Democrat",
      "phone": "208-831-1726",
-     "email": "rtaylor@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7836/"
+     "email": "rtaylor@senate.idaho.gov"
     }
    ],
    "house": [
@@ -858,7 +770,6 @@
      "party": "Republican",
      "phone": "208-490-4709",
      "email": "mpohanka@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9427/",
      "seat": "A"
     },
     {
@@ -866,7 +777,6 @@
      "party": "Republican",
      "phone": "208-320-1921",
      "email": "jnelsen@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7838/",
      "seat": "B"
     }
    ]
@@ -877,8 +787,7 @@
      "name": "Josh Keyser",
      "party": "Republican",
      "phone": "",
-     "email": "jkeyser@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2025/id9395/"
+     "email": "jkeyser@senate.idaho.gov"
     }
    ],
    "house": [
@@ -887,7 +796,6 @@
      "party": "Republican",
      "phone": "208-332-1062",
      "email": "jpalmer@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id749/",
      "seat": "A"
     },
     {
@@ -895,7 +803,6 @@
      "party": "Republican",
      "phone": "208-284-9542",
      "email": "jholtzclaw@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2086/",
      "seat": "B"
     }
    ]
@@ -906,8 +813,7 @@
      "name": "Treg Bernt",
      "party": "Republican",
      "phone": "",
-     "email": "tbernt@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7797/"
+     "email": "tbernt@senate.idaho.gov"
     }
    ],
    "house": [
@@ -916,7 +822,6 @@
      "party": "Republican",
      "phone": "208-450-5615",
      "email": "jpetzke@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7863/",
      "seat": "A"
     },
     {
@@ -924,7 +829,6 @@
      "party": "Republican",
      "phone": "208-278-2818",
      "email": "jehlers@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7805/",
      "seat": "B"
     }
    ]
@@ -935,8 +839,7 @@
      "name": "Lori Den Hartog",
      "party": "Republican",
      "phone": "",
-     "email": "ldenhartog@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3124/"
+     "email": "ldenhartog@senate.idaho.gov"
     }
    ],
    "house": [
@@ -945,7 +848,6 @@
      "party": "Republican",
      "phone": "208-888-4210",
      "email": "jvanderwoude@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id67/",
      "seat": "A"
     },
     {
@@ -953,7 +855,6 @@
      "party": "Republican",
      "phone": "208-884-8684",
      "email": "jmonks@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id2084/",
      "seat": "B"
     }
    ]
@@ -964,8 +865,7 @@
      "name": "Van Burtenshaw",
      "party": "Republican",
      "phone": "",
-     "email": "vburtenshaw@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3140/"
+     "email": "vburtenshaw@senate.idaho.gov"
     }
    ],
    "house": [
@@ -974,7 +874,6 @@
      "party": "Republican",
      "phone": "208-317-8777",
      "email": "jraymond@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5382/",
      "seat": "A"
     },
     {
@@ -982,7 +881,6 @@
      "party": "Republican",
      "phone": "208-589-1100",
      "email": "rfurniss@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id5372/",
      "seat": "B"
     }
    ]
@@ -993,8 +891,7 @@
      "name": "Mark Harris",
      "party": "Republican",
      "phone": "208-547-3360",
-     "email": "mharris@senate.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id3584/"
+     "email": "mharris@senate.idaho.gov"
     }
    ],
    "house": [
@@ -1003,7 +900,6 @@
      "party": "Republican",
      "phone": "208-223-2544",
      "email": "mveile@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2026/id10155/",
      "seat": "A"
     },
     {
@@ -1011,7 +907,6 @@
      "party": "Republican",
      "phone": "208-360-3926",
      "email": "joshwheeler@house.idaho.gov",
-     "url": "https://legislature.idaho.gov/legislators/membership/2023/id7839/",
      "seat": "B"
     }
    ]
