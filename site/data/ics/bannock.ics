@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Bannock County
 BEGIN:VEVENT
 UID:0473cade91ad@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261112T160000Z
 DTEND:20261112T210000Z
 SUMMARY:City Council Work Session (City of Pocatello)
@@ -13,7 +13,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:71c39df603f8@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261113T003000Z
 DTEND:20261113T013000Z
 SUMMARY:Hearing Examiner (City of Pocatello)
@@ -22,7 +22,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:c901f2f4f717@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261117T190000Z
 DTEND:20261117T200000Z
 SUMMARY:Community Development Block Grant Advisory Committee Meeting (City of Pocatello)
@@ -31,7 +31,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:34d1a8c353eb@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261117T230000Z
 DTEND:20261118T000000Z
 SUMMARY:Library Board Meeting (City of Pocatello)
@@ -40,7 +40,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:963e85fa1c68@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Pocatello Development Authority Meeting (City of Pocatello)
@@ -49,7 +49,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:e8c390d894ca@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261119T003000Z
 DTEND:20261119T010000Z
 SUMMARY:Planning & Zoning Commission Clarification Meeting (City of Pocatello)
@@ -58,7 +58,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:b66c4ff86542@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261119T010000Z
 DTEND:20261119T023000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Pocatello)
@@ -67,7 +67,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:67657e52fd60@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261120T003000Z
 DTEND:20261120T010000Z
 SUMMARY:City Council Clarification Meeting (City of Pocatello)
@@ -76,7 +76,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:d274d3c7b390@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261120T010000Z
 DTEND:20261120T030000Z
 SUMMARY:City Council Meeting (City of Pocatello)
@@ -85,7 +85,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:d85b0186767d@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261123T221500Z
 DTEND:20261123T230000Z
 SUMMARY:Pocatello Mayor's Youth Advisory Council Meeting (City of Pocatello)
@@ -94,7 +94,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:7fc1c8245d1c@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261202T013000Z
 DTEND:20261202T023000Z
 SUMMARY:Pocatello Arts Council Meeting (City of Pocatello)
@@ -103,7 +103,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:a8a56326646b@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261203T010000Z
 DTEND:20261203T020000Z
 SUMMARY:Historic Preservation Commission Meeting (City of Pocatello)
@@ -112,7 +112,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:9325fd9baae2@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261203T190000Z
 DTEND:20261203T200000Z
 SUMMARY:Parks & Recreation Advisory Board Meeting (City of Pocatello)
@@ -121,7 +121,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:ee2e0a4a5a5f@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261204T003000Z
 DTEND:20261204T010000Z
 SUMMARY:City Council Clarification Meeting (City of Pocatello)
@@ -130,7 +130,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:bf4ae4cf3857@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261204T010000Z
 DTEND:20261204T023000Z
 SUMMARY:City Council Meeting (City of Pocatello)
@@ -139,7 +139,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:297cb12f9df8@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261208T180000Z
 DTEND:20261208T190000Z
 SUMMARY:Pocatello Regional Airport Commission Meeting (City of Pocatello)
@@ -148,7 +148,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:226a077e2eff@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261210T003000Z
 DTEND:20261210T010000Z
 SUMMARY:Planning & Zoning Commission Clarification Meeting (City of Pocatello)
@@ -157,7 +157,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:09990809d1a5@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261210T010000Z
 DTEND:20261210T023000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Pocatello)
@@ -166,7 +166,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:20762413b1c5@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261210T160000Z
 DTEND:20261210T210000Z
 SUMMARY:City Council Work Session (City of Pocatello)
@@ -175,7 +175,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:fe94b04cbe83@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261211T003000Z
 DTEND:20261211T013000Z
 SUMMARY:Hearing Examiner (City of Pocatello)
@@ -184,7 +184,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:3f364c30ad68@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261214T221500Z
 DTEND:20261214T230000Z
 SUMMARY:Pocatello Mayor's Youth Advisory Council Meeting (City of Pocatello)
@@ -193,7 +193,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:f6d97ca3d724@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261215T003000Z
 DTEND:20261215T013000Z
 SUMMARY:Human Relations Advisory Committee Meeting (City of Pocatello)
@@ -202,7 +202,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:7a4f6dccfee7@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261215T190000Z
 DTEND:20261215T200000Z
 SUMMARY:Community Development Block Grant Advisory Committee Meeting (City of Pocatello)
@@ -211,7 +211,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:c6ee959fe72a@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261215T230000Z
 DTEND:20261216T000000Z
 SUMMARY:Library Board Meeting (City of Pocatello)
@@ -220,7 +220,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:46a4f499176d@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261216T180000Z
 DTEND:20261216T200000Z
 SUMMARY:Pocatello Development Authority Meeting (City of Pocatello)
@@ -229,7 +229,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e6ee6f585f@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261218T003000Z
 DTEND:20261218T010000Z
 SUMMARY:City Council Clarification Meeting (City of Pocatello)
@@ -238,7 +238,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:9456f2348c92@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261218T010000Z
 DTEND:20261218T030000Z
 SUMMARY:City Council Meeting (City of Pocatello)
@@ -247,7 +247,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:195954860cfa@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261228T221500Z
 DTEND:20261228T230000Z
 SUMMARY:Pocatello Mayor's Youth Advisory Council Meeting (City of Pocatello)
@@ -256,7 +256,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:c13e743001f9@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270106T013000Z
 DTEND:20270106T023000Z
 SUMMARY:Pocatello Arts Council Meeting (City of Pocatello)
@@ -265,7 +265,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:9d16dcb9f9d6@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270107T010000Z
 DTEND:20270107T020000Z
 SUMMARY:Historic Preservation Commission Meeting (City of Pocatello)
@@ -274,7 +274,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:5339cb93d985@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270108T003000Z
 DTEND:20270108T010000Z
 SUMMARY:City Council Clarification Meeting (City of Pocatello)
@@ -283,7 +283,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:07ae22b1f7c3@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270108T010000Z
 DTEND:20270108T023000Z
 SUMMARY:City Council Meeting (City of Pocatello)

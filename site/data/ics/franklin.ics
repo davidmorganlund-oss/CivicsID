@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Franklin County
 BEGIN:VEVENT
 UID:d1dbe74e0fcd@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261119T235000Z
 DTEND:20261120T005000Z
 SUMMARY:Public Hearings for Kratom\; Crypto\; and Glass Pipes 6:30 p.m. (Franklin County)
@@ -13,7 +13,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:9a32ee189111@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261123T070000Z
 DTEND:20261123T080000Z
 SUMMARY:Commissioner Meeting (Franklin County)
@@ -22,7 +22,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:4a61b035fd99@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261214T070000Z
 DTEND:20261214T080000Z
 SUMMARY:Commissioner Meeting (Franklin County)
@@ -31,7 +31,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:64de299c33e1@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261228T070000Z
 DTEND:20261228T080000Z
 SUMMARY:Commissioner Meeting (Franklin County)

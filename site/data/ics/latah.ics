@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Latah County
 BEGIN:VEVENT
 UID:98c2bd9897bc@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261112T020000Z
 DTEND:20261112T030000Z
 SUMMARY:CANCELLED: Harvest Park Subcommittee Regular Meeting (City of Moscow)
@@ -13,7 +13,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3994/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ed08e991e3c2@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261113T000000Z
 DTEND:20261113T010000Z
 SUMMARY:Transportation Commission Regular Meeting (City of Moscow)
@@ -22,7 +22,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3367/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d89b6a99baf5@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261117T030000Z
 DTEND:20261117T040000Z
 SUMMARY:City Council Regular Meeting (City of Moscow)
@@ -31,7 +31,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3772/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6e88986470d0@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261118T000000Z
 DTEND:20261118T010000Z
 SUMMARY:Human Rights Commission Regular Meeting (City of Moscow)
@@ -40,7 +40,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3895/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:7ef3608b1dda@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261118T020000Z
 DTEND:20261118T030000Z
 SUMMARY:Sustainable Environment Commission (City of Moscow)
@@ -49,7 +49,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3729/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2fd0ab43716e@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261119T030000Z
 DTEND:20261119T040000Z
 SUMMARY:DATE CHANGE Planning & Zoning Commission Regular Meeting (City of Moscow)
@@ -58,7 +58,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3949/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:42250e455486@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261124T000000Z
 DTEND:20261124T010000Z
 SUMMARY:Administrative Committee Regular Meeting (City of Moscow)
@@ -67,7 +67,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3675/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:48b29ef8ee2a@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261126T030000Z
 DTEND:20261126T040000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission Regular Meeting (City of Moscow)
@@ -76,7 +76,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3907/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:826b5aca98f9@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261127T003000Z
 DTEND:20261127T013000Z
 SUMMARY:CANCELLED: Historic Preservation Commission Regular Meeting (City of Moscow)
@@ -85,7 +85,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3996/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4cd55a5929b5@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261202T000000Z
 DTEND:20261202T010000Z
 SUMMARY:Farmers Market Commission Regular Meeting (City of Moscow)
@@ -94,7 +94,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3743/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:4d7bbed9b6e2@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261202T010000Z
 DTEND:20261202T020000Z
 SUMMARY:Moscow Tree Commission (City of Moscow)
@@ -103,7 +103,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3811/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:1089d5e3e784@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261202T030000Z
 DTEND:20261202T040000Z
 SUMMARY:Board of Adjustment Public Hearing (City of Moscow)
@@ -112,7 +112,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3992/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9827ba52be4d@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261204T011500Z
 DTEND:20261204T021500Z
 SUMMARY:LOCATION CHANGE Fair & Affordable Housing Commission Regular Meeting (City of Moscow)
@@ -121,7 +121,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3788/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9da8614a5925@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261208T013000Z
 DTEND:20261208T023000Z
 SUMMARY:Board of Adjustment Public Meeting (City of Moscow)
@@ -130,7 +130,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3993/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:6087a09a7a96@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261208T030000Z
 DTEND:20261208T040000Z
 SUMMARY:City Council Regular Meeting (City of Moscow)
@@ -139,7 +139,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3760/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:974a9e24e5b1@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:Moscow Arts Commission Regular Meeting (City of Moscow)
@@ -148,7 +148,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3649/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f10946841610@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261210T030000Z
 DTEND:20261210T040000Z
 SUMMARY:Planning & Zoning Commission Regular Meeting (City of Moscow)
@@ -157,7 +157,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3950/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:76dbb3bfd662@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261211T000000Z
 DTEND:20261211T010000Z
 SUMMARY:Transportation Commission Regular Meeting (City of Moscow)
@@ -166,7 +166,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3368/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:22ce25f94716@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261215T000000Z
 DTEND:20261215T010000Z
 SUMMARY:Public Works/Finance Committee Regular Meeting (City of Moscow)
@@ -175,7 +175,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3687/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3d1078de82af@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261216T000000Z
 DTEND:20261216T010000Z
 SUMMARY:Human Rights Commission Regular Meeting (City of Moscow)
@@ -184,7 +184,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3896/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:61aafbf398a7@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261222T030000Z
 DTEND:20261222T040000Z
 SUMMARY:City Council Regular Meeting (City of Moscow)
@@ -193,7 +193,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3773/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d8ac9387a82f@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261224T030000Z
 DTEND:20261224T040000Z
 SUMMARY:Planning & Zoning Commission Regular Meeting (City of Moscow)
@@ -202,7 +202,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3908/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:71ac01a28bf0@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261225T003000Z
 DTEND:20261225T013000Z
 SUMMARY:Historic Preservation Commission Regular Meeting (City of Moscow)
@@ -211,7 +211,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3997/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:744736e6af92@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20261229T000000Z
 DTEND:20261229T010000Z
 SUMMARY:Administrative Committee Regular Meeting (City of Moscow)
@@ -220,7 +220,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3676/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:550a4002e112@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270105T030000Z
 DTEND:20270105T040000Z
 SUMMARY:City Council Regular Meeting (City of Moscow)
@@ -229,7 +229,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3761/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:8ee182b090b3@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270106T000000Z
 DTEND:20270106T010000Z
 SUMMARY:Farmers Market Commission Regular Meeting (City of Moscow)
@@ -238,7 +238,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3744/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d846b1448aed@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270106T010000Z
 DTEND:20270106T020000Z
 SUMMARY:Moscow Tree Commission (City of Moscow)
@@ -247,7 +247,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3845/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:8bcbc678fd57@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270108T011500Z
 DTEND:20270108T021500Z
 SUMMARY:Fair & Affordable Housing Commission Regular Meeting (City of Moscow)
@@ -256,7 +256,7 @@ URL:https://moscowid.portal.civicclerk.com/event/3789/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c88d32862dd4@civicsid
-DTSTAMP:20261111T192203Z
+DTSTAMP:20261111T192640Z
 DTSTART:20270109T020000Z
 DTEND:20270109T030000Z
 SUMMARY:One Time Event test (City of Moscow)
