@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - run: pip install requests pypdf
       - run: python probe/probe2.py | tee "$GITHUB_STEP_SUMMARY"
       - run: |
           git config user.name "civicsid-bot"
