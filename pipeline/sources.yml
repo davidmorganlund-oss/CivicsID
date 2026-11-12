@@ -32,6 +32,17 @@ sources:
     default_category: council
     homepage: https://pub-cityofboise.escribemeetings.com/
 
+  # Boise City Council stays on its old IQM2 portal until it moves to eScribe
+  # on Jan. 12, 2027. This feed reaches about a week ahead; remove it then.
+  - id: boise-council-iqm2
+    name: City of Boise
+    type: iqm2_rss
+    url: https://boisecityid.iqm2.com/Services/RSS.aspx?Feed=Calendar
+    county: Ada
+    area: Boise
+    default_category: council
+    homepage: https://www.cityofboise.org/departments/city-clerk/public-meetings/
+
   - id: meridian
     name: City of Meridian
     type: civicclerk
