@@ -1091,3 +1091,89 @@ sources:
     county: Elmore
     area: Mountain Home
     homepage: https://www.mountain-home.us/calendar.aspx?CID=14
+
+  - id: rexburg
+    name: City of Rexburg
+    type: schedule
+    county: Madison
+    area: Rexburg
+    homepage: https://www.rexburg.org/page/city-council-agendas
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "18:30"
+        location: Council Chambers, Rexburg City Hall
+        category: council
+        url: https://www.rexburg.org/page/city-council-agendas
+
+  - id: ammon
+    name: City of Ammon
+    type: schedule
+    county: Bonneville
+    area: Ammon
+    homepage: https://cityofammon.us/government/meetings/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Thursday
+        time: "18:00"
+        location: Council Chambers, Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+      - title: City Council Work Session
+        when: 2nd Thursday
+        time: "16:30"
+        location: Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+      - title: Planning Commission
+        when: 1st Wednesday
+        time: "19:00"
+        location: Council Chambers, Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+
+  # Garden City's council meeting time isn't published on its site; its
+  # Planning & Zoning Commission schedule is.
+  - id: garden-city
+    name: Garden City
+    type: schedule
+    county: Ada
+    area: Garden City
+    homepage: https://gardencityidaho.org/agendas-minutes/
+    meetings:
+      - title: Planning & Zoning Commission
+        when: 3rd Wednesday
+        time: "18:30"
+        location: City Council Chamber, Garden City Hall
+        category: council
+        url: https://gardencityidaho.org/planning-and-zoning-commission
+
+  # Hailey publishes each year's council dates on its Public Meetings page.
+  - id: hailey
+    name: City of Hailey
+    type: schedule
+    county: Blaine
+    area: Hailey
+    homepage: https://haileycityhall.org/public-meetings/
+    meetings:
+      - title: City Council Meeting
+        dates: [2026-11-23, 2026-12-14, 2026-12-28]
+        time: "17:30"
+        location: Hailey City Hall
+        category: council
+        url: https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/
+
+  - id: emmett
+    name: City of Emmett
+    type: schedule
+    county: Gem
+    area: Emmett
+    homepage: https://www.cityofemmett.org/meeting
+    meetings:
+      - title: City Council Regular Meeting
+        when: 2nd, 4th Tuesday
+        time: "17:30"
+        location: City Council Room, 501 E. Main Street, Emmett
+        category: council
+        url: https://www.cityofemmett.org/meeting
+        note: Generally held on these dates unless a holiday interferes; check the city's schedule.
