@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Ada County
 BEGIN:VEVENT
 UID:b3aa75162413@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261111T190000Z
 DTEND:20261111T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)
@@ -13,7 +13,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:ad164da81603@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261117T233000Z
 DTEND:20261118T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -22,7 +22,7 @@ URL:https://meridianid.portal.civicclerk.com/event/93/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:97063af5fe07@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261118T010000Z
 DTEND:20261118T030000Z
 SUMMARY:Kuna City Regular Council Meeting (City of Kuna)
@@ -31,7 +31,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:27907cfaabf2@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261118T010000Z
 DTEND:20261118T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -40,7 +40,7 @@ URL:https://meridianid.portal.civicclerk.com/event/40/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5fb27da87773@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261118T020000Z
 DTEND:20261118T065900Z
 SUMMARY:City Council Meeting (City of Star)
@@ -49,7 +49,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:73b77e5cd397@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261118T190000Z
 DTEND:20261118T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)
@@ -58,7 +58,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:a2a12fab90d8@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261124T233000Z
 DTEND:20261125T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -67,7 +67,7 @@ URL:https://meridianid.portal.civicclerk.com/event/94/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:87101381c03d@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261125T010000Z
 DTEND:20261125T030000Z
 SUMMARY:Kuna Planning & Zoning Commission Meeting (City of Kuna)
@@ -76,7 +76,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:5e3d38d816e3@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261125T010000Z
 DTEND:20261125T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -85,7 +85,7 @@ URL:https://meridianid.portal.civicclerk.com/event/41/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:f53d97647699@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261126T010000Z
 DTEND:20261126T020000Z
 SUMMARY:ACHD Commission evening meeting (Ada County Highway District)
@@ -94,7 +94,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:1bbb9dcdc64a@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261126T010000Z
 DTEND:20261126T020000Z
 SUMMARY:Planning and Zoning City Council Joint Meeting (City of Meridian)
@@ -103,7 +103,7 @@ URL:https://meridianid.portal.civicclerk.com/event/36/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1151ac2f9e@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261201T233000Z
 DTEND:20261202T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -112,7 +112,7 @@ URL:https://meridianid.portal.civicclerk.com/event/95/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d82a7b41b945@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261202T010000Z
 DTEND:20261202T030000Z
 SUMMARY:Kuna City Regular Council Meeting (City of Kuna)
@@ -121,7 +121,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:274392d2d2a7@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261202T010000Z
 DTEND:20261202T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -130,7 +130,7 @@ URL:https://meridianid.portal.civicclerk.com/event/42/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:40a0532dc46c@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261202T020000Z
 DTEND:20261202T065900Z
 SUMMARY:City Council Meeting (City of Star)
@@ -139,7 +139,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a509b0fe74@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261202T190000Z
 DTEND:20261202T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)
@@ -148,7 +148,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:b8385df87902@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261208T233000Z
 DTEND:20261209T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -157,7 +157,7 @@ URL:https://meridianid.portal.civicclerk.com/event/96/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5745f48a6b22@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261209T010000Z
 DTEND:20261209T030000Z
 SUMMARY:Kuna Planning & Zoning Commission Meeting (City of Kuna)
@@ -166,7 +166,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:9b253fa19751@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -175,7 +175,7 @@ URL:https://meridianid.portal.civicclerk.com/event/43/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:427dd16d62c1@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261209T190000Z
 DTEND:20261209T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)
@@ -184,7 +184,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:f352f05ff262@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261215T233000Z
 DTEND:20261216T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -193,7 +193,7 @@ URL:https://meridianid.portal.civicclerk.com/event/97/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2bbe8f3c526a@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261216T010000Z
 DTEND:20261216T030000Z
 SUMMARY:Kuna City Regular Council Meeting (City of Kuna)
@@ -202,7 +202,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:6a8cbdd8246b@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261216T010000Z
 DTEND:20261216T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -211,7 +211,7 @@ URL:https://meridianid.portal.civicclerk.com/event/44/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0ad161744938@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261216T020000Z
 DTEND:20261216T065900Z
 SUMMARY:City Council Meeting (City of Star)
@@ -220,7 +220,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:57157ce40ef4@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261216T190000Z
 DTEND:20261216T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)
@@ -229,7 +229,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:63d2028cbac9@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261222T233000Z
 DTEND:20261223T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -238,7 +238,7 @@ URL:https://meridianid.portal.civicclerk.com/event/98/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2dc0d6d5a876@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261223T010000Z
 DTEND:20261223T030000Z
 SUMMARY:Kuna Planning & Zoning Commission Meeting (City of Kuna)
@@ -247,7 +247,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:823e88639bba@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261223T010000Z
 DTEND:20261223T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -256,7 +256,7 @@ URL:https://meridianid.portal.civicclerk.com/event/45/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a4bb355a762a@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20261224T010000Z
 DTEND:20261224T020000Z
 SUMMARY:ACHD Commission evening meeting (Ada County Highway District)
@@ -265,7 +265,7 @@ URL:https://www.achdidaho.org/about-achd/commission/commission-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:bbec2794a954@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20270105T233000Z
 DTEND:20270106T003000Z
 SUMMARY:City Council Work Session (City of Meridian)
@@ -274,7 +274,7 @@ URL:https://meridianid.portal.civicclerk.com/event/100/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c4084973109e@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20270106T010000Z
 DTEND:20270106T030000Z
 SUMMARY:Kuna City Regular Council Meeting (City of Kuna)
@@ -283,7 +283,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:4e25d12356df@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20270106T010000Z
 DTEND:20270106T020000Z
 SUMMARY:City Council Regular Meeting (City of Meridian)
@@ -292,7 +292,7 @@ URL:https://meridianid.portal.civicclerk.com/event/47/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:230a5dba0bd7@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20270106T020000Z
 DTEND:20270106T065900Z
 SUMMARY:City Council Meeting (City of Star)
@@ -301,7 +301,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22
 END:VEVENT
 BEGIN:VEVENT
 UID:20dd3738f235@civicsid
-DTSTAMP:20261111T193551Z
+DTSTAMP:20261111T235902Z
 DTSTART:20270106T190000Z
 DTEND:20270106T200000Z
 SUMMARY:ACHD Commission meeting (Ada County Highway District)

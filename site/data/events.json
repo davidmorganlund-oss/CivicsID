@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-11T12:35:51-07:00",
+ "generated": "2026-11-11T16:59:02-07:00",
  "events": [
+  {
+   "id": "577a8948c73b",
+   "title": "Closed in Observance of Veterans Day",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-11T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101516/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
   {
    "id": "a7c4346a04cf",
    "title": "Board of County Commissioners",
@@ -653,6 +671,24 @@
    "cancelled": false
   },
   {
+   "id": "bbde01ca5bf8",
+   "title": "Board of Lewis County Commissioners (Regular Business Meeting)",
+   "host": "Lewis County",
+   "source": "lewis-county",
+   "area": "countywide",
+   "county": "Lewis",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-16T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "Lewis County Courthouse, 510 Oak St, Nezperce",
+   "url": "http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "e4edbb8201cb",
    "title": "Board of County Commissioners",
    "host": "Clearwater County",
@@ -779,6 +815,24 @@
    "cancelled": false
   },
   {
+   "id": "eca22867a979",
+   "title": "Board of County Commissioners Meeting",
+   "host": "Valley County",
+   "source": "valley-county",
+   "area": "countywide",
+   "county": "Valley",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-16T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Valley County Courthouse, 219 N. Main St., Cascade",
+   "url": "https://www.valleycountyid.gov/events/17584/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "d7b3601b561a",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
@@ -812,6 +866,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "3997e045b6fd",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-16T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
@@ -1448,6 +1520,24 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "1d47d92d237d",
+   "title": "Bonner County Ambulance Service District Meeting",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-18T11:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Bonner County Administrative Building, 1500 US-2, Sandpoint",
+   "url": "https://www.bonnercountyid.gov/events/96488/",
+   "agenda_url": "",
+   "note": "The Bonner County Ambulance District business meetings are held at the Bonner County Administration Building, Third Floor, Room 338. Meetings are held on the first and third Wednesday each month at 11:00 AM https://bonnercounty.zoom.us/j/81821324729 For Those Electronically Participating: Use of Zoom/YouTube is not intended as a substitute for in person, or written participation in the proceedings of County business. It is possible to have technology issues with the Zoom/YouTube to include, but not limited to, difficulty hearing and being heard. If you have information to communicate to the County, please come in person or send your information in writing. The County cannot assure that the information will be received via Zoom/YouTube. Use of Zoom/YouTube is at the risk of the user. Technology failure will not result in Bonner County re-agendizing and/or accepting post-deadline information on any given item or issue. In person attendance is recommended.",
    "cancelled": false
   },
   {
@@ -2465,6 +2555,24 @@
    "cancelled": false
   },
   {
+   "id": "719543841223",
+   "title": "Board of County Commissioners Meeting",
+   "host": "Valley County",
+   "source": "valley-county",
+   "area": "countywide",
+   "county": "Valley",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-23T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Valley County Courthouse, 219 N. Main St., Cascade",
+   "url": "https://www.valleycountyid.gov/events/17585/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "edf785b93e00",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
@@ -2498,6 +2606,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "dad8966bfe16",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-23T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
@@ -2987,6 +3113,24 @@
    "cancelled": true
   },
   {
+   "id": "92e98acc98e1",
+   "title": "Closed for Thanksgiving",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-26T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101517/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "e617dba8eb17",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
@@ -3021,6 +3165,24 @@
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
    "cancelled": true
+  },
+  {
+   "id": "9850bbfab433",
+   "title": "Closed for Thanksgiving",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-27T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101518/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
   },
   {
    "id": "b16de030116d",
@@ -4139,6 +4301,24 @@
    "cancelled": false
   },
   {
+   "id": "d9503aa803c3",
+   "title": "Board of County Commissioners Meeting",
+   "host": "Valley County",
+   "source": "valley-county",
+   "area": "countywide",
+   "county": "Valley",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-07T08:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Valley County Courthouse, 219 N. Main St., Cascade",
+   "url": "https://www.valleycountyid.gov/events/17586/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "211478faac84",
    "title": "Board of County Commissioners",
    "host": "Clearwater County",
@@ -4262,6 +4442,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "18f309b15ae1",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-07T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
@@ -5723,6 +5921,24 @@
    "cancelled": false
   },
   {
+   "id": "0f0727504168",
+   "title": "Board of County Commissioners Meeting",
+   "host": "Valley County",
+   "source": "valley-county",
+   "area": "countywide",
+   "county": "Valley",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-14T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Valley County Courthouse, 219 N. Main St., Cascade",
+   "url": "https://www.valleycountyid.gov/events/17587/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "8d0420749e77",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
@@ -5756,6 +5972,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "9edb28eb84c8",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-14T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
@@ -6929,6 +7163,24 @@
    "cancelled": false
   },
   {
+   "id": "45540c3af2f5",
+   "title": "Board of County Commissioners Meeting",
+   "host": "Valley County",
+   "source": "valley-county",
+   "area": "countywide",
+   "county": "Valley",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-21T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Valley County Courthouse, 219 N. Main St., Cascade",
+   "url": "https://www.valleycountyid.gov/events/17588/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "5f5a84c70655",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
@@ -6962,6 +7214,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "e27d207ed898",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-21T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
@@ -7397,6 +7667,24 @@
    "cancelled": false
   },
   {
+   "id": "a89a02874d75",
+   "title": "Closed for Christmas Eve",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-24T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101519/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "3522c0323ce6",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
@@ -7430,6 +7718,24 @@
    "url": "https://moscowid.portal.civicclerk.com/event/3997/overview",
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
+   "cancelled": false
+  },
+  {
+   "id": "de24fb216f2e",
+   "title": "Closed for Christmas Day",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-12-25T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101520/",
+   "agenda_url": "",
+   "note": "",
    "cancelled": false
   },
   {
@@ -7793,6 +8099,24 @@
    "cancelled": false
   },
   {
+   "id": "709e6ed1970a",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-28T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
+   "cancelled": false
+  },
+  {
    "id": "26857c4187fc",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
@@ -8117,6 +8441,24 @@
    "cancelled": false
   },
   {
+   "id": "6778ee0d58a0",
+   "title": "Closed for New Years Day",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2027-01-01T00:00:00-08:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.bonnercountyid.gov/events/101521/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "619e8e45f75c",
    "title": "Bingham County Commission",
    "host": "Bingham County",
@@ -8276,6 +8618,24 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "ec1f2e66bc09",
+   "title": "Board of Commissioners Meeting",
+   "host": "Lincoln County",
+   "source": "lincoln-county",
+   "area": "countywide",
+   "county": "Lincoln",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-04T10:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Lincoln County Courthouse, 111 W B St, Shoshone",
+   "url": "https://www.lincolncountyid.gov/meetings",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Moves to Tuesday when Monday is a holiday",
    "cancelled": false
   },
   {
