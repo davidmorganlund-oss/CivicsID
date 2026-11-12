@@ -687,6 +687,17 @@ def link_dated_agendas(events):
         e["agenda_url"] = pages[page].get(datetime.fromisoformat(e["start"]).date(), "")
 
 
+def idaho_holidays(year: int):
+    """State holidays (Idaho Code 73-108) that fall on fixed dates or Mondays."""
+    def nth_monday(month, n):
+        d = date(year, month, 1)
+        d += timedelta(days=(0 - d.weekday()) % 7)
+        return d + timedelta(weeks=n - 1)
+    last_may = date(year, 5, 31) - timedelta(days=(date(year, 5, 31).weekday()) % 7)
+    return {date(year, 1, 1), nth_monday(1, 3), nth_monday(2, 3), last_may, date(year, 6, 19), date(year, 7, 4),
+            nth_monday(9, 1), nth_monday(10, 2), date(year, 11, 11), date(year, 12, 25)}
+
+
 def fetch_schedule(src, start_day, end_day, tz):
     events = []
     for mtg in src["meetings"]:
@@ -703,6 +714,8 @@ def fetch_schedule(src, start_day, end_day, tz):
             if mtg.get("until"):  # the host has only published its schedule this far
                 last = mtg["until"] if isinstance(mtg["until"], date) else date.fromisoformat(str(mtg["until"]))
                 days = [d for d in days if d <= last]
+        if mtg.get("holiday_moves_to_next_day"):  # "if a holiday falls on a meeting day, it moves to Tuesday"
+            days = [d + timedelta(days=1) if d in idaho_holidays(d.year) else d for d in days]
         for day in days:
             if day.month in mtg.get("skip_months", []):
                 continue
@@ -974,6 +987,8 @@ def normalize_tribe(src, rows, tz):
         if wanted and not wanted.intersection(cats):
             continue
         title = htmllib.unescape(r.get("title") or "").strip()
+        if src.get("civic_only") and not libcal_is_civic(title, " ".join(cats)):
+            continue  # library calendars: board meetings and civic programs only
         all_day = bool(r.get("all_day"))
         start = datetime.strptime(r["start_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz)
         end = datetime.strptime(r["end_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz) if r.get("end_date") and not all_day else None
@@ -1265,6 +1280,74 @@ def fetch_next_meeting(src, start_day, end_day, tz):
             if start_day.isoformat() <= e["start"][:10] <= end_day.isoformat()]
 
 
+
+# --- Ada County commissioners: daily agenda PDFs in the county file browser ---
+
+ADA_FILE = re.compile(r'"filterPath":\s*"([^"]*)",\s*"hasChild":\s*\w+,\s*"id":\s*"\d+",\s*"isFile":\s*true,\s*"name":\s*"([^"]+\.pdf)"')
+ADA_ITEM = re.compile(r"(\d{1,2}:\d{2}\s*[AP]M)\s*•\s*(.*?)(?=\d{1,2}:\d{2}\s*[AP]M\s*•|V\.\s*ADJOURNMENT|$)", re.S)
+ADA_SEPARATE = {"open business": "Open_Business", "emergency medical": "EMS_Dist", "public hearing": "Public_Hearing"}
+
+
+def ada_doc_url(src, path):
+    from urllib.parse import urlencode
+    return src["browse"].split("?")[0] + "Home/OpenDocument?" + urlencode({"papp": src["papp"], "doc": path, "puid": "null"})
+
+
+def normalize_ada_daily(src, text, day, files, tz):
+    """files: {name: url} for the same date. Lists only items the agenda marks with * (public, streamed)."""
+    flat = " ".join(text.split())
+    events = []
+    for clock, body in ADA_ITEM.findall(flat):
+        if "*" not in body:
+            continue
+        title = re.sub(r"\(see separate agenda\)|\*", "", body)
+        title = " ".join(title.split()).strip(" -–")
+        hearing = title.lower().startswith("public hearing")
+        if hearing:
+            title = "Public Hearing"
+        key = next((v for k, v in ADA_SEPARATE.items() if k in title.lower()), None)
+        agenda = next((u for n, u in files.items() if key and key.lower() in n.lower() and "audio" not in n.lower()), "")
+        ev = make_event(src, title=f"Board of County Commissioners: {title}" if not title.lower().startswith("board") else title,
+                        start=datetime.combine(day, parse_clock(clock), tz), url=agenda or src["homepage"], agenda_url=agenda,
+                        location=src["hearing_location"] if hearing else src.get("default_location", ""),
+                        category="council", uid=f"{day}{title}")
+        ev["_agenda_doc"] = agenda
+        events.append(ev)
+    return events
+
+
+HEARING_ITEM = re.compile(r"(?:^|\s)\d{1,2}\.\s+[\w-]+(?:\s*-\s*[\w-]+)*,\s*[^:]{2,80}:\s*(.+?\.)", re.S)
+
+
+def fetch_ada_agendas(src, start_day, end_day, tz):
+    import html as htmllib
+    import io
+    import pypdf
+    page = get(src["browse"]).text
+    by_day = {}
+    for folder, name in ADA_FILE.findall(page):
+        m = re.match(r"(\d{2})-(\d{2})-(\d{2})_", name)
+        if not m:
+            continue
+        d = date(2000 + int(m.group(3)), int(m.group(1)), int(m.group(2)))
+        if start_day <= d <= end_day:
+            path = htmllib.unescape(folder).replace("\\\\", "\\") + name
+            by_day.setdefault(d, {})[name] = ada_doc_url(src, path)
+    pdf_text = lambda u: "\n".join(pg.extract_text() or "" for pg in pypdf.PdfReader(io.BytesIO(get(u).content)).pages)
+    events = []
+    for d, files in sorted(by_day.items()):
+        daily = next((u for n, u in files.items() if "_daily" in n.lower()), None)
+        if not daily:
+            continue
+        for ev in normalize_ada_daily(src, pdf_text(daily), d, files, tz):
+            doc = ev.pop("_agenda_doc")
+            if doc and "public_hearing" in doc.lower():
+                items = [" ".join(x.split()) for x in HEARING_ITEM.findall(" ".join(pdf_text(doc).split()))]
+                add_highlights(ev, items)
+            events.append(ev)
+    return events
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1274,7 +1357,7 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "evo": fetch_evo, "revize": fetch_revize, "agendacenter": fetch_agendacenter,
               "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents,
               "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
-              "next_meeting": fetch_next_meeting}
+              "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas}
 
 
 # ---------- outputs ----------

@@ -1,50 +1,60 @@
-import json, re, io
+import json, re, sys
+from datetime import date
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin
-import requests, pypdf
-S = requests.Session(); S.headers["User-Agent"] = "CivicsID/0.1 (BarNone nonprofit civic calendar; contact via barnoneinc.org)"
+import requests
+sys.path.insert(0, "probe"); import build
+S = requests.Session(); S.headers["User-Agent"] = build.UA
 OUT = {}
 def get(u, **kw):
     try:
         r = S.get(u, timeout=25, **kw); return r.status_code, r.url, r.text
     except Exception as e:
         return 0, u, f"ERR {e}"[:200]
-PLAT = {"civicplus": r"Calendar\.aspx|AgendaCenter|civicplus", "civicclerk": r"civicclerk", "legistar": r"legistar", "boardbook": r"boardbook",
-        "boarddocs": r"boarddocs", "simbli": r"simbli|eboardsolutions", "libcal": r"libcal", "bibliocommons": r"bibliocommons", "tribe": r"tribe-events|wp-json/tribe",
-        "granicus": r"granicus", "primegov": r"primegov", "iqm2": r"iqm2", "novus": r"novusagenda", "municode": r"municodemeetings", "civicweb": r"civicweb",
-        "assabet": r"assabetinteractive", "localist": r"localist", "communico": r"communico|evanced|librarymarket|libnet", "google": r"calendar\.google\.com",
-        "ical": r"\.ics|ical=1|feed=my-calendar|iCalendar", "diligent": r"diligent|community\.highbond", "swagit": r"swagit", "meetings_gov": r"/meetings\b"}
-sites = {
- "ACHD": "https://achdidaho.org/", "Boise Public Library": "https://www.boisepubliclibrary.org/", "Ada Community Library": "https://www.adalib.org/",
- "Idaho Falls Public Library": "https://www.ifpl.org/", "Twin Falls Public Library": "https://www.twinfallspubliclibrary.org/", "Marshall Public Library": "https://www.marshallpl.org/",
- "Boise SD": "https://www.boiseschools.org/", "West Ada SD": "https://www.westada.org/", "Nampa SD": "https://www.nsd131.org/", "CdA SD": "https://www.cdaschools.org/",
- "Idaho Falls D91": "https://www.d91.k12.id.us/", "Pocatello D25": "https://www.sd25.us/",
- "Eagle": "https://www.cityofeagle.org/", "Garden City": "https://gardencityidaho.org/", "Ammon": "https://www.cityofammon.us/", "Chubbuck": "https://www.cityofchubbuck.us/",
- "Rexburg": "https://www.rexburg.org/", "Blackfoot": "https://www.cityofblackfoot.org/", "Mountain Home": "https://www.mountain-home.us/", "Burley": "https://www.burleyidaho.org/",
- "Sandpoint": "https://www.sandpointidaho.gov/", "Hailey": "https://www.haileycityhall.org/", "Emmett": "https://www.cityofemmett.org/meeting-information", "Jerome": "https://www.ci.jerome.id.us/",
+def text(h):
+    h = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", h, flags=re.S | re.I)
+    return " ".join(re.sub(r"<[^>]+>", " ", h).split())
+KEY = re.compile(r"[^.]{0,220}(?:regular(?:ly)? (?:board )?meeting|meets? (?:on|every|the|monthly)|(?:1st|2nd|3rd|4th|first|second|third|fourth|last|every) (?:and (?:1st|2nd|3rd|4th|first|second|third|fourth) )?(?:Monday|Tuesday|Wednesday|Thursday|Friday))[^.]{0,220}\.?", re.I)
+pages = {
+ "BPL board": "https://www.boisepubliclibrary.org/about-us/board-of-trustees/",
+ "BPL schedule news": "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+ "Ada lib board": "https://adalib.org/board-of-trustees/",
+ "IFPL board": "https://www.ifpl.org/library-board/",
+ "TF lib board": "https://www.twinfallspubliclibrary.org/libraryboard",
+ "TF lib calendar": "https://www.twinfallspubliclibrary.org/calendar",
+ "Marshall board": "https://marshallpl.org/board-of-trustees/",
+ "Marshall calendar": "https://marshallpl.org/calendar/",
+ "Boise SD board": "https://www.boiseschools.org/board-of-trustees",
+ "Boise SD board2": "https://www.boiseschools.org/our_district/board_of_trustees",
+ "West Ada board": "https://www.westada.org/o/wasd/page/board-of-trustees",
+ "Nampa SD board": "https://www.nsd131.org/board-of-trustees",
+ "CdA SD board": "https://www.cdaschools.org/page/board-of-trustees",
+ "D91 board": "https://www.ifschools.org/our-district/board-of-trustees",
+ "D91 records": "https://www.ifschools.org/our-district/board-of-trustees/board-meeting-records",
+ "D25 board": "https://www.sd25.us/district/board",
+ "boarddocs robots": "https://go.boarddocs.com/robots.txt",
+ "simbli robots": "https://simbli.eboardsolutions.com/robots.txt",
 }
-for k, u in sites.items():
+for k, u in pages.items():
     c, f, h = get(u)
-    hits = {p: len(re.findall(rx, h, re.I)) for p, rx in PLAT.items() if re.search(rx, h, re.I)}
-    links = sorted(set(urljoin(f, x) for x in re.findall(r'href="([^"#]+)"', h) if re.search(r"agenda|meeting|calendar|board|event|trustee|council|ics|boarddocs|boardbook|libcal|civicclerk|legistar|granicus|simbli", x, re.I)))[:45]
-    robots = get(urljoin(f, "/robots.txt"))[2][:300] if c == 200 else ""
-    OUT[k] = {"status": c, "final": f, "len": len(h), "hits": hits, "links": links, "robots": robots, "title": (re.findall(r"<title[^>]*>(.*?)</title>", h, re.S) or [""])[0].strip()[:80]}
-    print("=" * 6, k, c, f, hits); print("\n".join(links[:30]))
-# Nampa civicplus
-c, f, h = get("https://www.cityofnampa.us/Calendar.aspx")
-OUT["nampa cal"] = {"status": c, "cats": sorted(set(re.findall(r'value="(\d+)"[^>]*>\s*([^<]{3,60})<', h)))[:60]}
-c, f, h = get("https://www.cityofnampa.us/common/modules/iCalendar/iCalendar.aspx?catID=27&feed=calendar")
-OUT["nampa ical27"] = {"status": c, "head": h[:300], "titles": sorted(set(re.findall(r"SUMMARY:(.*)", h)))[:15]}
-# Ada daily agenda
-u = "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument"
-for doc in ["\\2026\\11 November\\11-17-26_Daily.pdf", "\\2026\\11 November\\11-18-26_Daily.pdf", "\\2026\\11 November\\11-18-26_Public_Hearing_with_Staff_Links.pdf", "\\2026\\2026 ANNUAL REGULAR MEETING NOTICE.pdf"]:
-    r = S.get(u, params={"papp": "BOCCAgendas", "doc": doc, "puid": "null"}, timeout=30)
-    try: t = "\n".join(p.extract_text() or "" for p in pypdf.PdfReader(io.BytesIO(r.content)).pages)
-    except Exception as e: t = f"ERR {e} {r.status_code} {r.text[:200]}"
-    OUT["ada " + doc] = {"status": r.status_code, "text": t[:3500]}
-c, f, h = get("https://apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas")
-OUT["ada list"] = {"status": c, "len": len(h), "sample": re.findall(r'"filterPath":\s*"([^"]*11 November[^"]*)",\s*"hasChild":\s*\w+,\s*"id":\s*"\d+",\s*"isFile":\s*true,\s*"name":\s*"([^"]+)"', h)[:5]}
-c, f, h = get("https://apps.adacounty.id.gov/AdaFileBrowse/?papp=DS_Agendas")
-OUT["ada DS"] = {"status": c, "names": re.findall(r'"name":\s*"([^"]+)"', h)[:40]}
-for k in [x for x in OUT if not x.startswith(tuple(sites))]: print("=" * 6, k); print(json.dumps(OUT[k], indent=0)[:3000])
+    links = sorted(set(urljoin(f, x) for x in re.findall(r'href="([^"#]+)"', h) if re.search(r"agenda|meeting|boarddocs|simbli|eboard|highbond|diligent|boardbook|libcal|calendar|\.ics|ical|minutes", x, re.I)))[:30]
+    OUT[k] = {"status": c, "final": f, "sched": [m.strip() for m in KEY.findall(text(h))][:8], "links": links, "head": text(h)[:300] if "robots" in k else ""}
+tz = ZoneInfo("America/Boise")
+for sid, src in {
+  "ada-lib": {"id": "ada-library", "name": "Ada Community Library", "area": "x", "county": "Ada", "site": "https://adalib.org", "civic_only": True},
+  "ifpl": {"id": "ifpl", "name": "IFPL", "area": "x", "county": "Bonneville", "site": "https://www.ifpl.org", "civic_only": True},
+  "chubbuck": {"id": "chubbuck", "name": "Chubbuck", "area": "x", "county": "Bannock", "site": "https://cityofchubbuck.us"},
+  "hailey": {"id": "hailey", "name": "Hailey", "area": "x", "county": "Blaine", "site": "https://haileycityhall.org"}}.items():
+    try:
+        ev = build.fetch_tribe(src, date(2026, 11, 11), date(2027, 1, 10), tz)
+        OUT["tribe " + sid] = [(e["start"][:16], e["title"]) for e in ev][:25]
+    except Exception as e:
+        OUT["tribe " + sid] = f"ERR {e}"
+try:
+    ev = build.fetch_libcal({"id": "bpl", "name": "BPL", "area": "x", "county": "Ada", "host": "boisepubliclibrary.libcal.com", "calendar": 12885, "civic_only": True}, date(2026, 11, 11), date(2027, 1, 10), tz)
+    OUT["libcal bpl"] = [(e["start"][:16], e["title"]) for e in ev][:30]
+except Exception as e:
+    OUT["libcal bpl"] = f"ERR {e}"
+for k, v in OUT.items(): print("=" * 6, k); print(json.dumps(v, indent=0)[:2500])
 Path("probe/report2.json").write_text(json.dumps(OUT, indent=1))
