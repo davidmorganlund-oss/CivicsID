@@ -1,14 +1,10 @@
-import json, io, re
+import json, sys
+from datetime import date
+from zoneinfo import ZoneInfo
 from pathlib import Path
-import requests, pypdf
-S = requests.Session(); S.headers["User-Agent"] = "CivicsID/0.1 (BarNone nonprofit civic calendar; contact via barnoneinc.org)"
-OUT = {}
-for name in ["11-9 & 10-26 Commissioner Agenda.pdf", "11-02 & 03-26 Commissioner Agenda.pdf", "10-26 & 27-26 Commissioner Agenda.pdf"]:
-    r = S.get("https://www.gemcounty.org/" + name, timeout=30)
-    try:
-        t = "\n".join(p.extract_text() or "" for p in pypdf.PdfReader(io.BytesIO(r.content)).pages)
-    except Exception as e:
-        t = f"ERR {e}"
-    OUT[name] = {"status": r.status_code, "final": r.url, "text": t[:4000]}
-    print("=" * 8, name, r.status_code); print(t[:4000])
-Path("probe/report2.json").write_text(json.dumps(OUT, indent=1))
+sys.path.insert(0, "probe"); import build
+src = {"id": "gem-county", "name": "Gem County", "area": "countywide", "county": "Gem",
+       "list_url": "https://www.gemcounty.org/government/county_commissioners/previous_agendas.php", "link_match": "Commissioner Agenda"}
+ev = build.fetch_pdf_agendas(src, date(2026, 10, 20), date(2026, 12, 31), ZoneInfo("America/Boise"))
+out = [(e["start"], e["title"], e.get("highlights"), e["agenda_url"]) for e in ev]
+print(json.dumps(out, indent=1)); Path("probe/report2.json").write_text(json.dumps(out, indent=1))
