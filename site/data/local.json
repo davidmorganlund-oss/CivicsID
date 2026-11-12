@@ -194,15 +194,25 @@
   }
  },
  "cities": {
+  "Ammon": {
+   "county": "Bonneville",
+   "site": "https://cityofammon.us/",
+   "meetings": "https://cityofammon.us/government/meetings/"
+  },
   "Boise": {
    "county": "Ada",
    "site": "https://www.cityofboise.org/",
-   "meetings": "https://www.cityofboise.org/departments/city-clerk/public-meetings/"
+   "meetings": "https://pub-cityofboise.escribemeetings.com/"
   },
   "Caldwell": {
    "county": "Canyon",
    "site": "https://www.cityofcaldwell.org/",
    "meetings": "https://caldwellid.portal.civicclerk.com/"
+  },
+  "Chubbuck": {
+   "county": "Bannock",
+   "site": "https://cityofchubbuck.us/",
+   "meetings": "https://cityofchubbuck.us/events/"
   },
   "Coeur d'Alene": {
    "county": "Kootenai",
@@ -218,6 +228,21 @@
    "county": "Ada",
    "site": "https://www.cityofeagle.org/"
   },
+  "Emmett": {
+   "county": "Gem",
+   "site": "https://www.cityofemmett.org/",
+   "meetings": "https://www.cityofemmett.org/meeting"
+  },
+  "Garden City": {
+   "county": "Ada",
+   "site": "https://gardencityidaho.org/",
+   "meetings": "https://gardencityidaho.org/agendas-minutes/"
+  },
+  "Hailey": {
+   "county": "Blaine",
+   "site": "https://haileycityhall.org/",
+   "meetings": "https://haileycityhall.org/public-meetings/"
+  },
   "Hayden": {
    "county": "Kootenai",
    "site": "https://www.haydenid.gov/",
@@ -228,6 +253,11 @@
    "county": "Bonneville",
    "site": "https://www.idahofallsidaho.gov/",
    "meetings": "https://www.idahofallsidaho.gov/calendar.aspx"
+  },
+  "Ketchum": {
+   "county": "Blaine",
+   "site": "https://ketchumidaho.gov/",
+   "meetings": "https://ketchumidaho.gov/AgendaCenter"
   },
   "Kuna": {
    "county": "Ada",
@@ -254,6 +284,16 @@
    "site": "",
    "meetings": "https://moscowid.portal.civicclerk.com/"
   },
+  "Mountain Home": {
+   "county": "Elmore",
+   "site": "https://www.mountain-home.us/",
+   "meetings": "https://www.mountain-home.us/calendar.aspx?CID=14"
+  },
+  "Nampa": {
+   "county": "Canyon",
+   "site": "https://www.cityofnampa.us/",
+   "meetings": "https://www.cityofnampa.us/1612/Public-Meetings"
+  },
   "Pocatello": {
    "county": "Bannock",
    "site": "https://www.pocatello.gov/",
@@ -269,6 +309,11 @@
    "site": "https://www.rathdrum.gov/",
    "meetings": "https://www.rathdrum.gov/agenda.aspx",
    "boards": "https://www.rathdrum.gov/516/boards-and-committees"
+  },
+  "Rexburg": {
+   "county": "Madison",
+   "site": "https://www.rexburg.org/",
+   "meetings": "https://www.rexburg.org/page/city-council-agendas"
   },
   "Star": {
    "county": "Ada",

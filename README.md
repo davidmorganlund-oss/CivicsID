@@ -28,7 +28,6 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Source | County | Platform | Connector | Notes |
 |---|---|---|---|---|
 | Idaho Legislature | Statewide | Its own calendar feed | `ics` | Interim committees now, standing committees in session |
-| City of Boise | Ada | IQM2 agenda feed | `iqm2_rss` | Reaches about a week ahead. Boise is moving to a new portal through January 2027, so this one will need replacing |
 | City of Meridian | Ada | CivicClerk | `civicclerk` | |
 | City of Kuna | Ada | CivicPlus | `civicplus` | |
 | City of Star | Ada | CivicPlus | `civicplus` | |
@@ -51,6 +50,16 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Latah County Library District | Latah | Events feed | `mec_library` | Civic programs only |
 | City of Lewiston | Nez Perce | CivicClerk | `civicclerk` | Pacific time |
 | City of Moscow | Latah | CivicClerk | `civicclerk` | Pacific time |
+| City of Boise | Ada | eScribe | `escribe` | Council, commissions and the Library Board of Trustees; council stays on IQM2 (`iqm2_rss`) until Jan. 12, 2027 |
+| Ada County | Ada | Daily agenda PDFs in the county file browser | `ada_agendas` | Lists the meetings the agenda marks public and streamed; public-hearing highlights |
+| City of Nampa | Canyon | Published council schedule | `schedule` | Calendar turns away automated readers; 1st and 3rd Mondays, 5 p.m. |
+| Chubbuck | Bannock | WordPress events feed | `tribe` | |
+| Mountain Home | Elmore | CivicPlus | `civicplus` | Council calendar |
+| Rexburg, Ammon, Garden City (P&Z), Hailey, Emmett | various | Published schedules | `schedule` | Garden City doesn't publish its council meeting time |
+| Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
+| West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25 school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
+| Coeur d'Alene Public Schools | Kootenai | Published schedule | `schedule` | Its meetings portal asks automated readers to stay away |
+| Ada Community, Twin Falls and Marshall (Pocatello) libraries | various | Published board schedules | `schedule` | Boise Public Library's board comes through Boise's eScribe |
 
 `inventory/sources.csv` lists what was checked and what is still to do,
 including Nampa and Ada County.
