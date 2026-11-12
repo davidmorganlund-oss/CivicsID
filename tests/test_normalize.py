@@ -519,3 +519,20 @@ def test_escribe():
     assert b["agenda_url"] == "https://pub-cityofboise.escribemeetings.com/Meeting.aspx?Id=b&Agenda=Agenda"
     page = '<div class="AgendaItemTitle">1.</div><div class="AgendaItemTitle">CALL TO ORDER</div><div class="AgendaItemTitle">2.1</div><div class="AgendaItemTitle"><a>2026 YMCA Christmas Run (10 minutes)</a></div>'
     assert build.escribe_items(page) == ["2026 YMCA Christmas Run (10 minutes)"]
+
+
+def test_simbli():
+    src = {"id": "d91", "name": "Idaho Falls School District 91", "area": "Idaho Falls", "county": "Bonneville", "listing": "https://l"}
+    page = ("<tr><td>12/09/2026 - 05:30 PM</td><td>Board Business Meeting</td><td>UnPublished</td><td>Board Business Meeting</td></tr>"
+            "<tr><td>11/04/2026 - 12:00 PM</td><td>Notice of Quorum</td><td>UnPublished</td><td>Notice of Quorum</td></tr>")
+    (e,) = build.normalize_simbli(src, page, date(2026, 11, 1), date(2027, 1, 1), ZoneInfo("America/Boise"))
+    assert e["title"] == "Board Business Meeting" and e["start"] == "2026-12-09T17:30:00-07:00"
+
+
+def test_notice_page():
+    src = {"id": "bsd", "name": "Boise School District", "area": "Boise", "county": "Ada", "page": "https://www.boiseschools.org/boardmeetingnotice", "category": "school"}
+    page = ("<p>BOARD WORKSHOP</p><p>Date: November 9, 2026</p><p>Time: 5:40 PM</p><p>Location: District Service Center</p><p>8169 W Victory Rd</p><p><a href='/a1.pdf'>Agenda</a></p>"
+            "<p>REGULAR BOARD MEETING</p><p>Date: November 9, 2026</p><p>Time: 6:00 PM</p><p>Location: District Service Center 8169 W Victory Rd Boise, Idaho</p><p><a href=\"/a2.pdf\">Agenda</a></p>")
+    a, b = build.normalize_notice_page(src, page.replace("'", '"'), ZoneInfo("America/Boise"))
+    assert b["title"] == "Board of Trustees: Regular Board Meeting" and b["start"] == "2026-11-09T18:00:00-07:00"
+    assert b["agenda_url"] == "https://www.boiseschools.org/a2.pdf" and b["location"].startswith("District Service Center")

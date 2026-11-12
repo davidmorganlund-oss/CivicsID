@@ -251,12 +251,29 @@ sources:
     timezone: America/Los_Angeles
     homepage: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
     meetings:
+      # The city calendar lists the November meeting on Wed. Nov. 11; the
+      # schedule page lists no meeting Nov. 25 or Dec. 23.
       - title: City Council Meeting
-        dates: [2026-12-09]     # the 2026 schedule lists no meeting on Nov. 25 or Dec. 23
+        dates: [2026-11-11, 2026-12-09]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/calendar
+      # From 2027: "2nd and 4th Wednesday of each month, with the exception of
+      # November and December."
+      - title: City Council Meeting
+        when: 2nd, 4th Wednesday
+        skip_months: [11, 12]
         time: "17:30"
         location: Rathdrum City Hall, 8047 W. Main Street
         category: council
         url: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
+      - title: Public Input Session with Planning & Zoning Commissioners
+        dates: [2026-11-18]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/calendar
       - title: Planning & Zoning Commission Meeting
         dates: [2026-11-18]
         time: "17:30"
@@ -934,3 +951,143 @@ sources:
         url: https://www.cityofnampa.us/1612/Public-Meetings
         holiday_moves_to_next_day: true
         note: Public hearings begin at 6 p.m.
+
+  # ---------- School boards ----------
+
+  - id: boise-schools
+    name: Boise School District
+    type: notice_page
+    page: https://www.boiseschools.org/boardmeetingnotice
+    category: school
+    county: Ada
+    area: Boise
+    homepage: https://www.boiseschools.org/boardmeetingnotice
+
+  - id: west-ada-schools
+    name: West Ada School District
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031062
+    county: Ada
+    area: Meridian
+    homepage: https://www.westada.org/page/board-of-trustees
+
+  - id: nampa-schools
+    name: Nampa School District
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+    county: Canyon
+    area: Nampa
+    homepage: https://www.nsd131.org/board-of-trustees
+
+  # The district's published 2026 regular meeting calendar, shown until the
+  # meeting itself is posted on its meetings listing.
+  - id: nampa-schools-schedule
+    name: Nampa School District
+    type: schedule
+    county: Canyon
+    area: Nampa
+    homepage: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+    yield_to: [nampa-schools]
+    meetings:
+      - title: Regular Board of Trustees Meeting
+        dates: [2026-11-17, 2026-12-15, 2027-01-19]
+        time: "17:00"
+        category: school
+        url: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+
+  # The district's meetings portal asks automated readers to stay away, so this
+  # is the schedule the board publishes: generally the second Monday, 5 p.m.
+  - id: cda-schools
+    name: Coeur d'Alene Public Schools
+    type: schedule
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaschools.org/page/board-of-trustees
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Monday
+        time: "17:00"
+        location: Midtown Center Meeting Room, 1505 N. 5th Street, Coeur d'Alene
+        category: school
+        url: https://www.cdaschools.org/page/board-of-trustees
+
+  - id: idaho-falls-schools
+    name: Idaho Falls School District 91
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032118
+    county: Bonneville
+    area: Idaho Falls
+    homepage: https://www.ifschools.org/our-district/board-of-trustees
+
+  - id: pocatello-schools
+    name: Pocatello/Chubbuck School District 25
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884
+    county: Bannock
+    area: Pocatello
+    homepage: https://www.sd25.us/district/board
+
+  # ---------- Libraries ----------
+
+  - id: ada-library
+    name: Ada Community Library
+    type: schedule
+    county: Ada
+    area: countywide
+    homepage: https://adalib.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "16:00"
+        category: library
+        url: https://adalib.org/board-meeting-agendas/
+
+  - id: twin-falls-library
+    name: Twin Falls Public Library
+    type: schedule
+    county: Twin Falls
+    area: Twin Falls
+    homepage: https://www.twinfallspubliclibrary.org/libraryboard/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Thursday
+        time: "17:00"
+        location: Twin Falls Public Library
+        category: library
+        url: https://www.twinfallspubliclibrary.org/libraryboard/
+
+  - id: marshall-library
+    name: Marshall Public Library
+    type: schedule
+    county: Bannock
+    area: Pocatello
+    homepage: https://marshallpl.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "16:00"
+        location: Marshall Public Library
+        category: library
+        url: https://marshallpl.org/board-of-trustees/
+
+  # ---------- More cities ----------
+
+  - id: chubbuck
+    name: City of Chubbuck
+    type: tribe
+    site: https://cityofchubbuck.us
+    default_category: council
+    county: Bannock
+    area: Chubbuck
+    homepage: https://cityofchubbuck.us/events/
+
+  - id: mountain-home
+    name: City of Mountain Home
+    type: civicplus
+    site: https://www.mountain-home.us
+    categories: [14]
+    default_category: council
+    county: Elmore
+    area: Mountain Home
+    homepage: https://www.mountain-home.us/calendar.aspx?CID=14

@@ -1400,6 +1400,60 @@ def fetch_escribe(src, start_day, end_day, tz):
     return events
 
 
+
+# --- Simbli (eBOARDsolutions) school board meeting listings ---
+
+SIMBLI_ROW = re.compile(r"(\d{2}/\d{2}/\d{4})\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)\s+(.+?)\s+(?:Published|UnPublished)\s")
+
+
+def normalize_simbli(src, page, start_day, end_day, tz):
+    import html as htmllib
+    text = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I))).split())
+    skip = re.compile(src.get("skip_titles", r"notice of (a )?quorum"), re.I)
+    events, seen = [], set()
+    for day_s, clock, title in SIMBLI_ROW.findall(text):
+        d = datetime.strptime(day_s, "%m/%d/%Y").date()
+        if not (start_day <= d <= end_day) or skip.search(title) or (day_s, title) in seen:
+            continue
+        seen.add((day_s, title))
+        events.append(make_event(src, title=title.strip(), start=datetime.combine(d, parse_clock(clock), tz),
+                                 url=src["listing"], location=src.get("default_location", ""), category="school",
+                                 uid=day_s + title))
+    return events
+
+
+def fetch_simbli(src, start_day, end_day, tz):
+    return normalize_simbli(src, get(src["listing"]).text, start_day, end_day, tz)
+
+
+
+# --- A "meeting notice" page listing the next meetings as Date/Time/Location blocks ---
+
+NOTICE_BLOCK = re.compile(r"([A-Z][A-Z &/-]{4,60}?)\s+Date:\s*([A-Z][a-z]+ \d{1,2}, \d{4})\s+Time:\s*(\d{1,2}:\d{2}\s*[AP]\.?M\.?)\s+Location:\s*(.{3,120}?)\s+Agenda")
+
+
+def normalize_notice_page(src, page, tz):
+    import html as htmllib
+    from urllib.parse import urljoin
+    body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I)
+    text = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", body)).split())
+    agendas = [urljoin(src["page"], htmllib.unescape(h)) for h, label in re.findall(r'href="([^"]+)"[^>]*>\s*(?:<[^>]+>\s*)*([^<]{2,40})<', body)
+               if label.strip().lower() == "agenda"]
+    events = []
+    for i, (kind, day, clock, place) in enumerate(NOTICE_BLOCK.findall(text)):
+        d = datetime.strptime(day, "%B %d, %Y").date()
+        title = f"{src.get('meeting_title', 'Board of Trustees')}: {kind.strip().title()}"
+        events.append(make_event(src, title=title, start=datetime.combine(d, parse_clock(clock), tz), url=src["page"],
+                                 agenda_url=agendas[i] if i < len(agendas) else "", location=place.strip(),
+                                 category=src.get("category", ""), uid=day + kind))
+    return events
+
+
+def fetch_notice_page(src, start_day, end_day, tz):
+    return [e for e in normalize_notice_page(src, get(src["page"]).text, tz)
+            if start_day.isoformat() <= e["start"][:10] <= end_day.isoformat()]
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1410,7 +1464,8 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents,
               "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
               "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas,
-              "escribe": fetch_escribe}
+              "escribe": fetch_escribe, "simbli": fetch_simbli,
+              "notice_page": fetch_notice_page}
 
 
 # ---------- outputs ----------
