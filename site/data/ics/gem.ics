@@ -2,4 +2,31 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Gem County
+BEGIN:VEVENT
+UID:f0d2a1162044@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261125T003000Z
+DTEND:20261125T013000Z
+SUMMARY:City Council Regular Meeting (City of Emmett)
+LOCATION:City Council Room\, 501 E. Main Street\, Emmett
+URL:https://www.cityofemmett.org/meeting
+END:VEVENT
+BEGIN:VEVENT
+UID:b09a0340a128@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261209T003000Z
+DTEND:20261209T013000Z
+SUMMARY:City Council Regular Meeting (City of Emmett)
+LOCATION:City Council Room\, 501 E. Main Street\, Emmett
+URL:https://www.cityofemmett.org/meeting
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0d61e59902@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261223T003000Z
+DTEND:20261223T013000Z
+SUMMARY:City Council Regular Meeting (City of Emmett)
+LOCATION:City Council Room\, 501 E. Main Street\, Emmett
+URL:https://www.cityofemmett.org/meeting
+END:VEVENT
 END:VCALENDAR

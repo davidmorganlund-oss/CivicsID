@@ -3,8 +3,17 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Madison County
 BEGIN:VEVENT
+UID:bf9ecba654fe@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261119T013000Z
+DTEND:20261119T023000Z
+SUMMARY:City Council Meeting (City of Rexburg)
+LOCATION:Council Chambers\, Rexburg City Hall
+URL:https://www.rexburg.org/page/city-council-agendas
+END:VEVENT
+BEGIN:VEVENT
 UID:7bdacde01c38@civicsid
-DTSTAMP:20261112T000650Z
+DTSTAMP:20261112T012156Z
 DTSTART:20261119T013000Z
 DTEND:20261119T033000Z
 SUMMARY:Planning & Zoning Commission Public Meeting (Madison County)
@@ -13,7 +22,7 @@ URL:https://www.madisoncountyid.gov/calendar.php
 END:VEVENT
 BEGIN:VEVENT
 UID:940ee3f23eaf@civicsid
-DTSTAMP:20261112T000650Z
+DTSTAMP:20261112T012156Z
 DTSTART:20261123T153000Z
 DTEND:20261123T203000Z
 SUMMARY:Commissioner's Meeting (Madison County)
@@ -21,8 +30,17 @@ LOCATION:Commissioners Meeting Room
 URL:https://www.madisoncountyid.gov/calendar.php
 END:VEVENT
 BEGIN:VEVENT
+UID:c7f63a15362a@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261203T013000Z
+DTEND:20261203T023000Z
+SUMMARY:City Council Meeting (City of Rexburg)
+LOCATION:Council Chambers\, Rexburg City Hall
+URL:https://www.rexburg.org/page/city-council-agendas
+END:VEVENT
+BEGIN:VEVENT
 UID:4054b0d1abbf@civicsid
-DTSTAMP:20261112T000650Z
+DTSTAMP:20261112T012156Z
 DTSTART:20261214T153000Z
 DTEND:20261214T203000Z
 SUMMARY:Commissioner's Meeting (Madison County)
@@ -30,12 +48,30 @@ LOCATION:Commissioners Meeting Room
 URL:https://www.madisoncountyid.gov/calendar.php
 END:VEVENT
 BEGIN:VEVENT
+UID:a0aac939dff2@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20261217T013000Z
+DTEND:20261217T023000Z
+SUMMARY:City Council Meeting (City of Rexburg)
+LOCATION:Council Chambers\, Rexburg City Hall
+URL:https://www.rexburg.org/page/city-council-agendas
+END:VEVENT
+BEGIN:VEVENT
 UID:e0fc67322059@civicsid
-DTSTAMP:20261112T000650Z
+DTSTAMP:20261112T012156Z
 DTSTART:20261228T153000Z
 DTEND:20261228T203000Z
 SUMMARY:Commissioner's Meeting (Madison County)
 LOCATION:Commissioners Meeting Room
 URL:https://www.madisoncountyid.gov/calendar.php
+END:VEVENT
+BEGIN:VEVENT
+UID:d8255925a35e@civicsid
+DTSTAMP:20261112T012156Z
+DTSTART:20270107T013000Z
+DTEND:20270107T023000Z
+SUMMARY:City Council Meeting (City of Rexburg)
+LOCATION:Council Chambers\, Rexburg City Hall
+URL:https://www.rexburg.org/page/city-council-agendas
 END:VEVENT
 END:VCALENDAR
