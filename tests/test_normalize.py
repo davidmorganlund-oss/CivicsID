@@ -506,3 +506,16 @@ def test_schedule_holiday_moves_to_tuesday():
            "meetings": [{"title": "City Council", "when": "1st, 3rd Monday", "time": "17:00", "holiday_moves_to_next_day": True}]}
     evs = build.fetch_schedule(src, date(2027, 1, 1), date(2027, 1, 31), ZoneInfo("America/Boise"))
     assert [e["start"][:10] for e in evs] == ["2027-01-04", "2027-01-19"]  # MLK Day, Jan 18, moves to Tuesday
+
+
+def test_escribe():
+    src = {"id": "boise", "name": "City of Boise", "area": "Boise", "county": "Ada", "site": "https://pub-cityofboise.escribemeetings.com"}
+    rows = [{"MeetingName": "Ethics Commission", "StartDate": "2026/11/12 15:30:15", "EndDate": "2026/11/12 16:30:15", "ID": "a",
+             "Location": "City Hall", "Url": "", "MeetingDocumentLink": [{"Title": "Meeting Cancelled - Click for Details", "Type": "AdditionalDocuments", "Url": "/FileStream.ashx?DocumentId=913"}]},
+            {"MeetingName": "Library Board of Trustees", "StartDate": "2026/12/09 11:30:00", "EndDate": "2026/12/09 13:00:00", "ID": "b", "Location": "Main Library",
+             "Url": "https://x/Meeting?Id=b", "MeetingDocumentLink": [{"Title": "Agenda Full Package (HTML)", "Type": "Agenda", "Format": "HTML", "Url": "/Meeting.aspx?Id=b&Agenda=Agenda"}]}]
+    a, b = build.normalize_escribe(src, rows, ZoneInfo("America/Boise"))
+    assert a["cancelled"] and not b["cancelled"] and b["start"] == "2026-12-09T11:30:00-07:00"
+    assert b["agenda_url"] == "https://pub-cityofboise.escribemeetings.com/Meeting.aspx?Id=b&Agenda=Agenda"
+    page = '<div class="AgendaItemTitle">1.</div><div class="AgendaItemTitle">CALL TO ORDER</div><div class="AgendaItemTitle">2.1</div><div class="AgendaItemTitle"><a>2026 YMCA Christmas Run (10 minutes)</a></div>'
+    assert build.escribe_items(page) == ["2026 YMCA Christmas Run (10 minutes)"]

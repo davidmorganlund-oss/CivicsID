@@ -21,18 +21,16 @@ sources:
     force_category: legislature
     homepage: https://legislature.idaho.gov/calendar
 
-  # ---------- Ada County ----------
-  # Boise's agendas feed. A meeting appears once its agenda is published, so
-  # this reaches about a week ahead. Boise is moving its boards to a new
-  # meeting portal through January 2027; this source needs replacing then.
+  # Boise moved its meetings to eScribe in late 2026; the Library Board of
+  # Trustees publishes there too.
   - id: boise
     name: City of Boise
-    type: iqm2_rss
-    url: https://boisecityid.iqm2.com/Services/RSS.aspx?Feed=Calendar
+    type: escribe
+    site: https://pub-cityofboise.escribemeetings.com
     county: Ada
     area: Boise
     default_category: council
-    homepage: https://www.cityofboise.org/departments/city-clerk/public-meetings/
+    homepage: https://pub-cityofboise.escribemeetings.com/
 
   - id: meridian
     name: City of Meridian
