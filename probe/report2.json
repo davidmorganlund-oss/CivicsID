@@ -1,1 +1,16 @@
-[]
+{
+ "base": [
+  "<base href=\"https://www.gemcounty.org/\" />"
+ ],
+ "around": "<ul id=\"nav\" class=\"topnav v2_05-23-2012\">\r\n\t<li class=\"menuLI level0 menuDisplay li-51 children\"><a class=\"menuA level0 menuDisplay\" href=\"government/index.php\" target=\"_self\">Government</a>\n\t\t<ul class=\"menuUL level1 menuHidden ul-55\">\r\n\t\t\t<li class=\"menuLI level1 menuHidden li-55 children\"><a class=\"menuA level1 menuHidden\" href=\"government/county_commissioners/index.php\" target=\"_self\">County Commissioners</a>\n\t\t\t\t<ul class=\"menuUL level2 menuHidden ul-56\">\r\n\t\t\t\t\t<li class=\"menuLI level2 menuHidden li-56\"><a class=\"menuA level2 menuHidden\" href=\"government/county_commissioners/agendas_and_minutes.php\" target=\"_self\">Agendas and Minutes</a></li>\r\n\t\t\t\t\t<li class=\"menuLI level2 menuHidden l",
+ "pdf_hrefs": [
+  "href=\"Gem County Island Sports Complex Special Events Application & Checklist 5.2025.pdf",
+  "href= \"11-9 & 10-26 Commissioner Agenda.pdf",
+  "href= \"11-02 & 03-26 Commissioner Agenda.pdf",
+  "href= \"10-26 & 27-26 Commissioner Agenda.pdf",
+  "href= \"10-19 & 20-26 Commissioner Agenda.pdf",
+  "href= \"10-12 & 13-26 Commissioner Agenda.pdf",
+  "href= \"10-05 & 06-26 Commissioner Agenda.pdf",
+  "href= \"09-28-26 Commissioner Agenda.pdf"
+ ]
+}
