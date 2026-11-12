@@ -484,3 +484,18 @@ def test_pdf_agenda_and_next_meeting():
     (m,) = build.normalize_next_meeting({"id": "lewis", "name": "Lewis County", "area": "countywide", "county": "Lewis",
                                           "meeting_title": "Board of Lewis County Commissioners"}, page, "http://p", tz)
     assert m["title"] == "Board of Lewis County Commissioners (Regular Business Meeting)" and m["all_day"] and not m["agenda_url"]
+
+
+def test_ada_daily_agenda():
+    src = {"id": "ada", "name": "Ada County", "area": "countywide", "county": "Ada", "homepage": "https://h",
+           "default_location": "Room 3255", "hearing_location": "1st Floor Public Hearing Room"}
+    text = ("IV. NEW BUSINESS \n 9:00 AM \u2022 Open Business Meeting (see separate agenda) * \n 9:15 AM   \u2022     Emergency Medical Services District Open Business Meeting  \n"
+            "   (see separate agenda) * \n 9:30 AM \u2022 Legal Staff/Executive Session \n 6:00 PM \u2022 Public Hearing - Public Hearing Room (see separate agenda) * \nV. ADJOURNMENT")
+    files = {"11-17-26_Open_Business_Mtg.pdf": "https://a/obm", "11-17-26_Public_Hearing_with_Staff_Links.pdf": "https://a/ph"}
+    evs = build.normalize_ada_daily(src, text, date(2026, 11, 17), files, ZoneInfo("America/Boise"))
+    assert [e["title"] for e in evs] == ["Board of County Commissioners: Open Business Meeting",
+                                         "Board of County Commissioners: Emergency Medical Services District Open Business Meeting",
+                                         "Board of County Commissioners: Public Hearing"]
+    assert evs[0]["agenda_url"] == "https://a/obm" and evs[2]["location"] == "1st Floor Public Hearing Room" and evs[2]["start"].endswith("18:00:00-07:00")
+    hearing = "1. 202300532-MSP-TE, KM ENGINEERING: Board-level Time Extension request to complete improvements. The property is"
+    assert build.HEARING_ITEM.findall(hearing) == ["Board-level Time Extension request to complete improvements."]

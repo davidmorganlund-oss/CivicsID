@@ -904,3 +904,16 @@ sources:
     area: countywide
     timezone: America/Los_Angeles
     homepage: http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas
+
+  # Ada County posts a daily commissioners' agenda (PDF) in its file browser.
+  # Only items the agenda marks as public, streamed meetings (*) are listed.
+  - id: ada-county
+    name: Ada County
+    type: ada_agendas
+    browse: https://apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas
+    papp: BOCCAgendas
+    default_location: Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise
+    hearing_location: 1st Floor Public Hearing Room, Ada County Courthouse, 200 W. Front St, Boise
+    county: Ada
+    area: countywide
+    homepage: https://adacounty.id.gov/commissioners/
