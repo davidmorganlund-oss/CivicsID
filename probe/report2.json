@@ -1,241 +1,232 @@
 {
  "simbli nampa": {
   "status": 200,
-  "final": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
-  "len": 222844,
-  "simbli": [
-   "https://simbli.eboardsolutions.com/CoreServices",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010\\",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css\\"
-  ],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   "selectVerticalTabsByKey(event);",
-   "vertical",
-   "vertical-align:"
-  ],
-  "board_links": [
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css"
-  ],
-  "text": "--> Meetings Listing | Nampa School District Skip to Main Menu Skip to Main Content Skip to Footer Meetings Listing Expand Overview Section Editor &nbsp; &nbsp; 2026 Nampa School Board Regular Meeting Calendar January 20, 2026 Board Meeting (Organizational Meeting) February 17, 2026 Board Meeting March 24, 2026 Board Meeting April 21, 2026 Board Meeting May 18, 2026 Board Meeting June 16, 2026 Board Meeting (Budget Hearing) July 21, 2026 Board Meeting August 18, 2026 Board Meeting September 15, 2026 Board Meeting October 20, 2026 Board Meeting November 17, 2026 Board Meeting December 15, 2026 Board Meeting January 19, 2027 Board Meeting (Organizational Meeting) &nbsp; Subscribe to Notifications All Meetings Upcoming Prior Date - Time Meeting Title Minutes Meeting Type Date - Time Meeting Title Minutes Meeting Type 10/20/2026 - 05:00 PM Regular Board of Trustees Meeting UnPublished Board Meeting 10/07/2026 - 10:30 AM Special Board Meeting UnPublished Board Meeting 09/15/2026 - 05:15 PM Regular Board of Trustees Meeting UnPublished Board Meeting 09/10/2026 - 04:00 PM Special Board Meeting Published Board Meeting 08/18/2026 - 05:00 PM Regular Board of Trustees Meeting Published Board Meeting 07/23/2026 - 03:00 PM Special Board Meeting Published Board Meeting 07/21/2026 - 05:15 PM Regular Board of Trustees Meeting Published Board Meeting 07/21/2026 - 03:00 PM Special Board Meeting Published Board Meeting 06/16/2026 - 04:30 PM Budget Hearing and Regular Board of Trustees Meeting P"
+  "title": "Meetings Listing | Nampa School District",
+  "events": [],
+  "rows_all": [
+   [
+    "10/20/2026",
+    "05:00 PM",
+    "Regular Board of Trustees Meeting"
+   ],
+   [
+    "10/07/2026",
+    "10:30 AM",
+    "Special Board Meeting"
+   ],
+   [
+    "09/15/2026",
+    "05:15 PM",
+    "Regular Board of Trustees Meeting"
+   ],
+   [
+    "09/10/2026",
+    "04:00 PM",
+    "Special Board Meeting"
+   ],
+   [
+    "08/18/2026",
+    "05:00 PM",
+    "Regular Board of Trustees Meeting"
+   ],
+   [
+    "07/23/2026",
+    "03:00 PM",
+    "Special Board Meeting"
+   ]
+  ]
  },
  "simbli d91": {
   "status": 200,
-  "final": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032118",
-  "len": 163993,
-  "simbli": [
-   "https://simbli.eboardsolutions.com/CoreServices",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010\\",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css\\"
+  "title": "Meetings Listing | Idaho Falls School District 91",
+  "events": [
+   [
+    "2026-11-11T17:30",
+    "Board Business Meeting"
+   ]
   ],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   "selectVerticalTabsByKey(event);",
-   "vertical",
-   "vertical-align:"
-  ],
-  "board_links": [
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/lite.css?n=1234671010",
-   "https://simbli.eboardsolutions.com/ckeditor/plugins/lite/css/opentip.css"
-  ],
-  "text": "--> Meetings Listing | Idaho Falls School District 91 Skip to Main Menu Skip to Main Content Skip to Footer Meetings Listing Expand Overview Section Editor &nbsp; Upcoming Meeting Dates&nbsp; &nbsp; Subscribe to Notifications All Meetings Upcoming Prior Date - Time Meeting Title Minutes Meeting Type Date - Time Meeting Title Minutes Meeting Type 11/11/2026 - 05:30 PM Board Business Meeting UnPublished Board Business Meeting 11/04/2026 - 12:00 PM Notice of Quorum UnPublished Notice of Quorum 10/27/2026 - 04:00 PM Board Work Session UnPublished Board Work Session 10/14/2026 - 05:30 PM Board Business Meeting UnPublished Board Business Meeting 09/24/2026 - 12:00 PM Notice of Quorum UnPublished Notice of Quorum 09/22/2026 - 04:00 PM Board Work Session Published Board Work Session 09/10/2026 - 01:00 PM Notice of Quorum UnPublished Notice of Quorum 09/09/2026 - 05:30 PM Board Business Meeting Published Board Business Meeting 08/17/2026 - 12:30 PM Annual Board Retreat Published Board Work Session 08/11/2026 - 05:30 PM Board Business Meeting Published Board Business Meeting 07/30/2026 - 01:30 PM Special Board Meeting Published Special Board Meeting 07/21/2026 - 04:00 PM Board Work Session Published Board Work Session 07/15/2026 - 05:30 PM Board Business Meeting Published Board Business Meeting 06/23/2026 - 04:00 PM Board Work Session Published Board Work Session 07/22/2025 - 04:00 PM BOARD WORK SESSION UnPublished Board Business Meeting 07/16/2025 - 05:30 PM BOARD BUSINESS MEETING UnP"
+  "rows_all": [
+   [
+    "11/11/2026",
+    "05:30 PM",
+    "Board Business Meeting"
+   ],
+   [
+    "11/04/2026",
+    "12:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "10/27/2026",
+    "04:00 PM",
+    "Board Work Session"
+   ],
+   [
+    "10/14/2026",
+    "05:30 PM",
+    "Board Business Meeting"
+   ],
+   [
+    "09/24/2026",
+    "12:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "09/22/2026",
+    "04:00 PM",
+    "Board Work Session"
+   ]
+  ]
  },
  "simbli d25": {
   "status": 200,
-  "final": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884",
-  "len": 157612,
-  "simbli": [
-   "https://simbli.eboardsolutions.com/CoreServices"
+  "title": "Meetings Listing | Pocatello/Chubbuck School District 25",
+  "events": [
+   [
+    "2026-11-12T14:30",
+    "Capital Improvement Program (CIP) Committee Meeting"
+   ]
   ],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   "selectVerticalTabsByKey(event);",
-   "vertical",
-   "vertical-align:"
-  ],
-  "board_links": [],
-  "text": "--> Meetings Listing | Pocatello/Chubbuck School District 25 Skip to Main Menu Skip to Main Content Skip to Footer Meetings Listing Subscribe to Notifications All Meetings Upcoming Prior Date - Time Meeting Title Minutes Meeting Type Date - Time Meeting Title Minutes Meeting Type 11/13/2026 - 10:30 AM Notice of a Quorum of Trustees - School Board Visit UnPublished Notice of a Quorum 11/12/2026 - 02:30 PM Capital Improvement Program (CIP) Committee Meeting UnPublished Committee Meeting 11/10/2026 - 03:30 PM Board Work Session and Special Meeting for Action UnPublished Board Work Session 11/04/2026 - 12:00 PM Idaho School Boards Association (ISBA) Annual Convention: 11/4 - 11/6/2026 UnPublished Notice of a Quorum 11/03/2026 - 05:30 PM High School Math Textbook Adoption Committee UnPublished Committee Meeting 10/29/2026 - 08:00 AM District Curriculum Committee (DCC) Meeting UnPublished Committee Meeting 10/28/2026 - 05:30 PM High School Math Textbook Adoption Committee UnPublished Committee Meeting 10/22/2026 - 05:30 PM High School Math Textbook Adoption Committee UnPublished Committee Meeting 10/21/2026 - 05:30 PM High School Math Textbook Adoption Committee UnPublished Committee Meeting 10/20/2026 - 05:30 PM Regular Board Meeting UnPublished Regular Board Meeting 10/15/2026 - 02:30 PM Capital Improvement Program (CIP) Committee Meeting UnPublished Committee Meeting 10/13/2026 - 03:30 PM Board Work Session UnPublished Board Work Session 10/13/2026 - 03:00 PM Executive Session: "
+  "rows_all": [
+   [
+    "11/13/2026",
+    "10:30 AM",
+    "Notice of a Quorum of Trustees - School Board Visit"
+   ],
+   [
+    "11/12/2026",
+    "02:30 PM",
+    "Capital Improvement Program (CIP) Committee Meeting"
+   ],
+   [
+    "11/10/2026",
+    "03:30 PM",
+    "Board Work Session and Special Meeting for Action"
+   ],
+   [
+    "11/04/2026",
+    "12:00 PM",
+    "Idaho School Boards Association (ISBA) Annual Convention: 11/4 - 11/6/2026"
+   ],
+   [
+    "11/03/2026",
+    "05:30 PM",
+    "High School Math Textbook Adoption Committee"
+   ],
+   [
+    "10/29/2026",
+    "08:00 AM",
+    "District Curriculum Committee (DCC) Meeting"
+   ]
+  ]
  },
- "d25 board": {
+ "simbli westada": {
   "status": 200,
-  "final": "https://www.sd25.us/district/board",
-  "len": 104428,
-  "simbli": [
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031884",
-   "https://simbli.eboardsolutions.com/index.aspx?S=36031884"
+  "title": "Meetings Listing | West Ada School District",
+  "events": [
+   [
+    "2026-12-14T18:00",
+    "Regular Meeting"
+   ]
   ],
-  "diligent": [],
-  "boarddocs": [
-   "https://go.boarddocs.com/id/pcsd25/Board.nsf/Public"
-  ],
-  "feeds": [
-   "/schools-programs/career-technical-education",
-   "Feed",
-   "Feeds",
-   "Technical",
-   "canonical",
-   "data-calendars-feed-uuid=",
-   "data-teams-feed-uuid=",
-   "data-vertical=",
-   "feed_element",
-   "fsAlertFeeds",
-   "practical"
-  ],
-  "board_links": [
-   "https://go.boarddocs.com/id/pcsd25/Board.nsf/Public",
-   "https://resources.finalsite.net/images/v1761167382/d25k12idus/yhrpfjwrsmjraovzvgpu/BoardStrategicGoals2025-Amended10-21-25.pdf",
-   "https://resources.finalsite.net/images/v1770852743/d25k12idus/d25k12idus/uibbsey6rkzxa1dl9nsb/AmendedSchoolBoardMeetingCalendar.pdf",
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031884",
-   "https://simbli.eboardsolutions.com/index.aspx?S=36031884",
-   "https://www.sd25.us/board",
-   "https://www.sd25.us/board/board-policy-manual",
-   "https://www.sd25.us/departments/communications/news-details/~board/district-25-governance/post/operating-principles",
-   "https://www.sd25.us/departments/communications/news-details/~board/district-25-governance/post/trustee-zones-school-list",
-   "https://www.sd25.us/district/board",
-   "https://www.sd25.us/district/board/briefs",
-   "https://www.sd25.us/district/board/elections"
-  ],
-  "text": "Board of Trustees - Pocatello-Chubbuck School District 25 Skip To Main Content Close Find it fast Infinite Campus District Calendar DISTRICT Mission, Vision &amp; Beliefs Board of Trustees Administrative Leadership Board Policy Manual Budget &amp; Finance Tax Impact PCSD 25 At-A-Glance What is Visible Learning? Current Initiatives Current Projects 2026 Supplemental Levy Renewal SD25 Education Foundation Title IX DEPARTMENTS Athletics &amp; Activities Business Office Communications Curriculum &amp; Testing Elementary Education Secondary Education Federal Programs Food Services Human Resources Maintenance &amp; Operations Special Services Technology Transportation Wellness CAREERS Join The MORE TOGETHER Team Search Job Openings (opens in new window/tab) Visit HR Back to District Schools + Programs Elementary Schools Chubbuck Elementary School Edahow Elementary School Ellis Elementary School Gate City Elementary School Greenacres Elementary School Indian Hills Elementary School Jefferson Elementary School Lewis &amp; Clark Elementary School Syringa Elementary School Tendoy Elementary School Tyhee Elementary School Wilcox Elementary School Middle Schools Alameda Middle School Franklin Middle School Hawthorne Middle School Irving Middle School High Schools Century High School Highland High School Pocatello High School Alternative Schools New Horizon Center Early Childhood Education Lincoln Early Intervention &amp; Head Start Montessori Special Programs Arches Gifted and Talented E"
+  "rows_all": [
+   [
+    "12/16/2026",
+    "06:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "12/15/2026",
+    "06:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "12/14/2026",
+    "06:00 PM",
+    "Regular Meeting"
+   ],
+   [
+    "11/16/2026",
+    "06:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "11/12/2026",
+    "06:00 PM",
+    "Notice of Quorum"
+   ],
+   [
+    "11/09/2026",
+    "06:00 PM",
+    "Regular Board Meeting"
+   ]
+  ]
  },
- "westada home": {
+ "cda /Portal/MeetingTypeList.aspx": {
   "status": 200,
-  "final": "https://www.westada.org/",
-  "len": 1631527,
-  "simbli": [
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062",
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062&ptid=muNUlKiR2jsXcslsh28JpBkiw==",
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062&ptid=muNUlKiR2jsXcslsh28JpBkiw==\\",
-   "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031062\\"
-  ],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   "!--[-->Specifically",
-   "#0000001a;box-sizing:border-box;height:120px;padding:10px;position:absolute;right:0;top:30px;width:264px;z-index:10}.feedback-popover",
-   "#d3d3d3;color:#616161;display:inline-flex;gap:6px}.content[data-v-bbc4c848]{display:flex;flex-direction:column;gap:24px}.title[data-v-bbc4c848]{color:#2d2d2d;font-size:16px;letter-spacing:.8px;line-height:1.25}.field[data-v-bbc4c848]{display:flex;flex-direction:column;gap:2px}.field-label[data-v-bbc4c848]{color:#2d2d2d;font-size:12px;font-weight:700;letter-spacing:1.2px;line-height:1.2;text-transform:uppercase}.field-value[data-v-bbc4c848]{color:#616161;font-size:14px;letter-spacing:.4px;line-height:16px;word-break:break-word}.source-link[data-v-bbc4c848]{align-items:center;color:#616161;display:inline-flex;gap:8px;text-decoration:none}.source-link[data-v-bbc4c848]:hover{color:#662e80}.feedback[data-v-bbc4c848]{align-items:center;display:flex;gap:8px;justify-content:space-between}.built-message[data-v-bbc4c848]{color:#2d2d2d;font-size:14px;letter-spacing:.6px}.feedback-actions[data-v-bbc4c848]{display:flex;flex-shrink:0;gap:8px}.feedback-btn[data-v-bbc4c848]{border-radius:6px;color:#949494}.feedback-btn--selected[data-v-bbc4c848]{background:#f7f5f9;color:#2d2d2d}.footer[data-v-bbc4c848]{display:flex;flex-direction:column;gap:16px;margin-top:auto;padding:0",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-0cbd8eb8]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-0cbd8eb8]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-0cbd8eb8],.live-feed-time[data-v-0cbd8eb8]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-0cbd8eb8],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-0ee870d6]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-0ee870d6]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-0ee870d6],.live-feed-time[data-v-0ee870d6]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-0ee870d6],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-2ea332ac]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-2ea332ac]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#live-feed-lf5",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-4d5afd8c]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-4d5afd8c]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-4d5afd8c],.live-feed-time[data-v-4d5afd8c]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-4d5afd8c],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-9075db88]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-9075db88]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-9075db88],.live-feed-time[data-v-9075db88]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-9075db88],.purple",
-   "(max-width:1279px){#live-feed-lf5",
-   "(max-width:1599px){.hide-on-lg[data-v-2ea332ac]{display:none}.show-on-lg[data-v-2ea332ac]{display:block}}#live-feed-lf5[data-v-2ea332ac],.homepage-component-padding[data-v-2ea332ac]{padding:40px",
-   "(max-width:1599px){.hide-on-lg[data-v-4d5afd8c]{display:none}.show-on-lg[data-v-4d5afd8c]{display:block}}.homepage-component-padding[data-v-4d5afd8c],.live-feed-lf7[data-v-4d5afd8c]{padding:40px",
-   "(max-width:599px){#live-feed-lf5"
-  ],
-  "board_links": [
-   "https://www.westada.org/o/wasd/page/board-of-trustees"
-  ],
-  "text": "Home | West Ada School District Skip to content Contact Us Employee Portal Join Our Team PowerSchool Search site West Ada School District Preparing Today\u2019s Students for Tomorrow\u2019s Challenges Contact Us Employee Portal Join Our Team PowerSchool Search site Menu Schools Translate Menu Schools Translate Skip Gallery Your browser does not support videos. End of Gallery Attendance board of trustees Calendar enrollMENT school nutrition Technology Transportation Web apps programs Alternative Schools Community Schools CTE Drivers Education Gifted &amp; Talented Schools of Choice Summer School Virtual School House we are west ada 59 Schools Diverse Learning Environments and Opportunities for students in grades K-12. 40,000 Students West Ada School District is the largest school district in the state with approximately 40,000 students enrolled. 19:1 Personalized learning for children with an average student-teacher ratio of 19:1. Languages spoken: The top 10 languages spoken in West Ada, other than English are Spanish, Swahili, Arabic, Russian, Bosnian, Vietnamese, Ukrainian, Karen, Mandarin and Kinyarwanda CTE Career and Technical Education pathways provide students the opportunity to jump start their post-secondary education or acquire skills to enter the workforce right out of high school . 85 different native languages represented by students and families in West Ada School District. Schools of Choice Specifically focused Fine Arts, STEM, and Online Schools. 59% As indicated on sta"
+  "final": "https://cdaschools.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx",
+  "head": "Coeur d'Alene Public Schools - Meeting Type List Skip Navigation Jump to SideBar Quick Menu Public site Sign in COEUR D\u2019ALENE PUBLIC SCHOOLS Your Javascript is turned off, without it, this site will not operate as intended. Home &nbsp;\u00c2\u00bb&nbsp; Meetings Welcome to Coeur d&#39;Alene Public Schools Home Calendar Meetings Search Meetings The Board of Trustees consists of five community members who volunteer their time and service to make decisions in the best interest of our schools and students. Board members are elected within their respective zones and serve four-year terms. The board selects the superintendent, sets district policies and budgets, approves educational programs, makes decisions about curriculum and textbook adoptions, and assures adherence to the district's strategic direction. Resources: Board of Trustees main page . Contact the Board &nbsp; Meeting Archive Share Board of Trustees Regular Meeting Regular Board meetings take place once a month, generally on the second Monday of the month. It is the meeting where the Board takes care of district business. Click here to view the 2025 Regular Meeting Schedule. If auxiliary aids or services are needed to accommodate individuals with disabilities, please contact Marianne Southwick, Clerk of the Board, at (208) 664-8241 ext. 10007 or TTY/TDD at 1-800-377-3529 no later than 9:00 AM the day of the meeting. Board of Trustees Regular Meeting - November 9, 2026 Board of Trustees Regular Meeting - October 12, 2026 Board of"
  },
- "cda home": {
+ "cda /Services/MeetingsService.svc/meetings?from=2026-11-11&to=2027-01-10&loadall=false": {
   "status": 200,
-  "final": "https://www.cdaschools.org/",
-  "len": 2022722,
-  "simbli": [],
-  "diligent": [
-   "https://cdaschools.community.diligentoneplatform.com/Portal/Policy.aspx",
-   "https://cdaschools.community.diligentoneplatform.com/Portal/Policy.aspx\\"
-  ],
-  "boarddocs": [],
-  "feeds": [
-   "#0000001a;box-sizing:border-box;height:120px;padding:10px;position:absolute;right:0;top:30px;width:264px;z-index:10}.feedback-popover",
-   "#d3d3d3;color:#616161;display:inline-flex;gap:6px}.content[data-v-bbc4c848]{display:flex;flex-direction:column;gap:24px}.title[data-v-bbc4c848]{color:#2d2d2d;font-size:16px;letter-spacing:.8px;line-height:1.25}.field[data-v-bbc4c848]{display:flex;flex-direction:column;gap:2px}.field-label[data-v-bbc4c848]{color:#2d2d2d;font-size:12px;font-weight:700;letter-spacing:1.2px;line-height:1.2;text-transform:uppercase}.field-value[data-v-bbc4c848]{color:#616161;font-size:14px;letter-spacing:.4px;line-height:16px;word-break:break-word}.source-link[data-v-bbc4c848]{align-items:center;color:#616161;display:inline-flex;gap:8px;text-decoration:none}.source-link[data-v-bbc4c848]:hover{color:#662e80}.feedback[data-v-bbc4c848]{align-items:center;display:flex;gap:8px;justify-content:space-between}.built-message[data-v-bbc4c848]{color:#2d2d2d;font-size:14px;letter-spacing:.6px}.feedback-actions[data-v-bbc4c848]{display:flex;flex-shrink:0;gap:8px}.feedback-btn[data-v-bbc4c848]{border-radius:6px;color:#949494}.feedback-btn--selected[data-v-bbc4c848]{background:#f7f5f9;color:#2d2d2d}.footer[data-v-bbc4c848]{display:flex;flex-direction:column;gap:16px;margin-top:auto;padding:0",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-0cbd8eb8]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-0cbd8eb8]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-0cbd8eb8],.live-feed-time[data-v-0cbd8eb8]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-0cbd8eb8],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-0ee870d6]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-0ee870d6]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-0ee870d6],.live-feed-time[data-v-0ee870d6]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-0ee870d6],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-2ea332ac]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-2ea332ac]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#live-feed-lf5",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-4d5afd8c]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-4d5afd8c]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-4d5afd8c],.live-feed-time[data-v-4d5afd8c]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-4d5afd8c],.purple",
-   "#fff;border-radius:8px}.fix-apple-scrollbar[data-v-9075db88]::-webkit-scrollbar-track{background-color:#fff;border-radius:8px}.sr-only[data-v-9075db88]{clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.live-feed-author[data-v-9075db88],.live-feed-time[data-v-9075db88]{font-size:14px;font-weight:400;line-height:18px}.live-feed-time.purple[data-v-9075db88],.purple",
-   "(max-width:1279px){#live-feed-lf5",
-   "(max-width:1599px){.hide-on-lg[data-v-2ea332ac]{display:none}.show-on-lg[data-v-2ea332ac]{display:block}}#live-feed-lf5[data-v-2ea332ac],.homepage-component-padding[data-v-2ea332ac]{padding:40px",
-   "(max-width:1599px){.hide-on-lg[data-v-4d5afd8c]{display:none}.show-on-lg[data-v-4d5afd8c]{display:block}}.homepage-component-padding[data-v-4d5afd8c],.live-feed-lf7[data-v-4d5afd8c]{padding:40px",
-   "(max-width:599px){#live-feed-lf5",
-   "(max-width:599px){.live-feed-lf7"
-  ],
-  "board_links": [
-   "https://www.cdaschools.org/page/board-of-trustees"
-  ],
-  "text": "Home | COEUR D\u2019ALENE PUBLIC SCHOOLS Skip to content EMPLOYMENT CONTACT US TIPLINE PEACHJAR Search site COEUR D\u2019ALENE PUBLIC SCHOOLS - EMPLOYMENT CONTACT US TIPLINE PEACHJAR Search site Menu Schools Translate Menu Schools Translate COEUR D\u2019ALENE PUBLIC SCHOOLS - Collapse Menu Returning Student Skyward Calendar KTEC School Board Skip Gallery Best schools in Kootenai County Bigger opportunities start here. Best schools in Kootenai County Bigger opportunities start here. End of Gallery Family Calendar FIND YOUR SCHOOL REGISTRATION Skyward menus online payments Get on the BUS SCHOOLS OF CHOICE EASY TO DO! Enroll in kindergarten! Transfer to the district On the map Amazing ThingS happening at Coeur d&#39;Alene Public Schools Special Needs Driver of the Year Special Needs Driver of the Year Teaching plumbing after long law enforcement career Teaching plumbing after long law enforcement career The Pledge The Pledge Students and staff at Winton Elementary School talk about the importance of saying the Pledge of Allegiance every day. YOUR TAX DOLLARS AT WORK #1 in the Region For Academics #2 in the State For Academics 24-25 Milken Award Marcus Ross, Lakes Middle School National Merit Five 2024-25 National Merit Finalists Top 10 Schools Sorensen Magnet School -#4 Hayden Meadows - #10 $3.9 Million Graduates received $3.9 million in scholarships Nurse of the Year Amy Bell, 2025 Idaho Nurse of the Year 48 AA Degrees 48 students received AA degrees from NIC Perfect Scores 60 students earned"
+  "final": "https://cdaschools.community.diligentoneplatform.com/Services/MeetingsService.svc/meetings?from=2026-11-11&to=2027-01-10&loadall=false",
+  "head": "[{\"CleanName\":\"Board of Trustees Regular Meeting - December 14, 2026\",\"ExternalCalendar\":false,\"FormattedMeetingDate\":\"14 Dec 2026\",\"Id\":177,\"MeetingDate\":\"2026-12-14\",\"MeetingDateTime\":\"2026-12-14 17:00\",\"MeetingLocation\":\"Midtown Center Meeting Room, 1505 N. 5th Street, Coeur d\u2019Alene\",\"MeetingTime\":\"05:00 PM\",\"MeetingTypeId\":18,\"MeetingTypeName\":\"Board of Trustees Regular Meeting\",\"Name\":\"Board of Trustees Regular Meeting - December 14, 2026\",\"Published\":false,\"TypeId\":18,\"VideoIcon\":\"\"}]"
  },
- "boise sd home": {
+ "cda /Portal/MeetingInformation.aspx": {
   "status": 200,
-  "final": "https://www.boiseschools.org/",
-  "len": 269415,
-  "simbli": [],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   ".ig-feed-lg-offset",
-   ".news-feed-carousel",
-   ".news-feed-container-5HRMAb",
-   ".news-feed-feature-columns",
-   ".news-feed-feature-rows",
-   ".news-feed-psq",
-   ".ss-news-feed-row",
-   ".ss-news-feed-row-content",
-   ".ss-news-feed-row-img-container::after",
-   ".ss-post-feed-img-container",
-   ".ss-post-feed-link",
-   "/dist/assets/PostFeedComponent-DxVwAoOp.js"
-  ],
-  "board_links": [],
-  "text": "Boise School District - Home Skip to main content Welcome Home &times; Close Attendance Area Academic Calendars Careers Schools Quick Links Schools Attendance Area Academic Calendars Careers Quick Links Boise School District Educating Today for a Better Tomorrow! Home Families Activities & Athletics Athletics Fine & Performing Arts Community Education Enrollment & Registration How to Enroll Early Childhood Education (Pre-K) Foreign Exchange FERPA Notice & Form Just For Kids Childcare Program Kindergarten Meals & Nutrition Services School Safety & Weather Procedures Standards Based Reporting Student Transportation Student Well-Being Teaching & Learning Advanced Opportunities AVID Career Technical Education Curriculum and Instruction District Libraries Dual Language Program Gifted Program Services Multilingual Learners Montessori Program Special Education Summer Programs Title I Valley Visions 2026-2027 School Year Information Section 504 Technology Artificial Intelligence Technology Support Qustodio Parent App Volunteer Program Students Class of 2026 Graduations College & Career Readiness Driver Education Graduation Requirements Sexual Misconduct & Title IX Reporting Student Wellbeing BSD Student Wellness Survey Community Schools Model District Threat Assessment Team McKinney-Vento Act / Families Experiencing Homelessness School Counseling Social Work Student Health Suicide Prevention, Intervention and Postvention Student Services Staff Page Student Records & Transcripts Teach"
+  "final": "https://cdaschools.community.diligentoneplatform.com/Portal/MeetingInformation.aspx",
+  "head": "Coeur d'Alene Public Schools - Meeting Information Skip Navigation Jump to SideBar Quick Menu Public site Sign in COEUR D\u2019ALENE PUBLIC SCHOOLS Your Javascript is turned off, without it, this site will not operate as intended. Home &nbsp;\u00c2\u00bb&nbsp; Meetings &nbsp;\u00c2\u00bb&nbsp; Meeting Information Welcome to Coeur d&#39;Alene Public Schools Home Calendar Meetings Search Share Meeting Detail Our community has a variety of public meetings that help to strengthen the community.. Below is a description of each of our committees, as well as recent meetings that you can review. Click on the name of a specific meeting to review the details. Nov 09 2026 Board of Trustees Regular Meeting Nov 05 2026 Board of Trustees Special Meeting Oct 29 2026 Board of Trustees Special Meeting Oct 26 2026 Board of Trustees Workshop Oct 21 2026 Board of Trustees Special Meeting Oct 12 2026 Board of Trustees Regular Meeting Oct 01 2026 Board of Trustees Special Meeting Sep 29 2026 Board of Trustees Emergency Meeting Sep 28 2026 Board of Trustees Special Meeting Sep 14 2026 Board of Trustees Regular Meeting Aug 17 2026 Board of Trustees Special Meeting Aug 12 2026 Board of Trustees Special Meeting and Training-August 12, 2026 Aug 10 2026 Board of Trustees Regular Meeting Agenda Jul 13 2026 Board of Trustees Regular Meeting Jun 22 2026 FY27 Budget Adoption and Board of Trustees Workshop Agenda Jun 08 2026 Board of Trustees Budget Hearing and Regular Meeting May 18 2026 Board of Trustees Workshop May 11 2026 Board"
  },
- "ifpl docs": {
-  "status": 404,
-  "final": "https://www.ifpl.org/library-board-meeting-documents/",
-  "len": 231081,
-  "simbli": [],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [
-   "!important;\n\t\tvertical-align:",
-   ".ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu",
-   "0;vertical-align:",
-   "0px;\n\t\t\tvertical-align:",
-   "Feed",
-   "application/rss+xml",
-   "data-vertical-behaviour=",
-   "hfeed",
-   "https://www.ifpl.org/comments/feed/",
-   "https://www.ifpl.org/events/?ical=1",
-   "https://www.ifpl.org/feed/",
-   "iCal"
-  ],
-  "board_links": [
-   "https://www.ifpl.org/board/",
-   "https://www.ifpl.org/library-board/"
-  ],
-  "text": "Page not found &#8211; Idaho Falls Public Library Skip to content Website Search the Website Search for: Search Books &amp; More Binge Bags Book Club in a Bag Nominations Voting Results Circulation Renew Your Books Return Your Books Digital Library Libby Login Libby How-to OverDrive Pure Flix Services Drive Thru Interlibrary Loan Suggest Purchase Learn &amp; Explore Computer Access Mobile Print Digital Resources Pure Flix Makerspaces Audio Recording Room Coding for Kids Technology for Teens Children Early Learning Bags Early Literacy Challenges TumbleBooks Teens Adults Programs Children 1000 Books Before Kindergarten Dance Party Book Babies Book Madness Extreme Book Nerd for Kids Early Literacy Challenges Grow Your Literacy Skills Kinder Ready Makerspace Pop In and Play Storytime Summer Reading Winter Reading Teens and Adults Author Visit Book Madness Booked at Noon Chapter 2 Book Club Extreme Book Nerd Paper Arts Summer Reading Teen Writing Winter Reading Write Over Here Makerspaces Audio Recording Room Certifications Coding for Kids Make an appointment Technology for Teens Teen Inc. All Programs Events About Us Library Memberships Contact Us Email the Library Library Board of Trustees Library Board Documents Community Info Friends of the Library Mae Neuber Foundation Sister Cities Volunteer at the Library Staff Page Catalog and Account Catalog and Account Website Books &amp; More Binge Bags Book Club in a Bag Nominations Voting Results Circulation Renew Your Books Return Yo"
- },
- "boarddocs boise": {
+ "cda /robots.txt": {
   "status": 200,
-  "final": "https://go.boarddocs.com/id/boise/Board.nsf/Public",
-  "len": 1,
-  "simbli": [],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [],
-  "board_links": [],
-  "text": ""
+  "final": "https://cdaschools.community.diligentoneplatform.com/robots.txt",
+  "head": "\n#  Blocked Bots\n\nUser-agent: *  \nDisallow: /\n\nUser-agent: 007AC9  \nDisallow: /\n\nUser-agent: 008 \nDisallow: /\n\nUser-agent: 200PleaseBot  \nDisallow: /\n\nUser-agent: 360Spider  \nDisallow: /\n\nUser-agent: Aboundexbot  \nDisallow: /\n\nUser-agent: acapbot  \nDisallow: /\n\nUser-agent: Acoon  \nDisallow: /\n\nUser-agent: AdIdxBot \nDisallow: /\n\nUser-agent: ADmantX  \nDisallow: /\n\nUser-agent: AdMedia  \nDisallow: /\n\nUser-agent: AhrefsBot  \nDisallow: /\n\nUser-agent: aiHitBot  \nDisallow: /\n\nUser-agent: Alexibot  \nDisallow: /\n\nUser-agent: AOLbot/4.0  \nDisallow: /\n\nUser-agent: Applebot  \nDisallow: /\n\nUser-agent: archive.org  \nDisallow: /\n\nUser-agent: archive.org_bot  \nDisallow: /\n\nUser-agent: Argus Presse  \nDisallow: /\n\nUser-agent: asterias  \nDisallow: /\n\nUser-agent: Attribot  \nDisallow: /\n\nUser-agent: AwarioRssBot\nUser-agent: AwarioSmartBot \nDisallow: /\n\nUser-agent: BackDoorBot/1.0  \nDisallow: /\n\nUser-agent: BacklinkCrawler  \nDisallow: /\n\nUser-agent: BacklinkCrawler \nDisallow: /\n\nUser-agent: Baiduspider  \nDisallow: /\n\nUser-agent: Baiduspider-image  \nDisallow: /\n\nUser-agent: Baiduspider-video  \nDisallow: /\n\nUser-agent: Baiduspider/2.0  \nDisallow: /\n\nUser-agent: binlar_2.6.3  \nDisallow: /\n\nUser-agent: bitlybot  \nDisallow: /\n\nUser-agent: Black Hole  \nDisallow: /\n\nUser-agent: BLEXBot  \nDisallow: /\n\nUser-agent: BlowFish/1.0  \nDisallow: /\n\nUser-agent: Bot clicker  \nDisallow: /\n\nUser-agent: Bot.AraTurka.com  \nDisallow: /\n\nUser-agent: BotALot  \nDisallow: /\n\nUser-agent: brandwatch  \nDisallow: /\n\nUser-agent: "
  },
- "boarddocs d25": {
+ "boise sd sitemap": {
   "status": 200,
-  "final": "https://go.boarddocs.com/id/pcsd25/Board.nsf/Public",
-  "len": 1,
-  "simbli": [],
-  "diligent": [],
-  "boarddocs": [],
-  "feeds": [],
-  "board_links": [],
-  "text": ""
+  "board": [
+   "https://www.boiseschools.org/boardmeetingnotice",
+   "https://www.boiseschools.org/trusteeprofiles"
+  ]
+ },
+ "https://www.ifpl.org/board/": {
+  "status": 200,
+  "text": "Board Documents &#8211; Idaho Falls Public Library Skip to content Website Search the Website Search for: Search Books &amp; More Binge Bags Book Club in a Bag Nominations Voting Results Circulation Renew Your Books Return Your Books Digital Library Libby Login Libby How-to OverDrive Pure Flix Services Drive Thru Interlibrary Loan Suggest Purchase Learn &amp; Explore Computer Access Mobile Print Digital Resources Pure Flix Makerspaces Audio Recording Room Coding for Kids Technology for Teens Children Early Learning Bags Early Literacy Challenges TumbleBooks Teens Adults Programs Children 1000 Books Before Kindergarten Dance Party Book Babies Book Madness Extreme Book Nerd for Kids Early Literacy Challenges Grow Your Literacy Skills Kinder Ready Makerspace Pop In and Play Storytime Summer Reading Winter Reading Teens and Adults Author Visit Book Madness Booked at Noon Chapter 2 Book Club Extreme Book Nerd Paper Arts Summer Reading Teen Writing Winter Reading Write Over Here Makerspaces Audio Recording Room Certifications Coding for Kids Make an appointment Technology for Teens Teen Inc. All Programs Events About Us Library Memberships Contact Us Email the Library Library Board of Trustees Library Board Documents Community Info Friends of the Library Mae Neuber Foundation Sister Cities Volunteer at the Library Staff Page Catalog and Account Catalog and Account Website Books &amp; More Binge Bags Book Club in a Bag Nominations Voting Results Circulation Renew Your Books Return Your Books Digital Library Libby Login Libby How-to OverDrive Pure Flix Services Drive Thru Interlibrary Loan Suggest Purchase Learn &amp; Explore Children Early Learning Bags Early Literacy Challenges TumbleBooks Teens Adults Computer Access Mobile Print Digital Resources Pure Flix Makerspaces Audio Recording Room Coding for Kids Technology for Teens Programs Children 1000 Books Before Kindergarten Dance Party Book Babies Book Madness Extreme Book Nerd for Kids Early Literacy Challenges Grow Your Literacy Skills Kinder Ready Makerspace Pop In and Play Storytime Summer Reading Winter Reading Teens and Adults Author Visit Book Madness Booked at Noon Chapter 2 Book Club Extreme Book Nerd Paper Arts Summer Reading Teen Writing Winter Reading Write Over Here Makerspaces Audio Recording Room Certifications Coding for Kids Make an appointment Technology for Teens Teen Inc. All Programs Events About Us Library Memberships Contact Us Email the Library Library Board of Trustees Library Board Doc",
+  "links": [
+   "https://www.ifpl.org/board-download/100/download",
+   "https://www.ifpl.org/board-download/101/download",
+   "https://www.ifpl.org/board-download/102/download",
+   "https://www.ifpl.org/board-download/103/download",
+   "https://www.ifpl.org/board-download/104/download",
+   "https://www.ifpl.org/board-download/105/download",
+   "https://www.ifpl.org/board-download/106/download",
+   "https://www.ifpl.org/board-download/107/download",
+   "https://www.ifpl.org/board-download/108/download",
+   "https://www.ifpl.org/board-download/109/download",
+   "https://www.ifpl.org/board-download/110/download",
+   "https://www.ifpl.org/board-download/111/download",
+   "https://www.ifpl.org/board-download/112/download",
+   "https://www.ifpl.org/board-download/113/download",
+   "https://www.ifpl.org/board-download/114/download",
+   "https://www.ifpl.org/board-download/115/download",
+   "https://www.ifpl.org/board-download/116/download",
+   "https://www.ifpl.org/board-download/117/download",
+   "https://www.ifpl.org/board-download/118/download",
+   "https://www.ifpl.org/board-download/119/download"
+  ]
+ },
+ "https://www.westada.org/o/wasd/page/board-of-trustees": {
+  "status": 200,
+  "text": "Board of Trustees | West Ada School District Skip to content Contact Us Employee Portal Join Our Team PowerSchool Search site West Ada School District Preparing Today\u2019s Students for Tomorrow\u2019s Challenges Contact Us Employee Portal Join Our Team PowerSchool Search site Menu Schools Translate Menu Schools Translate West Ada School District 1303 East Central Drive, Meridian, ID 83642 208-855-4500 Board of Trustees School Supply Lists District Calendars --> 504 Information COPPA Compliance Non-Discrimination Public Records Request State Report Card Title IX Web Accessibility Statement \u00a9 West Ada School District 2024. Powered by Apptegy",
+  "links": [
+   "https://www.westada.org/page/board-of-trustees/"
+  ]
+ },
+ "https://www.cdaschools.org/page/board-of-trustees": {
+  "status": 200,
+  "text": "Board of Trustees | COEUR D\u2019ALENE PUBLIC SCHOOLS Skip to content EMPLOYMENT CONTACT US TIPLINE PEACHJAR Search site COEUR D\u2019ALENE PUBLIC SCHOOLS - EMPLOYMENT CONTACT US TIPLINE PEACHJAR Search site Menu Schools Translate Menu Schools Translate COEUR D\u2019ALENE PUBLIC SCHOOLS - Schools Find Us Coeur d&#39;Alene Public Schools 1400 N. Northwood Center Ct. Coeur d&#39; Alene, ID 83814 Number: Phone (208) 664-8241 Fax: (208) 664-1748 The Coeur d\u2019Alene School District complies with all applicable laws and does not discriminate on the basis of race, color, religion, sex, national origin, age (40+), genetic information, veteran status, or disability in any educational program or activity receiving federal financial assistance, or in employment practices. The district provides equal access to the Boy Scouts and other designated youth groups. Inquiries regarding compliance with this nondiscrimination policy may be directed to Heather Somers, Executive Director of Elementary Education and Federal Programs and Section 504 Coordinator, at hsomers@cdaschools.org, (208) 664-8241, ext. 10002 or Eric Davis, Executive Director of Human Resources and Title IX Coordinator, at edavis@cdaschools.org, (208) 664-8241, ext. 10030. Copyright \u00a9 2026 Coeur d&#39;Alene Public Schools. All rights reserved. Powered By Apptegy Visit us to learn more",
+  "links": [
+   "https://www.cdaschools.org/page/board-of-trustees/"
+  ]
  }
 }
