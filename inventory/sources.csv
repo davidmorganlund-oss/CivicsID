@@ -42,7 +42,7 @@ County,Custer County,Custer,Custer County (published schedule),site/data/local.j
 County,Elmore County,Elmore,Elmore County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
 County,Franklin County,Franklin,Franklin County (Revize calendar); Franklin County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
 County,Fremont County,Fremont,Fremont County (published schedule),site/data/local.json,Live on CivicsID,Published schedule: County site turns away automated readers; posted dates entered by hand
-County,Gem County,Gem,Own website,site/data/local.json,Links only,County calendar is out of date and no regular schedule is published; Emmett's meeting page lists no dates
+County,Gem County,Gem,Gem County (weekly agenda PDFs),site/data/local.json,Live on CivicsID,"Live feed: Shows each week's meetings once the agenda posts, usually the Friday before, with agenda highlights"
 County,Gooding County,Gooding,Gooding County (CivicPlus Agenda Center); Gooding County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule
 County,Idaho County,Idaho,Idaho County (published schedule),site/data/local.json,Live on CivicsID,Published schedule
 County,Jefferson County,Jefferson,Jefferson County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
@@ -50,8 +50,8 @@ County,Jerome County,Jerome,Jerome County (CivicPlus Agenda Center),site/data/lo
 County,Kootenai County,Kootenai,Kootenai County (CivicPlus calendar); City of Coeur d'Alene (published schedule); City of Coeur d'Alene (LibCal); Coeur d'Alene Public Library (LibCal); Community Library Network (LibCal); City of Hayden (BoardBook); City of Rathdrum (published schedule); City of Dalton Gardens (published schedule); City of Post Falls (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed + schedule
 County,Latah County,Latah,Latah County Library District (events feed); City of Moscow (CivicClerk),site/data/local.json,Live on CivicsID,Live feed
 County,Lemhi County,Lemhi,Lemhi County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
-County,Lewis County,Lewis,Own website,site/data/local.json,Links only,"County website's security certificate fails, so it can't be read safely; no published schedule found"
-County,Lincoln County,Lincoln,Own website,site/data/local.json,Links only,County meetings page turns away automated readers; linked from the county card
+County,Lewis County,Lewis,Lewis County (next-meeting notice),site/data/local.json,Live on CivicsID,"Live feed: The https certificate fails, so this reads the same page over http; shows the next regular meeting"
+County,Lincoln County,Lincoln,Lincoln County (published schedule),site/data/local.json,Live on CivicsID,"Published schedule: First four Mondays at 10 a.m., from the county's Commissioners page; moves to Tuesday on Monday holidays"
 County,Madison County,Madison,Madison County (Revize calendar),site/data/local.json,Live on CivicsID,Live feed
 County,Minidoka County,Minidoka,Minidoka County (CivicPlus calendar),site/data/local.json,Live on CivicsID,Live feed
 County,Nez Perce County,Nez Perce,City of Lewiston (CivicClerk); Nez Perce County (published schedule),site/data/local.json,Live on CivicsID,Live feed + schedule

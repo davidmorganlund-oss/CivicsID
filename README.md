@@ -60,7 +60,7 @@ meetings page instead, from `site/data/local.json`.
 
 ## County coverage
 
-41 of 44 counties are connected. Hand-entered schedules come only from schedules the county or city publishes, and are marked on the site as coming from a standing schedule.
+All 44 counties are connected. Hand-entered schedules come only from schedules the county or city publishes, and are marked on the site as coming from a standing schedule.
 
 | County | How | Sources | Notes |
 |---|---|---|---|
@@ -86,7 +86,7 @@ meetings page instead, from `site/data/local.json`.
 | Elmore | Published schedule | Elmore County (published schedule) |  |
 | Franklin | Live feed + schedule | Franklin County (Revize calendar); Franklin County (published schedule) |  |
 | Fremont | Published schedule | Fremont County (published schedule) | County site turns away automated readers; posted dates entered by hand |
-| Gem | Link only |  | County calendar is out of date and no regular schedule is published; Emmett's meeting page lists no dates |
+| Gem | Live feed | Gem County (weekly agenda PDFs) | Shows each week's meetings once the agenda posts, usually the Friday before, with agenda highlights |
 | Gooding | Live feed + schedule | Gooding County (CivicPlus Agenda Center); Gooding County (published schedule) |  |
 | Idaho | Published schedule | Idaho County (published schedule) |  |
 | Jefferson | Live feed | Jefferson County (CivicPlus calendar) |  |
@@ -94,8 +94,8 @@ meetings page instead, from `site/data/local.json`.
 | Kootenai | Live feed + schedule | Kootenai County (CivicPlus calendar); City of Coeur d'Alene (published schedule); City of Coeur d'Alene (LibCal); Coeur d'Alene Public Library (LibCal); Community Library Network (LibCal); City of Hayden (BoardBook); City of Rathdrum (published schedule); City of Dalton Gardens (published schedule); City of Post Falls (CivicPlus calendar) |  |
 | Latah | Live feed | Latah County Library District (events feed); City of Moscow (CivicClerk) |  |
 | Lemhi | Live feed | Lemhi County (CivicPlus calendar) |  |
-| Lewis | Link only |  | County website's security certificate fails, so it can't be read safely; no published schedule found |
-| Lincoln | Link only |  | County meetings page turns away automated readers; linked from the county card |
+| Lewis | Live feed | Lewis County (next-meeting notice) | The https certificate fails, so this reads the same page over http; shows the next regular meeting |
+| Lincoln | Published schedule | Lincoln County (published schedule) | First four Mondays at 10 a.m., from the county's Commissioners page; moves to Tuesday on Monday holidays |
 | Madison | Live feed | Madison County (Revize calendar) |  |
 | Minidoka | Live feed | Minidoka County (CivicPlus calendar) |  |
 | Nez Perce | Live feed + schedule | City of Lewiston (CivicClerk); Nez Perce County (published schedule) |  |
