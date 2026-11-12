@@ -1348,6 +1348,84 @@ def fetch_ada_agendas(src, start_day, end_day, tz):
     return events
 
 
+
+# --- eScribe meeting portals (City of Boise from late 2026) ---
+
+ESCRIBE_ITEM = re.compile(r'class="AgendaItemTitle[^"]*"[^>]*>([\s\S]{0,600}?)</div>')
+
+
+def escribe_items(page):
+    import html as htmllib
+    cells = [" ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", c)).split()) for c in ESCRIBE_ITEM.findall(page)]
+    return [cells[i + 1] for i in range(len(cells) - 1) if re.fullmatch(r"\d+\.\d+(\.\d+)?", cells[i])]
+
+
+def normalize_escribe(src, rows, tz):
+    import html as htmllib
+    from urllib.parse import urljoin
+    skip = re.compile(src["skip_meetings"], re.I) if src.get("skip_meetings") else None
+    events = []
+    for r in rows:
+        name = htmllib.unescape(r.get("MeetingName") or "").strip()
+        if skip and skip.search(name):
+            continue
+        start = datetime.strptime(r["StartDate"][:16], "%Y/%m/%d %H:%M").replace(tzinfo=tz)
+        end = datetime.strptime(r["EndDate"][:16], "%Y/%m/%d %H:%M").replace(tzinfo=tz) if r.get("EndDate") else None
+        docs = r.get("MeetingDocumentLink") or []
+        agenda = next((d["Url"] for d in docs if d.get("Type") == "Agenda" and d.get("Format") == "HTML"), "") or \
+            next((d["Url"] for d in docs if d.get("Type") in ("Agenda", "AgendaCover")), "")
+        cancelled = any("cancel" in (d.get("Title") or "").lower() for d in docs)
+        ev = make_event(src, title=name, start=start, end=end if end and end > start else None,
+                        location=r.get("Location") or "", url=r.get("Url") or (urljoin(src["site"], agenda) if agenda else src.get("homepage", src["site"])),
+                        agenda_url=urljoin(src["site"], agenda) if agenda else "", uid=r.get("ID", ""), cancelled=cancelled)
+        ev["_escribe_agenda"] = urljoin(src["site"], agenda) if "Meeting.aspx" in agenda else ""
+        events.append(ev)
+    return events
+
+
+def fetch_escribe(src, start_day, end_day, tz):
+    import requests
+    resp = requests.post(src["site"].rstrip("/") + "/MeetingsCalendarView.aspx/GetCalendarMeetings",
+                         json={"calendarStartDate": start_day.isoformat(), "calendarEndDate": end_day.isoformat()},
+                         headers={"User-Agent": UA}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    events = normalize_escribe(src, resp.json().get("d", []), tz)
+    for ev in events:
+        page = ev.pop("_escribe_agenda")
+        if page and soon(ev, start_day) and not ev["cancelled"]:
+            try:
+                add_highlights(ev, escribe_items(get(page).text))
+            except Exception as exc:
+                print(f"[info] {src['id']}: agenda not read: {exc}", file=sys.stderr)
+    return events
+
+
+
+# --- Simbli (eBOARDsolutions) school board meeting listings ---
+
+SIMBLI_ROW = re.compile(r"(\d{2}/\d{2}/\d{4})\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)\s+(.+?)\s+(?:Published|UnPublished)\s")
+
+
+def normalize_simbli(src, page, start_day, end_day, tz):
+    import html as htmllib
+    text = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", page, flags=re.S | re.I))).split())
+    skip = re.compile(src.get("skip_titles", r"notice of (a )?quorum"), re.I)
+    events, seen = [], set()
+    for day_s, clock, title in SIMBLI_ROW.findall(text):
+        d = datetime.strptime(day_s, "%m/%d/%Y").date()
+        if not (start_day <= d <= end_day) or skip.search(title) or (day_s, title) in seen:
+            continue
+        seen.add((day_s, title))
+        events.append(make_event(src, title=title.strip(), start=datetime.combine(d, parse_clock(clock), tz),
+                                 url=src["listing"], location=src.get("default_location", ""), category="school",
+                                 uid=day_s + title))
+    return events
+
+
+def fetch_simbli(src, start_day, end_day, tz):
+    return normalize_simbli(src, get(src["listing"]).text, start_day, end_day, tz)
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1357,7 +1435,8 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "evo": fetch_evo, "revize": fetch_revize, "agendacenter": fetch_agendacenter,
               "canyon_agenda": fetch_canyon_agenda, "jevents": fetch_jevents,
               "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
-              "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas}
+              "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas,
+              "escribe": fetch_escribe, "simbli": fetch_simbli}
 
 
 # ---------- outputs ----------
