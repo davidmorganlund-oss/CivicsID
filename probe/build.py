@@ -1229,7 +1229,7 @@ def fetch_pdf_agendas(src, start_day, end_day, tz):
     from urllib.parse import urljoin, quote
     import pypdf
     page = get(src["list_url"]).text
-    links = [htmllib.unescape(h) for h in re.findall(r'href="([^"]+?\.pdf)(?:\?[^"]*)?"', page, re.I)
+    links = [htmllib.unescape(h) for h in re.findall(r'href\s*=\s*"\s*([^"]+?\.pdf)(?:\?[^"]*)?"', page, re.I)
              if re.search(src.get("link_match", "Agenda"), h, re.I)]
     events = []
     for href in links[: src.get("recent", 3)]:
