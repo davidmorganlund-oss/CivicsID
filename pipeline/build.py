@@ -687,6 +687,17 @@ def link_dated_agendas(events):
         e["agenda_url"] = pages[page].get(datetime.fromisoformat(e["start"]).date(), "")
 
 
+def idaho_holidays(year: int):
+    """State holidays (Idaho Code 73-108) that fall on fixed dates or Mondays."""
+    def nth_monday(month, n):
+        d = date(year, month, 1)
+        d += timedelta(days=(0 - d.weekday()) % 7)
+        return d + timedelta(weeks=n - 1)
+    last_may = date(year, 5, 31) - timedelta(days=(date(year, 5, 31).weekday()) % 7)
+    return {date(year, 1, 1), nth_monday(1, 3), nth_monday(2, 3), last_may, date(year, 6, 19), date(year, 7, 4),
+            nth_monday(9, 1), nth_monday(10, 2), date(year, 11, 11), date(year, 12, 25)}
+
+
 def fetch_schedule(src, start_day, end_day, tz):
     events = []
     for mtg in src["meetings"]:
@@ -703,6 +714,8 @@ def fetch_schedule(src, start_day, end_day, tz):
             if mtg.get("until"):  # the host has only published its schedule this far
                 last = mtg["until"] if isinstance(mtg["until"], date) else date.fromisoformat(str(mtg["until"]))
                 days = [d for d in days if d <= last]
+        if mtg.get("holiday_moves_to_next_day"):  # "if a holiday falls on a meeting day, it moves to Tuesday"
+            days = [d + timedelta(days=1) if d in idaho_holidays(d.year) else d for d in days]
         for day in days:
             if day.month in mtg.get("skip_months", []):
                 continue
@@ -974,6 +987,8 @@ def normalize_tribe(src, rows, tz):
         if wanted and not wanted.intersection(cats):
             continue
         title = htmllib.unescape(r.get("title") or "").strip()
+        if src.get("civic_only") and not libcal_is_civic(title, " ".join(cats)):
+            continue  # library calendars: board meetings and civic programs only
         all_day = bool(r.get("all_day"))
         start = datetime.strptime(r["start_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz)
         end = datetime.strptime(r["end_date"][:16], "%Y-%m-%d %H:%M").replace(tzinfo=tz) if r.get("end_date") and not all_day else None

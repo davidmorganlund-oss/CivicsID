@@ -499,3 +499,10 @@ def test_ada_daily_agenda():
     assert evs[0]["agenda_url"] == "https://a/obm" and evs[2]["location"] == "1st Floor Public Hearing Room" and evs[2]["start"].endswith("18:00:00-07:00")
     hearing = "1. 202300532-MSP-TE, KM ENGINEERING: Board-level Time Extension request to complete improvements. The property is"
     assert build.HEARING_ITEM.findall(hearing) == ["Board-level Time Extension request to complete improvements."]
+
+
+def test_schedule_holiday_moves_to_tuesday():
+    src = {"id": "n", "name": "Nampa", "area": "Nampa", "county": "Canyon",
+           "meetings": [{"title": "City Council", "when": "1st, 3rd Monday", "time": "17:00", "holiday_moves_to_next_day": True}]}
+    evs = build.fetch_schedule(src, date(2027, 1, 1), date(2027, 1, 31), ZoneInfo("America/Boise"))
+    assert [e["start"][:10] for e in evs] == ["2027-01-04", "2027-01-19"]  # MLK Day, Jan 18, moves to Tuesday

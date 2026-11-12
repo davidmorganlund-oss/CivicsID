@@ -654,7 +654,7 @@ sources:
         location: Lincoln County Courthouse, 111 W B St, Shoshone
         category: council
         url: https://www.lincolncountyid.gov/meetings
-        note: Moves to Tuesday when Monday is a holiday
+        holiday_moves_to_next_day: true
 
   - id: ketchum
     name: City of Ketchum
@@ -917,3 +917,22 @@ sources:
     county: Ada
     area: countywide
     homepage: https://adacounty.id.gov/commissioners/
+
+  # Nampa's CivicPlus calendar turns away automated readers, so this is the
+  # schedule on its City Council page: first and third Mondays (Tuesday when
+  # Monday is a holiday), 5 p.m., public hearings from 6 p.m.
+  - id: nampa
+    name: City of Nampa
+    type: schedule
+    county: Canyon
+    area: Nampa
+    homepage: https://www.cityofnampa.us/108/City-Council
+    meetings:
+      - title: City Council
+        when: 1st, 3rd Monday
+        time: "17:00"
+        location: Council Chambers, Nampa City Hall, 411 3rd St S
+        category: council
+        url: https://www.cityofnampa.us/1612/Public-Meetings
+        holiday_moves_to_next_day: true
+        note: Public hearings begin at 6 p.m.
