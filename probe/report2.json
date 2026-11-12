@@ -1,190 +1,202 @@
 {
- "ACHD": {
-  "status": 403,
-  "final": "https://www.achdidaho.org/",
-  "len": 369,
-  "hits": {},
-  "links": [],
-  "robots": "",
-  "title": ""
- },
- "Boise Public Library": {
+ "BPL board": {
   "status": 200,
-  "final": "https://www.boisepubliclibrary.org/",
-  "len": 121793,
-  "hits": {
-   "libcal": 6
-  },
+  "final": "https://www.boisepubliclibrary.org/about-us/board-of-trustees/",
+  "sched": [
+   "FY2027 Library Board Meeting Schedule The regular Board of Trustees meeting is scheduled for the second Wednesday of each month at 11:30 a."
+  ],
   "links": [
-   "https://boisepubliclibrary.libcal.com/calendar/bpl",
-   "https://boisepubliclibrary.libcal.com/calendar/bpl?cid=12885&amp;t=g&amp;d=2026-11-11&amp;cal=12885&amp;cm=6068&amp;inc=0",
-   "https://boisepubliclibrary.libcal.com/calendar/bpl?cid=12885&amp;t=g&amp;d=2026-11-11&amp;cal=12885&amp;cm=6069&amp;inc=0",
-   "https://boisepubliclibrary.libcal.com/calendar/bpl?cid=12885&amp;t=g&amp;d=2026-11-11&amp;cal=12885&amp;cm=6070&amp;inc=0",
-   "https://boisepubliclibrary.libcal.com/calendar/bpl?cid=12885&amp;t=g&amp;d=2026-11-11&amp;cal=12885&amp;cm=6071&amp;inc=0",
-   "https://boisepubliclibrary.libcal.com/calendar/bpl?cid=12885&amp;t=g&amp;d=2026-11-11&amp;cal=12885&amp;cm=6072&amp;inc=0",
-   "https://www.boisepubliclibrary.org/about-us/board-of-trustees/",
-   "https://www.boisepubliclibrary.org/locations-and-events/",
-   "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+   "https://pub-cityofboise.escribemeetings.com/Meeting.aspx?Id=030cd7ef-5979-47cb-a756-fc35a7a5160e&amp;Agenda=Agenda&amp;lang=English",
+   "https://pub-cityofboise.escribemeetings.com/Meeting.aspx?Id=f9ee61d2-36e3-4e64-a0e0-777e95c7dc5d&amp;Agenda=Agenda&amp;lang=English",
+   "https://www.boisepubliclibrary.org/about-us/board-of-trustees/library-board-meeting-archive/",
    "https://www.boisepubliclibrary.org/using-the-library/meeting-rooms/"
   ],
-  "robots": "\u00ef\u00bb\u00bfUser-agent: *\r\nAllow: /\r\nSitemap: https://www.boisepubliclibrary.org/sitemapxml",
-  "title": "Home | Boise Public Library"
+  "head": ""
  },
- "Ada Community Library": {
+ "BPL schedule news": {
   "status": 200,
-  "final": "https://adalib.org/",
-  "len": 328974,
-  "hits": {
-   "tribe": 1,
-   "ical": 1
-  },
-  "links": [
-   "https://adalib.org/board-of-trustees/",
-   "https://adalib.org/events/?ical=1",
-   "https://adalib.org/wp-json/tribe/events/v1/",
-   "https://www.meetup.com/ada-community-library/events/"
+  "final": "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+  "sched": [
+   "Year Boise Public Library Board of Trustees Sets Meeting Schedule and Locations for Year October 6, 2026 12:05 PM BOISE \u2014 The Boise Public Library Board of Trustees set their fiscal year 2027 meetings to be held on the second Wednesday of each month at 11:30 a."
   ],
-  "robots": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://adalib.org/wp-sitemap.xml\n",
-  "title": "Ada Community Library &#8211; Dreams, Ideas and Information"
- },
- "Idaho Falls Public Library": {
-  "status": 200,
-  "final": "https://www.ifpl.org/",
-  "len": 335597,
-  "hits": {
-   "tribe": 3,
-   "ical": 1
-  },
   "links": [
-   "https://www.ifpl.org/board/",
+   "https://www.boisepubliclibrary.org/about/board-of-trustees/board-agendas/",
+   "https://www.boisepubliclibrary.org/using-the-library/meeting-rooms/",
+   "https://www.youtube.com/@cityofboisepublicmeetings"
+  ],
+  "head": ""
+ },
+ "Ada lib board": {
+  "status": 200,
+  "final": "https://adalib.org/board-of-trustees/",
+  "sched": [
+   "rary Card Catalog &amp; Account Collections Books &amp; Reading Learning Events Contact Board of Trustees gholman 2026-04-16T16:47:02-06:00 Board of Trustees Board of Trustees The Ada Community Library Board of Trustees meets the third Tuesday of each month at 4:00 p."
+  ],
+  "links": [
+   "https://adalib.org/board-meeting-agendas/",
+   "https://adalib.org/events/?ical=1"
+  ],
+  "head": ""
+ },
+ "IFPL board": {
+  "status": 200,
+  "final": "https://www.ifpl.org/library-board/",
+  "sched": [],
+  "links": [
+   "https://wordpress/index.php/library-board-meeting-documents/",
    "https://www.ifpl.org/events/?ical=1",
-   "https://www.ifpl.org/events/tag/author-visit-at-the-library/",
-   "https://www.ifpl.org/index.php/event/",
-   "https://www.ifpl.org/index.php/events/",
-   "https://www.ifpl.org/index.php/events/category/adults/",
-   "https://www.ifpl.org/index.php/events/category/children/",
-   "https://www.ifpl.org/index.php/events/category/teens/",
-   "https://www.ifpl.org/library-board/",
-   "https://www.ifpl.org/wordpress/index.php/event/book-babies/",
-   "https://www.ifpl.org/wordpress/index.php/event/booked-at-noon/",
-   "https://www.ifpl.org/wordpress/index.php/event/chapter-2-book-club/",
-   "https://www.ifpl.org/wordpress/index.php/event/coding-for-kids/",
-   "https://www.ifpl.org/wordpress/index.php/event/dance-party/",
-   "https://www.ifpl.org/wordpress/index.php/event/kinder-ready/",
-   "https://www.ifpl.org/wordpress/index.php/event/paper-arts/",
-   "https://www.ifpl.org/wordpress/index.php/event/pop-in-and-play/",
-   "https://www.ifpl.org/wordpress/index.php/event/storytime/",
-   "https://www.ifpl.org/wordpress/index.php/event/technology-for-teens/",
-   "https://www.ifpl.org/wordpress/index.php/event/teen-inc/",
-   "https://www.ifpl.org/wordpress/index.php/event/write-over-here-for-teens/",
-   "https://www.ifpl.org/wordpress/index.php/event/write-over-here/",
-   "https://www.ifpl.org/wp-json/tribe/events/v1/"
+   "https://www.ifpl.org/index.php/library-board-meeting-documents/",
+   "https://www.ifpl.org/wordpress/Files/trustees/Policies/policy_meeting_room_020625.pdf",
+   "https://www.ifpl.org/wordpress/index.php/library-board-meeting-documents/"
   ],
-  "robots": "   User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.ifpl.org/wp-sitemap.xml\n",
-  "title": "Idaho Falls Public Library"
+  "head": ""
  },
- "Twin Falls Public Library": {
+ "TF lib board": {
   "status": 200,
-  "final": "https://www.twinfallspubliclibrary.org/",
-  "len": 100190,
-  "hits": {},
+  "final": "https://www.twinfallspubliclibrary.org/libraryboard/",
+  "sched": [
+   "arls Vice Chairman Shawnee Burt Treasurer Dana DeHaan Foundation Liaison Joey Loya Secretary Nicholas Cooley City Council Liaison Nathan Murray Scheduled Meeting Dates The monthly meeting of the Board of Trustees is the second Thursday of each month at 5:00 p."
+  ],
   "links": [
    "https://www.twinfallspubliclibrary.org/calendar",
-   "https://www.twinfallspubliclibrary.org/calendar/",
-   "https://www.twinfallspubliclibrary.org/events-programs/",
-   "https://www.twinfallspubliclibrary.org/libraryboard",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/01Apr2026Agenda.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/01Board_Agenda_October_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/01Board_Agenda_September_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/01May_Meeting_Agenda.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/01_Board_Agenda_February_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_August_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_August_Cancel_Notice.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_January_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_July_2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_June_2026_KrfIG9U.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Board_Agenda_October_Cancel_Meeting2026.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/March26Agenda.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/agendas/Nov26BoardAgenda.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/02Apr2026Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/Aug26Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/Feb2026Minutes_uVCQ7CJ.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/Jan2026MinutesApproved.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/July26Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/June26Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/Mar2026Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/May26Minutes.pdf",
+   "https://www.twinfallspubliclibrary.org/uploads/minutes/Sept26Minutes.pdf"
+  ],
+  "head": ""
+ },
+ "TF lib calendar": {
+  "status": 200,
+  "final": "https://www.twinfallspubliclibrary.org/calendar/",
+  "sched": [
+   "th you! View all days events Genealogy Workshop: Cemetery Research 6:30 PM to 8:00 PM x Genealogy Workshop: Cemetery Research adult Program Tuesday November 3rd 2026 6:30 PM - 8:00 PM Join our Genealogy Workshop! On the first Tuesday of every month, we\u2019ll teach you a new skill or tool to use to uncover your family tree.",
+   "This month, we\u2019ll meet on October 7th at 6:30 PM to learn how to research cemeteries while compiling your family history.",
+   "ssic Movie Night: &quot;Strangers on a Train&quot; 6:00 PM to 8:00 PM x Classic Movie Night: &quot;Strangers on a Train&quot; adult Program Monday November 9th 2026 6:00 PM - 8:00 PM Check out Classic Movie Night on the second Monday of the month at the Twin Falls Public Library! You\u2019ll see a great classic film and learn some trivia and history behind the movie! This month, we\u2019ll watch 1959's Strangers on a Train @ 6:00 PM."
+  ],
+  "links": [
+   "https://www.twinfallspubliclibrary.org/calendar",
+   "https://www.twinfallspubliclibrary.org/calendar/2026/10/",
+   "https://www.twinfallspubliclibrary.org/calendar/2026/12/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/10/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/12/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/13/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/14/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/16/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/17/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/18/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/19/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/2/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/20/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/21/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/23/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/24/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/25/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/28/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/3/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/30/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/5/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/6/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/7/",
+   "https://www.twinfallspubliclibrary.org/calendar/events/2026/11/9/",
    "https://www.twinfallspubliclibrary.org/uploads/calendars/November_2026.pdf"
   ],
-  "robots": "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
-  "title": "Twin Falls Public Library"
+  "head": ""
  },
- "Marshall Public Library": {
+ "Marshall board": {
   "status": 200,
-  "final": "https://marshallpl.org/",
-  "len": 206659,
-  "hits": {},
+  "final": "https://marshallpl.org/board-of-trustees/",
+  "sched": [
+   "Meetings of the Library Board are held on the third Tuesday of each month at 4:00pm."
+  ],
   "links": [
-   "https://marshallpl.org/board-of-trustees/",
    "https://marshallpl.org/calendar/",
    "https://marshallpl.org/policies/meeting-rooms/"
   ],
-  "robots": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://marshallpl.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
-  "title": "Marshall Public Library - Pocatello&#039;s Library Since 1907"
+  "head": ""
  },
- "Boise SD": {
+ "Marshall calendar": {
   "status": 200,
-  "final": "https://www.boiseschools.org/",
-  "len": 269415,
-  "hits": {},
+  "final": "https://marshallpl.org/calendar/",
+  "sched": [],
   "links": [
-   "https://www.boiseschools.org/activitiesandathleticshome",
-   "https://www.boiseschools.org/suicideprevention"
+   "https://marshallpl.org/calendar/",
+   "https://marshallpl.org/policies/meeting-rooms/",
+   "https://marshallpl.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmarshallpl.org%2Fcalendar%2F"
   ],
-  "robots": "# Default policy: allow all crawlers except the sensitive paths below.\nUser-agent: *\nDisallow: /admin\nDisallow: /*lesson_plan\nDisallow: /userFiles\nCrawl-delay: 5\n\n# Blocked bots (SEO scrapers / aggressive crawlers): no access.\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser",
-  "title": "Boise School District - Home"
+  "head": ""
  },
- "West Ada SD": {
+ "Boise SD board": {
+  "status": 404,
+  "final": "https://www.boiseschools.org/board-of-trustees",
+  "sched": [],
+  "links": [],
+  "head": ""
+ },
+ "Boise SD board2": {
+  "status": 404,
+  "final": "https://www.boiseschools.org/our_district/board_of_trustees",
+  "sched": [],
+  "links": [],
+  "head": ""
+ },
+ "West Ada board": {
   "status": 200,
-  "final": "https://www.westada.org/",
-  "len": 1631527,
-  "hits": {
-   "simbli": 10
-  },
-  "links": [
-   "https://www.westada.org/o/wasd/page/board-of-trustees",
-   "https://www.westada.org/page/all-district-calendar"
+  "final": "https://www.westada.org/o/wasd/page/board-of-trustees",
+  "sched": [],
+  "links": [],
+  "head": ""
+ },
+ "Nampa SD board": {
+  "status": 200,
+  "final": "https://www.nsd131.org/board-of-trustees-home",
+  "sched": [
+   "You also may sign up to address the Board before the beginning of the Regular Board Meeting held on the third Monday of each month, unless that day is a holiday, in which case it will be the second Tuesday of the month or otherwise indicated on BoardDocs meeting agenda.",
+   "Trustee oath of office is given at the next regular meeting after appointment."
   ],
-  "robots": "User-agent: *\nAllow: /\nDisallow: /api/\n",
-  "title": "Home | West Ada School District"
- },
- "Nampa SD": {
-  "status": 200,
-  "final": "https://www.nsd131.org/",
-  "len": 276431,
-  "hits": {},
   "links": [
+   "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
    "https://www.nsd131.org/athletics-extracurricular-calendars",
    "https://www.nsd131.org/board-minutes",
-   "https://www.nsd131.org/board-of-trustees",
-   "https://www.nsd131.org/board-of-trustees-home",
    "https://www.nsd131.org/calendar",
-   "https://www.nsd131.org/civics",
-   "https://www.nsd131.org/dist/assets/CalendarEventsComponent-BlWg0Wzf.js",
-   "https://www.nsd131.org/dist/assets/CalendarEventsComponent-DYDPpVQV.css",
-   "https://www.nsd131.org/dist/assets/EventsRepository-BYy9xGQf.js",
-   "https://www.nsd131.org/page/page_calendar?calID=135067&amp;accessibility=enabled",
-   "https://www.nsd131.org/past-board-agendas",
-   "https://www.nsd131.org/suicide-prevention-family-resources",
-   "https://www.nsd131.org/trustee-election-information",
-   "https://www.nsd131.org/trustee-zones"
+   "https://www.nsd131.org/mentalphysical-impairments-504",
+   "https://www.nsd131.org/past-board-agendas"
   ],
-  "robots": "# Default policy: allow all crawlers except the sensitive paths below.\nUser-agent: *\nDisallow: /admin\nDisallow: /*lesson_plan\nDisallow: /userFiles\nCrawl-delay: 5\n\n# Blocked bots (SEO scrapers / aggressive crawlers): no access.\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Yandex\nDisallow: /\n\nUser",
-  "title": "NSD131 | Nampa School District Official Website"
+  "head": ""
  },
- "CdA SD": {
+ "CdA SD board": {
   "status": 200,
-  "final": "https://www.cdaschools.org/",
-  "len": 2022722,
-  "hits": {
-   "diligent": 3
-  },
-  "links": [
-   "https://www.cdaschools.org/o/cdaps/page/performancecalendar",
-   "https://www.cdaschools.org/page/board-of-trustees"
-  ],
-  "robots": "User-agent: *\nAllow: /\nDisallow: /api/\n",
-  "title": "Home | COEUR D\u2019ALENE PUBLIC SCHOOLS"
+  "final": "https://www.cdaschools.org/page/board-of-trustees",
+  "sched": [],
+  "links": [],
+  "head": ""
  },
- "Idaho Falls D91": {
+ "D91 board": {
   "status": 200,
-  "final": "https://www.ifschools.org/",
-  "len": 90924,
-  "hits": {},
+  "final": "https://www.ifschools.org/our-district/board-of-trustees",
+  "sched": [],
   "links": [
+   "https://simbli.eboardsolutions.com/Index.aspx?S=36032118",
    "https://www.ifschools.org/departments/human-resources/work-calendars",
-   "https://www.ifschools.org/our-district/board-of-trustees",
    "https://www.ifschools.org/our-district/board-of-trustees/board-meeting-records",
-   "https://www.ifschools.org/our-district/board-of-trustees/board-polices-under-reveiw",
    "https://www.ifschools.org/our-district/board-of-trustees/live-stream-meetings",
    "https://www.ifschools.org/parents-students/district-calendar",
    "https://www.ifschools.org/parents-students/district-calendar/elementary-registration",
@@ -192,342 +204,73 @@
    "https://www.ifschools.org/parents-students/district-calendar/school-closure-guidelines",
    "https://www.ifschools.org/parents-students/district-calendar/school-registration"
   ],
-  "robots": "# System Records\nUser-agent: twiceler\nDisallow: /\nUser-agent: sistrix\nDisallow: /\nUser-agent: 008\nDisallow: /\nUser-agent: sitebot\nDisallow: /\nUser-agent: TweetmemeBot\nDisallow: /\nUser-agent: *\nCrawl-delay: 5\nDisallow: /page.cfm\nDisallow: /cf_calendar/printpdf.cfm\nDisallow: /*?const_page=\nDisallow: /",
-  "title": "Home - Idaho Falls School District 91"
+  "head": ""
  },
- "Pocatello D25": {
+ "D91 records": {
   "status": 200,
-  "final": "https://www.sd25.us/",
-  "len": 114442,
-  "hits": {
-   "boarddocs": 1,
-   "simbli": 2
-  },
+  "final": "https://www.ifschools.org/our-district/board-of-trustees/board-meeting-records",
+  "sched": [
+   "If you miss a meeting, video recordings of regular board meetings, work sessions and special meetings can be found here."
+  ],
+  "links": [
+   "https://www.ifschools.org/departments/human-resources/work-calendars",
+   "https://www.ifschools.org/our-district/board-of-trustees/board-meeting-records",
+   "https://www.ifschools.org/our-district/board-of-trustees/live-stream-meetings",
+   "https://www.ifschools.org/parents-students/district-calendar",
+   "https://www.ifschools.org/parents-students/district-calendar/elementary-registration",
+   "https://www.ifschools.org/parents-students/district-calendar/middle-school-registration",
+   "https://www.ifschools.org/parents-students/district-calendar/school-closure-guidelines",
+   "https://www.ifschools.org/parents-students/district-calendar/school-registration"
+  ],
+  "head": ""
+ },
+ "D25 board": {
+  "status": 200,
+  "final": "https://www.sd25.us/district/board",
+  "sched": [
+   ": January 1, 2030 Calendar Committee, 4 vs 5-Day Committee Bill Osborn Board Member Zone 3 Term expires: January 1, 2028 Renae Johnson Board Clerk Board Calendar Calendar RSS Feeds Nov 17 2026 Board of Trustees Calendar Regular Board Meeting 5 : 30 PM - 6 : 30 PM EDC - Board Room Nov 23 2026 Board of Trustees Calendar Thanksgiving Holiday - No School all day Nov 24 2026 Board of Trustees Calendar Thanksgiving Holiday - No School all day Nov 25 2026 Board of",
+   "026 Board of Trustees Calendar Executive Session: Student Discipline 3 : 30 PM - 4 : 30 PM Dec 8 2026 Board of Trustees Calendar Work Session 3 : 30 PM - 4 : 30 PM EDC - Board Room Dec 15 2026 Board of Trustees Calendar Regular Board Meeting 5 : 30 PM - 6 : 30 PM EDC - Board Room Dec 16 2026 Board of Trustees Calendar Executive Session: Student Discipline 3 : 30 PM - 4 : 30 PM Dec 21 2026 Board of Trustees Calendar Winter Break - No School all day Dec 22 20",
+   "Day / Idaho Human Rights Day - No School all day Jan 19 2027 Board of Trustees Calendar Regular Board Meeting 5 : 30 PM - 6 : 30 PM EDC - Board Room Jan 27 2027 Board of Trustees Calendar Executive Session: Student Discipline 3 : 30 PM - 4 : 30 PM Feb 15 2027 Board of Trustees Calendar President's Day - No School all day May 24"
+  ],
   "links": [
    "https://go.boarddocs.com/id/pcsd25/Board.nsf/Public",
-   "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.sd25.us%2Fdepartments%2Fcommunications%2Fnews-details%2F~board%2Fpress-releases%2Fpost%2Fapprenticeships-can-be-ai-proof&media=https%3A%2F%2Fresources.finalsite.net%2Fimages%2Ff_auto%2Cq_auto%2Ct_image_size_1%2Fv1793816446%2Fd25k12idus%2Fjpg77ppnyigfmel21dkr%2FIMG_7535edited.jpg&description=",
+   "https://resources.finalsite.net/images/v1770852743/d25k12idus/d25k12idus/uibbsey6rkzxa1dl9nsb/AmendedSchoolBoardMeetingCalendar.pdf",
    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031884",
-   "https://twitter.com/intent/tweet?text=Apprenticeships+Can+Be+A.I.+Proof&url=https%3A%2F%2Fwww.sd25.us%2Fdepartments%2Fcommunications%2Fnews-details%2F~board%2Fpress-releases%2Fpost%2Fapprenticeships-can-be-ai-proof",
-   "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.sd25.us%2Fdepartments%2Fcommunications%2Fnews-details%2F~board%2Fpress-releases%2Fpost%2Fapprenticeships-can-be-ai-proof",
-   "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.sd25.us%2Fdepartments%2Fcommunications%2Fnews-details%2F~board%2Fpress-releases%2Fpost%2Fapprenticeships-can-be-ai-proof&title=Apprenticeships+Can+Be+A.I.+Proof&summary=",
-   "https://www.sd25.us/board",
-   "https://www.sd25.us/board/board-policy-manual",
+   "https://simbli.eboardsolutions.com/index.aspx?S=36031884",
    "https://www.sd25.us/calendar",
-   "https://www.sd25.us/departments/athletics-activities",
-   "https://www.sd25.us/departments/communications/news-details/~board/district-25-governance/post/operating-principles",
-   "https://www.sd25.us/departments/communications/news-details/~board/district-25-governance/post/trustee-zones-school-list",
-   "https://www.sd25.us/departments/communications/news-details/~board/gate-city-news/post/readers-becoming-leaders-2026",
-   "https://www.sd25.us/departments/communications/news-details/~board/press-releases/post/apprenticeships-can-be-ai-proof",
-   "https://www.sd25.us/departments/communications/news-details/~board/press-releases/post/pcsd-25-announces-selection-of-assistant-principal-and-athletic-director-for-ams",
-   "https://www.sd25.us/departments/communications/news-details/~board/press-releases/post/state-tax-relief-drops-pcsd-25-supplemental-levy-rate-to-0-for-second-year",
-   "https://www.sd25.us/district/board",
-   "https://www.sd25.us/district/board/briefs",
    "https://www.sd25.us/families-learners/academic-calendars",
-   "https://www.sd25.us/families-learners/athletics-activities",
    "https://www.sd25.us/pcsd-25-staff/business-calendars",
-   "https://www.sd25.us/~board/our-stories/post/2026-simplot-inspirational-teacher-of-the-year-finalist-amy-mann-1778794780726",
-   "https://www.sd25.us/~board/our-stories/post/2026-simplot-inspirational-teacher-of-the-year-finalist-matt-anderson-1778794811545",
-   "https://www.sd25.us/~board/our-stories/post/2026-simplot-inspirational-teacher-of-the-year-finalist-sheena-phelps-1778794838804",
-   "https://www.sd25.us/~board/our-stories/post/allison-roxburgh-perfect-fit",
-   "https://www.sd25.us/~board/our-stories/post/celal-perihan-chooses-pcsd25",
-   "https://www.sd25.us/~board/our-stories/post/kristy-green-shares-positive-experiences-at-syringa-elementary",
-   "https://www.sd25.us/~board/our-stories/post/mike-spitzer-experience-with-private-charter-and-public-schools-within-sd25",
-   "https://www.sd25.us/~board/our-stories/post/shaylee-higbee-finds-comfort-in-pcsd25",
-   "https://www.sd25.us/~board/our-stories/post/teresa-lewis-wellness-quest-nov-2025",
-   "https://www.sd25.us/~board/our-stories/post/whitney-morden-chooses-public-schools",
-   "mailto:?body=https%3A%2F%2Fwww.sd25.us%2Fdepartments%2Fcommunications%2Fnews-details%2F~board%2Fpress-releases%2Fpost%2Fapprenticeships-can-be-ai-proof"
+   "https://www.sd25.us/schools-programs/career-technical-education"
   ],
-  "robots": "# System Records\nUser-agent: twiceler\nDisallow: /\nUser-agent: sistrix\nDisallow: /\nUser-agent: 008\nDisallow: /\nUser-agent: sitebot\nDisallow: /\nUser-agent: TweetmemeBot\nDisallow: /\nUser-agent: *\nCrawl-delay: 5\nDisallow: /page.cfm\nDisallow: /cf_calendar/printpdf.cfm\nDisallow: /*?const_page=\nDisallow: /",
-  "title": "Home - Pocatello-Chubbuck School District 25"
+  "head": ""
  },
- "Eagle": {
-  "status": 0,
-  "final": "https://www.cityofeagle.org/",
-  "len": 200,
-  "hits": {},
+ "boarddocs robots": {
+  "status": 200,
+  "final": "https://go.boarddocs.com/robots.txt",
+  "sched": [],
   "links": [],
-  "robots": "",
-  "title": ""
+  "head": ""
  },
- "Garden City": {
+ "simbli robots": {
   "status": 200,
-  "final": "https://gardencityidaho.org/",
-  "len": 58489,
-  "hits": {},
-  "links": [
-   "https://gardencityidaho.org/agendas-minutes",
-   "https://gardencityidaho.org/events",
-   "https://gardencityidaho.org/library-board-of-trustees",
-   "https://gardencityidaho.org/news-and-notices/garden-city-town-hall-meeting",
-   "https://gardencityidaho.org/news-and-notices/lomr-rfqfy2026-0001-evaluation-team-meeting",
-   "https://gardencityidaho.org/news-and-notices/rat-and-rodent-prevention-what-residents-should-know"
-  ],
-  "robots": "User-agent: *\nDisallow:",
-  "title": "City of Garden City, Ada, Idaho"
- },
- "Ammon": {
-  "status": 200,
-  "final": "https://cityofammon.us/",
-  "len": 101209,
-  "hits": {
-   "meetings_gov": 3
-  },
-  "links": [
-   "https://ammonrec.activityreg.com/CommunityEvents",
-   "https://cityofammon.us/events/",
-   "https://cityofammon.us/government/city-council/",
-   "https://cityofammon.us/government/meetings/",
-   "https://www.google-analytics.com"
-  ],
-  "robots": "User-agent: *\nDisallow: /bin/\nDisallow: /config/\nDisallow: /install/\nDisallow: /umbraco/\nDisallow: /views/\n\nSitemap: https://cityofammon.us/sitemap-xml/",
-  "title": "Home | City of Ammon"
- },
- "Chubbuck": {
-  "status": 200,
-  "final": "https://cityofchubbuck.us/",
-  "len": 418146,
-  "hits": {
-   "tribe": 1126,
-   "ical": 15
-  },
-  "links": [
-   "https://cityofchubbuck.us/city-council/",
-   "https://cityofchubbuck.us/demographics/",
-   "https://cityofchubbuck.us/event/building-development-advisory-committee-7/",
-   "https://cityofchubbuck.us/event/city-council-meeting-112/",
-   "https://cityofchubbuck.us/event/city-council-meeting-113/",
-   "https://cityofchubbuck.us/event/council-study-session-26/",
-   "https://cityofchubbuck.us/event/land-use-and-development-commission-37/",
-   "https://cityofchubbuck.us/events/",
-   "https://cityofchubbuck.us/events/2026-11-04/?shortcode=tribe-widget-events-month-4",
-   "https://cityofchubbuck.us/events/2026-11-10/?shortcode=tribe-widget-events-month-4",
-   "https://cityofchubbuck.us/events/2026-11-18/?shortcode=tribe-widget-events-month-4",
-   "https://cityofchubbuck.us/events/?ical=1",
-   "https://cityofchubbuck.us/wp-json/tribe/events/v1/"
-  ],
-  "robots": "User-Agent: *\nDisallow:\n",
-  "title": "Home - City of Chubbuck"
- },
- "Rexburg": {
-  "status": 200,
-  "final": "https://www.rexburg.org/",
-  "len": 1555407,
-  "hits": {},
-  "links": [
-   "https://www.rexburg.org/events",
-   "https://www.rexburg.org/page/city-council",
-   "https://www.rexburg.org/page/city-council-agendas"
-  ],
-  "robots": "User-agent: *\nAllow: /\nDisallow: /api/\n",
-  "title": "City of Rexburg | Home"
- },
- "Blackfoot": {
-  "status": 0,
-  "final": "https://www.cityofblackfoot.org/",
-  "len": 200,
-  "hits": {},
+  "final": "https://simbli.eboardsolutions.com/Pages/ErrorPage.aspx?msg=District%20robots.txt%20not%20found%20in%20state%20GS",
+  "sched": [],
   "links": [],
-  "robots": "",
-  "title": ""
+  "head": "Error District robots.txt not found in state GS Copyright \u00c2\u00a9 2017 eBOARDsolutions Inc. - All rights reserved."
  },
- "Mountain Home": {
-  "status": 200,
-  "final": "https://www.mountain-home.us/",
-  "len": 130777,
-  "hits": {
-   "civicplus": 5
-  },
-  "links": [
-   "https://www.mountain-home.us/166/City-Council",
-   "https://www.mountain-home.us/calendar.aspx?CID=14"
-  ],
-  "robots": "user-agent: Baiduspider\r\nDisallow: /\r\nUser-agent: Yandex\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /search.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /search.as",
-  "title": "Mountain Home, ID | Official Website"
- },
- "Burley": {
-  "status": 0,
-  "final": "https://www.burleyidaho.org/",
-  "len": 200,
-  "hits": {},
-  "links": [],
-  "robots": "",
-  "title": ""
- },
- "Sandpoint": {
-  "status": 403,
-  "final": "https://www.sandpointidaho.gov/",
-  "len": 5530,
-  "hits": {},
-  "links": [],
-  "robots": "",
-  "title": "Just a moment..."
- },
- "Hailey": {
-  "status": 200,
-  "final": "https://haileycityhall.org/",
-  "len": 737314,
-  "hits": {
-   "tribe": 83,
-   "ical": 2
-  },
-  "links": [
-   "https://haileycityhall.org/boards-and-commissions/",
-   "https://haileycityhall.org/boards-and-commissions/city-council/",
-   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/dif/",
-   "https://haileycityhall.org/boards-and-commissions/dif/dif-advisory-committee-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/hahpc/",
-   "https://haileycityhall.org/boards-and-commissions/hahpc/arts-historic-preservation-commission-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/",
-   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/hura-airport-way-district/",
-   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/hura-gateway-district/",
-   "https://haileycityhall.org/boards-and-commissions/hailey-urban-renewal-agency/urban-renewal-agency-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/housing-committee/",
-   "https://haileycityhall.org/boards-and-commissions/housing-committee/housing-committee-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/joint-fire-board/",
-   "https://haileycityhall.org/boards-and-commissions/joint-fire-board/joint-fire-board-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/library-board/",
-   "https://haileycityhall.org/boards-and-commissions/parks-and-lands-board/",
-   "https://haileycityhall.org/boards-and-commissions/parks-and-lands-board/parks-lands-board-agendas/",
-   "https://haileycityhall.org/boards-and-commissions/pz-commission/",
-   "https://haileycityhall.org/boards-and-commissions/pz-commission/planning-zoning-commission-agenda-packets/",
-   "https://haileycityhall.org/boards-and-commissions/sun-valley-air-service/",
-   "https://haileycityhall.org/boards-and-commissions/sustainabilityactionplancommittee/",
-   "https://haileycityhall.org/boards-and-commissions/sustainabilityactionplancommittee/sustainability-action-plan-committee-agenda-and-packets/",
-   "https://haileycityhall.org/boards-and-commissions/tree-committee/",
-   "https://haileycityhall.org/boards-and-commissions/tree-committee/tree-committee-agendas/",
-   "https://haileycityhall.org/events/?ical=1",
-   "https://haileycityhall.org/hailey-police-department/crime-prevention/",
-   "https://haileycityhall.org/public-meetings/",
-   "https://haileycityhall.org/wp-json/tribe/events/v1/"
-  ],
-  "robots": "User-Agent: *\nDisallow:\n",
-  "title": "Hailey Municipal Government | City of Hailey, ID"
- },
- "Emmett": {
-  "status": 200,
-  "final": "https://www.cityofemmett.org/meeting-information",
-  "len": 804580,
-  "hits": {},
-  "links": [
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=79bd8827.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_ecf2c1a94e9ef206147a0ea0573f0862_9603.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixDocumentLinkInPremiumPreview%2C.fixFirefoxLinkBarIntrinsicSizing%2C.imageEncodingAVIF%2C.interactionsUseReactionEffectId%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmFeaturesModuleDiff%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.splitSlotSelectors%2C.svgResolver_2%2C.takeTranslationsFromManifest%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useFragmentHrefForTopBottomAnchor%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed%2C.useSvgLoaderFeature%2C.useSvgLoaderFeatureOnBuilderComps%2C.useWowImageInFastGallery%2C.vsmFeaturesModule%2C.vsm_interactions_v1%2C.vsm_interactions_v2%2C.vsm_shapes%2CbuilderComponentsPageScoping%2CglobalCssStudio2%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5682.0&disableStaticPagesUrlHierarchy=false&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=79bd8827.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&languageResolutionMethod=QueryParam&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-features&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=13284573.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_ecf2c1a94e9ef206147a0ea0573f0862_9603.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
-   "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%2252d47087-aa23-46d7-b773-5ab6939f555b%22%3A%221161%22%2C%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%7D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.customImageDomain%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.isClassNameToRootEnabledNext%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.splitSlotSelectors%2C.svgResolver_2%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useImageAvifFormatInNativeProGallery%2C.useWowImageInFastGallery%2C.vsmPlatform%2C.vsm_shapes%2CtpaBrandFonts&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&dfCk=6&dfVersion=1.5682.0&editorName=Unknown&experiments=dm_masterPageVariablesQueryFixer%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.cityofemmett.org&fileId=13284573.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&hasUserDomainMedia=false&isBuilderComponentModel=false&isClientSdkOnSite=true&isHttps=true&isInSeo=false&isPremiumDomain=true&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=false&language=en&locale=en&metaSiteId=683a34cd-5861-466b-aa4a-30998ca6aa6d&module=thunderbolt-platform&originalLanguage=en&pageId=e36650_f360faa5a6f0b563cdd325a34b2e63e2_9616.json&pilerExperiments=specs.piler.useEditorReactComponents&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.15638.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=07193a1d-432f-47ab-88e6-89b839010e37&siteRevision=9616&staticHTMLComponentUrl=https%3A%2F%2Fwww-cityofemmett-org.filesusr.com%2F&viewMode=desktop",
-   "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[ClassicSection].698c66d5.min.css",
-   "https://www.cityofemmett.org/development-impact-meetings",
-   "https://www.cityofemmett.org/library-meeting-information",
-   "https://www.cityofemmett.org/mayor-city-council",
-   "https://www.cityofemmett.org/meeting",
-   "https://www.cityofemmett.org/meeting-information",
-   "https://www.cityofemmett.org/zoningmeeting"
-  ],
-  "robots": "User-agent: *\nAllow: /\nDisallow: *?lightbox=\n\n# Optimization for Google Ads Bot\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google\nDisallow: /_partials*\nDisallow: /pro-gallery-webapp/v1/galleries/*\n\n# Block PetalBot\nUser-agent: PetalBot\nDisallow: /\n\n# Crawl delay for overly enthusiastic bots",
-  "title": "Meeting Information | city-of-emmett"
- },
- "Jerome": {
-  "status": 0,
-  "final": "https://www.ci.jerome.id.us/",
-  "len": 200,
-  "hits": {},
-  "links": [],
-  "robots": "",
-  "title": ""
- },
- "nampa cal": {
-  "status": 403,
-  "cats": []
- },
- "nampa ical27": {
-  "status": 403,
-  "head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
-  "titles": []
- },
- "ada \\2026\\11 November\\11-17-26_Daily.pdf": {
-  "status": 200,
-  "text": " \n \n \n \n  \nBOARD OF ADA COUNTY COMMISSIONERS \nAGENDA FOR TUESDAY, NOVEMBER 17, 2026 \n(Times Posted are Subject to Change) \n \n \nCOMMISSIONERS\u2019 CONFERENCE ROOM \n(unless otherwise noted)   \n \n \nI. CALL TO ORDER \nII. ROLL CALL \n \nACTION ITEMS: \nIII. CHANGES TO THE AGENDA  \nIV. NEW BUSINESS \n 9:00 AM \u2022 Open Business Meeting (see separate agenda) * \n             9:15 AM   \u2022     Emergency Medical Services District Open Business Meeting  \n   (see separate agenda) * \n 9:30 AM \u2022 Legal Staff/Executive Session (Idaho Code \u00a7 74-206 (1)) \n 1:30 PM \u2022 Development Services \n- Review the 11/18/26 Public Hearing Agenda \nV. ADJOURNMENT \n \n \n \n \n \n \n \n \n \n \n\uf068   \uf068   \uf068 \n \n*Denotes public meetings that may be watched live at: \nhttps://www.youtube.com/channel/UCmREyet73vxhBFCffWClEKA \n \nExecutive Sessions may be held pursuant to Idaho Code \u00a7 74-206 as needed.  The purpose of such sessions \nshall be announced at the time such sessions are called.  \n \nAny person needing special accommodation to participate in the above noticed meeting(s) should contact \nthe Ada County Commissioners\u2019 Office prior to the meeting at 287-7000. \nADA COUNTY \nCOMMISSIONERS\u2019 \nOFFICE \n200 W. Front Street \nBoise, Idaho 83702 \n(208) 287-7000 \nFax: (208) 287-7009 \nbocc1@adacounty.id.gov \nwww.adacounty.id.gov \n "
- },
- "ada \\2026\\11 November\\11-18-26_Daily.pdf": {
-  "status": 200,
-  "text": " \n \n \n \n  \nBOARD OF ADA COUNTY COMMISSIONERS \nAGENDA FOR WEDNESDAY, NOVEMBER 18, 2026 \n(Times Posted are Subject to Change) \n \n \nCOMMISSIONERS\u2019 CONFERENCE ROOM \n(unless otherwise noted)   \n \n \n \nI. CALL TO ORDER \nII. ROLL CALL \n \nACTION ITEMS: \nIII. CHANGES TO THE AGENDA  \nIV. NEW BUSINESS \n 1:30 PM \u2022 Indigent Services (see separate agenda) \n 4:00 PM \u2022 COMPASS Legislative Forum - Meridian  \n 6:00 PM \u2022 Public Hearing - Public Hearing Room (see separate agenda) * \nV. ADJOURNMENT \n \n \n \n \n \n \n \n \n \n\uf068   \uf068   \uf068 \n \n*Denotes public meetings that may be watched live at: \nhttps://www.youtube.com/channel/UCmREyet73vxhBFCffWClEKA \n \nExecutive Sessions may be held pursuant to Idaho Code \u00a7 74-206 as needed.  The purpose of such sessions \nshall be announced at the time such sessions are called.  \n \nAny person needing special accommodation to participate in the above noticed meeting(s) should contact \nthe Ada County Commissioners\u2019 Office prior to the meeting at 287-7000. \n \nADA COUNTY \nCOMMISSIONERS\u2019 \nOFFICE \n200 W. Front Street \nBoise, Idaho 83702 \n(208) 287-7000 \nFax: (208) 287-7009 \nbocc1@adacounty.id.gov \nwww.adacounty.id.gov \n "
- },
- "ada \\2026\\11 November\\11-18-26_Public_Hearing_with_Staff_Links.pdf": {
-  "status": 200,
-  "text": "1 \n \n \n \n \n \n \n \nBOARD OF ADA COUNTY COMMISSIONERS \nPUBLIC HEARING AGENDA \nWEDNESDAY, NOVEMBER 18, 2026 \n6:00 P.M. \n(*Time Posted is Subject to Change) \n \n1ST FLOOR PUBLIC HEARING ROOM \n \n \n \nI. CALL TO ORDER \n \nII. ROLL CALL  \n \nACTION ITEMS: \n \nIII. CHANGES TO THE AGENDA \n \nIV. NEW BUSINESS \n1. 202300532-MSP-TE, KM ENGINEERING: Board-level Time Extension request to \ncomplete improvements for an approved Contractor's Yard. The property is located at \n4255 S Banner St and contains 0.85 acres in the Airport Industrial (M3) District; \nSection 30, T.3N, R.2E. Amelia Haynes, Associate Pla nner, at either (208) 287- 5715 \nor ahaynes@adacounty.id.gov. \n \nStaff Recommendation: Approval \nStaff: Amelia Haynes (208) 287-5715 \n \n2. 202301250-S-TE, KM ENGINEERING : A Board Level Time Extension for a \nPreliminary Plat and Private Road for a three (3) lot subdivision. The property is located \nat 6001 W Hubbard Rd and contains 30.37 acres in the Rural Residential (RR) District; \nSection 16, T.2N, R.1W. Brent Danielson, Senior Planner, at either (208) 287-7913 or \nbdanielson@adacounty.id.gov. \n \nStaff Recommendation: Approval \nStaff: Brent Danielson (208) 287-7913 \n \nADA COUNTY \nCOMMISSIONERS\u2019 \nOFFICE \n200 W. Front Street \nBoise, Idaho 83702 \n(208) 287-7000 \nFax: (208) 287-7009 \nbocc1@adacounty.id.gov \nwww.adacounty.id.gov \n \nFindings Report \nFindings Staff Report \n \n2 \n \n \n \n \n3. 202600934-S-PBA-AC-PR-V, RODNEY EVANS & PARTNERS, LLC : An \napplication for a two (2) lot subdivision along with a private road, accessory use \napplication for a large home occupation (bridal shop), property boundary adjustment, \nand a variance for minimum lot size and for existing structures to encroach into the side \nyard setbacks. The property consists of approximately 17.45 acres and is located at \n5688, 5720, and 5956 W. Overland Road in Section 16, T. 3N, R. 1W. Brent Danielson, \nSenior Planner, at either (208) 287-7913 or bdanielson@adacounty.id.gov.  \n \nP&Z Recommendation: Approval  \nStaff: Brent Danielson (208) 287-7913 \n \n \n4. 202600819-ZC-DA-S-PR, ACKERMAN-ESTVOLD: An application for approval of \na zoning ordinance map amendment, a development agreement, a preliminary plat for \nthe Voluntarist Ridge Subdivision, and a private road to rezone the property from the \nRural Urban Transition (RUT) District to the Estate Resid ential (R1) District and \nsubdivide the property into three (3) lots with the expansion of an existing private road \n(S. Wots Lane). The property is 4.993 acres within the Lineage Estates Subdivision at \n7800 S. Wots Lane, Meridian, ID 83642; Section 4, T.2N., R.1E. Kristy Inselman, \nPlanning Manager \u2013 208-287-7950 or kinselman@adacounty.id.gov. \n \nStaff Recommendation: Denial \nP&Z Recommendation: Approval  \nStaff: Kristy Inselman (208) 287-7950 \n \n \nV. RECESS \n \n \n \n\uf068   \uf068   \uf068 \n \nPublic Hearing may be watched live on the Ada County YouTube Channel: \nhttps://www.youtube.com/channel/UCmREyet73vxhBFCffWClEKA \n \nExecutive Sessions may be held pursuant to Idaho Code \u00a7 74-206 as needed during regularly scheduled \nmeetings.  The purpose of such sessions shall be announced at the time such sessions are called. \n \nAny person needing special accommodation to participate in the above noticed meeting should contact \nthe Ada County Commissioners\u2019 Office prior to the meeting at 287-7000. \nFindings Report \nFindings Report "
- },
- "ada \\2026\\2026 ANNUAL REGULAR MEETING NOTICE.pdf": {
-  "status": 200,
-  "text": " \n \nNOTICE OF THE 2026 REGULAR MEETING SCHEDULE FOR THE  \nBOARD OF THE ADA COUNTY COMMISSIONERS \n \n \nPursuant to Idaho Code \u00a7 74-204(1), notice is hereby given to the public that regular meetings of \nthe Board of the Ada County Commissioners for the 2026 calendar year shall be held: \n \nMondays at 8:00 a.m. or a s soon thereafter as the Board may convene, in the Commissioners\u2019 \nConference Room 3255, located in the Ada County Courthouse and Administration Building, 200 \nW. Front Street., Boise, Idaho 83702, unless otherwise posted, and continue until the business then \nbefore the Board has been completed; \n \nTuesdays at 8:00 a.m. or a s soon thereafter as the Board may convene, in the Commissioners\u2019 \nConference Room 3255, located in the Ada County Courthouse and Administration Building, 200 \nW. Front Street., Boise, Idaho 83702, unless otherwise posted, and continue until the business then \nbefore the Board has been completed; \n \nWednesdays at 8:00 a.m. or as soon thereafter as the Board may convene, in the Commissioners\u2019 \nConference Room 3255, located in the Ada County Courthouse and Administration Building, 200 \nW. Front Street., Boise, Idaho 83702, unless otherwise posted, and then at 6:00 p.m. or as soon \nthereafter as the Board may convene, in the County Public Hearing Room, located on the 1st Floor \nof the Ada County Courthouse and Administration Building, 200 W. Front Street., Boise, Idaho \n83702, unless otherwise posted, and cont inue until the business then before the Board has been \ncompleted but if business before the Board cannot be completed at a decent hour, the Board may \ncontinue such business before it to a date and time certain; \n \nThursdays at 8:00 a.m. or a s soon thereafter as the Board may convene, in the Commissioners\u2019 \nConference Room 3255, located in the Ada County Courthouse and Administration Building, 200 \nW. Front Street., Boise, Idaho 83702, unless otherwise posted, and continue until the business then \nbefore the Board has been completed; \n \nFridays at 8:00 a.m. or a s soon thereafter as the Board may convene, in the Commissioners\u2019 \nConference Room 3255, located in the Ada County Courthouse and Administration Building, 200 \nW. Front Street., Boise, Idaho 83702, unless otherwise posted, and continue until the business then \nbefore the Board has been completed. \n \nThe Board\u2019s regular meetings may include executive session(s), if necessary, and such other \nbusiness as shall lawfully come before the Board. \n \nDaily and meeting agendas will be posted outside the Commissioners\u2019 office and our website: \nhttps://apps.adacounty.id.gov/adafilebrowse/default.aspx?name=boccagendas by 5:00 p.m. each \nFriday or a minimum of 48 hours prior to the meeting date, as appropriate. \n \n \nNOTICE OF THE 2026 REGULAR MEETING SCHEDULE FOR THE  \nBOARD OF THE ADA COUNTY EMERGENCY MEDICAL SERVICES DISTRICT \n \nPursuant to Idaho Code \u00a7 74-204(1), notice is hereby given to the public that regular meetings of \nthe Board of the Ada County Emergency Medical Services District for the 2026 calendar year shall \nbe held every Tuesday at 9:15 a.m. in the Commissioners\u2019 Conference Room, Room 3255, located \nin the Ada County Courthouse and Administration Building, 200 W. Front Street, Boise, Idaho \n83702, unless otherwise posted, and continue until the business then before the Board has been \ncompleted.   \n \nThe Board\u2019s regular meetings may include executive sessions(s), if necessary, and such other \nbusiness as shall lawfully come before the Board."
- },
- "ada list": {
-  "status": 200,
-  "len": 10381726,
-  "sample": [
-   [
-    "\\\\2026\\\\11 November\\\\",
-    "11-02-26_Daily.pdf"
-   ],
-   [
-    "\\\\2026\\\\11 November\\\\",
-    "11-03-26_Daily.pdf"
-   ],
-   [
-    "\\\\2026\\\\11 November\\\\",
-    "11-03-26_EMS_Dist_AUDIO.mp3"
-   ],
-   [
-    "\\\\2026\\\\11 November\\\\",
-    "11-03-26_EMS_Dist.pdf"
-   ],
-   [
-    "\\\\2026\\\\11 November\\\\",
-    "11-03-26_Expo_Idaho.pdf"
-   ]
+ "tribe ada-lib": [],
+ "tribe ifpl": [
+  [
+   "2026-11-18T00:00",
+   "Book Club in a Bag Voting Open"
   ]
- },
- "ada DS": {
-  "status": 200,
-  "names": [
-   "01-BOCC-201201115-S-TE_Findings2.pdf",
-   "01-BOCC-201201115-S-TE_Memo2.pdf",
-   "01-BOCC-201201115-S-TE_Report2.pdf",
-   "02-BOCC-202501442-ZC-DA-S-PR_Findings.pdf",
-   "02-BOCC-202501442-ZC-DA-S-PR_Memo.pdf",
-   "02-BOCC-202501442-ZC-DA-S-PR_Report.pdf",
-   "03-BOCC-202502359-V_Findings.pdf",
-   "03-BOCC-202502359-V_Report.pdf",
-   "04-BOCC-200600071-S-TE-C_Findings.pdf",
-   "04-BOCC-200600071-S-TE-C_Report.pdf",
-   "05-BOCC-202502177-VAC-PCON-AC_Findings.pdf",
-   "05-BOCC-202502177-VAC-PCON-AC_Report.pdf",
-   "06-BOCC-202501370-CPA-ZOA-S-HD_Findings.pdf",
-   "06-BOCC-202501370-CPA-ZOA-S-HD_Report.pdf",
-   "07-BOCC-202502196-V_Findings.pdf",
-   "07-BOCC-202502196-V_Memo.pdf",
-   "07-BOCC-202502196-V_Report.pdf",
-   "08-BOCC-202500455-A_Findings.pdf",
-   "08-BOCC-202500455-A_Memo.pdf",
-   "08-BOCC-202500455-A_Report.pdf",
-   "1.14.2026_BOCC_Agenda.pdf",
-   "01 - 14 - BOCC",
-   "01-PZC-202502138-ZC-PUD-S-PR-MSP-MEMO.pdf",
-   "02-PZC-202502226-CPA-FINDINGS.pdf",
-   "02-PZC-202502226-CPA-STAFF_REPORT.pdf",
-   "03-PZC-202502155-ZC-DA-MSP-FINDINGS.pdf",
-   "03-PZC-202502155-ZC-DA-MSP-STAFF_REPORT.pdf",
-   "04-PZC-202502283-CU-MSP-FINDINGS.pdf",
-   "04-PZC-202502283-CU-MSP-MEMO.pdf",
-   "04-PZC-202502283-CU-MSP-STAFF_REPORT.pdf",
-   "05-PZC-202501942-ZC-DA-S-FINDINGS.pdf",
-   "05-PZC-202501942-ZC-DA-S-MEMO.pdf",
-   "05-PZC-202501942-ZC-DA-S-STAFF_REPORT.pdf",
-   "1.15.2026-PZC_AGENDA.pdf",
-   "01 - 15 - PZC",
-   "01 - January",
-   "01-BOCC-202501159-V_MEMO.pdf",
-   "02-BOCC-202501346-MSP-V_FINDINGS.pdf",
-   "02-BOCC-202501346-MSP-V_REPORT.pdf",
-   "03-BOCC-202502329-PBA-V_FINDINGS.pdf"
+ ],
+ "tribe chubbuck": [
+  [
+   "2026-11-18T18:00",
+   "City Council Meeting"
   ]
- }
+ ],
+ "tribe hailey": [],
+ "libcal bpl": []
 }
