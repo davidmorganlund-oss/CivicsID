@@ -121,6 +121,8 @@ footer p { margin: 0; flex: 1 1 320px; }
 .guide ul, .guide ol { margin: 0 0 14px; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
 .guide .eyebrow a { color: inherit; }
 .guide .sources-list { font-size: 15px; }
+.guide .callout { background: var(--accent-soft); border-left: 4px solid var(--accent); border-radius: 6px; padding: 14px 18px; margin: 4px 0 18px; }
+.guide .callout p:last-child { margin-bottom: 0; }
 .guide-links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
 .guide-links a { display: block; padding: 18px 20px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; font-weight: 600; text-decoration: none; }
 .guide-links span { display: block; font-weight: 400; font-size: 15px; color: var(--muted); margin-top: 4px; }
