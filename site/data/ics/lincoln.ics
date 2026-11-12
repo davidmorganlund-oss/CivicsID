@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Lincoln County
 BEGIN:VEVENT
 UID:3997e045b6fd@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261116T170000Z
 DTEND:20261116T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -13,7 +13,7 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:dad8966bfe16@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261123T170000Z
 DTEND:20261123T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -22,7 +22,7 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:18f309b15ae1@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261207T170000Z
 DTEND:20261207T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -31,7 +31,7 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:9edb28eb84c8@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261214T170000Z
 DTEND:20261214T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -40,7 +40,7 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:e27d207ed898@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261221T170000Z
 DTEND:20261221T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -49,7 +49,7 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:709e6ed1970a@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261228T170000Z
 DTEND:20261228T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
@@ -58,9 +58,18 @@ URL:https://www.lincolncountyid.gov/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:ec1f2e66bc09@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20270104T170000Z
 DTEND:20270104T180000Z
+SUMMARY:Board of Commissioners Meeting (Lincoln County)
+LOCATION:Lincoln County Courthouse\, 111 W B St\, Shoshone
+URL:https://www.lincolncountyid.gov/meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:2c55c57a7e23@civicsid
+DTSTAMP:20261112T120914Z
+DTSTART:20270111T170000Z
+DTEND:20270111T180000Z
 SUMMARY:Board of Commissioners Meeting (Lincoln County)
 LOCATION:Lincoln County Courthouse\, 111 W B St\, Shoshone
 URL:https://www.lincolncountyid.gov/meetings

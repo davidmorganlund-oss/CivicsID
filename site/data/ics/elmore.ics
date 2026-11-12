@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Elmore County
 BEGIN:VEVENT
 UID:1242fe768fd3@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 150 South 4th East\, Mountain Home
@@ -12,7 +12,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:95a620192c74@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 150 South 4th East\, Mountain Home
@@ -20,7 +20,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e260765e5479@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261125T000000Z
 DTEND:20261125T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
@@ -29,7 +29,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:561227262680@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 150 South 4th East\, Mountain Home
@@ -37,7 +37,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:1eea482304ec@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261209T000000Z
 DTEND:20261209T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
@@ -46,7 +46,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 UID:4ad874547ac7@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261211
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 150 South 4th East\, Mountain Home
@@ -54,7 +54,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:9d2e1b7067ee@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 150 South 4th East\, Mountain Home
@@ -62,7 +62,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:ef3fcb1f4781@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261230T000000Z
 DTEND:20261230T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)

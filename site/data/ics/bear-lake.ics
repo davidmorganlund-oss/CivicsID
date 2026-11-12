@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Bear Lake County
 BEGIN:VEVENT
 UID:00fead628159@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Board of County Commissioners (Bear Lake County)
@@ -13,7 +13,7 @@ URL:https://www.bearlakecounty.info/meetings.html
 END:VEVENT
 BEGIN:VEVENT
 UID:95261439adc7@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Board of County Commissioners (Bear Lake County)
@@ -22,9 +22,18 @@ URL:https://www.bearlakecounty.info/meetings.html
 END:VEVENT
 BEGIN:VEVENT
 UID:59fd696a05fc@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
+SUMMARY:Board of County Commissioners (Bear Lake County)
+LOCATION:Commissioners' Room\, Bear Lake County Courthouse\, 30 North Main Street\, Paris
+URL:https://www.bearlakecounty.info/meetings.html
+END:VEVENT
+BEGIN:VEVENT
+UID:1fbefda9b082@civicsid
+DTSTAMP:20261112T120914Z
+DTSTART:20270111T160000Z
+DTEND:20270111T170000Z
 SUMMARY:Board of County Commissioners (Bear Lake County)
 LOCATION:Commissioners' Room\, Bear Lake County Courthouse\, 30 North Main Street\, Paris
 URL:https://www.bearlakecounty.info/meetings.html

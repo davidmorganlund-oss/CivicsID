@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Camas County
 BEGIN:VEVENT
 UID:7bbe428178bf@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Board of County Commissioners (Camas County)
 LOCATION:Camas County Annex\, 517 Soldier Road\, Fairfield
@@ -12,7 +12,7 @@ URL:https://camascounty.id.gov/category/commissioner-agenda/
 END:VEVENT
 BEGIN:VEVENT
 UID:ed05693ebc42@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Camas County)
 LOCATION:Camas County Annex\, 517 Soldier Road\, Fairfield
@@ -20,7 +20,7 @@ URL:https://camascounty.id.gov/category/commissioner-agenda/
 END:VEVENT
 BEGIN:VEVENT
 UID:2761f4934bc3@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Camas County)
 LOCATION:Camas County Annex\, 517 Soldier Road\, Fairfield
@@ -28,7 +28,7 @@ URL:https://camascounty.id.gov/category/commissioner-agenda/
 END:VEVENT
 BEGIN:VEVENT
 UID:2eba9c128681@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261221
 SUMMARY:Board of County Commissioners (Camas County)
 LOCATION:Camas County Annex\, 517 Soldier Road\, Fairfield
@@ -36,7 +36,7 @@ URL:https://camascounty.id.gov/category/commissioner-agenda/
 END:VEVENT
 BEGIN:VEVENT
 UID:0b6b9964e98a@civicsid
-DTSTAMP:20261112T012156Z
+DTSTAMP:20261112T120914Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Camas County)
 LOCATION:Camas County Annex\, 517 Soldier Road\, Fairfield
