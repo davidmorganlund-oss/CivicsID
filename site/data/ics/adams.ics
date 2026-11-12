@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Adams County
 BEGIN:VEVENT
 UID:18610bdceafa@civicsid
-DTSTAMP:20261111T235902Z
+DTSTAMP:20261112T000650Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Board of County Commissioners (Adams County)
 LOCATION:
@@ -12,7 +12,7 @@ URL:https://www.co.adams.id.us/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:90741b2b7d00@civicsid
-DTSTAMP:20261111T235902Z
+DTSTAMP:20261112T000650Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Adams County)
 LOCATION:
@@ -20,7 +20,7 @@ URL:https://www.co.adams.id.us/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:a02ac1e68594@civicsid
-DTSTAMP:20261111T235902Z
+DTSTAMP:20261112T000650Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Adams County)
 LOCATION:
@@ -28,7 +28,7 @@ URL:https://www.co.adams.id.us/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:804b6134750c@civicsid
-DTSTAMP:20261111T235902Z
+DTSTAMP:20261112T000650Z
 DTSTART;VALUE=DATE:20261221
 SUMMARY:Board of County Commissioners (Adams County)
 LOCATION:
@@ -36,7 +36,7 @@ URL:https://www.co.adams.id.us/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:6a04ff35e268@civicsid
-DTSTAMP:20261111T235902Z
+DTSTAMP:20261112T000650Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Adams County)
 LOCATION:
