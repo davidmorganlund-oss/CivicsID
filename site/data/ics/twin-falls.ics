@@ -3,17 +3,8 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Twin Falls County
 BEGIN:VEVENT
-UID:34afb3677bc4@civicsid
-DTSTAMP:20261112T120914Z
-DTSTART:20261113T000000Z
-DTEND:20261113T010000Z
-SUMMARY:Library Board of Trustees (Twin Falls Public Library)
-LOCATION:Twin Falls Public Library
-URL:https://www.twinfallspubliclibrary.org/libraryboard/
-END:VEVENT
-BEGIN:VEVENT
 UID:b08d1b91263f@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261117T000000Z
 DTEND:20261117T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -22,7 +13,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6246/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:1abcf1ab29c0@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261118T010000Z
 DTEND:20261118T020000Z
 SUMMARY:Planning and Zoning Commission Meeting (City of Twin Falls)
@@ -31,7 +22,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6056/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:10445e27c96c@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261118T223000Z
 DTEND:20261118T233000Z
 SUMMARY:Health Plan Trustee (City of Twin Falls)
@@ -40,7 +31,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6948/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:546bc48caa94@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261119T190000Z
 DTEND:20261119T200000Z
 SUMMARY:Public Art Commission 11/19/26 Special Meeting (City of Twin Falls)
@@ -49,7 +40,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/7041/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5d69d747d7@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261123T190000Z
 DTEND:20261123T200000Z
 SUMMARY:Urban Renewal Agency (City of Twin Falls)
@@ -58,7 +49,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6143/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3fdc7e9c787d@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261124T000000Z
 DTEND:20261124T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -67,7 +58,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6195/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a24e8ec1058b@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261130T220000Z
 DTEND:20261130T230000Z
 SUMMARY:CANCELLED: City Council Meeting (City of Twin Falls)
@@ -76,7 +67,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6991/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:2fe47c428d20@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261201T000000Z
 DTEND:20261201T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -85,7 +76,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6196/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c90cb7c31d9b@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261201T190000Z
 DTEND:20261201T200000Z
 SUMMARY:Public Art Commission (City of Twin Falls)
@@ -94,7 +85,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6080/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0fcf9e38489c@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261203T230000Z
 DTEND:20261204T000000Z
 SUMMARY:Airport Advisory Board (City of Twin Falls)
@@ -103,7 +94,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6106/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b44f08d88f1a@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Historic Preservation Commission (City of Twin Falls)
@@ -112,7 +103,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6120/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5da4f44a4075@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261208T000000Z
 DTEND:20261208T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -121,7 +112,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6301/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ad441acf3d59@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261208T183000Z
 DTEND:20261208T193000Z
 SUMMARY:Parks and Recreation Commission (City of Twin Falls)
@@ -130,7 +121,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6092/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ff2abb967641@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261211T000000Z
 DTEND:20261211T010000Z
 SUMMARY:Library Board of Trustees (Twin Falls Public Library)
@@ -139,7 +130,7 @@ URL:https://www.twinfallspubliclibrary.org/libraryboard/
 END:VEVENT
 BEGIN:VEVENT
 UID:a3dd94910d0b@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261215T000000Z
 DTEND:20261215T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -148,7 +139,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6198/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0e841bdb7b9e@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261216T010000Z
 DTEND:20261216T020000Z
 SUMMARY:Planning and Zoning Commission Meeting (City of Twin Falls)
@@ -157,7 +148,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6057/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9b105d6f48ae@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261216T223000Z
 DTEND:20261216T233000Z
 SUMMARY:Health Plan Trustee (City of Twin Falls)
@@ -166,7 +157,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6949/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:66ab44e8f558@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261221T190000Z
 DTEND:20261221T200000Z
 SUMMARY:Urban Renewal Agency (City of Twin Falls)
@@ -175,7 +166,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6156/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9516de7d2614@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261222T000000Z
 DTEND:20261222T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -184,7 +175,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6770/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3c145af2ff5b@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20261229T000000Z
 DTEND:20261229T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -193,7 +184,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6408/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:06f9df460355@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20270105T000000Z
 DTEND:20270105T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -202,7 +193,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6772/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a1aa39bf1c57@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20270105T190000Z
 DTEND:20270105T200000Z
 SUMMARY:Public Art Commission (City of Twin Falls)
@@ -211,11 +202,20 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6959/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:540c99a1545e@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART:20270112T000000Z
 DTEND:20270112T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
 LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6773/overview
+END:VEVENT
+BEGIN:VEVENT
+UID:aeabcd32f702@civicsid
+DTSTAMP:20261113T120620Z
+DTSTART:20270112T183000Z
+DTEND:20270112T193000Z
+SUMMARY:Parks and Recreation Commission Meeting (City of Twin Falls)
+LOCATION:
+URL:https://twinfallsid.portal.civicclerk.com/event/6971/overview
 END:VEVENT
 END:VCALENDAR

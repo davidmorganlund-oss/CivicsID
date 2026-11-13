@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Boundary County
 BEGIN:VEVENT
 UID:9fa23c1fa17e@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -12,7 +12,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:e201b09b000d@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -20,7 +20,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1272ebbe0f@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -28,7 +28,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:5e082ab908a8@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -36,7 +36,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:6664f383e350@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -44,7 +44,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:61ad79487f9e@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -52,7 +52,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:4050e748e13c@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261207
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -60,7 +60,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:869457ed0fa5@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261208
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -68,7 +68,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:45ad433f2cc3@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -76,7 +76,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:f7e2a2ede89b@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -84,7 +84,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:ff5529502484@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261221
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -92,7 +92,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:5dc0240be65f@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261222
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -100,7 +100,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:7e93712977b2@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -108,7 +108,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:58c58f691f17@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261229
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -116,7 +116,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:85fe6c235534@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -124,7 +124,7 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:afb805b6f760@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
@@ -132,8 +132,16 @@ URL:https://boundarycountyid.org/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:d4a29bcd9595@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20270111
+SUMMARY:Board of County Commissioners (Boundary County)
+LOCATION:
+URL:https://boundarycountyid.org/meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:c92d3ed44db6@civicsid
+DTSTAMP:20261113T120620Z
+DTSTART;VALUE=DATE:20270112
 SUMMARY:Board of County Commissioners (Boundary County)
 LOCATION:
 URL:https://boundarycountyid.org/meetings/

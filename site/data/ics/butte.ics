@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Butte County
 BEGIN:VEVENT
 UID:d6f408d41021@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
@@ -12,7 +12,7 @@ URL:https://buttecountyid.us/butte-county-public-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:4543555e829e@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
@@ -20,7 +20,7 @@ URL:https://buttecountyid.us/butte-county-public-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:093f63b4cad4@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
@@ -28,7 +28,7 @@ URL:https://buttecountyid.us/butte-county-public-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:ed9f8335e047@civicsid
-DTSTAMP:20261112T120914Z
+DTSTAMP:20261113T120620Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
