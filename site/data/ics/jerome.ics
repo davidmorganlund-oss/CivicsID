@@ -2,4 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Jerome County
+BEGIN:VEVENT
+UID:68c66d2903d2@civicsid
+DTSTAMP:20261114T115105Z
+DTSTART;VALUE=DATE:20261116
+SUMMARY:Commissioners Meeting (Jerome County)
+LOCATION:
+URL:https://www.jeromecountyid.us/AgendaCenter
+END:VEVENT
+BEGIN:VEVENT
+UID:68c8e3f0ba73@civicsid
+DTSTAMP:20261114T115105Z
+DTSTART;VALUE=DATE:20261117
+SUMMARY:Commissioners Meeting (Jerome County)
+LOCATION:
+URL:https://www.jeromecountyid.us/AgendaCenter
+END:VEVENT
 END:VCALENDAR

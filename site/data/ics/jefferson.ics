@@ -3,8 +3,17 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Jefferson County
 BEGIN:VEVENT
+UID:0031d33387e9@civicsid
+DTSTAMP:20261114T115105Z
+DTSTART:20261116T070000Z
+DTEND:20261116T160000Z
+SUMMARY:November 16\, 2026 County Commissioner (Planning & Zoning Item) (Jefferson County)
+LOCATION:Annex Meeting Room - 210 Courthouse Way\, Suite 240 Rigby ID 83442
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31
+END:VEVENT
+BEGIN:VEVENT
 UID:1888e219f11f@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261116T160000Z
 DTEND:20261117T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -13,7 +22,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:aad55e465ddb@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261119T010000Z
 DTEND:20261119T065900Z
 SUMMARY:November 18th\, 2026 P&Z (Jefferson County)
@@ -22,7 +31,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31
 END:VEVENT
 BEGIN:VEVENT
 UID:d95ccb72e70f@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261123T160000Z
 DTEND:20261124T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -31,7 +40,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:e086b5a8c489@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261130T160000Z
 DTEND:20261201T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -40,7 +49,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:e601f74ee33b@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261207T160000Z
 DTEND:20261208T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -49,7 +58,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:78b9937754b9@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261214T160000Z
 DTEND:20261215T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -58,7 +67,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:a4e42e3148ee@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261217T010000Z
 DTEND:20261217T065900Z
 SUMMARY:December 16th\, 2026 P&Z (Jefferson County)
@@ -67,7 +76,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31
 END:VEVENT
 BEGIN:VEVENT
 UID:e20359a4e9bd@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261221T160000Z
 DTEND:20261222T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -76,7 +85,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:06a8cd8733e9@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261228T160000Z
 DTEND:20261229T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -85,7 +94,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:5d45c70af347@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20270104T160000Z
 DTEND:20270105T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -94,7 +103,7 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24
 END:VEVENT
 BEGIN:VEVENT
 UID:cf701cbc581c@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20270111T160000Z
 DTEND:20270112T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)

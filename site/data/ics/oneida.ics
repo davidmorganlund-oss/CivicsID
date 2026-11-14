@@ -4,9 +4,18 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Oneida County
 BEGIN:VEVENT
 UID:7839fcb3c66c@civicsid
-DTSTAMP:20261113T120620Z
+DTSTAMP:20261114T115105Z
 DTSTART:20261210T010000Z
 DTEND:20261210T020000Z
+SUMMARY:City Council (Malad City)
+LOCATION:Malad City Hall (in person or by Zoom)
+URL:https://maladidaho.org/city-council-calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:f6963c82e0d5@civicsid
+DTSTAMP:20261114T115105Z
+DTSTART:20270114T010000Z
+DTEND:20270114T020000Z
 SUMMARY:City Council (Malad City)
 LOCATION:Malad City Hall (in person or by Zoom)
 URL:https://maladidaho.org/city-council-calendar/
