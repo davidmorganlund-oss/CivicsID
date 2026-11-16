@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T04:53:17-07:00",
+ "generated": "2026-11-16T05:26:39-07:00",
  "events": [
   {
    "id": "18610bdceafa",
@@ -35,24 +35,6 @@
    "url": "https://camascounty.id.gov/category/commissioner-agenda/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
-  },
-  {
-   "id": "0031d33387e9",
-   "title": "November 16, 2026 County Commissioner (Planning & Zoning Item)",
-   "host": "Jefferson County",
-   "source": "jefferson-county",
-   "area": "countywide",
-   "county": "Jefferson",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-11-16T00:00:00-07:00",
-   "end": "2026-11-16T09:00:00-07:00",
-   "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31",
-   "agenda_url": "",
-   "note": "",
    "cancelled": false
   },
   {
@@ -11696,6 +11678,42 @@
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
    "agenda_url": "",
    "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "e39dd30c7499",
+   "title": "Bingham County Commission",
+   "host": "Bingham County",
+   "source": "bingham-county",
+   "area": "countywide",
+   "county": "Bingham",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-15T08:15:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "501 N. Maple, Blackfoot",
+   "url": "https://www.binghamid.gov/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false
+  },
+  {
+   "id": "45b13f52fd01",
+   "title": "BCWC Meeting",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2027-01-15T10:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Bonner County Administrative Building, 1500 US-2, Sandpoint",
+   "url": "https://www.bonnercountyid.gov/events/102348/",
+   "agenda_url": "",
+   "note": "Bonner County Waterways Committee (BCWC) Meetings are held quarterly (January, April, July, October) on the 3rd Friday of the month @ 10:00 AM Microsoft Teams meeting Join: https://teams.microsoft.com/meet/248956555007742?p=xd46YHA0zDrEoo8T28 Meeting ID: 248 956 555 007 742 Passcode: Cm2kL64i For Those Electronically Participating: Use of Zoom/Teams/YouTube is not intended as a substitute for in person, or written participation in the proceedings of County business. It is possible to have technology issues with the Zoom/Teams/YouTube to include, but not limited to, difficulty hearing and being heard. If you have information to communicate to the County, please come in person or send your information in writing. The County cannot assure that the information will be received via Zoom/Teams/YouTube. Use of Zoom/Teams/YouTube is at the risk of the user. Technology failure will not result in Bonner County re-agendizing and/or accepting post-deadline information on any given item or issue. In person attendance is recommended.",
    "cancelled": false
   }
  ]
