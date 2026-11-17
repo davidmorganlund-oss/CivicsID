@@ -45,6 +45,7 @@ a { color: var(--petrol); } a:hover { opacity: 0.8; }
 .brand { font-family: var(--display); font-weight: 700; font-size: 28px; text-decoration: none; letter-spacing: -0.01em; color: var(--petrol); }
 .brand span { color: var(--brand-accent); }
 .top nav { display: flex; flex-wrap: wrap; gap: 4px 8px; flex-grow: 1; }
+.top nav .short { display: none; }
 .top nav a { padding: 10px 12px; font-family: var(--condensed); font-size: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 500; text-decoration: none; color: var(--muted); border-bottom: 3px solid transparent; }
 .top nav a[aria-current="page"] { font-weight: 600; color: var(--petrol); border-bottom-color: var(--accent); }
 
@@ -171,3 +172,31 @@ footer p { margin: 0; flex: 1 1 320px; }
 :root[data-theme="dark"] .card.warm a { color: #9FD1FF; }
 h3 { font-family: var(--sans); }
 .card h2, .card h3, .notice-card h3 { font-family: var(--display); }
+
+/* Meetings from a host's regular schedule: lighter, and labeled */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag.regular { background: transparent; border: 1px dashed var(--chip-line); color: var(--muted); }
+.event.is-regular { background: transparent; border-style: dashed; }
+.event.is-regular .when { background: transparent; border: 1px dashed var(--line); }
+.event .regular-note { color: var(--muted); font-size: 14px; }
+
+/* Phones: get to the meetings sooner */
+@media (max-width: 640px) {
+  .notice { font-size: 13px; padding-block: 6px; }
+  .top .wrap { gap: 4px 12px; padding-block: 8px; }
+  .brand { font-size: 24px; }
+  .top nav { gap: 0 2px; flex-wrap: nowrap; overflow-x: auto; }
+  .top nav a { padding: 8px 8px; font-size: 16px; white-space: nowrap; }
+  .hero .wrap { padding-block: 24px 28px; gap: 14px; }
+  .hero h1 { font-size: 1.75rem; }
+  .hero .lede { font-size: 1rem; }
+  .hero .eyebrow { display: none; }
+  .top nav .full { display: none; }
+  .top nav .short { display: inline; }
+  .hero .lede, .hero .small { display: none; }
+  .hero .search { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .hero .search .field { min-width: 0; flex: none; width: auto; }
+  .hero .search select { min-width: 0; width: 100%; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+  .chips .chip { flex: none; }
+}

@@ -730,6 +730,7 @@ def fetch_schedule(src, start_day, end_day, tz):
             ))
             events[-1]["cancelled"] = False  # the note's wording ("can be cancelled") is not a cancellation
             events[-1]["_scheduled"] = True
+            events[-1]["regular"] = True  # shown on the site as "Usually meets", not a confirmed posting
             events[-1]["_agenda_page"] = mtg.get("agenda_page", "")
     link_dated_agendas(events)
     return events

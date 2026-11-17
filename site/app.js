@@ -115,15 +115,22 @@
     return p;
   }
 
+  // Meetings entered from a host's published regular schedule ("2nd and 4th
+  // Mondays") rather than a posted meeting. They look lighter and say so.
+  var REGULAR_NOTE = /^From the regular meeting schedule the host publishes\. Meetings can be cancelled or moved, so check the host's page before you go\.\s*/;
+
   function card(e) {
     var p = parts(e.start);
-    var art = el('article', 'event' + (e.cancelled ? ' is-cancelled' : ''));
-    var when = el('div', 'when', e.all_day ? 'Time not listed' : clock(p));
+    var art = el('article', 'event' + (e.cancelled ? ' is-cancelled' : '') + (e.regular ? ' is-regular' : ''));
+    var when = el('div', 'when', e.all_day ? (e.regular ? 'Time not posted' : 'Time not listed') : clock(p));
     if (!e.all_day) when.appendChild(el('small', null, e.tz === 'PT' ? 'Pacific' : 'Mountain'));
     art.appendChild(when);
 
     var what = el('div', 'what');
-    what.appendChild(el('span', 'tag' + (e.cancelled ? ' cancelled' : ''), e.cancelled ? 'Cancelled' : (LABELS[e.category] || 'Other')));
+    var tags = el('div', 'tags');
+    tags.appendChild(el('span', 'tag' + (e.cancelled ? ' cancelled' : ''), e.cancelled ? 'Cancelled' : (LABELS[e.category] || 'Other')));
+    if (e.regular && !e.cancelled) tags.appendChild(el('span', 'tag regular', 'Usually meets'));
+    what.appendChild(tags);
     what.appendChild(el('h3', null, e.title));
     what.appendChild(el('p', 'meta', e.host + (e.location ? ' · ' + e.location : '')));
     if (e.highlights && e.highlights.length) {
@@ -135,7 +142,13 @@
       box.appendChild(ul);
       what.appendChild(box);
     }
-    if (e.note) what.appendChild(noteNode(e.note));
+    if (e.regular) {
+      what.appendChild(el('p', 'note regular-note', safeUrl(e.agenda_url)
+        ? 'From the host’s regular schedule. The host has posted an agenda for this date.'
+        : 'From the host’s regular schedule, not a posted agenda. Check the host’s page before you go.'));
+      var extra = (e.note || '').replace(REGULAR_NOTE, '');
+      if (extra) what.appendChild(noteNode(extra));
+    } else if (e.note) what.appendChild(noteNode(e.note));
     art.appendChild(what);
 
     var actions = el('div', 'actions');
@@ -156,7 +169,15 @@
   function render() {
     var list = $('list');
     list.textContent = '';
-    var rows = visible();
+    // Within each day: meetings with a posted time first, in time order; then
+    // posted meetings with no time; then ones from a regular schedule.
+    var rank = function (e) { return e.regular ? 2 : e.all_day ? 1 : 0; };
+    var rows = visible().sort(function (a, b) {
+      var da = a.start.slice(0, 10), db = b.start.slice(0, 10);
+      if (da !== db) return da < db ? -1 : 1;
+      if (rank(a) !== rank(b)) return rank(a) - rank(b);
+      return a.start < b.start ? -1 : a.start > b.start ? 1 : 0;
+    });
     var from = todayKey(), to = addDays(from, state.days);
     var fmt = function (k) { return new Date(k + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
     $('range').textContent = fmt(from) + ' to ' + fmt(to) + ' · ' + rows.length + (rows.length === 1 ? ' event' : ' events');
@@ -249,7 +270,7 @@
     state.events.forEach(function (e) { if (e.county === state.county && e.area !== 'countywide') cities[e.area] = true; });
     var sel = $('city');
     sel.textContent = '';
-    sel.appendChild(new Option(state.county ? 'Anywhere in ' + state.county + ' County' : 'Choose a county first', ''));
+    sel.appendChild(new Option(state.county ? 'Anywhere in ' + state.county + ' County' : 'Pick a county', ''));
     Object.keys(cities).sort().forEach(function (c) { sel.appendChild(new Option(c, c, false, c === state.city)); });
     if (!cities[state.city]) state.city = '';
     sel.value = state.city;
