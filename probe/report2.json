@@ -1,716 +1,289 @@
 {
- "Ammon": {
-  "status": 200,
-  "cands": [
-   "https://cityofammon.us/government/mayor/",
-   "https://cityofammon.us/government/city-council/"
-  ],
-  "snips": {
-   "https://cityofammon.us/government/mayor/": {
-    "status": 200,
-    "wins": [
-     "Mayor | City of Ammon Skip to main content Mayor's Office City of Ammon, Idaho Leadership & Community Service Serving Ammon residents with integrity, vision, and thoughtful leadership. Brian Powell Mayor Term Length 4 Ye",
-     "Mayor | City of Ammon Skip to main content Mayor's Office City of Ammon, Idaho Leadership & Community Service Serving Ammon residents with integrity, vision, and thoughtful leadership. Brian Powell Mayor Term Length 4 Years Email Email Mayor About the Mayor Mayor",
-     " integrity, vision, and thoughtful leadership. Brian Powell Mayor Term Length 4 Years Email Email Mayor About the Mayor Mayor Brian Powell was elected at large by the residents of Ammon in November 2025 and was sworn into office on January 8, 2026, to serve a four year term. As t",
-     "dership. Brian Powell Mayor Term Length 4 Years Email Email Mayor About the Mayor Mayor Brian Powell was elected at large by the residents of Ammon in November 2025 and was sworn into office on January 8, 2026, to serve a four year term. As the City\u2019s Chief Executive Officer, he ",
-     "owell Mayor Term Length 4 Years Email Email Mayor About the Mayor Mayor Brian Powell was elected at large by the residents of Ammon in November 2025 and was sworn into office on January 8, 2026, to serve a four year term. As the City\u2019s Chief Executive Officer, he presides over Ci",
-     "Mayor Term Length 4 Years Email Email Mayor About the Mayor Mayor Brian Powell was elected at large by the residents of Ammon in November 2025 and was sworn into office on January 8, 2026, to serve a four year term. As the City\u2019s Chief Executive Officer, he presides over City Cou",
-     "nces, policies, and priorities are carried out effectively. Mayor Powell\u2019s leadership is grounded in integrity, thoughtful decision making, and service to the community. He is focused on transparent government, sound infrastructure planning, fiscal responsibility, and building a ",
-     "e growth adds function and beauty, not burden. Roles of the Mayor Presides Over Council Meetings The Mayor presides over City Council meetings and helps maintain order and the flow of business in accordance with Idaho law and council rules. The Mayor votes when the Council is equ",
-     "rden. Roles of the Mayor Presides Over Council Meetings The Mayor presides over City Council meetings and helps maintain order and the flow of business in accordance with Idaho law and council rules. The Mayor votes when the Council is equally divided. Chief Executive Leadership ",
-     "usiness in accordance with Idaho law and council rules. The Mayor votes when the Council is equally divided. Chief Executive Leadership The Mayor serves as the City\u2019s Chief Executive Officer and provides executive leadership for city operations, officers, and affairs. The office ",
-     " Council is equally divided. Chief Executive Leadership The Mayor serves as the City\u2019s Chief Executive Officer and provides executive leadership for city operations, officers, and affairs. The office is responsible for helping ensure city ordinances and applicable law are carried",
-     "t and enforced.&nbsp; The City Administrator reports to the Mayor and serves as the Chief Administrative Officer.&nbsp; Works With Council on Policy and Budget The Mayor works with the City Council on policy direction, city priorities, and the annual budget process. While the Cou",
-     " Officer.&nbsp; Works With Council on Policy and Budget The Mayor works with the City Council on policy direction, city priorities, and the annual budget process. While the Council acts legislatively, the Mayor helps lead implementation and administration of adopted policies. App",
-     "l budget process. While the Council acts legislatively, the Mayor helps lead implementation and administration of adopted policies. Appointments and Recommendations The Mayor makes appointments and provides recommendations as authorized by Idaho law and city code, including servi"
-    ]
-   },
-   "https://cityofammon.us/government/city-council/": {
-    "status": 200,
-    "wins": [
-     "mon City Council is composed of six council members and the Mayor, all elected at-large. Together they set and administer the city budget, establish policy, and ensure that Ammon's services meet the needs of a growing community. The Council meets on the 1st and 3rd Thursday of ea",
-     "he Council meets on the 1st and 3rd Thursday of each month. Council Members 6 Plus the Mayor Term Length 4 Yrs Staggered elections Meetings 2/mo 1st &amp; 3rd Thursday Meeting Time 6 PM City Hall Chambers Council Members Council President - Seat 1 Scott Wessel Term Length 4 Years",
-     " and 3rd Thursday of each month. Council Members 6 Plus the Mayor Term Length 4 Yrs Staggered elections Meetings 2/mo 1st &amp; 3rd Thursday Meeting Time 6 PM City Hall Chambers Council Members Council President - Seat 1 Scott Wessel Term Length 4 Years Email Email Member Council",
-     "1st &amp; 3rd Thursday Meeting Time 6 PM City Hall Chambers Council Members Council President - Seat 1 Scott Wessel Term Length 4 Years Email Email Member Council Member - Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length",
-     "ursday Meeting Time 6 PM City Hall Chambers Council Members Council President - Seat 1 Scott Wessel Term Length 4 Years Email Email Member Council Member - Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email E",
-     "6 PM City Hall Chambers Council Members Council President - Seat 1 Scott Wessel Term Length 4 Years Email Email Member Council Member - Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council ",
-     " Seat 1 Scott Wessel Term Length 4 Years Email Email Member Council Member - Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email",
-     "sel Term Length 4 Years Email Email Member Council Member - Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council M",
-     "Seat 2 Nolan Wheeler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email M",
-     "ler Term Length 4 Years Email Email Member Council Member - Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email Member Council Mem",
-     " Seat 3 Jeff Fullmer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email Member Council Member - Seat 6 Sid Hamberlin Term Length 4 Years Email Email ",
-     "mer Term Length 4 Years Email Email Member Council Member - Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email Member Council Member - Seat 6 Sid Hamberlin Term Length 4 Years Email Email Member City Counc",
-     "- Seat 4 Kris Oswald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email Member Council Member - Seat 6 Sid Hamberlin Term Length 4 Years Email Email Member City Council Meetings Schedule 1st &amp; 3rd Thursday of each month ",
-     "ald Term Length 4 Years Email Email Member Council Member - Seat 5 Heidi Boyle Term Length 4 Years Email Email Member Council Member - Seat 6 Sid Hamberlin Term Length 4 Years Email Email Member City Council Meetings Schedule 1st &amp; 3rd Thursday of each month at 6:00 PM Locati"
-    ]
-   }
-  }
- },
- "Boise": {
-  "status": 200,
-  "cands": [
-   "https://www.cityofboise.org/departments/mayor/",
-   "https://www.cityofboise.org/departments/city-council/",
-   "https://www.cityofboise.org/news/mayor/2026/november/city-of-boise-seeks-multiple-board-and-commission-candidates/",
-   "https://www.cityofboise.org/news/mayor/2026/november/boise-mayor-lauren-mclean-proposes-data-center-moratorium/"
-  ],
-  "snips": {
-   "https://www.cityofboise.org/departments/mayor/": {
-    "status": 200,
-    "wins": [
-     "\ufeff Mayor | City of Boise Skip to main content Translate Contact Us Boise Mayor Lauren McLean Mayor Lauren McLean listens to our neighbors and delivers for our people by building more homes at Boise budgets, investing in par",
-     "ty of Boise Skip to main content Translate Contact Us Boise Mayor Lauren McLean Mayor Lauren McLean listens to our neighbors and delivers for our people by building more homes at Boise budgets, investing in parks in every neighborhood, expanding protections for our cherished foot",
-     "main content Translate Contact Us Boise Mayor Lauren McLean Mayor Lauren McLean listens to our neighbors and delivers for our people by building more homes at Boise budgets, investing in parks in every neighborhood, expanding protections for our cherished foothills and open space",
-     "es dignity and opportunity for every Boise family About the Mayor Mayor Lauren McLean has dedicated her career to protecting what makes Boise, Boise, while ensuring the next generation can build a life here too. See More Mayor&#39;s Calendar Mayor Lauren McLean, in a commitment t",
-     "nity and opportunity for every Boise family About the Mayor Mayor Lauren McLean has dedicated her career to protecting what makes Boise, Boise, while ensuring the next generation can build a life here too. See More Mayor&#39;s Calendar Mayor Lauren McLean, in a commitment to tran",
-     "ing the next generation can build a life here too. See More Mayor&#39;s Calendar Mayor Lauren McLean, in a commitment to transparent, accessible and accountable government, publishes her calendar so residents can retroactively see the meetings she has attended. View Calendar Cont",
-     "on can build a life here too. See More Mayor&#39;s Calendar Mayor Lauren McLean, in a commitment to transparent, accessible and accountable government, publishes her calendar so residents can retroactively see the meetings she has attended. View Calendar Contact the Mayor Phone: ",
-     "ee the meetings she has attended. View Calendar Contact the Mayor Phone: (208) 972-8520 Email: mayormclean@cityofboise.org See More Other Links 202 6 State of the City Address Let\u2019s reflect on what we\u2019ve accomplished , celebrate our welcoming community, and look ahead as our nati",
-     "s , we know what we want and need for the city we love .\" - Mayor Lauren McLean Watch the Address News Mayor SEE ALL City of Boise Seeks Multiple Board and Commission Candidates November 13, 2026 Boise Mayor Lauren McLean Proposes Data Center Moratorium November 6, 2026 Micron Te",
-     "ity we love .\" - Mayor Lauren McLean Watch the Address News Mayor SEE ALL City of Boise Seeks Multiple Board and Commission Candidates November 13, 2026 Boise Mayor Lauren McLean Proposes Data Center Moratorium November 6, 2026 Micron Technology Gives $2.5M to Bring Clean Geother",
-     "ple Board and Commission Candidates November 13, 2026 Boise Mayor Lauren McLean Proposes Data Center Moratorium November 6, 2026 Micron Technology Gives $2.5M to Bring Clean Geothermal Heat to City\u2019s Affordable Housing October 27, 2026 Empower Boise with IRA Tools + Resources Sav",
-     "ent Successfully! Message Failed To Send. Send a Message to Mayor&#39;s Office Thank you for your interest in the City of Boise Mayor's Office. Please complete the form to have your inquiry sent to the Mayor's Office staff. First Name Last Name Email Address Phone Number Message ",
-     "9;s Office Thank you for your interest in the City of Boise Mayor's Office. Please complete the form to have your inquiry sent to the Mayor's Office staff. First Name Last Name Email Address Phone Number Message Submit Phone (208) 972-8520 TTY (800) 377-3529 Hours Monday - Friday",
-     ". Please complete the form to have your inquiry sent to the Mayor's Office staff. First Name Last Name Email Address Phone Number Message Submit Phone (208) 972-8520 TTY (800) 377-3529 Hours Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays Address 150 N Capitol Blvd, Boise,"
-    ]
-   },
-   "https://www.cityofboise.org/departments/city-council/": {
-    "status": 200,
-    "wins": [
-     "nal Audit was created on August 26, 2003. On that date, the Mayor and Council of the City of Boise enacted Ordinance No. 6260, creating the Office. See More City Council Districts Learn about City Council elections and the implementation plan outlining how districts will be manag",
-     "nt for each of Boise\u2019s six council districts. See More City Council Members Council District 5 Council President Meredith Stead Council District 5 - Serving since 2023 Council District 3 Council Pro Tem Kathy Corless Council District 3 - Serving since 2024 Council Seat 5 Council ",
-     "districts. See More City Council Members Council District 5 Council President Meredith Stead Council District 5 - Serving since 2023 Council District 3 Council Pro Tem Kathy Corless Council District 3 - Serving since 2024 Council Seat 5 Council Member Colin Nash Council District ",
-     "o Tem Kathy Corless Council District 3 - Serving since 2024 Council Seat 5 Council Member Colin Nash Council District 2 - Serving since 2023 Council District 1 Council Member Luci Willits Council District 1 - Serving since 2022 Council District 4 Council Member Jordan Morales Cou",
-     "less Council District 3 - Serving since 2024 Council Seat 5 Council Member Colin Nash Council District 2 - Serving since 2023 Council District 1 Council Member Luci Willits Council District 1 - Serving since 2022 Council District 4 Council Member Jordan Morales Council District 4",
-     " Council District 2 - Serving since 2023 Council District 1 Council Member Luci Willits Council District 1 - Serving since 2022 Council District 4 Council Member Jordan Morales Council District 4 - Serving since 2024 Council Seat 3 Council Member Jimmy Hallyburton Council Distric",
-     " Council District 1 - Serving since 2022 Council District 4 Council Member Jordan Morales Council District 4 - Serving since 2024 Council Seat 3 Council Member Jimmy Hallyburton Council District 6 - Serving since 2020 &copy; 2026 City of Boise. All rights reserved. Close Message ",
-     "mber Jordan Morales Council District 4 - Serving since 2024 Council Seat 3 Council Member Jimmy Hallyburton Council District 6 - Serving since 2020 &copy; 2026 City of Boise. All rights reserved. Close Message Sent Successfully! Message Failed To Send. Send a Message to City Coun",
-     "ales Council District 4 - Serving since 2024 Council Seat 3 Council Member Jimmy Hallyburton Council District 6 - Serving since 2020 &copy; 2026 City of Boise. All rights reserved. Close Message Sent Successfully! Message Failed To Send. Send a Message to City Council Thank you f"
-    ]
-   },
-   "https://www.cityofboise.org/news/mayor/2026/november/city-of-boise-seeks-multiple-board-and-commission-candidates/": {
-    "status": 200,
-    "wins": [
-     " insights to the decision-making process at the city,\u201d said Mayor Lauren McLean. \u201cIt\u2019s an engaging position that bridges community needs directly to the city\u2019s departments, so that we may work hand in hand to best serve Boiseans as we create a city for everyone.\u201d All applications",
-     "pact Fee Advisory Committee provides recommendations to the Mayor and City Council on the assessment and use of development impact fees, which help fund public facilities and infrastructure needed to accommodate growth. The Committee reviews capital improvement plans, evaluates p",
-     "pact Fee Advisory Committee provides recommendations to the Mayor and City Council on the assessment and use of development impact fees, which help fund public facilities and infrastructure needed to accommodate growth. The Committee reviews capital improvement plans, evaluates p",
-     "adline to apply for openings is December 13, 2026. Contact: Mayor&#39;s Office Media Relations (208) 972-8520 | info@cityofboise.org &copy; 2026 City of Boise. All rights reserved. Close Message Sent Successfully! Message Failed To Send. Send a Message to Mayor&#39;s Office Media",
-     "ent Successfully! Message Failed To Send. Send a Message to Mayor&#39;s Office Media Relations First Name Last Name Email Address Phone Number Message Submit Phone (208) 972-8520 TTY (800) 377-3529 Close"
-    ]
-   },
-   "https://www.cityofboise.org/news/mayor/2026/november/boise-mayor-lauren-mclean-proposes-data-center-moratorium/": {
-    "status": 200,
-    "wins": [
-     "\ufeff Boise Mayor Lauren McLean Proposes Data Center Moratorium | News | City of Boise Skip to main content Translate Contact Us Boise Mayor Lauren McLean Proposes Data Center Moratorium November 6, 2026 BOISE \u2013 Boise Mayor Lauren M",
-     "ty of Boise Skip to main content Translate Contact Us Boise Mayor Lauren McLean Proposes Data Center Moratorium November 6, 2026 BOISE \u2013 Boise Mayor Lauren McLean is proposing a moratorium on the development of mega data centers within city limits. A public hearing will be held a",
-     "poses Data Center Moratorium November 6, 2026 BOISE \u2013 Boise Mayor Lauren McLean is proposing a moratorium on the development of mega data centers within city limits. A public hearing will be held at Boise City Council\u2019s Tuesday meeting on November 10. If passed, the moratorium wi",
-     " protect Boiseans and our precious natural resources,\u201d said Mayor Lauren McLean. \u201cAny growth in Boise has to align with our city\u2019s values, and I\u2019m drawing a line against unchecked mega data center development and making it clear where Boise stands.\u201d Large data centers around the "
-    ]
-   }
-  }
- },
- "Caldwell": {
-  "status": 403,
-  "cands": [],
-  "snips": {}
- },
- "Chubbuck": {
-  "status": 200,
-  "cands": [
-   "https://cityofchubbuck.us/city-council/",
-   "https://cityofchubbuck.us/mayors-office/",
-   "https://cityofchubbuck.us/event/city-council-meeting-112/",
-   "https://cityofchubbuck.us/event/city-council-meeting-113/"
-  ],
-  "snips": {
-   "https://cityofchubbuck.us/city-council/": {
-    "status": 200,
-    "wins": [
-     "ther Message 12 + 4 = Submit CITY COUNCIL &nbsp; Dan Heiner Council Member dheiner@cityofchubbuck.us I was born and raised in Burley, and have lived in south-east Idaho nearly all of my life. I married Laura Garrard over 41 years ago, and we have four wonderful children and eight",
-     "rtneuf Valley of south-east Idaho provides. Roger Hernandez Council President rhernandez@cityofchubbuck.us Roger was originally raised in San Diego, California. He is the oldest son of nine children. His family moved to Idaho in the early 70\u2019s and made their home in Aberdeen, whe",
-     "help it to further progress into the future.\u201d Melanie Evans Council Member mevans@cityofchubbuck.us Melanie Evans is an Idaho native who has served on the Chubbuck City Council since 2016. She attended public school in Burley, Idaho and then continued her education at Ricks Colle",
-     "ity beautification, and community involvement. Norman Reece Council Member nreece@cityofchubbuck.us Norm Reece Jr. was born and raised in Pocatello. He and his wife, Joy, have three children: Heather, Norman (married to Morgan Reece), and Brittany. Norm and Joy have three grandch",
-     "ay 7:30am-11:30am Email: info@cityofchubbuck.us City Hall / Mayor's Office (208) 237-2400 290 East Linden Ave. Chubbuck, ID 83202 &nbsp; &nbsp; Inspections / Permits (208) 417-7176 290 East Linden Ave. Chubbuck, ID 83202 &nbsp; Public Works Yard (208) 237-2430 175 Park Lawn Chubb"
-    ]
-   },
-   "https://cityofchubbuck.us/mayors-office/": {
-    "status": 200,
-    "wins": [
-     "Mayor&#039;s Office - City of Chubbuck (208) 237-2400 info@cityofchubbuck.us Facebook X Facebook X Pay Utilities Forms &#038; Applications Legal Notices Comprehensive Plan Update mayor&#8217;s office Office of the Mayor ",
-     "omprehensive Plan Update mayor&#8217;s office Office of the Mayor Welcome to the City of Chubbuck, Office of the Mayor. As the head of the city, the mayor\u2019s office is a hub of activity and responsibility. The mayor speaks for both the government and the community as a whole. In a",
-     "of the Mayor Welcome to the City of Chubbuck, Office of the Mayor. As the head of the city, the mayor\u2019s office is a hub of activity and responsibility. The mayor speaks for both the government and the community as a whole. In addition the mayor is responsible for overseeing the o",
-     "ity Council State of the City Addresses Need to Contact the Mayor or His Office? Name Email Phone (optional) Subject (please select) Subject (please select) Code Violation Lost Property Public Claim Records Request Records Request - Fire Dept Report A Crime Sanitation Dept Street",
-     "jects, or riding motorcycles. Rodney is honored to serve as Mayor of the city that has provided a strong foundation for his family and looks forward to giving back to the community he loves. Contact Mayor Burch Phone: (208) 237-2430 Email: rtburch@cityofchubbuck.us Follow Follow ",
-     "s forward to giving back to the community he loves. Contact Mayor Burch Phone: (208) 237-2430 Email: rtburch@cityofchubbuck.us Follow Follow Follow Follow Follow Follow Follow Follow Follow Follow Social Media Terms and Use Hours of Operation City Hall Lobby Hours Monday thru Thu",
-     "ay 7:30am-11:30am Email: info@cityofchubbuck.us City Hall / Mayor's Office (208) 237-2400 290 East Linden Ave. Chubbuck, ID 83202 &nbsp; &nbsp; Inspections / Permits (208) 417-7176 290 East Linden Ave. Chubbuck, ID 83202 &nbsp; Public Works Yard (208) 237-2430 175 Park Lawn Chubb"
-    ]
-   },
-   "https://cityofchubbuck.us/event/city-council-meeting-112/": {
-    "status": 200,
-    "wins": [
-     "M City Hall Council Chambers 290 East Linden Call to Order: Mayor Burch Pledge Allegiance to the Flag: Councilmember Evans Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: O",
-     "n Call to Order: Mayor Burch Pledge Allegiance to the Flag: Councilmember Evans Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: October 21, 2026. (Action Item) General Busi",
-     "or Burch Pledge Allegiance to the Flag: Councilmember Evans Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: October 21, 2026. (Action Item) General Business: Approval of th",
-     "ity of Chubbuck claims for November 4, 2026 as presented to Mayor Burch and Council. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. 2. Council Repor",
-     "yor Burch and Council. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. 2. Council Report: Councilmembers may review non-actionable topics not already",
-     "cil. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. 2. Council Report: Councilmembers may review non-actionable topics not already on the agenda tha",
-     "ught to the Council\u2019s attention, if any. 2. Council Report: Councilmembers may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. Adjourn: Council packets are generally available the week before the meeting at https:/"
-    ]
-   },
-   "https://cityofchubbuck.us/event/city-council-meeting-113/": {
-    "status": 200,
-    "wins": [
-     "M City Hall Council Chambers 290 East Linden Call to Order: Mayor Burch Pledge Allegiance to the Flag: Councilmember Reece Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: N",
-     "n Call to Order: Mayor Burch Pledge Allegiance to the Flag: Councilmember Reece Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: November 4, 2026. (Action Item) General Busi",
-     "or Burch Pledge Allegiance to the Flag: Councilmember Reece Council Members Present: Staff Members Present Amend Council Meeting Agenda: Disclosures or conflicts of interest on Any Agenda Items: Approval of Minutes: November 4, 2026. (Action Item) General Business: Acceptance of ",
-     " of selling Kratom within City limits). Approval to Confirm Mayor\u2019s Appoint of Kim Jackman to City Council Seat #1. (Action Item) (The Council will discuss an appointment to the position of City Council). Administration of Oath of Office: Claims: City of Chubbuck claims for Novem",
-     " Approval to Confirm Mayor\u2019s Appoint of Kim Jackman to City Council Seat #1. (Action Item) (The Council will discuss an appointment to the position of City Council). Administration of Oath of Office: Claims: City of Chubbuck claims for November 18, 2026 as presented to Mayor Burc",
-     "ty of Chubbuck claims for November 18, 2026 as presented to Mayor Burch and Council. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. Council Report: ",
-     "yor Burch and Council. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. Council Report: Councilmembers may review non-actionable topics not already on",
-     "cil. (Action Item) General Announcements: Mayor Report: the Mayor may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. Council Report: Councilmembers may review non-actionable topics not already on the agenda that s",
-     "brought to the Council\u2019s attention, if any. Council Report: Councilmembers may review non-actionable topics not already on the agenda that should be brought to the Council\u2019s attention, if any. Adjourn: Council packets are generally available the week before the meeting at https:/"
-    ]
-   }
-  }
- },
- "Coeur d'Alene": {
-  "status": 200,
-  "cands": [
-   "https://www.cdaid.org/government/mayor-and-council/",
-   "https://www.cdaid.org/government/mayor-and-council/council-members/",
-   "https://www.cdaid.org/government/mayor-and-council/council-agendas/",
-   "https://www.cdaid.org/government/mayor-and-council/council-minutes/"
-  ],
-  "snips": {
-   "https://www.cdaid.org/government/mayor-and-council/": {
-    "status": 200,
-    "wins": [
-     "Mayor and Council | City of Coeur d&#x27;Alene Skip to main content Skip to footer Mayor and Council In this section The City of Coeur d'Alene Councilors and Mayor are elected by the citizens of Coeur d'Alene and serve a",
-     "y of Coeur d&#x27;Alene Skip to main content Skip to footer Mayor and Council In this section The City of Coeur d'Alene Councilors and Mayor are elected by the citizens of Coeur d'Alene and serve a four year term. The Mayor leads the City Council meetings and serves as an ambassa",
-     "Mayor and Council In this section The City of Coeur d'Alene Councilors and Mayor are elected by the citizens of Coeur d'Alene and serve a four year term. The Mayor leads the City Council meetings and serves as an ambassador for the City. The Council meets the first and third Tues",
-     "il In this section The City of Coeur d'Alene Councilors and Mayor are elected by the citizens of Coeur d'Alene and serve a four year term. The Mayor leads the City Council meetings and serves as an ambassador for the City. The Council meets the first and third Tuesday of each mon",
-     "e citizens of Coeur d'Alene and serve a four year term. The Mayor leads the City Council meetings and serves as an ambassador for the City. The Council meets the first and third Tuesday of each month at 6:00pm, unless otherwise noticed, in the Library Community Room. With the exc",
-     "0pm Videos are available afterward on our YouTube channel . Mayor Dan Gookin Dan Gookin moved his family to Kootenai County in 1993.&nbsp; He's been involved with the Festival of Trees in the 1990s, and in 1997 took the role of Artistic Director for the Lake City Playhouse.&nbsp;",
-     "local government. City of Coeur d'Alene Council Dan English Council Seat #5 Official Term: &nbsp;January 7, 2020 - January 4, 2028 Appointments:&nbsp; General Services Committee; Parking Commission; Library Board &nbsp; Amy Evans Council Seat #2 Official Term: January 2, 2018 \u2013 J",
-     "mmittee; Parking Commission; Library Board &nbsp; Amy Evans Council Seat #2 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: General Services;&nbsp;Arts Commission; Ped/Bike Committee, CDA 2030 Dan Sheckler Council Seat #3 Official Term:&nbsp; January 20, 2026 - Jan",
-     ";Arts Commission; Ped/Bike Committee, CDA 2030 Dan Sheckler Council Seat #3 Official Term:&nbsp; January 20, 2026 - January 4, 2028 Appointments: Public Works Committee Kenny Gabriel Council Seat #4 Official Term: October 15, 2024 - January 6, 2026 Appointments: Public Works Comm",
-     " 4, 2028 Appointments: Public Works Committee Kenny Gabriel Council Seat #4 Official Term: October 15, 2024 - January 6, 2026 Appointments: Public Works Committee; CDA-TV Committee Kiki Miller Council Seat #6 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: &nbsp;Pu",
-     "ments: Public Works Committee; CDA-TV Committee Kiki Miller Council Seat #6 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: &nbsp;Public Works Committee; NIBCA Joint Government Issues, Historic Preservation Commission; ignite cda Board Christie Wood Council Seat #1",
-     "ric Preservation Commission; ignite cda Board Christie Wood Council Seat #1 Official Term: January 7, 2020 \u2013 January 2, 2024 Appointments: General Services Committee; Tubbs Hill Foundation, Parks &amp; Rec Commission Apply & Register Building Services Business Licensing Employmen"
-    ]
-   },
-   "https://www.cdaid.org/government/mayor-and-council/council-members/": {
-    "status": 200,
-    "wins": [
-     "Council Members | City of Coeur d&#x27;Alene Skip to main content Skip to footer In this section Council Members Dan English Council Seat #5 Official Term: &nbsp;January 7, 2020 - January 4, 2028 Appointments:&nbsp; Gene",
-     "7;Alene Skip to main content Skip to footer In this section Council Members Dan English Council Seat #5 Official Term: &nbsp;January 7, 2020 - January 4, 2028 Appointments:&nbsp; General Services Committee; Parking Commission; Library Board &nbsp; Amy Evans Council Seat #2 Offici",
-     " Skip to footer In this section Council Members Dan English Council Seat #5 Official Term: &nbsp;January 7, 2020 - January 4, 2028 Appointments:&nbsp; General Services Committee; Parking Commission; Library Board &nbsp; Amy Evans Council Seat #2 Official Term: January 2, 2018 \u2013 J",
-     "mmittee; Parking Commission; Library Board &nbsp; Amy Evans Council Seat #2 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: General Services;&nbsp;Arts Commission; Ped/Bike Committee, CDA 2030 Dan Sheckler Council Seat #3 Official Term:&nbsp; January 20, 2026 - Jan",
-     ";Arts Commission; Ped/Bike Committee, CDA 2030 Dan Sheckler Council Seat #3 Official Term:&nbsp; January 20, 2026 - January 4, 2028 Appointments: Public Works Committee Kenny Gabriel Council Seat #4 Official Term: October 15, 2024 - January 6, 2026 Appointments: Public Works Comm",
-     " 4, 2028 Appointments: Public Works Committee Kenny Gabriel Council Seat #4 Official Term: October 15, 2024 - January 6, 2026 Appointments: Public Works Committee; CDA-TV Committee Kiki Miller Council Seat #6 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: &nbsp;Pu",
-     "ments: Public Works Committee; CDA-TV Committee Kiki Miller Council Seat #6 Official Term: January 2, 2018 \u2013 January 6, 2026 Appointments: &nbsp;Public Works Committee; NIBCA Joint Government Issues, Historic Preservation Commission; ignite cda Board Christie Wood Council Seat #1",
-     "ric Preservation Commission; ignite cda Board Christie Wood Council Seat #1 Official Term: January 7, 2020 \u2013 January 2, 2024 Appointments: General Services Committee; Tubbs Hill Foundation, Parks &amp; Rec Commission Apply & Register Building Services Business Licensing Employmen"
-    ]
-   },
-   "https://www.cdaid.org/government/mayor-and-council/council-agendas/": {
-    "status": 200,
-    "wins": []
-   },
-   "https://www.cdaid.org/government/mayor-and-council/council-minutes/": {
-    "status": 200,
-    "wins": []
-   }
-  }
- },
- "Dalton Gardens": {
-  "status": 200,
-  "cands": [
-   "https://daltongardens.com/mayor",
-   "https://daltongardens.com/citycouncil",
-   "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6&amp;DE=2EE53102-2AED-4039-B4BE-A76AC8E453C9"
-  ],
-  "snips": {
-   "https://daltongardens.com/mayor": {
-    "status": 200,
-    "wins": [
-     "Mayor - Dalton Gardens, ID Skip to main content Search Air Quality: Search Curt Jernigan Mayor Term: 2024 - 2027",
-     "ip to main content Search Air Quality: Search Curt Jernigan Mayor Term: 2024 - 2027"
-    ]
-   },
-   "https://daltongardens.com/citycouncil": {
-    "status": 200,
-    "wins": []
-   },
-   "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6&amp;DE=2EE53102-2AED-4039-B4BE-A76AC8E453C9": {
-    "status": 200,
-    "wins": []
-   }
-  }
- },
- "Eagle": {
-  "status": 200,
-  "cands": [
-   "https://www.cityofeagle.org/2116/Mayor-Minute-Videos",
-   "https://www.cityofeagle.org/2075/Mayors-Office",
-   "https://www.cityofeagle.org/312/City-Council"
-  ],
-  "snips": {
-   "https://www.cityofeagle.org/2116/Mayor-Minute-Videos": {
-    "status": 200,
-    "wins": [
-     "Mayor Minutes Videos | Eagle, ID Skip to Main Content Create a Website Account - Manage notification subscriptions, save form progress and more. &nbsp;&nbsp; Website Sign In CustomLinks_6 Mayor Minutes Videos Mayor Minut",
-     "ogress and more. &nbsp;&nbsp; Website Sign In CustomLinks_6 Mayor Minutes Videos Mayor Minutes Videos Government Websites by CivicPlus&reg; Loading Loading Do Not Show Again Close Arrow Left Arrow Right [] Slideshow Left Arrow Slideshow Right Arrow",
-     "p;&nbsp; Website Sign In CustomLinks_6 Mayor Minutes Videos Mayor Minutes Videos Government Websites by CivicPlus&reg; Loading Loading Do Not Show Again Close Arrow Left Arrow Right [] Slideshow Left Arrow Slideshow Right Arrow"
-    ]
-   },
-   "https://www.cityofeagle.org/2075/Mayors-Office": {
-    "status": 200,
-    "wins": [
-     "Mayor Brad Pike | Eagle, ID Skip to Main Content Create a Website Account - Manage notification subscriptions, save form progress and more. &nbsp;&nbsp; Website Sign In Home Government Mayor's Office Mayor Brad Pike Emai",
-     "ress and more. &nbsp;&nbsp; Website Sign In Home Government Mayor's Office Mayor Brad Pike Email Mayor Pike Term: Expires December 31, 2027 Biography Personal Life&nbsp; Brad and his wife, Tami, have been married for over 30 years and have two grown boys. They moved to Eagle in 2",
-     "&nbsp;&nbsp; Website Sign In Home Government Mayor's Office Mayor Brad Pike Email Mayor Pike Term: Expires December 31, 2027 Biography Personal Life&nbsp; Brad and his wife, Tami, have been married for over 30 years and have two grown boys. They moved to Eagle in 2011. Education ",
-     "ign In Home Government Mayor's Office Mayor Brad Pike Email Mayor Pike Term: Expires December 31, 2027 Biography Personal Life&nbsp; Brad and his wife, Tami, have been married for over 30 years and have two grown boys. They moved to Eagle in 2011. Education Through his grit and d",
-     " baseball. Career &amp; Public Service Before being elected Mayor of the City of Eagle, Brad served on the Eagle City Council as Council President. &nbsp;He also served as a Liaison to the Eagle Urban Renewal Agency, Eagle Sewer District, and the Eagle Senior Center. He is curren",
-     "the City of Eagle, Brad served on the Eagle City Council as Council President. &nbsp;He also served as a Liaison to the Eagle Urban Renewal Agency, Eagle Sewer District, and the Eagle Senior Center. He is currently serving in his second term as fire commissioner for the Eagle Fir",
-     "ile in California, he served as a city council member, Vice Mayor, and Mayor for the City of Hollister, California. &nbsp;He also served as a chairman for the Council of San Benito County Governments, which is responsible for local transportation needs.&nbsp; Volunteer Service Br",
-     "fornia, he served as a city council member, Vice Mayor, and Mayor for the City of Hollister, California. &nbsp;He also served as a chairman for the Council of San Benito County Governments, which is responsible for local transportation needs.&nbsp; Volunteer Service Brad has alwa",
-     " a small Christian school in Hemet, California. Initiatives Mayor Pike promises the citizens of Eagle to listen to their concerns, communicate what is happening in Eagle, increase public safety, and strengthen our economic development, ensuring that Eagle is a great place to live",
-     "opment, ensuring that Eagle is a great place to live.&nbsp; Mayor Pike looks forward to working with and listening to the citizens of Eagle. Email Mayor Pike Government Websites by CivicPlus&reg; Loading Loading Do Not Show Again Close Arrow Left Arrow Right [] Slideshow Left Arr",
-     " working with and listening to the citizens of Eagle. Email Mayor Pike Government Websites by CivicPlus&reg; Loading Loading Do Not Show Again Close Arrow Left Arrow Right [] Slideshow Left Arrow Slideshow Right Arrow"
-    ]
-   },
-   "https://www.cityofeagle.org/312/City-Council": {
-    "status": 200,
-    "wins": [
-     "ficials Notice: Pursuant to Idaho law, the City Council and Mayor are prohibited from responding to communications from the applicant or the public on an active land use application prior to the public hearing . &nbsp;If your email contains written testimony regarding an open lan",
-     " 208-939-6813 Email your Elected Officials Members Mary May Council President Liaison Positions: ACCEM [Alternate] ACHD &nbsp;[Primary] Avimor CID Blue Ribbon Fundraising Committee - Eagle Regional Athletic Park COMPASS -&nbsp; Board of Directors and COMPASS Executive Board Eagle",
-     "usiness Liaison Spring Valley CID #1 Urban Renewal Agency - Seat 1 Nancy Merrill Council Member Liaison Positions: Building Contractors Association of Southwest Idaho Eagle Community Fund Development Impact Fee Historic Preservation Commission Homeowners Association Liaison Parks",
-     "g Valley CID #1 Urban Renewal Agency - Seat 1 Nancy Merrill Council Member Liaison Positions: Building Contractors Association of Southwest Idaho Eagle Community Fund Development Impact Fee Historic Preservation Commission Homeowners Association Liaison Parks, Pathways &amp; Recr",
-     "lley CID #1 Valley Regional Transit [Primary] Robert Gillis Council Member Liaison &nbsp;Positions: Avimor CID City Shop - Joint Facility City/Eagle Fire Eagle Arts Advisory Committee Eagle Fire Department Eagle Sewer District Library Board West Ada School District Brad Pike, May",
-     " District Library Board West Ada School District Brad Pike, Mayor Liaison: ACCEM - Executive Committee [Primary] Association of Idaho Cities Boise Chamber Board of Advisors Boise Valley Eco Partnership Ada County Sheriff&apos;s Office Urban Renewal Agency Ex Officio of Boards/Com",
-     "ms against the City Confirm city officials appointed by the Mayor Establish various committees to serve the City of Eagle Oversee improvements and work done for the City Pass ordinances and resolutions Idaho Code and Eagle City Code establish the duties and powers of the City Cou"
-    ]
-   }
-  }
- },
- "Emmett": {
-  "status": 200,
-  "cands": [
-   "https://static.wixstatic.com/media/0b89a7_1dd7c94480814873897f1558cf10494c%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0b89a7_1dd7c94480814873897f1558cf10494c%7Emv2.jpg",
-   "https://www.cityofemmett.org/mayor-city-council"
-  ],
-  "snips": {
-   "https://static.wixstatic.com/media/0b89a7_1dd7c94480814873897f1558cf10494c%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0b89a7_1dd7c94480814873897f1558cf10494c%7Emv2.jpg": {
-    "status": 200,
-    "wins": []
-   },
-   "https://www.cityofemmett.org/mayor-city-council": {
-    "status": 200,
-    "wins": [
-     "Mayor &amp; City Council | city-of-emmett top of page Message from the Mayor Mayor Gordon Petrie Mayor&#x27;s Corner Welcome to Emmett, Idaho &nbsp; Emmett&rsquo;s a quiet, forward-looking, friendly town of something ove",
-     " City Council | city-of-emmett top of page Message from the Mayor Mayor Gordon Petrie Mayor&#x27;s Corner Welcome to Emmett, Idaho &nbsp; Emmett&rsquo;s a quiet, forward-looking, friendly town of something over 8000 people, nestled next to the Payette River in the Valley of Plent",
-     "Council | city-of-emmett top of page Message from the Mayor Mayor Gordon Petrie Mayor&#x27;s Corner Welcome to Emmett, Idaho &nbsp; Emmett&rsquo;s a quiet, forward-looking, friendly town of something over 8000 people, nestled next to the Payette River in the Valley of Plenty, and",
-     "mett top of page Message from the Mayor Mayor Gordon Petrie Mayor&#x27;s Corner Welcome to Emmett, Idaho &nbsp; Emmett&rsquo;s a quiet, forward-looking, friendly town of something over 8000 people, nestled next to the Payette River in the Valley of Plenty, and we have an exciting",
-     " &nbsp;Visitors are always welcome. &nbsp; Tona Henderson - Councilor Contact Steve Nebeker - Councilor Contact Denise Denham - Councilor Contact Jody Harris - Councilor Contact Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council H",
-     ". &nbsp; Tona Henderson - Councilor Contact Steve Nebeker - Councilor Contact Denise Denham - Councilor Contact Jody Harris - Councilor Contact Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council Here bottom of page",
-     "r Contact Steve Nebeker - Councilor Contact Denise Denham - Councilor Contact Jody Harris - Councilor Contact Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council Here bottom of page",
-     "lor Contact Denise Denham - Councilor Contact Jody Harris - Councilor Contact Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council Here bottom of page",
-     "lor Contact Jody Harris - Councilor Contact Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council Here bottom of page",
-     "t Thomas Butler - Council President Contact Gary Resinkin - Councilor Contact Contact The City Council Here bottom of page"
-    ]
-   }
-  }
- },
- "Garden City": {
-  "status": 200,
-  "cands": [
-   "https://gardencityidaho.org/elected-officials",
-   "https://gardencityidaho.org/mayors-welcome"
-  ],
-  "snips": {
-   "https://gardencityidaho.org/elected-officials": {
-    "status": 200,
-    "wins": [
-     "2 hours prior to the time of the meeting. Elected Officials Mayor Bill Jacobs Jacobs is a businessman with 35 years of experience owning, managing, and developing businesses. He was the General Manager at FarWest Landscape and Garden Center. Jacobs earned his BA in Marketing from",
-     "g lived in Latin America for 9 years.&nbsp; You may contact Mayor Jacobs at&nbsp; bjacobs@gardencityidaho.org &nbsp;or his assistant, Susanna Smith, at&nbsp; ssmith@gardencityidaho.org Council President James Page Growing up in a military family, James has called many places home",
-     "sistant, Susanna Smith, at&nbsp; ssmith@gardencityidaho.org Council President James Page Growing up in a military family, James has called many places home. After his father&rsquo;s military career ended, James&rsquo;s family moved to Caldwell and then later to Meridian. James ha",
-     "ts, and a vibrant sense of identity and community. In 2014, Mayor John Evans appointed James to the Garden City Planning and Zoning Commission. In that capacity, James navigated the delicate zoning balance that sustains Garden City&rsquo;s robust business interests, artist spaces",
-     " His love of land use and planning prompted James to accept Mayor Evans's appointment to the City Council in August 2019. Garden City voters elected James to retain his Council seat in 2019 and again in 2023. You can contact Council Member James Page at&nbsp; jpage@gardencityidah",
-     "his Council seat in 2019 and again in 2023. You can contact Council Member James Page at&nbsp; jpage@gardencityidaho.org Council Member Teresa Jorgensen Teresa is an Idaho native and moved to Garden City in 2011.&nbsp;In 2007&nbsp;Teresa began her career in the photocopier indust",
-     "ouncil Member James Page at&nbsp; jpage@gardencityidaho.org Council Member Teresa Jorgensen Teresa is an Idaho native and moved to Garden City in 2011.&nbsp;In 2007&nbsp;Teresa began her career in the photocopier industry. Previous work experience included 17 years&nbsp;in the se",
-     " to Women in Industry . &nbsp; In&nbsp;September&nbsp;2020, Mayor Evans&nbsp;appointed&nbsp;Teresa&nbsp;to complete the remaining&nbsp;term&nbsp;of Councilmember&nbsp;Elfreda Higgins&rsquo;&nbsp;term after her&nbsp;resignation. Teresa likes to spend&nbsp;her leisure time travelin",
-     "bsp;Teresa&nbsp;to complete the remaining&nbsp;term&nbsp;of Councilmember&nbsp;Elfreda Higgins&rsquo;&nbsp;term after her&nbsp;resignation. Teresa likes to spend&nbsp;her leisure time traveling,&nbsp;sailing,&nbsp;hiking in the foothills, and&nbsp;walking&nbsp;the Greenbelt.&nbsp",
-     "&nbsp;three children and one&nbsp;fur baby. You can contact Council Member Jorgensen at&nbsp; tjorgensen@gardencityidaho.org . Council Member Kent Rasmussen Rasmussen has spent most of his career years in wholesale and retail development for Hallmark Cards. Complementing this cor",
-     " Member Jorgensen at&nbsp; tjorgensen@gardencityidaho.org . Council Member Kent Rasmussen Rasmussen has spent most of his career years in wholesale and retail development for Hallmark Cards. Complementing this core experience are two notable periods in wine wholesaling and retail",
-     "d use.&nbsp;&nbsp;That experience led to his appointment by Mayor Evans to Garden City&rsquo;s Planning and Zoning Commission in 2019, where he served as Chairman from 2022 until his installation as a city council member in January 2024. Rasmussen takes great pride in championing",
-     "er. You may contact him at krasmussen@gardencityidaho.org . Council Member Wendy Carver-Herbert Wendy is a long-time community volunteer, public relations professional, and former Fortune 500 executive. Before leaving the corporate sector to establish a public relations consultin"
-    ]
-   },
-   "https://gardencityidaho.org/mayors-welcome": {
-    "status": 200,
-    "wins": [
-     "Mayor's Welcome | City Of Garden City --> Please ensure Javascript is enabled for purposes of website accessibility --> Mayor's Welcome Welcome to the City of Garden City's Website. Welcome to Garden City&mdash;an energe",
-     "script is enabled for purposes of website accessibility --> Mayor's Welcome Welcome to the City of Garden City's Website. Welcome to Garden City&mdash;an energetic, creative, and growing community along the Boise River. Known for our riverfront access, thriving arts scene, local ",
-     " Garden City community. We&rsquo;re glad you&rsquo;re here! Mayor Bill Jacobs"
-    ]
-   }
-  }
- },
- "Hailey": {
-  "status": 200,
-  "cands": [
-   "https://haileycityhall.org/city-administration/",
-   "https://haileycityhall.org/boards-and-commissions/city-council/",
-   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/"
-  ],
-  "snips": {
-   "https://haileycityhall.org/city-administration/": {
-    "status": 200,
-    "wins": [
-     "lishes Authorities, Agencies, and Committees as Needed. The Mayor Appoints Members, and the Council Confirms The City Council meets twice a month, excluding special meetings that may be called by the council or mayor from time to time. &nbsp; Personnel Handbook Personnel handbook",
-     "daho City of Hailey, Idaho City Administration Martha Burke Mayor (208) 788-9814 martha.burke@haileycityhall.org Lisa Horowitz City Administrator (208) 788-4221 ext. 1520 lisa.horowitz@haileycityhall.org City Council Kaz Thea City Council President (208) 788-4221 kaz.thea@haileyc",
-     "lisa.horowitz@haileycityhall.org City Council Kaz Thea City Council President (208) 788-4221 kaz.thea@haileycityhall.org Sage Sauerbrey City Council Member (208) 788-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall",
-     "8) 788-4221 kaz.thea@haileycityhall.org Sage Sauerbrey City Council Member (208) 788-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhal",
-     "88-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhall.org Please be aware all correspondence received is a matter of public record. Cl",
-     "788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhall.org Please be aware all correspondence received is a matter of public record. Close Font Resize A- A+ Keyboard navigation Readable Font Contrast Choose color bla"
-    ]
-   },
-   "https://haileycityhall.org/boards-and-commissions/city-council/": {
-    "status": 200,
-    "wins": [
-     "ncil or mayor from time to time. City Council Kaz Thea City Council President (208) 788-4221 kaz.thea@haileycityhall.org Sage Sauerbrey City Council Member (208) 788-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall",
-     "8) 788-4221 kaz.thea@haileycityhall.org Sage Sauerbrey City Council Member (208) 788-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhal",
-     "88-4221 sage.sauerbrey@haileycityhall.org Dustin Stone City Council Member (208) 788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhall.org Please be aware all correspondence received is a matter of public record. Cl",
-     "788-4221 dustin.stone@haileycityhall.org Juan Martinez City Council Member (208) 788-4221 juan.martinez@haileycityhall.org Please be aware all correspondence received is a matter of public record. Close Font Resize A- A+ Keyboard navigation Readable Font Contrast Choose color bla"
-    ]
-   },
-   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/": {
-    "status": 200,
-    "wins": [
-     "nuary 6, 2014 Consent Agenda, Part 1 Consent Agenda, Part 2 Mayor's Remarks Presentations Appointments Public Hearing, Part 1 Public Hearing, Part 2 New Business Staff Reports 2013 December 16, 2013 Consent Agenda, Part 1 Consent Agenda, Part 2 Presentations Appointments Public H",
-     "s Old Business New Business January 26, 2009 Consent Agenda Mayor's Remarks Public Hearings Old Business New Business New Business - Leargulf appeal January 12, 2009 Consent Agenda Public Hearings Old Business New Business January 5, 8, &amp; 15, 2009 Public Hearings - Quigley An",
-     " Recent Amendments - Spring Canyon Sewer Services Agreement Mayor and Council Memo - February 11, 2008 Public Hearings Public Hearings - Addendum January 28, 2008 January 14, 2008 2007 December 20, 2007 December 10, 2007 November 26, 2007 November 8, 2007 October 22, 2007 October"
-    ]
-   }
-  }
- },
- "Hayden": {
-  "status": 200,
-  "cands": [
-   "https://www.haydenid.gov/mayor_s_message.php",
-   "https://www.haydenid.gov/mayor.php",
-   "https://www.haydenid.gov/city_council.php"
-  ],
-  "snips": {
-   "https://www.haydenid.gov/mayor_s_message.php": {
-    "status": 200,
-    "wins": [
-     "Explore Hayden, City of Hayden Mayor's Message Skip to main content Mayor's Message Mayor's Message &nbsp; &nbsp;&nbsp; When I think of one word that best describes Hayden, it is passion.&nbsp; Our citizens are passionate about living here, each for t",
-     "Hayden, City of Hayden Mayor's Message Skip to main content Mayor's Message Mayor's Message &nbsp; &nbsp;&nbsp; When I think of one word that best describes Hayden, it is passion.&nbsp; Our citizens are passionate about living here, each for their own reasons.&nbsp; Some enjoy th",
-     "Hayden Mayor's Message Skip to main content Mayor's Message Mayor's Message &nbsp; &nbsp;&nbsp; When I think of one word that best describes Hayden, it is passion.&nbsp; Our citizens are passionate about living here, each for their own reasons.&nbsp; Some enjoy the close proximit",
-     "m honored to be able to expand my passion as Hayden&rsquo;s Mayor.&nbsp; It is an exciting time to be here, as I&rsquo;ve watched over the past decade how small businesses have developed and supported our local economy.&nbsp; Our central business district is slowly getting the fa",
-     "tional opportunities and unique small business offerings. - Mayor Alan Davis Share this page Share this page &times; Copy and paste this code into your website. &lt;a href=\"http://www.haydenid.gov/mayor_s_message.php\">Your Link Name&lt;/a&gt; Share this page on your favorite Soci"
-    ]
-   },
-   "https://www.haydenid.gov/mayor.php": {
-    "status": 200,
-    "wins": [
-     "City of Hayden Mayor Skip to main content Mayor Mayor's Office Contact Us Mayor Alan Davis Mayor Alan Davis returned home to The Northwest, relocating to Hayden in 2012 after concluding a 27-year U.S. Navy career.&nbsp; He continued hi",
-     "City of Hayden Mayor Skip to main content Mayor Mayor's Office Contact Us Mayor Alan Davis Mayor Alan Davis returned home to The Northwest, relocating to Hayden in 2012 after concluding a 27-year U.S. Navy career.&nbsp; He continued his lifelong service locally ",
-     "City of Hayden Mayor Skip to main content Mayor Mayor's Office Contact Us Mayor Alan Davis Mayor Alan Davis returned home to The Northwest, relocating to Hayden in 2012 after concluding a 27-year U.S. Navy career.&nbsp; He continued his lifelong service locally by coa",
-     " Mayor Skip to main content Mayor Mayor's Office Contact Us Mayor Alan Davis Mayor Alan Davis returned home to The Northwest, relocating to Hayden in 2012 after concluding a 27-year U.S. Navy career.&nbsp; He continued his lifelong service locally by coaching Hayden&rsquo;s child",
-     "in content Mayor Mayor's Office Contact Us Mayor Alan Davis Mayor Alan Davis returned home to The Northwest, relocating to Hayden in 2012 after concluding a 27-year U.S. Navy career.&nbsp; He continued his lifelong service locally by coaching Hayden&rsquo;s children on city socce",
-     ") 772-4411 extension 1013 Email City Blog History of Hayden Mayors Share this page Share this page &times; Copy and paste this code into your website. &lt;a href=\"http://www.haydenid.gov/mayor.php\">Your Link Name&lt;/a&gt; Share this page on your favorite Social network Facebook "
-    ]
-   },
-   "https://www.haydenid.gov/city_council.php": {
-    "status": 200,
-    "wins": [
-     " community participation in shaping the future of the city. Council Seat #2; Term expires :&nbsp; 2029 Contact Information: Mail:&nbsp; 8930 N.&nbsp;Government Way,&nbsp;Hayden, Idaho &nbsp;83835 City Hall:&nbsp; (208) 772-4411 Email Councilman Tom Shafer Tom Shafer was born and ",
-     "rk on projects in his shop, or with Sherry on their garden. Council Seat #3; Term expires :&nbsp; 2027 Contact Information: Mail:&nbsp;&nbsp;8930 N.&nbsp;Government Way, Hayden, Idaho&nbsp; 83835 City Hall:&nbsp; (208) 772-4411 Email Councilman David Erickson David Erickson is de",
-     "lcoming spirit and enduring values for generations to come. Council Seat #4; Term expires :&nbsp; 2029 Contact Information: Mail:&nbsp; 8930 N.&nbsp;Government Way, Hayden, Idaho &nbsp;83835 City Hall:&nbsp; (208) 772-4411 Email Share this page Share this page &times; Copy and pa"
-    ]
-   }
-  }
- },
  "Idaho Falls": {
   "status": 200,
-  "cands": [
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=3007",
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2999",
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2963",
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2901"
-  ],
-  "snips": {
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=3007": {
+  "pages": {
+   "http://www.idahofallsarts.org/": {
     "status": 200,
-    "wins": [
-     "rseeing the City&rsquo;s overall financial strategy,&rdquo; Mayor Lisa Burtenshaw said. &ldquo;Mr. Hagedorn will be an asset as we continue our focus on accountability, transparency and financial sustainability within the City.&rdquo; In his new role, Hagedorn&rsquo;s duties will"
-    ]
+    "title": "Home | Idaho Falls Arts Council",
+    "names": [],
+    "ctx": []
    },
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2999": {
+   "https://www.idahofallsidaho.gov/Assets/Styles/PausePlay/PausePlay.css": {
     "status": 200,
-    "wins": [
-     "of Idaho Falls offers to residents,&rdquo; said Idaho Falls Mayor Lisa Burtenshaw. &ldquo;We provide police and fire protection, an enviable parks system, a library, and other services, but unlike other cities, we also own and operate a power company, a fiber company, an airport "
-    ]
+    "title": "",
+    "names": [],
+    "ctx": []
    },
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2963": {
+   "https://www.idahofallsidaho.gov/429/Live-Stream": {
     "status": 200,
-    "wins": []
+    "title": "Live Stream | Idaho Falls, ID",
+    "names": [],
+    "ctx": []
    },
-   "https://www.idahofallsidaho.gov/CivicAlerts.aspx?AID=2901": {
+   "https://www.idahofallsidaho.gov/193/Mayor": {
     "status": 200,
-    "wins": [
-     "pate in the decisions that shape our community,&rdquo; said Mayor Lisa Burtenshaw. &ldquo;Changing the time of City Council meetings will increase the Council&rsquo;s efficiency and effectiveness, especially on nights with long agendas. In addition, the new time should make it ea"
-    ]
+    "title": "Forms | Idaho Falls, ID",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.idahofallsidaho.gov/Directory.aspx?DID=4": {
+    "status": 404,
+    "title": "Custom404 \u2022 Idaho Falls, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    }
   }
  },
- "Ketchum": {
+ "Pocatello": {
   "status": 200,
-  "cands": [
-   "https://ketchumidaho.gov/Calendar.aspx?EID=659",
-   "https://ketchumidaho.gov/293/Mayor-City-Council"
-  ],
-  "snips": {
-   "https://ketchumidaho.gov/Calendar.aspx?EID=659": {
-    "status": 200,
-    "wins": []
+  "pages": {
+   "https://pocatello.gov/162/Mayor": {
+    "status": 404,
+    "title": "Custom404 \u2022 City of Pocatello \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    },
-   "https://ketchumidaho.gov/293/Mayor-City-Council": {
-    "status": 200,
-    "wins": [
-     "ards & Commissions City Council City Council A Welcome from Mayor Pete Prekeges Ketchum is more than a destination; it is a community defined by its rustic heritage and a shared passion for the future. On behalf of the City of Ketchum, I am honored to welcome you to our home. We ",
-     "y of Ketchum . Thank you for staying engaged! Pete Prekeges Mayor, City of Ketchum Meet the Mayor &amp; City Council Members Tripp Hutchinson Spencer Cordovano Matthew McGraw Randy Hall Pete Prekeges Contact Us Mayor &amp; City Council Email the Mayor &amp; City Council Physical ",
-     "ying engaged! Pete Prekeges Mayor, City of Ketchum Meet the Mayor &amp; City Council Members Tripp Hutchinson Spencer Cordovano Matthew McGraw Randy Hall Pete Prekeges Contact Us Mayor &amp; City Council Email the Mayor &amp; City Council Physical Address View Map 191 5th St. W K",
-     "e Prekeges Mayor, City of Ketchum Meet the Mayor &amp; City Council Members Tripp Hutchinson Spencer Cordovano Matthew McGraw Randy Hall Pete Prekeges Contact Us Mayor &amp; City Council Email the Mayor &amp; City Council Physical Address View Map 191 5th St. W Ketchum , ID 83340",
-     "ordovano Matthew McGraw Randy Hall Pete Prekeges Contact Us Mayor &amp; City Council Email the Mayor &amp; City Council Physical Address View Map 191 5th St. W Ketchum , ID 83340 191 5th St. W Ketchum ID 83340 Directions Mailing Address P.O. Box 2315 Ketchum , ID 83340 Phone: 208",
-     "Pete Prekeges Contact Us Mayor &amp; City Council Email the Mayor &amp; City Council Physical Address View Map 191 5th St. W Ketchum , ID 83340 191 5th St. W Ketchum ID 83340 Directions Mailing Address P.O. Box 2315 Ketchum , ID 83340 Phone: 208-726-3841 Hours Monday through Frid"
-    ]
+   "https://pocatello.gov/193/Mayors-Office": {
+    "status": 404,
+    "title": "Custom404 \u2022 City of Pocatello \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    }
   }
  },
  "Kuna": {
   "status": 200,
-  "cands": [
-   "https://www.kunacity.id.gov/CivicAlerts.aspx?AID=583"
-  ],
-  "snips": {
-   "https://www.kunacity.id.gov/CivicAlerts.aspx?AID=583": {
-    "status": 200,
-    "wins": [
-     "Candy Canes with the Mayor: Dec. 11 &#x2022; Kuna, ID Skip to Main Content Create a Website Account - Manage notification subscriptions, save form progress and more. &nbsp;&nbsp; Website Sign In Search Home News Flash Candy Canes with the Ma",
-     "Website Sign In Search Home News Flash Candy Canes with the Mayor: Dec. 11 News Flash Candy Canes with the Mayor: Dec. 11 Kuna Main Newsflash Posted on November 16, 2026 Candy Canes with the Mayor The Annual Candy Canes with the Mayor event is the perfect opportunity to meet Mayo",
-     "nes with the Mayor: Dec. 11 News Flash Candy Canes with the Mayor: Dec. 11 Kuna Main Newsflash Posted on November 16, 2026 Candy Canes with the Mayor The Annual Candy Canes with the Mayor event is the perfect opportunity to meet Mayor Stear, who will be personally handing out can",
-     " Newsflash Posted on November 16, 2026 Candy Canes with the Mayor The Annual Candy Canes with the Mayor event is the perfect opportunity to meet Mayor Stear, who will be personally handing out candy canes to all attendees. But the fun doesn&apos;t stop there! Stay for a cup of de",
-     " Candy Canes with the Mayor The Annual Candy Canes with the Mayor event is the perfect opportunity to meet Mayor Stear, who will be personally handing out candy canes to all attendees. But the fun doesn&apos;t stop there! Stay for a cup of delicious hot chocolate or cider and enj",
-     "nes with the Mayor event is the perfect opportunity to meet Mayor Stear, who will be personally handing out candy canes to all attendees. But the fun doesn&apos;t stop there! Stay for a cup of delicious hot chocolate or cider and enjoy some holiday treats while you mingle with ot",
-     "rs - 757 W 4th Street Learn More about Candy Canes with the Mayor Related News Light Up Kuna Kuna Main Newsflash Posted on November 16, 2026 2026 City of Kuna Events Kuna Main Newsflash Posted on January 09, 2026 New Art Exhibit Opening! Kuna Main Newsflash Posted on October 14, "
+  "pages": {
+   "https://www.kunacity.id.gov/government/mayor_and_city_council/index.php": {
+    "status": 404,
+    "title": "Custom404 \u2022 Kuna, ID \u2022 CivicEngage",
+    "names": [
+     "Events Moonlight",
+     "Pay For"
+    ],
+    "ctx": [
+     "n in Kuna Kuna Greenbelt Groove Fest Kuna Days Kuna Fall Festival Kuna Gem Drop Mayor Events Moonlight Movies How Do I... Contact Us How To Register Development Services Home Your Government City Departments Our Community Doing Business How Do I... Report a Problem Economic Devel",
+     "ding Permits Career Opportunities Pet Licensing Contact City Council City Staff Mayor Pay For Dog License Utility Bill Register For E-Notifications Rent or Reserve Report A Code Violation Form Report A Concern Sewer or Water Emergency Report an Accessibility Issue View Agendas &a"
     ]
    }
   }
  },
  "Lewiston": {
   "status": 200,
-  "cands": [
-   "https://www.cityoflewiston.org/Calendar.aspx?EID=5297"
-  ],
-  "snips": {
-   "https://www.cityoflewiston.org/Calendar.aspx?EID=5297": {
+  "pages": {
+   "https://www.cityoflewiston.org/220/City-Council": {
     "status": 200,
-    "wins": []
+    "title": "Vendor Information | Lewiston, ID",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.cityoflewiston.org/158/Mayor": {
+    "status": 200,
+    "title": "E-Library | Lewiston, ID",
+    "names": [],
+    "ctx": []
    }
   }
  },
  "McCall": {
   "status": 200,
-  "cands": [],
-  "snips": {}
- },
- "Meridian": {
-  "status": 403,
-  "cands": [],
-  "snips": {}
+  "pages": {
+   "https://www.mccall.id.us/AgendaCenter/": {
+    "status": 200,
+    "title": "Agenda Center \u2022 McCall, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.mccall.id.us/government/mayor_and_city_council/index.php": {
+    "status": 404,
+    "title": "Custom404 \u2022 McCall, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.mccall.id.us/government/city_council/index.php": {
+    "status": 404,
+    "title": "Custom404 \u2022 McCall, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
+   }
+  }
  },
  "Moscow": {
   "status": 200,
-  "cands": [],
-  "snips": {}
+  "pages": {
+   "https://www.ci.moscow.id.us/167/Mayor": {
+    "status": 404,
+    "title": "Custom404 \u2022 Moscow, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.ci.moscow.id.us/170/City-Council": {
+    "status": 200,
+    "title": "Moscow Sister City Association | Moscow, ID",
+    "names": [],
+    "ctx": []
+   }
+  }
  },
  "Mountain Home": {
   "status": 200,
-  "cands": [
-   "https://www.mountain-home.us/166/City-Council",
-   "https://www.mountain-home.us/CivicAlerts.aspx?AID=18"
-  ],
-  "snips": {
+  "pages": {
    "https://www.mountain-home.us/166/City-Council": {
     "status": 200,
-    "wins": [
-     "nders President of the Council More Information Scott Harjo Councilmember More Information Jenny Wirkkala Councilmember More Information Brendan McCarthy Councilmember More Information Agendas & Minutes 2026 Agendas 01-13-2026 (PDF) 01-27-2026 (PDF) 02-10-2026 (PDF) 02-24-2026 - ",
-     "n Scott Harjo Councilmember More Information Jenny Wirkkala Councilmember More Information Brendan McCarthy Councilmember More Information Agendas & Minutes 2026 Agendas 01-13-2026 (PDF) 01-27-2026 (PDF) 02-10-2026 (PDF) 02-24-2026 - Joint Meeting (PDF) 03-10-2026 (PDF) 03-18-202",
-     "ny Wirkkala Councilmember More Information Brendan McCarthy Councilmember More Information Agendas & Minutes 2026 Agendas 01-13-2026 (PDF) 01-27-2026 (PDF) 02-10-2026 (PDF) 02-24-2026 - Joint Meeting (PDF) 03-10-2026 (PDF) 03-18-2026 (PDF) 03-24-2026 (PDF) 04-03-2026 - Workshop (",
-     "hould be addressed to the Presiding Officer, not individual Councilmembers, staff, or members of the audience. During election season, no person may use the public comment portion of a meeting to promote or oppose any candidate for public office. Public Comment Archive Public Com"
-    ]
+    "title": "City Council | Mountain Home, ID",
+    "names": [],
+    "ctx": []
    },
-   "https://www.mountain-home.us/CivicAlerts.aspx?AID=18": {
+   "https://www.mountain-home.us/167/Mayor": {
     "status": 200,
-    "wins": []
-   }
-  }
- },
- "Nampa": {
-  "status": 403,
-  "cands": [],
-  "snips": {}
- },
- "Pocatello": {
-  "status": 200,
-  "cands": [
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2566",
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2557",
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2537",
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2515"
-  ],
-  "snips": {
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2566": {
-    "status": 200,
-    "wins": [
-     "the success of Pocatello are closely connected,&rdquo; said Mayor Mark Dahlquist. &ldquo;This partnership is about recognizing that connection and continuing to work together to make our community stronger. When the City and the University collaborate, our entire community benefi"
-    ]
-   },
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2557": {
-    "status": 200,
-    "wins": []
-   },
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2537": {
-    "status": 200,
-    "wins": [
-     "ited to Zoo Idaho for Cougar Kitten&#x27;s Name Reveal with Mayor Mark Dahlquist &#x2022; City of Pocatello Skip to Main Content Create a Website Account - Manage notification subscriptions, save form progress and more. &nbsp;&nbsp; Website Sign In Home News Flash Community Invit",
-     "ited to Zoo Idaho for Cougar Kitten&#x27;s Name Reveal with Mayor Mark Dahlquist News Flash Community Invited to Zoo Idaho for Cougar Kitten's Name Reveal with Mayor Mark Dahlquist City of Pocatello News Posted on July 13, 2026 | Last Updated on July 13, 2026 Zoo Idaho&apos;s cou",
-     "y Invited to Zoo Idaho for Cougar Kitten's Name Reveal with Mayor Mark Dahlquist City of Pocatello News Posted on July 13, 2026 | Last Updated on July 13, 2026 Zoo Idaho&apos;s cougar kitten will officially receive her name during a special community reveal by Pocatello Mayor Mar",
-     "ive her name during a special community reveal by Pocatello Mayor Mark Dahlquist Friday, July 17, at noon at Zoo Idaho, 3000 South 2nd Avenue. Following a public naming contest that generated more than 500 name suggestions, Zoo Idaho staff narrowed the choices to three finalists:"
-    ]
-   },
-   "https://pocatello.gov/CivicAlerts.aspx?AID=2515": {
-    "status": 200,
-    "wins": []
-   }
-  }
- },
- "Post Falls": {
-  "status": 200,
-  "cands": [
-   "https://www.postfalls.gov/Calendar.aspx?EID=741",
-   "https://www.postfalls.gov/167/Mayor"
-  ],
-  "snips": {
-   "https://www.postfalls.gov/Calendar.aspx?EID=741": {
-    "status": 200,
-    "wins": []
-   },
-   "https://www.postfalls.gov/167/Mayor": {
-    "status": 200,
-    "wins": [
-     "Mayor | Post Falls, ID Skip to Main Content Scam Alert Fraudulent Application Fee Emails Targeting Post Falls Residents and Businesses Read On... Create a Website Account - Manage notification subscriptions, save form pr",
-     "ress and more. &nbsp;&nbsp; Website Sign In Home Government Mayor Mayor Randy Westlund 38th Mayor of the City of Post Falls Term of Office: 2026 through 2029 Mayor Randy Westlund was elected Mayor in 2026 and is currently serving his first term. Prior to becoming Mayor, he served",
-     "nd more. &nbsp;&nbsp; Website Sign In Home Government Mayor Mayor Randy Westlund 38th Mayor of the City of Post Falls Term of Office: 2026 through 2029 Mayor Randy Westlund was elected Mayor in 2026 and is currently serving his first term. Prior to becoming Mayor, he served on th",
-     "ite Sign In Home Government Mayor Mayor Randy Westlund 38th Mayor of the City of Post Falls Term of Office: 2026 through 2029 Mayor Randy Westlund was elected Mayor in 2026 and is currently serving his first term. Prior to becoming Mayor, he served on the City Council for two yea",
-     "of the City of Post Falls Term of Office: 2026 through 2029 Mayor Randy Westlund was elected Mayor in 2026 and is currently serving his first term. Prior to becoming Mayor, he served on the City Council for two years. Mayor Westlund and his wife, Jacqueline, have five children. T",
-     " Office: 2026 through 2029 Mayor Randy Westlund was elected Mayor in 2026 and is currently serving his first term. Prior to becoming Mayor, he served on the City Council for two years. Mayor Westlund and his wife, Jacqueline, have five children. They moved to Post Falls in 2018. ",
-     " and is currently serving his first term. Prior to becoming Mayor, he served on the City Council for two years. Mayor Westlund and his wife, Jacqueline, have five children. They moved to Post Falls in 2018. While Mayor Westlund grew up in North Carolina, his wife has roots in the",
-     "ecoming Mayor, he served on the City Council for two years. Mayor Westlund and his wife, Jacqueline, have five children. They moved to Post Falls in 2018. While Mayor Westlund grew up in North Carolina, his wife has roots in the area that go back generations. Mayor Westlund holds",
-     "have five children. They moved to Post Falls in 2018. While Mayor Westlund grew up in North Carolina, his wife has roots in the area that go back generations. Mayor Westlund holds a Bachelor of Science in Computer Engineering from the University of North Carolina at Charlotte. He",
-     "a, his wife has roots in the area that go back generations. Mayor Westlund holds a Bachelor of Science in Computer Engineering from the University of North Carolina at Charlotte. He is a self-employed software engineer and entrepreneur with more than a decade of experience buildi",
-     "g Flock Statement (PDF) Twin Falls Shooting Statement (PDF) Mayor's Plan Statement (PDF) Contact Us Mayor Physical Address View Map 2nd Floor of City Hall 408 N Spokane Street Post Falls , ID 83854 2nd Floor of City Hall 408 N Spokane Street Post Falls ID 83854 Directions Mailing",
-     "ing Statement (PDF) Mayor's Plan Statement (PDF) Contact Us Mayor Physical Address View Map 2nd Floor of City Hall 408 N Spokane Street Post Falls , ID 83854 2nd Floor of City Hall 408 N Spokane Street Post Falls ID 83854 Directions Mailing Address City of Post Falls 408 N. Spoka"
-    ]
-   }
-  }
- },
- "Rathdrum": {
-  "status": 200,
-  "cands": [
-   "https://www.rathdrum.gov/425/mayor",
-   "https://www.rathdrum.gov/394/council-members"
-  ],
-  "snips": {
-   "https://www.rathdrum.gov/425/mayor": {
-    "status": 200,
-    "wins": [
-     "Mayor - Rathdrum ID Skip to main content account_circle Mayor Mayor John Hodgkins After graduation from Sandpoint Highschool in 1999 I married my high school sweetheart and along with her family moved to Oregon in 2001. ",
-     "Mayor - Rathdrum ID Skip to main content account_circle Mayor Mayor John Hodgkins After graduation from Sandpoint Highschool in 1999 I married my high school sweetheart and along with her family moved to Oregon in 2001. At the time in&nbsp; North Idaho the idea of getting a w",
-     "yor - Rathdrum ID Skip to main content account_circle Mayor Mayor John Hodgkins After graduation from Sandpoint Highschool in 1999 I married my high school sweetheart and along with her family moved to Oregon in 2001. At the time in&nbsp; North Idaho the idea of getting a well pa",
-     "il&#160;protected] &nbsp; State Required Qualifications for Mayor The term of office for Mayor is four years. To be qualified to run for Mayor: The person must be at least 18 years of age. The person must be a U.S. citizen. The person's primary residence must be within the city. ",
-     "te Required Qualifications for Mayor The term of office for Mayor is four years. To be qualified to run for Mayor: The person must be at least 18 years of age. The person must be a U.S. citizen. The person's primary residence must be within the city. The person must be registered",
-     " office for Mayor is four years. To be qualified to run for Mayor: The person must be at least 18 years of age. The person must be a U.S. citizen. The person's primary residence must be within the city. The person must be registered to vote. The address of the person's voter regi"
-    ]
-   },
-   "https://www.rathdrum.gov/394/council-members": {
-    "status": 200,
-    "wins": [
-     "Council Members - Rathdrum ID Skip to main content account_circle Council Members View Agendas &amp; Minutes Council Members Laura Fuller Council Member Email Laura Ken Owens Council Member Email Ken Larry Sanders Counci",
-     "l Members - Rathdrum ID Skip to main content account_circle Council Members View Agendas &amp; Minutes Council Members Laura Fuller Council Member Email Laura Ken Owens Council Member Email Ken Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew ",
-     "t account_circle Council Members View Agendas &amp; Minutes Council Members Laura Fuller Council Member Email Laura Ken Owens Council Member Email Ken Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew Upcoming Meetings Dec 09 Wed Wednesday, Dec",
-     "ers View Agendas &amp; Minutes Council Members Laura Fuller Council Member Email Laura Ken Owens Council Member Email Ken Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew Upcoming Meetings Dec 09 Wed Wednesday, December 9, 2026 City Council Me",
-     "l Members Laura Fuller Council Member Email Laura Ken Owens Council Member Email Ken Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew Upcoming Meetings Dec 09 Wed Wednesday, December 9, 2026 City Council Meeting 5:30 PM Jan 13 Wed Wednesday, J",
-     "mail Laura Ken Owens Council Member Email Ken Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew Upcoming Meetings Dec 09 Wed Wednesday, December 9, 2026 City Council Meeting 5:30 PM Jan 13 Wed Wednesday, January 13, 2027 City Council Meeting 5:",
-     "en Larry Sanders Council President Email Larry Matthew Suhr Council Member Email Matthew Upcoming Meetings Dec 09 Wed Wednesday, December 9, 2026 City Council Meeting 5:30 PM Jan 13 Wed Wednesday, January 13, 2027 City Council Meeting 5:30 PM Feb 10 Wed Wednesday, February 10, 20"
-    ]
+    "title": "Advisory Committees | Mountain Home, ID",
+    "names": [],
+    "ctx": []
    }
   }
  },
  "Rexburg": {
   "status": 200,
-  "cands": [
-   "https://fonts.googleapis.com",
-   "https://www.rexburg.org/page/city-council"
-  ],
-  "snips": {
+  "pages": {
    "https://fonts.googleapis.com": {
     "status": 404,
-    "wins": []
+    "title": "Error 404 (Not Found)!!1",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.rexburg.org/page/city-council-agendas": {
+    "status": 200,
+    "title": "City Council Agendas | City of Rexburg",
+    "names": [],
+    "ctx": []
    },
    "https://www.rexburg.org/page/city-council": {
     "status": 200,
-    "wins": [
-     " City of Rexburg Skip to content City Council Meetings City Council Members City Council Meetings Calendar Past Meetings Public Hearings City of Rexburg Municipal Code Elections Information Contact Information (208) 359-3020 Email Customer Services City Council City Council Meeti"
-    ]
+    "title": "City Council | City of Rexburg",
+    "names": [],
+    "ctx": []
+   },
+   "https://www.rexburg.org/page/mayor": {
+    "status": 404,
+    "title": "Page Not Found | City of Rexburg",
+    "names": [],
+    "ctx": []
    }
   }
  },
  "Star": {
   "status": 200,
-  "cands": [
-   "https://www.staridaho.org/Calendar.aspx?EID=392",
-   "https://www.staridaho.org/Calendar.aspx?EID=506"
-  ],
-  "snips": {
-   "https://www.staridaho.org/Calendar.aspx?EID=392": {
-    "status": 200,
-    "wins": []
+  "pages": {
+   "https://www.staridaho.org/150/Mayor": {
+    "status": 404,
+    "title": "Custom404 \u2022 Star, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    },
-   "https://www.staridaho.org/Calendar.aspx?EID=506": {
-    "status": 200,
-    "wins": []
+   "https://www.staridaho.org/149/City-Council": {
+    "status": 404,
+    "title": "Custom404 \u2022 Star, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    }
   }
  },
  "Twin Falls": {
   "status": 200,
-  "cands": [
-   "https://www.tfid.org/Calendar.aspx?EID=3862",
-   "https://www.tfid.org/Calendar.aspx?EID=3863"
-  ],
-  "snips": {
-   "https://www.tfid.org/Calendar.aspx?EID=3862": {
+  "pages": {
+   "https://www.tfid.org/152/City-Council": {
     "status": 200,
-    "wins": []
+    "title": "Business Assistance | Twin Falls, ID - Official Website",
+    "names": [],
+    "ctx": []
    },
-   "https://www.tfid.org/Calendar.aspx?EID=3863": {
-    "status": 200,
-    "wins": []
+   "https://www.tfid.org/158/Mayor": {
+    "status": 404,
+    "title": "Custom404 \u2022 Twin Falls, ID \u2022 CivicEngage",
+    "names": [],
+    "ctx": []
    }
   }
+ },
+ "Hailey": {
+  "status": 200,
+  "pages": {
+   "https://haileycityhall.org/city-administration/": {
+    "status": 200,
+    "title": "City Administration | City of Hailey, ID",
+    "names": [
+     "Appoints Members"
+    ],
+    "ctx": [
+     "ecial Purposes Establishes Authorities, Agencies, and Committees as Needed. The Mayor Appoints Members, and the Council Confirms The City Council meets twice a month, excluding special meetings that may be called by the council or mayor from time to time. &nbsp; Personnel Handboo"
+    ]
+   },
+   "https://haileycityhall.org/boards-and-commissions/city-council/": {
+    "status": 200,
+    "title": "City Council | City Ordinances by City of Hailey, ID",
+    "names": [],
+    "ctx": []
+   },
+   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/": {
+    "status": 200,
+    "title": "City Council \u2013 Agendas Services | City Council \u2013 Agendas",
+    "names": [],
+    "ctx": []
+   },
+   "https://haileycityhall.org/mayor/": {
+    "status": 200,
+    "title": "Mayor Burke Gives 2023 State of the City Report | City of Hailey, ID",
+    "names": [
+     "Burke Gives",
+     "Martha Burke"
+    ],
+    "ctx": [
+     "Mayor Burke Gives 2023 State of the City Report | City of Hailey, ID Skip to content Home Departments &#038; Projects City Administration Election Information Finance &#038; Records Mayor, Council, Ad",
+     " Meeting Employment Park Reservations Banner Reservations Contact Search Search Mayor Burke Gives 2023 State of the City Report March 2, 2023 Mayor Burke Gives State of the City Report Mayor Martha Burke gave a State of the City Report to the Hailey City Council and full audience"
+    ]
+   }
+  }
+ },
+ "Dalton Gardens": {
+  "status": 200,
+  "pages": {
+   "https://daltongardens.com/mayor": {
+    "status": 200,
+    "title": "Mayor - Dalton Gardens, ID",
+    "names": [
+     "City Council"
+    ],
+    "ctx": [
+     "or - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
+     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
+    ]
+   },
+   "https://daltongardens.com/citycouncil": {
+    "status": 200,
+    "title": "City Council - Dalton Gardens, ID",
+    "names": [
+     "City Council"
+    ],
+    "ctx": [
+     "il - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
+     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
+    ]
+   },
+   "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6&amp;DE=2EE53102-2AED-4039-B4BE-A76AC8E453C9": {
+    "status": 200,
+    "title": "Calendar - Dalton Gardens, ID",
+    "names": [
+     "City Council"
+    ],
+    "ctx": [
+     "ar - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
+     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
+    ]
+   }
+  }
+ },
+ "Meridian": {
+  "status": 403,
+  "pages": {}
  }
 }
