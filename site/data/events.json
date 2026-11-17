@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T12:54:50-07:00",
+ "generated": "2026-11-17T13:39:27-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -190,24 +190,6 @@
    "all_day": false,
    "location": "504 S. Washington Street, Moscow",
    "url": "https://moscowid.portal.civicclerk.com/event/4011/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "e5a241187783",
-   "title": "Community Development Block Grant Advisory Committee Meeting",
-   "host": "City of Pocatello",
-   "source": "pocatello",
-   "area": "Pocatello",
-   "county": "Bannock",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-11-17T11:00:00-07:00",
-   "end": "2026-11-17T13:00:00-07:00",
-   "all_day": false,
-   "location": "City Hall > Paradice Conference Room - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
