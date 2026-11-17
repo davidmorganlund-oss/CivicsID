@@ -544,3 +544,14 @@ def test_legislature_links_and_bills():
     assert build.legislature_links(page) == {"2676": ("https://legislature.idaho.gov/wp-content/uploads/a.pdf", "https://legislature.idaho.gov/sessioninfo/2026/joint/jloc")}
     text = "AGENDA\nH 12   Relating to sales tax on groceries   Rep. Smith\nS 1045aa   Relating to school facilities\nMINUTES"
     assert build.legislature_bills(text) == ["H 12: Relating to sales tax on groceries   Rep. Smith".replace("   ", " "), "S 1045aa: Relating to school facilities"]
+
+
+def test_upkeep_items():
+    import alerts
+    cfg = {"sources": [
+        {"id": "f", "name": "Fremont County", "homepage": "h", "meetings": [{"title": "BOCC", "dates": ["2026-11-16", "2026-11-23"]}]},
+        {"id": "r", "name": "Rathdrum", "meetings": [{"title": "Council", "when": "2nd Wednesday"}]},
+        {"id": "b", "name": "Boise", "review_by": "2027-01-13", "review_note": "move"}]}
+    items = alerts.upkeep_items(cfg, date(2026, 11, 17))
+    assert len(items) == 1 and "Fremont County" in items[0] and "2026-11-23" in items[0]
+    assert len(alerts.upkeep_items(cfg, date(2026, 12, 30))) == 2

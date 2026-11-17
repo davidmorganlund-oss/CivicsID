@@ -11,8 +11,12 @@ from datetime import date, timedelta
 from pathlib import Path
 
 TITLE = "Calendar sources need attention"
-STATUS = Path(__file__).resolve().parent.parent / "site" / "data" / "status.json"
+UPKEEP_TITLE = "Hand-entered schedules need new dates"
+ROOT = Path(__file__).resolve().parent.parent
+STATUS = ROOT / "site" / "data" / "status.json"
+SOURCES = ROOT / "pipeline" / "sources.yml"
 DAYS = 3
+AHEAD = 21  # warn this many days before a hand-entered date list runs out
 
 
 def gh(*args):
@@ -36,7 +40,49 @@ def body(stuck):
     return "\n".join(lines)
 
 
+def upkeep_items(cfg, today):
+    """Hand-entered schedules whose list of dates runs out soon, and sources
+    with a 'review_by' date (a planned change, like a portal move) that is due."""
+    horizon = today + timedelta(days=AHEAD)
+    items = []
+    for src in cfg["sources"]:
+        review = src.get("review_by")
+        if review and date.fromisoformat(str(review)) <= horizon:
+            items.append(f"- **{src['name']}** (`{src['id']}`): {src.get('review_note', 'planned change due')} (by {review}).")
+        for mtg in src.get("meetings", []):
+            if mtg.get("one_off"):
+                continue  # a single special meeting, not a series that needs more dates
+            last = max([date.fromisoformat(str(d)) for d in mtg.get("dates", [])], default=None)
+            until = mtg.get("until") and date.fromisoformat(str(mtg["until"]))
+            end = last if (last and not mtg.get("when")) else until
+            if end and end <= horizon:
+                when = "ran out" if end < today else "runs out"
+                items.append(f"- **{src['name']}**, {mtg['title']} (`{src['id']}`): listed dates {when} {end}. "
+                             f"Add the next dates from {mtg.get('url') or src.get('homepage', '')}.")
+    return items
+
+
+def sync_issue(title, lines, closing):
+    found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{title}" in:title',
+                          "--json", "number,title"))
+    issue = next((i["number"] for i in found if i["title"] == title), None)
+    if lines and issue is None:
+        gh("issue", "create", "--title", title, "--body", "\n".join(lines))
+        print(f"opened: {title}")
+    elif lines:
+        gh("issue", "edit", str(issue), "--body", "\n".join(lines))
+        print(f"updated #{issue}: {title}")
+    elif issue is not None:
+        gh("issue", "close", str(issue), "--comment", closing)
+        print(f"closed #{issue}")
+
+
 def main():
+    import yaml
+    items = upkeep_items(yaml.safe_load(SOURCES.read_text()), date.today())
+    sync_issue(UPKEEP_TITLE, (["These hand-entered schedules or planned changes need a human look in the next "
+                               f"{AHEAD} days. Once their meetings pass, the calendar quietly goes empty for them.", ""]
+                              + items) if items else [], "Every hand-entered schedule has dates for the next three weeks.")
     stuck = stuck_sources(json.loads(STATUS.read_text()), date.today())
     found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{TITLE}" in:title',
                           "--json", "number,title"))

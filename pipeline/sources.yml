@@ -37,6 +37,8 @@ sources:
   # on Jan. 12, 2027. This feed reaches about a week ahead; remove it then.
   - id: boise-council-iqm2
     name: City of Boise
+    review_by: 2027-01-13
+    review_note: Boise City Council moves to eScribe on Jan. 12, 2027; remove this old IQM2 source and confirm council meetings come through the boise eScribe source
     type: iqm2_rss
     url: https://boisecityid.iqm2.com/Services/RSS.aspx?Feed=Calendar
     county: Ada
@@ -282,12 +284,13 @@ sources:
         url: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
       - title: Public Input Session with Planning & Zoning Commissioners
         dates: [2026-11-18]
+        one_off: true
         time: "17:30"
         location: Rathdrum City Hall, 8047 W. Main Street
         category: council
         url: https://www.rathdrum.gov/calendar
       - title: Planning & Zoning Commission Meeting
-        dates: [2026-11-18]
+        dates: [2026-11-18, 2026-12-16]
         time: "17:30"
         location: Rathdrum City Hall, 8047 W. Main Street
         category: council
@@ -531,7 +534,7 @@ sources:
 
   # Fremont County's site turns away automated readers, so its posted
   # commissioners' meetings are entered by hand from the county calendar.
-  # Update when the county posts December dates.
+  # Update when the county posts January dates.
   - id: fremont-county
     name: Fremont County
     type: schedule
@@ -540,10 +543,10 @@ sources:
     homepage: https://www.fremontcountyid.gov/calendar.aspx?CID=41
     meetings:
       - title: BOCC Regular Meeting
-        dates: [2026-11-16, 2026-11-23]
+        dates: [2026-11-16, 2026-11-23, 2026-12-07, 2026-12-14, 2026-12-28]
         time: "09:00"
         end: "17:00"
-        location: Fremont County Courthouse
+        location: Fremont County Courthouse, 151 W 1st N, St. Anthony
         category: council
         url: https://www.fremontcountyid.gov/calendar.aspx?CID=41
 
