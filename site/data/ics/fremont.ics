@@ -4,11 +4,38 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Fremont County
 BEGIN:VEVENT
 UID:9403e98e0687@civicsid
-DTSTAMP:20261117T191010Z
+DTSTAMP:20261117T191738Z
 DTSTART:20261123T160000Z
 DTEND:20261124T000000Z
 SUMMARY:BOCC Regular Meeting (Fremont County)
-LOCATION:Fremont County Courthouse
+LOCATION:Fremont County Courthouse\, 151 W 1st N\, St. Anthony
+URL:https://www.fremontcountyid.gov/calendar.aspx?CID=41
+END:VEVENT
+BEGIN:VEVENT
+UID:5a110c6d7c69@civicsid
+DTSTAMP:20261117T191738Z
+DTSTART:20261207T160000Z
+DTEND:20261208T000000Z
+SUMMARY:BOCC Regular Meeting (Fremont County)
+LOCATION:Fremont County Courthouse\, 151 W 1st N\, St. Anthony
+URL:https://www.fremontcountyid.gov/calendar.aspx?CID=41
+END:VEVENT
+BEGIN:VEVENT
+UID:95c2f9e09862@civicsid
+DTSTAMP:20261117T191738Z
+DTSTART:20261214T160000Z
+DTEND:20261215T000000Z
+SUMMARY:BOCC Regular Meeting (Fremont County)
+LOCATION:Fremont County Courthouse\, 151 W 1st N\, St. Anthony
+URL:https://www.fremontcountyid.gov/calendar.aspx?CID=41
+END:VEVENT
+BEGIN:VEVENT
+UID:3a872c50ff03@civicsid
+DTSTAMP:20261117T191738Z
+DTSTART:20261228T160000Z
+DTEND:20261229T000000Z
+SUMMARY:BOCC Regular Meeting (Fremont County)
+LOCATION:Fremont County Courthouse\, 151 W 1st N\, St. Anthony
 URL:https://www.fremontcountyid.gov/calendar.aspx?CID=41
 END:VEVENT
 END:VCALENDAR
