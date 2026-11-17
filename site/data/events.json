@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T05:00:29-07:00",
+ "generated": "2026-11-17T11:55:56-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -35,7 +35,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "cf44bbe2965b",
@@ -93,7 +94,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9fa51fa300d9",
@@ -129,7 +131,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ff52644efa36",
@@ -303,7 +306,8 @@
    "url": "https://adalib.org/board-meeting-agendas/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "34d1a8c353eb",
@@ -339,7 +343,8 @@
    "url": "https://marshallpl.org/board-of-trustees/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "6e88986470d0",
@@ -561,7 +566,8 @@
    "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
    "agenda_url": "https://www.cdaid.org/media/pnremywo/packet111726-web.pdf",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7ef3608b1dda",
@@ -651,7 +657,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "36be5570a1d3",
@@ -695,7 +702,7 @@
    "cancelled": true
   },
   {
-   "id": "077ae6d94ab3",
+   "id": "b56f15bd2430",
    "title": "Joint Legislative Oversight Committee",
    "host": "Idaho Legislature",
    "source": "legislature",
@@ -707,7 +714,7 @@
    "end": "2026-11-18T10:30:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2673",
+   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2676",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -728,7 +735,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "41aae96ec33a",
@@ -800,7 +808,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ac2bd0a19cff",
@@ -842,7 +851,7 @@
    "url": "https://twinfallsid.portal.civicclerk.com/event/6948/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": true
   },
   {
    "id": "2ddee781c8d2",
@@ -1034,7 +1043,8 @@
    "url": "https://www.rathdrum.gov/66/planning-and-zoning-commission",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e5104cc5f5e9",
@@ -1052,7 +1062,8 @@
    "url": "https://www.rathdrum.gov/calendar",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dab070f04af5",
@@ -1166,7 +1177,8 @@
    "url": "https://daltongardens.com/citycouncil",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bf9ecba654fe",
@@ -1184,7 +1196,8 @@
    "url": "https://www.rexburg.org/page/city-council-agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "26f3a1b9089f",
@@ -1202,7 +1215,8 @@
    "url": "https://gardencityidaho.org/planning-and-zoning-commission",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7bdacde01c38",
@@ -1712,7 +1726,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d274d3c7b390",
@@ -1766,7 +1781,8 @@
    "url": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0c3ca719b8d3",
@@ -1784,7 +1800,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "3d5b3b8a0dec",
@@ -1820,7 +1837,8 @@
    "url": "https://www.co.adams.id.us/public-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d6f408d41021",
@@ -1838,7 +1856,8 @@
    "url": "https://buttecountyid.us/butte-county-public-meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ed05693ebc42",
@@ -1856,7 +1875,8 @@
    "url": "https://camascounty.id.gov/category/commissioner-agenda/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "91c2aa9391d0",
@@ -1874,7 +1894,8 @@
    "url": "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9a32ee189111",
@@ -1928,7 +1949,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "246357de2263",
@@ -1946,7 +1968,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "940ee3f23eaf",
@@ -2000,7 +2023,8 @@
    "url": "https://www.bearlakecounty.info/meetings.html",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ba7305a1b3b7",
@@ -2018,7 +2042,8 @@
    "url": "https://www.cariboucounty.us/government/public_meeting.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e7fb650f6031",
@@ -2036,7 +2061,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9403e98e0687",
@@ -2054,7 +2080,8 @@
    "url": "https://www.fremontcountyid.gov/calendar.aspx?CID=41",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d95ccb72e70f",
@@ -2090,7 +2117,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8a4cd7ecd238",
@@ -2144,7 +2172,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "719543841223",
@@ -2198,7 +2227,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dad8966bfe16",
@@ -2216,7 +2246,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "457d5662a594",
@@ -2270,7 +2301,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d85b0186767d",
@@ -2342,7 +2374,8 @@
    "url": "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f96f95862119",
@@ -2378,7 +2411,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b1ec6b852558",
@@ -2396,7 +2430,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2e4509244333",
@@ -2414,7 +2449,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2a119f84306e",
@@ -2450,7 +2486,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f3a698da5105",
@@ -2484,6 +2521,24 @@
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "9d328515364c",
+   "title": "Special Meeting - Human Resources",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-24T14:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Bonner County Administrative Building, 1500 US-2, Sandpoint",
+   "url": "https://www.bonnercountyid.gov/events/102517/",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2558,7 +2613,8 @@
    "url": "https://www.cityofemmett.org/meeting",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Generally held on these dates unless a holiday interferes; check the city's schedule.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "87101381c03d",
@@ -2612,7 +2668,8 @@
    "url": "https://www.rathdrum.gov/450/parks-and-recreation-commission",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dbdc808f6199",
@@ -2630,7 +2687,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ff245996c8e1",
@@ -2648,7 +2706,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c7e33b180634",
@@ -2702,7 +2761,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "1bbb9dcdc64a",
@@ -2828,7 +2888,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "6664f383e350",
@@ -2846,7 +2907,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "812ace37c813",
@@ -2864,7 +2926,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "adcc4b5c4b31",
@@ -2900,7 +2963,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e086b5a8c489",
@@ -2954,7 +3018,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "290de12e22a8",
@@ -3008,7 +3073,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a24e8ec1058b",
@@ -3152,7 +3218,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "630aed6889b8",
@@ -3170,7 +3237,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "fb98bea79b87",
@@ -3206,7 +3274,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2fe9f09561df",
@@ -3440,7 +3509,8 @@
    "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7fc1c8245d1c",
@@ -3512,7 +3582,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "216d03d4451f",
@@ -3566,7 +3637,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "774e6546c782",
@@ -3602,7 +3674,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8263ca9ac160",
@@ -3674,7 +3747,8 @@
    "url": "https://www.rexburg.org/page/city-council-agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "512699a7153b",
@@ -3692,7 +3766,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b6e6689b16ce",
@@ -3762,24 +3837,6 @@
    "all_day": false,
    "location": "Legion Hall - 216 E PARK ST McCall ID 83638",
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "9325fd9baae2",
-   "title": "Parks & Recreation Advisory Board Meeting",
-   "host": "City of Pocatello",
-   "source": "pocatello",
-   "area": "Pocatello",
-   "county": "Bannock",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-12-03T12:00:00-07:00",
-   "end": "2026-12-03T13:00:00-07:00",
-   "all_day": false,
-   "location": "Community Recreation Center - 144 Wilson Avenue Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3908,7 +3965,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "1f24b60e2840",
@@ -3980,7 +4038,8 @@
    "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9a5c5765634e",
@@ -4016,7 +4075,8 @@
    "url": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "cac1db8bc493",
@@ -4034,7 +4094,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0bae051736e8",
@@ -4070,7 +4131,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d9503aa803c3",
@@ -4106,7 +4168,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "545c1cd43d5f",
@@ -4142,7 +4205,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e601f74ee33b",
@@ -4178,7 +4242,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9821cb452b38",
@@ -4214,7 +4279,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "18f309b15ae1",
@@ -4232,7 +4298,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "851744c13103",
@@ -4286,7 +4353,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b44f08d88f1a",
@@ -4376,7 +4444,8 @@
    "url": "https://www.cityofnampa.us/1612/Public-Meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Public hearings begin at 6 p.m.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "5da4f44a4075",
@@ -4520,7 +4589,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9ef41d66f4be",
@@ -4538,7 +4608,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0d1ebe3c548a",
@@ -4574,7 +4645,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b8ff397ccc04",
@@ -4772,7 +4844,8 @@
    "url": "https://www.cityofemmett.org/meeting",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Generally held on these dates unless a holiday interferes; check the city's schedule.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4aa60f68c59a",
@@ -4862,7 +4935,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "07d0a3d26ce1",
@@ -4898,7 +4972,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9c72977ae2df",
@@ -4988,7 +5063,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dbe361b08229",
@@ -5042,7 +5118,8 @@
    "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0a46991fe1be",
@@ -5114,7 +5191,8 @@
    "url": "https://www.rathdrum.gov/calendar",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "48bef26b9e88",
@@ -5186,7 +5264,8 @@
    "url": "https://maladidaho.org/city-council-calendar/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f10946841610",
@@ -5420,7 +5499,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ff2abb967641",
@@ -5438,7 +5518,8 @@
    "url": "https://www.twinfallspubliclibrary.org/libraryboard/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "1a51da3935f9",
@@ -5564,7 +5645,8 @@
    "url": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "899129d7cf9f",
@@ -5582,7 +5664,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "37f344f4a604",
@@ -5618,7 +5701,8 @@
    "url": "https://www.co.adams.id.us/public-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4543555e829e",
@@ -5636,7 +5720,8 @@
    "url": "https://buttecountyid.us/butte-county-public-meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2761f4934bc3",
@@ -5654,7 +5739,8 @@
    "url": "https://camascounty.id.gov/category/commissioner-agenda/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d518a7750552",
@@ -5672,7 +5758,8 @@
    "url": "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4a61b035fd99",
@@ -5708,7 +5795,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9559a18b9a89",
@@ -5744,7 +5832,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4054b0d1abbf",
@@ -5798,7 +5887,8 @@
    "url": "https://www.bearlakecounty.info/meetings.html",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bff275ddf699",
@@ -5816,7 +5906,8 @@
    "url": "https://www.cariboucounty.us/government/public_meeting.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e06f34044038",
@@ -5834,7 +5925,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "78b9937754b9",
@@ -5870,7 +5962,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9fd226f05365",
@@ -5906,7 +5999,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0f0727504168",
@@ -5960,7 +6054,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9edb28eb84c8",
@@ -5978,7 +6073,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "3ba916d9103b",
@@ -6050,7 +6146,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "5c406b73e462",
@@ -6140,7 +6237,8 @@
    "url": "https://www.cdaschools.org/page/board-of-trustees",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8d1bd5982511",
@@ -6158,7 +6256,8 @@
    "url": "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f6d97ca3d724",
@@ -6266,7 +6365,8 @@
    "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a94e5010cd0c",
@@ -6302,7 +6402,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bd24b1f43228",
@@ -6320,7 +6421,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "355bea018029",
@@ -6356,7 +6458,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "86563f1b30af",
@@ -6446,7 +6549,8 @@
    "url": "https://adalib.org/board-meeting-agendas/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c6ee959fe72a",
@@ -6482,7 +6586,8 @@
    "url": "https://marshallpl.org/board-of-trustees/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "3d1078de82af",
@@ -6536,7 +6641,8 @@
    "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "521333cbf2a6",
@@ -6644,7 +6750,8 @@
    "url": "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0ad161744938",
@@ -6698,7 +6805,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "fe7b14627553",
@@ -6734,7 +6842,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "46a4f499176d",
@@ -6788,7 +6897,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9b105d6f48ae",
@@ -6914,7 +7024,8 @@
    "url": "https://www.rexburg.org/page/city-council-agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "eceba0ad6e6c",
@@ -6932,7 +7043,8 @@
    "url": "https://gardencityidaho.org/planning-and-zoning-commission",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c5f23728314d",
@@ -7112,7 +7224,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9456f2348c92",
@@ -7184,7 +7297,8 @@
    "url": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c2370648ad41",
@@ -7202,7 +7316,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "804b6134750c",
@@ -7220,7 +7335,8 @@
    "url": "https://www.co.adams.id.us/public-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2eba9c128681",
@@ -7238,7 +7354,8 @@
    "url": "https://camascounty.id.gov/category/commissioner-agenda/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ff5529502484",
@@ -7256,7 +7373,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "23afda5579e1",
@@ -7274,7 +7392,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "dcc10038ca4b",
@@ -7310,7 +7429,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e20359a4e9bd",
@@ -7346,7 +7466,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "45540c3af2f5",
@@ -7400,7 +7521,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e27d207ed898",
@@ -7418,7 +7540,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "815fe877d63d",
@@ -7490,7 +7613,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "072bf878a5c9",
@@ -7508,7 +7632,8 @@
    "url": "https://www.cityofnampa.us/1612/Public-Meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Public hearings begin at 6 p.m.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9516de7d2614",
@@ -7580,7 +7705,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "de8e5b429054",
@@ -7598,7 +7724,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ed14bf8f12c9",
@@ -7616,7 +7743,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "61a3a526cb5e",
@@ -7652,7 +7780,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b5bde9bf3882",
@@ -7742,7 +7871,8 @@
    "url": "https://www.cityofemmett.org/meeting",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Generally held on these dates unless a holiday interferes; check the city's schedule.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2dc0d6d5a876",
@@ -7796,7 +7926,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "539f339efa04",
@@ -7814,7 +7945,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "089ff98b31a4",
@@ -7868,7 +8000,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d8ac9387a82f",
@@ -7976,7 +8109,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "6a04ff35e268",
@@ -7994,7 +8128,8 @@
    "url": "https://www.co.adams.id.us/public-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "093f63b4cad4",
@@ -8012,7 +8147,8 @@
    "url": "https://buttecountyid.us/butte-county-public-meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0b6b9964e98a",
@@ -8030,7 +8166,8 @@
    "url": "https://camascounty.id.gov/category/commissioner-agenda/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "06622a6cdbf4",
@@ -8048,7 +8185,8 @@
    "url": "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "64de299c33e1",
@@ -8102,7 +8240,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2901b5ba32f4",
@@ -8120,7 +8259,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e0fc67322059",
@@ -8174,7 +8314,8 @@
    "url": "https://www.bearlakecounty.info/meetings.html",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f87392a68574",
@@ -8192,7 +8333,8 @@
    "url": "https://www.cariboucounty.us/government/public_meeting.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7bebbac98a41",
@@ -8210,7 +8352,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "06a8cd8733e9",
@@ -8246,7 +8389,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9884cd0e9f77",
@@ -8282,7 +8426,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8d13131a2551",
@@ -8318,7 +8463,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "709e6ed1970a",
@@ -8336,7 +8482,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "26857c4187fc",
@@ -8372,7 +8519,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "195954860cfa",
@@ -8462,7 +8610,8 @@
    "url": "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bacef8120257",
@@ -8552,7 +8701,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "765eb817ee04",
@@ -8570,7 +8720,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "108292a4b313",
@@ -8606,7 +8757,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d5756cfa5368",
@@ -8678,7 +8830,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "6d2f23a34c2f",
@@ -8696,7 +8849,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "3ace93167883",
@@ -8714,7 +8868,8 @@
    "url": "https://daltongardens.com/citycouncil",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c45892108b23",
@@ -8768,7 +8923,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "85fe6c235534",
@@ -8786,7 +8942,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bc127de19fc0",
@@ -8804,7 +8961,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a7d40f147c27",
@@ -8840,7 +8998,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "5d45c70af347",
@@ -8876,7 +9035,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7695261916b9",
@@ -8912,7 +9072,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ec1f2e66bc09",
@@ -8930,7 +9091,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "1f0847dbe6c6",
@@ -8948,7 +9110,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "41d550ef7d47",
@@ -8984,7 +9147,8 @@
    "url": "https://www.cityofnampa.us/1612/Public-Meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Public hearings begin at 6 p.m.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "06f9df460355",
@@ -9074,7 +9238,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b8c1eea89912",
@@ -9092,7 +9257,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "9877e0b037db",
@@ -9128,7 +9294,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "481d1c7d5fbb",
@@ -9398,7 +9565,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7309b5243809",
@@ -9434,7 +9602,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "20dd3738f235",
@@ -9452,7 +9621,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2f404e126666",
@@ -9506,7 +9676,8 @@
    "url": "https://www.rexburg.org/page/city-council-agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4a1f8ee4d288",
@@ -9524,7 +9695,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "0f5e229fdb79",
@@ -9668,7 +9840,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8437d7a1c6f1",
@@ -9758,7 +9931,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c88d32862dd4",
@@ -9794,7 +9968,8 @@
    "url": "https://www.co.adams.id.us/public-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ed9f8335e047",
@@ -9812,7 +9987,8 @@
    "url": "https://buttecountyid.us/butte-county-public-meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "1b6ba45f7c14",
@@ -9830,7 +10006,8 @@
    "url": "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "5bcbb447b8a0",
@@ -9848,7 +10025,8 @@
    "url": "https://www.franklincountyidaho.org/government/agendas_minutes.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d4a29bcd9595",
@@ -9866,7 +10044,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "4b7e6ad8040b",
@@ -9902,7 +10081,8 @@
    "url": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "93e2f1ff83bd",
@@ -9938,7 +10118,8 @@
    "url": "https://www.bearlakecounty.info/meetings.html",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "8733e0e23092",
@@ -9956,7 +10137,8 @@
    "url": "https://www.cariboucounty.us/government/public_meeting.php",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c7fd123b8044",
@@ -9974,7 +10156,8 @@
    "url": "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "cf701cbc581c",
@@ -10010,7 +10193,8 @@
    "url": "https://owyheecounty.net/commissioners/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "e6138682cb85",
@@ -10028,7 +10212,8 @@
    "url": "https://pub-tetoncounty.escribemeetings.com/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "63b34ec6d255",
@@ -10082,7 +10267,8 @@
    "url": "https://www.goodingcounty.org/agendacenter",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "2c55c57a7e23",
@@ -10100,7 +10286,8 @@
    "url": "https://www.lincolncountyid.gov/meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f5be13332b52",
@@ -10190,7 +10377,8 @@
    "url": "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "50968d03d8d0",
@@ -10262,7 +10450,8 @@
    "url": "https://www.cdaschools.org/page/board-of-trustees",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "260b98c11082",
@@ -10334,7 +10523,8 @@
    "url": "https://boundarycountyid.org/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a6c0a7ea3d56",
@@ -10352,7 +10542,8 @@
    "url": "https://www.boisecounty.us/?p=620",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ef02baa4317b",
@@ -10388,7 +10579,8 @@
    "url": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a844a1626aaf",
@@ -10766,7 +10958,8 @@
    "url": "https://www.cityofemmett.org/meeting",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go. Generally held on these dates unless a holiday interferes; check the city's schedule.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "11b4a1c3514b",
@@ -10892,7 +11085,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "23d68311be0a",
@@ -10928,7 +11122,8 @@
    "url": "https://shoshonecounty.id.gov/commissioners/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ef89574fb5fb",
@@ -11000,7 +11195,8 @@
    "url": "https://www.achdidaho.org/about-achd/commission/commission-meetings",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "7842f3a11fbf",
@@ -11072,7 +11268,8 @@
    "url": "https://www.rathdrum.gov/1114/2026-council-meeting-schedule",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ea1cbcb53597",
@@ -11108,7 +11305,8 @@
    "url": "https://maladidaho.org/city-council-calendar/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "a1846c82e005",
@@ -11234,7 +11432,8 @@
    "url": "https://cityofammon.us/government/meetings/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "25caa6751f1d",
@@ -11252,7 +11451,8 @@
    "url": "https://www.twinfallspubliclibrary.org/libraryboard/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "67aeb5b5c993",
@@ -11306,7 +11506,8 @@
    "url": "https://www.binghamid.gov/",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
-   "cancelled": false
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "45b13f52fd01",
