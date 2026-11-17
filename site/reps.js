@@ -115,7 +115,8 @@
     card.appendChild(el('h4', null, 'Mayor'));
     people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
     var links = card.querySelector('ul.people:last-of-type .contact a');
-    if (links) links.textContent = 'Mayor’s page';
+    if (links) links.textContent = /eastidahonews|kivitv|news/i.test(place.mayor.source) ? 'Source' : 'Mayor’s page';
+    if (place.mayor.note) card.appendChild(el('p', 'muted', place.mayor.note));
     if (safeUrl(place.council)) {
       var p = el('p');
       p.appendChild(link(place.council, 'City council members'));

@@ -3,7 +3,7 @@ Run: python3 tools/pages/gen.py  -- writes plain HTML into site/."""
 import html, json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-import guides_a, guides_b, guides_c
+import guides_a, guides_b, guides_c, guides_es
 
 SITE = Path(__file__).resolve().parents[2] / "site"
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
@@ -15,10 +15,10 @@ BY = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barn
       'is not affiliated with any government agency, and does not speak for any public office.</p>')
 
 
-def head(title, up, desc, share=None):
+def head(title, up, desc, share=None, lang="en"):
     share = share or title.split(" | ")[0]
     return f'''<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,20 +35,31 @@ def head(title, up, desc, share=None):
 <body>'''
 
 
-def top(up, current):
+NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", "My reps", "Main"),
+       "es": ("Calendario comunitario", "Calendario", "Participa", "Mis representantes", "Mis reps", "Principal")}
+
+
+def top(up, current, lang="en", alt=None, reps_up=None):
+    """alt: link to this page in the other language. Spanish pages link to the
+    English representatives lookup (reps_up), which isn't translated yet."""
+    cal, cal_s, eng, reps, reps_s, main = NAV[lang]
+    notice = NOTICE if lang == "en" else '<div class="notice">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</div>'
+    switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
         cur = ' aria-current="page"' if key == current else ""
         if short:  # a shorter label on phones; the full name stays for screen readers
             return f'    <a href="{up}{href}"{cur} aria-label="{label}"><span class="full">{label}</span><span class="short">{short}</span></a>'
         return f'    <a href="{up}{href}"{cur}>{label}</a>'
-    return f'''{NOTICE}
+    reps_href = (reps_up or up) + "reps.html"
+    reps_link = a("reps.html", reps, "reps", reps_s).replace(f'href="{up}reps.html"', f'href="{reps_href}"')
+    return f'''{notice}
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="{up}index.html">Civics<span>ID</span></a>
-  <nav aria-label="Main">
-{a("index.html", "Community Calendar", "calendar", "Calendar")}
-{a("engage.html", "Engage", "engage")}
-{a("reps.html", "My representatives", "reps", "My reps")}
+  <a class="brand" href="{up}index.html">Civics<span>ID</span></a>{switch}
+  <nav aria-label="{main}">
+{a("index.html", cal, "calendar", cal_s)}
+{a("engage.html", eng, "engage")}
+{reps_link}
   </nav>
 </div></header>'''
 
@@ -67,7 +78,7 @@ for slug, g in ALL.items():
     script = '\n<script src="../local.js"></script>' if 'class="near-you"' in g["body"] else ""
     page = f'''{head(g["title"] + " | CivicsID", "../", g["lede"])}
 <a class="skip" href="#guide">Skip to guide</a>
-{top("../", "engage")}
+{top("../", "engage", alt=("../es/guides/" + slug + ".html") if slug in guides_es.G else "../es/engage.html")}
 
 <main class="wrap narrow guide" id="guide">
   <p class="eyebrow"><a href="../engage.html">Engage</a> · {g["cat"]}</p>
@@ -141,7 +152,7 @@ for i, (heading, items) in enumerate(SECTIONS):
 assert listed == set(ALL), (listed ^ set(ALL))
 (SITE / "engage.html").write_text(f'''{head("Engage | CivicsID", "", "Plain-language guides to how government works in Idaho and where you can step in.")}
 <a class="skip" href="#guides">Skip to guides</a>
-{top("", "engage")}
+{top("", "engage", alt="es/engage.html")}
 
 <section class="hero plain"><div class="wrap">
   <h1>Engage: how to take part, from your block to Congress.</h1>
@@ -160,7 +171,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 # ---------- calendar ----------
 (SITE / "index.html").write_text(f'''{head("Get Engaged, Idaho | CivicsID", "", "See what your city council, county commissioners, library board and the Idaho Legislature are deciding this week, and how to make your voice heard.", "Get Engaged, Idaho: what your community is deciding this week")}
 <a class="skip" href="#events">Skip to events</a>
-{top("", "calendar")}
+{top("", "calendar", alt="es/index.html")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Community Calendar</p>
@@ -312,3 +323,134 @@ print(len(ALL), "guides written")
 </body>
 </html>
 ''')
+
+
+# ---------- Spanish (site/es/) ----------
+ES = SITE / "es"
+(ES / "guides").mkdir(parents=True, exist_ok=True)
+FOOT_ES = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barnone-phoenix.png" alt="" width="28" height="28">'
+           '<span>Un servicio de <strong>BarNone, Inc.</strong></span></a> Una organización independiente sin fines de lucro. CivicsID no es un sitio '
+           'de gobierno, no está afiliado a ninguna agencia de gobierno y no habla en nombre de ningún cargo público.</p>')
+
+
+def footer_es(up, first):
+    return f'''<footer><div class="wrap">
+  <p>{first}</p>
+  {FOOT_ES.format(up=up)}
+</div></footer>'''
+
+
+for slug, g in guides_es.G.items():
+    sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
+    (ES / "guides" / f"{slug}.html").write_text(f'''{head(g["title"] + " | CivicsID", "../../", g["lede"], lang="es")}
+<a class="skip" href="#guide">Ir a la guía</a>
+{top("../", "engage", lang="es", alt="../../guides/" + slug + ".html", reps_up="../../")}
+
+<main class="wrap narrow guide" id="guide">
+  <p class="eyebrow"><a href="../engage.html">Participa</a> · {g["cat"]}</p>
+  <h1>{html.escape(g["title"])}</h1>
+  <p class="lede">{html.escape(g["lede"])}</p>
+{g["body"].strip(chr(10))}
+
+  <h2>Fuentes</h2>
+  <ul class="sources-list">
+{sources}
+  </ul>
+  <p class="muted">Revisado en noviembre de 2026. Esta guía es información general, no asesoría legal. Las reglas cambian, así que revise las fuentes antes de depender de un plazo.</p>
+</main>
+
+{footer_es("../../", "Cada guía cita sus fuentes para que usted pueda verificarlas.")}
+</body>
+</html>
+'''.replace('href="../../styles.css"', 'href="../../styles.css"'))
+
+ES_LIST = [("speak-at-a-public-meeting", "Lo que la ley de Idaho le permite, lo que no, y cómo aprovechar dos minutos."),
+           ("open-meeting-law", "Avisos, agendas, sesiones a puerta cerrada, su derecho a grabar y qué hacer cuando no se cumple la ley."),
+           ("public-records-requests", "Cómo pedir correos, contratos e informes, cuánto cuesta, los plazos y qué hacer si le dicen que no."),
+           ("contact-your-representatives", "Cómo escoger la oficina correcta y escribir un mensaje que sí se lea.")]
+assert {k for k, _ in ES_LIST} == set(guides_es.G)
+rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]["title"])}<span>{html.escape(b)}</span></a></li>' for k, b in ES_LIST)
+(ES / "engage.html").write_text(f'''{head("Participa | CivicsID", "../", "Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar.", lang="es")}
+<a class="skip" href="#guides">Ir a las guías</a>
+{top("", "engage", lang="es", alt="../engage.html", reps_up="../")}
+
+<section class="hero plain"><div class="wrap">
+  <h1>Participa: cómo tomar parte en su gobierno local.</h1>
+  <p class="lede">Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar. Cada guía cita sus fuentes. Estamos traduciendo más guías; las demás están <a href="../engage.html">en inglés</a>.</p>
+</div></section>
+
+<main class="wrap" id="guides" style="padding-block: 32px 64px; display: flex; flex-direction: column; gap: 20px">
+  <h2>Su ciudad y su condado</h2>
+  <ul class="guide-links">
+{rows}
+  </ul>
+</main>
+
+{footer_es("../", "Las guías están escritas en lenguaje sencillo, citan sus fuentes y funcionan con lectores de pantalla.")}
+</body>
+</html>
+'''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
+
+(ES / "index.html").write_text(f'''{head("Participa en Idaho | CivicsID", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.", "Participa en Idaho: lo que su comunidad decide esta semana", lang="es")}
+<a class="skip" href="#events">Ir a las reuniones</a>
+{top("", "calendar", lang="es", alt="../index.html", reps_up="../")}
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow light">Calendario comunitario</p>
+  <h1>Entérese de lo que su comunidad decide esta semana.</h1>
+  <p class="lede">Concejos municipales, comisionados del condado, audiencias públicas y la Legislatura, de todo Idaho, en un solo calendario. Elija dónde vive y le mostraremos lo que hay cerca.</p>
+  <form class="search" id="search" onsubmit="return false">
+    <div class="field">
+      <label for="county">Condado</label>
+      <select id="county"><option value="">Todo Idaho</option></select>
+    </div>
+    <div class="field">
+      <label for="city">Ciudad</label>
+      <select id="city" disabled><option value="">Elija condado</option></select>
+    </div>
+  </form>
+  <p class="small"><span id="coverage"></span> No necesita cuenta, y su elección se guarda solo en su navegador.</p>
+</div></section>
+
+<div class="wrap layout">
+  <main class="main" id="events">
+    <div class="heading">
+      <h2 id="heading">Próximamente en todo Idaho</h2>
+      <span id="range"></span>
+    </div>
+    <p class="muted">Los nombres de las reuniones y las agendas vienen de cada entidad y están en inglés.</p>
+    <div class="find">
+      <label for="q">Buscar en reuniones y agendas (en inglés)</label>
+      <input id="q" type="search" placeholder="Pruebe zoning, library, budget, school" autocomplete="off">
+    </div>
+    <div class="chips" role="group" aria-label="Filtrar por tipo" id="chips"></div>
+    <div class="list" id="list" aria-live="polite"><p class="empty">Cargando reuniones…</p></div>
+    <button class="more" id="more" type="button" hidden>Mostrar dos semanas más</button>
+  </main>
+
+  <aside class="side">
+    <div class="card">
+      <h2>En su teléfono</h2>
+      <p id="subscribe-text">Suscríbase una vez y estas reuniones aparecerán en la aplicación de calendario que ya usa.</p>
+      <a class="link" id="subscribe" href="../data/ics/statewide.ics">Suscribirse a las reuniones de comités de la Legislatura</a>
+    </div>
+    <div class="card">
+      <h2>Dos zonas horarias</h2>
+      <p>Cada reunión aparece en su hora local: hora de la Montaña para casi todo Idaho, hora del Pacífico para el norte del estado.</p>
+    </div>
+    <div class="card warm">
+      <span class="eyebrow">Participa</span>
+      <h2>¿Primera vez en una reunión pública?</h2>
+      <p>Lo que la ley de Idaho le permite, qué decir en dos minutos y qué pasa después.</p>
+      <a class="link" href="guides/speak-at-a-public-meeting.html">Leer la guía</a>
+    </div>
+  </aside>
+</div>
+
+{footer_es("../", 'Las reuniones vienen directamente de los calendarios públicos de cada agencia y se actualizan cada noche. <span id="updated"></span> Los horarios cambian, así que confirme con la entidad antes de ir.')}
+
+<script src="../app.js"></script>
+</body>
+</html>
+'''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
+print("Spanish pages written:", len(guides_es.G) + 2)

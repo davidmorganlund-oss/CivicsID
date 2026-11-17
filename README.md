@@ -118,6 +118,10 @@ All 44 counties are connected. Hand-entered schedules come only from schedules t
 | Valley | Live feed | City of McCall (CivicPlus calendar); Valley County (meeting calendar) |  |
 | Washington | Live feed | Washington County (CivicPlus calendar) |  |
 
+## Spanish
+
+`site/es/` has the calendar and four guides in Spanish (speaking at a public meeting, the Open Meeting Law, public records requests, contacting your representatives). The calendar script reads `<html lang="es">` and switches its wording; meeting names and agendas stay in English because they come from the hosts. Spanish guides live in `tools/pages/guides_es.py` under the same slugs as the English ones, and every page links to its counterpart. Regenerate pages with `python3 tools/pages/gen.py`.
+
 ## Run it yourself
 
     pip install -r requirements.txt

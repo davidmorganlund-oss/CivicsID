@@ -304,7 +304,12 @@
   "Idaho Falls": {
    "county": "Bonneville",
    "site": "https://www.idahofallsidaho.gov/",
-   "meetings": "https://www.idahofallsidaho.gov/calendar.aspx"
+   "meetings": "https://www.idahofallsidaho.gov/calendar.aspx",
+   "mayor": {
+    "name": "Lisa Burtenshaw",
+    "source": "https://www.eastidahonews.com/?p=802717",
+    "checked": "2026-11-17"
+   }
   },
   "Ketchum": {
    "county": "Blaine",
@@ -335,7 +340,12 @@
   "Meridian": {
    "county": "Ada",
    "site": "https://meridiancity.org/",
-   "meetings": "https://meridianid.portal.civicclerk.com/"
+   "meetings": "https://meridianid.portal.civicclerk.com/",
+   "mayor": {
+    "name": "Robert Simison",
+    "source": "https://article.meridiancity.org/mayorsblog/2026-state-of-the-city/",
+    "checked": "2026-11-17"
+   }
   },
   "Moscow": {
    "county": "Latah",
@@ -360,7 +370,12 @@
   "Pocatello": {
    "county": "Bannock",
    "site": "https://www.pocatello.gov/",
-   "meetings": "https://www.pocatello.gov/calendar.aspx"
+   "meetings": "https://www.pocatello.gov/calendar.aspx",
+   "mayor": {
+    "name": "Mark Dahlquist",
+    "source": "https://www.eastidahonews.com/?p=802748",
+    "checked": "2026-11-17"
+   }
   },
   "Post Falls": {
    "county": "Kootenai",
@@ -397,7 +412,14 @@
   "Twin Falls": {
    "county": "Twin Falls",
    "site": "https://www.tfid.org/",
-   "meetings": "https://twinfallsid.portal.civicclerk.com/"
+   "meetings": "https://twinfallsid.portal.civicclerk.com/",
+   "mayor": {
+    "name": "Jason Brown",
+    "source": "https://www.kivitv.com/twin-falls/twin-falls-city-council-elects-jason-brown-as-new-mayor-in-first-meeting-of-2026",
+    "checked": "2026-11-17",
+    "note": "Twin Falls uses a council-manager government; the council chooses the mayor from among its members."
+   },
+   "council": "https://tfid.org/133/City-Council"
   }
  }
 }

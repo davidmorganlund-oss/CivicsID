@@ -213,3 +213,9 @@ h3 { font-family: var(--sans); }
 .more-officials summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .people .office { font-weight: 600; }
 .small-print { font-size: 14px; }
+
+/* Language switch: sits on the brand row, at the far end */
+.top .lang-switch { order: 2; margin-left: auto; font-size: 15px; font-weight: 600; color: var(--petrol); text-underline-offset: 3px; padding: 6px 4px; }
+.top nav { order: 3; }
+@media (min-width: 641px) { .top nav { order: 1; } .top .lang-switch { order: 2; } }
+@media (max-width: 640px) { .top nav { flex-basis: 100%; } }

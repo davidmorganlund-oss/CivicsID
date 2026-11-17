@@ -3,16 +3,77 @@
 (function () {
   'use strict';
 
+  // English and Spanish wording. Pages under /es/ set <html lang="es">.
+  // Meeting names and agendas come from the hosts, so they stay in English.
+  var LANG = document.documentElement.lang === 'es' ? 'es' : 'en';
+  var BASE = LANG === 'es' ? '../' : '';
+  var S = {
+    en: {
+      all: 'All', council: 'Councils and commissions', hearing: 'Public hearings', legislature: 'Idaho Legislature',
+      school: 'School boards', library: 'Library programs', other: 'Other', locale: 'en-US',
+      noTime: 'Time not listed', noTimeRegular: 'Time not posted', pacific: 'Pacific', mountain: 'Mountain',
+      cancelled: 'Cancelled', usually: 'Usually meets', onAgenda: 'On the agenda',
+      more: function (n) { return 'and ' + n + ' more ' + (n === 1 ? 'item' : 'items'); },
+      regularPosted: 'From the host’s regular schedule. The host has posted an agenda for this date.',
+      regularNote: 'From the host’s regular schedule, not a posted agenda. Check the host’s page before you go.',
+      details: 'Details from the host', agenda: 'Agenda', addCal: 'Add to my calendar', openLink: 'Open link',
+      matches: function (n, q) { return n + (n === 1 ? ' match' : ' matches') + ' for “' + q + '” in all upcoming meetings'; },
+      range: function (a, b, n) { return a + ' to ' + b + ' · ' + n + (n === 1 ? ' event' : ' events'); },
+      heading: function (city, county) { return 'Coming up ' + (city ? 'in and around ' + city : county ? 'in ' + county + ' County' : 'across Idaho'); },
+      subCounty: function (c) { return 'Subscribe to ' + c + ' County meetings'; },
+      subLeg: 'Subscribe to Idaho Legislature committee meetings',
+      subCountyText: function (c) { return 'Subscribe once and ' + c + ' County meetings show up in the calendar app you already use.'; },
+      subLegText: 'Pick your county above to subscribe to its meetings. Or follow the Legislature’s committee meetings in your own calendar app.',
+      noneType: 'Nothing of this type is listed for these dates. Try another filter or show more weeks.',
+      noneLoaded: 'No events are loaded yet. The calendar fills in after its first nightly run.',
+      noneSearch: function (q) { return 'No upcoming meetings mention “' + q + '” here. Agendas post a few days ahead, so check back, or try a broader word or all of Idaho.'; },
+      allIdaho: 'All of Idaho', county: function (c) { return c + ' County'; }, linksOnly: ' (links only)',
+      coverage: function (n) { return 'Meetings from ' + n + ' of Idaho’s 44 counties so far, and links for the rest.'; },
+      cantRead: function (c) { return 'We can’t read ' + c + ' County’s meeting calendar yet'; },
+      cantReadText: 'The county posts its commissioners’ meetings and agendas on its own website. Until we can add them here, that’s the place to check. Idaho law requires an agenda to be posted at least 48 hours before a regular meeting.',
+      countyMeetings: function (c) { return c + ' County meetings and agendas'; },
+      anywhere: function (c) { return 'Anywhere in ' + c + ' County'; }, pickCounty: 'Pick a county',
+      refreshed: 'Last refreshed ', loadFail: 'The calendar could not be loaded. Please try again later.'
+    },
+    es: {
+      all: 'Todo', council: 'Concejos y comisiones', hearing: 'Audiencias públicas', legislature: 'Legislatura de Idaho',
+      school: 'Juntas escolares', library: 'Bibliotecas', other: 'Otros', locale: 'es-US',
+      noTime: 'Hora no indicada', noTimeRegular: 'Hora no publicada', pacific: 'Pacífico', mountain: 'Montaña',
+      cancelled: 'Cancelada', usually: 'Reunión habitual', onAgenda: 'En la agenda',
+      more: function (n) { return 'y ' + n + (n === 1 ? ' punto más' : ' puntos más'); },
+      regularPosted: 'Según el calendario habitual de la entidad. La entidad ya publicó una agenda para esta fecha.',
+      regularNote: 'Según el calendario habitual de la entidad, no una agenda publicada. Confirme en la página de la entidad antes de ir.',
+      details: 'Detalles de la entidad', agenda: 'Agenda (en inglés)', addCal: 'Agregar a mi calendario', openLink: 'Abrir enlace',
+      matches: function (n, q) { return n + (n === 1 ? ' resultado' : ' resultados') + ' para “' + q + '” en todas las reuniones próximas'; },
+      range: function (a, b, n) { return 'Del ' + a + ' al ' + b + ' · ' + n + (n === 1 ? ' reunión' : ' reuniones'); },
+      heading: function (city, county) { return 'Próximamente ' + (city ? 'en ' + city + ' y sus alrededores' : county ? 'en el condado de ' + county : 'en todo Idaho'); },
+      subCounty: function (c) { return 'Suscribirse a las reuniones del condado de ' + c; },
+      subLeg: 'Suscribirse a las reuniones de comités de la Legislatura',
+      subCountyText: function (c) { return 'Suscríbase una vez y las reuniones del condado de ' + c + ' aparecerán en la aplicación de calendario que ya usa.'; },
+      subLegText: 'Elija su condado arriba para suscribirse a sus reuniones, o siga las reuniones de comités de la Legislatura en su propio calendario.',
+      noneType: 'No hay reuniones de este tipo en estas fechas. Pruebe otro filtro o muestre más semanas.',
+      noneLoaded: 'Todavía no hay reuniones cargadas. El calendario se llena después de su primera actualización nocturna.',
+      noneSearch: function (q) { return 'Ninguna reunión próxima menciona “' + q + '” aquí. Las agendas se publican unos días antes, así que vuelva a revisar, o pruebe una palabra más general o todo Idaho. Las agendas están en inglés.'; },
+      allIdaho: 'Todo Idaho', county: function (c) { return 'Condado de ' + c; }, linksOnly: ' (solo enlaces)',
+      coverage: function (n) { return 'Reuniones de ' + n + ' de los 44 condados de Idaho, y enlaces para los demás.'; },
+      cantRead: function (c) { return 'Todavía no podemos leer el calendario del condado de ' + c; },
+      cantReadText: 'El condado publica las reuniones y agendas de sus comisionados en su propio sitio web. Hasta que podamos agregarlas aquí, revise allí. La ley de Idaho exige publicar la agenda al menos 48 horas antes de una reunión ordinaria.',
+      countyMeetings: function (c) { return 'Reuniones y agendas del condado de ' + c; },
+      anywhere: function (c) { return 'Cualquier lugar del condado de ' + c; }, pickCounty: 'Elija condado',
+      refreshed: 'Última actualización: ', loadFail: 'No se pudo cargar el calendario. Inténtelo de nuevo más tarde.'
+    }
+  }[LANG];
+
   var CATEGORIES = [
-    { id: 'all', label: 'All' },
-    { id: 'council', label: 'Councils and commissions' },
-    { id: 'hearing', label: 'Public hearings' },
-    { id: 'legislature', label: 'Idaho Legislature' },
-    { id: 'school', label: 'School boards' },
-    { id: 'library', label: 'Library programs' },
-    { id: 'other', label: 'Other' }
+    { id: 'all', label: S.all },
+    { id: 'council', label: S.council },
+    { id: 'hearing', label: S.hearing },
+    { id: 'legislature', label: S.legislature },
+    { id: 'school', label: S.school },
+    { id: 'library', label: S.library },
+    { id: 'other', label: S.other }
   ];
-  var LABELS = { legislature: 'Idaho Legislature', council: 'Councils and commissions', hearing: 'Public hearings', school: 'School boards', library: 'Library programs', other: 'Other' };
+  var LABELS = { legislature: S.legislature, council: S.council, hearing: S.hearing, school: S.school, library: S.library, other: S.other };
 
   // The visitor's county and city, shared with the Engage guides' "Near you"
   // boxes and the representatives lookup. Kept in this browser only.
@@ -45,7 +106,7 @@
     return h + (p.mi ? ':' + String(p.mi).padStart(2, '0') : '') + (p.h < 12 ? ' AM' : ' PM');
   }
   function dayLabel(p) {
-    return new Date(p.y, p.mo - 1, p.d).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    return new Date(p.y, p.mo - 1, p.d).toLocaleDateString(S.locale, { weekday: 'long', month: 'long', day: 'numeric' });
   }
   function todayKey() {
     var s = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Boise' });
@@ -114,7 +175,7 @@
         var url = part.replace(/[.,;:)\]]+$/, '');
         var host = '';
         try { host = new URL(url).hostname.replace(/^www\./, ''); } catch (err) { return; }
-        var a = el('a', null, 'Open link (' + host + ')');
+        var a = el('a', null, S.openLink + ' (' + host + ')');
         a.href = url;
         a.rel = 'noopener';
         p.appendChild(a);
@@ -135,30 +196,29 @@
   function card(e) {
     var p = parts(e.start);
     var art = el('article', 'event' + (e.cancelled ? ' is-cancelled' : '') + (e.regular ? ' is-regular' : ''));
-    var when = el('div', 'when', e.all_day ? (e.regular ? 'Time not posted' : 'Time not listed') : clock(p));
-    if (!e.all_day) when.appendChild(el('small', null, e.tz === 'PT' ? 'Pacific' : 'Mountain'));
+    var when = el('div', 'when', e.all_day ? (e.regular ? S.noTimeRegular : S.noTime) : clock(p));
+    if (!e.all_day) when.appendChild(el('small', null, e.tz === 'PT' ? S.pacific : S.mountain));
     art.appendChild(when);
 
     var what = el('div', 'what');
     var tags = el('div', 'tags');
-    tags.appendChild(el('span', 'tag' + (e.cancelled ? ' cancelled' : ''), e.cancelled ? 'Cancelled' : (LABELS[e.category] || 'Other')));
-    if (e.regular && !e.cancelled) tags.appendChild(el('span', 'tag regular', 'Usually meets'));
+    tags.appendChild(el('span', 'tag' + (e.cancelled ? ' cancelled' : ''), e.cancelled ? S.cancelled : (LABELS[e.category] || S.other)));
+    if (e.regular && !e.cancelled) tags.appendChild(el('span', 'tag regular', S.usually));
     what.appendChild(tags);
     what.appendChild(el('h3', null, e.title));
     what.appendChild(el('p', 'meta', e.host + (e.location ? ' · ' + e.location : '')));
     if (e.highlights && e.highlights.length) {
       var box = el('div', 'agenda');
-      box.appendChild(el('p', 'agenda-label', 'On the agenda'));
+      box.appendChild(el('p', 'agenda-label', S.onAgenda));
       var ul = el('ul');
       e.highlights.forEach(function (h) { ul.appendChild(el('li', null, h)); });
-      if (e.highlights_more) ul.appendChild(el('li', 'more-items', 'and ' + e.highlights_more + ' more ' + (e.highlights_more === 1 ? 'item' : 'items')));
+      if (e.highlights_more) ul.appendChild(el('li', 'more-items', S.more(e.highlights_more)));
       box.appendChild(ul);
       what.appendChild(box);
     }
     if (e.regular) {
       what.appendChild(el('p', 'note regular-note', safeUrl(e.agenda_url)
-        ? 'From the host’s regular schedule. The host has posted an agenda for this date.'
-        : 'From the host’s regular schedule, not a posted agenda. Check the host’s page before you go.'));
+        ? S.regularPosted : S.regularNote));
       var extra = (e.note || '').replace(REGULAR_NOTE, '');
       if (extra) what.appendChild(noteNode(extra));
     } else if (e.note) what.appendChild(noteNode(e.note));
@@ -172,9 +232,9 @@
       if (download) a.download = download; else a.rel = 'noopener';
       actions.appendChild(a);
     };
-    if (safeUrl(e.url)) link(safeUrl(e.url), 'Details from the host');
-    if (safeUrl(e.agenda_url)) link(safeUrl(e.agenda_url), 'Agenda');
-    if (!e.cancelled) link(icsLink(e), 'Add to my calendar', 'civicsid-event.ics');
+    if (safeUrl(e.url)) link(safeUrl(e.url), S.details);
+    if (safeUrl(e.agenda_url)) link(safeUrl(e.agenda_url), S.agenda);
+    if (!e.cancelled) link(icsLink(e), S.addCal, 'civicsid-event.ics');
     art.appendChild(actions);
     return art;
   }
@@ -192,28 +252,26 @@
       return a.start < b.start ? -1 : a.start > b.start ? 1 : 0;
     });
     var from = todayKey(), to = addDays(from, state.days);
-    var fmt = function (k) { return new Date(k + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
+    var fmt = function (k) { return new Date(k + 'T12:00:00').toLocaleDateString(S.locale, { month: 'short', day: 'numeric' }); };
     $('range').textContent = state.q
-      ? rows.length + (rows.length === 1 ? ' match' : ' matches') + ' for “' + state.q + '” in all upcoming meetings'
-      : fmt(from) + ' to ' + fmt(to) + ' · ' + rows.length + (rows.length === 1 ? ' event' : ' events');
-    $('heading').textContent = 'Coming up ' + (state.city ? 'in and around ' + state.city : state.county ? 'in ' + state.county + ' County' : 'across Idaho');
+      ? S.matches(rows.length, state.q)
+      : S.range(fmt(from), fmt(to), rows.length);
+    $('heading').textContent = S.heading(state.city, state.county);
     // One county is the useful subscription. With no county picked, offer the
     // Legislature, which matters to everyone.
     var sub = $('subscribe'), connected = state.county && (!state.connected || state.connected[state.county]);
-    sub.href = 'data/ics/' + (connected ? slug(state.county) : 'statewide') + '.ics';
-    sub.textContent = connected ? 'Subscribe to ' + state.county + ' County meetings' : 'Subscribe to Idaho Legislature committee meetings';
+    sub.href = BASE + 'data/ics/' + (connected ? slug(state.county) : 'statewide') + '.ics';
+    sub.textContent = connected ? S.subCounty(state.county) : S.subLeg;
     $('subscribe-text').textContent = connected
-      ? 'Subscribe once and ' + state.county + ' County meetings show up in the calendar app you already use.'
-      : 'Pick your county above to subscribe to its meetings. Or follow the Legislature’s committee meetings in your own calendar app.';
+      ? S.subCountyText(state.county) : S.subLegText;
     renderStatus();
 
     if (state.county && state.connected && !state.connected[state.county]) {
       list.appendChild(notConnected());
     } else if (!rows.length) {
       list.appendChild(el('p', 'empty', state.events.length
-        ? 'Nothing of this type is listed for these dates. Try another filter or show more weeks.'
-        : 'No events are loaded yet. The calendar fills in after its first nightly run.'));
-      if (state.q && state.events.length) list.lastChild.textContent = 'No upcoming meetings mention “' + state.q + '” here. Agendas post a few days ahead, so check back, or try a broader word or all of Idaho.';
+        ? S.noneType : S.noneLoaded));
+      if (state.q && state.events.length) list.lastChild.textContent = S.noneSearch(state.q);
     }
     var lastDay = '';
     rows.forEach(function (e) {
@@ -267,25 +325,25 @@
     if (!all.length) all = Object.keys(counties);
     var sel = $('county');
     sel.textContent = '';
-    sel.appendChild(new Option('All of Idaho', ''));
+    sel.appendChild(new Option(S.allIdaho, ''));
     all.sort().forEach(function (c) {
-      sel.appendChild(new Option(c + ' County' + (counties[c] ? '' : ' (links only)'), c, false, c === state.county));
+      sel.appendChild(new Option(S.county(c) + (counties[c] ? '' : S.linksOnly), c, false, c === state.county));
     });
     if (all.indexOf(state.county) === -1) state.county = '';
     sel.value = state.county;
     state.connected = counties;
-    $('coverage').textContent = 'Meetings from ' + Object.keys(counties).length + ' of Idaho’s 44 counties so far, and links for the rest.';
+    $('coverage').textContent = S.coverage(Object.keys(counties).length);
   }
 
   // For a county whose calendar we can't read yet, point to its own page.
   function notConnected() {
     var c = state.county, info = (state.local.counties || {})[c] || {};
     var box = el('div', 'card notice-card');
-    box.appendChild(el('h3', null, 'We can’t read ' + c + ' County’s meeting calendar yet'));
-    box.appendChild(el('p', null, 'The county posts its commissioners’ meetings and agendas on its own website. Until we can add them here, that’s the place to check. Idaho law requires an agenda to be posted at least 48 hours before a regular meeting.'));
+    box.appendChild(el('h3', null, S.cantRead(c)));
+    box.appendChild(el('p', null, S.cantReadText));
     var href = safeUrl(info.meetings || info.site);
     if (href) {
-      var a = el('a', 'link', c + ' County meetings and agendas');
+      var a = el('a', 'link', S.countyMeetings(c));
       a.href = href; a.rel = 'noopener';
       box.appendChild(a);
     }
@@ -296,7 +354,7 @@
     state.events.forEach(function (e) { if (e.county === state.county && e.area !== 'countywide') cities[e.area] = true; });
     var sel = $('city');
     sel.textContent = '';
-    sel.appendChild(new Option(state.county ? 'Anywhere in ' + state.county + ' County' : 'Pick a county', ''));
+    sel.appendChild(new Option(state.county ? S.anywhere(state.county) : S.pickCounty, ''));
     Object.keys(cities).sort().forEach(function (c) { sel.appendChild(new Option(c, c, false, c === state.city)); });
     if (!cities[state.city]) state.city = '';
     sel.value = state.city;
@@ -307,7 +365,7 @@
     var status = state.status;
     if (!status) return;
     var when = new Date(status.generated);
-    if (!isNaN(when)) $('updated').textContent = 'Last refreshed ' + when.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Boise' }) + '.';
+    if (!isNaN(when)) $('updated').textContent = S.refreshed + when.toLocaleDateString(S.locale, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Boise' }) + '.';
   }
 
   var place = loadPlace();
@@ -319,9 +377,9 @@
   state.city = place.city || '';
   setup();
   Promise.all([
-    fetch('data/events.json').then(function (r) { return r.json(); }),
-    fetch('data/status.json').then(function (r) { return r.json(); }).catch(function () { return { sources: [] }; }),
-    fetch('data/local.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
+    fetch(BASE + 'data/events.json').then(function (r) { return r.json(); }),
+    fetch(BASE + 'data/status.json').then(function (r) { return r.json(); }).catch(function () { return { sources: [] }; }),
+    fetch(BASE + 'data/local.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
   ]).then(function (res) {
     state.local = res[2] || {};
     state.events = res[0].events || [];
@@ -332,6 +390,6 @@
     render();
   }).catch(function () {
     $('list').textContent = '';
-    $('list').appendChild(el('p', 'empty', 'The calendar could not be loaded. Please try again later.'));
+    $('list').appendChild(el('p', 'empty', S.loadFail));
   });
 })();
