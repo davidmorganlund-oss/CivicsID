@@ -21,7 +21,7 @@
   function savePlace(p) { try { localStorage.setItem(KEY, JSON.stringify(p)); } catch (e) { /* private mode */ } }
   function slug(c) { return c.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, ''); }
 
-  var state = { events: [], sources: [], local: {}, connected: null, cat: 'all', county: '', city: '', days: 14 };
+  var state = { events: [], sources: [], local: {}, connected: null, cat: 'all', county: '', city: '', days: 14, q: '' };
   var $ = function (id) { return document.getElementById(id); };
 
   function el(tag, cls, text) {
@@ -57,11 +57,20 @@
     return d.toISOString().slice(0, 10);
   }
 
+  // Search looks at everything we have (about two months), not just the
+  // weeks shown, and matches every word typed.
+  function matches(e, words) {
+    var hay = [e.title, e.host, e.location, (e.highlights || []).join(' '), LABELS[e.category]].join(' ').toLowerCase();
+    return words.every(function (w) { return hay.indexOf(w) !== -1; });
+  }
+
   function visible() {
-    var from = todayKey(), to = addDays(from, state.days);
+    var from = todayKey(), to = state.q ? '9999-12-31' : addDays(from, state.days);
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
     return state.events.filter(function (e) {
       var key = e.start.slice(0, 10);
       if (key < from || key > to) return false;
+      if (words.length && !matches(e, words)) return false;
       if (state.cat !== 'all' && e.category !== state.cat) return false;
       // Legislature meetings belong to everyone: they show statewide, and in a
       // county view when the "Idaho Legislature" filter is on.
@@ -95,6 +104,10 @@
   function noteNode(note) {
     var p = el('p', 'note');
     var budget = 220;
+    // Dial-in boilerplate ("Join by telephone: Dial ... +1 253 205 0468 or ...")
+    // crowds out anything useful; the host's page has the call-in details.
+    note = note.replace(/(join by (tele)?phone|dial)[^.]*?(\+?1?[ (]*\d{3}[ )-]*\d{3}[ -]?\d{4}[\s,or]*)+(\.\.\.|…)?/gi, '').replace(/^[.\s]+/, '').trim();
+    if (!note) return p;
     note.split(/(https?:\/\/[^\s<>"']+)/).forEach(function (part) {
       if (!part) return;
       if (/^https?:\/\//.test(part)) {
@@ -180,7 +193,9 @@
     });
     var from = todayKey(), to = addDays(from, state.days);
     var fmt = function (k) { return new Date(k + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
-    $('range').textContent = fmt(from) + ' to ' + fmt(to) + ' · ' + rows.length + (rows.length === 1 ? ' event' : ' events');
+    $('range').textContent = state.q
+      ? rows.length + (rows.length === 1 ? ' match' : ' matches') + ' for “' + state.q + '” in all upcoming meetings'
+      : fmt(from) + ' to ' + fmt(to) + ' · ' + rows.length + (rows.length === 1 ? ' event' : ' events');
     $('heading').textContent = 'Coming up ' + (state.city ? 'in and around ' + state.city : state.county ? 'in ' + state.county + ' County' : 'across Idaho');
     // One county is the useful subscription. With no county picked, offer the
     // Legislature, which matters to everyone.
@@ -198,6 +213,7 @@
       list.appendChild(el('p', 'empty', state.events.length
         ? 'Nothing of this type is listed for these dates. Try another filter or show more weeks.'
         : 'No events are loaded yet. The calendar fills in after its first nightly run.'));
+      if (state.q && state.events.length) list.lastChild.textContent = 'No upcoming meetings mention “' + state.q + '” here. Agendas post a few days ahead, so check back, or try a broader word or all of Idaho.';
     }
     var lastDay = '';
     rows.forEach(function (e) {
@@ -207,7 +223,7 @@
     });
 
     var lastKey = state.events.length ? state.events[state.events.length - 1].start.slice(0, 10) : from;
-    $('more').hidden = to >= lastKey;
+    $('more').hidden = !!state.q || to >= lastKey;
     Array.prototype.forEach.call($('chips').children, function (b) {
       b.setAttribute('aria-pressed', String(b.dataset.cat === state.cat));
     });
@@ -222,6 +238,16 @@
       $('chips').appendChild(b);
     });
     $('more').addEventListener('click', function () { state.days += 14; render(); });
+    var timer;
+    $('q').value = state.q;
+    $('q').addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        state.q = $('q').value.trim();
+        try { history.replaceState(null, '', state.q ? '?q=' + encodeURIComponent(state.q) : location.pathname); } catch (e) {}
+        render();
+      }, 200);
+    });
     $('county').addEventListener('change', function () {
       state.county = $('county').value; state.city = '';
       savePlace({ county: state.county }); fillCities(); render();
@@ -287,6 +313,8 @@
   var place = loadPlace();
   var wanted = (location.search.match(/[?&]cat=([a-z]+)/) || [])[1];
   if (wanted && CATEGORIES.some(function (c) { return c.id === wanted; })) state.cat = wanted;
+  var asked = (location.search.match(/[?&]q=([^&]*)/) || [])[1];
+  if (asked) { try { state.q = decodeURIComponent(asked.replace(/\+/g, ' ')).slice(0, 80); } catch (e) {} }
   state.county = place.county || '';
   state.city = place.city || '';
   setup();

@@ -331,6 +331,7 @@ def normalize_ics(src, ics_text, start_day, end_day, tz):
             url=htmllib.unescape(str(comp.get("URL", ""))) or src.get("homepage", ""),
             uid=str(comp.get("UID", "")),
         ))
+        events[-1]["_uid"] = str(comp.get("UID", ""))
     return events
 
 
@@ -1455,6 +1456,63 @@ def fetch_notice_page(src, start_day, end_day, tz):
             if start_day.isoformat() <= e["start"][:10] <= end_day.isoformat()]
 
 
+
+# --- Idaho Legislature: the calendar feed, plus agenda links and bills ---
+# The feed has times and names only. The calendar page itself carries each
+# meeting's agenda PDF and committee page; during session, the agenda lists
+# the bills a committee will hear.
+
+LEG_ARTICLE = re.compile(r"<article id='mc_calendar_\d+_(\d+)-calendar.*?</article>", re.S)
+LEG_BILL = re.compile(r"^\s*((?:H|S|HCR|SCR|HJM|SJM|HJR|SJR|HR|SR|RS)\s?\d{1,5}[A-Z]?(?:aa+)?)\s+(.{6,160}?)\s*$", re.M)
+
+
+def legislature_links(page):
+    import html as htmllib
+    out = {}
+    for m in LEG_ARTICLE.finditer(page):
+        block = m.group(0)
+        agenda = re.search(r'href="([^"]+\.pdf)"[^>]*>\s*Agenda', block)
+        info = re.search(r'href="([^"]+)"[^>]*>\s*Committee Information', block)
+        out[m.group(1)] = (htmllib.unescape(agenda.group(1)) if agenda else "", htmllib.unescape(info.group(1)) if info else "")
+    return out
+
+
+def legislature_bills(text):
+    """Bill lines from a committee agenda: 'H 12  Relating to ...' -> 'H 12: Relating to ...'."""
+    out = []
+    for num, desc in LEG_BILL.findall(text):
+        item = f"{' '.join(num.split())}: {' '.join(desc.split())}"
+        if item not in out:
+            out.append(item)
+    return out
+
+
+def fetch_legislature(src, start_day, end_day, tz):
+    import io
+    events = normalize_ics(src, get(src["url"]).content, start_day, end_day, tz)
+    links = {}
+    months = sorted({(d.year, d.month) for d in (start_day, start_day + timedelta(days=31), end_day)})
+    for y, mo in months:
+        try:
+            links.update(legislature_links(get(f"{src['calendar']}?yr={y}&month={mo}").text))
+        except Exception as exc:
+            print(f"[info] {src['id']}: calendar page {y}-{mo} not read: {exc}", file=sys.stderr)
+    for e in events:
+        agenda, info = links.get(e.pop("_uid", "").split("-")[0], ("", ""))
+        if info:
+            e["url"] = info
+        if agenda:
+            e["agenda_url"] = agenda
+            if soon(e, start_day):
+                try:
+                    import pypdf
+                    text = "\n".join(pg.extract_text() or "" for pg in pypdf.PdfReader(io.BytesIO(get(agenda).content)).pages)
+                    add_highlights(e, legislature_bills(text))
+                except Exception as exc:
+                    print(f"[info] {src['id']}: agenda not read: {exc}", file=sys.stderr)
+    return events
+
+
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
               "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
@@ -1466,7 +1524,7 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
               "drupal_meetings": fetch_drupal_meetings, "pdf_agendas": fetch_pdf_agendas,
               "next_meeting": fetch_next_meeting, "ada_agendas": fetch_ada_agendas,
               "escribe": fetch_escribe, "simbli": fetch_simbli,
-              "notice_page": fetch_notice_page}
+              "notice_page": fetch_notice_page, "legislature": fetch_legislature}
 
 
 # ---------- outputs ----------

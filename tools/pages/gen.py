@@ -186,6 +186,10 @@ assert listed == set(ALL), (listed ^ set(ALL))
       <span id="range"></span>
     </div>
     <p class="muted" id="place-msg" role="status" hidden></p>
+    <div class="find">
+      <label for="q">Search meetings and agendas</label>
+      <input id="q" type="search" placeholder="Try zoning, library, budget, schools" autocomplete="off">
+    </div>
     <div class="chips" role="group" aria-label="Filter by type" id="chips"></div>
     <div class="list" id="list" aria-live="polite"><p class="empty">Loading events…</p></div>
     <button class="more" id="more" type="button" hidden>Show two more weeks</button>
@@ -200,6 +204,11 @@ assert listed == set(ALL), (listed ^ set(ALL))
     <div class="card">
       <h2>Two time zones</h2>
       <p>Each meeting is listed in its own local time: Mountain for most of Idaho, Pacific for the Panhandle and the north-central counties.</p>
+    </div>
+    <div class="card">
+      <h2>The Legislature, day by day</h2>
+      <p>Committee hearings with their agendas and bills, and how to sign up to testify. Session opens January 11.</p>
+      <a class="link" href="legislature.html">See this week at the Statehouse</a>
     </div>
     <div class="card warm">
       <span class="eyebrow">Engage</span>
@@ -250,3 +259,56 @@ assert listed == set(ALL), (listed ^ set(ALL))
 </html>
 ''')
 print(len(ALL), "guides written")
+
+(SITE / "legislature.html").write_text(f'''{head("The Idaho Legislature, day by day | CivicsID", "", "Every Idaho Legislature committee meeting coming up, with agendas, the bills on them, and how to testify in person or remotely.", "The Idaho Legislature, day by day")}
+<a class="skip" href="#hearings">Skip to hearings</a>
+{top("", "calendar")}
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow light">Idaho Legislature</p>
+  <h1>What the Legislature is hearing, day by day.</h1>
+  <p class="lede">Every committee meeting on the Legislature's calendar, with its agenda and the bills it will take up. Most committees take public testimony, in person at the Capitol or remotely.</p>
+  <p class="small" id="session-note">The 2027 session opens Monday, January 11. Until then, these are interim committees, which study issues between sessions.</p>
+</div></section>
+
+<div class="wrap layout">
+  <main class="main" id="hearings">
+    <div class="heading">
+      <h2 id="leg-heading">Coming up at the Legislature</h2>
+      <span id="leg-range"></span>
+    </div>
+    <div class="list" id="leg-list" aria-live="polite"><p class="empty">Loading hearings…</p></div>
+  </main>
+
+  <aside class="side">
+    <div class="card">
+      <h2>How to testify</h2>
+      <ol class="tight">
+        <li>Find the bill on a committee's agenda below. Agendas usually post a few days ahead.</li>
+        <li>Open the committee's page and use its <strong>Testimony Registration</strong> link to sign up to speak in person or remotely, or to submit written testimony.</li>
+        <li>Keep it short: who you are, where you live, and how the bill would affect you. Committees often limit each person to a few minutes.</li>
+      </ol>
+      <a class="link" href="https://legislature.idaho.gov/resources/committeetestimony/" rel="noopener">The Legislature's testimony guide</a>
+    </div>
+    <div class="card">
+      <h2>Other ways to weigh in</h2>
+      <p>Email or call your own legislators, especially before a committee vote or a floor vote.</p>
+      <a class="link" href="reps.html">Find your legislators</a>
+      <p style="margin-top: 12px">Committee meetings and floor sessions stream live, and recordings are kept.</p>
+      <a class="link" href="https://legislature.idaho.gov/calendar/#collapse6" rel="noopener">Watch live</a>
+    </div>
+    <div class="card warm">
+      <span class="eyebrow">Engage</span>
+      <h2>New to the Legislature?</h2>
+      <p>Who's in it, how a bill moves, and the four ways to make your voice heard.</p>
+      <a class="link" href="guides/weigh-in-on-a-state-bill.html">Read the guide</a>
+    </div>
+  </aside>
+</div>
+
+{footer("", "Committee meetings, agendas and bill lists come from the Idaho Legislature's own calendar and agendas, refreshed nightly. Agendas can change; check the committee's page before you go.")}
+
+<script src="legislature.js"></script>
+</body>
+</html>
+''')

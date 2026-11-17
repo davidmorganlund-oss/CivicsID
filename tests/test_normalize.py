@@ -536,3 +536,11 @@ def test_notice_page():
     a, b = build.normalize_notice_page(src, page.replace("'", '"'), ZoneInfo("America/Boise"))
     assert b["title"] == "Board of Trustees: Regular Board Meeting" and b["start"] == "2026-11-09T18:00:00-07:00"
     assert b["agenda_url"] == "https://www.boiseschools.org/a2.pdf" and b["location"].startswith("District Service Center")
+
+
+def test_legislature_links_and_bills():
+    page = ("<article id='mc_calendar_18_2676-calendar-2676' class='x'><p><a href=\"https://legislature.idaho.gov/wp-content/uploads/a.pdf\" target=\"_blank\">Agenda "
+            "<span>(PDF)</span></a><br /><a href=\"https://legislature.idaho.gov/sessioninfo/2026/joint/jloc\">Committee Information</a></p></article>")
+    assert build.legislature_links(page) == {"2676": ("https://legislature.idaho.gov/wp-content/uploads/a.pdf", "https://legislature.idaho.gov/sessioninfo/2026/joint/jloc")}
+    text = "AGENDA\nH 12   Relating to sales tax on groceries   Rep. Smith\nS 1045aa   Relating to school facilities\nMINUTES"
+    assert build.legislature_bills(text) == ["H 12: Relating to sales tax on groceries   Rep. Smith".replace("   ", " "), "S 1045aa: Relating to school facilities"]

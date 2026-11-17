@@ -200,3 +200,10 @@ h3 { font-family: var(--sans); }
   .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
   .chips .chip { flex: none; }
 }
+.card ol.tight { margin: 0 0 12px; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
+
+/* Calendar search */
+.find { display: flex; flex-direction: column; gap: 6px; margin: 4px 0 14px; max-width: 520px; }
+.find label { font-size: 14px; font-weight: 600; }
+.find input { height: 46px; padding: 0 14px; border: 2px solid var(--chip-line); border-radius: 10px; font: inherit; font-size: 16px; background: var(--card); color: var(--ink); }
+.find input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

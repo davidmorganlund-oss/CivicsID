@@ -14,8 +14,9 @@ sources:
   # (standing committees in session, interim committees the rest of the year).
   - id: legislature
     name: Idaho Legislature
-    type: ics
+    type: legislature
     url: https://legislature.idaho.gov/feeds/my-calendar-ics/
+    calendar: https://legislature.idaho.gov/calendar/
     county: Statewide
     area: statewide
     force_category: legislature
