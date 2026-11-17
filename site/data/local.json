@@ -197,27 +197,56 @@
   "Ammon": {
    "county": "Bonneville",
    "site": "https://cityofammon.us/",
-   "meetings": "https://cityofammon.us/government/meetings/"
+   "meetings": "https://cityofammon.us/government/meetings/",
+   "mayor": {
+    "name": "Brian Powell",
+    "source": "https://cityofammon.us/government/mayor/",
+    "checked": "2026-11-17"
+   },
+   "council": "https://cityofammon.us/government/city-council/"
   },
   "Boise": {
    "county": "Ada",
    "site": "https://www.cityofboise.org/",
-   "meetings": "https://pub-cityofboise.escribemeetings.com/"
+   "meetings": "https://pub-cityofboise.escribemeetings.com/",
+   "mayor": {
+    "name": "Lauren McLean",
+    "source": "https://www.cityofboise.org/departments/mayor/",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityofboise.org/departments/city-council/"
   },
   "Caldwell": {
    "county": "Canyon",
    "site": "https://www.cityofcaldwell.org/",
-   "meetings": "https://caldwellid.portal.civicclerk.com/"
+   "meetings": "https://caldwellid.portal.civicclerk.com/",
+   "mayor": {
+    "name": "Eric Phillips",
+    "source": "https://www.cityofcaldwell.org/Government/Mayor/About-the-Mayor",
+    "checked": "2026-11-17"
+   }
   },
   "Chubbuck": {
    "county": "Bannock",
    "site": "https://cityofchubbuck.us/",
-   "meetings": "https://cityofchubbuck.us/events/"
+   "meetings": "https://cityofchubbuck.us/events/",
+   "mayor": {
+    "name": "Rodney Burch",
+    "source": "https://cityofchubbuck.us/mayors-office/",
+    "checked": "2026-11-17"
+   },
+   "council": "https://cityofchubbuck.us/city-council/"
   },
   "Coeur d'Alene": {
    "county": "Kootenai",
    "site": "https://www.cdaid.org/",
-   "meetings": "https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/"
+   "meetings": "https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/",
+   "mayor": {
+    "name": "Dan Gookin",
+    "source": "https://www.cdaid.org/government/mayor-and-council/",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cdaid.org/government/mayor-and-council/council-members/"
   },
   "Dalton Gardens": {
    "county": "Kootenai",
@@ -226,17 +255,35 @@
   },
   "Eagle": {
    "county": "Ada",
-   "site": "https://www.cityofeagle.org/"
+   "site": "https://www.cityofeagle.org/",
+   "mayor": {
+    "name": "Brad Pike",
+    "source": "https://www.cityofeagle.org/2075/Mayors-Office",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityofeagle.org/312/City-Council"
   },
   "Emmett": {
    "county": "Gem",
    "site": "https://www.cityofemmett.org/",
-   "meetings": "https://www.cityofemmett.org/meeting"
+   "meetings": "https://www.cityofemmett.org/meeting",
+   "mayor": {
+    "name": "Gordon Petrie",
+    "source": "https://www.cityofemmett.org/mayor-city-council",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityofemmett.org/mayor-city-council"
   },
   "Garden City": {
    "county": "Ada",
    "site": "https://gardencityidaho.org/",
-   "meetings": "https://gardencityidaho.org/agendas-minutes/"
+   "meetings": "https://gardencityidaho.org/agendas-minutes/",
+   "mayor": {
+    "name": "Bill Jacobs",
+    "source": "https://gardencityidaho.org/elected-officials",
+    "checked": "2026-11-17"
+   },
+   "council": "https://gardencityidaho.org/elected-officials"
   },
   "Hailey": {
    "county": "Blaine",
@@ -247,7 +294,12 @@
    "county": "Kootenai",
    "site": "https://www.haydenid.gov/",
    "meetings": "https://meetings.boardbook.org/Public/Organization/2366",
-   "boards": "https://www.haydenid.gov/boards___commissions/index.php"
+   "boards": "https://www.haydenid.gov/boards___commissions/index.php",
+   "mayor": {
+    "name": "Alan Davis",
+    "source": "https://www.haydenid.gov/mayor.php",
+    "checked": "2026-11-17"
+   }
   },
   "Idaho Falls": {
    "county": "Bonneville",
@@ -257,7 +309,13 @@
   "Ketchum": {
    "county": "Blaine",
    "site": "https://ketchumidaho.gov/",
-   "meetings": "https://ketchumidaho.gov/AgendaCenter"
+   "meetings": "https://ketchumidaho.gov/AgendaCenter",
+   "mayor": {
+    "name": "Pete Prekeges",
+    "source": "https://ketchumidaho.gov/293/Mayor-City-Council",
+    "checked": "2026-11-17"
+   },
+   "council": "https://ketchumidaho.gov/293/Mayor-City-Council"
   },
   "Kuna": {
    "county": "Ada",
@@ -292,7 +350,12 @@
   "Nampa": {
    "county": "Canyon",
    "site": "https://www.cityofnampa.us/",
-   "meetings": "https://www.cityofnampa.us/1612/Public-Meetings"
+   "meetings": "https://www.cityofnampa.us/1612/Public-Meetings",
+   "mayor": {
+    "name": "Darl Bruner",
+    "source": "https://www.cityofnampa.us/529/Office-of-the-Mayor",
+    "checked": "2026-11-17"
+   }
   },
   "Pocatello": {
    "county": "Bannock",
@@ -302,13 +365,24 @@
   "Post Falls": {
    "county": "Kootenai",
    "site": "https://www.postfalls.gov/",
-   "meetings": "https://www.postfalls.gov/calendar.aspx"
+   "meetings": "https://www.postfalls.gov/calendar.aspx",
+   "mayor": {
+    "name": "Randy Westlund",
+    "source": "https://www.postfalls.gov/167/Mayor",
+    "checked": "2026-11-17"
+   }
   },
   "Rathdrum": {
    "county": "Kootenai",
    "site": "https://www.rathdrum.gov/",
    "meetings": "https://www.rathdrum.gov/agenda.aspx",
-   "boards": "https://www.rathdrum.gov/516/boards-and-committees"
+   "boards": "https://www.rathdrum.gov/516/boards-and-committees",
+   "mayor": {
+    "name": "John Hodgkins",
+    "source": "https://www.rathdrum.gov/425/mayor",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.rathdrum.gov/394/council-members"
   },
   "Rexburg": {
    "county": "Madison",

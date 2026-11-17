@@ -108,8 +108,24 @@
     if (p.childNodes.length) card.appendChild(p);
   }
 
+  // Mayors confirmed on each city's own website (data/local.json), with a
+  // link to the council members page where we found one.
+  function addMayor(card, place) {
+    if (!place || !place.mayor) return;
+    card.appendChild(el('h4', null, 'Mayor'));
+    people(card, [{ name: place.mayor.name, url: place.mayor.source }], '');
+    var links = card.querySelector('ul.people:last-of-type .contact a');
+    if (links) links.textContent = 'Mayor’s page';
+    if (safeUrl(place.council)) {
+      var p = el('p');
+      p.appendChild(link(place.council, 'City council members'));
+      card.appendChild(p);
+    }
+  }
+
   function localCard(title, name, entry, fallback, place) {
     var card = section(title, name);
+    if (title === 'City') addMayor(card, place);
     if (!entry && place) { extraLinks(card, place); return card; }
     if (entry) {
       var p = el('p');
