@@ -7,5 +7,5 @@ reader = pypdf.PdfReader(io.BytesIO(r.content))
 pages = [(i, p.extract_text() or "") for i, p in enumerate(reader.pages)]
 print("pages", len(pages))
 keep = {i: t for i, t in pages if re.search(r"Commissioner|Mayor|Council", t)}
-Path("probe/bluebook.json").write_text(json.dumps({"n": len(pages), "pages": keep}, indent=0))
+Path("probe/report2.json").write_text(json.dumps({"n": len(pages), "pages": keep}, indent=0))
 print("kept", len(keep), sorted(keep)[:80])
