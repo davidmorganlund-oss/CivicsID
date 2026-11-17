@@ -1,0 +1,2737 @@
+{
+ "source": "The Blue Book of Idaho, 2025-2026 edition (Idaho Secretary of State)",
+ "source_url": "https://archive.sos.idaho.gov/blue_book/blue_book_2025-2026.pdf",
+ "as_of": "2025",
+ "review_by": "2027-01-20",
+ "review_note": "County officers elected in November 2026 take office in January 2027. Update county_officials.json from the new Blue Book or county websites.",
+ "counties": {
+  "Ada": {
+   "address": "400 N Benjamin Lane Ste 100, Boise, ID 83704",
+   "seat": "Boise",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Ryan Davidson",
+     "party": "Republican",
+     "phone": "(208) 287-7001"
+    },
+    {
+     "district": "2",
+     "name": "Rod W. Beck",
+     "party": "Republican",
+     "phone": "(208) 287-7002"
+    },
+    {
+     "district": "3",
+     "name": "Tom Dayley",
+     "party": "Republican",
+     "phone": "(208) 287-7003"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Rebecca Arnold",
+     "party": "Republican",
+     "phone": "(208) 287-7200"
+    },
+    {
+     "office": "Clerk",
+     "name": "Trent Tripple",
+     "party": "Republican",
+     "phone": "(208) 287-6880"
+    },
+    {
+     "office": "Coroner",
+     "name": "Richard D. Riffle",
+     "party": "Republican",
+     "phone": "(208) 287-5556"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Jan M. Bennetts",
+     "party": "Republican",
+     "phone": "(208) 287-7700"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Matt Clifford",
+     "party": "Republican",
+     "phone": "(208) 577-3302"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Elizabeth “Beth” Mahn",
+     "party": "Republican",
+     "phone": "(208) 287-6800"
+    }
+   ]
+  },
+  "Adams": {
+   "address": "201 Industrial Ave., Council, ID 83612-0048",
+   "seat": "Council",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Joe Iveson",
+     "party": "Republican",
+     "phone": "(208) 741-1273"
+    },
+    {
+     "district": "2",
+     "name": "Daren Ward",
+     "party": "Republican",
+     "phone": "(208) 989-5213"
+    },
+    {
+     "district": "3",
+     "name": "Viki Purdy",
+     "party": "Republican",
+     "phone": "(208) 573-1134"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Stacey Swift Dreyer",
+     "party": "Republican",
+     "phone": "(208) 253-4110"
+    },
+    {
+     "office": "Clerk",
+     "name": "Sherry Ward",
+     "party": "Republican",
+     "phone": "(208) 253-4561"
+    },
+    {
+     "office": "Coroner",
+     "name": "Susan Warner",
+     "party": "Republican",
+     "phone": "(208) 253-3461"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Peter Donovan",
+     "party": "Republican",
+     "phone": "(208) 253-4141"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Ryan Zollman",
+     "party": "Republican",
+     "phone": "(208) 253-4228"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Tonjua Spelman",
+     "party": "Republican",
+     "phone": "(208) 253-4123"
+    }
+   ]
+  },
+  "Bannock": {
+   "address": "624 E. Center, Pocatello, ID 83205",
+   "seat": "Pocatello",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Ernie Moser",
+     "party": "Republican",
+     "phone": "(208) 236-7210"
+    },
+    {
+     "district": "2",
+     "name": "Jeff Hough",
+     "party": "Republican",
+     "phone": "(208) 236-7210"
+    },
+    {
+     "district": "3",
+     "name": "John Crowder",
+     "party": "Republican",
+     "phone": "(208) 236-7210"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Anita Hymas",
+     "party": "Republican",
+     "phone": "(208) 236-7263"
+    },
+    {
+     "office": "Clerk",
+     "name": "Jason C. Dixon",
+     "party": "Republican",
+     "phone": "(208) 236-7358"
+    },
+    {
+     "office": "Coroner",
+     "name": "Torey Danner",
+     "party": "Republican",
+     "phone": "(208) 243-1328"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Stephen Herzog",
+     "party": "Democrat",
+     "phone": "(208) 236-7280"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Tony Manu",
+     "party": "Democrat",
+     "phone": "(208) 236-7116"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Jennifer L. Clark",
+     "party": "Democrat",
+     "phone": "(208) 236-7222"
+    }
+   ]
+  },
+  "Bear Lake": {
+   "address": "7 East Center St., Paris, ID 83261",
+   "seat": "Paris",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Alan Eborn",
+     "party": "Republican",
+     "phone": "(208) 945-2678"
+    },
+    {
+     "district": "2",
+     "name": "Rex Payne",
+     "party": "Republican",
+     "phone": "(208) 390-2117"
+    },
+    {
+     "district": "3",
+     "name": "Wynn S. Olsen",
+     "party": "Republican",
+     "phone": "(208) 589-3707"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jannelle Sparks Jensen",
+     "party": "Republican",
+     "phone": "(208) 945-2155"
+    },
+    {
+     "office": "Clerk",
+     "name": "Amy Bishop",
+     "party": "Republican",
+     "phone": "(208) 945-2212"
+    },
+    {
+     "office": "Coroner",
+     "name": "Chad Walker",
+     "party": "Republican",
+     "phone": "(801) 885-9035"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Adam McKenzie",
+     "party": "Republican",
+     "phone": "(208) 945-1438"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Bart Heslington",
+     "party": "Republican",
+     "phone": "(208) 945-2121"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Tricia Poulsen",
+     "party": "Republican",
+     "phone": "(208) 945-2130"
+    }
+   ]
+  },
+  "Benewah": {
+   "address": "701 W College Ave Ste 101, St Maries, ID 83861",
+   "seat": "St Maries",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Mark L. Reynolds",
+     "party": "Republican",
+     "phone": "(208) 245-2234"
+    },
+    {
+     "district": "2",
+     "name": "Philip Lampert",
+     "party": "Republican",
+     "phone": "(208) 245-2234"
+    },
+    {
+     "district": "3",
+     "name": "Robert Short",
+     "party": "Republican",
+     "phone": "(208) 245-2234"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Donna Spier",
+     "party": "Republican",
+     "phone": "(208) 245-2821"
+    },
+    {
+     "office": "Clerk",
+     "name": "Deanna Bramblett",
+     "party": "Democrat",
+     "phone": "(208) 245-3212"
+    },
+    {
+     "office": "Coroner",
+     "name": "Carrie Nordin",
+     "party": "Republican",
+     "phone": "(208) 245-2611"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Mariah Dunham",
+     "party": "Republican",
+     "phone": "(208) 245-2564"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Anthony J. Eells",
+     "party": "Republican",
+     "phone": "(208) 245-2555"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Sara Sexton",
+     "party": "Democrat",
+     "phone": "(208) 245-2421"
+    }
+   ]
+  },
+  "Bingham": {
+   "address": "501 N Maple St #205, Blackfoot, ID 83221",
+   "seat": "Blackfoot",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Mark Bair",
+     "party": "Republican",
+     "phone": "(208) 782-3010"
+    },
+    {
+     "district": "2",
+     "name": "Whitney Manwaring",
+     "party": "Republican",
+     "phone": "(208) 782-3011"
+    },
+    {
+     "district": "3",
+     "name": "Eric Jackson",
+     "party": "Republican",
+     "phone": "(208) 782-3013"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Donovan Harrington",
+     "party": "Republican",
+     "phone": "(208) 782-3016"
+    },
+    {
+     "office": "Clerk",
+     "name": "Pamela W. Eckhardt",
+     "party": "Republican",
+     "phone": "(208) 782-3160"
+    },
+    {
+     "office": "Coroner",
+     "name": "James Roberts",
+     "party": "Republican",
+     "phone": "(208) 782-3040"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "N. Paul Rogers",
+     "party": "Republican",
+     "phone": "(208) 782-3101"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Jeff Gardner",
+     "party": "Republican",
+     "phone": "(208) 782-3047"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Tanna Beal",
+     "party": "Republican",
+     "phone": "(208) 782-3092"
+    }
+   ]
+  },
+  "Blaine": {
+   "address": "206 1st Ave South #100, Hailey, ID 83333",
+   "seat": "Hailey",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Lindsay Mollineaux",
+     "party": "Democrat",
+     "phone": "(208) 788-5500"
+    },
+    {
+     "district": "2",
+     "name": "Muffy Davis",
+     "party": "Democrat",
+     "phone": "(208) 788-5500"
+    },
+    {
+     "district": "3",
+     "name": "Angenie McCleary",
+     "party": "Democrat",
+     "phone": "(208) 788-5500"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jim Williams",
+     "party": "Democrat",
+     "phone": "(208) 788-5535"
+    },
+    {
+     "office": "Clerk",
+     "name": "Stephen McDougall Graham",
+     "party": "Democrat",
+     "phone": "(208) 788-5505"
+    },
+    {
+     "office": "Coroner",
+     "name": "Russ Mikel",
+     "party": "Republican",
+     "phone": "(208) 578-1000"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Matthew Fredback",
+     "party": "Democrat",
+     "phone": "(208) 788-5545"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Morgan Ballis",
+     "party": "Democrat",
+     "phone": "(208) 788-5550"
+    },
+    {
+     "office": "Treasurer",
+     "name": "John David Davidson",
+     "party": "Democrat",
+     "phone": "(208) 788-5530"
+    }
+   ]
+  },
+  "Boise": {
+   "address": "419 Main St., Idaho City, ID 83631",
+   "seat": "Idaho City",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Steven Twilegar",
+     "party": "Republican",
+     "phone": "(208) 392-4431"
+    },
+    {
+     "district": "2",
+     "name": "Clay Tucker",
+     "party": "Republican",
+     "phone": "(208) 392-4431"
+    },
+    {
+     "district": "3",
+     "name": "Darrel “Lindy” Lindstrom",
+     "party": "Republican",
+     "phone": "(208) 392-4431"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Chris Juszczak",
+     "party": "Republican",
+     "phone": "(208) 392-4415"
+    },
+    {
+     "office": "Clerk",
+     "name": "Mary Prisco",
+     "party": "Republican",
+     "phone": "(208) 392-4431"
+    },
+    {
+     "office": "Coroner",
+     "name": "Pamela Garlock",
+     "party": "Republican",
+     "phone": "(208) 392-4411"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Adam Strong",
+     "party": "Republican",
+     "phone": "(208) 392-4485"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Scott Turner",
+     "party": "Republican",
+     "phone": "(208) 392-4411"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Gina Turner",
+     "party": "Republican",
+     "phone": "(208) 392-4441"
+    }
+   ]
+  },
+  "Bonner": {
+   "address": "1500 Hwy 2 Ste 124, Sandpoint, ID 83864",
+   "seat": "Sandpoint",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Steven Bradshaw",
+     "party": "Republican",
+     "phone": "(208) 265-1438"
+    },
+    {
+     "district": "2",
+     "name": "Asia L. Williams",
+     "party": "Republican",
+     "phone": "(208) 265-1438"
+    },
+    {
+     "district": "3",
+     "name": "Luke Omodt",
+     "party": "Republican",
+     "phone": "(208) 265-1438"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Donna Gow",
+     "party": "Republican",
+     "phone": "(208) 255-3630"
+    },
+    {
+     "office": "Clerk",
+     "name": "Michael Rosedale",
+     "party": "Republican",
+     "phone": "(208) 265-1437"
+    },
+    {
+     "office": "Coroner",
+     "name": "Robert Beers",
+     "party": "Republican",
+     "phone": "(208) 263-6714"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Louis Marshall",
+     "party": "Republican",
+     "phone": "(208) 263-6714"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Daryl Wheeler",
+     "party": "Republican",
+     "phone": "(208) 263-8417"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Clorrisa Koster",
+     "party": "Republican",
+     "phone": "(208) 265-1433"
+    }
+   ]
+  },
+  "Bonneville": {
+   "address": "605 N Capital Ave, Idaho Falls, ID 83402",
+   "seat": "Idaho Falls",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Karl Casperson",
+     "party": "Republican",
+     "phone": "(208) 529-1360"
+    },
+    {
+     "district": "2",
+     "name": "Jon Walker",
+     "party": "Republican",
+     "phone": "(208) 529-1350"
+    },
+    {
+     "district": "3",
+     "name": "Michelle Mallard",
+     "party": "Republican",
+     "phone": "(208) 529-1360"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Dustin A. Barron",
+     "party": "Republican",
+     "phone": "(208) 529-1350"
+    },
+    {
+     "office": "Clerk",
+     "name": "Christopher Poulter",
+     "party": "Republican",
+     "phone": "(208) 529-1350"
+    },
+    {
+     "office": "Coroner",
+     "name": "Shante Sanchez",
+     "party": "Republican",
+     "phone": "(208) 533-6999"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Randy Neal",
+     "party": "Republican",
+     "phone": "(208) 529-1348"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Samuel Hulse",
+     "party": "Republican",
+     "phone": "(208) 529-1375"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Craig Tibbitts",
+     "party": "Republican",
+     "phone": "(208) 529-1350"
+    }
+   ]
+  },
+  "Boundary": {
+   "address": "6452 Kootenai St., Bonners Ferry, ID 83805",
+   "seat": "Bonners Ferry",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Lester Pinkerton",
+     "party": "Republican",
+     "phone": "(208) 267-7723"
+    },
+    {
+     "district": "2",
+     "name": "Tim Bertling",
+     "party": "Republican",
+     "phone": "(208) 267-7723"
+    },
+    {
+     "district": "3",
+     "name": "Ben Robertson",
+     "party": "Republican",
+     "phone": "(208) 267-7723"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Olivia Drake",
+     "party": "Republican",
+     "phone": "(208) 267-3301"
+    },
+    {
+     "office": "Clerk",
+     "name": "Glenda Poston",
+     "party": "Republican",
+     "phone": "(208) 267-2242"
+    },
+    {
+     "office": "Coroner",
+     "name": "Chad Workman",
+     "party": "Republican",
+     "phone": "(208) 267-2146"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Andrakay J. Pluid",
+     "party": "Republican",
+     "phone": "(208) 267-7545"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Travis Stolley",
+     "party": "Republican",
+     "phone": "(208) 267-3151"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Jennifer Economu",
+     "party": "Republican",
+     "phone": "(208) 267-3291"
+    }
+   ]
+  },
+  "Butte": {
+   "address": "205 W. Grand Ave., Arco, ID 83213",
+   "seat": "Arco",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Blake VanEtten",
+     "party": "Republican",
+     "phone": "(208) 527-3021"
+    },
+    {
+     "district": "2",
+     "name": "Hootie Langseth",
+     "party": "Republican",
+     "phone": "(208) 527-8553"
+    },
+    {
+     "district": "3",
+     "name": "Brian Harrell",
+     "party": "Republican",
+     "phone": "(208) 527-3021"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Holly Standlee",
+     "party": "Republican",
+     "phone": "(208) 527-3021"
+    },
+    {
+     "office": "Clerk",
+     "name": "Shelly Blackner",
+     "party": "Republican",
+     "phone": "(208) 527-3021"
+    },
+    {
+     "office": "Coroner",
+     "name": "Tara Beard Parsons",
+     "party": "Republican",
+     "phone": "(208) 530-2005"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Steve Stephens",
+     "party": "Republican",
+     "phone": "(208) 527-3458"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Dave Hansen",
+     "party": "Republican",
+     "phone": "(208) 527-8553"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Barbara Andersen",
+     "party": "Republican",
+     "phone": "(208) 527-3021"
+    }
+   ]
+  },
+  "Camas": {
+   "address": "501 Soldier Rd., Fairfield, ID 83327",
+   "seat": "Fairfield",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Galen Colter",
+     "party": "Republican",
+     "phone": "(208) 539-0011"
+    },
+    {
+     "district": "2",
+     "name": "Marshall Ralph",
+     "party": "Republican",
+     "phone": "(208) 721-0488"
+    },
+    {
+     "district": "3",
+     "name": "Travis Kramer",
+     "party": "Republican",
+     "phone": "(208) 764-2242"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Lynn McGuire",
+     "party": "Republican",
+     "phone": "(208) 764-2370"
+    },
+    {
+     "office": "Clerk",
+     "name": "Brianna Walter",
+     "party": "Republican",
+     "phone": "(208) 764-2242"
+    },
+    {
+     "office": "Coroner",
+     "name": "Wesley Walker",
+     "party": "Republican",
+     "phone": "(208) 764-2261"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Jim Thomas",
+     "party": "Independent",
+     "phone": "(208) 764-2251"
+    },
+    {
+     "office": "Sheriff",
+     "name": "David Sanders",
+     "party": "Republican",
+     "phone": "(208) 764-2261"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Deanna Hoskinson",
+     "party": "Republican",
+     "phone": "(208) 764-2126"
+    }
+   ]
+  },
+  "Canyon": {
+   "address": "5815 Graye Ln. Caldwell, ID 83607",
+   "seat": "Caldwell",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Leslie Van Beek",
+     "party": "Republican",
+     "phone": "(208) 454-7320"
+    },
+    {
+     "district": "2",
+     "name": "Brad Holton",
+     "party": "Republican",
+     "phone": "(208) 454-7507"
+    },
+    {
+     "district": "3",
+     "name": "Zach Brooks",
+     "party": "Republican",
+     "phone": "(208) 454-7503"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Brian Stender",
+     "party": "Republican",
+     "phone": "(208) 454-7431"
+    },
+    {
+     "office": "Clerk",
+     "name": "Rick Hogaboam",
+     "party": "Republican",
+     "phone": "(208) 454-7337"
+    },
+    {
+     "office": "Coroner",
+     "name": "Jennifer Crawford",
+     "party": "Republican",
+     "phone": "(208) 454-7350"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Chris Boyd",
+     "party": "Republican",
+     "phone": "(208) 454-7391"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Kieran Donahue",
+     "party": "Republican",
+     "phone": "(208) 454-7318"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Jennifer Watters",
+     "party": "",
+     "phone": "(208) 454-7354"
+    }
+   ]
+  },
+  "Caribou": {
+   "address": "159 S. Main, Soda Springs, ID 83276",
+   "seat": "Soda Springs",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Marty McCullough",
+     "party": "Republican",
+     "phone": "(208) 547-4324"
+    },
+    {
+     "district": "2",
+     "name": "Bryce Somsen",
+     "party": "Republican",
+     "phone": "(208) 317-7289"
+    },
+    {
+     "district": "3",
+     "name": "Mark Mathews",
+     "party": "Republican",
+     "phone": "(208) 547-4324"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Aaron Cook",
+     "party": "Republican",
+     "phone": "(208) 547-4749"
+    },
+    {
+     "office": "Clerk",
+     "name": "Jill Stoor",
+     "party": "Republican",
+     "phone": "(208) 547-4324"
+    },
+    {
+     "office": "Coroner",
+     "name": "Jacob Fullmer",
+     "party": "Republican",
+     "phone": "(208) 240-2364"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "S. Douglas Wood",
+     "party": "Republican",
+     "phone": "(208) 547-1930"
+    },
+    {
+     "office": "Sheriff",
+     "name": "J. Adam Mabey",
+     "party": "Republican",
+     "phone": "(208) 547-2561"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Angie Mendehall",
+     "party": "Republican",
+     "phone": "(208) 547-3726"
+    }
+   ]
+  },
+  "Cassia": {
+   "address": "1459 Overland Avenue Rm #105, Burley, ID 83318",
+   "seat": "Burley",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Leonard Beck",
+     "party": "Republican",
+     "phone": "(208) 878-7302"
+    },
+    {
+     "district": "2",
+     "name": "Robert J. Kunau",
+     "party": "Republican",
+     "phone": "(208) 878-7302"
+    },
+    {
+     "district": "3",
+     "name": "Kent Searle",
+     "party": "Republican",
+     "phone": "(208) 878-7302"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Martin Adams",
+     "party": "Republican",
+     "phone": "(208) 878-3540"
+    },
+    {
+     "office": "Clerk",
+     "name": "Joseph Larsen",
+     "party": "Republican",
+     "phone": "(208) 878-1004"
+    },
+    {
+     "office": "Coroner",
+     "name": "Craig Rinehart",
+     "party": "Republican",
+     "phone": "(208) 431-0119"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "McCord Larsen",
+     "party": "Republican",
+     "phone": "(208) 878-0419"
+    },
+    {
+     "office": "Sheriff",
+     "name": "George Warrell",
+     "party": "Republican",
+     "phone": "(208) 878-9301"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Laura Greener",
+     "party": "Republican",
+     "phone": "(208) 878-7202"
+    }
+   ]
+  },
+  "Clark": {
+   "address": "224 W Main St., Dubois, ID 83423",
+   "seat": "Dubois",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Nick Hillman",
+     "party": "Republican",
+     "phone": "(208) 761-5165"
+    },
+    {
+     "district": "2",
+     "name": "Gregory Shenton",
+     "party": "Republican",
+     "phone": "(208) 374-5304"
+    },
+    {
+     "district": "3",
+     "name": "Macoy Ward",
+     "party": "Republican",
+     "phone": "(208) 589-0969"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Carrie May",
+     "party": "Republican",
+     "phone": "(208) 374-5404"
+    },
+    {
+     "office": "Clerk",
+     "name": "Stephenie Stewart",
+     "party": "Republican",
+     "phone": "(208) 374-5304"
+    },
+    {
+     "office": "Coroner",
+     "name": "Brenda Laird",
+     "party": "Republican",
+     "phone": "(208) 351-8852"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Jana Birch",
+     "party": "Republican",
+     "phone": "(208) 523-1771"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Mark McClure",
+     "party": "Republican",
+     "phone": "(208) 374-5403"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Lana Schwartz",
+     "party": "Republican",
+     "phone": "(208) 374-5455"
+    }
+   ]
+  },
+  "Clearwater": {
+   "address": "150 Michigan Ave., Orofino, ID 83544",
+   "seat": "Orofino",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Mitch Reggear",
+     "party": "Republican",
+     "phone": "(208) 476-3615"
+    },
+    {
+     "district": "2",
+     "name": "Vincent Frazier",
+     "party": "Republican",
+     "phone": "(208) 476-3615"
+    },
+    {
+     "district": "3",
+     "name": "Ken Harvey",
+     "party": "Republican",
+     "phone": "(208) 476-3615"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Susan Spencer",
+     "party": "Republican",
+     "phone": "(208) 476-7042"
+    },
+    {
+     "office": "Clerk",
+     "name": "Jo Ann Davis",
+     "party": "Republican",
+     "phone": "(208) 476-5615"
+    },
+    {
+     "office": "Coroner",
+     "name": "Dennis Fuller",
+     "party": "Republican",
+     "phone": "(208) 476-8984"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "E. Clayne Tyler",
+     "party": "Republican",
+     "phone": "(208) 476-5611"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Chris Goetz",
+     "party": "Republican",
+     "phone": "(208) 476-4521"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Dawn Erlewine",
+     "party": "Republican",
+     "phone": "(208) 476-5213"
+    }
+   ]
+  },
+  "Custer": {
+   "address": "801 E. Main Ave., Challis, ID 83226",
+   "seat": "Challis",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Wayne Butts",
+     "party": "Republican",
+     "phone": "(208) 879-2360"
+    },
+    {
+     "district": "2",
+     "name": "Randy Corgatelli",
+     "party": "Republican",
+     "phone": "(208) 879-2432"
+    },
+    {
+     "district": "3",
+     "name": "Steve Smith",
+     "party": "Republican",
+     "phone": "(208) 339-1220"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jacquel Bruno",
+     "party": "Republican",
+     "phone": "(208) 879-3302"
+    },
+    {
+     "office": "Clerk",
+     "name": "Lura Baker",
+     "party": "Republican",
+     "phone": "(208) 879-2360"
+    },
+    {
+     "office": "Coroner",
+     "name": "Chad Workman",
+     "party": "Republican",
+     "phone": "(208) 390-2282"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Justin Oleson",
+     "party": "Republican",
+     "phone": "(208) 879-4383"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Stu Lumpkin",
+     "party": "Republican",
+     "phone": "(208) 879-2232"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Allicyn Latimer",
+     "party": "Republican",
+     "phone": "(208) 879-2330"
+    }
+   ]
+  },
+  "Elmore": {
+   "address": "150 S 4th E #3, Mountain Home, ID 83647",
+   "seat": "Mountain Home",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Franklin “Bud” Corbus",
+     "party": "Republican",
+     "phone": "(208) 599-1294"
+    },
+    {
+     "district": "2",
+     "name": "Crystal Rodgers",
+     "party": "Republican",
+     "phone": "(208) 999-2206"
+    },
+    {
+     "district": "3",
+     "name": "Albert Hofer",
+     "party": "Republican",
+     "phone": "(208) 599-1620"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Josh Dison",
+     "party": "Republican",
+     "phone": "(208) 587-2126"
+    },
+    {
+     "office": "Clerk",
+     "name": "Shelley Essl",
+     "party": "Republican",
+     "phone": "(208) 587-2130"
+    },
+    {
+     "office": "Coroner",
+     "name": "Nickie M. Campbell",
+     "party": "Republican",
+     "phone": "(208) 599-8525"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Shondi K. Lott",
+     "party": "Republican",
+     "phone": "(208) 587-2144"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Mike Hollinshead",
+     "party": "Republican",
+     "phone": "(208) 587-3370"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Amber Sloan",
+     "party": "Republican",
+     "phone": "(208) 587-2138"
+    }
+   ]
+  },
+  "Franklin": {
+   "address": "39 W Oneida, Preston, ID 83263",
+   "seat": "Preston",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Boyd Burbank",
+     "party": "Republican",
+     "phone": "(208) 244-0639"
+    },
+    {
+     "district": "2",
+     "name": "Robert Swainston",
+     "party": "Republican",
+     "phone": "(208) 339-0900"
+    },
+    {
+     "district": "3",
+     "name": "Dirk Bowles",
+     "party": "Republican",
+     "phone": "(208) 852-3724"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Chris Barton",
+     "party": "Republican",
+     "phone": "(208) 852-1091"
+    },
+    {
+     "office": "Clerk",
+     "name": "Camille Larsen",
+     "party": "Republican",
+     "phone": "(208) 852-1092"
+    },
+    {
+     "office": "Coroner",
+     "name": "Ron Smellie",
+     "party": "Republican",
+     "phone": "(208) 852-0533"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Vic Pearson",
+     "party": "Republican",
+     "phone": "(208) 852-9119"
+    },
+    {
+     "office": "Sheriff",
+     "name": "David Fryar",
+     "party": "Republican",
+     "phone": "(208) 221-1410"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Janet Kimpton",
+     "party": "Republican",
+     "phone": "(208) 852-1095"
+    }
+   ]
+  },
+  "Fremont": {
+   "address": "151 W 1st N #12, St Anthony, ID 83445",
+   "seat": "St Anthony",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Blair Dance",
+     "party": "Republican",
+     "phone": "(208) 624-4271"
+    },
+    {
+     "district": "2",
+     "name": "Mark Chandler",
+     "party": "Republican",
+     "phone": "(208) 624-4271"
+    },
+    {
+     "district": "3",
+     "name": "Rick Hill",
+     "party": "Republican",
+     "phone": "(208) 624-4271"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Carol Blanchard",
+     "party": "Republican",
+     "phone": "(208) 624-7984"
+    },
+    {
+     "office": "Clerk",
+     "name": "Abbie Mace",
+     "party": "Republican",
+     "phone": "(208) 624-7332"
+    },
+    {
+     "office": "Coroner",
+     "name": "Brenda Dye",
+     "party": "Republican",
+     "phone": "(208) 624-4482"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Lindsey A. Blake",
+     "party": "Republican",
+     "phone": "(208) 624-4418"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Bart Quayle",
+     "party": "Republican",
+     "phone": "(208) 624-7782"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Lori Beard",
+     "party": "Republican",
+     "phone": "(208) 624-3361"
+    }
+   ]
+  },
+  "Gem": {
+   "address": "415 E Main Room 202, Emmett, ID 83617",
+   "seat": "Emmett",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Kirk Wille",
+     "party": "Republican",
+     "phone": "(208) 447-2019"
+    },
+    {
+     "district": "2",
+     "name": "Bill Butticci",
+     "party": "Republican",
+     "phone": "(208) 447-2018"
+    },
+    {
+     "district": "3",
+     "name": "Mark Rekow",
+     "party": "Republican",
+     "phone": "(208) 477-2017"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Hollie Ann Strong",
+     "party": "Republican",
+     "phone": "(208) 477-2010"
+    },
+    {
+     "office": "Clerk",
+     "name": "Leandra Rountree",
+     "party": "Republican",
+     "phone": "(208) 365-4561"
+    },
+    {
+     "office": "Coroner",
+     "name": "John Buck",
+     "party": "Republican",
+     "phone": "(208) 369-1785"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Erick Thomson",
+     "party": "Republican",
+     "phone": "(208) 365-2106"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Donnie Wunder",
+     "party": "Republican",
+     "phone": "(208) 477-2026"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Megan Keene",
+     "party": "Republican",
+     "phone": "(208) 365-3272"
+    }
+   ]
+  },
+  "Gooding": {
+   "address": "624 Main St., Gooding, ID 83330",
+   "seat": "Gooding",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Vern Eames",
+     "party": "Republican",
+     "phone": "(208) 934-4841"
+    },
+    {
+     "district": "2",
+     "name": "Mark Bolduc",
+     "party": "Republican",
+     "phone": "(208) 934-4841"
+    },
+    {
+     "district": "3",
+     "name": "Ron Buhler",
+     "party": "Republican",
+     "phone": "(208) 536-6754"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Justin L. Baldwin",
+     "party": "Republican",
+     "phone": "(208) 934-5666"
+    },
+    {
+     "office": "Clerk",
+     "name": "Denise Gill",
+     "party": "Republican",
+     "phone": "(208) 934-4841"
+    },
+    {
+     "office": "Coroner",
+     "name": "Patrick “P.J.” Curtis",
+     "party": "Republican",
+     "phone": "(208) 539-7747"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Trevor Misseldine",
+     "party": "Republican",
+     "phone": "(208) 934-4493"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Shaun Gough",
+     "party": "Republican",
+     "phone": "(208) 934-4422"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Christina “Tine” Wines",
+     "party": "Republican",
+     "phone": "(208) 934-5673"
+    }
+   ]
+  },
+  "Idaho": {
+   "address": "320 W Main Rm 5, Grangeville, ID 83530",
+   "seat": "Grangeville",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Skip Brandt",
+     "party": "Republican",
+     "phone": "(208) 983-2751"
+    },
+    {
+     "district": "2",
+     "name": "Ted Lindsley",
+     "party": "Republican",
+     "phone": "(208) 983-2751"
+    },
+    {
+     "district": "3",
+     "name": "Brad Higgins",
+     "party": "Republican",
+     "phone": "(208) 983-2751"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Kim Nuxoll",
+     "party": "Republican",
+     "phone": "(208) 983-2742"
+    },
+    {
+     "office": "Clerk",
+     "name": "Kathy Ackerman",
+     "party": "Republican",
+     "phone": "(208) 983-2751"
+    },
+    {
+     "office": "Coroner",
+     "name": "Cody Funke",
+     "party": "Republican",
+     "phone": "(208) 983-6066"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Kirk MacGregor",
+     "party": "Republican",
+     "phone": "(208) 983-0166"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Doug Ulmer",
+     "party": "Republican",
+     "phone": "(208) 983-1100"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Abbie Hudson",
+     "party": "Republican",
+     "phone": "(208) 983-2801"
+    }
+   ]
+  },
+  "Jefferson": {
+   "address": "210 Courthouse Way Ste 100, Rigby, ID 83442",
+   "seat": "Rigby",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Shayne Young",
+     "party": "Republican",
+     "phone": "(208) 745-9222"
+    },
+    {
+     "district": "2",
+     "name": "Scott Hancock",
+     "party": "Republican",
+     "phone": "(208) 745-9222"
+    },
+    {
+     "district": "3",
+     "name": "Roger Clark",
+     "party": "Republican",
+     "phone": "(208) 745-9222"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jessica Roach",
+     "party": "Republican",
+     "phone": "(208) 745-9215"
+    },
+    {
+     "office": "Clerk",
+     "name": "Colleen Casper Poole",
+     "party": "Republican",
+     "phone": "(208) 745-7756"
+    },
+    {
+     "office": "Coroner",
+     "name": "LaVar Summers",
+     "party": "Republican",
+     "phone": "(208) 243-2044"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Paul Butikofer",
+     "party": "Republican",
+     "phone": "(208) 745-5888"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Steve Anderson",
+     "party": "Republican",
+     "phone": "(208) 745-9210"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Kristine Lund",
+     "party": "Republican",
+     "phone": "(208) 745-9219"
+    }
+   ]
+  },
+  "Jerome": {
+   "address": "300 N Lincoln Rm 301, Jerome, ID 83338",
+   "seat": "Jerome",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Ben Crouch",
+     "party": "Republican",
+     "phone": "(208) 644-2702"
+    },
+    {
+     "district": "2",
+     "name": "Charles Howell",
+     "party": "Republican",
+     "phone": "(208) 644-2701"
+    },
+    {
+     "district": "3",
+     "name": "John Crozier",
+     "party": "Republican",
+     "phone": "(208) 644-2703"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Mark Swenson",
+     "party": "Republican",
+     "phone": "(208) 644-2745"
+    },
+    {
+     "office": "Clerk",
+     "name": "Cy Lootens",
+     "party": "Republican",
+     "phone": "(208) 644-2704"
+    },
+    {
+     "office": "Coroner",
+     "name": "Dan Chatterton",
+     "party": "Republican",
+     "phone": "(208) 539-0341"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Brad Calbo",
+     "party": "Republican",
+     "phone": "(208) 644-2630"
+    },
+    {
+     "office": "Sheriff",
+     "name": "George Oppedyk",
+     "party": "Republican",
+     "phone": "(208) 595-3300"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Tevian Kober",
+     "party": "Republican",
+     "phone": "(208) 644-2720"
+    }
+   ]
+  },
+  "Kootenai": {
+   "address": "451 W. Garden Ave., Coeur d’Alene, ID 83816",
+   "seat": "Coeur d’Alene",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Marc Eberlein",
+     "party": "Republican",
+     "phone": "(208) 446-1605"
+    },
+    {
+     "district": "2",
+     "name": "Bruce Mattare",
+     "party": "Republican",
+     "phone": "(208) 446-1606"
+    },
+    {
+     "district": "3",
+     "name": "Leslie Duncan",
+     "party": "Republican",
+     "phone": "(208) 446-1604"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Bela Kovacs",
+     "party": "Republican",
+     "phone": "(208) 446-1500"
+    },
+    {
+     "office": "Clerk",
+     "name": "Jennifer Locke",
+     "party": "Republican",
+     "phone": "(208) 446-1652"
+    },
+    {
+     "office": "Coroner",
+     "name": "Duke Johnson, M.D",
+     "party": "Republican",
+     "phone": "(208) 446-2195"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Stanley Mortensen",
+     "party": "Republican",
+     "phone": "(208) 446-1800"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Robert “Rob” Norris",
+     "party": "Republican",
+     "phone": "(208) 446-1300"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Steven Matheson",
+     "party": "Republican",
+     "phone": "(208) 446-1005"
+    }
+   ]
+  },
+  "Latah": {
+   "address": "522 S. Adams, Moscow, ID 83843",
+   "seat": "Moscow",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Kathie LaFortune",
+     "party": "Democrat",
+     "phone": "(208) 883-2272"
+    },
+    {
+     "district": "2",
+     "name": "Tom Lamar",
+     "party": "Democrat",
+     "phone": "(208) 883-7208"
+    },
+    {
+     "district": "3",
+     "name": "John Bohman",
+     "party": "Democrat",
+     "phone": "(208) 883-2255"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "David Sutherland",
+     "party": "Republican",
+     "phone": "(208) 892-4571"
+    },
+    {
+     "office": "Clerk",
+     "name": "Julie Fry",
+     "party": "Republican",
+     "phone": "(208) 883-2263"
+    },
+    {
+     "office": "Coroner",
+     "name": "Catherine Mabbutt",
+     "party": "Democrat",
+     "phone": "(509) 334-8558"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Bill Thompson",
+     "party": "Democrat",
+     "phone": "(208) 883-2246"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Richard Skiles",
+     "party": "Republican",
+     "phone": "(208) 882-2216"
+    },
+    {
+     "office": "Treasurer",
+     "name": "BJ Swanson",
+     "party": "Republican",
+     "phone": "(208) 883-2253"
+    }
+   ]
+  },
+  "Lemhi": {
+   "address": "206 Courthouse Drive, Salmon, ID 83467",
+   "seat": "Salmon",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Rick Carlson",
+     "party": "Republican",
+     "phone": "(208) 742-1665"
+    },
+    {
+     "district": "2",
+     "name": "Kim Caywood",
+     "party": "Republican",
+     "phone": "(208) 940-1546"
+    },
+    {
+     "district": "3",
+     "name": "Lynn Bowerman",
+     "party": "Republican",
+     "phone": "(208) 742-1665"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jenny Rosin",
+     "party": "Republican",
+     "phone": "(208) 742-1723"
+    },
+    {
+     "office": "Clerk",
+     "name": "Teresa Morton",
+     "party": "Republican",
+     "phone": "(208) 742-1667"
+    },
+    {
+     "office": "Coroner",
+     "name": "Mike Ernest",
+     "party": "Republican",
+     "phone": "(208) 940-0760"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Chace Slavin",
+     "party": "Republican",
+     "phone": "(208) 756-2009"
+    },
+    {
+     "office": "Sheriff",
+     "name": "John Bennett",
+     "party": "Republican",
+     "phone": "(208) 756-8980"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Kammy McFarland",
+     "party": "Republican",
+     "phone": "(208) 742-1694"
+    }
+   ]
+  },
+  "Lewis": {
+   "address": "510 Oak Street Room 1, Nez Perce, ID 83543",
+   "seat": "Nez Perce",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Greg Johnson",
+     "party": "Republican",
+     "phone": "(208) 937-2661"
+    },
+    {
+     "district": "2",
+     "name": "Justin McLeod",
+     "party": "Republican",
+     "phone": "(208) 937-2661"
+    },
+    {
+     "district": "3",
+     "name": "Eric Hasselstrom",
+     "party": "Republican",
+     "phone": "(208) 937-2661"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Joann Watson",
+     "party": "Republican",
+     "phone": "(208) 937-2320"
+    },
+    {
+     "office": "Clerk",
+     "name": "Lisa Winner",
+     "party": "Democrat",
+     "phone": "(208) 937-2661"
+    },
+    {
+     "office": "Coroner",
+     "name": "Bruce Long",
+     "party": "Republican",
+     "phone": "(208) 937-2447"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Zachary Pall",
+     "party": "Independent",
+     "phone": "(208) 937-2271"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Jason Davis",
+     "party": "Republican",
+     "phone": "(208) 937-2447"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Shelley Ponozzo",
+     "party": "Republican",
+     "phone": "(208) 937-2341"
+    }
+   ]
+  },
+  "Lincoln": {
+   "address": "111 West B Street Suite C, Shoshone, ID 83352",
+   "seat": "Shoshone",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Joann H. Rutler",
+     "party": "Republican",
+     "phone": "(208) 539-4541"
+    },
+    {
+     "district": "2",
+     "name": "Rebecca Wood",
+     "party": "Republican",
+     "phone": "(208) 886-7641"
+    },
+    {
+     "district": "3",
+     "name": "Nathan W. Schutte",
+     "party": "Republican",
+     "phone": "(208) 320-2911"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Linda Jones",
+     "party": "Republican",
+     "phone": "(208) 886-2161"
+    },
+    {
+     "office": "Clerk",
+     "name": "Jennifer Hohnhorst",
+     "party": "Republican",
+     "phone": "(208) 886-7641"
+    },
+    {
+     "office": "Coroner",
+     "name": "Mike Piper",
+     "party": "Republican",
+     "phone": "(208) 539-3056"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Richard Roats",
+     "party": "Republican",
+     "phone": "(208) 886-2454"
+    },
+    {
+     "office": "Sheriff",
+     "name": "R. King",
+     "party": "Republican",
+     "phone": "(208) 886-2250"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Ann Youts",
+     "party": "Republican",
+     "phone": "(208) 886-7681"
+    }
+   ]
+  },
+  "Madison": {
+   "address": "134 E Main, Rexburg, ID 83440",
+   "seat": "Rexburg",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Brent Mendenhall",
+     "party": "Republican",
+     "phone": "(208) 359-6200"
+    },
+    {
+     "district": "2",
+     "name": "Dustin Parkinson",
+     "party": "Republican",
+     "phone": "(208) 359-6200"
+    },
+    {
+     "district": "3",
+     "name": "Todd Smith",
+     "party": "Republican",
+     "phone": "(208) 313-5035"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Shawn Boice",
+     "party": "Republican",
+     "phone": "(208) 359-6200"
+    },
+    {
+     "office": "Clerk",
+     "name": "Kim Muir",
+     "party": "Republican",
+     "phone": "(208) 359-6244"
+    },
+    {
+     "office": "Coroner",
+     "name": "Sam Butikofer",
+     "party": "Republican",
+     "phone": "(208) 716-1082"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Rob H. Wood",
+     "party": "Republican",
+     "phone": "(208) 356-7768"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Ron Ball",
+     "party": "Republican",
+     "phone": "(208) 372-5000"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Angie Moffat",
+     "party": "Republican",
+     "phone": "(208) 359-6264"
+    }
+   ]
+  },
+  "Minidoka": {
+   "address": "715 G Street, Rupert, ID 83350",
+   "seat": "Rupert",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Sheryl Koyle",
+     "party": "Republican",
+     "phone": "(208) 436-7180"
+    },
+    {
+     "district": "2",
+     "name": "Dan Schaeffer",
+     "party": "Republican",
+     "phone": "(208) 436-7180"
+    },
+    {
+     "district": "3",
+     "name": "Jared Orton",
+     "party": "Republican",
+     "phone": "(208) 436-7180"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Janice West",
+     "party": "Republican",
+     "phone": "(208) 436-7181"
+    },
+    {
+     "office": "Clerk",
+     "name": "Tonya Page",
+     "party": "Republican",
+     "phone": "(208) 436-7180"
+    },
+    {
+     "office": "Coroner",
+     "name": "Lucky Bourn",
+     "party": "Republican",
+     "phone": "(208) 300-0342"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Lance Stevenson",
+     "party": "Republican",
+     "phone": "(208) 436-7187"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Dave Pinther",
+     "party": "Republican",
+     "phone": "(208) 434-2320"
+    },
+    {
+     "office": "Treasurer",
+     "name": "LaVonna Dayley",
+     "party": "Republican",
+     "phone": "(208) 436-7188"
+    }
+   ]
+  },
+  "Nez Perce": {
+   "address": "1230 Main St., Lewiston, ID 83501",
+   "seat": "Lewiston",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Don Beck",
+     "party": "Republican",
+     "phone": "(208) 799-3090"
+    },
+    {
+     "district": "2",
+     "name": "Douglas Havens",
+     "party": "Republican",
+     "phone": "(208) 799-3090"
+    },
+    {
+     "district": "3",
+     "name": "Douglas Zenner",
+     "party": "Republican",
+     "phone": "(208) 799-3090"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Dan Anderson",
+     "party": "Democrat",
+     "phone": "(208) 799-3010"
+    },
+    {
+     "office": "Clerk",
+     "name": "Patty Weeks",
+     "party": "Democrat",
+     "phone": "(208) 799-3020"
+    },
+    {
+     "office": "Coroner",
+     "name": "Joshua Hall",
+     "party": "Republican",
+     "phone": "(208) 799-3074"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Justin Coleman",
+     "party": "Independent",
+     "phone": "(208) 799-3073"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Bryce Scrimsher",
+     "party": "Republican",
+     "phone": "(208) 799-3131"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Rebecca “Missy” McLaughlin",
+     "party": "Democrat",
+     "phone": "(208) 799-3030"
+    }
+   ]
+  },
+  "Oneida": {
+   "address": "10 Court Street, Malad, ID 83252",
+   "seat": "Malad",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Bill Lewis",
+     "party": "Republican",
+     "phone": "(208) 970-1379"
+    },
+    {
+     "district": "2",
+     "name": "Ken Eliason",
+     "party": "Republican",
+     "phone": "(208) 604-3341"
+    },
+    {
+     "district": "3",
+     "name": "Brian Jeppsen",
+     "party": "Republican",
+     "phone": "(208) 760-0296"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Kathleen Atkinson",
+     "party": "Republican",
+     "phone": "(208) 766-4116"
+    },
+    {
+     "office": "Clerk",
+     "name": "Lon Colton",
+     "party": "Republican",
+     "phone": "(208) 766-4116"
+    },
+    {
+     "office": "Coroner",
+     "name": "Brad Horsley",
+     "party": "Republican",
+     "phone": "(208) 317-5251"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Cody Brower",
+     "party": "Republican",
+     "phone": "(208) 766-2201"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Arne Jones",
+     "party": "Republican",
+     "phone": "(208) 766-2252"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Leigh Love",
+     "party": "Republican",
+     "phone": "(208) 766-4116"
+    }
+   ]
+  },
+  "Owyhee": {
+   "address": "20381 State Hwy 78, Murphy, ID 83650",
+   "seat": "Murphy",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Walt Holton",
+     "party": "Republican",
+     "phone": "(208) 495-2421"
+    },
+    {
+     "district": "2",
+     "name": "Kelly Aberasturi",
+     "party": "Republican",
+     "phone": "(208) 495-2421"
+    },
+    {
+     "district": "3",
+     "name": "Cindy Bachman",
+     "party": "Republican",
+     "phone": "(208) 495-2421"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Tiffany Nettleton",
+     "party": "Republican",
+     "phone": "(208) 495-2817"
+    },
+    {
+     "office": "Clerk",
+     "name": "Angela Barkell",
+     "party": "Republican",
+     "phone": "(208) 495-2421"
+    },
+    {
+     "office": "Coroner",
+     "name": "Aaron Tines",
+     "party": "Republican",
+     "phone": "(208) 880-7537"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Christopher Topmiller",
+     "party": "Republican",
+     "phone": "(208) 495-1153"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Larry Kendrick",
+     "party": "Republican",
+     "phone": "(208) 495-1154"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Annette Dygert",
+     "party": "Republican",
+     "phone": "(208) 495-1158"
+    }
+   ]
+  },
+  "Payette": {
+   "address": "1130 3rd Ave N Rm 104, Payette, ID 83661",
+   "seat": "Payette",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Anne-Marie Kelso",
+     "party": "Republican",
+     "phone": "(208) 642-6000"
+    },
+    {
+     "district": "2",
+     "name": "Jennifer Riebe",
+     "party": "Republican",
+     "phone": "(208) 642-6000"
+    },
+    {
+     "district": "3",
+     "name": "Reece Hrizuk",
+     "party": "Republican",
+     "phone": "(208) 642-6000"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Sandy Clason",
+     "party": "Republican",
+     "phone": "(208) 642-6012"
+    },
+    {
+     "office": "Clerk",
+     "name": "Lindsey Bratcher",
+     "party": "Republican",
+     "phone": "(208) 642-6000"
+    },
+    {
+     "office": "Coroner",
+     "name": "Keith Schuller",
+     "party": "Republican",
+     "phone": "(208) 452-3377"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Michael Duke",
+     "party": "Republican",
+     "phone": "(208) 642-6096"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Andrew “Andy” Creech",
+     "party": "Republican",
+     "phone": "(208) 642-6006"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Joan Howell",
+     "party": "Republican",
+     "phone": "(208) 642-6004"
+    }
+   ]
+  },
+  "Power": {
+   "address": "543 Bannock Ave, American Falls, ID 83211",
+   "seat": "American Falls",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Ronald Funk",
+     "party": "Democrat",
+     "phone": "(208) 339-2129"
+    },
+    {
+     "district": "2",
+     "name": "Krsyt Krein",
+     "party": "Republican",
+     "phone": "(208) 313-5779"
+    },
+    {
+     "district": "3",
+     "name": "Delane Anderson",
+     "party": "Republican",
+     "phone": "(208) 317-6825"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Laura Porath",
+     "party": "Republican",
+     "phone": "(208) 226-7616"
+    },
+    {
+     "office": "Clerk",
+     "name": "Sharee Sprague",
+     "party": "Republican",
+     "phone": "(208) 226-7611"
+    },
+    {
+     "office": "Coroner",
+     "name": "Mark Rose",
+     "party": "Republican",
+     "phone": "(208) 226-2147"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Jason “Mack” Mackrill",
+     "party": "Republican",
+     "phone": "(208) 226-1230"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Joshua R. Campbell",
+     "party": "Republican",
+     "phone": "(208) 226-2311"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Deanna Curry",
+     "party": "Republican",
+     "phone": "(208) 226-7614"
+    }
+   ]
+  },
+  "Shoshone": {
+   "address": "700 Bank Street #120, Wallace, ID 83873",
+   "seat": "Wallace",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Tracy Casady",
+     "party": "Democrat",
+     "phone": "(208) 752-3331"
+    },
+    {
+     "district": "2",
+     "name": "David Dose",
+     "party": "Republican",
+     "phone": "(208) 752-3331"
+    },
+    {
+     "district": "3",
+     "name": "Jeffery Zimmerman",
+     "party": "Republican",
+     "phone": "(208) 752-3331"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Jerry White",
+     "party": "Democrat",
+     "phone": "(208) 752-1202"
+    },
+    {
+     "office": "Clerk",
+     "name": "Lori Osterberg",
+     "party": "Republican",
+     "phone": "(208) 752-1264"
+    },
+    {
+     "office": "Coroner",
+     "name": "Richard “Rick” Smith",
+     "party": "Democrat",
+     "phone": "(208) 786-5121"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Benjamin Allen",
+     "party": "Republican",
+     "phone": "(208) 752-1106"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Holly Lindsey",
+     "party": "Democrat",
+     "phone": "(208) 556-1114"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Karey Eddy",
+     "party": "Democrat",
+     "phone": "(208) 752-1261"
+    }
+   ]
+  },
+  "Teton": {
+   "address": "150 Courthouse Drive #208, Driggs, ID 83422",
+   "seat": "Driggs",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Cindy Riegel",
+     "party": "Democrat",
+     "phone": "(208) 354-8775"
+    },
+    {
+     "district": "2",
+     "name": "Dan Powers",
+     "party": "Democrat",
+     "phone": "(208) 354-8771"
+    },
+    {
+     "district": "3",
+     "name": "Bob Heneage",
+     "party": "Republican",
+     "phone": "(208) 354-8771"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Havala Arnold",
+     "party": "Republican",
+     "phone": "(208) 354-3507"
+    },
+    {
+     "office": "Clerk",
+     "name": "Kim Keeley",
+     "party": "Democrat",
+     "phone": "(208) 354-8771"
+    },
+    {
+     "office": "Coroner",
+     "name": "Theresa Lerch",
+     "party": "Republican",
+     "phone": "(208) 354-8770"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Bailey Smith",
+     "party": "Republican",
+     "phone": "(208) 821-6298"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Clint Lemieux",
+     "party": "Republican",
+     "phone": "(208) 354-2323"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Elizabeth Card",
+     "party": "Democrat",
+     "phone": "(208) 354-2254"
+    }
+   ]
+  },
+  "Twin Falls": {
+   "address": "425 Shoshone St. N., Twin Falls, ID 83303",
+   "seat": "Twin Falls",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Brent Reinke",
+     "party": "Republican",
+     "phone": "(208) 736-4068"
+    },
+    {
+     "district": "2",
+     "name": "Don Hall",
+     "party": "Republican",
+     "phone": "(208) 736-4068"
+    },
+    {
+     "district": "3",
+     "name": "Jack Johnson",
+     "party": "Republican",
+     "phone": "(208) 736-4068"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Bradford Wills",
+     "party": "Republican",
+     "phone": "(208) 736-4009"
+    },
+    {
+     "office": "Clerk",
+     "name": "Kristina Glascock",
+     "party": "Republican",
+     "phone": "(208) 736-4004"
+    },
+    {
+     "office": "Coroner",
+     "name": "Gene Turley",
+     "party": "Republican",
+     "phone": "(208) 733-7610"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Grant Loebs",
+     "party": "Republican",
+     "phone": "(208) 736-4020"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Tom Carter",
+     "party": "Republican",
+     "phone": "(208) 736-4177"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Becky Petersen",
+     "party": "Republican",
+     "phone": "(208) 736-4092"
+    }
+   ]
+  },
+  "Valley": {
+   "address": "219 N. Main St., Cascade, ID 83611",
+   "seat": "Cascade",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Katlin Caldwell",
+     "party": "Republican",
+     "phone": "(208) 382-7100"
+    },
+    {
+     "district": "2",
+     "name": "Sherry L. Maupin",
+     "party": "Republican",
+     "phone": "(208) 382-7100"
+    },
+    {
+     "district": "3",
+     "name": "Neal Thompson",
+     "party": "Republican",
+     "phone": "(208) 382-7100"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Sue Leeper",
+     "party": "Republican",
+     "phone": "(208) 382-7126"
+    },
+    {
+     "office": "Clerk",
+     "name": "Douglas Miller",
+     "party": "Republican",
+     "phone": "(208) 382-7102"
+    },
+    {
+     "office": "Coroner",
+     "name": "Scott Carver",
+     "party": "Republican",
+     "phone": "(208) 634-2220"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Brian Naugle",
+     "party": "Republican",
+     "phone": "(208) 382-7120"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Kevin Copperi",
+     "party": "Republican",
+     "phone": "(208) 382-7150"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Johanna Defoort",
+     "party": "Republican",
+     "phone": "(208) 382-7111"
+    }
+   ]
+  },
+  "Washington": {
+   "address": "256 E. Court St., Weiser, ID 83672",
+   "seat": "Weiser",
+   "commissioners": [
+    {
+     "district": "1",
+     "name": "Lyndon Haines",
+     "party": "Republican",
+     "phone": "(208) 414-2789"
+    },
+    {
+     "district": "2",
+     "name": "Nathan “Nate” Marvin",
+     "party": "Republican",
+     "phone": "(208) 414-2789"
+    },
+    {
+     "district": "3",
+     "name": "Gordon Wilkerson",
+     "party": "Republican",
+     "phone": "(208) 414-2092"
+    }
+   ],
+   "officers": [
+    {
+     "office": "Assessor",
+     "name": "Debbie Moxley-Potter",
+     "party": "Republican",
+     "phone": "(208) 414-2000"
+    },
+    {
+     "office": "Clerk",
+     "name": "Donna White",
+     "party": "Republican",
+     "phone": "(208) 414-2019"
+    },
+    {
+     "office": "Coroner",
+     "name": "Gary Jensen",
+     "party": "Republican",
+     "phone": "(208) 805-8673"
+    },
+    {
+     "office": "Prosecutor",
+     "name": "Delton Walker",
+     "party": "Republican",
+     "phone": "(208) 414-0390"
+    },
+    {
+     "office": "Sheriff",
+     "name": "Matt Thomas",
+     "party": "Republican",
+     "phone": "(208) 414-2121"
+    },
+    {
+     "office": "Treasurer",
+     "name": "Sabrina Young",
+     "party": "Republican",
+     "phone": "(208) 414-0324"
+    }
+   ]
+  }
+ }
+}

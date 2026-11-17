@@ -80,6 +80,11 @@ def sync_issue(title, lines, closing):
 def main():
     import yaml
     items = upkeep_items(yaml.safe_load(SOURCES.read_text()), date.today())
+    roster = ROOT / "site" / "data" / "county_officials.json"
+    if roster.exists():
+        meta = json.loads(roster.read_text())
+        if meta.get("review_by") and date.fromisoformat(meta["review_by"]) <= date.today() + timedelta(days=AHEAD):
+            items.append(f"- **County officials roster** (`site/data/county_officials.json`): {meta.get('review_note', '')} (by {meta['review_by']}).")
     sync_issue(UPKEEP_TITLE, (["These hand-entered schedules or planned changes need a human look in the next "
                                f"{AHEAD} days. Once their meetings pass, the calendar quietly goes empty for them.", ""]
                               + items) if items else [], "Every hand-entered schedule has dates for the next three weeks.")

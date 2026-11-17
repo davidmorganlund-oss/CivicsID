@@ -207,3 +207,9 @@ h3 { font-family: var(--sans); }
 .find label { font-size: 14px; font-weight: 600; }
 .find input { height: 46px; padding: 0 14px; border: 2px solid var(--chip-line); border-radius: 10px; font: inherit; font-size: 16px; background: var(--card); color: var(--ink); }
 .find input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* County officers on the representatives page */
+.more-officials { margin: 6px 0 10px; }
+.more-officials summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.people .office { font-weight: 600; }
+.small-print { font-size: 14px; }

@@ -23,6 +23,7 @@
 
   var officials = null;
   var localData = null;
+  var countyOfficials = null;
   var $ = function (id) { return document.getElementById(id); };
 
   function el(tag, cls, text) {
@@ -122,6 +123,38 @@
     return card;
   }
 
+  // County commissioners and officers, from the Idaho Blue Book
+  // (data/county_officials.json). Every county voter elects all three
+  // commissioners; each one must live in the district they run for.
+  function addCountyOfficials(card, county) {
+    var c = countyOfficials && countyOfficials.counties && countyOfficials.counties[county];
+    if (!c) return;
+    card.appendChild(el('h4', null, 'County Commissioners'));
+    people(card, c.commissioners.map(function (o) {
+      return { name: o.name, seat: null, party: o.party, phone: o.phone, district: o.district };
+    }), 'No commissioners listed.');
+    var items = card.querySelectorAll('ul.people li.person');
+    c.commissioners.forEach(function (o, i) {
+      if (items[i]) items[i].insertBefore(el('span', 'muted', ' · District ' + o.district), items[i].children[1] || null);
+    });
+    card.appendChild(el('p', 'muted', 'Every voter in the county elects all three commissioners. Each one must live in the district they represent.'));
+    var more = el('details', 'more-officials');
+    more.appendChild(el('summary', null, 'Other elected county officers'));
+    var ul = el('ul', 'people');
+    c.officers.forEach(function (o) {
+      var li = person({ name: o.name, party: o.party, phone: o.phone });
+      li.insertBefore(el('span', 'office', o.office + ': '), li.firstChild);
+      ul.appendChild(li);
+    });
+    more.appendChild(ul);
+    card.appendChild(more);
+    var src = el('p', 'muted small-print');
+    src.appendChild(document.createTextNode('From the '));
+    src.appendChild(link(countyOfficials.source_url, '2025–2026 Idaho Blue Book'));
+    src.appendChild(document.createTextNode('. County officers elected in November 2026 take office in January 2027, so confirm with the county before you call.'));
+    card.appendChild(src);
+  }
+
   function render(match) {
     var g = match.geographies;
     var out = $('results');
@@ -150,7 +183,9 @@
       : localCard('City', 'Outside city limits', null, 'This address is in an unincorporated area, so the county is your local government.'));
 
     if (county) {
-      out.appendChild(localCard('County', county + ' County', LOCAL.counties[county], 'Your three county commissioners are listed on the county’s website. We have not added a direct link for this county yet.', localData && localData.counties[county]));
+      var cc = localCard('County', county + ' County', LOCAL.counties[county], 'Your three county commissioners are listed on the county’s website. We have not added a direct link for this county yet.', localData && localData.counties[county]);
+      addCountyOfficials(cc, county);
+      out.appendChild(cc);
     }
 
     var seats = (officials && officials.legislators && officials.legislators[ld]) || null;
@@ -208,5 +243,6 @@
   });
 
   fetch('data/local.json').then(function (r) { return r.json(); }).then(function (d) { localData = d; }).catch(function () {});
-  fetch('data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
+  fetch('data/county_officials.json').then(function (r) { return r.json(); }).then(function (d) { countyOfficials = d; }).catch(function () {});
+    fetch('data/officials.json').then(function (r) { return r.json(); }).then(function (d) { officials = d; }).catch(function () {});
 })();
