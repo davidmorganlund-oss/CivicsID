@@ -4,47 +4,47 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Idaho Legislature
 BEGIN:VEVENT
 UID:b56f15bd2430@civicsid
-DTSTAMP:20261117T185556Z
+DTSTAMP:20261117T191010Z
 DTSTART:20261118T163000Z
 DTEND:20261118T173000Z
 SUMMARY:Joint Legislative Oversight Committee (Idaho Legislature)
 LOCATION:
-URL:https://legislature.idaho.gov/?p=18021&mc_id=2676
+URL:https://legislature.idaho.gov/sessioninfo/2026/joint/jloc
 END:VEVENT
 BEGIN:VEVENT
 UID:41aae96ec33a@civicsid
-DTSTAMP:20261117T185556Z
+DTSTAMP:20261117T191010Z
 DTSTART:20261118T170000Z
 DTEND:20261118T180000Z
 SUMMARY:Committee on Uniform Accounting and Transparency (Idaho Legislature)
 LOCATION:
-URL:https://legislature.idaho.gov/?p=18021&mc_id=2674
+URL:https://legislature.idaho.gov/sessioninfo/2026/interim/uat
 END:VEVENT
 BEGIN:VEVENT
 UID:9b81eefd6fa4@civicsid
-DTSTAMP:20261117T185556Z
+DTSTAMP:20261117T191010Z
 DTSTART:20261119T160000Z
 DTEND:20261119T170000Z
 SUMMARY:Rural Health Transformation Committee (Idaho Legislature)
 LOCATION:
-URL:https://legislature.idaho.gov/?p=18021&mc_id=2675
+URL:https://legislature.idaho.gov/sessioninfo/2026/interim/rhtc
 END:VEVENT
 BEGIN:VEVENT
 UID:f93731e7872c@civicsid
-DTSTAMP:20261117T185556Z
+DTSTAMP:20261117T191010Z
 DTSTART:20261119T233000Z
 DTEND:20261120T003000Z
 SUMMARY:Citizens' Committee on Legislative Compensation (Idaho Legislature)
 LOCATION:
-URL:https://legislature.idaho.gov/?p=18021&mc_id=2672
+URL:https://legislature.idaho.gov/sessioninfo/2026/interim/comp
 END:VEVENT
 BEGIN:VEVENT
 UID:3d5b3b8a0dec@civicsid
-DTSTAMP:20261117T185556Z
+DTSTAMP:20261117T191010Z
 DTSTART:20261120T170000Z
 DTEND:20261120T180000Z
 SUMMARY:Medicaid Review Panel (Idaho Legislature)
 LOCATION:
-URL:https://legislature.idaho.gov/?p=18021&mc_id=2671
+URL:https://legislature.idaho.gov/sessioninfo/2026/interim/mrp
 END:VEVENT
 END:VCALENDAR

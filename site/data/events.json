@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T11:55:56-07:00",
+ "generated": "2026-11-17T12:10:10-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -190,24 +190,6 @@
    "all_day": false,
    "location": "504 S. Washington Street, Moscow",
    "url": "https://moscowid.portal.civicclerk.com/event/4011/overview",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "83b35980d580",
-   "title": "BOCC: Status Update",
-   "host": "Kootenai County",
-   "source": "kootenai-county",
-   "area": "countywide",
-   "county": "Kootenai",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-17T10:00:00-08:00",
-   "end": "2026-11-17T11:00:00-08:00",
-   "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -714,8 +696,8 @@
    "end": "2026-11-18T10:30:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2676",
-   "agenda_url": "",
+   "url": "https://legislature.idaho.gov/sessioninfo/2026/joint/jloc",
+   "agenda_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261118_jloc_0930AM-Agenda.pdf",
    "note": "",
    "cancelled": false
   },
@@ -751,8 +733,8 @@
    "end": "2026-11-18T11:00:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2674",
-   "agenda_url": "",
+   "url": "https://legislature.idaho.gov/sessioninfo/2026/interim/uat",
+   "agenda_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261118_uat_1000AM-Agenda.pdf",
    "note": "",
    "cancelled": false
   },
@@ -1357,8 +1339,8 @@
    "end": "2026-11-19T10:00:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2675",
-   "agenda_url": "",
+   "url": "https://legislature.idaho.gov/sessioninfo/2026/interim/rhtc",
+   "agenda_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261119_rhtc_0900AM-Agenda.pdf",
    "note": "",
    "cancelled": false
   },
@@ -1633,8 +1615,8 @@
    "end": "2026-11-19T17:30:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2672",
-   "agenda_url": "",
+   "url": "https://legislature.idaho.gov/sessioninfo/2026/interim/comp",
+   "agenda_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261119_comp_0430PM-Agenda.pdf",
    "note": "",
    "cancelled": false
   },
@@ -1816,7 +1798,7 @@
    "end": "2026-11-20T11:00:00-07:00",
    "all_day": false,
    "location": "",
-   "url": "https://legislature.idaho.gov/?p=18021&mc_id=2671",
+   "url": "https://legislature.idaho.gov/sessioninfo/2026/interim/mrp",
    "agenda_url": "",
    "note": "",
    "cancelled": false
