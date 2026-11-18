@@ -1684,9 +1684,13 @@ def main() -> int:
     # Clean-ups the nightly checks pointed at:
     # - a feed that lists the same meeting twice (same source, start and name)
     # - meetings "at midnight", which in these feeds means no time was given
+    # - office closures ("Closed for Thanksgiving"), which some calendars mix in
+    closure = re.compile(r"^\s*(office(s)?\s+)?closed\b|\boffices? closed\b|\bclosed for\b", re.I)
     seen, cleaned = set(), []
     for e in all_events:
-        key = (e["source"], e["start"], " ".join(e["title"].lower().split()))
+        if closure.search(e["title"]):
+            continue
+        key =(e["source"], e["start"], " ".join(e["title"].lower().split()))
         if key in seen:
             continue
         seen.add(key)
