@@ -49,9 +49,12 @@ def upkeep_items(cfg, today):
         review = src.get("review_by")
         if review and date.fromisoformat(str(review)) <= horizon:
             items.append(f"- **{src['name']}** (`{src['id']}`): {src.get('review_note', 'planned change due')} (by {review}).")
+        ruled = {m["title"] for m in src.get("meetings", []) if m.get("when")}
         for mtg in src.get("meetings", []):
             if mtg.get("one_off"):
                 continue  # a single special meeting, not a series that needs more dates
+            if mtg.get("dates") and mtg["title"] in ruled:
+                continue  # the dates bridge a gap; a regular rule for the same meeting takes over
             last = max([date.fromisoformat(str(d)) for d in mtg.get("dates", [])], default=None)
             until = mtg.get("until") and date.fromisoformat(str(mtg["until"]))
             end = last if (last and not mtg.get("when")) else until
