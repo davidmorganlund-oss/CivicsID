@@ -1,135 +1,2401 @@
 {
- "n": 257,
- "bad": [
-  [
-   "https://adacounty.id.gov/",
-   403,
-   ""
-  ],
-  [
-   "https://article.meridiancity.org/mayorsblog/2026-state-of-the-city/",
-   403,
-   ""
-  ],
-  [
-   "https://ballotpedia.org/Campaign_finance_in_Idaho",
-   202,
-   ""
-  ],
-  [
-   "https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho",
-   202,
-   ""
-  ],
-  [
-   "https://ballotpedia.org/School_bond_and_tax_elections_in_Idaho",
-   202,
-   ""
-  ],
-  [
-   "https://constitution.congress.gov/constitution/",
-   403,
-   ""
-  ],
-  [
-   "https://meridiancity.org/",
-   403,
-   ""
-  ],
-  [
-   "https://oneidacountyid.com/",
-   403,
-   ""
-  ],
-  [
-   "https://sos.idaho.gov/blue_book/2021/05_Judicial.pdf",
-   404,
-   ""
-  ],
-  [
-   "https://sos.idaho.gov/blue_book/2021/06_County.pdf",
-   404,
-   ""
-  ],
-  [
-   "https://www.blainecountyid.gov/",
-   403,
-   ""
-  ],
-  [
-   "https://www.boisecounty.us/",
-   403,
-   ""
-  ],
-  [
-   "https://www.cbo.gov/topics/budget",
-   403,
-   ""
-  ],
-  [
-   "https://www.cityofnampa.us/",
-   403,
-   ""
-  ],
-  [
-   "https://www.cityofnampa.us/1612/Public-Meetings",
-   403,
-   ""
-  ],
-  [
-   "https://www.cityofnampa.us/529/Office-of-the-Mayor",
-   403,
-   ""
-  ],
-  [
-   "https://www.co.bingham.id.us/",
-   0,
-   "SSLError"
-  ],
-  [
-   "https://www.co.custer.id.us/",
-   0,
-   "SSLError"
-  ],
-  [
-   "https://www.co.fremont.id.us/",
-   403,
-   ""
-  ],
-  [
-   "https://www.congress.gov/",
-   403,
-   ""
-  ],
-  [
-   "https://www.eastidahonews.com/?p=802717",
-   403,
-   ""
-  ],
-  [
-   "https://www.eastidahonews.com/?p=802748",
-   403,
-   ""
-  ],
-  [
-   "https://www.lewiscountyid.us/",
-   0,
-   "SSLError"
-  ],
-  [
-   "https://www.lincolncountyid.gov/",
-   403,
-   ""
-  ],
-  [
-   "https://www.lincolncountyid.gov/meetings",
-   403,
-   ""
-  ],
-  [
-   "https://www.regulations.gov/",
-   403,
-   ""
+ "legislature": {
+  "type": "legislature",
+  "count": 5,
+  "sample": [
+   [
+    "2026-11-18T09:30",
+    "Joint Legislative Oversight Committee",
+    "https://legislature.idaho.gov/sessioninfo/2026/joint/jloc",
+    "",
+    false
+   ],
+   [
+    "2026-11-18T10:00",
+    "Committee on Uniform Accounting and Transparency",
+    "https://legislature.idaho.gov/sessioninfo/2026/interim/uat",
+    "",
+    false
+   ],
+   [
+    "2026-11-19T09:00",
+    "Rural Health Transformation Committee",
+    "https://legislature.idaho.gov/sessioninfo/2026/interim/rhtc",
+    "",
+    false
+   ],
+   [
+    "2026-11-19T16:30",
+    "Citizens' Committee on Legislative Compensation",
+    "https://legislature.idaho.gov/sessioninfo/2026/interim/comp",
+    "",
+    false
+   ]
   ]
- ]
+ },
+ "boise": {
+  "type": "escribe",
+  "count": 22,
+  "sample": [
+   [
+    "2027-01-12T15:30",
+    "City Council Work Session",
+    "https://pub-cityofboise.escribemeetings.com/",
+    "City Hall - Maryanne Jordan City Council Chambers,",
+    false
+   ],
+   [
+    "2026-12-07T15:00",
+    "Hearing Examiner",
+    "https://pub-cityofboise.escribemeetings.com/",
+    "City Hall - Maryanne Jordan City Council Chambers,",
+    false
+   ],
+   [
+    "2026-11-18T09:00",
+    "Special Events Team",
+    "https://pub-cityofboise.escribemeetings.com/MeetingsCalendarView.aspx/Meeting?Id=40eb4e85-",
+    "City Hall - Maryanne Jordan City Council Chambers,",
+    false
+   ],
+   [
+    "2026-12-09T17:45",
+    "Design Review Commission Work Session",
+    "https://pub-cityofboise.escribemeetings.com/",
+    "City Hall - Maryanne Jordan City Council Chambers,",
+    false
+   ]
+  ]
+ },
+ "boise-council-iqm2": {
+  "type": "iqm2_rss",
+  "count": 0,
+  "sample": []
+ },
+ "meridian": {
+  "type": "civicclerk",
+  "count": 21,
+  "sample": [
+   [
+    "2026-11-17T16:30",
+    "City Council Work Session",
+    "https://meridianid.portal.civicclerk.com/event/93/overview",
+    "",
+    false
+   ],
+   [
+    "2026-11-17T18:00",
+    "City Council Regular Meeting",
+    "https://meridianid.portal.civicclerk.com/event/40/overview",
+    "",
+    false
+   ],
+   [
+    "2026-11-24T16:30",
+    "City Council Work Session",
+    "https://meridianid.portal.civicclerk.com/event/94/overview",
+    "",
+    false
+   ],
+   [
+    "2026-11-24T18:00",
+    "City Council Regular Meeting",
+    "https://meridianid.portal.civicclerk.com/event/41/overview",
+    "",
+    false
+   ]
+  ]
+ },
+ "kuna": {
+  "type": "civicplus",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-17T18:00",
+    "Kuna City Regular Council Meeting",
+    "https://www.kunacity.id.gov/Calendar.aspx?EID=4471",
+    "Kuna City Hall Chambers",
+    false
+   ],
+   [
+    "2026-11-24T18:00",
+    "Kuna Planning & Zoning Commission Meeting",
+    "https://www.kunacity.id.gov/Calendar.aspx?EID=4446",
+    "Kuna City Hall Chambers",
+    false
+   ],
+   [
+    "2026-12-01T18:00",
+    "Kuna City Regular Council Meeting",
+    "https://www.kunacity.id.gov/Calendar.aspx?EID=4459",
+    "Kuna City Hall Chambers",
+    false
+   ],
+   [
+    "2026-12-08T18:00",
+    "Kuna Planning & Zoning Commission Meeting",
+    "https://www.kunacity.id.gov/Calendar.aspx?EID=4434",
+    "Kuna City Hall Chambers",
+    false
+   ]
+  ]
+ },
+ "star": {
+  "type": "civicplus",
+  "count": 0,
+  "sample": []
+ },
+ "achd": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-18T12:00",
+    "ACHD Commission meeting",
+    "https://www.achdidaho.org/about-achd/commission/commission-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-02T12:00",
+    "ACHD Commission meeting",
+    "https://www.achdidaho.org/about-achd/commission/commission-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-09T12:00",
+    "ACHD Commission meeting",
+    "https://www.achdidaho.org/about-achd/commission/commission-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-16T12:00",
+    "ACHD Commission meeting",
+    "https://www.achdidaho.org/about-achd/commission/commission-meetings",
+    "",
+    false
+   ]
+  ]
+ },
+ "caldwell": {
+  "type": "civicclerk",
+  "count": 5,
+  "sample": [
+   [
+    "2026-12-07T18:00",
+    "City Council Meeting",
+    "https://caldwellid.portal.civicclerk.com/event/1016/overview",
+    "Caldwell City Hall Council Chambers, 205 S 6th Ave",
+    false
+   ],
+   [
+    "2026-12-14T18:00",
+    "Caldwell Urban Renewal Agency Meeting",
+    "https://caldwellid.portal.civicclerk.com/event/1042/overview",
+    "Caldwell City Hall Council Chambers",
+    false
+   ],
+   [
+    "2026-12-21T18:00",
+    "City Council Meeting",
+    "https://caldwellid.portal.civicclerk.com/event/1029/overview",
+    "Caldwell City Hall Council Chambers, 205 S 6th Ave",
+    false
+   ],
+   [
+    "2027-01-04T18:00",
+    "City Council Meeting",
+    "https://caldwellid.portal.civicclerk.com/event/1017/overview",
+    "Caldwell City Hall Council Chambers, 205 S 6th Ave",
+    false
+   ]
+  ]
+ },
+ "idaho-falls": {
+  "type": "civicplus",
+  "count": 6,
+  "sample": [
+   [
+    "2026-11-18T08:00",
+    "City Council Meeting ** MOVED to 11/18/2026 - Utility Board ",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4106",
+    "Event Location, Council Chambers",
+    false
+   ],
+   [
+    "2026-12-07T15:00",
+    "City Council Work Session",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4081",
+    "Event Location, Council Chambers",
+    false
+   ],
+   [
+    "2026-12-10T18:30",
+    "City Council Meeting",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4103",
+    "Event Location, Council Chambers",
+    false
+   ],
+   [
+    "2026-12-14T15:00",
+    "City Council Work Session",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4082",
+    "Event Location, Council Chambers",
+    false
+   ]
+  ]
+ },
+ "pocatello": {
+  "type": "civicplus",
+  "count": 36,
+  "sample": [
+   [
+    "2026-11-17T11:00",
+    "Community Development Block Grant Advisory Committee Meeting",
+    "https://www.pocatello.gov/Calendar.aspx?EID=8996",
+    "Paradice Conference Room, 911 N 7th Ave",
+    false
+   ],
+   [
+    "2026-11-17T16:00",
+    "Library Board Meeting",
+    "https://www.pocatello.gov/Calendar.aspx?EID=8624",
+    "Marshall Public Library, 113 S. Garfield Avenue",
+    false
+   ],
+   [
+    "2026-11-18T11:00",
+    "Pocatello Development Authority Meeting",
+    "https://www.pocatello.gov/Calendar.aspx?EID=8075",
+    "Council Chambers, 911 N 7th Ave",
+    false
+   ],
+   [
+    "2026-11-18T17:30",
+    "Planning & Zoning Commission Clarification Meeting",
+    "https://www.pocatello.gov/Calendar.aspx?EID=8506",
+    "Council Chambers, 911 N 7th Ave",
+    false
+   ]
+  ]
+ },
+ "twin-falls": {
+  "type": "civicclerk",
+  "count": 22,
+  "sample": [
+   [
+    "2026-11-17T18:00",
+    "Planning and Zoning Commission Meeting",
+    "https://twinfallsid.portal.civicclerk.com/event/6056/overview",
+    "203 Main Ave East, Twin Falls",
+    false
+   ],
+   [
+    "2026-11-18T15:30",
+    "Health Plan Trustee",
+    "https://twinfallsid.portal.civicclerk.com/event/6948/overview",
+    "203 Main Ave E, Twin Falls",
+    true
+   ],
+   [
+    "2026-11-19T09:00",
+    "Special Meeting Posting: Twin Falls Rural Fire District",
+    "https://twinfallsid.portal.civicclerk.com/event/7054/overview",
+    "345 2nd Avenue East, Twin Falls",
+    false
+   ],
+   [
+    "2026-11-19T12:00",
+    "Public Art Commission 11/19/26 Special Meeting",
+    "https://twinfallsid.portal.civicclerk.com/event/7041/overview",
+    "",
+    false
+   ]
+  ]
+ },
+ "mccall": {
+  "type": "civicplus",
+  "count": 16,
+  "sample": [
+   [
+    "2026-11-19T17:30",
+    "Regular City Council Meeting",
+    "https://www.mccall.id.us/Calendar.aspx?EID=1742",
+    "Community Room, 218 Park Street",
+    false
+   ],
+   [
+    "2026-12-03T17:30",
+    "Regular City Council Meeting",
+    "https://www.mccall.id.us/Calendar.aspx?EID=1743",
+    "Community Room, 218 Park Street",
+    false
+   ],
+   [
+    "2026-12-10T17:30",
+    "Special City Council Meeting",
+    "https://www.mccall.id.us/Calendar.aspx?EID=1765",
+    "Community Room, 218 Park Street",
+    false
+   ],
+   [
+    "2026-12-17T17:30",
+    "Regular City Council Meeting",
+    "https://www.mccall.id.us/Calendar.aspx?EID=1744",
+    "Community Room, 218 Park Street",
+    false
+   ]
+  ]
+ },
+ "kootenai-county": {
+  "type": "civicplus",
+  "count": 0,
+  "sample": []
+ },
+ "coeur-dalene": {
+  "type": "schedule",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-17T18:00",
+    "City Council Meeting",
+    "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+    "Coeur d'Alene Public Library Community Room",
+    false
+   ],
+   [
+    "2026-12-01T18:00",
+    "City Council Meeting",
+    "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+    "Coeur d'Alene Public Library Community Room",
+    false
+   ],
+   [
+    "2026-12-15T18:00",
+    "City Council Meeting",
+    "https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/",
+    "Coeur d'Alene Public Library Community Room",
+    false
+   ]
+  ]
+ },
+ "coeur-dalene-boards": {
+  "type": "libcal",
+  "count": 4,
+  "sample": [
+   [
+    "2026-12-07T12:00",
+    "General Services/Public Works",
+    "https://cdalibrary.libcal.com/event/13648095",
+    "Community Room (Room 116)",
+    false
+   ],
+   [
+    "2026-12-21T12:00",
+    "General Services/Public Works",
+    "https://cdalibrary.libcal.com/event/13648096",
+    "Community Room (Room 116)",
+    false
+   ],
+   [
+    "2027-01-11T12:00",
+    "General Services/ Public Works",
+    "https://cdalibrary.libcal.com/event/17666910",
+    "Community Room (Room 116)",
+    false
+   ],
+   [
+    "2027-01-12T17:30",
+    "Planning Commission",
+    "https://cdalibrary.libcal.com/event/17667324",
+    "Community Room (Room 116)",
+    false
+   ]
+  ]
+ },
+ "cda-library": {
+  "type": "libcal",
+  "count": 2,
+  "sample": [
+   [
+    "2026-12-08T10:30",
+    "Friends of the Library Meeting",
+    "https://cdalibrary.libcal.com/event/16011085",
+    "Gozzer Conference Room (Room 132)",
+    false
+   ],
+   [
+    "2026-12-09T16:00",
+    "Library Board Meetings",
+    "https://cdalibrary.libcal.com/event/13684603",
+    "Coeur d'Alene Public Library, Nelson Room (Room 20",
+    false
+   ]
+  ]
+ },
+ "community-library-network": {
+  "type": "libcal",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-19T14:00",
+    "Board of Trustees Regular Meeting",
+    "https://communitylibrary.libcal.com/event/17709652",
+    "Post Falls Library, Meeting Room 1, Meeting Room 2",
+    false
+   ],
+   [
+    "2026-12-17T14:00",
+    "Board of Trustees Regular Meeting",
+    "https://communitylibrary.libcal.com/event/17409309",
+    "Post Falls Library, Meeting Room 1, Meeting Room 2",
+    false
+   ]
+  ]
+ },
+ "east-bonner-library": {
+  "type": "mec_library",
+  "count": 0,
+  "sample": []
+ },
+ "latah-library": {
+  "type": "mec_library",
+  "count": 0,
+  "sample": []
+ },
+ "hayden": {
+  "type": "boardbook",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-18T16:00",
+    "Parks, Recreation, and Community Forestry Commission Meeting",
+    "https://meetings.boardbook.org/Public/Agenda/2366?meeting=777612",
+    "Hayden City Hall Council Chambers, 8930 N. Governm",
+    false
+   ]
+  ]
+ },
+ "rathdrum": {
+  "type": "schedule",
+  "count": 6,
+  "sample": [
+   [
+    "2026-12-09T17:30",
+    "City Council Meeting",
+    "https://www.rathdrum.gov/calendar",
+    "Rathdrum City Hall, 8047 W. Main Street",
+    false
+   ],
+   [
+    "2027-01-13T17:30",
+    "City Council Meeting",
+    "https://www.rathdrum.gov/1114/2026-council-meeting-schedule",
+    "Rathdrum City Hall, 8047 W. Main Street",
+    false
+   ],
+   [
+    "2026-11-18T17:30",
+    "Public Input Session with Planning & Zoning Commissioners",
+    "https://www.rathdrum.gov/calendar",
+    "Rathdrum City Hall, 8047 W. Main Street",
+    false
+   ],
+   [
+    "2026-11-18T17:30",
+    "Planning & Zoning Commission Meeting",
+    "https://www.rathdrum.gov/66/planning-and-zoning-commission",
+    "Rathdrum City Hall, 8047 W. Main Street",
+    false
+   ]
+  ]
+ },
+ "dalton-gardens": {
+  "type": "schedule",
+  "count": 7,
+  "sample": [
+   [
+    "2026-11-18T18:00",
+    "Regular City Council Meeting",
+    "https://daltongardens.com/citycouncil",
+    "",
+    false
+   ],
+   [
+    "2026-12-30T18:00",
+    "Regular City Council Meeting",
+    "https://daltongardens.com/citycouncil",
+    "",
+    false
+   ],
+   [
+    "2026-12-03T18:00",
+    "Planning and Zoning Meeting",
+    "https://daltongardens.com/planning",
+    "",
+    false
+   ],
+   [
+    "2026-12-09T17:00",
+    "Dalton Water Board Meeting",
+    "https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704",
+    "",
+    false
+   ]
+  ]
+ },
+ "post-falls": {
+  "type": "civicplus",
+  "count": 6,
+  "sample": [
+   [
+    "2026-11-17T17:00",
+    "City Council Meeting",
+    "https://www.postfalls.gov/Calendar.aspx?EID=741",
+    "City Council Chambers, 408 N. Spokane Street",
+    false
+   ],
+   [
+    "2026-12-01T17:00",
+    "City Council Meeting",
+    "https://www.postfalls.gov/Calendar.aspx?EID=1433",
+    "City Council Chambers, 408 N. Spokane Street",
+    false
+   ],
+   [
+    "2026-12-08T17:30",
+    "Planning & Zoning Commission Meeting",
+    "https://www.postfalls.gov/Calendar.aspx?EID=794",
+    "City Council Chambers, 408 N. Spokane Street",
+    false
+   ],
+   [
+    "2026-12-15T17:00",
+    "City Council Meeting",
+    "https://www.postfalls.gov/Calendar.aspx?EID=742",
+    "City Council Chambers, 408 N. Spokane Street",
+    false
+   ]
+  ]
+ },
+ "lewiston": {
+  "type": "civicclerk",
+  "count": 23,
+  "sample": [
+   [
+    "2026-11-17T12:00",
+    "Emergency Medical Services Advisory Board Meeting",
+    "https://lewistonid.portal.civicclerk.com/event/2053/overview",
+    "Lewiston Fire Department-Station 1 Training room, ",
+    false
+   ],
+   [
+    "2026-11-18T17:00",
+    "Parks and Recreation Commission",
+    "https://lewistonid.portal.civicclerk.com/event/2071/overview",
+    "1424 Main Street, Lewiston",
+    false
+   ],
+   [
+    "2026-11-18T17:30",
+    "Library Board of Trustees Meeting",
+    "https://lewistonid.portal.civicclerk.com/event/921/overview",
+    "Lewiston City Library, 411 D Street, Lewiston",
+    false
+   ],
+   [
+    "2026-11-18T17:30",
+    "Planning and Zoning Commission - Special Meeting",
+    "https://lewistonid.portal.civicclerk.com/event/2069/overview",
+    "215 D St., Lewiston",
+    false
+   ]
+  ]
+ },
+ "moscow": {
+  "type": "civicclerk",
+  "count": 44,
+  "sample": [
+   [
+    "2026-11-17T09:30",
+    "Farmers Market Commission Policy Subcommittee Meeting",
+    "https://moscowid.portal.civicclerk.com/event/4011/overview",
+    "504 S. Washington Street, Moscow",
+    false
+   ],
+   [
+    "2026-11-17T16:00",
+    "Human Rights Commission Regular Meeting",
+    "https://moscowid.portal.civicclerk.com/event/3895/overview",
+    "206 E 3rd St, Moscow",
+    false
+   ],
+   [
+    "2026-11-17T18:00",
+    "Sustainable Environment Commission",
+    "https://moscowid.portal.civicclerk.com/event/3729/overview",
+    "",
+    true
+   ],
+   [
+    "2026-11-18T19:00",
+    "DATE CHANGE Planning & Zoning Commission Regular Meeting",
+    "https://moscowid.portal.civicclerk.com/event/3949/overview",
+    "Council Chambers, 206 E Third Street, Moscow",
+    false
+   ]
+  ]
+ },
+ "bannock-county": {
+  "type": "tribe",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-19T09:00",
+    "Bannock County Commissioners\u2019 Work Session and Claims Meetin",
+    "https://www.bannockcounty.gov/event/work-session-19nov-2026/",
+    "Bannock County Courthouse, room 119",
+    false
+   ],
+   [
+    "2026-12-01T09:00",
+    "Bannock County Commissioners\u2019 Meeting",
+    "https://www.bannockcounty.gov/event/bannock-county-commissioners-meeting-action-item/",
+    "Bannock County Courthouse, room 119",
+    false
+   ],
+   [
+    "2026-12-15T11:00",
+    "Public Hearing \u2013 Comp Plan FLUM Amendment and Rezone Applica",
+    "https://www.bannockcounty.gov/event/public-hearing-comp-plan-flum-amendment-and-rezone-app",
+    "Bannock County Courthouse, room 119",
+    false
+   ]
+  ]
+ },
+ "bonner-county": {
+  "type": "evo",
+  "count": 40,
+  "sample": [
+   [
+    "2026-11-17T09:00",
+    "Bonner County - Business Meeting",
+    "https://www.bonnercountyid.gov/events/99430/",
+    "Bonner County Administrative Building, 1500 US-2, ",
+    false
+   ],
+   [
+    "2026-11-17T13:00",
+    "BOCC - Land Use Hearing",
+    "https://www.bonnercountyid.gov/events/101854/",
+    "Bonner County Administrative Building, 1500 US-2, ",
+    false
+   ],
+   [
+    "2026-11-17T16:30",
+    "Planning Commission",
+    "https://www.bonnercountyid.gov/events/102505/",
+    "Bonner County Administrative Building, 1500 US-2, ",
+    true
+   ],
+   [
+    "2026-11-18T09:00",
+    "Tax Cancellations",
+    "https://www.bonnercountyid.gov/events/98424/",
+    "Bonner County Administrative Building, 1500 US-2, ",
+    true
+   ]
+  ]
+ },
+ "valley-county": {
+  "type": "evo",
+  "count": 7,
+  "sample": [
+   [
+    "2026-11-19T16:00",
+    "PZ Commission - PUD 26-001 Red Ridge Village - Continuation",
+    "https://www.valleycountyid.gov/events/17687/",
+    "Valley County Courthouse, 219 N. Main St., Cascade",
+    false
+   ],
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners Meeting",
+    "https://www.valleycountyid.gov/events/17585/",
+    "Valley County Courthouse, 219 N. Main St., Cascade",
+    false
+   ],
+   [
+    "2026-11-30T17:30",
+    "Recreation Advisory Council meeting",
+    "https://www.valleycountyid.gov/events/17723/",
+    "",
+    false
+   ],
+   [
+    "2026-12-07T08:00",
+    "Board of County Commissioners Meeting",
+    "https://www.valleycountyid.gov/events/17586/",
+    "Valley County Courthouse, 219 N. Main St., Cascade",
+    false
+   ]
+  ]
+ },
+ "cassia-county": {
+  "type": "evo",
+  "count": 0,
+  "sample": []
+ },
+ "cassia-county-schedule": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners",
+    "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
+    "Commission Chambers, Room 206, 1459 Overland Avenu",
+    false
+   ],
+   [
+    "2026-11-30T09:00",
+    "Board of County Commissioners",
+    "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
+    "Commission Chambers, Room 206, 1459 Overland Avenu",
+    false
+   ],
+   [
+    "2026-12-07T09:00",
+    "Board of County Commissioners",
+    "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
+    "Commission Chambers, Room 206, 1459 Overland Avenu",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Board of County Commissioners",
+    "https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf",
+    "Commission Chambers, Room 206, 1459 Overland Avenu",
+    false
+   ]
+  ]
+ },
+ "canyon-county": {
+  "type": "canyon_agenda",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-17T09:30",
+    "Board of County Commissioners",
+    "https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-17",
+    "County Courthouse, 1115 Albany Street, Caldwell",
+    false
+   ]
+  ]
+ },
+ "madison-county": {
+  "type": "revize",
+  "count": 5,
+  "sample": [
+   [
+    "2026-12-14T08:30",
+    "Commissioner's Meeting",
+    "https://www.madisoncountyid.gov/calendar.php",
+    "Commissioners Meeting Room",
+    false
+   ],
+   [
+    "2026-12-28T08:30",
+    "Commissioner's Meeting",
+    "https://www.madisoncountyid.gov/calendar.php",
+    "Commissioners Meeting Room",
+    false
+   ],
+   [
+    "2026-11-23T08:30",
+    "Commissioner's Meeting",
+    "https://www.madisoncountyid.gov/calendar.php",
+    "Commissioners Meeting Room",
+    false
+   ],
+   [
+    "2026-11-18T18:30",
+    "Planning & Zoning Commission Public Meeting",
+    "https://www.madisoncountyid.gov/calendar.php",
+    "",
+    false
+   ]
+  ]
+ },
+ "franklin-county": {
+  "type": "revize",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Commissioner Meeting",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "Franklin County Courthouse Board Room 39 West Onei",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Commissioner Meeting",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "Franklin County Courthouse Board Room 39 West Onei",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Commissioner Meeting",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "Franklin County Courthouse Board Room 39 West Onei",
+    false
+   ],
+   [
+    "2026-11-19T16:50",
+    "Public Hearings for Kratom; Crypto; and Glass Pipes 6:30 p.m",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "Courthouse - Board Room",
+    false
+   ]
+  ]
+ },
+ "franklin-county-schedule": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Board of County Commissioners",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "",
+    false
+   ],
+   [
+    "2027-01-11T00:00",
+    "Board of County Commissioners",
+    "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+    "",
+    false
+   ]
+  ]
+ },
+ "clearwater-county": {
+  "type": "revize",
+  "count": 0,
+  "sample": []
+ },
+ "clearwater-county-schedule": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-23T08:00",
+    "Board of County Commissioners",
+    "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
+    "",
+    false
+   ],
+   [
+    "2026-11-30T08:00",
+    "Board of County Commissioners",
+    "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-07T08:00",
+    "Board of County Commissioners",
+    "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T08:00",
+    "Board of County Commissioners",
+    "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
+    "",
+    false
+   ]
+  ]
+ },
+ "teton-county": {
+  "type": "revize",
+  "count": 4,
+  "sample": [
+   [
+    "2026-12-10T15:00",
+    "Waterways Recreation Committee",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "Commissioner's Meeting Room, 150 Courthouse Dr, 1s",
+    false
+   ],
+   [
+    "2026-11-18T19:00",
+    "Regular Fair Board Meeting",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "150 Courthouse Dr, Driggs, Idaho, 83422",
+    false
+   ],
+   [
+    "2026-12-09T19:01",
+    "Fair Board Meeting",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "Commissioners' Meeting Room, 150 Courthouse Drive,",
+    false
+   ],
+   [
+    "2026-11-19T09:00",
+    "Special Board of County Commissioner Meeting",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "Commissioners' Meeting Room, 150 Courthouse Dr, Dr",
+    false
+   ]
+  ]
+ },
+ "teton-county-schedule": {
+  "type": "schedule",
+  "count": 6,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Board of County Commissioners",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T09:00",
+    "Board of County Commissioners",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "",
+    false
+   ],
+   [
+    "2027-01-11T09:00",
+    "Board of County Commissioners",
+    "https://pub-tetoncounty.escribemeetings.com/",
+    "",
+    false
+   ]
+  ]
+ },
+ "fremont-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "BOCC Regular Meeting",
+    "https://www.fremontcountyid.gov/calendar.aspx?CID=41",
+    "Fremont County Courthouse, 151 W 1st N, St. Anthon",
+    false
+   ],
+   [
+    "2026-12-07T09:00",
+    "BOCC Regular Meeting",
+    "https://www.fremontcountyid.gov/calendar.aspx?CID=41",
+    "Fremont County Courthouse, 151 W 1st N, St. Anthon",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "BOCC Regular Meeting",
+    "https://www.fremontcountyid.gov/calendar.aspx?CID=41",
+    "Fremont County Courthouse, 151 W 1st N, St. Anthon",
+    false
+   ],
+   [
+    "2026-12-28T09:00",
+    "BOCC Regular Meeting",
+    "https://www.fremontcountyid.gov/calendar.aspx?CID=41",
+    "Fremont County Courthouse, 151 W 1st N, St. Anthon",
+    false
+   ]
+  ]
+ },
+ "jefferson-county": {
+  "type": "civicplus",
+  "count": 10,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "County Commissioner Meeting",
+    "https://www.jcgov.us/Calendar.aspx?EID=5309",
+    "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+    false
+   ],
+   [
+    "2026-11-30T09:00",
+    "County Commissioner Meeting",
+    "https://www.jcgov.us/Calendar.aspx?EID=5310",
+    "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+    false
+   ],
+   [
+    "2026-12-07T09:00",
+    "County Commissioner Meeting",
+    "https://www.jcgov.us/Calendar.aspx?EID=5311",
+    "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "County Commissioner Meeting",
+    "https://www.jcgov.us/Calendar.aspx?EID=5312",
+    "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+    false
+   ]
+  ]
+ },
+ "lemhi-county": {
+  "type": "civicplus",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Lemhi County Commissioners Meeting",
+    "https://www.lemhicountyidaho.org/Calendar.aspx?EID=384",
+    "Event Location, 200 Fulton St",
+    false
+   ],
+   [
+    "2026-12-14T07:30",
+    "Lemhi County Commissioners Meeting",
+    "https://www.lemhicountyidaho.org/Calendar.aspx?EID=285",
+    "Event Location, 200 Fulton St",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Lemhi County Commissioners Meeting",
+    "https://www.lemhicountyidaho.org/Calendar.aspx?EID=385",
+    "Event Location, 200 Fulton St",
+    false
+   ],
+   [
+    "2027-01-11T07:30",
+    "Lemhi County Commissioners Meeting",
+    "https://www.lemhicountyidaho.org/Calendar.aspx?EID=286",
+    "Event Location, 200 Fulton St",
+    false
+   ]
+  ]
+ },
+ "minidoka-county": {
+  "type": "civicplus",
+  "count": 0,
+  "sample": []
+ },
+ "power-county": {
+  "type": "civicplus",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Commissioner's Meeting",
+    "https://www.powercounty.gov/Calendar.aspx?EID=1023",
+    "Commission Chambers, 543 Bannock Ave.",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Commissioner's Meeting",
+    "https://www.powercounty.gov/Calendar.aspx?EID=1015",
+    "Commission Chambers, 543 Bannock Ave.",
+    false
+   ],
+   [
+    "2026-12-28T09:00",
+    "Commissioner's Meeting",
+    "https://www.powercounty.gov/Calendar.aspx?EID=1024",
+    "Commission Chambers, 543 Bannock Ave.",
+    false
+   ]
+  ]
+ },
+ "washington-county": {
+  "type": "civicplus",
+  "count": 9,
+  "sample": [
+   [
+    "2026-11-23T10:00",
+    "Weiser Ambulance District Meeting",
+    "https://www.co.washington.id.us/Calendar.aspx?EID=1462",
+    "Event Location, 256 E. Court Street",
+    false
+   ],
+   [
+    "2026-11-30T10:00",
+    "Weiser Ambulance District Meeting",
+    "https://www.co.washington.id.us/Calendar.aspx?EID=1463",
+    "Event Location, 256 E. Court Street",
+    false
+   ],
+   [
+    "2026-12-07T10:00",
+    "Weiser Ambulance District Meeting",
+    "https://www.co.washington.id.us/Calendar.aspx?EID=1464",
+    "Event Location, 256 E. Court Street",
+    false
+   ],
+   [
+    "2026-12-08T19:00",
+    "Weed Advisory Board Meeting",
+    "https://www.co.washington.id.us/Calendar.aspx?EID=1603",
+    "Event Location, 1118 E. Court Street",
+    false
+   ]
+  ]
+ },
+ "clark-county": {
+  "type": "agendacenter",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-19T00:00",
+    "Clark County BOCC Special Meeting",
+    "https://www.clark-co.id.gov/AgendaCenter",
+    "Commissioners' Chambers, 224 W. Main Street, Duboi",
+    false
+   ]
+  ]
+ },
+ "jerome-county": {
+  "type": "agendacenter",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-17T00:00",
+    "Commissioners Meeting",
+    "https://www.jeromecountyid.us/AgendaCenter",
+    "",
+    false
+   ]
+  ]
+ },
+ "gooding-county": {
+  "type": "agendacenter",
+  "count": 0,
+  "sample": []
+ },
+ "gooding-county-schedule": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-23T10:00",
+    "Board of County Commissioners",
+    "https://www.goodingcounty.org/agendacenter",
+    "145 7th Avenue East, Gooding",
+    false
+   ],
+   [
+    "2026-11-30T10:00",
+    "Board of County Commissioners",
+    "https://www.goodingcounty.org/agendacenter",
+    "145 7th Avenue East, Gooding",
+    false
+   ],
+   [
+    "2026-12-07T10:00",
+    "Board of County Commissioners",
+    "https://www.goodingcounty.org/agendacenter",
+    "145 7th Avenue East, Gooding",
+    false
+   ],
+   [
+    "2026-12-14T10:00",
+    "Board of County Commissioners",
+    "https://www.goodingcounty.org/agendacenter",
+    "145 7th Avenue East, Gooding",
+    false
+   ]
+  ]
+ },
+ "payette-county": {
+  "type": "jevents",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Commissioners Meeting",
+    "https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioners-meeting",
+    "",
+    false
+   ]
+  ]
+ },
+ "benewah-county": {
+  "type": "ics",
+  "count": 0,
+  "sample": []
+ },
+ "lincoln-county": {
+  "type": "schedule",
+  "count": 7,
+  "sample": [
+   [
+    "2026-11-23T10:00",
+    "Board of Commissioners Meeting",
+    "https://www.lincolncountyid.gov/meetings",
+    "Lincoln County Courthouse, 111 W B St, Shoshone",
+    false
+   ],
+   [
+    "2026-12-07T10:00",
+    "Board of Commissioners Meeting",
+    "https://www.lincolncountyid.gov/meetings",
+    "Lincoln County Courthouse, 111 W B St, Shoshone",
+    false
+   ],
+   [
+    "2026-12-14T10:00",
+    "Board of Commissioners Meeting",
+    "https://www.lincolncountyid.gov/meetings",
+    "Lincoln County Courthouse, 111 W B St, Shoshone",
+    false
+   ],
+   [
+    "2026-12-21T10:00",
+    "Board of Commissioners Meeting",
+    "https://www.lincolncountyid.gov/meetings",
+    "Lincoln County Courthouse, 111 W B St, Shoshone",
+    false
+   ]
+  ]
+ },
+ "ketchum": {
+  "type": "civicplus",
+  "count": 6,
+  "sample": [
+   [
+    "2026-11-19T09:00",
+    "Traffic Authority",
+    "https://ketchumidaho.gov/Calendar.aspx?EID=667",
+    "City Hall, P.O. Box 2315",
+    false
+   ],
+   [
+    "2026-11-30T17:30",
+    "City Council",
+    "https://ketchumidaho.gov/Calendar.aspx?EID=659",
+    "City Hall, P.O. Box 2315",
+    false
+   ],
+   [
+    "2026-12-04T10:00",
+    "Planning & Zoning Commission Special Workshop with Legal",
+    "https://ketchumidaho.gov/Calendar.aspx?EID=763",
+    "City Hall, P.O. Box 2315",
+    false
+   ],
+   [
+    "2026-12-10T17:30",
+    "City Council",
+    "https://ketchumidaho.gov/Calendar.aspx?EID=653",
+    "City Hall, P.O. Box 2315",
+    false
+   ]
+  ]
+ },
+ "idaho-county": {
+  "type": "schedule",
+  "count": 9,
+  "sample": [
+   [
+    "2026-11-17T09:00",
+    "Idaho County Commissioners",
+    "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
+    "Idaho County Courthouse, 320 West Main Street, Gra",
+    false
+   ],
+   [
+    "2026-11-24T09:00",
+    "Idaho County Commissioners",
+    "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
+    "Idaho County Courthouse, 320 West Main Street, Gra",
+    false
+   ],
+   [
+    "2026-12-01T09:00",
+    "Idaho County Commissioners",
+    "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
+    "Idaho County Courthouse, 320 West Main Street, Gra",
+    false
+   ],
+   [
+    "2026-12-08T09:00",
+    "Idaho County Commissioners",
+    "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
+    "Idaho County Courthouse, 320 West Main Street, Gra",
+    false
+   ]
+  ]
+ },
+ "nez-perce-county": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-23T13:30",
+    "County Commissioners agenda meeting",
+    "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
+    "Confluence Room, 1st Floor, New Courthouse, 1230 M",
+    false
+   ],
+   [
+    "2026-11-30T13:30",
+    "County Commissioners agenda meeting",
+    "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
+    "Confluence Room, 1st Floor, New Courthouse, 1230 M",
+    false
+   ],
+   [
+    "2026-12-07T13:30",
+    "County Commissioners agenda meeting",
+    "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
+    "Confluence Room, 1st Floor, New Courthouse, 1230 M",
+    false
+   ],
+   [
+    "2026-12-14T13:30",
+    "County Commissioners agenda meeting",
+    "https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas",
+    "Confluence Room, 1st Floor, New Courthouse, 1230 M",
+    false
+   ]
+  ]
+ },
+ "shoshone-county": {
+  "type": "schedule",
+  "count": 9,
+  "sample": [
+   [
+    "2026-11-18T09:30",
+    "Commissioners Regular Business Meeting",
+    "https://shoshonecounty.id.gov/commissioners/",
+    "",
+    false
+   ],
+   [
+    "2026-11-25T09:30",
+    "Commissioners Regular Business Meeting",
+    "https://shoshonecounty.id.gov/commissioners/",
+    "",
+    false
+   ],
+   [
+    "2026-12-02T09:30",
+    "Commissioners Regular Business Meeting",
+    "https://shoshonecounty.id.gov/commissioners/",
+    "",
+    false
+   ],
+   [
+    "2026-12-09T09:30",
+    "Commissioners Regular Business Meeting",
+    "https://shoshonecounty.id.gov/commissioners/",
+    "",
+    false
+   ]
+  ]
+ },
+ "boundary-county": {
+  "type": "schedule",
+  "count": 17,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://boundarycountyid.org/meetings/",
+    "",
+    false
+   ],
+   [
+    "2026-11-30T00:00",
+    "Board of County Commissioners",
+    "https://boundarycountyid.org/meetings/",
+    "",
+    false
+   ],
+   [
+    "2026-12-07T00:00",
+    "Board of County Commissioners",
+    "https://boundarycountyid.org/meetings/",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://boundarycountyid.org/meetings/",
+    "",
+    false
+   ]
+  ]
+ },
+ "adams-county": {
+  "type": "schedule",
+  "count": 5,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://www.co.adams.id.us/public-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://www.co.adams.id.us/public-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-21T00:00",
+    "Board of County Commissioners",
+    "https://www.co.adams.id.us/public-meetings",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Board of County Commissioners",
+    "https://www.co.adams.id.us/public-meetings",
+    "",
+    false
+   ]
+  ]
+ },
+ "bear-lake-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners",
+    "https://www.bearlakecounty.info/meetings.html",
+    "Commissioners' Room, Bear Lake County Courthouse, ",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Board of County Commissioners",
+    "https://www.bearlakecounty.info/meetings.html",
+    "Commissioners' Room, Bear Lake County Courthouse, ",
+    false
+   ],
+   [
+    "2026-12-28T09:00",
+    "Board of County Commissioners",
+    "https://www.bearlakecounty.info/meetings.html",
+    "Commissioners' Room, Bear Lake County Courthouse, ",
+    false
+   ],
+   [
+    "2027-01-11T09:00",
+    "Board of County Commissioners",
+    "https://www.bearlakecounty.info/meetings.html",
+    "Commissioners' Room, Bear Lake County Courthouse, ",
+    false
+   ]
+  ]
+ },
+ "bingham-county": {
+  "type": "schedule",
+  "count": 18,
+  "sample": [
+   [
+    "2026-11-18T08:15",
+    "Bingham County Commission",
+    "https://www.binghamid.gov/",
+    "501 N. Maple, Blackfoot",
+    false
+   ],
+   [
+    "2026-11-25T08:15",
+    "Bingham County Commission",
+    "https://www.binghamid.gov/",
+    "501 N. Maple, Blackfoot",
+    false
+   ],
+   [
+    "2026-12-02T08:15",
+    "Bingham County Commission",
+    "https://www.binghamid.gov/",
+    "501 N. Maple, Blackfoot",
+    false
+   ],
+   [
+    "2026-12-09T08:15",
+    "Bingham County Commission",
+    "https://www.binghamid.gov/",
+    "501 N. Maple, Blackfoot",
+    false
+   ]
+  ]
+ },
+ "boise-county": {
+  "type": "schedule",
+  "count": 9,
+  "sample": [
+   [
+    "2026-11-17T09:00",
+    "Board of County Commissioners",
+    "https://www.boisecounty.us/?p=620",
+    "",
+    false
+   ],
+   [
+    "2026-11-24T09:00",
+    "Board of County Commissioners",
+    "https://www.boisecounty.us/?p=620",
+    "",
+    false
+   ],
+   [
+    "2026-12-01T09:00",
+    "Board of County Commissioners",
+    "https://www.boisecounty.us/?p=620",
+    "",
+    false
+   ],
+   [
+    "2026-12-08T09:00",
+    "Board of County Commissioners",
+    "https://www.boisecounty.us/?p=620",
+    "",
+    false
+   ]
+  ]
+ },
+ "butte-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://buttecountyid.us/butte-county-public-meetings/",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://buttecountyid.us/butte-county-public-meetings/",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Board of County Commissioners",
+    "https://buttecountyid.us/butte-county-public-meetings/",
+    "",
+    false
+   ],
+   [
+    "2027-01-11T00:00",
+    "Board of County Commissioners",
+    "https://buttecountyid.us/butte-county-public-meetings/",
+    "",
+    false
+   ]
+  ]
+ },
+ "camas-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://camascounty.id.gov/category/commissioner-agenda/",
+    "Camas County Annex, 517 Soldier Road, Fairfield",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://camascounty.id.gov/category/commissioner-agenda/",
+    "Camas County Annex, 517 Soldier Road, Fairfield",
+    false
+   ],
+   [
+    "2026-12-21T00:00",
+    "Board of County Commissioners",
+    "https://camascounty.id.gov/category/commissioner-agenda/",
+    "Camas County Annex, 517 Soldier Road, Fairfield",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Board of County Commissioners",
+    "https://camascounty.id.gov/category/commissioner-agenda/",
+    "Camas County Annex, 517 Soldier Road, Fairfield",
+    false
+   ]
+  ]
+ },
+ "caribou-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners",
+    "https://www.cariboucounty.us/government/public_meeting.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Board of County Commissioners",
+    "https://www.cariboucounty.us/government/public_meeting.php",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T09:00",
+    "Board of County Commissioners",
+    "https://www.cariboucounty.us/government/public_meeting.php",
+    "",
+    false
+   ],
+   [
+    "2027-01-11T09:00",
+    "Board of County Commissioners",
+    "https://www.cariboucounty.us/government/public_meeting.php",
+    "",
+    false
+   ]
+  ]
+ },
+ "custer-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-23T00:00",
+    "Board of County Commissioners",
+    "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
+    "",
+    false
+   ],
+   [
+    "2026-12-14T00:00",
+    "Board of County Commissioners",
+    "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
+    "",
+    false
+   ],
+   [
+    "2026-12-28T00:00",
+    "Board of County Commissioners",
+    "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
+    "",
+    false
+   ],
+   [
+    "2027-01-11T00:00",
+    "Board of County Commissioners",
+    "https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/",
+    "",
+    false
+   ]
+  ]
+ },
+ "elmore-county": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-20T00:00",
+    "Board of County Commissioners",
+    "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
+    "Commissioners Room, basement of the Elmore County ",
+    false
+   ],
+   [
+    "2026-12-04T00:00",
+    "Board of County Commissioners",
+    "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
+    "Commissioners Room, basement of the Elmore County ",
+    false
+   ],
+   [
+    "2026-12-11T00:00",
+    "Board of County Commissioners",
+    "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
+    "Commissioners Room, basement of the Elmore County ",
+    false
+   ],
+   [
+    "2026-12-18T00:00",
+    "Board of County Commissioners",
+    "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
+    "Commissioners Room, basement of the Elmore County ",
+    false
+   ]
+  ]
+ },
+ "owyhee-county": {
+  "type": "schedule",
+  "count": 7,
+  "sample": [
+   [
+    "2026-11-23T09:00",
+    "Board of County Commissioners",
+    "https://owyheecounty.net/commissioners/meetings/",
+    "Courtroom No. 2, Owyhee County Courthouse, Murphy",
+    false
+   ],
+   [
+    "2026-12-07T09:00",
+    "Board of County Commissioners",
+    "https://owyheecounty.net/commissioners/meetings/",
+    "Courtroom No. 2, Owyhee County Courthouse, Murphy",
+    false
+   ],
+   [
+    "2026-12-14T09:00",
+    "Board of County Commissioners",
+    "https://owyheecounty.net/commissioners/meetings/",
+    "Courtroom No. 2, Owyhee County Courthouse, Murphy",
+    false
+   ],
+   [
+    "2026-12-21T09:00",
+    "Board of County Commissioners",
+    "https://owyheecounty.net/commissioners/meetings/",
+    "Courtroom No. 2, Owyhee County Courthouse, Murphy",
+    false
+   ]
+  ]
+ },
+ "malad-city": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-12-09T18:00",
+    "City Council",
+    "https://maladidaho.org/city-council-calendar/",
+    "Malad City Hall (in person or by Zoom)",
+    false
+   ],
+   [
+    "2027-01-13T18:00",
+    "City Council",
+    "https://maladidaho.org/city-council-calendar/",
+    "Malad City Hall (in person or by Zoom)",
+    false
+   ]
+  ]
+ },
+ "gem-county": {
+  "type": "pdf_agendas",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-17T08:30",
+    "Board of County Commissioners",
+    "https://www.gemcounty.org/11-16%20%26%2017-26%20Commissioner%20Agenda.pdf",
+    "Commissioners Meeting Room, Gem County Courthouse,",
+    false
+   ]
+  ]
+ },
+ "lewis-county": {
+  "type": "next_meeting",
+  "error": "RobotsBlocked: robots.txt at www.lewiscountyid.us asks automated readers not to read /Elected-Officials/Commissioners/Meeting-Agendas"
+ },
+ "ada-county": {
+  "type": "ada_agendas",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-17T09:00",
+    "Board of County Commissioners: Open Business Meeting",
+    "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026",
+    "Commissioners' Conference Room 3255, Ada County Co",
+    false
+   ],
+   [
+    "2026-11-17T09:15",
+    "Board of County Commissioners: Emergency Medical Services Di",
+    "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026",
+    "Commissioners' Conference Room 3255, Ada County Co",
+    false
+   ],
+   [
+    "2026-11-18T18:00",
+    "Board of County Commissioners: Public Hearing",
+    "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026",
+    "1st Floor Public Hearing Room, Ada County Courthou",
+    false
+   ]
+  ]
+ },
+ "nampa": {
+  "type": "schedule",
+  "count": 3,
+  "sample": [
+   [
+    "2026-12-07T17:00",
+    "City Council",
+    "https://www.cityofnampa.us/1612/Public-Meetings",
+    "Council Chambers, Nampa City Hall, 411 3rd St S",
+    false
+   ],
+   [
+    "2026-12-21T17:00",
+    "City Council",
+    "https://www.cityofnampa.us/1612/Public-Meetings",
+    "Council Chambers, Nampa City Hall, 411 3rd St S",
+    false
+   ],
+   [
+    "2027-01-04T17:00",
+    "City Council",
+    "https://www.cityofnampa.us/1612/Public-Meetings",
+    "Council Chambers, Nampa City Hall, 411 3rd St S",
+    false
+   ]
+  ]
+ },
+ "boise-schools": {
+  "type": "notice_page",
+  "count": 0,
+  "sample": []
+ },
+ "west-ada-schools": {
+  "type": "simbli",
+  "count": 1,
+  "sample": [
+   [
+    "2026-12-14T18:00",
+    "Regular Meeting",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031062",
+    "",
+    false
+   ]
+  ]
+ },
+ "nampa-schools": {
+  "type": "simbli",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-23T16:30",
+    "Notice is Hereby Given of a Possible Quorum of Board in Atte",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
+    "",
+    false
+   ],
+   [
+    "2026-11-17T17:15",
+    "Regular Board of Trustees Meeting",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
+    "",
+    false
+   ]
+  ]
+ },
+ "nampa-schools-schedule": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-17T17:00",
+    "Regular Board of Trustees Meeting",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
+    "",
+    false
+   ],
+   [
+    "2026-12-15T17:00",
+    "Regular Board of Trustees Meeting",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905",
+    "",
+    false
+   ]
+  ]
+ },
+ "cda-schools": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-12-14T17:00",
+    "Board of Trustees Regular Meeting",
+    "https://www.cdaschools.org/page/board-of-trustees",
+    "Midtown Center Meeting Room, 1505 N. 5th Street, C",
+    false
+   ],
+   [
+    "2027-01-11T17:00",
+    "Board of Trustees Regular Meeting",
+    "https://www.cdaschools.org/page/board-of-trustees",
+    "Midtown Center Meeting Room, 1505 N. 5th Street, C",
+    false
+   ]
+  ]
+ },
+ "idaho-falls-schools": {
+  "type": "simbli",
+  "count": 0,
+  "sample": []
+ },
+ "pocatello-schools": {
+  "type": "simbli",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-17T17:30",
+    "Regular Board Meeting",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884",
+    "",
+    false
+   ]
+  ]
+ },
+ "ada-library": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-17T16:00",
+    "Library Board of Trustees",
+    "https://adalib.org/board-meeting-agendas/",
+    "",
+    false
+   ],
+   [
+    "2026-12-15T16:00",
+    "Library Board of Trustees",
+    "https://adalib.org/board-meeting-agendas/",
+    "",
+    false
+   ]
+  ]
+ },
+ "twin-falls-library": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-12-10T17:00",
+    "Library Board of Trustees",
+    "https://www.twinfallspubliclibrary.org/libraryboard/",
+    "Twin Falls Public Library",
+    false
+   ],
+   [
+    "2027-01-14T17:00",
+    "Library Board of Trustees",
+    "https://www.twinfallspubliclibrary.org/libraryboard/",
+    "Twin Falls Public Library",
+    false
+   ]
+  ]
+ },
+ "marshall-library": {
+  "type": "schedule",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-17T16:00",
+    "Library Board of Trustees",
+    "https://marshallpl.org/board-of-trustees/",
+    "Marshall Public Library",
+    false
+   ],
+   [
+    "2026-12-15T16:00",
+    "Library Board of Trustees",
+    "https://marshallpl.org/board-of-trustees/",
+    "Marshall Public Library",
+    false
+   ]
+  ]
+ },
+ "chubbuck": {
+  "type": "tribe",
+  "count": 2,
+  "sample": [
+   [
+    "2026-11-18T18:00",
+    "City Council Meeting",
+    "https://cityofchubbuck.us/event/city-council-meeting-113/",
+    "",
+    false
+   ],
+   [
+    "2026-11-19T17:30",
+    "Chubbuck Development Authority",
+    "https://cityofchubbuck.us/event/chubbuck-development-authority-44/",
+    "",
+    false
+   ]
+  ]
+ },
+ "mountain-home": {
+  "type": "civicplus",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-24T17:00",
+    "Regular City Council Meeting",
+    "https://www.mountain-home.us/Calendar.aspx?EID=717",
+    "City Hall, 160 South 3rd East",
+    false
+   ],
+   [
+    "2026-12-08T17:00",
+    "Regular City Council Meeting",
+    "https://www.mountain-home.us/Calendar.aspx?EID=718",
+    "City Hall, 160 South 3rd East",
+    false
+   ],
+   [
+    "2026-12-29T17:00",
+    "Regular City Council Meeting",
+    "https://www.mountain-home.us/Calendar.aspx?EID=719",
+    "City Hall, 160 South 3rd East",
+    false
+   ]
+  ]
+ },
+ "rexburg": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-18T18:30",
+    "City Council Meeting",
+    "https://www.rexburg.org/page/city-council-agendas",
+    "Council Chambers, Rexburg City Hall",
+    false
+   ],
+   [
+    "2026-12-02T18:30",
+    "City Council Meeting",
+    "https://www.rexburg.org/page/city-council-agendas",
+    "Council Chambers, Rexburg City Hall",
+    false
+   ],
+   [
+    "2026-12-16T18:30",
+    "City Council Meeting",
+    "https://www.rexburg.org/page/city-council-agendas",
+    "Council Chambers, Rexburg City Hall",
+    false
+   ],
+   [
+    "2027-01-06T18:30",
+    "City Council Meeting",
+    "https://www.rexburg.org/page/city-council-agendas",
+    "Council Chambers, Rexburg City Hall",
+    false
+   ]
+  ]
+ },
+ "ammon": {
+  "type": "schedule",
+  "count": 8,
+  "sample": [
+   [
+    "2026-11-19T18:00",
+    "City Council Meeting",
+    "https://cityofammon.us/government/meetings/",
+    "Council Chambers, Ammon City Hall",
+    false
+   ],
+   [
+    "2026-12-03T18:00",
+    "City Council Meeting",
+    "https://cityofammon.us/government/meetings/",
+    "Council Chambers, Ammon City Hall",
+    false
+   ],
+   [
+    "2026-12-17T18:00",
+    "City Council Meeting",
+    "https://cityofammon.us/government/meetings/",
+    "Council Chambers, Ammon City Hall",
+    false
+   ],
+   [
+    "2027-01-07T18:00",
+    "City Council Meeting",
+    "https://cityofammon.us/government/meetings/",
+    "Council Chambers, Ammon City Hall",
+    false
+   ]
+  ]
+ },
+ "garden-city": {
+  "type": "schedule",
+  "count": 6,
+  "sample": [
+   [
+    "2026-11-23T18:00",
+    "City Council Meeting",
+    "https://gardencityidaho.org/elected-officials",
+    "Garden City Hall, 6015 N. Glenwood Street",
+    false
+   ],
+   [
+    "2026-12-14T18:00",
+    "City Council Meeting",
+    "https://gardencityidaho.org/elected-officials",
+    "Garden City Hall, 6015 N. Glenwood Street",
+    false
+   ],
+   [
+    "2026-12-28T18:00",
+    "City Council Meeting",
+    "https://gardencityidaho.org/elected-officials",
+    "Garden City Hall, 6015 N. Glenwood Street",
+    false
+   ],
+   [
+    "2027-01-11T18:00",
+    "City Council Meeting",
+    "https://gardencityidaho.org/elected-officials",
+    "Garden City Hall, 6015 N. Glenwood Street",
+    false
+   ]
+  ]
+ },
+ "hailey": {
+  "type": "schedule",
+  "count": 3,
+  "sample": [
+   [
+    "2026-11-23T17:30",
+    "City Council Meeting",
+    "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
+    "Hailey City Hall",
+    false
+   ],
+   [
+    "2026-12-14T17:30",
+    "City Council Meeting",
+    "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
+    "Hailey City Hall",
+    false
+   ],
+   [
+    "2026-12-28T17:30",
+    "City Council Meeting",
+    "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/",
+    "Hailey City Hall",
+    false
+   ]
+  ]
+ },
+ "emmett": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-24T17:30",
+    "City Council Regular Meeting",
+    "https://www.cityofemmett.org/meeting",
+    "City Council Room, 501 E. Main Street, Emmett",
+    false
+   ],
+   [
+    "2026-12-08T17:30",
+    "City Council Regular Meeting",
+    "https://www.cityofemmett.org/meeting",
+    "City Council Room, 501 E. Main Street, Emmett",
+    false
+   ],
+   [
+    "2026-12-22T17:30",
+    "City Council Regular Meeting",
+    "https://www.cityofemmett.org/meeting",
+    "City Council Room, 501 E. Main Street, Emmett",
+    false
+   ],
+   [
+    "2027-01-12T17:30",
+    "City Council Regular Meeting",
+    "https://www.cityofemmett.org/meeting",
+    "City Council Room, 501 E. Main Street, Emmett",
+    false
+   ]
+  ]
+ },
+ "eagle": {
+  "type": "schedule",
+  "count": 17,
+  "sample": [
+   [
+    "2026-11-17T17:30",
+    "City Council Meeting",
+    "https://www.cityofeagle.org/312/City-Council",
+    "Eagle City Hall, 660 E. Civic Lane",
+    false
+   ],
+   [
+    "2026-11-24T17:30",
+    "City Council Meeting",
+    "https://www.cityofeagle.org/312/City-Council",
+    "Eagle City Hall, 660 E. Civic Lane",
+    false
+   ],
+   [
+    "2026-12-08T17:30",
+    "City Council Meeting",
+    "https://www.cityofeagle.org/312/City-Council",
+    "Eagle City Hall, 660 E. Civic Lane",
+    false
+   ],
+   [
+    "2026-12-15T17:30",
+    "City Council Meeting",
+    "https://www.cityofeagle.org/312/City-Council",
+    "Eagle City Hall, 660 E. Civic Lane",
+    false
+   ]
+  ]
+ },
+ "blackfoot": {
+  "type": "civicplus",
+  "count": 0,
+  "sample": []
+ },
+ "blackfoot-library": {
+  "type": "civicplus",
+  "count": 0,
+  "sample": []
+ },
+ "burley": {
+  "type": "agendacenter",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-17T19:00",
+    "Special & Regular City Council Agenda",
+    "https://www.burleyidaho.org/AgendaCenter",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ]
+  ]
+ },
+ "burley-pz": {
+  "type": "agendacenter",
+  "count": 1,
+  "sample": [
+   [
+    "2026-11-18T00:00",
+    "Planning and Zoning Commission Regular Meeting",
+    "https://www.burleyidaho.org/AgendaCenter",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ]
+  ]
+ },
+ "burley-schedule": {
+  "type": "schedule",
+  "count": 4,
+  "sample": [
+   [
+    "2026-11-17T19:00",
+    "City Council Meeting",
+    "https://www.burleyidaho.org/175/City-Council",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ],
+   [
+    "2026-12-01T19:00",
+    "City Council Meeting",
+    "https://www.burleyidaho.org/175/City-Council",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ],
+   [
+    "2026-12-15T19:00",
+    "City Council Meeting",
+    "https://www.burleyidaho.org/175/City-Council",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ],
+   [
+    "2027-01-05T19:00",
+    "City Council Meeting",
+    "https://www.burleyidaho.org/175/City-Council",
+    "Burley City Hall, 1401 Overland Avenue",
+    false
+   ]
+  ]
+ },
+ "jerome": {
+  "type": "civicplus",
+  "count": 7,
+  "sample": [
+   [
+    "2026-11-17T17:30",
+    "City Council Meeting",
+    "https://www.ci.jerome.id.us/Calendar.aspx?EID=793",
+    "Jerome Council Chambers, 100 E Avenue A",
+    false
+   ],
+   [
+    "2026-12-01T17:30",
+    "City Council Meeting",
+    "https://www.ci.jerome.id.us/Calendar.aspx?EID=746",
+    "Jerome Council Chambers, 100 E Avenue A",
+    false
+   ],
+   [
+    "2026-12-03T15:00",
+    "Urban Renewal Agency Meeting",
+    "https://www.ci.jerome.id.us/Calendar.aspx?EID=842",
+    "Jerome Council Chambers, 100 E Avenue A",
+    false
+   ],
+   [
+    "2026-12-08T18:00",
+    "Planning & Zoning Meeting",
+    "https://www.ci.jerome.id.us/Calendar.aspx?EID=718",
+    "Jerome Council Chambers, 100 East Ave A",
+    false
+   ]
+  ]
+ },
+ "sandpoint": {
+  "type": "drupal_meetings",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandpointidaho.gov/meetings"
+ }
 }
