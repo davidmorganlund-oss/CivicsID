@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T20:20:14-07:00",
+ "generated": "2026-11-17T22:40:20-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -329,24 +329,6 @@
    "cancelled": true
   },
   {
-   "id": "a5325c3d6fbd",
-   "title": "City Council Meeting",
-   "host": "City of Post Falls",
-   "source": "post-falls",
-   "area": "Post Falls",
-   "county": "Kootenai",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-17T17:00:00-08:00",
-   "end": "2026-11-17T20:00:00-08:00",
-   "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "12755e8e556e",
    "title": "Regular Board of Trustees Meeting",
    "host": "Nampa School District",
@@ -437,7 +419,7 @@
    "end": "2026-11-17T23:59:00-07:00",
    "all_day": false,
    "location": "256 East Court St Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -492,7 +474,7 @@
    "end": "2026-11-17T23:59:00-07:00",
    "all_day": false,
    "location": "Star ID 83669",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -510,7 +492,7 @@
    "end": "2026-11-18T23:59:00-07:00",
    "all_day": false,
    "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -528,7 +510,7 @@
    "end": "2026-11-18T23:59:00-07:00",
    "all_day": false,
    "location": "Idaho Falls Power Boardroom - 140 S. Capital Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=29",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -661,7 +643,7 @@
    "end": "2026-11-18T13:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -758,7 +740,7 @@
    "end": "2026-11-18T17:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -776,7 +758,7 @@
    "end": "2026-11-18T17:00:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -818,7 +800,7 @@
    "end": "2026-11-18T18:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -872,7 +854,7 @@
    "end": "2026-11-18T18:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1030,7 +1012,7 @@
    "end": "2026-11-18T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1048,7 +1030,7 @@
    "end": "2026-11-18T23:59:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room > Planning & Zoning Commission Meeting - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=31",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1195,7 +1177,7 @@
    "end": "2026-11-19T09:00:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1231,7 +1213,7 @@
    "end": "2026-11-19T23:59:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1303,7 +1285,7 @@
    "end": "2026-11-19T10:00:00-08:00",
    "all_day": false,
    "location": "Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1357,7 +1339,7 @@
    "end": "2026-11-19T11:00:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1393,7 +1375,7 @@
    "end": "2026-11-19T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1453,7 +1435,7 @@
    "end": "2026-11-19T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -1525,7 +1507,7 @@
    "end": "2026-11-19T23:59:00-07:00",
    "all_day": false,
    "location": "Zoom - Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1597,7 +1579,7 @@
    "end": "2026-11-19T23:59:00-07:00",
    "all_day": false,
    "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1615,7 +1597,7 @@
    "end": "2026-11-19T18:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1652,7 +1634,7 @@
    "end": "2026-11-19T20:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1670,7 +1652,7 @@
    "end": "2026-11-19T20:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1838,7 +1820,7 @@
    "end": "2026-11-23T00:00:00-07:00",
    "all_day": true,
    "location": "200 Fulton St Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1912,7 +1894,7 @@
    "end": "2026-11-23T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2006,7 +1988,7 @@
    "end": "2026-11-23T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2061,7 +2043,7 @@
    "end": "2026-11-23T23:59:00-07:00",
    "all_day": false,
    "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2116,7 +2098,7 @@
    "end": "2026-11-23T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2172,7 +2154,7 @@
    "end": "2026-11-23T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2227,7 +2209,7 @@
    "end": "2026-11-23T16:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2436,7 +2418,7 @@
    "end": "2026-11-24T23:59:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -2454,7 +2436,7 @@
    "end": "2026-11-24T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2490,7 +2472,7 @@
    "end": "2026-11-24T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2526,7 +2508,7 @@
    "end": "2026-11-24T21:00:00-07:00",
    "all_day": false,
    "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2563,7 +2545,7 @@
    "end": "2026-11-24T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2747,7 +2729,7 @@
    "end": "2026-11-26T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -2840,7 +2822,7 @@
    "end": "2026-11-30T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2877,7 +2859,7 @@
    "end": "2026-11-30T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2895,7 +2877,7 @@
    "end": "2026-11-30T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2932,7 +2914,7 @@
    "end": "2026-11-30T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2950,7 +2932,7 @@
    "end": "2026-11-30T14:15:00-07:00",
    "all_day": false,
    "location": "Legion Hall - 216 E PARK ST McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3023,7 +3005,7 @@
    "end": "2026-11-30T17:30:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3041,7 +3023,7 @@
    "end": "2026-11-30T23:59:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3206,7 +3188,7 @@
    "end": "2026-12-01T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3224,7 +3206,7 @@
    "end": "2026-12-01T13:00:00-07:00",
    "all_day": false,
    "location": "Transit Center - 210 Park St McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3260,7 +3242,7 @@
    "end": "2026-12-01T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3296,7 +3278,7 @@
    "end": "2026-12-01T23:59:00-07:00",
    "all_day": false,
    "location": "Zoom - Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3314,7 +3296,7 @@
    "end": "2026-12-01T17:30:00-07:00",
    "all_day": false,
    "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3368,7 +3350,7 @@
    "end": "2026-12-01T20:00:00-08:00",
    "all_day": false,
    "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3386,7 +3368,7 @@
    "end": "2026-12-01T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3441,7 +3423,7 @@
    "end": "2026-12-01T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3459,7 +3441,7 @@
    "end": "2026-12-01T23:59:00-07:00",
    "all_day": false,
    "location": "Star ID 83669",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3514,7 +3496,7 @@
    "end": "2026-12-02T10:30:00-08:00",
    "all_day": false,
    "location": "Search & Rescue Building, 10865 N Ramsey Rd Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3606,7 +3588,7 @@
    "end": "2026-12-02T18:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3642,7 +3624,7 @@
    "end": "2026-12-02T19:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3734,7 +3716,7 @@
    "end": "2026-12-03T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3752,7 +3734,7 @@
    "end": "2026-12-03T13:00:00-07:00",
    "all_day": false,
    "location": "Legion Hall - 216 E PARK ST McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3770,7 +3752,7 @@
    "end": "2026-12-03T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3806,7 +3788,7 @@
    "end": "2026-12-03T23:59:00-07:00",
    "all_day": false,
    "location": "Zoom - Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3842,7 +3824,7 @@
    "end": "2026-12-03T23:59:00-07:00",
    "all_day": false,
    "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3860,7 +3842,7 @@
    "end": "2026-12-03T18:00:00-07:00",
    "all_day": false,
    "location": "Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3915,7 +3897,7 @@
    "end": "2026-12-03T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3952,7 +3934,7 @@
    "end": "2026-12-03T20:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4008,7 +3990,7 @@
    "end": "2026-12-04T12:00:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4082,7 +4064,7 @@
    "end": "2026-12-07T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4138,7 +4120,7 @@
    "end": "2026-12-07T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4175,7 +4157,7 @@
    "end": "2026-12-07T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4231,7 +4213,7 @@
    "end": "2026-12-07T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4322,7 +4304,7 @@
    "end": "2026-12-07T23:59:00-07:00",
    "all_day": false,
    "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4467,7 +4449,7 @@
    "end": "2026-12-07T21:00:00-07:00",
    "all_day": false,
    "location": "Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4578,7 +4560,7 @@
    "end": "2026-12-08T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4614,7 +4596,7 @@
    "end": "2026-12-08T12:00:00-07:00",
    "all_day": false,
    "location": "Airport Conference Room - 1950 Airport Way Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4668,7 +4650,7 @@
    "end": "2026-12-08T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4704,7 +4686,7 @@
    "end": "2026-12-08T21:00:00-07:00",
    "all_day": false,
    "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4740,7 +4722,7 @@
    "end": "2026-12-08T18:00:00-08:00",
    "all_day": false,
    "location": "North Idaho Fairgrounds 4056 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4777,7 +4759,7 @@
    "end": "2026-12-08T20:00:00-08:00",
    "all_day": false,
    "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4795,7 +4777,7 @@
    "end": "2026-12-08T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4831,7 +4813,7 @@
    "end": "2026-12-08T21:00:00-07:00",
    "all_day": false,
    "location": "1118 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4868,7 +4850,7 @@
    "end": "2026-12-09T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4923,7 +4905,7 @@
    "end": "2026-12-09T11:10:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -4941,7 +4923,7 @@
    "end": "2026-12-09T11:40:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4996,7 +4978,7 @@
    "end": "2026-12-09T17:00:00-07:00",
    "all_day": false,
    "location": "McCall Golf Club / Banyans on the Green - 925 Fairway Dr McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5051,7 +5033,7 @@
    "end": "2026-12-09T18:00:00-08:00",
    "all_day": false,
    "location": "CDA Airport - 10375 Sensor Ave Hayden ID 83835",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5069,7 +5051,7 @@
    "end": "2026-12-09T18:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5160,7 +5142,7 @@
    "end": "2026-12-09T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5233,7 +5215,7 @@
    "end": "2026-12-10T14:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5251,7 +5233,7 @@
    "end": "2026-12-10T11:00:00-08:00",
    "all_day": false,
    "location": "Search & Rescue Building, 10865 N Ramsey Rd Hayden ID 83835",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5269,7 +5251,7 @@
    "end": "2026-12-10T11:00:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5305,7 +5287,7 @@
    "end": "2026-12-10T12:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5341,7 +5323,7 @@
    "end": "2026-12-10T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -5451,7 +5433,7 @@
    "end": "2026-12-10T23:59:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5469,7 +5451,7 @@
    "end": "2026-12-10T23:59:00-07:00",
    "all_day": false,
    "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5487,7 +5469,7 @@
    "end": "2026-12-10T18:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5505,7 +5487,7 @@
    "end": "2026-12-10T20:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -5523,7 +5505,7 @@
    "end": "2026-12-10T20:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5541,7 +5523,7 @@
    "end": "2026-12-10T23:59:00-07:00",
    "all_day": false,
    "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5728,7 +5710,7 @@
    "end": "2026-12-14T12:00:00-07:00",
    "all_day": false,
    "location": "200 Fulton St Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5783,7 +5765,7 @@
    "end": "2026-12-14T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5877,7 +5859,7 @@
    "end": "2026-12-14T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5914,7 +5896,7 @@
    "end": "2026-12-14T23:59:00-07:00",
    "all_day": false,
    "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5969,7 +5951,7 @@
    "end": "2026-12-14T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6025,7 +6007,7 @@
    "end": "2026-12-14T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6098,7 +6080,7 @@
    "end": "2026-12-14T23:59:00-07:00",
    "all_day": false,
    "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6116,7 +6098,7 @@
    "end": "2026-12-14T16:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6208,7 +6190,7 @@
    "end": "2026-12-14T18:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6410,7 +6392,7 @@
    "end": "2026-12-15T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -6446,7 +6428,7 @@
    "end": "2026-12-15T13:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6464,7 +6446,7 @@
    "end": "2026-12-15T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6482,7 +6464,7 @@
    "end": "2026-12-15T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6519,7 +6501,7 @@
    "end": "2026-12-15T17:00:00-07:00",
    "all_day": false,
    "location": "Marshall Public Library - 113 S. Garfield Avenue Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6611,7 +6593,7 @@
    "end": "2026-12-15T20:00:00-08:00",
    "all_day": false,
    "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6629,7 +6611,7 @@
    "end": "2026-12-15T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6683,7 +6665,7 @@
    "end": "2026-12-15T23:59:00-07:00",
    "all_day": false,
    "location": "256 East Court St Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6720,7 +6702,7 @@
    "end": "2026-12-15T23:59:00-07:00",
    "all_day": false,
    "location": "Star ID 83669",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6812,7 +6794,7 @@
    "end": "2026-12-16T13:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6885,7 +6867,7 @@
    "end": "2026-12-16T17:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6903,7 +6885,7 @@
    "end": "2026-12-16T17:00:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6921,7 +6903,7 @@
    "end": "2026-12-16T18:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -6976,7 +6958,7 @@
    "end": "2026-12-16T23:59:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room > Planning & Zoning Commission Meeting - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=31",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=31",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7032,7 +7014,7 @@
    "end": "2026-12-17T23:59:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7050,7 +7032,7 @@
    "end": "2026-12-17T10:00:00-08:00",
    "all_day": false,
    "location": "Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7086,7 +7068,7 @@
    "end": "2026-12-17T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7104,7 +7086,7 @@
    "end": "2026-12-17T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7140,7 +7122,7 @@
    "end": "2026-12-17T23:59:00-07:00",
    "all_day": false,
    "location": "Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7158,7 +7140,7 @@
    "end": "2026-12-17T23:59:00-07:00",
    "all_day": false,
    "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7176,7 +7158,7 @@
    "end": "2026-12-17T18:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7213,7 +7195,7 @@
    "end": "2026-12-17T20:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7231,7 +7213,7 @@
    "end": "2026-12-17T20:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7249,7 +7231,7 @@
    "end": "2026-12-17T23:59:00-07:00",
    "all_day": false,
    "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7381,7 +7363,7 @@
    "end": "2026-12-21T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7418,7 +7400,7 @@
    "end": "2026-12-21T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7473,7 +7455,7 @@
    "end": "2026-12-21T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7529,7 +7511,7 @@
    "end": "2026-12-21T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7769,7 +7751,7 @@
    "end": "2026-12-22T23:59:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -7787,7 +7769,7 @@
    "end": "2026-12-22T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -7805,7 +7787,7 @@
    "end": "2026-12-22T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7860,7 +7842,7 @@
    "end": "2026-12-22T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8007,7 +7989,7 @@
    "end": "2026-12-24T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -8156,7 +8138,7 @@
    "end": "2026-12-28T00:00:00-07:00",
    "all_day": true,
    "location": "200 Fulton St Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8230,7 +8212,7 @@
    "end": "2026-12-28T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8324,7 +8306,7 @@
    "end": "2026-12-28T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8361,7 +8343,7 @@
    "end": "2026-12-28T23:59:00-07:00",
    "all_day": false,
    "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8398,7 +8380,7 @@
    "end": "2026-12-28T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8454,7 +8436,7 @@
    "end": "2026-12-28T10:30:00-07:00",
    "all_day": false,
    "location": "256 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8491,7 +8473,7 @@
    "end": "2026-12-28T16:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8527,7 +8509,7 @@
    "end": "2026-12-28T17:30:00-07:00",
    "all_day": false,
    "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8582,7 +8564,7 @@
    "end": "2026-12-28T23:59:00-07:00",
    "all_day": false,
    "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8729,7 +8711,7 @@
    "end": "2026-12-29T11:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8747,7 +8729,7 @@
    "end": "2026-12-29T15:00:00-08:00",
    "all_day": false,
    "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8765,7 +8747,7 @@
    "end": "2026-12-29T21:00:00-07:00",
    "all_day": false,
    "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8840,7 +8822,7 @@
    "end": "2026-12-31T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8915,7 +8897,7 @@
    "end": "2027-01-04T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8952,7 +8934,7 @@
    "end": "2027-01-04T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8989,7 +8971,7 @@
    "end": "2027-01-04T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9137,7 +9119,7 @@
    "end": "2027-01-04T21:00:00-07:00",
    "all_day": false,
    "location": "Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9248,7 +9230,7 @@
    "end": "2027-01-05T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9266,7 +9248,7 @@
    "end": "2027-01-05T12:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9302,7 +9284,7 @@
    "end": "2027-01-05T15:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9392,7 +9374,7 @@
    "end": "2027-01-05T20:00:00-08:00",
    "all_day": false,
    "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9428,7 +9410,7 @@
    "end": "2027-01-05T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9464,7 +9446,7 @@
    "end": "2027-01-05T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9482,7 +9464,7 @@
    "end": "2027-01-05T23:59:00-07:00",
    "all_day": false,
    "location": "Star ID 83669",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9519,7 +9501,7 @@
    "end": "2027-01-06T10:30:00-08:00",
    "all_day": false,
    "location": "Search & Rescue Building, 10865 N Ramsey Rd Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9575,7 +9557,7 @@
    "end": "2027-01-06T18:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9593,7 +9575,7 @@
    "end": "2027-01-06T19:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9685,7 +9667,7 @@
    "end": "2027-01-07T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9721,7 +9703,7 @@
    "end": "2027-01-07T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9757,7 +9739,7 @@
    "end": "2027-01-07T18:00:00-07:00",
    "all_day": false,
    "location": "Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9812,7 +9794,7 @@
    "end": "2027-01-07T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9830,7 +9812,7 @@
    "end": "2027-01-07T20:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9980,7 +9962,7 @@
    "end": "2027-01-11T12:00:00-07:00",
    "all_day": false,
    "location": "200 Fulton St Salmon ID 83467",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10017,7 +9999,7 @@
    "end": "2027-01-11T23:59:00-07:00",
    "all_day": false,
    "location": "Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10092,7 +10074,7 @@
    "end": "2027-01-11T17:00:00-07:00",
    "all_day": false,
    "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10166,7 +10148,7 @@
    "end": "2027-01-11T14:00:00-07:00",
    "all_day": false,
    "location": "Rupert ID 83350",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10240,7 +10222,7 @@
    "end": "2027-01-11T12:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10313,7 +10295,7 @@
    "end": "2027-01-11T16:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10386,7 +10368,7 @@
    "end": "2027-01-11T18:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10515,7 +10497,7 @@
    "end": "2027-01-12T11:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10533,7 +10515,7 @@
    "end": "2027-01-12T12:00:00-07:00",
    "all_day": false,
    "location": "Airport Conference Room - 1950 Airport Way Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10587,7 +10569,7 @@
    "end": "2027-01-12T15:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10623,7 +10605,7 @@
    "end": "2027-01-12T23:59:00-07:00",
    "all_day": false,
    "location": "1118 E Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10677,7 +10659,7 @@
    "end": "2027-01-12T18:00:00-08:00",
    "all_day": false,
    "location": "Kootenai County Fairgrounds, Stampede Room 4056 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10732,7 +10714,7 @@
    "end": "2027-01-12T20:00:00-08:00",
    "all_day": false,
    "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=24",
+   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10768,7 +10750,7 @@
    "end": "2027-01-12T20:00:00-07:00",
    "all_day": false,
    "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10804,7 +10786,7 @@
    "end": "2027-01-12T21:00:00-07:00",
    "all_day": false,
    "location": "1118 E. Court Street Weiser ID 83672",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10878,7 +10860,7 @@
    "end": "2027-01-13T11:10:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -10896,7 +10878,7 @@
    "end": "2027-01-13T11:40:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10951,7 +10933,7 @@
    "end": "2027-01-13T18:00:00-08:00",
    "all_day": false,
    "location": "CDA Airport - 10375 Sensor Ave Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10969,7 +10951,7 @@
    "end": "2027-01-13T18:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11024,7 +11006,7 @@
    "end": "2027-01-13T19:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11097,7 +11079,7 @@
    "end": "2027-01-14T14:00:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11115,7 +11097,7 @@
    "end": "2027-01-14T12:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11133,7 +11115,7 @@
    "end": "2027-01-14T15:30:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11207,7 +11189,7 @@
    "end": "2027-01-14T18:30:00-07:00",
    "all_day": false,
    "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11225,7 +11207,7 @@
    "end": "2027-01-14T20:00:00-08:00",
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
+   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
    "agenda_url": "",
    "note": "",
    "cancelled": false

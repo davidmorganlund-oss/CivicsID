@@ -4,29 +4,29 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Power County
 BEGIN:VEVENT
 UID:4ffdb92747dd@civicsid
-DTSTAMP:20261118T032014Z
+DTSTAMP:20261118T054020Z
 DTSTART:20261123T160000Z
 DTEND:20261124T065900Z
 SUMMARY:Commissioner's Meeting (Power County)
 LOCATION:Commission Chambers - 543 Bannock Ave. American Falls ID 83211
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+URL:https://www.powercounty.gov/Calendar.aspx?CID=23
 END:VEVENT
 BEGIN:VEVENT
 UID:9fd226f05365@civicsid
-DTSTAMP:20261118T032014Z
+DTSTAMP:20261118T054020Z
 DTSTART:20261214T160000Z
 DTEND:20261215T065900Z
 SUMMARY:Commissioner's Meeting (Power County)
 LOCATION:Commission Chambers - 543 Bannock Ave. American Falls ID 83211
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+URL:https://www.powercounty.gov/Calendar.aspx?CID=23
 END:VEVENT
 BEGIN:VEVENT
 UID:9884cd0e9f77@civicsid
-DTSTAMP:20261118T032014Z
+DTSTAMP:20261118T054020Z
 DTSTART:20261228T160000Z
 DTEND:20261229T065900Z
 SUMMARY:Commissioner's Meeting (Power County)
 LOCATION:Commission Chambers - 543 Bannock Ave. American Falls ID 83211
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+URL:https://www.powercounty.gov/Calendar.aspx?CID=23
 END:VEVENT
 END:VCALENDAR

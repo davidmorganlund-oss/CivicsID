@@ -4,11 +4,12 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Payette County
 BEGIN:VEVENT
 UID:8a4cd7ecd238@civicsid
-DTSTAMP:20261118T032014Z
+DTSTAMP:20261118T054020Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Commissioners Meeting (Payette County)
 LOCATION:
-URL:https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioners-meeting
+URL:https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioner
+ s-meeting
 END:VEVENT
 END:VCALENDAR
