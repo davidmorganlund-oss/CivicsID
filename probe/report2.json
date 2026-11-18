@@ -1,289 +1,135 @@
 {
- "Idaho Falls": {
-  "status": 200,
-  "pages": {
-   "http://www.idahofallsarts.org/": {
-    "status": 200,
-    "title": "Home | Idaho Falls Arts Council",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.idahofallsidaho.gov/Assets/Styles/PausePlay/PausePlay.css": {
-    "status": 200,
-    "title": "",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.idahofallsidaho.gov/429/Live-Stream": {
-    "status": 200,
-    "title": "Live Stream | Idaho Falls, ID",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.idahofallsidaho.gov/193/Mayor": {
-    "status": 200,
-    "title": "Forms | Idaho Falls, ID",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.idahofallsidaho.gov/Directory.aspx?DID=4": {
-    "status": 404,
-    "title": "Custom404 \u2022 Idaho Falls, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Pocatello": {
-  "status": 200,
-  "pages": {
-   "https://pocatello.gov/162/Mayor": {
-    "status": 404,
-    "title": "Custom404 \u2022 City of Pocatello \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   },
-   "https://pocatello.gov/193/Mayors-Office": {
-    "status": 404,
-    "title": "Custom404 \u2022 City of Pocatello \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Kuna": {
-  "status": 200,
-  "pages": {
-   "https://www.kunacity.id.gov/government/mayor_and_city_council/index.php": {
-    "status": 404,
-    "title": "Custom404 \u2022 Kuna, ID \u2022 CivicEngage",
-    "names": [
-     "Events Moonlight",
-     "Pay For"
-    ],
-    "ctx": [
-     "n in Kuna Kuna Greenbelt Groove Fest Kuna Days Kuna Fall Festival Kuna Gem Drop Mayor Events Moonlight Movies How Do I... Contact Us How To Register Development Services Home Your Government City Departments Our Community Doing Business How Do I... Report a Problem Economic Devel",
-     "ding Permits Career Opportunities Pet Licensing Contact City Council City Staff Mayor Pay For Dog License Utility Bill Register For E-Notifications Rent or Reserve Report A Code Violation Form Report A Concern Sewer or Water Emergency Report an Accessibility Issue View Agendas &a"
-    ]
-   }
-  }
- },
- "Lewiston": {
-  "status": 200,
-  "pages": {
-   "https://www.cityoflewiston.org/220/City-Council": {
-    "status": 200,
-    "title": "Vendor Information | Lewiston, ID",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.cityoflewiston.org/158/Mayor": {
-    "status": 200,
-    "title": "E-Library | Lewiston, ID",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "McCall": {
-  "status": 200,
-  "pages": {
-   "https://www.mccall.id.us/AgendaCenter/": {
-    "status": 200,
-    "title": "Agenda Center \u2022 McCall, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.mccall.id.us/government/mayor_and_city_council/index.php": {
-    "status": 404,
-    "title": "Custom404 \u2022 McCall, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.mccall.id.us/government/city_council/index.php": {
-    "status": 404,
-    "title": "Custom404 \u2022 McCall, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Moscow": {
-  "status": 200,
-  "pages": {
-   "https://www.ci.moscow.id.us/167/Mayor": {
-    "status": 404,
-    "title": "Custom404 \u2022 Moscow, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.ci.moscow.id.us/170/City-Council": {
-    "status": 200,
-    "title": "Moscow Sister City Association | Moscow, ID",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Mountain Home": {
-  "status": 200,
-  "pages": {
-   "https://www.mountain-home.us/166/City-Council": {
-    "status": 200,
-    "title": "City Council | Mountain Home, ID",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.mountain-home.us/167/Mayor": {
-    "status": 200,
-    "title": "Advisory Committees | Mountain Home, ID",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Rexburg": {
-  "status": 200,
-  "pages": {
-   "https://fonts.googleapis.com": {
-    "status": 404,
-    "title": "Error 404 (Not Found)!!1",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.rexburg.org/page/city-council-agendas": {
-    "status": 200,
-    "title": "City Council Agendas | City of Rexburg",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.rexburg.org/page/city-council": {
-    "status": 200,
-    "title": "City Council | City of Rexburg",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.rexburg.org/page/mayor": {
-    "status": 404,
-    "title": "Page Not Found | City of Rexburg",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Star": {
-  "status": 200,
-  "pages": {
-   "https://www.staridaho.org/150/Mayor": {
-    "status": 404,
-    "title": "Custom404 \u2022 Star, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.staridaho.org/149/City-Council": {
-    "status": 404,
-    "title": "Custom404 \u2022 Star, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Twin Falls": {
-  "status": 200,
-  "pages": {
-   "https://www.tfid.org/152/City-Council": {
-    "status": 200,
-    "title": "Business Assistance | Twin Falls, ID - Official Website",
-    "names": [],
-    "ctx": []
-   },
-   "https://www.tfid.org/158/Mayor": {
-    "status": 404,
-    "title": "Custom404 \u2022 Twin Falls, ID \u2022 CivicEngage",
-    "names": [],
-    "ctx": []
-   }
-  }
- },
- "Hailey": {
-  "status": 200,
-  "pages": {
-   "https://haileycityhall.org/city-administration/": {
-    "status": 200,
-    "title": "City Administration | City of Hailey, ID",
-    "names": [
-     "Appoints Members"
-    ],
-    "ctx": [
-     "ecial Purposes Establishes Authorities, Agencies, and Committees as Needed. The Mayor Appoints Members, and the Council Confirms The City Council meets twice a month, excluding special meetings that may be called by the council or mayor from time to time. &nbsp; Personnel Handboo"
-    ]
-   },
-   "https://haileycityhall.org/boards-and-commissions/city-council/": {
-    "status": 200,
-    "title": "City Council | City Ordinances by City of Hailey, ID",
-    "names": [],
-    "ctx": []
-   },
-   "https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/": {
-    "status": 200,
-    "title": "City Council \u2013 Agendas Services | City Council \u2013 Agendas",
-    "names": [],
-    "ctx": []
-   },
-   "https://haileycityhall.org/mayor/": {
-    "status": 200,
-    "title": "Mayor Burke Gives 2023 State of the City Report | City of Hailey, ID",
-    "names": [
-     "Burke Gives",
-     "Martha Burke"
-    ],
-    "ctx": [
-     "Mayor Burke Gives 2023 State of the City Report | City of Hailey, ID Skip to content Home Departments &#038; Projects City Administration Election Information Finance &#038; Records Mayor, Council, Ad",
-     " Meeting Employment Park Reservations Banner Reservations Contact Search Search Mayor Burke Gives 2023 State of the City Report March 2, 2023 Mayor Burke Gives State of the City Report Mayor Martha Burke gave a State of the City Report to the Hailey City Council and full audience"
-    ]
-   }
-  }
- },
- "Dalton Gardens": {
-  "status": 200,
-  "pages": {
-   "https://daltongardens.com/mayor": {
-    "status": 200,
-    "title": "Mayor - Dalton Gardens, ID",
-    "names": [
-     "City Council"
-    ],
-    "ctx": [
-     "or - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
-     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
-    ]
-   },
-   "https://daltongardens.com/citycouncil": {
-    "status": 200,
-    "title": "City Council - Dalton Gardens, ID",
-    "names": [
-     "City Council"
-    ],
-    "ctx": [
-     "il - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
-     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
-    ]
-   },
-   "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6&amp;DE=2EE53102-2AED-4039-B4BE-A76AC8E453C9": {
-    "status": 200,
-    "title": "Calendar - Dalton Gardens, ID",
-    "names": [
-     "City Council"
-    ],
-    "ctx": [
-     "ar - Dalton Gardens, ID Skip to main content search menu Search Home Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility ",
-     "iation Dalton Irrigation Newsletter Air Quality: Air Quality: Search Government Mayor City Council Planning & Zoning Public Hearings Resident Committees Ordinances Resolutions City Code Departments Community Photos Contact Us Residents Business Licenses Code Enforcement Facility "
-    ]
-   }
-  }
- },
- "Meridian": {
-  "status": 403,
-  "pages": {}
- }
+ "n": 257,
+ "bad": [
+  [
+   "https://adacounty.id.gov/",
+   403,
+   ""
+  ],
+  [
+   "https://article.meridiancity.org/mayorsblog/2026-state-of-the-city/",
+   403,
+   ""
+  ],
+  [
+   "https://ballotpedia.org/Campaign_finance_in_Idaho",
+   202,
+   ""
+  ],
+  [
+   "https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho",
+   202,
+   ""
+  ],
+  [
+   "https://ballotpedia.org/School_bond_and_tax_elections_in_Idaho",
+   202,
+   ""
+  ],
+  [
+   "https://constitution.congress.gov/constitution/",
+   403,
+   ""
+  ],
+  [
+   "https://meridiancity.org/",
+   403,
+   ""
+  ],
+  [
+   "https://oneidacountyid.com/",
+   403,
+   ""
+  ],
+  [
+   "https://sos.idaho.gov/blue_book/2021/05_Judicial.pdf",
+   404,
+   ""
+  ],
+  [
+   "https://sos.idaho.gov/blue_book/2021/06_County.pdf",
+   404,
+   ""
+  ],
+  [
+   "https://www.blainecountyid.gov/",
+   403,
+   ""
+  ],
+  [
+   "https://www.boisecounty.us/",
+   403,
+   ""
+  ],
+  [
+   "https://www.cbo.gov/topics/budget",
+   403,
+   ""
+  ],
+  [
+   "https://www.cityofnampa.us/",
+   403,
+   ""
+  ],
+  [
+   "https://www.cityofnampa.us/1612/Public-Meetings",
+   403,
+   ""
+  ],
+  [
+   "https://www.cityofnampa.us/529/Office-of-the-Mayor",
+   403,
+   ""
+  ],
+  [
+   "https://www.co.bingham.id.us/",
+   0,
+   "SSLError"
+  ],
+  [
+   "https://www.co.custer.id.us/",
+   0,
+   "SSLError"
+  ],
+  [
+   "https://www.co.fremont.id.us/",
+   403,
+   ""
+  ],
+  [
+   "https://www.congress.gov/",
+   403,
+   ""
+  ],
+  [
+   "https://www.eastidahonews.com/?p=802717",
+   403,
+   ""
+  ],
+  [
+   "https://www.eastidahonews.com/?p=802748",
+   403,
+   ""
+  ],
+  [
+   "https://www.lewiscountyid.us/",
+   0,
+   "SSLError"
+  ],
+  [
+   "https://www.lincolncountyid.gov/",
+   403,
+   ""
+  ],
+  [
+   "https://www.lincolncountyid.gov/meetings",
+   403,
+   ""
+  ],
+  [
+   "https://www.regulations.gov/",
+   403,
+   ""
+  ]
+ ]
 }
