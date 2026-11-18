@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsID: what's new in Payette County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
+  <id>https://civicsid.org/</id>
+  <link href="https://civicsid.org/"/>
+  <updated>2026-11-17T20:10:48-07:00</updated>
+  <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:8a4cd7ecd238:new</id>
+    <title>New meeting: Commissioners Meeting (2026-11-23 09:00)</title>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <link href="https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioners-meeting"/>
+    <summary>Payette County · 2026-11-23 09:00 (MT)</summary>
+  </entry>
+</feed>
