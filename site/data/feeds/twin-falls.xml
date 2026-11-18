@@ -4,7 +4,34 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-18T09:52:09-07:00</updated>
+  <updated>2026-11-18T10:12:03-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:c74c4e222444:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-19)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
+    <summary>Twin Falls County · 2026-11-19 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; 2. Consideration of the October 2026 Accounts Payables; 3. Consideration of a proposed Resolution #2027-003 Transferring Funds; 4. Consideration of a CivilPlus Service Agreement</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c74c4e222444:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-11-19)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Thursday-11.19.26.pdf"/>
+    <summary>Twin Falls County · 2026-11-19 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; 2. Consideration of the October 2026 Accounts Payables; 3. Consideration of a proposed Resolution #2027-003 Transferring Funds; 4. Consideration of a CivilPlus Service Agreement</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:e17dff5306d8:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-18 09:00)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
+    <summary>Twin Falls County · 2026-11-18 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:e17dff5306d8:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-11-18 09:00)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Wednesday-11.18.26.pdf"/>
+    <summary>Twin Falls County · 2026-11-18 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications</summary>
+  </entry>
 </feed>
