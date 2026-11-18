@@ -771,3 +771,52 @@ def test_civicplus_new_calendar_json():
     old = build.make_event(src, title="City Council Meeting", start=datetime(2026, 12, 1, 17, 30, tzinfo=ZoneInfo("America/Boise")),
                            uid="civicplus-746")
     assert old["id"] == council["id"]
+
+
+def test_tyler_meeting_manager():
+    items = [
+        {"id": "a1", "meetingTypeId": 3, "meetingTitle": "Board of Commissioners Regular Meeting",
+         "actualStartDate": "2026-11-24 00:00:00.0", "startTime": "09:00 AM", "endTime": "10:00 AM",
+         "location": "Commissioners Hearing Room, Bonneville County Courthouse", "canceled": False,
+         "agendaItemTitles": ["Review/Approval of Claims, as needed", "Review/Decision on Stop-Loss Reinsurance (ACTION ITEM)"]},
+        {"id": "a2", "meetingTypeId": 3, "meetingTitle": "Board of Commissioners Regular Meeting",
+         "actualStartDate": "2026-11-25 00:00:00.0", "startTime": "9:00 AM", "endTime": "12:00 PM", "agendaItemTitles": None},
+        {"id": "a3", "meetingTypeId": 9, "meetingTitle": "Rotary Club", "actualStartDate": "2026-11-25 00:00:00.0",
+         "startTime": "12:00 PM", "endTime": "1:00 PM"},
+        {"id": "a4", "meetingTypeId": 4, "meetingTitle": "Planning & Zoning Commission", "actualStartDate": "2026-12-03 00:00:00.0",
+         "startTime": "7:00 PM", "endTime": "09:00 PM", "canceled": True},
+    ]
+    src = {"id": "bonneville-county", "name": "Bonneville County", "area": "countywide",
+           "meeting_types": [3, 4], "agenda_only": [3], "homepage": "https://example.gov/calendar"}
+    ev = build.normalize_tyler_mm(src, items, ZoneInfo("America/Boise"))
+    assert [e["title"] for e in ev] == ["Board of Commissioners Regular Meeting", "Planning & Zoning Commission"]
+    bocc, pz = ev
+    assert bocc["start"] == "2026-11-24T09:00:00-07:00" and bocc["end"] == "2026-11-24T10:00:00-07:00"
+    assert bocc["highlights"][1].startswith("Review/Decision on Stop-Loss")
+    assert pz["cancelled"] and pz["start"] == "2026-12-03T19:00:00-07:00"
+
+
+TF_AGENDA = """Executive Sessions may be held pursuant to Idaho Code §74-206 as needed during regularly scheduled meetings.  The
+purpose of such sessions shall be announced at the time such sessions are called.  **ACTION ITEM**
+Agenda
+Tuesday, November 24, 2026
+Items marked with ** indicate an Action Item.
+Call to Order.
+7:00 a.m. Commissioner Hawkins to attend a Rotary meeting.
+  9:00 a.m. **Consider approval of the canvass of the November 3 election.
+ 10:15 a.m. **Public hearing: Rezone request, 3600 N Rd.
+ 1:30 p.m. Commissioners to attend a tour of the Valley House properties.
+"""
+
+
+def test_twin_falls_daily_agenda():
+    src = {"id": "twin-falls-county", "name": "Twin Falls County", "area": "countywide",
+           "default_location": "630 Addison Ave W., Twin Falls", "homepage": "https://twinfallscounty.org/commissioners/agenda/"}
+    tz = ZoneInfo("America/Boise")
+    ev = build.normalize_daily_agenda(src, TF_AGENDA, date(2026, 11, 24), "https://twinfallscounty.org/a.pdf", tz)
+    assert len(ev) == 1
+    assert ev[0]["start"] == "2026-11-24T09:00:00-07:00"
+    assert ev[0]["highlights"] == ["Consider approval of the canvass of the November 3 election",
+                                   "Public hearing: Rezone request, 3600 N Rd"]
+    quiet = TF_AGENDA.replace("**Consider", "Consider").replace("**Public", "Public")
+    assert build.normalize_daily_agenda(src, quiet, date(2026, 11, 24), "u", tz) == []

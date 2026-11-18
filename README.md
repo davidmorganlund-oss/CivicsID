@@ -59,6 +59,9 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of Blackfoot | Bingham | CivicPlus Agenda Center | `agendacenter` | Council and P&Z |
 | City of Burley | Cassia | CivicPlus Agenda Center + published schedule | `agendacenter`, `schedule` | Council and P&Z |
 | City of Jerome | Jerome | CivicPlus (newer calendar) | `civicplus` | Council, P&Z, urban renewal |
+| Bonneville County | Bonneville | Tyler Meeting Manager | `tyler_mm` | Board meetings and P&Z; commissioners' outside meetings left out |
+| Twin Falls County | Twin Falls | Daily agenda PDFs | `daily_agendas` | Listed on days with action items |
+| Blaine, Latah and Oneida counties | various | Published schedules | `schedule` | Blaine and Oneida turn automated readers away; read by a person |
 | City of Sandpoint | Bonner | Published dates and schedule | `schedule` | Site turns automated readers away; read by a person from its own pages |
 | Rexburg, Ammon, Garden City (P&Z), Hailey, Emmett | various | Published schedules | `schedule` | Garden City doesn't publish its council meeting time |
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
