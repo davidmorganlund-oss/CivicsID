@@ -101,6 +101,11 @@ class RobotsBlocked(Exception):
     pass
 
 
+class RobotsUnavailable(Exception):
+    """robots.txt couldn't be read (timeout, server error): treated like any
+    other outage, so last night's listings stay up, but nothing is fetched."""
+
+
 def robots_rules(host_url):
     """The parsed robots.txt for a site, or None when every path is allowed."""
     from urllib.parse import urlsplit
@@ -114,13 +119,13 @@ def robots_rules(host_url):
     try:
         resp = requests.get(key + "/robots.txt", headers={"User-Agent": UA}, timeout=20)
         if resp.status_code >= 500:
-            rules = "ALL"  # RFC 9309: a server error on robots.txt means stay out for now
+            rules = f"server error {resp.status_code}"  # RFC 9309: stay out for now
         elif resp.ok and "html" not in resp.headers.get("Content-Type", "").lower():
             rp = RobotFileParser()
             rp.parse(resp.text.lower().splitlines())
             rules = rp
-    except requests.RequestException:
-        rules = "ALL"
+    except requests.RequestException as exc:
+        rules = type(exc).__name__
     _robots_cache[key] = rules
     return rules
 
@@ -132,7 +137,9 @@ def check_robots(url):
         return
     parts = urlsplit(url)
     path = (parts.path or "/") + ("?" + parts.query if parts.query else "")
-    if rules == "ALL" or not rules.can_fetch(ROBOTS_AGENT.lower(), path.lower()):
+    if isinstance(rules, str):
+        raise RobotsUnavailable(f"couldn't read robots.txt at {parts.netloc} ({rules}), so nothing was fetched")
+    if not rules.can_fetch(ROBOTS_AGENT.lower(), path.lower()):
         raise RobotsBlocked(f"robots.txt at {parts.netloc} asks automated readers not to read {parts.path}")
 
 
