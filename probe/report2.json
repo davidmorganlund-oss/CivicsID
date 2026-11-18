@@ -1,121 +1,59 @@
 {
- "kootenai-county:22": {
-  "url": "https://www.kcgov.us/Calendar.aspx?CID=22&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 209034,
-  "titles": 54,
-  "starts": 27,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
+ "blackfoot-cats": [
+  [
+   "4",
+   "Blackfoot Urban Renewal Agency (BURA)"
   ],
-  "noevents": false,
-  "snippet": "on\"><span itemprop=\"name\">BOCC: Status Update || CANCELLED</span><span class=\"visuallyHidden\">Category: County Commissioners Public Meeting Calendar</span></a>\t\t\t<div style=\"display:none;\" name=\"showDetailsBox\" id=\"showDetails4883_2\" class=\"detailsTooltip\">\t\t\t\t<div class=\"tooltipInner\">\t\t\t\t\t<h3 id=\"eventTitle_4883\" class=\"dim\">BOCC: Status Update || CANCELLED</h3>\t\t\t\t\t<dl>\t\t\t\t\t\t<dt>When:</dt>\t\t\t\t\t\t<dd>10:00 AM&thinsp;-&thinsp;11:00 AM</dd>\t\t\t\t\t\t<dt>Location:</dt>\t\t\t\t\t\t<dd></dd>\t\t\t\t\t</dl>\t\t\t\t\t<a aria-labelledby=\"eventTitle_4883 calendarEvent4883\"id=\"calendarEvent4883\" href=\"/Calendar.aspx?EID=4883&month=11&year=2026&day=3&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(4883, 3, 11, 2026, 0); return false;\" class=\"button\"><span>More Details</span></a>\t\t\t\t\t<a class=\"close\" href=\"\" role=\"button\"><img src=\"/Common/images/Calendar/closebutton.png\" alt=\"Close\" width=\"19\" height=\"19\"></a>\t\t\t\t</div>\t\t\t</div><div style=\"display: none;\" class=\"hidden\"><div class=\"subHeader\"><div class=\"date\">November&nbsp;3,&nbsp;2026,&nbsp;10:00 AM&thinsp;-&thinsp;11:00 AM</div></div>\r\n<div class=\"hidden\" itemscope itemtype=\"http://schema.org/Event\"><span itemprop=\"name\">BOCC: Status Update || CANCELLED</span><span itemprop=\"startDate\" class=\"hidden\">2026-11-03T10:00:00</span><p itemprop=\"description\"></p>\r\n<span itemprop=\"location\" itemscope itemtype=\"http://schema.org/Place\">\r\n<span itemprop=\"name\">Event Location</span><span class=\"hidden\" itemprop=\"address\" itemscope itemtype=\"http://schema.org/PostalAddress\"><span itemprop=\"streetAddress\">451 Government Way</span><span itemprop=\"addressLocality\">Coeur d'Alene</span><span itemprop=\"addressRegion\">ID</span><span itemprop=\"postalCode\">83814</span></span></span></div></div>\t\t\t\t</div>\t\t\t</div>\t\t\t<div id=\"parentdiv4935_2\" class"
- },
- "star:22": {
-  "url": "https://www.staridaho.org/Calendar.aspx?CID=22&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 95410,
-  "titles": 6,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "City Council Meetings",
-   "Loading"
+  [
+   "3",
+   "City Council"
   ],
-  "noevents": false,
-  "snippet": "to <em>01/17/2027</em></span><br><a class=\"back\" href=\"/calendar.aspx?startDate=&amp;enddate=&amp;keywords=&amp;CID=22\">&#9668;&nbsp;Return to Previous</a>\t\t<div id=\"CID22\" class=\"calendar\">\t\t\t<div>\r\n\t\t\t\t<h2 class=\"title\">City Council Meetings</h2>\r\n\t\t\t</div>\t\t\t<ol>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_343\" href=\"/Calendar.aspx?EID=343&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(343, 17, 11, 2026, 0); return false;\"><span>City Council Meeting</span></a></h3>\r\n</a></h3>\r\n<div class=\"subHeader\"><div class=\"date\">December&nbsp;1,&nbsp;2026,&nbsp;7:00 PM</div></div>\r\n<p></p>\r\n<a aria-labelledby=\"eventTitle_343 calendarEvent343\"id=\"calendarEvent343\" href=\"/Calendar.aspx?EID=343&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(343, 17, 11, 2026, 0); return false;\">More Details</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_393\" href=\"/Calendar.aspx?EID=393&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(393, 17, 11, 2026, 0); return false;\"><span>City Council Meeting</span></a></h3>\r\n</a></h3>\r\n<div class=\"subHeader\"><div class=\"date\">December&nbsp;15,&nbsp;2026,&nbsp;7:00 PM</div></div>\r\n<p></p>\r\n<a aria-labelledby=\"eventTitle_393 calendarEvent393\"id=\"calendarEvent393\" href=\"/Calendar.aspx?EID=393&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(393, 17, 11, 2026, 0); return false;\">More Details</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_344\" href=\"/Calendar.aspx?EID=344&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(344, 17, 11, 2026, 0); return false;\"><span>City Council Meeting</span></a></h3>\r\n</a></h3>"
- },
- "minidoka-county:14": {
-  "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 124258,
-  "titles": 16,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Main Calendar",
-   "Loading"
+  [
+   "12",
+   "Community Events"
   ],
-  "noevents": false,
-  "snippet": "26</em> to <em>01/17/2027</em></span><br><a class=\"back\" href=\"/calendar.aspx?startDate=&amp;enddate=&amp;keywords=&amp;CID=14\">&#9668;&nbsp;Return to Previous</a>\t\t<div id=\"CID14\" class=\"calendar\">\t\t\t<div>\r\n\t\t\t\t<h2 class=\"title\">Main Calendar</h2>\r\n\t\t\t</div>\t\t\t<ol>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_913\" href=\"/Calendar.aspx?EID=913&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(913, 17, 11, 2026, 0); return false;\"><span>County Commission Meeting</span></a></h3>\r\n</a></h3>\r\n<div class=\"subHeader\"><div class=\"date\">November&nbsp;23,&nbsp;2026,&nbsp;9:30 AM&thinsp;-&thinsp;2:00 PM</div></div>\r\n<p></p>\r\n<a aria-labelledby=\"eventTitle_913 calendarEvent913\"id=\"calendarEvent913\" href=\"/Calendar.aspx?EID=913&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(913, 17, 11, 2026, 0); return false;\">More Details</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_914\" href=\"/Calendar.aspx?EID=914&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(914, 17, 11, 2026, 0); return false;\"><span>County Commission Meeting</span></a></h3>\r\n</a></h3>\r\n<div class=\"subHeader\"><div class=\"date\">November&nbsp;30,&nbsp;2026,&nbsp;9:30 AM&thinsp;-&thinsp;2:00 PM</div></div>\r\n<p></p>\r\n<a aria-labelledby=\"eventTitle_914 calendarEvent914\"id=\"calendarEvent914\" href=\"/Calendar.aspx?EID=914&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(914, 17, 11, 2026, 0); return false;\">More Details</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_915\" href=\"/Calendar.aspx?EID=915&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(915, 17, 11, 2026, 0); return fa"
- },
- "minidoka-county:26": {
-  "url": "https://www.minidoka.id.us/Calendar.aspx?CID=26&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 118839,
-  "titles": 0,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
+  [
+   "8",
+   "Industrial Development Corporation"
   ],
-  "noevents": false,
-  "snippet": "<ol id=\"mainNavMenu\" data-parent=\"1\" class=\"rootNavMenu\" role=\"menu\"><!--\n--><li id=\"MainItem392\" class=\"topMenuItem\" role=\"none\" data-pageid=\"392\" data-displaymegamenu=\"False\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role=\"menuitem\"  id=\"mainNavLegalNoticesPublications\" class=\"navMainItem mainNavItem mainNavItem1\" href=\"/392/Legal-NoticesPublications\" target=\"_self\">   Legal Notices/Publications </a>\t\t\t<!--\n\t\t\t--><!--\n\t\t\t--></li><!----><li id=\"MainItem27\" class=\"topMenuItem\" role=\"none\" data-pageid=\"27\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuitem\"  aria-haspopup=true aria-expanded"
- },
- "blackfoot:22": {
-  "url": "https://www.cityofblackfoot.org/Calendar.aspx?CID=22&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 108022,
-  "titles": 0,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
+  [
+   "5",
+   "Mayor's Community Resource Council"
   ],
-  "noevents": false,
-  "snippet": "<ol id=\"mainNavMenu\" data-parent=\"1\" class=\"rootNavMenu\" role=\"menu\"><!--\n--><li id=\"MainItem27\" class=\"topMenuItem\" role=\"none\" data-pageid=\"27\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuitem\"  aria-haspopup=true aria-expanded='false' aria-controls=\"mainNavMegaMenu27\" id = \"mainNavGovernment\" class=\"navMainItem mainNavItem mainNavItem1 \" href=\"/27/Government\" target = \"_self\" >   Government  </a>\t\t\t<!--\n\t\t\t--><!--\n\t\t\t--></li><!----><li id=\"MainItem101\" class=\"topMenuItem\" role=\"none\" data-pageid=\"101\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuit"
- },
- "blackfoot:23": {
-  "url": "https://www.cityofblackfoot.org/Calendar.aspx?CID=23&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 108042,
-  "titles": 0,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
+  [
+   "2",
+   "Planning & Zoning Commission"
   ],
-  "noevents": false,
-  "snippet": "<ol id=\"mainNavMenu\" data-parent=\"1\" class=\"rootNavMenu\" role=\"menu\"><!--\n--><li id=\"MainItem27\" class=\"topMenuItem\" role=\"none\" data-pageid=\"27\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuitem\"  aria-haspopup=true aria-expanded='false' aria-controls=\"mainNavMegaMenu27\" id = \"mainNavGovernment\" class=\"navMainItem mainNavItem mainNavItem1 \" href=\"/27/Government\" target = \"_self\" >   Government  </a>\t\t\t<!--\n\t\t\t--><!--\n\t\t\t--></li><!----><li id=\"MainItem101\" class=\"topMenuItem\" role=\"none\" data-pageid=\"101\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuit"
- },
- "blackfoot:24": {
-  "url": "https://www.cityofblackfoot.org/Calendar.aspx?CID=24&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 108040,
-  "titles": 0,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
+  [
+   "10",
+   "Public Meetings - General"
   ],
-  "noevents": false,
-  "snippet": "<ol id=\"mainNavMenu\" data-parent=\"1\" class=\"rootNavMenu\" role=\"menu\"><!--\n--><li id=\"MainItem27\" class=\"topMenuItem\" role=\"none\" data-pageid=\"27\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuitem\"  aria-haspopup=true aria-expanded='false' aria-controls=\"mainNavMegaMenu27\" id = \"mainNavGovernment\" class=\"navMainItem mainNavItem mainNavItem1 \" href=\"/27/Government\" target = \"_self\" >   Government  </a>\t\t\t<!--\n\t\t\t--><!--\n\t\t\t--></li><!----><li id=\"MainItem101\" class=\"topMenuItem\" role=\"none\" data-pageid=\"101\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuit"
+  [
+   "6",
+   "Transportation Commission"
+  ]
+ ],
+ "bf-4": [],
+ "bf-3": [],
+ "bf-12": [],
+ "bf-8": [],
+ "bf-5": [],
+ "bf-2": [
+  [
+   "2026-11-24T00:00",
+   "Planning and Zoning Public Hearing Agenda"
+  ]
+ ],
+ "bf-10": [],
+ "bf-6": [],
+ "https://www.lewiscountyid.us/robots.txt": {
+  "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.lewiscountyid.us\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERI"
  },
- "blackfoot-library:31": {
-  "url": "https://www.cityofblackfoot.org/Calendar.aspx?CID=31&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 108032,
-  "titles": 0,
-  "starts": 0,
-  "h2": [
-   "Search Calendars by:",
-   "Loading"
-  ],
-  "noevents": false,
-  "snippet": "<ol id=\"mainNavMenu\" data-parent=\"1\" class=\"rootNavMenu\" role=\"menu\"><!--\n--><li id=\"MainItem27\" class=\"topMenuItem\" role=\"none\" data-pageid=\"27\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuitem\"  aria-haspopup=true aria-expanded='false' aria-controls=\"mainNavMegaMenu27\" id = \"mainNavGovernment\" class=\"navMainItem mainNavItem mainNavItem1 \" href=\"/27/Government\" target = \"_self\" >   Government  </a>\t\t\t<!--\n\t\t\t--><!--\n\t\t\t--></li><!----><li id=\"MainItem101\" class=\"topMenuItem\" role=\"none\" data-pageid=\"101\" data-displaymegamenu=\"True\"><!--\n\t\t\t--><!--\n\t\t\t--> <a role = \"menuit"
+ "http://www.lewiscountyid.us/robots.txt": {
+  "error": "ConnectTimeout(MaxRetryError(\"HTTPConnectionPool(host='www.lewiscountyid.us', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lewiscountyi"
  },
- "jerome:14": {
-  "url": "https://www.ci.jerome.id.us/Calendar.aspx?CID=14&startDate=11%2F18%2F2026&endDate=01%2F17%2F2027",
-  "len": 113266,
-  "titles": 12,
-  "starts": 6,
-  "h2": [
-   "Search Calendars by:",
-   "Main Calendar",
-   "Loading"
-  ],
-  "noevents": false,
-  "snippet": "26</em> to <em>01/17/2027</em></span><br><a class=\"back\" href=\"/calendar.aspx?startDate=&amp;enddate=&amp;keywords=&amp;CID=14\">&#9668;&nbsp;Return to Previous</a>\t\t<div id=\"CID14\" class=\"calendar\">\t\t\t<div>\r\n\t\t\t\t<h2 class=\"title\">Main Calendar</h2>\r\n\t\t\t</div>\t\t\t<ol>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_746\" href=\"/Calendar.aspx?EID=746&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(746, 17, 11, 2026, 0); return false;\"><span>City Council Meeting</span></a></h3>\r\n</a></h3>\r\n<div class=\"subHeader\"><div class=\"date\">December&nbsp;1,&nbsp;2026,&nbsp;5:30 PM&thinsp;-&thinsp;8:00 PM</div><div class=\"eventLocation fr-element fr-view\">@ <div class=\"name\"><p>Jerome Council Chambers</p></div></div></div>\r\n<div class=\"hidden\" itemscope itemtype=\"http://schema.org/Event\"><span itemprop=\"name\">City Council Meeting</span><span itemprop=\"startDate\" class=\"hidden\">2026-12-01T17:30:00</span><p itemprop=\"description\"></p>\r\n<span itemprop=\"location\" itemscope itemtype=\"http://schema.org/Place\">\r\n<span itemprop=\"name\"><p>Jerome Council Chambers</p></span><span class=\"hidden\" itemprop=\"address\" itemscope itemtype=\"http://schema.org/PostalAddress\"><span itemprop=\"streetAddress\">100 E Avenue A</span></span></span></div><p></p>\r\n<a aria-labelledby=\"eventTitle_746 calendarEvent746\"id=\"calendarEvent746\" href=\"/Calendar.aspx?EID=746&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(746, 17, 11, 2026, 0); return false;\">More Details</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<h3>\t\t\t\t\t <a id=\"eventTitle_842\" href=\"/Calendar.aspx?EID=842&month=11&year=2026&day=17&calType=0\" onkeypress=\"return this.onclick();\" onclick=\"eventDetails(842, 17, 11, 2026, 0); return false;\"><span>Urban Renewal Agency Meeting</span></a>"
+ "https://lewiscountyid.us/robots.txt": {
+  "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'lewiscountyid.us\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_F"
  },
- "https://meetings.municode.com/robots.txt": {
-  "status": 404,
-  "text": "\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n<head>\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Friendly Error Page | Municode Meetings</title>\r\n\r\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css\">\r\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css\" integrity=\"sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ\" crossorigin=\"anonymous\">\r\n\r\n    <link rel=\"icon\" type=\"image/ico\" href=\"https://mccmeetingsresources.blob"
- },
- "https://www.sandpointidaho.gov/robots.txt": {
-  "status": 200,
-  "text": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nA"
- }
+ "lewis-check": "RobotsUnavailable(\"couldn't read robots.txt at www.lewiscountyid.us (ConnectTimeout), so nothing was fetched\")"
 }
