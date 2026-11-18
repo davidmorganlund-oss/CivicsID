@@ -87,7 +87,7 @@ G["local-government"] = dict(
     <li><strong>Appointed boards.</strong> Planning and zoning commissions, library boards and others are filled by appointment. See <a href="boards-and-commissions.html">serve on a board or commission</a>.</li>
   </ul>
 """,
-    sources=[("https://sos.idaho.gov/blue_book/2021/06_County.pdf", "Idaho Blue Book, county government chapter (Idaho Secretary of State)"),
+    sources=[("https://archive.sos.idaho.gov/blue_book/blue_book_2025-2026.pdf", "The Blue Book of Idaho, 2025-2026, county government section (Idaho Secretary of State)"),
              ("https://idcounties.org/wp-content/uploads/2025/10/Introduction-to-State-Local-Government.pdf", "Introduction to state and local government (Idaho Association of Counties)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/", "Idaho Statutes: Title 31 (counties), Title 50 (cities), Title 33 (schools), Title 40 (highways) (Idaho Legislature)")])
 

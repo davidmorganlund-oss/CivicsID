@@ -478,7 +478,7 @@ G["courts"] = dict(
   </ul>
 """,
     sources=[("https://isc.idaho.gov/about-the-courts", "About the courts (Idaho Supreme Court)"),
-             ("https://sos.idaho.gov/blue_book/2021/05_Judicial.pdf", "Idaho Blue Book, judicial branch chapter (Idaho Secretary of State)"),
+             ("https://archive.sos.idaho.gov/blue_book/blue_book_2025-2026.pdf", "The Blue Book of Idaho, 2025-2026, judicial branch section (Idaho Secretary of State)"),
              ("https://courtselfhelp.idaho.gov/", "Court Assistance Office (Idaho Supreme Court)"),
              ("https://www.uscourts.gov/about-federal-courts", "About federal courts (United States Courts)")])
 
