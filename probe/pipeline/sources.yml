@@ -1,0 +1,1370 @@
+# CivicsID sources, State of Idaho.
+# Each source names a connector type and the public feed it reads.
+# "county" groups sources by county. "area" is what the site matches a
+# visitor's city against; "countywide" sources show for everyone in the county.
+# "timezone" defaults to Mountain time. Sources in the northern counties
+# (Pacific time) say so.
+# Every feed below was checked by hand in November 2026 before it was added.
+
+window_days: 60
+timezone: America/Boise
+
+sources:
+  # Statewide: the Idaho Legislature's own calendar of committee meetings
+  # (standing committees in session, interim committees the rest of the year).
+  - id: legislature
+    name: Idaho Legislature
+    type: legislature
+    url: https://legislature.idaho.gov/feeds/my-calendar-ics/
+    calendar: https://legislature.idaho.gov/calendar/
+    county: Statewide
+    area: statewide
+    force_category: legislature
+    homepage: https://legislature.idaho.gov/calendar
+
+  # Boise moved its meetings to eScribe in late 2026; the Library Board of
+  # Trustees publishes there too.
+  - id: boise
+    name: City of Boise
+    type: escribe
+    site: https://pub-cityofboise.escribemeetings.com
+    county: Ada
+    area: Boise
+    default_category: council
+    homepage: https://pub-cityofboise.escribemeetings.com/
+
+  # Boise City Council stays on its old IQM2 portal until it moves to eScribe
+  # on Jan. 12, 2027. This feed reaches about a week ahead; remove it then.
+  - id: boise-council-iqm2
+    name: City of Boise
+    review_by: 2027-01-13
+    review_note: Boise City Council moves to eScribe on Jan. 12, 2027; remove this old IQM2 source and confirm council meetings come through the boise eScribe source
+    type: iqm2_rss
+    url: https://boisecityid.iqm2.com/Services/RSS.aspx?Feed=Calendar
+    county: Ada
+    area: Boise
+    default_category: council
+    homepage: https://www.cityofboise.org/departments/city-clerk/public-meetings/
+
+  - id: meridian
+    name: City of Meridian
+    type: civicclerk
+    tenant: meridianid
+    county: Ada
+    area: Meridian
+    homepage: https://meridianid.portal.civicclerk.com/
+
+  - id: kuna
+    name: City of Kuna
+    type: civicplus
+    site: https://www.kunacity.id.gov
+    categories: [14]          # "Public Meetings - Main Calendar"
+    county: Ada
+    area: Kuna
+    default_category: council
+    homepage: https://www.kunacity.id.gov/calendar.aspx
+
+  - id: star
+    name: City of Star
+    type: civicplus
+    site: https://www.staridaho.org
+    categories: [22]          # "City Council Meetings"
+    county: Ada
+    area: Star
+    default_category: council
+    homepage: https://www.staridaho.org/calendar.aspx
+
+  # The highway district publishes a standing schedule, not a feed.
+  - id: achd
+    name: Ada County Highway District
+    type: schedule
+    county: Ada
+    area: countywide
+    homepage: https://www.achdidaho.org/about-achd/commission/commission-meetings
+    meetings:
+      - title: ACHD Commission meeting
+        when: 1st, 2nd, 3rd Wednesday
+        time: "12:00"
+        category: council
+        url: https://www.achdidaho.org/about-achd/commission/commission-meetings
+      - title: ACHD Commission evening meeting
+        when: 4th Wednesday
+        time: "18:00"
+        category: council
+        url: https://www.achdidaho.org/about-achd/commission/commission-meetings
+
+  # ---------- Canyon County ----------
+  - id: caldwell
+    name: City of Caldwell
+    type: civicclerk
+    tenant: caldwellid
+    county: Canyon
+    area: Caldwell
+    homepage: https://caldwellid.portal.civicclerk.com/
+
+  # ---------- Bonneville County ----------
+  - id: idaho-falls
+    name: City of Idaho Falls
+    type: civicplus
+    site: https://www.idahofallsidaho.gov
+    # City Council, Planning Commission, Utility Board, Idaho Falls Power,
+    # Redevelopment Agency, Parks & Recreation Commission, Historic
+    # Preservation Commission, Airport Board, Golf Advisory Board, Shade Tree Committee
+    categories: [28, 42, 29, 61, 67, 48, 59, 79, 47, 49]
+    county: Bonneville
+    area: Idaho Falls
+    default_category: council
+    homepage: https://www.idahofallsidaho.gov/calendar.aspx
+
+  # ---------- Bannock County ----------
+  - id: pocatello
+    name: City of Pocatello
+    type: civicplus
+    site: https://www.pocatello.gov
+    categories: [14]          # "Main Calendar", which mixes meetings with city events
+    county: Bannock
+    area: Pocatello
+    drop_uncategorized: true
+    homepage: https://www.pocatello.gov/calendar.aspx
+
+  # ---------- Twin Falls County ----------
+  - id: twin-falls
+    name: City of Twin Falls
+    type: civicclerk
+    tenant: twinfallsid
+    county: Twin Falls
+    area: Twin Falls
+    homepage: https://twinfallsid.portal.civicclerk.com/
+
+  # ---------- Valley County ----------
+  - id: mccall
+    name: City of McCall
+    type: civicplus
+    site: https://www.mccall.id.us
+    categories: [23, 27]      # City Council; Boards & Commissions
+    county: Valley
+    area: McCall
+    default_category: council
+    homepage: https://www.mccall.id.us/calendar.aspx
+
+  # ---------- North Idaho (Pacific time) ----------
+  - id: kootenai-county
+    name: Kootenai County
+    type: civicplus
+    site: https://www.kcgov.us
+    categories: [22]          # "County Commissioners Public Meeting Calendar"
+    county: Kootenai
+    area: countywide
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://www.kcgov.us/calendar.aspx?CID=22
+
+  # Coeur d'Alene posts no feed. The council's regular schedule and its 2026
+  # date list are on the city's site; the agenda packet is linked to each
+  # meeting once the city posts it.
+  - id: coeur-dalene
+    name: City of Coeur d'Alene
+    type: schedule
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Tuesday
+        until: 2026-12-15       # the last date on the city's published 2026 schedule
+        time: "18:00"
+        location: Coeur d'Alene Public Library Community Room
+        category: council
+        url: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
+        agenda_page: https://www.cdaid.org/government/mayor-and-council/council-agendas/
+
+  # Other city boards that meet at the Coeur d'Alene library, from the
+  # library's "City Meetings at the Library" calendar. Council meetings are
+  # left to the source above, which carries the agenda link.
+  - id: coeur-dalene-boards
+    name: City of Coeur d'Alene
+    type: libcal
+    host: cdalibrary.libcal.com
+    calendar: 21178
+    only_categories: [City Meeting]
+    skip_titles: ^city council meeting|preparation|executive session|meet and greet|foundation
+    default_category: council
+    default_location: Coeur d'Alene Public Library
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaid.org/government/departments/municipal-services/meeting-agendas/
+
+  # ---------- North Idaho libraries ----------
+  # Kept to civic programs: trustee and Friends meetings, and titles about
+  # voting, government and the like.
+  - id: cda-library
+    name: Coeur d'Alene Public Library
+    type: libcal
+    host: cdalibrary.libcal.com
+    calendar: 21136
+    civic_only: true
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://cdalibrary.org/events/
+
+  # Seven libraries in Kootenai and Shoshone counties.
+  - id: community-library-network
+    name: Community Library Network
+    type: libcal
+    host: communitylibrary.libcal.com
+    civic_only: true
+    county: Kootenai
+    area: countywide
+    campus_areas: {Hayden: Hayden, Post Falls: Post Falls, Rathdrum: Rathdrum, Athol: Athol,
+                   Spirit Lake: Spirit Lake, Harrison: Harrison, Pinehurst: Pinehurst}
+    campus_counties: {Pinehurst: Shoshone}
+    timezone: America/Los_Angeles
+    homepage: https://communitylibrary.libcal.com/
+
+  - id: east-bonner-library
+    name: East Bonner County Library District
+    type: mec_library
+    url: https://ebonnerlibrary.org/events/feed/
+    county: Bonner
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://ebonnerlibrary.org/events/
+
+  - id: latah-library
+    name: Latah County Library District
+    type: mec_library
+    url: https://www.latahlibrary.org/events/feed/
+    branches: [Moscow, Genesee, Potlatch, Troy, Deary, Bovill, Juliaetta]
+    county: Latah
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.latahlibrary.org/events-calendar/
+
+  # Hayden's meetings portal. A meeting shows up when its agenda is posted.
+  - id: hayden
+    name: City of Hayden
+    type: boardbook
+    organization: 2366
+    county: Kootenai
+    area: Hayden
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://meetings.boardbook.org/Public/Organization/2366
+
+  # Rathdrum's site has no feed and turns away automated readers, so these
+  # are entered by hand from the pages the city publishes. Update each January
+  # when the city posts the new year's council schedule.
+  - id: rathdrum
+    name: City of Rathdrum
+    type: schedule
+    county: Kootenai
+    area: Rathdrum
+    timezone: America/Los_Angeles
+    homepage: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
+    meetings:
+      # The city calendar lists the November meeting on Wed. Nov. 11; the
+      # schedule page lists no meeting Nov. 25 or Dec. 23.
+      - title: City Council Meeting
+        dates: [2026-11-11, 2026-12-09]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/calendar
+      # From 2027: "2nd and 4th Wednesday of each month, with the exception of
+      # November and December."
+      - title: City Council Meeting
+        when: 2nd, 4th Wednesday
+        skip_months: [11, 12]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/1114/2026-council-meeting-schedule
+      - title: Public Input Session with Planning & Zoning Commissioners
+        dates: [2026-11-18]
+        one_off: true
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/calendar
+      - title: Planning & Zoning Commission Meeting
+        dates: [2026-11-18, 2026-12-16]
+        time: "17:30"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/66/planning-and-zoning-commission
+      - title: Parks & Recreation Commission
+        when: 4th Tuesday
+        skip_months: [1, 3, 4, 6, 7, 9, 10, 12]   # meets in February, May, August and November
+        time: "18:00"
+        location: Rathdrum City Hall, 8047 W. Main Street
+        category: council
+        url: https://www.rathdrum.gov/450/parks-and-recreation-commission
+
+  # Dalton Gardens' calendar has no feed and its site asks automated readers
+  # to stay out of the address the calendar loads from, so these are entered
+  # by hand from the city's calendar page. Check that page and update monthly.
+  - id: dalton-gardens
+    name: City of Dalton Gardens
+    type: schedule
+    county: Kootenai
+    area: Dalton Gardens
+    timezone: America/Los_Angeles
+    homepage: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+    # Posted dates come from the city's calendar page; after those run out, the
+    # regular schedules the city publishes on each board's own page take over.
+    meetings:
+      - title: Regular City Council Meeting
+        dates: [2026-11-18, 2026-12-30]
+        time: "18:00"
+        end: "19:30"
+        category: council
+        url: https://daltongardens.com/citycouncil
+      # "typically held the last Wednesday of each month at 6pm, meetings in
+      # November and December may differ due to the holidays"
+      - title: Regular City Council Meeting
+        when: last Wednesday
+        from: 2027-01-01
+        skip_months: [11, 12]
+        time: "18:00"
+        end: "19:30"
+        category: council
+        url: https://daltongardens.com/citycouncil
+      - title: Planning and Zoning Meeting
+        dates: [2026-12-03]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/planning
+      # "typically held the first Thursday of each month at 6pm. January and
+      # July meetings may differ due to the holidays"
+      - title: Planning and Zoning Meeting
+        when: 1st Thursday
+        from: 2027-01-01
+        skip_months: [1, 7]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/planning
+      - title: Dalton Water Board Meeting
+        dates: [2026-11-11, 2026-12-09]
+        time: "17:00"
+        end: "18:00"
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704
+      # Dalton Water Association: "Regular board meetings are held at 5pm on the
+      # 2nd Wednesday of each month in the Council Room at Dalton Gardens' City Hall"
+      - title: Dalton Water Board Meeting
+        when: 2nd Wednesday
+        from: 2027-01-01
+        time: "17:00"
+        end: "18:00"
+        location: Dalton Gardens City Hall, 6360 N 4th St
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704
+      - title: Dalton Irrigation Board Meeting
+        dates: [2026-12-14]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/irrigation
+      # Dalton Gardens Irrigation District: "Meetings are held at 6:00 PM on the
+      # second Monday of each month at the DGID office" (inside City Hall)
+      - title: Dalton Irrigation Board Meeting
+        when: 2nd Monday
+        from: 2027-01-01
+        time: "18:00"
+        end: "19:00"
+        location: Dalton Gardens Irrigation District office, Dalton Gardens City Hall
+        category: council
+        url: https://daltongardens.com/irrigation
+
+  - id: post-falls
+    name: City of Post Falls
+    type: civicplus
+    site: https://www.postfalls.gov
+    categories: [24]          # "City Meetings"
+    county: Kootenai
+    area: Post Falls
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://www.postfalls.gov/calendar.aspx
+
+  - id: lewiston
+    name: City of Lewiston
+    type: civicclerk
+    tenant: lewistonid
+    county: Nez Perce
+    area: Lewiston
+    timezone: America/Los_Angeles
+    homepage: https://lewistonid.portal.civicclerk.com/
+
+  - id: moscow
+    name: City of Moscow
+    type: civicclerk
+    tenant: moscowid
+    county: Latah
+    area: Moscow
+    timezone: America/Los_Angeles
+    homepage: https://moscowid.portal.civicclerk.com/
+
+  # ---------- County commissioners, statewide (November 2026) ----------
+  # Where a county publishes a calendar, it is read directly. Where it only
+  # publishes a regular schedule, that schedule is entered here (and labeled
+  # on the site as coming from the regular schedule). "yield_to" names the
+  # county's own feed: on days that feed lists a meeting, the schedule
+  # placeholder is dropped so the meeting isn't listed twice.
+
+  - id: bannock-county
+    name: Bannock County
+    type: tribe
+    site: https://www.bannockcounty.gov
+    categories: [Board of County Commissioners]
+    default_category: council
+    county: Bannock
+    area: countywide
+    homepage: https://www.bannockcounty.gov/commissioners/
+
+  - id: bonner-county
+    name: Bonner County
+    type: evo
+    site: https://www.bonnercountyid.gov
+    calendars: [642, 837, 836, 840, 839, 841, 826, 843, 805, 803, 825]
+    default_category: council
+    county: Bonner
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.bonnercountyid.gov/meetings
+
+  - id: valley-county
+    name: Valley County
+    type: evo
+    site: https://www.valleycountyid.gov
+    calendars: [66, 75, 186, 77, 76, 78, 79, 129, 125, 218]
+    default_category: council
+    county: Valley
+    area: countywide
+    homepage: https://www.valleycountyid.gov/calendar/66/
+
+  - id: cassia-county
+    name: Cassia County
+    type: evo
+    site: https://www.cassia.gov
+    calendars: [419, 870, 871, 873]
+    default_category: council
+    county: Cassia
+    area: countywide
+    homepage: https://www.cassia.gov/meetings
+
+  - id: cassia-county-schedule
+    name: Cassia County
+    type: schedule
+    yield_to: [cassia-county]
+    county: Cassia
+    area: countywide
+    homepage: https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "09:00"
+        location: Commission Chambers, Room 206, 1459 Overland Avenue, Burley
+        category: council
+        url: https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
+
+  - id: canyon-county
+    name: Canyon County
+    type: canyon_agenda
+    site: https://agenda.canyoncounty.id.gov
+    default_location: County Courthouse, 1115 Albany Street, Caldwell
+    county: Canyon
+    area: countywide
+    homepage: https://agenda.canyoncounty.id.gov/Search
+
+  - id: madison-county
+    name: Madison County
+    type: revize
+    site: https://www.madisoncountyid.gov
+    webspace: madisoncounty
+    cms: cms2
+    drop_uncategorized: true
+    county: Madison
+    area: countywide
+    homepage: https://www.madisoncountyid.gov/calendar.php
+
+  - id: franklin-county
+    name: Franklin County
+    type: revize
+    site: https://www.franklincountyidaho.org
+    webspace: franklincounty
+    cms: cms2
+    drop_uncategorized: true
+    county: Franklin
+    area: countywide
+    homepage: https://www.franklincountyidaho.org/government/agendas_minutes.php
+
+  - id: franklin-county-schedule
+    name: Franklin County
+    type: schedule
+    yield_to: [franklin-county]
+    county: Franklin
+    area: countywide
+    homepage: https://www.franklincountyidaho.org/government/county_commissioners.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://www.franklincountyidaho.org/government/agendas_minutes.php
+
+  - id: clearwater-county
+    name: Clearwater County
+    type: revize
+    site: https://www.clearwatercounty.org
+    webspace: clearwaternew
+    cms: cms3
+    drop_uncategorized: true
+    county: Clearwater
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
+
+  - id: clearwater-county-schedule
+    name: Clearwater County
+    type: schedule
+    yield_to: [clearwater-county]
+    county: Clearwater
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.clearwatercounty.org/departments/commissioners/index.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "08:00"
+        category: council
+        url: https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
+
+  - id: teton-county
+    name: Teton County
+    type: revize
+    site: https://www.tetoncountyidaho.gov
+    webspace: tetoncounty
+    cms: cms3
+    drop_uncategorized: true
+    county: Teton
+    area: countywide
+    homepage: https://pub-tetoncounty.escribemeetings.com/
+
+  - id: teton-county-schedule
+    name: Teton County
+    type: schedule
+    yield_to: [teton-county]
+    county: Teton
+    area: countywide
+    homepage: https://www.tetoncountyidaho.gov/government/elected_officials/county_commissioners/index.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        category: council
+        url: https://pub-tetoncounty.escribemeetings.com/
+      - title: Board of County Commissioners
+        when: 4th Tuesday
+        time: "09:00"
+        category: council
+        url: https://pub-tetoncounty.escribemeetings.com/
+
+  # Fremont County's site turns away automated readers, so its posted
+  # commissioners' meetings are entered by hand from the county calendar.
+  # Update when the county posts January dates.
+  - id: fremont-county
+    name: Fremont County
+    type: schedule
+    county: Fremont
+    area: countywide
+    homepage: https://www.fremontcountyid.gov/calendar.aspx?CID=41
+    meetings:
+      - title: BOCC Regular Meeting
+        dates: [2026-11-16, 2026-11-23, 2026-12-07, 2026-12-14, 2026-12-28]
+        time: "09:00"
+        end: "17:00"
+        location: Fremont County Courthouse, 151 W 1st N, St. Anthony
+        category: council
+        url: https://www.fremontcountyid.gov/calendar.aspx?CID=41
+
+  - id: jefferson-county
+    name: Jefferson County
+    type: civicplus
+    site: https://www.jcgov.us
+    categories: [24, 31]          # Meetings; Planning, Zoning & Building
+    default_category: council
+    county: Jefferson
+    area: countywide
+    homepage: https://www.jcgov.us/calendar.aspx
+
+  - id: lemhi-county
+    name: Lemhi County
+    type: civicplus
+    site: https://www.lemhicountyidaho.org
+    categories: [14]
+    drop_uncategorized: true
+    county: Lemhi
+    area: countywide
+    homepage: https://www.lemhicountyidaho.org/AgendaCenter
+
+  - id: minidoka-county
+    name: Minidoka County
+    type: civicplus
+    site: https://www.minidoka.id.us
+    categories: [14, 26]          # Main Calendar; Planning and Zoning Hearing
+    drop_uncategorized: true
+    county: Minidoka
+    area: countywide
+    homepage: https://www.minidoka.id.us/AgendaCenter
+
+  - id: power-county
+    name: Power County
+    type: civicplus
+    site: https://www.powercounty.gov
+    categories: [23]              # Board of Commissioners
+    default_category: council
+    county: Power
+    area: countywide
+    homepage: https://www.powercounty.gov/AgendaCenter
+
+  - id: washington-county
+    name: Washington County
+    type: civicplus
+    site: https://www.co.washington.id.us
+    categories: [14]
+    drop_uncategorized: true
+    county: Washington
+    area: countywide
+    homepage: https://www.co.washington.id.us/calendar.aspx?CID=14
+
+  - id: clark-county
+    name: Clark County
+    type: agendacenter
+    site: https://www.clark-co.id.gov
+    category: 2
+    default_category: council
+    default_location: Commissioners' Chambers, 224 W. Main Street, Dubois
+    county: Clark
+    area: countywide
+    homepage: https://www.clark-co.id.gov/agendacenter
+
+  - id: jerome-county
+    name: Jerome County
+    type: agendacenter
+    site: https://www.jeromecountyid.us
+    category: 2
+    default_category: council
+    county: Jerome
+    area: countywide
+    homepage: https://www.jeromecountyid.us/AgendaCenter
+
+  - id: gooding-county
+    name: Gooding County
+    type: agendacenter
+    site: https://www.goodingcounty.org
+    category: 2
+    time: "10:00 AM"
+    default_category: council
+    default_location: 145 7th Avenue East, Gooding
+    county: Gooding
+    area: countywide
+    homepage: https://www.goodingcounty.org/agendacenter
+
+  - id: gooding-county-schedule
+    name: Gooding County
+    type: schedule
+    yield_to: [gooding-county]
+    county: Gooding
+    area: countywide
+    homepage: https://www.goodingcounty.org/agendacenter
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "10:00"
+        location: 145 7th Avenue East, Gooding
+        category: council
+        url: https://www.goodingcounty.org/agendacenter
+
+  - id: payette-county
+    name: Payette County
+    type: jevents
+    url: https://www.payettecounty.org/index.php?option=com_jevents&task=modlatest.rss&format=feed&type=rss&Itemid=374&modid=0
+    default_category: council
+    county: Payette
+    area: countywide
+    homepage: https://www.payettecounty.org/elected-officials/commissioners/agenda
+
+  - id: benewah-county
+    name: Benewah County
+    type: ics
+    url: https://benewahcountyid.gov/?feed=my-calendar-ics
+    drop_uncategorized: true
+    county: Benewah
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://benewahcountyid.gov/commissioners/
+
+  # Lincoln County's meetings page turns away automated readers, so this is
+  # the regular schedule the county publishes on its Commissioners page:
+  # "the first 4 Mondays of every month, unless the Monday is a holiday and
+  # then generally the meeting will be held on Tuesday." Time from its listings.
+  - id: lincoln-county
+    name: Lincoln County
+    type: schedule
+    county: Lincoln
+    area: countywide
+    homepage: https://www.lincolncountyid.gov/commissioners
+    meetings:
+      - title: Board of Commissioners Meeting
+        when: 1st, 2nd, 3rd, 4th Monday
+        time: "10:00"
+        location: Lincoln County Courthouse, 111 W B St, Shoshone
+        category: council
+        url: https://www.lincolncountyid.gov/meetings
+        holiday_moves_to_next_day: true
+
+  - id: ketchum
+    name: City of Ketchum
+    type: civicplus
+    site: https://ketchumidaho.gov
+    categories: [22, 14]
+    drop_uncategorized: true
+    county: Blaine
+    area: Ketchum
+    homepage: https://ketchumidaho.gov/AgendaCenter
+
+  # Counties that publish a regular schedule and no calendar we can read.
+  - id: idaho-county
+    name: Idaho County
+    type: schedule
+    county: Idaho
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://idahocounty.org/planb/commissioners/
+    meetings:
+      - title: Idaho County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "09:00"
+        location: Idaho County Courthouse, 320 West Main Street, Grangeville
+        category: council
+        url: https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/
+
+  - id: nez-perce-county
+    name: Nez Perce County
+    type: schedule
+    county: Nez Perce
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas
+    meetings:
+      - title: County Commissioners agenda meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        time: "13:30"
+        location: Confluence Room, 1st Floor, New Courthouse, 1230 Main Street, Lewiston
+        category: council
+        url: https://www.co.nezperce.id.us/Elected-Officials/Commissioners/Commissioner-Agendas
+
+  - id: shoshone-county
+    name: Shoshone County
+    type: schedule
+    county: Shoshone
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://shoshonecounty.id.gov/commissioners/
+    meetings:
+      - title: Commissioners Regular Business Meeting
+        when: 1st, 2nd, 3rd, 4th, 5th Wednesday
+        time: "09:30"
+        category: council
+        url: https://shoshonecounty.id.gov/commissioners/
+
+  - id: boundary-county
+    name: Boundary County
+    type: schedule
+    county: Boundary
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://boundarycountyid.org/meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Monday
+        category: council
+        url: https://boundarycountyid.org/meetings/
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        category: council
+        url: https://boundarycountyid.org/meetings/
+
+  - id: adams-county
+    name: Adams County
+    type: schedule
+    county: Adams
+    area: countywide
+    homepage: https://www.co.adams.id.us/county-commissioners
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 3rd, 4th Monday
+        category: council
+        url: https://www.co.adams.id.us/public-meetings
+
+  - id: bear-lake-county
+    name: Bear Lake County
+    type: schedule
+    county: Bear Lake
+    area: countywide
+    homepage: https://www.bearlakecounty.info/meetings.html
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        location: Commissioners' Room, Bear Lake County Courthouse, 30 North Main Street, Paris
+        category: council
+        url: https://www.bearlakecounty.info/meetings.html
+
+  - id: bingham-county
+    name: Bingham County
+    type: schedule
+    county: Bingham
+    area: countywide
+    homepage: https://www.binghamid.gov/
+    meetings:
+      - title: Bingham County Commission
+        when: 1st, 2nd, 3rd, 4th, 5th Wednesday
+        time: "08:15"
+        location: 501 N. Maple, Blackfoot
+        category: council
+        url: https://www.binghamid.gov/
+      - title: Bingham County Commission
+        when: 1st, 2nd, 3rd, 4th, 5th Friday
+        time: "08:15"
+        location: 501 N. Maple, Blackfoot
+        category: council
+        url: https://www.binghamid.gov/
+
+  - id: boise-county
+    name: Boise County
+    type: schedule
+    county: Boise
+    area: countywide
+    homepage: https://www.boisecounty.us/?p=620
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "09:00"
+        category: council
+        url: https://www.boisecounty.us/?p=620
+
+  - id: butte-county
+    name: Butte County
+    type: schedule
+    county: Butte
+    area: countywide
+    homepage: https://buttecountyid.us/butte-county-public-meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://buttecountyid.us/butte-county-public-meetings/
+
+  - id: camas-county
+    name: Camas County
+    type: schedule
+    county: Camas
+    area: countywide
+    homepage: https://camascounty.id.gov/category/commissioner-agenda/
+    meetings:
+      - title: Board of County Commissioners
+        dates: [2026-11-16, 2026-11-23, 2026-12-14, 2026-12-21, 2026-12-28]
+        location: Camas County Annex, 517 Soldier Road, Fairfield
+        category: council
+        url: https://camascounty.id.gov/category/commissioner-agenda/
+
+  - id: caribou-county
+    name: Caribou County
+    type: schedule
+    county: Caribou
+    area: countywide
+    homepage: https://www.cariboucounty.us/government/public_meeting.php
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        time: "09:00"
+        category: council
+        url: https://www.cariboucounty.us/government/public_meeting.php
+
+  - id: custer-county
+    name: Custer County
+    type: schedule
+    county: Custer
+    area: countywide
+    homepage: https://custercountyidaho.org/departments/commissioners/
+    meetings:
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        category: council
+        url: https://custercountyidaho.org/departments/commissioners/agendas-and-minutes/
+
+  - id: elmore-county
+    name: Elmore County
+    type: schedule
+    county: Elmore
+    area: countywide
+    homepage: https://elmorecounty.org/commissioners/
+    meetings:
+      - title: Board of County Commissioners
+        dates: [2026-11-13, 2026-11-20, 2026-12-04, 2026-12-11, 2026-12-18]
+        location: Commissioners Room, basement of the Elmore County Courthouse, 150 South 4th East, Mountain Home
+        category: council
+        url: https://elmorecounty.org/commissioners/meeting-minutes-2-2/
+
+  - id: owyhee-county
+    name: Owyhee County
+    type: schedule
+    county: Owyhee
+    area: countywide
+    homepage: https://owyheecounty.net/commissioners/meetings/
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th Monday
+        time: "09:00"
+        location: Courtroom No. 2, Owyhee County Courthouse, Murphy
+        category: council
+        url: https://owyheecounty.net/commissioners/meetings/
+
+  # Oneida County's own site sits behind a bot challenge; Malad City (the
+  # county seat) publishes its council's regular schedule.
+  - id: malad-city
+    name: Malad City
+    type: schedule
+    county: Oneida
+    area: Malad City
+    homepage: https://maladidaho.org/city-council-calendar/
+    meetings:
+      - title: City Council
+        when: 2nd Wednesday
+        time: "18:00"
+        location: Malad City Hall (in person or by Zoom)
+        category: council
+        url: https://maladidaho.org/city-council-calendar/
+        agenda_page: https://maladidaho.org/minutes-agendas/
+
+  # Gem County posts each week's Monday/Tuesday agenda as a PDF on this list.
+  - id: gem-county
+    name: Gem County
+    type: pdf_agendas
+    list_url: https://www.gemcounty.org/government/county_commissioners/previous_agendas.php
+    link_match: Commissioner Agenda
+    default_location: Commissioners Meeting Room, Gem County Courthouse, 415 E. Main St, Emmett
+    county: Gem
+    area: countywide
+    homepage: https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php
+
+  # Lewis County's https certificate fails, but the same site over http names
+  # the next commissioners' meeting.
+  - id: lewis-county
+    name: Lewis County
+    type: next_meeting
+    page: http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas
+    meeting_title: Board of Lewis County Commissioners
+    default_location: Lewis County Courthouse, 510 Oak St, Nezperce
+    county: Lewis
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas
+
+  # Ada County posts a daily commissioners' agenda (PDF) in its file browser.
+  # Only items the agenda marks as public, streamed meetings (*) are listed.
+  - id: ada-county
+    name: Ada County
+    type: ada_agendas
+    browse: https://apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas
+    papp: BOCCAgendas
+    default_location: Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise
+    hearing_location: 1st Floor Public Hearing Room, Ada County Courthouse, 200 W. Front St, Boise
+    county: Ada
+    area: countywide
+    homepage: https://adacounty.id.gov/commissioners/
+
+  # Nampa's CivicPlus calendar turns away automated readers, so this is the
+  # schedule on its City Council page: first and third Mondays (Tuesday when
+  # Monday is a holiday), 5 p.m., public hearings from 6 p.m.
+  - id: nampa
+    name: City of Nampa
+    type: schedule
+    county: Canyon
+    area: Nampa
+    homepage: https://www.cityofnampa.us/108/City-Council
+    meetings:
+      - title: City Council
+        when: 1st, 3rd Monday
+        time: "17:00"
+        location: Council Chambers, Nampa City Hall, 411 3rd St S
+        category: council
+        url: https://www.cityofnampa.us/1612/Public-Meetings
+        holiday_moves_to_next_day: true
+        note: Public hearings begin at 6 p.m.
+
+  # ---------- School boards ----------
+
+  - id: boise-schools
+    name: Boise School District
+    type: notice_page
+    page: https://www.boiseschools.org/boardmeetingnotice
+    category: school
+    county: Ada
+    area: Boise
+    homepage: https://www.boiseschools.org/boardmeetingnotice
+
+  - id: west-ada-schools
+    name: West Ada School District
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031062
+    county: Ada
+    area: Meridian
+    homepage: https://www.westada.org/page/board-of-trustees
+
+  - id: nampa-schools
+    name: Nampa School District
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+    county: Canyon
+    area: Nampa
+    homepage: https://www.nsd131.org/board-of-trustees
+
+  # The district's published 2026 regular meeting calendar, shown until the
+  # meeting itself is posted on its meetings listing.
+  - id: nampa-schools-schedule
+    name: Nampa School District
+    type: schedule
+    county: Canyon
+    area: Nampa
+    homepage: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+    yield_to: [nampa-schools]
+    meetings:
+      - title: Regular Board of Trustees Meeting
+        dates: [2026-11-17, 2026-12-15, 2027-01-19]
+        time: "17:00"
+        category: school
+        url: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031905
+
+  # The district's meetings portal asks automated readers to stay away, so this
+  # is the schedule the board publishes: generally the second Monday, 5 p.m.
+  - id: cda-schools
+    name: Coeur d'Alene Public Schools
+    type: schedule
+    county: Kootenai
+    area: Coeur d'Alene
+    timezone: America/Los_Angeles
+    homepage: https://www.cdaschools.org/page/board-of-trustees
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Monday
+        time: "17:00"
+        location: Midtown Center Meeting Room, 1505 N. 5th Street, Coeur d'Alene
+        category: school
+        url: https://www.cdaschools.org/page/board-of-trustees
+
+  - id: idaho-falls-schools
+    name: Idaho Falls School District 91
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032118
+    county: Bonneville
+    area: Idaho Falls
+    homepage: https://www.ifschools.org/our-district/board-of-trustees
+
+  - id: pocatello-schools
+    name: Pocatello/Chubbuck School District 25
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884
+    county: Bannock
+    area: Pocatello
+    homepage: https://www.sd25.us/district/board
+
+  # ---------- Libraries ----------
+
+  - id: ada-library
+    name: Ada Community Library
+    type: schedule
+    county: Ada
+    area: countywide
+    homepage: https://adalib.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "16:00"
+        category: library
+        url: https://adalib.org/board-meeting-agendas/
+
+  - id: twin-falls-library
+    name: Twin Falls Public Library
+    type: schedule
+    county: Twin Falls
+    area: Twin Falls
+    homepage: https://www.twinfallspubliclibrary.org/libraryboard/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Thursday
+        time: "17:00"
+        location: Twin Falls Public Library
+        category: library
+        url: https://www.twinfallspubliclibrary.org/libraryboard/
+
+  - id: marshall-library
+    name: Marshall Public Library
+    type: schedule
+    county: Bannock
+    area: Pocatello
+    homepage: https://marshallpl.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "16:00"
+        location: Marshall Public Library
+        category: library
+        url: https://marshallpl.org/board-of-trustees/
+
+  # ---------- More cities ----------
+
+  - id: chubbuck
+    name: City of Chubbuck
+    type: tribe
+    site: https://cityofchubbuck.us
+    default_category: council
+    county: Bannock
+    area: Chubbuck
+    homepage: https://cityofchubbuck.us/events/
+
+  - id: mountain-home
+    name: City of Mountain Home
+    type: civicplus
+    site: https://www.mountain-home.us
+    categories: [14]
+    default_category: council
+    county: Elmore
+    area: Mountain Home
+    homepage: https://www.mountain-home.us/calendar.aspx?CID=14
+
+  - id: rexburg
+    name: City of Rexburg
+    type: schedule
+    county: Madison
+    area: Rexburg
+    homepage: https://www.rexburg.org/page/city-council-agendas
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "18:30"
+        location: Council Chambers, Rexburg City Hall
+        category: council
+        url: https://www.rexburg.org/page/city-council-agendas
+
+  - id: ammon
+    name: City of Ammon
+    type: schedule
+    county: Bonneville
+    area: Ammon
+    homepage: https://cityofammon.us/government/meetings/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Thursday
+        time: "18:00"
+        location: Council Chambers, Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+      - title: City Council Work Session
+        when: 2nd Thursday
+        time: "16:30"
+        location: Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+      - title: Planning Commission
+        when: 1st Wednesday
+        time: "19:00"
+        location: Council Chambers, Ammon City Hall
+        category: council
+        url: https://cityofammon.us/government/meetings/
+
+  # Garden City's council meeting time isn't published on its site; its
+  # Planning & Zoning Commission schedule is.
+  - id: garden-city
+    name: Garden City
+    type: schedule
+    county: Ada
+    area: Garden City
+    homepage: https://gardencityidaho.org/agendas-minutes/
+    meetings:
+      # Elected Officials page: "Regular council meetings are held on the 2nd and
+      # 4th Mondays of each month at 6:00 p.m." at City Hall, 6015 Glenwood Street.
+      - title: City Council Meeting
+        when: 2nd, 4th Monday
+        time: "18:00"
+        location: Garden City Hall, 6015 N. Glenwood Street
+        category: council
+        url: https://gardencityidaho.org/elected-officials
+      - title: Planning & Zoning Commission
+        when: 3rd Wednesday
+        time: "18:30"
+        location: City Council Chamber, Garden City Hall
+        category: council
+        url: https://gardencityidaho.org/planning-and-zoning-commission
+
+  # Hailey publishes each year's council dates on its Public Meetings page.
+  - id: hailey
+    name: City of Hailey
+    type: schedule
+    county: Blaine
+    area: Hailey
+    homepage: https://haileycityhall.org/public-meetings/
+    meetings:
+      - title: City Council Meeting
+        dates: [2026-11-23, 2026-12-14, 2026-12-28]
+        time: "17:30"
+        location: Hailey City Hall
+        category: council
+        url: https://haileycityhall.org/boards-and-commissions/city-council/city-council-agendas/
+
+  - id: emmett
+    name: City of Emmett
+    type: schedule
+    county: Gem
+    area: Emmett
+    homepage: https://www.cityofemmett.org/meeting
+    meetings:
+      - title: City Council Regular Meeting
+        when: 2nd, 4th Tuesday
+        time: "17:30"
+        location: City Council Room, 501 E. Main Street, Emmett
+        category: council
+        url: https://www.cityofemmett.org/meeting
+        note: Generally held on these dates unless a holiday interferes; check the city's schedule.
+
+  # ---------- Eagle, Blackfoot, Burley, Jerome, Sandpoint (November 2026) ----------
+
+  # Eagle posts agendas through Granicus, whose robots.txt asks all automated
+  # readers to stay out, so these are the regular schedules each body's page on
+  # cityofeagle.org publishes. All meet at City Hall, 660 E. Civic Lane.
+  - id: eagle
+    name: City of Eagle
+    type: schedule
+    county: Ada
+    area: Eagle
+    homepage: https://www.cityofeagle.org/305/City-Agendas-Videos
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 3rd, 4th Tuesday
+        time: "17:30"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/312/City-Council
+      - title: Planning & Zoning Commission
+        when: 1st, 3rd Monday
+        time: "18:00"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/355/Planning-Zoning-Commission
+      - title: Design Review Board
+        when: 2nd, 4th Thursday
+        time: "18:00"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/347/Design-Review-Board
+      - title: Parks, Pathways & Recreation Commission
+        when: 3rd Thursday
+        time: "17:30"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/353/Parks-Pathways-Recreation-Commission
+      - title: Eagle Public Library Board
+        when: 3rd Wednesday
+        time: "18:00"
+        category: library
+        url: https://www.cityofeagle.org/351/Library-Board
+
+  - id: blackfoot
+    name: City of Blackfoot
+    type: civicplus
+    site: https://www.cityofblackfoot.org
+    # City Council, Planning & Zoning, Urban Renewal Agency, Airport,
+    # Transportation Commission, Public Meetings - General, Industrial
+    # Development Corporation, Mayor's Community Resource Council
+    categories: [22, 23, 24, 33, 25, 32, 30, 26]
+    county: Bingham
+    area: Blackfoot
+    default_category: council
+    homepage: https://www.cityofblackfoot.org/calendar.aspx?CID=22
+
+  - id: blackfoot-library
+    name: Blackfoot Public Library District
+    type: civicplus
+    site: https://www.cityofblackfoot.org
+    categories: [31]          # "Library District Board"
+    county: Bingham
+    area: Blackfoot
+    force_category: library
+    homepage: https://www.cityofblackfoot.org/calendar.aspx?CID=31
+
+  # Burley posts council and P&Z agendas in its Agenda Center a few days ahead;
+  # until one posts, the council's published schedule stands in.
+  - id: burley
+    name: City of Burley
+    type: agendacenter
+    site: https://www.burleyidaho.org
+    category: 2
+    time: "7:00 PM"
+    default_category: council
+    default_location: Burley City Hall, 1401 Overland Avenue
+    county: Cassia
+    area: Burley
+    homepage: https://www.burleyidaho.org/AgendaCenter
+
+  - id: burley-pz
+    name: City of Burley
+    type: agendacenter
+    site: https://www.burleyidaho.org
+    category: 5
+    default_category: council
+    default_location: Burley City Hall, 1401 Overland Avenue
+    county: Cassia
+    area: Burley
+    homepage: https://www.burleyidaho.org/AgendaCenter
+
+  - id: burley-schedule
+    name: City of Burley
+    type: schedule
+    county: Cassia
+    area: Burley
+    yield_to: [burley]
+    homepage: https://www.burleyidaho.org/175/City-Council
+    meetings:
+      # "7 p.m. Meets 1st and 3rd Tuesday of each month, 1401 Overland Avenue"
+      - title: City Council Meeting
+        when: 1st, 3rd Tuesday
+        time: "19:00"
+        location: Burley City Hall, 1401 Overland Avenue
+        category: council
+        url: https://www.burleyidaho.org/175/City-Council
+
+  - id: jerome
+    name: City of Jerome
+    type: civicplus
+    site: https://www.ci.jerome.id.us
+    categories: [14]          # "Main Calendar": council, P&Z, urban renewal
+    county: Jerome
+    area: Jerome
+    default_category: council
+    homepage: https://www.ci.jerome.id.us/Calendar.aspx?CID=14
+
+  - id: sandpoint
+    name: City of Sandpoint
+    type: drupal_meetings
+    site: https://www.sandpointidaho.gov
+    county: Bonner
+    area: Sandpoint
+    timezone: America/Los_Angeles
+    default_category: council
+    homepage: https://www.sandpointidaho.gov/meetings
