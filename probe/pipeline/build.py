@@ -606,46 +606,71 @@ def fetch_govaccess_rss(src, start_day, end_day, tz):
 CLOSURE_TITLE = re.compile(r"holiday|clos(ed|ure)|thanksgiving|christmas|new year|day observed|\bday$", re.I)
 
 
-CIVICPLUS_ITEM = re.compile(r'<li>\s*<h3>.*?eventTitle_(?P<eid>\d+).*?</li>', re.S)
+CIVICPLUS_TITLE = re.compile(r'id="eventTitle_(\d+)"')
 CIVICPLUS_CLOCK = re.compile(r"(\d{1,2}):(\d{2})\s*([AP]M)", re.I)
+CIVICPLUS_DAY = re.compile(r"([A-Z][a-z]+ \d{1,2}, \d{4})")
+
+
+def _clock(h, mi, ap):
+    return time(int(h) % 12 + (12 if ap.upper() == "PM" else 0), int(mi))
 
 
 def normalize_civicplus(src, page_html, tz, site, cat):
-    """Events from a CivicPlus calendar page (Calendar.aspx?CID=...&startDate=
-    ...&endDate=...). Each event carries schema.org markup with its name,
-    start and place; the end time is only in the visible date line."""
+    """Events from a CivicPlus calendar page (Calendar.aspx?CID=...). Sites use
+    two layouts: a list (one <li> per event) and a month grid with a pop-up per
+    event. Both carry, per event, a title tagged eventTitle_<id> and a visible
+    date line ("December 1, 2026, 5:30 PM - 8:00 PM"), so those are read; the
+    schema.org markup some sites add supplies the place."""
     import html as htmllib
+
+    def text(fragment):
+        return " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", fragment)).replace("\u2009", " ").split())
+
+    marks = [(m.start(), m.group(1)) for m in CIVICPLUS_TITLE.finditer(page_html)]
+    blocks = {}
+    for i, (pos, eid) in enumerate(marks):
+        nxt = next((p for p, e in marks[i + 1:] if e != eid), len(page_html))
+        if eid not in blocks:
+            blocks[eid] = page_html[pos:nxt]
+        elif nxt > pos:
+            blocks[eid] += page_html[pos:nxt]
     events = []
-    for m in CIVICPLUS_ITEM.finditer(page_html):
-        block = m.group(0)
-        name = re.search(r'itemprop="name">([^<]*)<', block)
-        start = re.search(r'itemprop="startDate"[^>]*>([^<]+)<', block)
-        if not name or not start:
+    for eid, block in blocks.items():
+        head = re.search(r'id="eventTitle_\d+"[^>]*>(.*?)</h3>', block, re.S)
+        title = text(head.group(1)) if head else ""
+        if not title:
+            name = re.search(r'itemprop="name">([^<]*)<', block)
+            title = text(name.group(1)) if name else ""
+        line = re.search(r'<div class="date">(.*?)</div>', block, re.S)
+        line = text(line.group(1)) if line else ""
+        day = CIVICPLUS_DAY.search(line)
+        if not title or not day:
             continue
-        title = htmllib.unescape(name.group(1)).strip()
         try:
-            when = datetime.fromisoformat(start.group(1).strip())
+            d = datetime.strptime(day.group(1), "%B %d, %Y").date()
         except ValueError:
             continue
-        when = when.replace(tzinfo=tz) if when.tzinfo is None else when.astimezone(tz)
-        line = re.search(r'<div class="date">(.*?)</div>', block, re.S)
-        line = htmllib.unescape(re.sub(r"<[^>]+>", " ", line.group(1))) if line else ""
         clocks = CIVICPLUS_CLOCK.findall(line)
+        start = datetime.combine(d, _clock(*clocks[0]) if clocks else time(0, 0), tz)
         end = None
-        if len(clocks) >= 2:
-            h, mi, ap = clocks[1]
-            h = int(h) % 12 + (12 if ap.upper() == "PM" else 0)
-            end = when.replace(hour=h, minute=int(mi))
-            if end <= when:
+        if len(clocks) >= 2 and len(CIVICPLUS_DAY.findall(line)) == 1:
+            end = datetime.combine(d, _clock(*clocks[1]), tz)
+            if end <= start:
                 end = None
         place = re.search(r'itemprop="location".*?itemprop="name">(.*?)</span>', block, re.S)
+        location = text(place.group(1)) if place else ""
+        if location.lower() in ("event location", "location"):
+            location = ""
+        if not location:
+            shown = re.search(r'class="eventLocation[^"]*">(.*?)</div>\s*</div>', block, re.S)
+            location = text(shown.group(1)).lstrip("@ ").strip() if shown else ""
         street = re.search(r'itemprop="streetAddress">([^<]*)<', block)
-        location = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", place.group(1))).split()) if place else ""
-        if street and street.group(1).strip() and street.group(1).strip() not in location:
-            location = (location + ", " if location.strip() else "") + htmllib.unescape(street.group(1))
+        street = text(street.group(1)) if street else ""
+        if street and not re.match(r"p\.?\s*o\.?\s*box", street, re.I) and street not in location:
+            location = f"{location}, {street}" if location else street
         events.append(make_event(
-            src, title=title, start=when, end=end, all_day=not clocks, location=location,
-            url=f"{site}/Calendar.aspx?EID={m.group('eid')}", uid=f"civicplus-{m.group('eid')}",
+            src, title=title, start=start, end=end, all_day=not clocks, location=location,
+            url=f"{site}/Calendar.aspx?EID={eid}", uid=f"civicplus-{eid}",
         ))
     return events
 
@@ -657,9 +682,20 @@ def fetch_civicplus(src, start_day, end_day, tz):
     site = src["site"].rstrip("/")
     seen, events = set(), []
     for cat in src["categories"]:
-        page = get(f"{site}/Calendar.aspx", {"CID": cat, "startDate": start_day.strftime("%m/%d/%Y"),
-                                              "endDate": end_day.strftime("%m/%d/%Y")}).text
-        for e in normalize_civicplus(src, page, tz, site, cat):
+        pages = [get(f"{site}/Calendar.aspx", {"CID": cat, "startDate": start_day.strftime("%m/%d/%Y"),
+                                                "endDate": end_day.strftime("%m/%d/%Y")}).text]
+        if "showDetailsBox" in pages[0]:
+            # Month-grid sites show one month per page whatever range is asked
+            # for, so read each month in the window.
+            month = date(start_day.year, start_day.month, 1)
+            while True:
+                month = (month + timedelta(days=32)).replace(day=1)
+                if month > end_day:
+                    break
+                pages.append(get(f"{site}/Calendar.aspx", {"CID": cat, "month": month.month,
+                                                            "year": month.year}).text)
+        found = [e for page in pages for e in normalize_civicplus(src, page, tz, site, cat)]
+        for e in found:
             if e["id"] in seen or CLOSURE_TITLE.search(e["title"]):
                 continue
             seen.add(e["id"])
