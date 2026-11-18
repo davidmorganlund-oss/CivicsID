@@ -3,28 +3,27 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Bonneville County
 BEGIN:VEVENT
-UID:90c4e5c92086@civicsid
-DTSTAMP:20261118T054020Z
+UID:f22d1358f901@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261118T150000Z
-DTEND:20261119T065900Z
+DTEND:20261118T160000Z
 SUMMARY:City Council Meeting ** MOVED to 11/18/2026 - Utility Board Meeting
   (City of Idaho Falls)
-LOCATION:Council Chambers 680 Park Ave Idaho Falls ID 83402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=28
+LOCATION:Council Chambers
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4106
 END:VEVENT
 BEGIN:VEVENT
-UID:45278c3a29a4@civicsid
-DTSTAMP:20261118T054020Z
+UID:86b20191b72d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261118T150000Z
-DTEND:20261119T065900Z
+DTEND:20261118T160000Z
 SUMMARY:Idaho Falls Utility Board Meeting (City of Idaho Falls)
-LOCATION:Idaho Falls Power Boardroom - 140 S. Capital Ave Idaho Falls ID 83
- 402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=29
+LOCATION:Idaho Falls Power Boardroom\, 140 S. Capital Ave
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4139
 END:VEVENT
 BEGIN:VEVENT
 UID:da6a9e2185ba@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261120T010000Z
 DTEND:20261120T020000Z
 SUMMARY:City Council Meeting (City of Ammon)
@@ -33,7 +32,7 @@ URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:512699a7153b@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261203T020000Z
 DTEND:20261203T030000Z
 SUMMARY:Planning Commission (City of Ammon)
@@ -42,7 +41,7 @@ URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:3698c294108e@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261204T010000Z
 DTEND:20261204T020000Z
 SUMMARY:City Council Meeting (City of Ammon)
@@ -50,17 +49,17 @@ LOCATION:Council Chambers\, Ammon City Hall
 URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:1d0671ef7f6a@civicsid
-DTSTAMP:20261118T054020Z
+UID:2418505b87b5@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261207T220000Z
-DTEND:20261208T065900Z
+DTEND:20261207T230000Z
 SUMMARY:City Council Work Session (City of Idaho Falls)
-LOCATION:Council Chambers 680 Park Ave Idaho Falls ID 83402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=28
+LOCATION:Council Chambers
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4081
 END:VEVENT
 BEGIN:VEVENT
 UID:e15d01b1f355@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T233000Z
 DTEND:20261211T003000Z
 SUMMARY:City Council Work Session (City of Ammon)
@@ -68,26 +67,26 @@ LOCATION:Ammon City Hall
 URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:c7251bd2a3f0@civicsid
-DTSTAMP:20261118T054020Z
+UID:e66e75df2a8f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261211T013000Z
-DTEND:20261211T065900Z
+DTEND:20261211T023000Z
 SUMMARY:City Council Meeting (City of Idaho Falls)
-LOCATION:Council Chambers 680 Park Ave Idaho Falls ID 83402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=28
+LOCATION:Council Chambers
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4103
 END:VEVENT
 BEGIN:VEVENT
-UID:5c406b73e462@civicsid
-DTSTAMP:20261118T054020Z
+UID:3f8170f251d4@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261214T220000Z
-DTEND:20261215T065900Z
+DTEND:20261214T230000Z
 SUMMARY:City Council Work Session (City of Idaho Falls)
-LOCATION:Council Chambers 680 Park Ave Idaho Falls ID 83402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=28
+LOCATION:Council Chambers
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4082
 END:VEVENT
 BEGIN:VEVENT
 UID:5fd766cdcd33@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261218T010000Z
 DTEND:20261218T020000Z
 SUMMARY:City Council Meeting (City of Ammon)
@@ -95,17 +94,17 @@ LOCATION:Council Chambers\, Ammon City Hall
 URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:07afb59d0f76@civicsid
-DTSTAMP:20261118T054020Z
+UID:2859b3e03d95@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261218T013000Z
-DTEND:20261218T065900Z
+DTEND:20261218T023000Z
 SUMMARY:City Council Meeting (City of Idaho Falls)
-LOCATION:Council Chambers 680 Park Ave Idaho Falls ID 83402
-URL:https://www.idahofallsidaho.gov/Calendar.aspx?CID=28
+LOCATION:Council Chambers
+URL:https://www.idahofallsidaho.gov/Calendar.aspx?EID=4104
 END:VEVENT
 BEGIN:VEVENT
 UID:4a1f8ee4d288@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270107T020000Z
 DTEND:20270107T030000Z
 SUMMARY:Planning Commission (City of Ammon)
@@ -114,7 +113,7 @@ URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:3472ee688716@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270108T010000Z
 DTEND:20270108T020000Z
 SUMMARY:City Council Meeting (City of Ammon)
@@ -123,7 +122,7 @@ URL:https://cityofammon.us/government/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:1e066687b429@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270114T233000Z
 DTEND:20270115T003000Z
 SUMMARY:City Council Work Session (City of Ammon)

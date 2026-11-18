@@ -3,75 +3,75 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Minidoka County
 BEGIN:VEVENT
-UID:edf785b93e00@civicsid
-DTSTAMP:20261118T054020Z
+UID:cc141de56f07@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261123T163000Z
 DTEND:20261123T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=913
 END:VEVENT
 BEGIN:VEVENT
-UID:183fb46a039d@civicsid
-DTSTAMP:20261118T054020Z
+UID:cb251f9b1814@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261130T163000Z
 DTEND:20261130T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=914
 END:VEVENT
 BEGIN:VEVENT
-UID:9821cb452b38@civicsid
-DTSTAMP:20261118T054020Z
+UID:f108ebe858f1@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261207T163000Z
 DTEND:20261207T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=915
 END:VEVENT
 BEGIN:VEVENT
-UID:8d0420749e77@civicsid
-DTSTAMP:20261118T054020Z
+UID:90d3fbf169a0@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261214T163000Z
 DTEND:20261214T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=916
 END:VEVENT
 BEGIN:VEVENT
-UID:5f5a84c70655@civicsid
-DTSTAMP:20261118T054020Z
+UID:10307a80f714@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261221T163000Z
 DTEND:20261221T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=917
 END:VEVENT
 BEGIN:VEVENT
-UID:8d13131a2551@civicsid
-DTSTAMP:20261118T054020Z
+UID:611681ee60fe@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261228T163000Z
 DTEND:20261228T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=918
 END:VEVENT
 BEGIN:VEVENT
-UID:7695261916b9@civicsid
-DTSTAMP:20261118T054020Z
+UID:3f567b68badc@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270104T163000Z
 DTEND:20270104T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=919
 END:VEVENT
 BEGIN:VEVENT
-UID:d8d9e9685248@civicsid
-DTSTAMP:20261118T054020Z
+UID:83c9a4e43909@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270111T163000Z
 DTEND:20270111T210000Z
 SUMMARY:County Commission Meeting (Minidoka County)
-LOCATION:Rupert ID 83350
-URL:https://www.minidoka.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.minidoka.id.us/Calendar.aspx?EID=920
 END:VEVENT
 END:VCALENDAR

@@ -3,174 +3,156 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Washington County
 BEGIN:VEVENT
-UID:3016c9507934@civicsid
-DTSTAMP:20261118T054020Z
-DTSTART:20261118T010000Z
-DTEND:20261118T065900Z
-SUMMARY:P & Z Commission Meeting (Washington County)
-LOCATION:256 East Court St Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
-END:VEVENT
-BEGIN:VEVENT
-UID:40c023d05203@civicsid
-DTSTAMP:20261118T054020Z
+UID:9f15199b9d18@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261123T154500Z
-DTEND:20261124T065900Z
+DTEND:20261123T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1504
 END:VEVENT
 BEGIN:VEVENT
-UID:457d5662a594@civicsid
-DTSTAMP:20261118T054020Z
+UID:b3110a5e464d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261123T170000Z
 DTEND:20261123T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1462
 END:VEVENT
 BEGIN:VEVENT
-UID:adcc4b5c4b31@civicsid
-DTSTAMP:20261118T054020Z
+UID:3c8e0f92780d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261130T154500Z
-DTEND:20261201T065900Z
+DTEND:20261130T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1505
 END:VEVENT
 BEGIN:VEVENT
-UID:290de12e22a8@civicsid
-DTSTAMP:20261118T054020Z
+UID:615c4d2aed80@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261130T170000Z
 DTEND:20261130T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1463
 END:VEVENT
 BEGIN:VEVENT
-UID:545c1cd43d5f@civicsid
-DTSTAMP:20261118T054020Z
+UID:c4d1c039ec82@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261207T154500Z
-DTEND:20261208T065900Z
+DTEND:20261207T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1506
 END:VEVENT
 BEGIN:VEVENT
-UID:851744c13103@civicsid
-DTSTAMP:20261118T054020Z
+UID:4563e00dd2c2@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261207T170000Z
 DTEND:20261207T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1464
 END:VEVENT
 BEGIN:VEVENT
-UID:279f219d7de1@civicsid
-DTSTAMP:20261118T054020Z
+UID:1ca05ded6869@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T020000Z
 DTEND:20261209T040000Z
 SUMMARY:Weed Advisory Board Meeting (Washington County)
-LOCATION:1118 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:1118 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1603
 END:VEVENT
 BEGIN:VEVENT
-UID:7723cebdb28e@civicsid
-DTSTAMP:20261118T054020Z
+UID:586ab55872b6@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261214T154500Z
-DTEND:20261215T065900Z
+DTEND:20261214T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1507
 END:VEVENT
 BEGIN:VEVENT
-UID:3ba916d9103b@civicsid
-DTSTAMP:20261118T054020Z
+UID:926386b158d3@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261214T170000Z
 DTEND:20261214T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1465
 END:VEVENT
 BEGIN:VEVENT
-UID:173f44801ea8@civicsid
-DTSTAMP:20261118T054020Z
-DTSTART:20261216T010000Z
-DTEND:20261216T065900Z
-SUMMARY:P & Z Commission Meeting (Washington County)
-LOCATION:256 East Court St Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
-END:VEVENT
-BEGIN:VEVENT
-UID:dcc10038ca4b@civicsid
-DTSTAMP:20261118T054020Z
+UID:239c2fcab8eb@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261221T154500Z
-DTEND:20261222T065900Z
+DTEND:20261221T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1508
 END:VEVENT
 BEGIN:VEVENT
-UID:815fe877d63d@civicsid
-DTSTAMP:20261118T054020Z
+UID:5f663849179f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261221T170000Z
 DTEND:20261221T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1466
 END:VEVENT
 BEGIN:VEVENT
-UID:6f4d8c74d11f@civicsid
-DTSTAMP:20261118T054020Z
+UID:a2cadcbf915f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261228T154500Z
-DTEND:20261229T065900Z
+DTEND:20261228T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1509
 END:VEVENT
 BEGIN:VEVENT
-UID:26857c4187fc@civicsid
-DTSTAMP:20261118T054020Z
+UID:0a0b6f0601f0@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261228T170000Z
 DTEND:20261228T173000Z
 SUMMARY:Weiser Ambulance District Meeting (Washington County)
-LOCATION:256 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:256 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1467
 END:VEVENT
 BEGIN:VEVENT
-UID:a7d40f147c27@civicsid
-DTSTAMP:20261118T054020Z
+UID:f976c532b5f8@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270104T154500Z
-DTEND:20270105T065900Z
+DTEND:20270104T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1510
 END:VEVENT
 BEGIN:VEVENT
-UID:93e2f1ff83bd@civicsid
-DTSTAMP:20261118T054020Z
+UID:8e3142c1c2b6@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270111T154500Z
-DTEND:20270112T065900Z
+DTEND:20270111T164500Z
 SUMMARY:Washington County Commissioners (Washington County)
-LOCATION:Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1511
 END:VEVENT
 BEGIN:VEVENT
-UID:575ad662a9d8@civicsid
-DTSTAMP:20261118T054020Z
+UID:022b7189b4ed@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270112T230000Z
-DTEND:20270113T065900Z
+DTEND:20270113T000000Z
 SUMMARY:Washington County Rodent Board (Washington County)
-LOCATION:1118 E Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:1118 E Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1120
 END:VEVENT
 BEGIN:VEVENT
-UID:9d7f246ef1ff@civicsid
-DTSTAMP:20261118T054020Z
+UID:48a855b8bda0@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T020000Z
 DTEND:20270113T040000Z
 SUMMARY:Weed Advisory Board Meeting (Washington County)
-LOCATION:1118 E. Court Street Weiser ID 83672
-URL:https://www.co.washington.id.us/Calendar.aspx?CID=14
+LOCATION:1118 E. Court Street
+URL:https://www.co.washington.id.us/Calendar.aspx?EID=1604
 END:VEVENT
 END:VCALENDAR

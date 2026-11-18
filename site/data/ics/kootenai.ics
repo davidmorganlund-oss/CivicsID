@@ -3,8 +3,44 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Kootenai County
 BEGIN:VEVENT
+UID:3606018ab368@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20261117T180000Z
+DTEND:20261117T190000Z
+SUMMARY:BOCC: Status Update (Kootenai County)
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4885
+END:VEVENT
+BEGIN:VEVENT
+UID:56e0e6f9d395@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20261117T220000Z
+DTEND:20261117T230000Z
+SUMMARY:BOCC: Business Meeting (Kootenai County)
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4937
+END:VEVENT
+BEGIN:VEVENT
+UID:fd6d67a17303@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:City Council Meeting (City of Post Falls)
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=741
+END:VEVENT
+BEGIN:VEVENT
+UID:5a15dae859da@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20261118T010000Z
+DTEND:20261118T020000Z
+SUMMARY:North Idaho Fair Board Meeting (Kootenai County)
+LOCATION:North Idaho Fairgrounds
+URL:https://www.kcgov.us/Calendar.aspx?EID=5071
+END:VEVENT
+BEGIN:VEVENT
 UID:ae95a0983d42@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261118T020000Z
 DTEND:20261118T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -13,17 +49,17 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-sche
  dule/
 END:VEVENT
 BEGIN:VEVENT
-UID:2ddee781c8d2@civicsid
-DTSTAMP:20261118T054020Z
+UID:a56847a8e0e3@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261118T233000Z
 DTEND:20261119T010000Z
 SUMMARY:Historic Preservation Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5035
 END:VEVENT
 BEGIN:VEVENT
 UID:8f0a89d6f659@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T000000Z
 DTEND:20261119T010000Z
 SUMMARY:Parks\, Recreation\, and Community Forestry Commission Meeting (Cit
@@ -32,17 +68,17 @@ LOCATION:Hayden City Hall Council Chambers\, 8930 N. Government Way
 URL:https://meetings.boardbook.org/Public/Agenda/2366?meeting=777612
 END:VEVENT
 BEGIN:VEVENT
-UID:23faece1fabd@civicsid
-DTSTAMP:20261118T054020Z
+UID:200bca8ea867@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T000000Z
 DTEND:20261119T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5059
 END:VEVENT
 BEGIN:VEVENT
 UID:5461efd123ef@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T013000Z
 DTEND:20261119T023000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Rathdrum)
@@ -51,7 +87,7 @@ URL:https://www.rathdrum.gov/66/planning-and-zoning-commission
 END:VEVENT
 BEGIN:VEVENT
 UID:e5104cc5f5e9@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T013000Z
 DTEND:20261119T023000Z
 SUMMARY:Public Input Session with Planning & Zoning Commissioners (City of 
@@ -61,7 +97,7 @@ URL:https://www.rathdrum.gov/calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:0192d0b90d9f@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T020000Z
 DTEND:20261119T033000Z
 SUMMARY:Regular City Council Meeting (City of Dalton Gardens)
@@ -69,36 +105,36 @@ LOCATION:
 URL:https://daltongardens.com/citycouncil
 END:VEVENT
 BEGIN:VEVENT
-UID:8379e0b1454b@civicsid
-DTSTAMP:20261118T054020Z
+UID:4d1f145da885@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T170000Z
 DTEND:20261119T180000Z
 SUMMARY:Post Falls Urban Renewal Agency Meeting (City of Post Falls)
-LOCATION:Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:
+URL:https://www.postfalls.gov/Calendar.aspx?EID=897
 END:VEVENT
 BEGIN:VEVENT
-UID:c2385f5e4b43@civicsid
-DTSTAMP:20261118T054020Z
+UID:5f03178ce9f2@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T180000Z
 DTEND:20261119T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4970
 END:VEVENT
 BEGIN:VEVENT
-UID:790fb00793ea@civicsid
-DTSTAMP:20261118T054020Z
+UID:950254094f31@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T213000Z
 DTEND:20261119T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5148
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:c6a9fd4fbcf9@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T220000Z
 DTEND:20261120T010000Z
 SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
@@ -106,46 +142,46 @@ LOCATION:Post Falls Library\, Meeting Room 1\, Meeting Room 2
 URL:https://communitylibrary.libcal.com/event/17709652
 END:VEVENT
 BEGIN:VEVENT
-UID:eb8874d74554@civicsid
-DTSTAMP:20261118T054020Z
+UID:ed75257f231f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261120T020000Z
 DTEND:20261120T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai 
  County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5101
 END:VEVENT
 BEGIN:VEVENT
-UID:f3a698da5105@civicsid
-DTSTAMP:20261118T054020Z
+UID:955e3f890eb1@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261124T170000Z
-DTEND:20261125T075900Z
+DTEND:20261124T180000Z
 SUMMARY:CANCELLED: BOCC: Airport (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5000
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:b02c96218579@civicsid
-DTSTAMP:20261118T054020Z
+UID:33d0fb5b8c31@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261124T180000Z
 DTEND:20261124T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4886
 END:VEVENT
 BEGIN:VEVENT
-UID:4d57b0f64ea1@civicsid
-DTSTAMP:20261118T054020Z
+UID:cdfe5a5cef7b@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261124T220000Z
 DTEND:20261124T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4938
 END:VEVENT
 BEGIN:VEVENT
 UID:cf34c405619d@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261125T020000Z
 DTEND:20261125T030000Z
 SUMMARY:Parks & Recreation Commission (City of Rathdrum)
@@ -153,45 +189,45 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/450/parks-and-recreation-commission
 END:VEVENT
 BEGIN:VEVENT
-UID:e617dba8eb17@civicsid
-DTSTAMP:20261118T054020Z
+UID:ef166760fbef@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261126T213000Z
 DTEND:20261126T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5149
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:2fe9f09561df@civicsid
-DTSTAMP:20261118T054020Z
+UID:18d6fcac6147@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261201T180000Z
 DTEND:20261201T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4887
 END:VEVENT
 BEGIN:VEVENT
-UID:bf7a23369e85@civicsid
-DTSTAMP:20261118T054020Z
+UID:67512813fe9f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261201T220000Z
 DTEND:20261201T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4939
 END:VEVENT
 BEGIN:VEVENT
-UID:d43b33f0a8e5@civicsid
-DTSTAMP:20261118T054020Z
+UID:a8bdecbc2cb7@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261202T010000Z
 DTEND:20261202T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
-LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=1433
 END:VEVENT
 BEGIN:VEVENT
 UID:98aef67189b0@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -200,65 +236,63 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-sche
  dule/
 END:VEVENT
 BEGIN:VEVENT
-UID:216d03d4451f@civicsid
-DTSTAMP:20261118T054020Z
+UID:b6ab56d3d536@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261202T163000Z
 DTEND:20261202T183000Z
 SUMMARY:Snowmobile Advisory Board (Kootenai County)
-LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd Coeur d'Alene ID 8381
- 4
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd
+URL:https://www.kcgov.us/Calendar.aspx?EID=5614
 END:VEVENT
 BEGIN:VEVENT
-UID:8263ca9ac160@civicsid
-DTSTAMP:20261118T054020Z
+UID:35fd4c38ed6d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261203T000000Z
 DTEND:20261203T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5048
 END:VEVENT
 BEGIN:VEVENT
-UID:dc92e867af09@civicsid
-DTSTAMP:20261118T054020Z
+UID:48c49954e5d8@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261203T180000Z
 DTEND:20261203T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4959
 END:VEVENT
 BEGIN:VEVENT
-UID:f06516d6a42a@civicsid
-DTSTAMP:20261118T054020Z
+UID:4aa59e2ae8d4@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261203T213000Z
 DTEND:20261203T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5150
 END:VEVENT
 BEGIN:VEVENT
 UID:3b21e60fc667@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261204T020000Z
 DTEND:20261204T030000Z
 SUMMARY:Planning and Zoning Meeting (City of Dalton Gardens)
 LOCATION:
-URL:https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3C
- C1EB6
+URL:https://daltongardens.com/planning
 END:VEVENT
 BEGIN:VEVENT
-UID:9a5c5765634e@civicsid
-DTSTAMP:20261118T054020Z
+UID:1d37e12825b0@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261204T020000Z
 DTEND:20261204T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai 
  County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5090
 END:VEVENT
 BEGIN:VEVENT
 UID:bcdb7a8cfd3a@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261207T200000Z
 DTEND:20261207T220000Z
 SUMMARY:General Services/Public Works (City of Coeur d'Alene)
@@ -266,17 +300,17 @@ LOCATION:Community Room (Room 116)
 URL:https://cdalibrary.libcal.com/event/13648095
 END:VEVENT
 BEGIN:VEVENT
-UID:b8ff397ccc04@civicsid
-DTSTAMP:20261118T054020Z
+UID:6033c475a905@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261208T180000Z
 DTEND:20261208T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4888
 END:VEVENT
 BEGIN:VEVENT
 UID:e6f715f1d180@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261208T183000Z
 DTEND:20261208T193000Z
 SUMMARY:Friends of the Library Meeting (Coeur d'Alene Public Library)
@@ -284,65 +318,64 @@ LOCATION:Gozzer Conference Room (Room 132)
 URL:https://cdalibrary.libcal.com/event/16011085
 END:VEVENT
 BEGIN:VEVENT
-UID:9f640244b967@civicsid
-DTSTAMP:20261118T054020Z
+UID:9175ce37650d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261208T220000Z
 DTEND:20261208T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4940
 END:VEVENT
 BEGIN:VEVENT
-UID:0ae85a2a825d@civicsid
-DTSTAMP:20261118T054020Z
+UID:1de27b0330bb@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:North Idaho Fair Advisory Board Meeting (Kootenai County)
-LOCATION:North Idaho Fairgrounds 4056 N Government Way Coeur d'Alene ID 838
- 14
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:North Idaho Fairgrounds
+URL:https://www.kcgov.us/Calendar.aspx?EID=5072
 END:VEVENT
 BEGIN:VEVENT
-UID:4aa60f68c59a@civicsid
-DTSTAMP:20261118T054020Z
+UID:4d7513394e3a@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T013000Z
 DTEND:20261209T040000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Post Falls)
-LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=794
 END:VEVENT
 BEGIN:VEVENT
-UID:07d0a3d26ce1@civicsid
-DTSTAMP:20261118T054020Z
+UID:4569c54e686c@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T170000Z
 DTEND:20261209T190000Z
 SUMMARY:BOCC: Community Development (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5640
 END:VEVENT
 BEGIN:VEVENT
-UID:72ca1789140e@civicsid
-DTSTAMP:20261118T054020Z
+UID:89c21b32a1bc@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T190000Z
 DTEND:20261209T191000Z
 SUMMARY:CANCELLED: BOCC: Requests for Cancellation of Taxes (Kootenai Count
  y)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4983
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:9b323721f58a@civicsid
-DTSTAMP:20261118T054020Z
+UID:728d0b344148@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T191000Z
 DTEND:20261209T194000Z
 SUMMARY:BOE: Board of Equalization (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5198
 END:VEVENT
 BEGIN:VEVENT
 UID:e7b8cd946c20@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T000000Z
 DTEND:20261210T010000Z
 SUMMARY:Library Board Meetings (Coeur d'Alene Public Library)
@@ -351,26 +384,26 @@ URL:https://cdalibrary.libcal.com/event/13684603
 END:VEVENT
 BEGIN:VEVENT
 UID:eee2d4ca3929@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T010000Z
 DTEND:20261210T020000Z
 SUMMARY:Dalton Water Board Meeting (City of Dalton Gardens)
 LOCATION:
-URL:https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3C
- C1EB6
+URL:https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB
+ 2B704
 END:VEVENT
 BEGIN:VEVENT
-UID:0a46991fe1be@civicsid
-DTSTAMP:20261118T054020Z
+UID:91ce7249a186@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T010000Z
 DTEND:20261210T020000Z
 SUMMARY:Airport Advisory Board Meeting (Kootenai County)
-LOCATION:CDA Airport - 10375 Sensor Ave Hayden ID 83835
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:CDA Airport - 10375 Sensor Ave
+URL:https://www.kcgov.us/Calendar.aspx?EID=5167
 END:VEVENT
 BEGIN:VEVENT
 UID:c62aea8ff682@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
 SUMMARY:City Council Meeting (City of Rathdrum)
@@ -378,56 +411,56 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:b46960ae98ad@civicsid
-DTSTAMP:20261118T054020Z
+UID:4ae104a48012@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T170000Z
 DTEND:20261210T190000Z
 SUMMARY:Parks & Waterways Advisory Board (Kootenai County)
-LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd Hayden ID 83835
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd
+URL:https://www.kcgov.us/Calendar.aspx?EID=5171
 END:VEVENT
 BEGIN:VEVENT
-UID:e2f531f9623f@civicsid
-DTSTAMP:20261118T054020Z
+UID:321633b87eeb@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:BOCC: Community Development AM (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4817
 END:VEVENT
 BEGIN:VEVENT
-UID:ae1f3e38cff4@civicsid
-DTSTAMP:20261118T054020Z
+UID:464399df914f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261210T213000Z
 DTEND:20261210T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission 1:30 Workshop (Kootenai Cou
  nty)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5151
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:25f743f85986@civicsid
-DTSTAMP:20261118T054020Z
+UID:cadad8c6a069@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:CANCELLED: BOCC: Community Development - PM (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4839
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:bbe7775820bc@civicsid
-DTSTAMP:20261118T054020Z
+UID:5a942a94baa7@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261211T020000Z
 DTEND:20261211T040000Z
 SUMMARY:Planning & Zoning Commission - Public Hearing (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5638
 END:VEVENT
 BEGIN:VEVENT
 UID:8a62ed801ef8@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T010000Z
 DTEND:20261215T020000Z
 SUMMARY:Board of Trustees Regular Meeting (Coeur d'Alene Public Schools)
@@ -436,54 +469,53 @@ URL:https://www.cdaschools.org/page/board-of-trustees
 END:VEVENT
 BEGIN:VEVENT
 UID:fd3ebb799db6@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T020000Z
 DTEND:20261215T030000Z
 SUMMARY:Dalton Irrigation Board Meeting (City of Dalton Gardens)
 LOCATION:
-URL:https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3C
- C1EB6
+URL:https://daltongardens.com/irrigation
 END:VEVENT
 BEGIN:VEVENT
-UID:86563f1b30af@civicsid
-DTSTAMP:20261118T054020Z
+UID:217fa1f3fdec@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T180000Z
 DTEND:20261215T190000Z
 SUMMARY:CANCELLED: BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4889
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:f33f407e1b67@civicsid
-DTSTAMP:20261118T054020Z
+UID:ea0267ee13ed@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T220000Z
 DTEND:20261215T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4941
 END:VEVENT
 BEGIN:VEVENT
-UID:d7d39b5bb613@civicsid
-DTSTAMP:20261118T054020Z
+UID:0456c9d1ac1a@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T230000Z
 DTEND:20261215T233000Z
 SUMMARY:BOCC: Fair Board Quarterly Update (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5024
 END:VEVENT
 BEGIN:VEVENT
-UID:521333cbf2a6@civicsid
-DTSTAMP:20261118T054020Z
+UID:2eab1741244d@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261216T010000Z
 DTEND:20261216T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
-LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=742
 END:VEVENT
 BEGIN:VEVENT
 UID:c63ede5530a4@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council Meeting (City of Coeur d'Alene)
@@ -492,28 +524,28 @@ URL:https://www.cdaid.org/government/mayor-and-council/council-meeting-sche
  dule/
 END:VEVENT
 BEGIN:VEVENT
-UID:9ee9001f4cec@civicsid
-DTSTAMP:20261118T054020Z
+UID:e28d0ad8cfe8@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261216T233000Z
 DTEND:20261217T010000Z
 SUMMARY:Historic Preservation Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5036
 END:VEVENT
 BEGIN:VEVENT
-UID:2ec8c7cec0ad@civicsid
-DTSTAMP:20261118T054020Z
+UID:4f6483ca8a06@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T000000Z
 DTEND:20261217T020000Z
 SUMMARY:CANCELLED: Aquifer Protection District Advisory Board (Kootenai Cou
  nty)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5060
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:9942de0ce2e9@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T013000Z
 DTEND:20261217T023000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Rathdrum)
@@ -521,35 +553,35 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/66/planning-and-zoning-commission
 END:VEVENT
 BEGIN:VEVENT
-UID:197631f791ba@civicsid
-DTSTAMP:20261118T054020Z
+UID:49c5e4988c04@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T170000Z
 DTEND:20261217T180000Z
 SUMMARY:Post Falls Urban Renewal Agency Meeting (City of Post Falls)
-LOCATION:Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:
+URL:https://www.postfalls.gov/Calendar.aspx?EID=898
 END:VEVENT
 BEGIN:VEVENT
-UID:f17127c2ab45@civicsid
-DTSTAMP:20261118T054020Z
+UID:2565dfd8aec7@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T180000Z
 DTEND:20261217T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4971
 END:VEVENT
 BEGIN:VEVENT
-UID:abaf614f8c9b@civicsid
-DTSTAMP:20261118T054020Z
+UID:9113782ac721@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T213000Z
 DTEND:20261217T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5152
 END:VEVENT
 BEGIN:VEVENT
 UID:a24267861246@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T220000Z
 DTEND:20261218T010000Z
 SUMMARY:Board of Trustees Regular Meeting (Community Library Network)
@@ -557,18 +589,18 @@ LOCATION:Post Falls Library\, Meeting Room 1\, Meeting Room 2
 URL:https://communitylibrary.libcal.com/event/17409309
 END:VEVENT
 BEGIN:VEVENT
-UID:4ba1ba409b95@civicsid
-DTSTAMP:20261118T054020Z
+UID:ce45cdc3b5b1@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261218T020000Z
 DTEND:20261218T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai 
  County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5102
 END:VEVENT
 BEGIN:VEVENT
 UID:8202bf43b065@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261221T200000Z
 DTEND:20261221T220000Z
 SUMMARY:General Services/Public Works (City of Coeur d'Alene)
@@ -576,65 +608,65 @@ LOCATION:Community Room (Room 116)
 URL:https://cdalibrary.libcal.com/event/13648096
 END:VEVENT
 BEGIN:VEVENT
-UID:b5bde9bf3882@civicsid
-DTSTAMP:20261118T054020Z
+UID:14b21e3350de@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261222T170000Z
-DTEND:20261223T075900Z
+DTEND:20261222T180000Z
 SUMMARY:CANCELLED: BOCC: Airport (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5001
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:12471c67f2b5@civicsid
-DTSTAMP:20261118T054020Z
+UID:cdd43811e9b5@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261222T180000Z
 DTEND:20261222T190000Z
 SUMMARY:CANCELLED: BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4890
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:3dd6ffea2ca4@civicsid
-DTSTAMP:20261118T054020Z
+UID:8e8786e18edd@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261222T220000Z
 DTEND:20261222T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4942
 END:VEVENT
 BEGIN:VEVENT
-UID:3522c0323ce6@civicsid
-DTSTAMP:20261118T054020Z
+UID:44c11575851a@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261224T213000Z
 DTEND:20261224T233000Z
 SUMMARY:CANCELLED: Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5153
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:d5756cfa5368@civicsid
-DTSTAMP:20261118T054020Z
+UID:c183ccd01c65@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261229T180000Z
 DTEND:20261229T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4891
 END:VEVENT
 BEGIN:VEVENT
-UID:41edaef12403@civicsid
-DTSTAMP:20261118T054020Z
+UID:5fef59886a5b@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261229T220000Z
 DTEND:20261229T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=4943
 END:VEVENT
 BEGIN:VEVENT
 UID:3ace93167883@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261231T020000Z
 DTEND:20261231T033000Z
 SUMMARY:Regular City Council Meeting (City of Dalton Gardens)
@@ -642,109 +674,108 @@ LOCATION:
 URL:https://daltongardens.com/citycouncil
 END:VEVENT
 BEGIN:VEVENT
-UID:c45892108b23@civicsid
-DTSTAMP:20261118T054020Z
+UID:5d5334cc7c89@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261231T213000Z
 DTEND:20261231T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5154
 END:VEVENT
 BEGIN:VEVENT
-UID:481d1c7d5fbb@civicsid
-DTSTAMP:20261118T054020Z
+UID:226a729e1f6f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270105T180000Z
 DTEND:20270105T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5335
 END:VEVENT
 BEGIN:VEVENT
-UID:0db335b5b006@civicsid
-DTSTAMP:20261118T054020Z
+UID:10e2f1cae930@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270105T190000Z
 DTEND:20270105T200000Z
 SUMMARY:BOCC: Solid Waste (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5452
 END:VEVENT
 BEGIN:VEVENT
-UID:3820ae278635@civicsid
-DTSTAMP:20261118T054020Z
+UID:81dcaff8bf38@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270105T220000Z
 DTEND:20270105T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5283
 END:VEVENT
 BEGIN:VEVENT
-UID:cdee1c9fef0d@civicsid
-DTSTAMP:20261118T054020Z
+UID:3d020b2b002b@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270106T010000Z
 DTEND:20270106T040000Z
 SUMMARY:City Council Meeting (City of Post Falls)
-LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=1434
 END:VEVENT
 BEGIN:VEVENT
-UID:7309b5243809@civicsid
-DTSTAMP:20261118T054020Z
+UID:ba5a1aac033c@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270106T163000Z
 DTEND:20270106T183000Z
 SUMMARY:Snowmobile Advisory Board (Kootenai County)
-LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd Coeur d'Alene ID 8381
- 4
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:Search & Rescue Building\, 10865 N Ramsey Rd
+URL:https://www.kcgov.us/Calendar.aspx?EID=5615
 END:VEVENT
 BEGIN:VEVENT
-UID:2f404e126666@civicsid
-DTSTAMP:20261118T054020Z
+UID:950d3c8b0778@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270107T000000Z
 DTEND:20270107T020000Z
 SUMMARY:Aquifer Protection District Advisory Board (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5387
 END:VEVENT
 BEGIN:VEVENT
-UID:b5da29f93ea8@civicsid
-DTSTAMP:20261118T054020Z
+UID:573ad3cb0619@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270107T180000Z
 DTEND:20270107T190000Z
 SUMMARY:BOCC: Human Resources (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5472
 END:VEVENT
 BEGIN:VEVENT
-UID:713850fb5778@civicsid
-DTSTAMP:20261118T054020Z
+UID:8a3b662ff24f@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270107T213000Z
 DTEND:20270107T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5508
 END:VEVENT
 BEGIN:VEVENT
-UID:cbfcafb11590@civicsid
-DTSTAMP:20261118T054020Z
+UID:e3c3556038c1@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270108T020000Z
 DTEND:20270108T040000Z
 SUMMARY:Hearing Examiner: Community Development - Public Hearing (Kootenai 
  County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5618
 END:VEVENT
 BEGIN:VEVENT
-UID:6c3e2ac12278@civicsid
-DTSTAMP:20261118T054020Z
+UID:c93dc7715be4@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270111T180000Z
 DTEND:20270111T200000Z
 SUMMARY:Swearing in Ceremony (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5255
 END:VEVENT
 BEGIN:VEVENT
 UID:e3c89cb05086@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270111T200000Z
 DTEND:20270111T220000Z
 SUMMARY:General Services/ Public Works (City of Coeur d'Alene)
@@ -753,7 +784,7 @@ URL:https://cdalibrary.libcal.com/event/17666910
 END:VEVENT
 BEGIN:VEVENT
 UID:830f13c0a27d@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270112T010000Z
 DTEND:20270112T020000Z
 SUMMARY:Board of Trustees Regular Meeting (Coeur d'Alene Public Schools)
@@ -761,36 +792,45 @@ LOCATION:Midtown Center Meeting Room\, 1505 N. 5th Street\, Coeur d'Alene
 URL:https://www.cdaschools.org/page/board-of-trustees
 END:VEVENT
 BEGIN:VEVENT
-UID:a844a1626aaf@civicsid
-DTSTAMP:20261118T054020Z
+UID:43f89924a72f@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20270112T020000Z
+DTEND:20270112T030000Z
+SUMMARY:Dalton Irrigation Board Meeting (City of Dalton Gardens)
+LOCATION:Dalton Gardens Irrigation District office\, Dalton Gardens City Ha
+ ll
+URL:https://daltongardens.com/irrigation
+END:VEVENT
+BEGIN:VEVENT
+UID:4bc773d85e53@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270112T180000Z
 DTEND:20270112T190000Z
 SUMMARY:BOCC: Status Update (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5336
 END:VEVENT
 BEGIN:VEVENT
-UID:6a15961d8031@civicsid
-DTSTAMP:20261118T054020Z
+UID:5da355341a64@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270112T220000Z
 DTEND:20270112T230000Z
 SUMMARY:BOCC: Business Meeting (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5284
 END:VEVENT
 BEGIN:VEVENT
-UID:d82576877278@civicsid
-DTSTAMP:20261118T054020Z
+UID:e6316fd53aff@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T010000Z
 DTEND:20270113T020000Z
 SUMMARY:North Idaho Fair Advisory Board Meeting (Kootenai County)
-LOCATION:Kootenai County Fairgrounds\, Stampede Room 4056 N Government Way 
- Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:Kootenai County Fairgrounds\, Stampede Room
+URL:https://www.kcgov.us/Calendar.aspx?EID=5560
 END:VEVENT
 BEGIN:VEVENT
 UID:11b4a1c3514b@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T013000Z
 DTEND:20270113T040000Z
 SUMMARY:Planning Commission (City of Coeur d'Alene)
@@ -798,46 +838,56 @@ LOCATION:Community Room (Room 116)
 URL:https://cdalibrary.libcal.com/event/17667324
 END:VEVENT
 BEGIN:VEVENT
-UID:6dba7840b472@civicsid
-DTSTAMP:20261118T054020Z
+UID:6f572650b4ad@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T013000Z
 DTEND:20270113T040000Z
 SUMMARY:Planning & Zoning Commission Meeting (City of Post Falls)
-LOCATION:City Council Chambers - 408 N. Spokane Street Post Falls ID 83854
-URL:https://www.postfalls.gov/Calendar.aspx?CID=24
+LOCATION:City Council Chambers\, 408 N. Spokane Street
+URL:https://www.postfalls.gov/Calendar.aspx?EID=795
 END:VEVENT
 BEGIN:VEVENT
-UID:ef89574fb5fb@civicsid
-DTSTAMP:20261118T054020Z
+UID:47aa69a0b95b@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T190000Z
 DTEND:20270113T191000Z
 SUMMARY:CANCELLED: BOCC: Request for Cancellation of Taxes (Kootenai County
  )
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5428
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:af6dc0232439@civicsid
-DTSTAMP:20261118T054020Z
+UID:921976be9f1b@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270113T191000Z
 DTEND:20270113T194000Z
 SUMMARY:BOE: Board of Equalization (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5460
 END:VEVENT
 BEGIN:VEVENT
-UID:7842f3a11fbf@civicsid
-DTSTAMP:20261118T054020Z
+UID:34edf9b8fe2f@civicsid
+DTSTAMP:20261118T065204Z
+DTSTART:20270114T010000Z
+DTEND:20270114T020000Z
+SUMMARY:Dalton Water Board Meeting (City of Dalton Gardens)
+LOCATION:Dalton Gardens City Hall\, 6360 N 4th St
+URL:https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB
+ 2B704
+END:VEVENT
+BEGIN:VEVENT
+UID:d0dad5192270@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270114T010000Z
 DTEND:20270114T020000Z
 SUMMARY:Airport Advisory Board Meeting (Kootenai County)
-LOCATION:CDA Airport - 10375 Sensor Ave Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:CDA Airport - 10375 Sensor Ave
+URL:https://www.kcgov.us/Calendar.aspx?EID=5484
 END:VEVENT
 BEGIN:VEVENT
 UID:6aaccb12f0d4@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20270114T013000Z
 DTEND:20270114T023000Z
 SUMMARY:City Council Meeting (City of Rathdrum)
@@ -845,30 +895,30 @@ LOCATION:Rathdrum City Hall\, 8047 W. Main Street
 URL:https://www.rathdrum.gov/1114/2026-council-meeting-schedule
 END:VEVENT
 BEGIN:VEVENT
-UID:c216552a73b3@civicsid
-DTSTAMP:20261118T054020Z
+UID:d5f0eb575334@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270114T180000Z
 DTEND:20270114T200000Z
 SUMMARY:BOCC: Community Development AM (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5576
 END:VEVENT
 BEGIN:VEVENT
-UID:07f5320a6a35@civicsid
-DTSTAMP:20261118T054020Z
+UID:95e4ea554187@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270114T213000Z
 DTEND:20270114T233000Z
 SUMMARY:Planning & Zoning Commission (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5509
 END:VEVENT
 BEGIN:VEVENT
-UID:e4f7fc550c81@civicsid
-DTSTAMP:20261118T054020Z
+UID:b581927e6782@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270115T020000Z
 DTEND:20270115T040000Z
 SUMMARY:BOCC: Community Development PM (Kootenai County)
-LOCATION:451 N Government Way Coeur d'Alene ID 83814
-URL:https://www.kcgov.us/Calendar.aspx?CID=22
+LOCATION:451 N Government Way
+URL:https://www.kcgov.us/Calendar.aspx?EID=5600
 END:VEVENT
 END:VCALENDAR

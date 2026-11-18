@@ -3,26 +3,26 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Blaine County
 BEGIN:VEVENT
-UID:0952e255046d@civicsid
-DTSTAMP:20261118T054020Z
+UID:219044ee05ef@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T160000Z
-DTEND:20261120T065900Z
+DTEND:20261119T170000Z
 SUMMARY:Traffic Authority (City of Ketchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=667
 END:VEVENT
 BEGIN:VEVENT
-UID:9a15ed893395@civicsid
-DTSTAMP:20261118T054020Z
+UID:45a256467375@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261119T233000Z
-DTEND:20261120T065900Z
+DTEND:20261120T003000Z
 SUMMARY:Planning and Zoning Commission (City of Ketchum)
-LOCATION:Zoom - Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:Zoom
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=749
 END:VEVENT
 BEGIN:VEVENT
 UID:dec967249be8@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261124T003000Z
 DTEND:20261124T013000Z
 SUMMARY:City Council Meeting (City of Hailey)
@@ -31,54 +31,54 @@ URL:https://haileycityhall.org/boards-and-commissions/city-council/city-cou
  ncil-agendas/
 END:VEVENT
 BEGIN:VEVENT
-UID:04e28dcd96da@civicsid
-DTSTAMP:20261118T054020Z
+UID:2a06bcc7e985@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261201T003000Z
-DTEND:20261201T065900Z
+DTEND:20261201T013000Z
 SUMMARY:City Council (City of Ketchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=659
 END:VEVENT
 BEGIN:VEVENT
-UID:1e0c606d5436@civicsid
-DTSTAMP:20261118T054020Z
+UID:09e26555a3ac@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261201T233000Z
-DTEND:20261202T065900Z
+DTEND:20261202T003000Z
 SUMMARY:Historic Preservation Commission (City of Ketchum)
-LOCATION:Zoom - Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:Zoom
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=750
 END:VEVENT
 BEGIN:VEVENT
-UID:d40879531091@civicsid
-DTSTAMP:20261118T054020Z
+UID:e8a27a9bd488@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261203T233000Z
-DTEND:20261204T065900Z
+DTEND:20261204T003000Z
 SUMMARY:Planning and Zoning Commission (City of Ketchum)
-LOCATION:Zoom - Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:Zoom
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=751
 END:VEVENT
 BEGIN:VEVENT
-UID:0bae051736e8@civicsid
-DTSTAMP:20261118T054020Z
+UID:441f2cc79666@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261204T170000Z
 DTEND:20261204T190000Z
 SUMMARY:Planning & Zoning Commission Special Workshop with Legal (City of K
  etchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=763
 END:VEVENT
 BEGIN:VEVENT
-UID:1a51da3935f9@civicsid
-DTSTAMP:20261118T054020Z
+UID:9d11d9673694@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261211T003000Z
-DTEND:20261211T065900Z
+DTEND:20261211T013000Z
 SUMMARY:City Council (City of Ketchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=653
 END:VEVENT
 BEGIN:VEVENT
 UID:8d1bd5982511@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261215T003000Z
 DTEND:20261215T013000Z
 SUMMARY:City Council Meeting (City of Hailey)
@@ -87,26 +87,26 @@ URL:https://haileycityhall.org/boards-and-commissions/city-council/city-cou
  ncil-agendas/
 END:VEVENT
 BEGIN:VEVENT
-UID:c5f23728314d@civicsid
-DTSTAMP:20261118T054020Z
+UID:bfaf9b555296@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T160000Z
-DTEND:20261218T065900Z
+DTEND:20261217T170000Z
 SUMMARY:Traffic Authority (City of Ketchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=668
 END:VEVENT
 BEGIN:VEVENT
-UID:1b5a0d9f132b@civicsid
-DTSTAMP:20261118T054020Z
+UID:741eb6f9d300@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261217T233000Z
-DTEND:20261218T065900Z
+DTEND:20261218T003000Z
 SUMMARY:Planning and Zoning Commission (City of Ketchum)
-LOCATION:Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=752
 END:VEVENT
 BEGIN:VEVENT
 UID:b08f484ab415@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART:20261229T003000Z
 DTEND:20261229T013000Z
 SUMMARY:City Council Meeting (City of Hailey)
@@ -115,12 +115,12 @@ URL:https://haileycityhall.org/boards-and-commissions/city-council/city-cou
  ncil-agendas/
 END:VEVENT
 BEGIN:VEVENT
-UID:bacef8120257@civicsid
-DTSTAMP:20261118T054020Z
+UID:9af8ee42fb04@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261229T003000Z
-DTEND:20261229T065900Z
+DTEND:20261229T013000Z
 SUMMARY:City Council (City of Ketchum)
-LOCATION:City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340
-URL:https://ketchumidaho.gov/Calendar.aspx?CID=14
+LOCATION:City Hall
+URL:https://ketchumidaho.gov/Calendar.aspx?EID=660
 END:VEVENT
 END:VCALENDAR

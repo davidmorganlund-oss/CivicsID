@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:40:20-07:00",
+ "generated": "2026-11-17T23:52:04-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -195,6 +195,42 @@
    "cancelled": false
   },
   {
+   "id": "3606018ab368",
+   "title": "BOCC: Status Update",
+   "host": "Kootenai County",
+   "source": "kootenai-county",
+   "area": "countywide",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-17T10:00:00-08:00",
+   "end": "2026-11-17T11:00:00-08:00",
+   "all_day": false,
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4885",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "ac76cd4574af",
+   "title": "Community Development Block Grant Advisory Committee Meeting",
+   "host": "City of Pocatello",
+   "source": "pocatello",
+   "area": "Pocatello",
+   "county": "Bannock",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T11:00:00-07:00",
+   "end": "2026-11-17T13:00:00-07:00",
+   "all_day": false,
+   "location": "Paradice Conference Room, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8996",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "683e15565ec0",
    "title": "Emergency Medical Services Advisory Board Meeting",
    "host": "City of Lewiston",
@@ -237,6 +273,24 @@
    "cancelled": false
   },
   {
+   "id": "56e0e6f9d395",
+   "title": "BOCC: Business Meeting",
+   "host": "Kootenai County",
+   "source": "kootenai-county",
+   "area": "countywide",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-17T14:00:00-08:00",
+   "end": "2026-11-17T15:00:00-08:00",
+   "all_day": false,
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4937",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "d46e5999d254",
    "title": "Library Board of Trustees",
    "host": "Ada Community Library",
@@ -254,6 +308,24 @@
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
+  },
+  {
+   "id": "c51f39006a2e",
+   "title": "Library Board Meeting",
+   "host": "City of Pocatello",
+   "source": "pocatello",
+   "area": "Pocatello",
+   "county": "Bannock",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T16:00:00-07:00",
+   "end": "2026-11-17T17:00:00-07:00",
+   "all_day": false,
+   "location": "Marshall Public Library, 113 S. Garfield Avenue",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8624",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
   },
   {
    "id": "dc95543991b2",
@@ -329,6 +401,42 @@
    "cancelled": true
   },
   {
+   "id": "fd6d67a17303",
+   "title": "City Council Meeting",
+   "host": "City of Post Falls",
+   "source": "post-falls",
+   "area": "Post Falls",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-17T17:00:00-08:00",
+   "end": "2026-11-17T20:00:00-08:00",
+   "all_day": false,
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=741",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "5a15dae859da",
+   "title": "North Idaho Fair Board Meeting",
+   "host": "Kootenai County",
+   "source": "kootenai-county",
+   "area": "countywide",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2026-11-17T17:00:00-08:00",
+   "end": "2026-11-17T18:00:00-08:00",
+   "all_day": false,
+   "location": "North Idaho Fairgrounds",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5071",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "12755e8e556e",
    "title": "Regular Board of Trustees Meeting",
    "host": "Nampa School District",
@@ -347,6 +455,43 @@
    "cancelled": false
   },
   {
+   "id": "3aa3a8e7e964",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "d9a02c80e5bc",
+   "title": "City Council Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T17:30:00-07:00",
+   "end": "2026-11-17T20:00:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=793",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "fa6d912214b9",
    "title": "Regular Board Meeting",
    "host": "Pocatello/Chubbuck School District 25",
@@ -360,6 +505,24 @@
    "all_day": false,
    "location": "",
    "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "8cbf827249f2",
+   "title": "Kuna City Regular Council Meeting",
+   "host": "City of Kuna",
+   "source": "kuna",
+   "area": "Kuna",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T18:00:00-07:00",
+   "end": "2026-11-17T20:00:00-07:00",
+   "all_day": false,
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4471",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -407,24 +570,6 @@
    "highlights_more": 2
   },
   {
-   "id": "3016c9507934",
-   "title": "P & Z Commission Meeting",
-   "host": "Washington County",
-   "source": "washington-county",
-   "area": "countywide",
-   "county": "Washington",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-11-17T18:00:00-07:00",
-   "end": "2026-11-17T23:59:00-07:00",
-   "all_day": false,
-   "location": "256 East Court St Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "ae95a0983d42",
    "title": "City Council Meeting",
    "host": "City of Coeur d'Alene",
@@ -462,7 +607,25 @@
    "cancelled": true
   },
   {
-   "id": "5fb27da87773",
+   "id": "8663a327499e",
+   "title": "Special & Regular City Council Agenda",
+   "host": "City of Burley",
+   "source": "burley",
+   "area": "Burley",
+   "county": "Cassia",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-17T19:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Burley City Hall, 1401 Overland Avenue",
+   "url": "https://www.burleyidaho.org/AgendaCenter",
+   "agenda_url": "https://www.burleyidaho.org/AgendaCenter/ViewFile/Agenda/_11172026-494",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "b77ac3e33e5d",
    "title": "City Council Meeting",
    "host": "City of Star",
    "source": "star",
@@ -471,16 +634,34 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-17T19:00:00-07:00",
-   "end": "2026-11-17T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Star ID 83669",
-   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
+   "location": "",
+   "url": "https://www.staridaho.org/Calendar.aspx?EID=392",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "90c4e5c92086",
+   "id": "3a2ba0d578a0",
+   "title": "Planning and Zoning Commission Regular Meeting",
+   "host": "City of Burley",
+   "source": "burley-pz",
+   "area": "Burley",
+   "county": "Cassia",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-18T00:00:00-07:00",
+   "end": null,
+   "all_day": true,
+   "location": "Burley City Hall, 1401 Overland Avenue",
+   "url": "https://www.burleyidaho.org/AgendaCenter",
+   "agenda_url": "https://www.burleyidaho.org/AgendaCenter/ViewFile/Agenda/_11182026-495",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "f22d1358f901",
    "title": "City Council Meeting ** MOVED to 11/18/2026 - Utility Board Meeting",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -489,16 +670,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-18T08:00:00-07:00",
-   "end": "2026-11-18T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
+   "location": "Council Chambers",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4106",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "45278c3a29a4",
+   "id": "86b20191b72d",
    "title": "Idaho Falls Utility Board Meeting",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -507,10 +688,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-18T08:00:00-07:00",
-   "end": "2026-11-18T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Idaho Falls Power Boardroom - 140 S. Capital Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=29",
+   "location": "Idaho Falls Power Boardroom, 140 S. Capital Ave",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4139",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -631,7 +812,7 @@
    "cancelled": false
   },
   {
-   "id": "963e85fa1c68",
+   "id": "033af3bdaa30",
    "title": "Pocatello Development Authority Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -642,8 +823,8 @@
    "start": "2026-11-18T11:00:00-07:00",
    "end": "2026-11-18T13:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8075",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -728,7 +909,7 @@
    "cancelled": true
   },
   {
-   "id": "2ddee781c8d2",
+   "id": "a56847a8e0e3",
    "title": "Historic Preservation Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -739,14 +920,14 @@
    "start": "2026-11-18T15:30:00-08:00",
    "end": "2026-11-18T17:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5035",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "911220819697",
+   "id": "9bbb4b30a02f",
    "title": "Parks & Recreation Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -757,8 +938,8 @@
    "start": "2026-11-18T16:00:00-07:00",
    "end": "2026-11-18T17:00:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1555",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -788,7 +969,7 @@
    "highlights_more": 6
   },
   {
-   "id": "23faece1fabd",
+   "id": "200bca8ea867",
    "title": "Aquifer Protection District Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -799,8 +980,8 @@
    "start": "2026-11-18T16:00:00-08:00",
    "end": "2026-11-18T18:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5059",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -842,7 +1023,7 @@
    "cancelled": false
   },
   {
-   "id": "e8c390d894ca",
+   "id": "47da8a7068de",
    "title": "Planning & Zoning Commission Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -853,8 +1034,8 @@
    "start": "2026-11-18T17:30:00-07:00",
    "end": "2026-11-18T18:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8506",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1000,7 +1181,26 @@
    "cancelled": false
   },
   {
-   "id": "b66c4ff86542",
+   "id": "1020993f88f8",
+   "title": "Eagle Public Library Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "library",
+   "start": "2026-11-18T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.cityofeagle.org/351/Library-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "533d508a4076",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -1011,14 +1211,14 @@
    "start": "2026-11-18T18:00:00-07:00",
    "end": "2026-11-18T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8558",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "aad55e465ddb",
+   "id": "bcff8347c0cf",
    "title": "November 18th, 2026 P&Z",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -1027,10 +1227,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-18T18:00:00-07:00",
-   "end": "2026-11-18T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Annex Meeting Room > Planning & Zoning Commission Meeting - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=31",
+   "location": "Planning & Zoning Commission Meeting, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5378",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1165,7 +1365,7 @@
    "cancelled": false
   },
   {
-   "id": "de6c22106921",
+   "id": "5d5a700712d1",
    "title": "McCall Redevelopment Agency",
    "host": "City of McCall",
    "source": "mccall",
@@ -1176,8 +1376,8 @@
    "start": "2026-11-19T08:00:00-07:00",
    "end": "2026-11-19T09:00:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1544",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1201,7 +1401,7 @@
    "cancelled": false
   },
   {
-   "id": "0952e255046d",
+   "id": "219044ee05ef",
    "title": "Traffic Authority",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -1210,10 +1410,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-19T09:00:00-07:00",
-   "end": "2026-11-19T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=667",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1273,7 +1473,7 @@
    "cancelled": false
   },
   {
-   "id": "8379e0b1454b",
+   "id": "4d1f145da885",
    "title": "Post Falls Urban Renewal Agency Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -1284,8 +1484,8 @@
    "start": "2026-11-19T09:00:00-08:00",
    "end": "2026-11-19T10:00:00-08:00",
    "all_day": false,
-   "location": "Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=897",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1327,7 +1527,7 @@
    "cancelled": false
   },
   {
-   "id": "5e2d40300d87",
+   "id": "e695402e14bd",
    "title": "Library Board of Trustees",
    "host": "City of McCall",
    "source": "mccall",
@@ -1338,8 +1538,8 @@
    "start": "2026-11-19T10:00:00-07:00",
    "end": "2026-11-19T11:00:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1537",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1363,7 +1563,7 @@
    "cancelled": false
   },
   {
-   "id": "c2385f5e4b43",
+   "id": "5f03178ce9f2",
    "title": "BOCC: Human Resources",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -1374,8 +1574,8 @@
    "start": "2026-11-19T10:00:00-08:00",
    "end": "2026-11-19T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4970",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1423,7 +1623,7 @@
    "highlights_more": 4
   },
   {
-   "id": "790fb00793ea",
+   "id": "950254094f31",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -1434,8 +1634,8 @@
    "start": "2026-11-19T13:30:00-08:00",
    "end": "2026-11-19T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5148",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -1495,7 +1695,7 @@
    "cancelled": false
   },
   {
-   "id": "9a15ed893395",
+   "id": "45a256467375",
    "title": "Planning and Zoning Commission",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -1504,10 +1704,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-19T16:30:00-07:00",
-   "end": "2026-11-19T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Zoom - Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "Zoom",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=749",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1567,7 +1767,26 @@
    "cancelled": false
   },
   {
-   "id": "4d953fb07f94",
+   "id": "160c5e901bd6",
+   "title": "Parks, Pathways & Recreation Commission",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-19T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/353/Parks-Pathways-Recreation-Commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "3e1d90c84a0c",
    "title": "Regular City Council Meeting",
    "host": "City of McCall",
    "source": "mccall",
@@ -1576,16 +1795,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-19T17:30:00-07:00",
-   "end": "2026-11-19T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
+   "location": "Community Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1742",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "67657e52fd60",
+   "id": "d45e258857be",
    "title": "City Council Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -1596,8 +1815,8 @@
    "start": "2026-11-19T17:30:00-07:00",
    "end": "2026-11-19T18:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10162",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1622,7 +1841,7 @@
    "regular": true
   },
   {
-   "id": "d274d3c7b390",
+   "id": "cd0780b6ebf9",
    "title": "City Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -1633,14 +1852,14 @@
    "start": "2026-11-19T18:00:00-07:00",
    "end": "2026-11-19T20:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8919",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "eb8874d74554",
+   "id": "ed75257f231f",
    "title": "Hearing Examiner: Community Development - Public Hearing",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -1651,8 +1870,8 @@
    "start": "2026-11-19T18:00:00-08:00",
    "end": "2026-11-19T20:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5101",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1808,7 +2027,7 @@
    "cancelled": false
   },
   {
-   "id": "c4a9360c7737",
+   "id": "4f96975b2b91",
    "title": "Lemhi County Commissioners Meeting",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -1817,10 +2036,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-23T00:00:00-07:00",
-   "end": "2026-11-23T00:00:00-07:00",
+   "end": null,
    "all_day": true,
-   "location": "200 Fulton St Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "200 Fulton St",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=384",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1882,7 +2101,7 @@
    "cancelled": false
   },
   {
-   "id": "40c023d05203",
+   "id": "9f15199b9d18",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -1891,10 +2110,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-23T08:45:00-07:00",
-   "end": "2026-11-23T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1504",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -1976,7 +2195,7 @@
    "regular": true
   },
   {
-   "id": "d95ccb72e70f",
+   "id": "537822b2abf6",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -1987,8 +2206,8 @@
    "start": "2026-11-23T09:00:00-07:00",
    "end": "2026-11-23T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5309",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2031,7 +2250,7 @@
    "cancelled": false
   },
   {
-   "id": "4ffdb92747dd",
+   "id": "5b15ae3e71ec",
    "title": "Commissioner's Meeting",
    "host": "Power County",
    "source": "power-county",
@@ -2040,10 +2259,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-23T09:00:00-07:00",
-   "end": "2026-11-23T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
+   "location": "Commission Chambers, 543 Bannock Ave.",
+   "url": "https://www.powercounty.gov/Calendar.aspx?EID=1023",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2086,7 +2305,7 @@
    "cancelled": false
   },
   {
-   "id": "edf785b93e00",
+   "id": "cc141de56f07",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -2097,8 +2316,8 @@
    "start": "2026-11-23T09:30:00-07:00",
    "end": "2026-11-23T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=913",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2142,7 +2361,7 @@
    "regular": true
   },
   {
-   "id": "457d5662a594",
+   "id": "b3110a5e464d",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -2153,8 +2372,8 @@
    "start": "2026-11-23T10:00:00-07:00",
    "end": "2026-11-23T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1462",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2197,7 +2416,7 @@
    "regular": true
   },
   {
-   "id": "d85b0186767d",
+   "id": "5f45bc7c793a",
    "title": "Pocatello Mayor's Youth Advisory Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -2208,8 +2427,8 @@
    "start": "2026-11-23T15:15:00-07:00",
    "end": "2026-11-23T16:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=11038",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2288,6 +2507,25 @@
    "regular": true
   },
   {
+   "id": "71fbe49c4012",
+   "title": "City Council Meeting",
+   "host": "Garden City",
+   "source": "garden-city",
+   "area": "Garden City",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-23T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Garden City Hall, 6015 N. Glenwood Street",
+   "url": "https://gardencityidaho.org/elected-officials",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "f96f95862119",
    "title": "City Council Regular Meeting",
    "host": "City of Lewiston",
@@ -2310,6 +2548,24 @@
     "PUBLIC HEARING FOR ZNC-26-4"
    ],
    "highlights_more": 6
+  },
+  {
+   "id": "d011c4fbb6b9",
+   "title": "Planning and Zoning Public Hearing Agenda",
+   "host": "City of Blackfoot",
+   "source": "blackfoot-pz",
+   "area": "Blackfoot",
+   "county": "Bingham",
+   "tz": "MT",
+   "category": "hearing",
+   "start": "2026-11-24T00:00:00-07:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.cityofblackfoot.org/AgendaCenter",
+   "agenda_url": "https://www.cityofblackfoot.org/AgendaCenter/ViewFile/Agenda/_11242026-778",
+   "note": "",
+   "cancelled": false
   },
   {
    "id": "5e082ab908a8",
@@ -2406,7 +2662,7 @@
    "regular": true
   },
   {
-   "id": "f3a698da5105",
+   "id": "955e3f890eb1",
    "title": "BOCC: Airport",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -2415,16 +2671,16 @@
    "tz": "PT",
    "category": "council",
    "start": "2026-11-24T09:00:00-08:00",
-   "end": "2026-11-24T23:59:00-08:00",
+   "end": null,
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5000",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "b02c96218579",
+   "id": "33d0fb5b8c31",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -2435,8 +2691,8 @@
    "start": "2026-11-24T10:00:00-08:00",
    "end": "2026-11-24T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4886",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2460,7 +2716,7 @@
    "cancelled": false
   },
   {
-   "id": "4d57b0f64ea1",
+   "id": "cdfe5a5cef7b",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -2471,8 +2727,8 @@
    "start": "2026-11-24T14:00:00-08:00",
    "end": "2026-11-24T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4938",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2496,7 +2752,7 @@
    "cancelled": false
   },
   {
-   "id": "e260765e5479",
+   "id": "b3930e1d6953",
    "title": "Regular City Council Meeting",
    "host": "City of Mountain Home",
    "source": "mountain-home",
@@ -2507,11 +2763,30 @@
    "start": "2026-11-24T17:00:00-07:00",
    "end": "2026-11-24T21:00:00-07:00",
    "all_day": false,
-   "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
+   "location": "City Hall, 160 South 3rd East",
+   "url": "https://www.mountain-home.us/Calendar.aspx?EID=717",
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "1f47aa5abd82",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-24T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "f0d2a1162044",
@@ -2533,7 +2808,7 @@
    "regular": true
   },
   {
-   "id": "87101381c03d",
+   "id": "ec1b6ffd4ecf",
    "title": "Kuna Planning & Zoning Commission Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -2544,8 +2819,8 @@
    "start": "2026-11-24T18:00:00-07:00",
    "end": "2026-11-24T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4446",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2717,7 +2992,7 @@
    "cancelled": true
   },
   {
-   "id": "e617dba8eb17",
+   "id": "ef166760fbef",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -2728,8 +3003,8 @@
    "start": "2026-11-26T13:30:00-08:00",
    "end": "2026-11-26T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5149",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -2751,6 +3026,25 @@
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
    "cancelled": true
+  },
+  {
+   "id": "95ecdfe4d1c8",
+   "title": "Design Review Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-26T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/347/Design-Review-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b16de030116d",
@@ -2810,7 +3104,7 @@
    "regular": true
   },
   {
-   "id": "adcc4b5c4b31",
+   "id": "3c8e0f92780d",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -2819,10 +3113,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-30T08:45:00-07:00",
-   "end": "2026-11-30T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1505",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2847,7 +3141,7 @@
    "regular": true
   },
   {
-   "id": "e086b5a8c489",
+   "id": "520df24546e8",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -2858,14 +3152,14 @@
    "start": "2026-11-30T09:00:00-07:00",
    "end": "2026-11-30T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5310",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "183fb46a039d",
+   "id": "cb251f9b1814",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -2876,8 +3170,8 @@
    "start": "2026-11-30T09:30:00-07:00",
    "end": "2026-11-30T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=914",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2902,7 +3196,7 @@
    "regular": true
   },
   {
-   "id": "290de12e22a8",
+   "id": "615c4d2aed80",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -2913,14 +3207,14 @@
    "start": "2026-11-30T10:00:00-07:00",
    "end": "2026-11-30T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1463",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "508870196229",
+   "id": "3024d69723f6",
    "title": "Historic Preservation Commission",
    "host": "City of McCall",
    "source": "mccall",
@@ -2931,8 +3225,8 @@
    "start": "2026-11-30T13:15:00-07:00",
    "end": "2026-11-30T14:15:00-07:00",
    "all_day": false,
-   "location": "Legion Hall - 216 E PARK ST McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Legion Hall, 216 E PARK ST",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1526",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -2993,7 +3287,7 @@
    "cancelled": false
   },
   {
-   "id": "3bd6fdff71fb",
+   "id": "61026bdf08a0",
    "title": "Public Art Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -3004,14 +3298,14 @@
    "start": "2026-11-30T16:30:00-07:00",
    "end": "2026-11-30T17:30:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1936",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "04e28dcd96da",
+   "id": "2a06bcc7e985",
    "title": "City Council",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -3020,10 +3314,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-11-30T17:30:00-07:00",
-   "end": "2026-11-30T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=659",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3176,7 +3470,7 @@
    "regular": true
   },
   {
-   "id": "2fe9f09561df",
+   "id": "18d6fcac6147",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3187,14 +3481,14 @@
    "start": "2026-12-01T10:00:00-08:00",
    "end": "2026-12-01T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4887",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "19dc91d57432",
+   "id": "2212c0917d34",
    "title": "Tree Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -3205,8 +3499,8 @@
    "start": "2026-12-01T12:00:00-07:00",
    "end": "2026-12-01T13:00:00-07:00",
    "all_day": false,
-   "location": "Transit Center - 210 Park St McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Transit Center, 210 Park St",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1592",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3230,7 +3524,7 @@
    "cancelled": false
   },
   {
-   "id": "bf7a23369e85",
+   "id": "67512813fe9f",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3241,8 +3535,8 @@
    "start": "2026-12-01T14:00:00-08:00",
    "end": "2026-12-01T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4939",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3266,7 +3560,7 @@
    "cancelled": false
   },
   {
-   "id": "1e0c606d5436",
+   "id": "09e26555a3ac",
    "title": "Historic Preservation Commission",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -3275,16 +3569,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-01T16:30:00-07:00",
-   "end": "2026-12-01T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Zoom - Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "Zoom",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=750",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "19a4147b312c",
+   "id": "0c2f8e8f86da",
    "title": "Planning & Zoning Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -3295,8 +3589,8 @@
    "start": "2026-12-01T16:30:00-07:00",
    "end": "2026-12-01T17:30:00-07:00",
    "all_day": false,
-   "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Community Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1568",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3338,7 +3632,7 @@
    "cancelled": false
   },
   {
-   "id": "d43b33f0a8e5",
+   "id": "a8bdecbc2cb7",
    "title": "City Council Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -3349,14 +3643,32 @@
    "start": "2026-12-01T17:00:00-08:00",
    "end": "2026-12-01T20:00:00-08:00",
    "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=1433",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "d82a7b41b945",
+   "id": "cac92cc0b028",
+   "title": "City Council Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-01T17:30:00-07:00",
+   "end": "2026-12-01T20:00:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=746",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "ce4e89ff9d09",
    "title": "Kuna City Regular Council Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -3367,8 +3679,8 @@
    "start": "2026-12-01T18:00:00-07:00",
    "end": "2026-12-01T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4459",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3411,7 +3723,7 @@
    "regular": true
   },
   {
-   "id": "7fc1c8245d1c",
+   "id": "8f53fc64926d",
    "title": "Pocatello Arts Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -3422,14 +3734,33 @@
    "start": "2026-12-01T18:30:00-07:00",
    "end": "2026-12-01T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10862",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "40a0532dc46c",
+   "id": "064dddf28e16",
+   "title": "City Council Meeting",
+   "host": "City of Burley",
+   "source": "burley-schedule",
+   "area": "Burley",
+   "county": "Cassia",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-01T19:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Burley City Hall, 1401 Overland Avenue",
+   "url": "https://www.burleyidaho.org/175/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "a39d9f135e8a",
    "title": "City Council Meeting",
    "host": "City of Star",
    "source": "star",
@@ -3438,10 +3769,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-01T19:00:00-07:00",
-   "end": "2026-12-01T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Star ID 83669",
-   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
+   "location": "",
+   "url": "https://www.staridaho.org/Calendar.aspx?EID=343",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3484,7 +3815,7 @@
    "regular": true
   },
   {
-   "id": "216d03d4451f",
+   "id": "b6ab56d3d536",
    "title": "Snowmobile Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3495,8 +3826,8 @@
    "start": "2026-12-02T08:30:00-08:00",
    "end": "2026-12-02T10:30:00-08:00",
    "all_day": false,
-   "location": "Search & Rescue Building, 10865 N Ramsey Rd Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "Search & Rescue Building, 10865 N Ramsey Rd",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5614",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3576,7 +3907,7 @@
    "regular": true
   },
   {
-   "id": "8263ca9ac160",
+   "id": "35fd4c38ed6d",
    "title": "Aquifer Protection District Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3587,8 +3918,8 @@
    "start": "2026-12-02T16:00:00-08:00",
    "end": "2026-12-02T18:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5048",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3612,7 +3943,7 @@
    "cancelled": false
   },
   {
-   "id": "a8a56326646b",
+   "id": "0bd8dd054b38",
    "title": "Historic Preservation Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -3623,8 +3954,8 @@
    "start": "2026-12-02T18:00:00-07:00",
    "end": "2026-12-02T19:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=9109",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3704,7 +4035,7 @@
    "cancelled": false
   },
   {
-   "id": "dc92e867af09",
+   "id": "48c49954e5d8",
    "title": "BOCC: Human Resources",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3715,14 +4046,14 @@
    "start": "2026-12-03T10:00:00-08:00",
    "end": "2026-12-03T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4959",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "dfb13518e087",
+   "id": "b07794d635bf",
    "title": "Airport Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -3733,14 +4064,14 @@
    "start": "2026-12-03T12:00:00-07:00",
    "end": "2026-12-03T13:00:00-07:00",
    "all_day": false,
-   "location": "Legion Hall - 216 E PARK ST McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Legion Hall, 216 E PARK ST",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1502",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "f06516d6a42a",
+   "id": "4aa59e2ae8d4",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3751,8 +4082,26 @@
    "start": "2026-12-03T13:30:00-08:00",
    "end": "2026-12-03T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5150",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "fa3e1ca67ced",
+   "title": "Urban Renewal Agency Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-03T15:00:00-07:00",
+   "end": "2026-12-03T16:30:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=842",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3776,7 +4125,7 @@
    "cancelled": false
   },
   {
-   "id": "d40879531091",
+   "id": "e8a27a9bd488",
    "title": "Planning and Zoning Commission",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -3785,10 +4134,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-03T16:30:00-07:00",
-   "end": "2026-12-03T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Zoom - Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "Zoom",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=751",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3812,7 +4161,7 @@
    "cancelled": false
   },
   {
-   "id": "0b076f72a900",
+   "id": "cf16184b5410",
    "title": "Regular City Council Meeting",
    "host": "City of McCall",
    "source": "mccall",
@@ -3821,16 +4170,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-03T17:30:00-07:00",
-   "end": "2026-12-03T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
+   "location": "Community Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1743",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "ee2e0a4a5a5f",
+   "id": "6b6cfe73cc60",
    "title": "City Council Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -3841,8 +4190,8 @@
    "start": "2026-12-03T17:30:00-07:00",
    "end": "2026-12-03T18:00:00-07:00",
    "all_day": false,
-   "location": "Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8190",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3885,7 +4234,7 @@
    "cancelled": false
   },
   {
-   "id": "bf4ae4cf3857",
+   "id": "04c99903dd1e",
    "title": "City Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -3896,8 +4245,8 @@
    "start": "2026-12-03T18:00:00-07:00",
    "end": "2026-12-03T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "City Hall, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10231",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3915,14 +4264,14 @@
    "end": "2026-12-03T19:00:00-08:00",
    "all_day": false,
    "location": "",
-   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "url": "https://daltongardens.com/planning",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
   },
   {
-   "id": "9a5c5765634e",
+   "id": "1d37e12825b0",
    "title": "Hearing Examiner: Community Development - Public Hearing",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -3933,8 +4282,8 @@
    "start": "2026-12-03T18:00:00-08:00",
    "end": "2026-12-03T20:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5090",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -3978,7 +4327,7 @@
    "regular": true
   },
   {
-   "id": "0bae051736e8",
+   "id": "441f2cc79666",
    "title": "Planning & Zoning Commission Special Workshop with Legal",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -3989,8 +4338,8 @@
    "start": "2026-12-04T10:00:00-07:00",
    "end": "2026-12-04T12:00:00-07:00",
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=763",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4052,7 +4401,7 @@
    "regular": true
   },
   {
-   "id": "545c1cd43d5f",
+   "id": "c4d1c039ec82",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -4061,10 +4410,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-07T08:45:00-07:00",
-   "end": "2026-12-07T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1506",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4108,7 +4457,7 @@
    "regular": true
   },
   {
-   "id": "e601f74ee33b",
+   "id": "5ca70d93e9e9",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -4119,8 +4468,8 @@
    "start": "2026-12-07T09:00:00-07:00",
    "end": "2026-12-07T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5311",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4145,7 +4494,7 @@
    "regular": true
   },
   {
-   "id": "9821cb452b38",
+   "id": "f108ebe858f1",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -4156,8 +4505,8 @@
    "start": "2026-12-07T09:30:00-07:00",
    "end": "2026-12-07T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=915",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4201,7 +4550,7 @@
    "regular": true
   },
   {
-   "id": "851744c13103",
+   "id": "4563e00dd2c2",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -4212,8 +4561,8 @@
    "start": "2026-12-07T10:00:00-07:00",
    "end": "2026-12-07T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1464",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4292,7 +4641,7 @@
    "cancelled": false
   },
   {
-   "id": "1d0671ef7f6a",
+   "id": "2418505b87b5",
    "title": "City Council Work Session",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -4301,10 +4650,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-07T15:00:00-07:00",
-   "end": "2026-12-07T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
+   "location": "Council Chambers",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4081",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4437,7 +4786,26 @@
    "cancelled": false
   },
   {
-   "id": "e47ba050b1ba",
+   "id": "28bd609e40a2",
+   "title": "Planning & Zoning Commission",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-07T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/355/Planning-Zoning-Commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "37d7a9dc3734",
    "title": "Fair Board Mtg",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -4448,8 +4816,8 @@
    "start": "2026-12-07T19:00:00-07:00",
    "end": "2026-12-07T21:00:00-07:00",
    "all_day": false,
-   "location": "Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=486",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4548,7 +4916,7 @@
    "regular": true
   },
   {
-   "id": "b8ff397ccc04",
+   "id": "6033c475a905",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4559,8 +4927,8 @@
    "start": "2026-12-08T10:00:00-08:00",
    "end": "2026-12-08T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4888",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4584,7 +4952,7 @@
    "cancelled": false
   },
   {
-   "id": "297cb12f9df8",
+   "id": "1ee3887e0af7",
    "title": "Pocatello Regional Airport Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -4595,8 +4963,8 @@
    "start": "2026-12-08T11:00:00-07:00",
    "end": "2026-12-08T12:00:00-07:00",
    "all_day": false,
-   "location": "Airport Conference Room - 1950 Airport Way Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Airport Conference Room, 1950 Airport Way",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=9534",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4638,7 +5006,7 @@
    "cancelled": false
   },
   {
-   "id": "9f640244b967",
+   "id": "9175ce37650d",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4649,8 +5017,8 @@
    "start": "2026-12-08T14:00:00-08:00",
    "end": "2026-12-08T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4940",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4674,7 +5042,7 @@
    "cancelled": false
   },
   {
-   "id": "1eea482304ec",
+   "id": "bdae5ac5b404",
    "title": "Regular City Council Meeting",
    "host": "City of Mountain Home",
    "source": "mountain-home",
@@ -4685,8 +5053,8 @@
    "start": "2026-12-08T17:00:00-07:00",
    "end": "2026-12-08T21:00:00-07:00",
    "all_day": false,
-   "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
+   "location": "City Hall, 160 South 3rd East",
+   "url": "https://www.mountain-home.us/Calendar.aspx?EID=718",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4710,7 +5078,7 @@
    "cancelled": false
   },
   {
-   "id": "0ae85a2a825d",
+   "id": "1de27b0330bb",
    "title": "North Idaho Fair Advisory Board Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4721,11 +5089,30 @@
    "start": "2026-12-08T17:00:00-08:00",
    "end": "2026-12-08T18:00:00-08:00",
    "all_day": false,
-   "location": "North Idaho Fairgrounds 4056 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "North Idaho Fairgrounds",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5072",
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "1f3d5949e2a4",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-08T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b09a0340a128",
@@ -4747,7 +5134,7 @@
    "regular": true
   },
   {
-   "id": "4aa60f68c59a",
+   "id": "4d7513394e3a",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -4758,14 +5145,32 @@
    "start": "2026-12-08T17:30:00-08:00",
    "end": "2026-12-08T20:00:00-08:00",
    "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=794",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "5745f48a6b22",
+   "id": "ca00ec5cfd2f",
+   "title": "Planning & Zoning Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-08T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 East Ave A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=718",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "b07099e5e371",
    "title": "Kuna Planning & Zoning Commission Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -4776,8 +5181,8 @@
    "start": "2026-12-08T18:00:00-07:00",
    "end": "2026-12-08T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4434",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4801,7 +5206,7 @@
    "cancelled": false
   },
   {
-   "id": "279f219d7de1",
+   "id": "1ca05ded6869",
    "title": "Weed Advisory Board Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -4812,8 +5217,8 @@
    "start": "2026-12-08T19:00:00-07:00",
    "end": "2026-12-08T21:00:00-07:00",
    "all_day": false,
-   "location": "1118 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "1118 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1603",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4838,7 +5243,7 @@
    "regular": true
   },
   {
-   "id": "07d0a3d26ce1",
+   "id": "4569c54e686c",
    "title": "BOCC: Community Development",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4849,8 +5254,8 @@
    "start": "2026-12-09T09:00:00-08:00",
    "end": "2026-12-09T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5640",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4893,7 +5298,7 @@
    "cancelled": false
   },
   {
-   "id": "72ca1789140e",
+   "id": "89c21b32a1bc",
    "title": "BOCC: Requests for Cancellation of Taxes",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4904,14 +5309,14 @@
    "start": "2026-12-09T11:00:00-08:00",
    "end": "2026-12-09T11:10:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4983",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "9b323721f58a",
+   "id": "728d0b344148",
    "title": "BOE: Board of Equalization",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -4922,8 +5327,8 @@
    "start": "2026-12-09T11:10:00-08:00",
    "end": "2026-12-09T11:40:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5198",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4966,7 +5371,7 @@
    "regular": true
   },
   {
-   "id": "dbe361b08229",
+   "id": "c3cc9159fb9c",
    "title": "Golf Course Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -4977,8 +5382,8 @@
    "start": "2026-12-09T16:00:00-07:00",
    "end": "2026-12-09T17:00:00-07:00",
    "all_day": false,
-   "location": "McCall Golf Club / Banyans on the Green - 925 Fairway Dr McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "McCall Golf Club / Banyans on the Green, 925 Fairway Dr",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1514",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5014,14 +5419,14 @@
    "end": "2026-12-09T18:00:00-08:00",
    "all_day": false,
    "location": "",
-   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "url": "https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
   },
   {
-   "id": "0a46991fe1be",
+   "id": "91ce7249a186",
    "title": "Airport Advisory Board Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5032,14 +5437,14 @@
    "start": "2026-12-09T17:00:00-08:00",
    "end": "2026-12-09T18:00:00-08:00",
    "all_day": false,
-   "location": "CDA Airport - 10375 Sensor Ave Hayden ID 83835",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "CDA Airport - 10375 Sensor Ave",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5167",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "226a077e2eff",
+   "id": "eb11265e02e6",
    "title": "Planning & Zoning Commission Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -5050,8 +5455,8 @@
    "start": "2026-12-09T17:30:00-07:00",
    "end": "2026-12-09T18:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8507",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5130,7 +5535,7 @@
    "cancelled": false
   },
   {
-   "id": "09990809d1a5",
+   "id": "ecc3d7a7452e",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -5141,8 +5546,8 @@
    "start": "2026-12-09T18:00:00-07:00",
    "end": "2026-12-09T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8559",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5203,7 +5608,7 @@
    "cancelled": false
   },
   {
-   "id": "20762413b1c5",
+   "id": "f344bb1cdc07",
    "title": "City Council Work Session",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -5214,14 +5619,14 @@
    "start": "2026-12-10T09:00:00-07:00",
    "end": "2026-12-10T14:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10436",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "b46960ae98ad",
+   "id": "4ae104a48012",
    "title": "Parks & Waterways Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5232,14 +5637,14 @@
    "start": "2026-12-10T09:00:00-08:00",
    "end": "2026-12-10T11:00:00-08:00",
    "all_day": false,
-   "location": "Search & Rescue Building, 10865 N Ramsey Rd Hayden ID 83835",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "Search & Rescue Building, 10865 N Ramsey Rd",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5171",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "0fd48077b849",
+   "id": "e61c5dfdd49c",
    "title": "Library Board of Trustees",
    "host": "City of McCall",
    "source": "mccall",
@@ -5250,8 +5655,8 @@
    "start": "2026-12-10T10:00:00-07:00",
    "end": "2026-12-10T11:00:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1538",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5275,7 +5680,7 @@
    "cancelled": true
   },
   {
-   "id": "e2f531f9623f",
+   "id": "321633b87eeb",
    "title": "BOCC: Community Development AM",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5286,8 +5691,8 @@
    "start": "2026-12-10T10:00:00-08:00",
    "end": "2026-12-10T12:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4817",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5311,7 +5716,7 @@
    "cancelled": false
   },
   {
-   "id": "ae1f3e38cff4",
+   "id": "464399df914f",
    "title": "Planning & Zoning Commission 1:30 Workshop",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5322,8 +5727,8 @@
    "start": "2026-12-10T13:30:00-08:00",
    "end": "2026-12-10T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5151",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -5421,7 +5826,7 @@
    "regular": true
   },
   {
-   "id": "1a51da3935f9",
+   "id": "9d11d9673694",
    "title": "City Council",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -5430,16 +5835,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-10T17:30:00-07:00",
-   "end": "2026-12-10T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=653",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "4e4c5cd5b32e",
+   "id": "3fd55e5c3764",
    "title": "Special City Council Meeting",
    "host": "City of McCall",
    "source": "mccall",
@@ -5448,16 +5853,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-10T17:30:00-07:00",
-   "end": "2026-12-10T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
+   "location": "Community Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1765",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "fe94b04cbe83",
+   "id": "dc98906a595d",
    "title": "Hearing Examiner",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -5468,14 +5873,33 @@
    "start": "2026-12-10T17:30:00-07:00",
    "end": "2026-12-10T18:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8130",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "25f743f85986",
+   "id": "f358a3c0eacf",
+   "title": "Design Review Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-10T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/347/Design-Review-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "cadad8c6a069",
    "title": "BOCC: Community Development - PM",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5486,14 +5910,14 @@
    "start": "2026-12-10T18:00:00-08:00",
    "end": "2026-12-10T20:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4839",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "bbe7775820bc",
+   "id": "5a942a94baa7",
    "title": "Planning & Zoning Commission - Public Hearing",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -5504,14 +5928,14 @@
    "start": "2026-12-10T18:00:00-08:00",
    "end": "2026-12-10T20:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5638",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "c7251bd2a3f0",
+   "id": "e66e75df2a8f",
    "title": "City Council Meeting",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -5520,10 +5944,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-10T18:30:00-07:00",
-   "end": "2026-12-10T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
+   "location": "Council Chambers",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4103",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5698,7 +6122,7 @@
    "regular": true
   },
   {
-   "id": "9559a18b9a89",
+   "id": "4ea3de66e289",
    "title": "Lemhi County Commissioners Meeting",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -5709,8 +6133,8 @@
    "start": "2026-12-14T07:30:00-07:00",
    "end": "2026-12-14T12:00:00-07:00",
    "all_day": false,
-   "location": "200 Fulton St Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "200 Fulton St",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=285",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5753,7 +6177,7 @@
    "cancelled": false
   },
   {
-   "id": "7723cebdb28e",
+   "id": "586ab55872b6",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -5762,10 +6186,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-14T08:45:00-07:00",
-   "end": "2026-12-14T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1507",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5847,7 +6271,7 @@
    "regular": true
   },
   {
-   "id": "78b9937754b9",
+   "id": "fd2116ac07d6",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -5858,8 +6282,8 @@
    "start": "2026-12-14T09:00:00-07:00",
    "end": "2026-12-14T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5312",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5884,7 +6308,7 @@
    "regular": true
   },
   {
-   "id": "9fd226f05365",
+   "id": "ddd21de2fd7c",
    "title": "Commissioner's Meeting",
    "host": "Power County",
    "source": "power-county",
@@ -5893,10 +6317,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-14T09:00:00-07:00",
-   "end": "2026-12-14T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
+   "location": "Commission Chambers, 543 Bannock Ave.",
+   "url": "https://www.powercounty.gov/Calendar.aspx?EID=1015",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5939,7 +6363,7 @@
    "cancelled": false
   },
   {
-   "id": "8d0420749e77",
+   "id": "90d3fbf169a0",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -5950,8 +6374,8 @@
    "start": "2026-12-14T09:30:00-07:00",
    "end": "2026-12-14T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=916",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -5995,7 +6419,7 @@
    "regular": true
   },
   {
-   "id": "3ba916d9103b",
+   "id": "926386b158d3",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -6006,8 +6430,8 @@
    "start": "2026-12-14T10:00:00-07:00",
    "end": "2026-12-14T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1465",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6068,7 +6492,7 @@
    "regular": true
   },
   {
-   "id": "5c406b73e462",
+   "id": "3f8170f251d4",
    "title": "City Council Work Session",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -6077,16 +6501,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-14T15:00:00-07:00",
-   "end": "2026-12-14T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
+   "location": "Council Chambers",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4082",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "3f364c30ad68",
+   "id": "95322925fc69",
    "title": "Pocatello Mayor's Youth Advisory Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -6097,8 +6521,8 @@
    "start": "2026-12-14T15:15:00-07:00",
    "end": "2026-12-14T16:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=11047",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6178,7 +6602,7 @@
    "regular": true
   },
   {
-   "id": "f6d97ca3d724",
+   "id": "c3fddf5b132f",
    "title": "Human Relations Advisory Committee Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -6189,8 +6613,8 @@
    "start": "2026-12-14T17:30:00-07:00",
    "end": "2026-12-14T18:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10282",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6250,6 +6674,25 @@
    "cancelled": false
   },
   {
+   "id": "c128cd40043b",
+   "title": "City Council Meeting",
+   "host": "Garden City",
+   "source": "garden-city",
+   "area": "Garden City",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-14T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Garden City Hall, 6015 N. Glenwood Street",
+   "url": "https://gardencityidaho.org/elected-officials",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "4215aea724b2",
    "title": "Regular Meeting",
    "host": "West Ada School District",
@@ -6280,7 +6723,7 @@
    "end": "2026-12-14T19:00:00-08:00",
    "all_day": false,
    "location": "",
-   "url": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "url": "https://daltongardens.com/irrigation",
    "agenda_url": "",
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
@@ -6380,7 +6823,7 @@
    "regular": true
   },
   {
-   "id": "86563f1b30af",
+   "id": "217fa1f3fdec",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -6391,8 +6834,8 @@
    "start": "2026-12-15T10:00:00-08:00",
    "end": "2026-12-15T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4889",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -6416,7 +6859,7 @@
    "cancelled": false
   },
   {
-   "id": "7a4f6dccfee7",
+   "id": "941c9004398a",
    "title": "Community Development Block Grant Advisory Committee Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -6427,14 +6870,14 @@
    "start": "2026-12-15T12:00:00-07:00",
    "end": "2026-12-15T13:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8997",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "f33f407e1b67",
+   "id": "ea0267ee13ed",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -6445,14 +6888,14 @@
    "start": "2026-12-15T14:00:00-08:00",
    "end": "2026-12-15T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4941",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "d7d39b5bb613",
+   "id": "0456c9d1ac1a",
    "title": "BOCC: Fair Board Quarterly Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -6463,8 +6906,8 @@
    "start": "2026-12-15T15:00:00-08:00",
    "end": "2026-12-15T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5024",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6489,7 +6932,7 @@
    "regular": true
   },
   {
-   "id": "c6ee959fe72a",
+   "id": "d4122d3503d6",
    "title": "Library Board Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -6500,8 +6943,8 @@
    "start": "2026-12-15T16:00:00-07:00",
    "end": "2026-12-15T17:00:00-07:00",
    "all_day": false,
-   "location": "Marshall Public Library - 113 S. Garfield Avenue Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Marshall Public Library, 113 S. Garfield Avenue",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8625",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6581,7 +7024,7 @@
    "regular": true
   },
   {
-   "id": "521333cbf2a6",
+   "id": "2eab1741244d",
    "title": "City Council Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -6592,14 +7035,51 @@
    "start": "2026-12-15T17:00:00-08:00",
    "end": "2026-12-15T20:00:00-08:00",
    "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=742",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "2bbe8f3c526a",
+   "id": "9fe86071378d",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-15T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "8776302f36e8",
+   "title": "City Council Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-15T17:30:00-07:00",
+   "end": "2026-12-15T20:00:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=794",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "781e9a2a64c7",
    "title": "Kuna City Regular Council Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -6610,8 +7090,8 @@
    "start": "2026-12-15T18:00:00-07:00",
    "end": "2026-12-15T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4472",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6653,24 +7133,6 @@
    "cancelled": false
   },
   {
-   "id": "173f44801ea8",
-   "title": "P & Z Commission Meeting",
-   "host": "Washington County",
-   "source": "washington-county",
-   "area": "countywide",
-   "county": "Washington",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-12-15T18:00:00-07:00",
-   "end": "2026-12-15T23:59:00-07:00",
-   "all_day": false,
-   "location": "256 East Court St Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "c63ede5530a4",
    "title": "City Council Meeting",
    "host": "City of Coeur d'Alene",
@@ -6690,7 +7152,26 @@
    "regular": true
   },
   {
-   "id": "0ad161744938",
+   "id": "0880fc707154",
+   "title": "City Council Meeting",
+   "host": "City of Burley",
+   "source": "burley-schedule",
+   "area": "Burley",
+   "county": "Cassia",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-15T19:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Burley City Hall, 1401 Overland Avenue",
+   "url": "https://www.burleyidaho.org/175/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "72f77402287d",
    "title": "City Council Meeting",
    "host": "City of Star",
    "source": "star",
@@ -6699,10 +7180,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-15T19:00:00-07:00",
-   "end": "2026-12-15T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Star ID 83669",
-   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
+   "location": "",
+   "url": "https://www.staridaho.org/Calendar.aspx?EID=393",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6782,7 +7263,7 @@
    "regular": true
   },
   {
-   "id": "46a4f499176d",
+   "id": "e39d6c538bc5",
    "title": "Pocatello Development Authority Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -6793,8 +7274,8 @@
    "start": "2026-12-16T11:00:00-07:00",
    "end": "2026-12-16T13:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8076",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -6855,7 +7336,7 @@
    "cancelled": false
   },
   {
-   "id": "9ee9001f4cec",
+   "id": "e28d0ad8cfe8",
    "title": "Historic Preservation Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -6866,14 +7347,14 @@
    "start": "2026-12-16T15:30:00-08:00",
    "end": "2026-12-16T17:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5036",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "2df60d9d5f51",
+   "id": "595e3718d0d8",
    "title": "Parks & Recreation Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -6884,14 +7365,14 @@
    "start": "2026-12-16T16:00:00-07:00",
    "end": "2026-12-16T17:00:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1556",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "2ec8c7cec0ad",
+   "id": "4f6483ca8a06",
    "title": "Aquifer Protection District Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -6902,8 +7383,8 @@
    "start": "2026-12-16T16:00:00-08:00",
    "end": "2026-12-16T18:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5060",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -6946,7 +7427,26 @@
    "regular": true
   },
   {
-   "id": "a4e42e3148ee",
+   "id": "0635877d75bc",
+   "title": "Eagle Public Library Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "library",
+   "start": "2026-12-16T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.cityofeagle.org/351/Library-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "14870c995953",
    "title": "December 16th, 2026 P&Z",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -6955,10 +7455,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-16T18:00:00-07:00",
-   "end": "2026-12-16T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Annex Meeting Room > Planning & Zoning Commission Meeting - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=31",
+   "location": "Planning & Zoning Commission Meeting, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5379",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7002,7 +7502,7 @@
    "regular": true
   },
   {
-   "id": "c5f23728314d",
+   "id": "bfaf9b555296",
    "title": "Traffic Authority",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -7011,16 +7511,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-17T09:00:00-07:00",
-   "end": "2026-12-17T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=668",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "197631f791ba",
+   "id": "49c5e4988c04",
    "title": "Post Falls Urban Renewal Agency Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -7031,8 +7531,8 @@
    "start": "2026-12-17T09:00:00-08:00",
    "end": "2026-12-17T10:00:00-08:00",
    "all_day": false,
-   "location": "Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=898",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7056,7 +7556,7 @@
    "cancelled": false
   },
   {
-   "id": "f17127c2ab45",
+   "id": "2565dfd8aec7",
    "title": "BOCC: Human Resources",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7067,14 +7567,14 @@
    "start": "2026-12-17T10:00:00-08:00",
    "end": "2026-12-17T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4971",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "abaf614f8c9b",
+   "id": "9113782ac721",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7085,8 +7585,8 @@
    "start": "2026-12-17T13:30:00-08:00",
    "end": "2026-12-17T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5152",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7110,7 +7610,7 @@
    "cancelled": false
   },
   {
-   "id": "1b5a0d9f132b",
+   "id": "741eb6f9d300",
    "title": "Planning and Zoning Commission",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -7119,16 +7619,35 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-17T16:30:00-07:00",
-   "end": "2026-12-17T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=752",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "a8bb360011f5",
+   "id": "d04d68a9b4d3",
+   "title": "Parks, Pathways & Recreation Commission",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-17T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/353/Parks-Pathways-Recreation-Commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "0904329db80a",
    "title": "Regular City Council Meeting",
    "host": "City of McCall",
    "source": "mccall",
@@ -7137,16 +7656,16 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-17T17:30:00-07:00",
-   "end": "2026-12-17T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Community Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=23",
+   "location": "Community Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1744",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "b6e6ee6f585f",
+   "id": "1d79e3ba8098",
    "title": "City Council Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -7157,8 +7676,8 @@
    "start": "2026-12-17T17:30:00-07:00",
    "end": "2026-12-17T18:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10163",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7183,7 +7702,7 @@
    "regular": true
   },
   {
-   "id": "9456f2348c92",
+   "id": "407081337424",
    "title": "City Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -7194,14 +7713,14 @@
    "start": "2026-12-17T18:00:00-07:00",
    "end": "2026-12-17T20:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8920",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "4ba1ba409b95",
+   "id": "ce45cdc3b5b1",
    "title": "Hearing Examiner: Community Development - Public Hearing",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7212,14 +7731,14 @@
    "start": "2026-12-17T18:00:00-08:00",
    "end": "2026-12-17T20:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5102",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "07afb59d0f76",
+   "id": "2859b3e03d95",
    "title": "City Council Meeting",
    "host": "City of Idaho Falls",
    "source": "idaho-falls",
@@ -7228,10 +7747,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-17T18:30:00-07:00",
-   "end": "2026-12-17T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Council Chambers 680 Park Ave Idaho Falls ID 83402",
-   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?CID=28",
+   "location": "Council Chambers",
+   "url": "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4104",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7351,7 +7870,7 @@
    "regular": true
   },
   {
-   "id": "dcc10038ca4b",
+   "id": "239c2fcab8eb",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -7360,10 +7879,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-21T08:45:00-07:00",
-   "end": "2026-12-21T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1508",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7388,7 +7907,7 @@
    "regular": true
   },
   {
-   "id": "e20359a4e9bd",
+   "id": "5d35bc3601ef",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -7399,8 +7918,8 @@
    "start": "2026-12-21T09:00:00-07:00",
    "end": "2026-12-21T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5313",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7443,7 +7962,7 @@
    "cancelled": false
   },
   {
-   "id": "5f5a84c70655",
+   "id": "10307a80f714",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -7454,8 +7973,8 @@
    "start": "2026-12-21T09:30:00-07:00",
    "end": "2026-12-21T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=917",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7499,7 +8018,7 @@
    "regular": true
   },
   {
-   "id": "815fe877d63d",
+   "id": "5f663849179f",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -7510,8 +8029,8 @@
    "start": "2026-12-21T10:00:00-07:00",
    "end": "2026-12-21T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1466",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7627,6 +8146,25 @@
    "cancelled": false
   },
   {
+   "id": "7e084995c9c7",
+   "title": "Planning & Zoning Commission",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-21T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/355/Planning-Zoning-Commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "61aafbf398a7",
    "title": "City Council Regular Meeting",
    "host": "City of Moscow",
@@ -7739,7 +8277,7 @@
    "regular": true
   },
   {
-   "id": "b5bde9bf3882",
+   "id": "14b21e3350de",
    "title": "BOCC: Airport",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7748,16 +8286,16 @@
    "tz": "PT",
    "category": "council",
    "start": "2026-12-22T09:00:00-08:00",
-   "end": "2026-12-22T23:59:00-08:00",
+   "end": null,
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5001",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "12471c67f2b5",
+   "id": "cdd43811e9b5",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7768,14 +8306,14 @@
    "start": "2026-12-22T10:00:00-08:00",
    "end": "2026-12-22T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4890",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "3dd6ffea2ca4",
+   "id": "8e8786e18edd",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7786,8 +8324,8 @@
    "start": "2026-12-22T14:00:00-08:00",
    "end": "2026-12-22T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4942",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7811,6 +8349,25 @@
    "cancelled": false
   },
   {
+   "id": "fd88d0d1b791",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-22T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "1d0d61e59902",
    "title": "City Council Regular Meeting",
    "host": "City of Emmett",
@@ -7830,7 +8387,7 @@
    "regular": true
   },
   {
-   "id": "2dc0d6d5a876",
+   "id": "b14a39bab7b5",
    "title": "Kuna Planning & Zoning Commission Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -7841,8 +8398,8 @@
    "start": "2026-12-22T18:00:00-07:00",
    "end": "2026-12-22T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4447",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -7977,7 +8534,7 @@
    "cancelled": false
   },
   {
-   "id": "3522c0323ce6",
+   "id": "44c11575851a",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -7988,8 +8545,8 @@
    "start": "2026-12-24T13:30:00-08:00",
    "end": "2026-12-24T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5153",
    "agenda_url": "",
    "note": "",
    "cancelled": true
@@ -8011,6 +8568,25 @@
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
    "cancelled": false
+  },
+  {
+   "id": "9a093b38c57c",
+   "title": "Design Review Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-24T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/347/Design-Review-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b127e6e7e76c",
@@ -8126,7 +8702,7 @@
    "cancelled": false
   },
   {
-   "id": "261baa3377cf",
+   "id": "2ad59786ebb8",
    "title": "Lemhi County Commissioners Meeting",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -8135,10 +8711,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-28T00:00:00-07:00",
-   "end": "2026-12-28T00:00:00-07:00",
+   "end": null,
    "all_day": true,
-   "location": "200 Fulton St Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "200 Fulton St",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=385",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8200,7 +8776,7 @@
    "cancelled": false
   },
   {
-   "id": "6f4d8c74d11f",
+   "id": "a2cadcbf915f",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -8209,10 +8785,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-28T08:45:00-07:00",
-   "end": "2026-12-28T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1509",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8294,7 +8870,7 @@
    "regular": true
   },
   {
-   "id": "06a8cd8733e9",
+   "id": "ce07ec479c0f",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -8305,8 +8881,8 @@
    "start": "2026-12-28T09:00:00-07:00",
    "end": "2026-12-28T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5314",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8331,7 +8907,7 @@
    "regular": true
   },
   {
-   "id": "9884cd0e9f77",
+   "id": "01899100ca6c",
    "title": "Commissioner's Meeting",
    "host": "Power County",
    "source": "power-county",
@@ -8340,10 +8916,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-28T09:00:00-07:00",
-   "end": "2026-12-28T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Commission Chambers - 543 Bannock Ave. American Falls ID 83211",
-   "url": "https://www.powercounty.gov/Calendar.aspx?CID=23",
+   "location": "Commission Chambers, 543 Bannock Ave.",
+   "url": "https://www.powercounty.gov/Calendar.aspx?EID=1024",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8368,7 +8944,7 @@
    "regular": true
   },
   {
-   "id": "8d13131a2551",
+   "id": "611681ee60fe",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -8379,8 +8955,8 @@
    "start": "2026-12-28T09:30:00-07:00",
    "end": "2026-12-28T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=918",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8424,7 +9000,7 @@
    "regular": true
   },
   {
-   "id": "26857c4187fc",
+   "id": "0a0b6f0601f0",
    "title": "Weiser Ambulance District Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -8435,8 +9011,8 @@
    "start": "2026-12-28T10:00:00-07:00",
    "end": "2026-12-28T10:30:00-07:00",
    "all_day": false,
-   "location": "256 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "256 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1467",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8461,7 +9037,7 @@
    "regular": true
   },
   {
-   "id": "195954860cfa",
+   "id": "6b33ace9a241",
    "title": "Pocatello Mayor's Youth Advisory Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -8472,8 +9048,8 @@
    "start": "2026-12-28T15:15:00-07:00",
    "end": "2026-12-28T16:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=11039",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8497,7 +9073,7 @@
    "cancelled": false
   },
   {
-   "id": "29bc9d1f8fd6",
+   "id": "09fd08a30b12",
    "title": "Public Art Advisory Committee",
    "host": "City of McCall",
    "source": "mccall",
@@ -8508,8 +9084,8 @@
    "start": "2026-12-28T16:30:00-07:00",
    "end": "2026-12-28T17:30:00-07:00",
    "all_day": false,
-   "location": "Hershberger Room - 218 Park Street McCall ID 83638",
-   "url": "https://www.mccall.id.us/Calendar.aspx?CID=27",
+   "location": "Hershberger Room, 218 Park Street",
+   "url": "https://www.mccall.id.us/Calendar.aspx?EID=1937",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8552,7 +9128,7 @@
    "regular": true
   },
   {
-   "id": "bacef8120257",
+   "id": "9af8ee42fb04",
    "title": "City Council",
    "host": "City of Ketchum",
    "source": "ketchum",
@@ -8561,10 +9137,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2026-12-28T17:30:00-07:00",
-   "end": "2026-12-28T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "City Hall - P.O. Box 2315 191 5th Street West Ketchum ID 83340",
-   "url": "https://ketchumidaho.gov/Calendar.aspx?CID=14",
+   "location": "City Hall",
+   "url": "https://ketchumidaho.gov/Calendar.aspx?EID=660",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8604,6 +9180,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "2c9b8a48879b",
+   "title": "City Council Meeting",
+   "host": "Garden City",
+   "source": "garden-city",
+   "area": "Garden City",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-28T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Garden City Hall, 6015 N. Glenwood Street",
+   "url": "https://gardencityidaho.org/elected-officials",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "cfde57de3202",
@@ -8699,7 +9294,7 @@
    "regular": true
   },
   {
-   "id": "d5756cfa5368",
+   "id": "c183ccd01c65",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -8710,14 +9305,14 @@
    "start": "2026-12-29T10:00:00-08:00",
    "end": "2026-12-29T11:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4891",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "41edaef12403",
+   "id": "5fef59886a5b",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -8728,14 +9323,14 @@
    "start": "2026-12-29T14:00:00-08:00",
    "end": "2026-12-29T15:00:00-08:00",
    "all_day": false,
-   "location": "451 Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=4943",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "ef3fcb1f4781",
+   "id": "b9c96a727fe2",
    "title": "Regular City Council Meeting",
    "host": "City of Mountain Home",
    "source": "mountain-home",
@@ -8746,8 +9341,8 @@
    "start": "2026-12-29T17:00:00-07:00",
    "end": "2026-12-29T21:00:00-07:00",
    "all_day": false,
-   "location": "City Hall - 160 South 3rd East Mountain Home ID 83647",
-   "url": "https://www.mountain-home.us/Calendar.aspx?CID=14",
+   "location": "City Hall, 160 South 3rd East",
+   "url": "https://www.mountain-home.us/Calendar.aspx?EID=719",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8810,7 +9405,7 @@
    "regular": true
   },
   {
-   "id": "c45892108b23",
+   "id": "5d5334cc7c89",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -8821,8 +9416,8 @@
    "start": "2026-12-31T13:30:00-08:00",
    "end": "2026-12-31T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5154",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8885,7 +9480,7 @@
    "regular": true
   },
   {
-   "id": "a7d40f147c27",
+   "id": "f976c532b5f8",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -8894,10 +9489,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2027-01-04T08:45:00-07:00",
-   "end": "2027-01-04T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1510",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8922,7 +9517,7 @@
    "regular": true
   },
   {
-   "id": "5d45c70af347",
+   "id": "ece7c3fc0034",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -8933,8 +9528,8 @@
    "start": "2027-01-04T09:00:00-07:00",
    "end": "2027-01-04T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5581",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -8959,7 +9554,7 @@
    "regular": true
   },
   {
-   "id": "7695261916b9",
+   "id": "3f567b68badc",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -8970,8 +9565,8 @@
    "start": "2027-01-04T09:30:00-07:00",
    "end": "2027-01-04T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=919",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9107,7 +9702,26 @@
    "cancelled": false
   },
   {
-   "id": "4a69249ca9fb",
+   "id": "a38b5dd4f8c3",
+   "title": "Planning & Zoning Commission",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-04T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/355/Planning-Zoning-Commission",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "b4d91b525586",
    "title": "Fair Board Mtg",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -9118,8 +9732,8 @@
    "start": "2027-01-04T19:00:00-07:00",
    "end": "2027-01-04T21:00:00-07:00",
    "all_day": false,
-   "location": "Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=487",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9218,7 +9832,7 @@
    "regular": true
   },
   {
-   "id": "481d1c7d5fbb",
+   "id": "226a729e1f6f",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9229,14 +9843,14 @@
    "start": "2027-01-05T10:00:00-08:00",
    "end": "2027-01-05T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5335",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "0db335b5b006",
+   "id": "10e2f1cae930",
    "title": "BOCC: Solid Waste",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9247,8 +9861,8 @@
    "start": "2027-01-05T11:00:00-08:00",
    "end": "2027-01-05T12:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5452",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9272,7 +9886,7 @@
    "cancelled": false
   },
   {
-   "id": "3820ae278635",
+   "id": "81dcaff8bf38",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9283,8 +9897,8 @@
    "start": "2027-01-05T14:00:00-08:00",
    "end": "2027-01-05T15:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5283",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9362,7 +9976,7 @@
    "cancelled": false
   },
   {
-   "id": "cdee1c9fef0d",
+   "id": "3d020b2b002b",
    "title": "City Council Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -9373,8 +9987,26 @@
    "start": "2027-01-05T17:00:00-08:00",
    "end": "2027-01-05T20:00:00-08:00",
    "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=1434",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "e457b761d263",
+   "title": "City Council Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-05T17:30:00-07:00",
+   "end": "2027-01-05T20:00:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=747",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9398,7 +10030,7 @@
    "cancelled": true
   },
   {
-   "id": "c4084973109e",
+   "id": "853e70c2beca",
    "title": "Kuna City Regular Council Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -9409,8 +10041,8 @@
    "start": "2027-01-05T18:00:00-07:00",
    "end": "2027-01-05T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4460",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9434,7 +10066,7 @@
    "cancelled": false
   },
   {
-   "id": "c13e743001f9",
+   "id": "b788924cd53f",
    "title": "Pocatello Arts Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -9445,14 +10077,33 @@
    "start": "2027-01-05T18:30:00-07:00",
    "end": "2027-01-05T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10863",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "230a5dba0bd7",
+   "id": "4f1c3f4576db",
+   "title": "City Council Meeting",
+   "host": "City of Burley",
+   "source": "burley-schedule",
+   "area": "Burley",
+   "county": "Cassia",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-05T19:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Burley City Hall, 1401 Overland Avenue",
+   "url": "https://www.burleyidaho.org/175/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "2d64137e6a56",
    "title": "City Council Meeting",
    "host": "City of Star",
    "source": "star",
@@ -9461,10 +10112,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2027-01-05T19:00:00-07:00",
-   "end": "2027-01-05T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Star ID 83669",
-   "url": "https://www.staridaho.org/Calendar.aspx?CID=22",
+   "location": "",
+   "url": "https://www.staridaho.org/Calendar.aspx?EID=344",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9489,7 +10140,7 @@
    "regular": true
   },
   {
-   "id": "7309b5243809",
+   "id": "ba5a1aac033c",
    "title": "Snowmobile Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9500,8 +10151,8 @@
    "start": "2027-01-06T08:30:00-08:00",
    "end": "2027-01-06T10:30:00-08:00",
    "all_day": false,
-   "location": "Search & Rescue Building, 10865 N Ramsey Rd Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "Search & Rescue Building, 10865 N Ramsey Rd",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5615",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9545,7 +10196,7 @@
    "regular": true
   },
   {
-   "id": "2f404e126666",
+   "id": "950d3c8b0778",
    "title": "Aquifer Protection District Advisory Board",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9556,14 +10207,14 @@
    "start": "2027-01-06T16:00:00-08:00",
    "end": "2027-01-06T18:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5387",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "9d16dcb9f9d6",
+   "id": "42f14a015db2",
    "title": "Historic Preservation Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -9574,8 +10225,8 @@
    "start": "2027-01-06T18:00:00-07:00",
    "end": "2027-01-06T19:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=9110",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9655,7 +10306,7 @@
    "cancelled": false
   },
   {
-   "id": "b5da29f93ea8",
+   "id": "573ad3cb0619",
    "title": "BOCC: Human Resources",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9666,8 +10317,8 @@
    "start": "2027-01-07T10:00:00-08:00",
    "end": "2027-01-07T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5472",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9691,7 +10342,7 @@
    "cancelled": false
   },
   {
-   "id": "713850fb5778",
+   "id": "8a3b662ff24f",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9702,8 +10353,26 @@
    "start": "2027-01-07T13:30:00-08:00",
    "end": "2027-01-07T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5508",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "4b784ca92dc6",
+   "title": "Urban Renewal Agency Meeting",
+   "host": "City of Jerome",
+   "source": "jerome",
+   "area": "Jerome",
+   "county": "Jerome",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-07T15:00:00-07:00",
+   "end": "2027-01-07T16:30:00-07:00",
+   "all_day": false,
+   "location": "Jerome Council Chambers, 100 E Avenue A",
+   "url": "https://www.ci.jerome.id.us/Calendar.aspx?EID=843",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9727,7 +10396,7 @@
    "cancelled": false
   },
   {
-   "id": "5339cb93d985",
+   "id": "77f83d0e27d9",
    "title": "City Council Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -9738,8 +10407,8 @@
    "start": "2027-01-07T17:30:00-07:00",
    "end": "2027-01-07T18:00:00-07:00",
    "all_day": false,
-   "location": "Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8191",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9782,7 +10451,7 @@
    "cancelled": false
   },
   {
-   "id": "07ae22b1f7c3",
+   "id": "46722034e815",
    "title": "City Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -9793,14 +10462,14 @@
    "start": "2027-01-07T18:00:00-07:00",
    "end": "2027-01-07T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "City Hall, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10232",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "cbfcafb11590",
+   "id": "e3c3556038c1",
    "title": "Hearing Examiner: Community Development - Public Hearing",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -9811,8 +10480,8 @@
    "start": "2027-01-07T18:00:00-08:00",
    "end": "2027-01-07T20:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5618",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9950,7 +10619,7 @@
    "regular": true
   },
   {
-   "id": "4b7e6ad8040b",
+   "id": "a2841e686796",
    "title": "Lemhi County Commissioners Meeting",
    "host": "Lemhi County",
    "source": "lemhi-county",
@@ -9961,8 +10630,8 @@
    "start": "2027-01-11T07:30:00-07:00",
    "end": "2027-01-11T12:00:00-07:00",
    "all_day": false,
-   "location": "200 Fulton St Salmon ID 83467",
-   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?CID=14",
+   "location": "200 Fulton St",
+   "url": "https://www.lemhicountyidaho.org/Calendar.aspx?EID=286",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -9987,7 +10656,7 @@
    "regular": true
   },
   {
-   "id": "93e2f1ff83bd",
+   "id": "8e3142c1c2b6",
    "title": "Washington County Commissioners",
    "host": "Washington County",
    "source": "washington-county",
@@ -9996,10 +10665,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2027-01-11T08:45:00-07:00",
-   "end": "2027-01-11T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1511",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10062,7 +10731,7 @@
    "regular": true
   },
   {
-   "id": "cf701cbc581c",
+   "id": "61565fadaf14",
    "title": "County Commissioner Meeting",
    "host": "Jefferson County",
    "source": "jefferson-county",
@@ -10073,8 +10742,8 @@
    "start": "2027-01-11T09:00:00-07:00",
    "end": "2027-01-11T17:00:00-07:00",
    "all_day": false,
-   "location": "Annex Meeting Room - 210 Courthouse Way, Suite 240 Rigby ID 83442",
-   "url": "https://www.jcgov.us/Calendar.aspx?CID=24",
+   "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
+   "url": "https://www.jcgov.us/Calendar.aspx?EID=5582",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10136,7 +10805,7 @@
    "cancelled": false
   },
   {
-   "id": "d8d9e9685248",
+   "id": "83c9a4e43909",
    "title": "County Commission Meeting",
    "host": "Minidoka County",
    "source": "minidoka-county",
@@ -10147,8 +10816,8 @@
    "start": "2027-01-11T09:30:00-07:00",
    "end": "2027-01-11T14:00:00-07:00",
    "all_day": false,
-   "location": "Rupert ID 83350",
-   "url": "https://www.minidoka.id.us/Calendar.aspx?CID=14",
+   "location": "",
+   "url": "https://www.minidoka.id.us/Calendar.aspx?EID=920",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10210,7 +10879,7 @@
    "cancelled": false
   },
   {
-   "id": "6c3e2ac12278",
+   "id": "c93dc7715be4",
    "title": "Swearing in Ceremony",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10221,8 +10890,8 @@
    "start": "2027-01-11T10:00:00-08:00",
    "end": "2027-01-11T12:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5255",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10283,7 +10952,7 @@
    "regular": true
   },
   {
-   "id": "50968d03d8d0",
+   "id": "b9a04ce974af",
    "title": "Pocatello Mayor's Youth Advisory Council Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -10294,8 +10963,8 @@
    "start": "2027-01-11T15:15:00-07:00",
    "end": "2027-01-11T16:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=11048",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10356,7 +11025,7 @@
    "regular": true
   },
   {
-   "id": "260b98c11082",
+   "id": "02fe8c1519e2",
    "title": "Human Relations Advisory Committee Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -10367,8 +11036,8 @@
    "start": "2027-01-11T17:30:00-07:00",
    "end": "2027-01-11T18:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10283",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10390,6 +11059,44 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "a97b6b7d39cc",
+   "title": "City Council Meeting",
+   "host": "Garden City",
+   "source": "garden-city",
+   "area": "Garden City",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-11T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Garden City Hall, 6015 N. Glenwood Street",
+   "url": "https://gardencityidaho.org/elected-officials",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "43f89924a72f",
+   "title": "Dalton Irrigation Board Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2027-01-11T18:00:00-08:00",
+   "end": "2027-01-11T19:00:00-08:00",
+   "all_day": false,
+   "location": "Dalton Gardens Irrigation District office, Dalton Gardens City Hall",
+   "url": "https://daltongardens.com/irrigation",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "23bc23643aa5",
@@ -10485,7 +11192,7 @@
    "regular": true
   },
   {
-   "id": "a844a1626aaf",
+   "id": "4bc773d85e53",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10496,14 +11203,14 @@
    "start": "2027-01-12T10:00:00-08:00",
    "end": "2027-01-12T11:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5336",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "ff3abdcc792b",
+   "id": "a0d1e9ff2996",
    "title": "Pocatello Regional Airport Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -10514,8 +11221,8 @@
    "start": "2027-01-12T11:00:00-07:00",
    "end": "2027-01-12T12:00:00-07:00",
    "all_day": false,
-   "location": "Airport Conference Room - 1950 Airport Way Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Airport Conference Room, 1950 Airport Way",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=9535",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10557,7 +11264,7 @@
    "cancelled": false
   },
   {
-   "id": "6a15961d8031",
+   "id": "5da355341a64",
    "title": "BOCC: Business Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10568,8 +11275,8 @@
    "start": "2027-01-12T14:00:00-08:00",
    "end": "2027-01-12T15:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5284",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10593,7 +11300,7 @@
    "cancelled": false
   },
   {
-   "id": "575ad662a9d8",
+   "id": "022b7189b4ed",
    "title": "Washington County Rodent Board",
    "host": "Washington County",
    "source": "washington-county",
@@ -10602,10 +11309,10 @@
    "tz": "MT",
    "category": "council",
    "start": "2027-01-12T16:00:00-07:00",
-   "end": "2027-01-12T23:59:00-07:00",
+   "end": null,
    "all_day": false,
-   "location": "1118 E Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "1118 E Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1120",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10647,7 +11354,7 @@
    "cancelled": false
   },
   {
-   "id": "d82576877278",
+   "id": "e6316fd53aff",
    "title": "North Idaho Fair Advisory Board Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10658,11 +11365,30 @@
    "start": "2027-01-12T17:00:00-08:00",
    "end": "2027-01-12T18:00:00-08:00",
    "all_day": false,
-   "location": "Kootenai County Fairgrounds, Stampede Room 4056 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "Kootenai County Fairgrounds, Stampede Room",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5560",
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "840dacdb3e41",
+   "title": "City Council Meeting",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-12T17:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/312/City-Council",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "b7815c6f9dff",
@@ -10702,7 +11428,7 @@
    "cancelled": false
   },
   {
-   "id": "6dba7840b472",
+   "id": "6f572650b4ad",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Post Falls",
    "source": "post-falls",
@@ -10713,8 +11439,8 @@
    "start": "2027-01-12T17:30:00-08:00",
    "end": "2027-01-12T20:00:00-08:00",
    "all_day": false,
-   "location": "City Council Chambers - 408 N. Spokane Street Post Falls ID 83854",
-   "url": "https://www.postfalls.gov/Calendar.aspx?CID=24",
+   "location": "City Council Chambers, 408 N. Spokane Street",
+   "url": "https://www.postfalls.gov/Calendar.aspx?EID=795",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10738,7 +11464,7 @@
    "cancelled": false
   },
   {
-   "id": "0b876b84bdd5",
+   "id": "f7e221c1ef78",
    "title": "Kuna Planning & Zoning Commission Meeting",
    "host": "City of Kuna",
    "source": "kuna",
@@ -10749,8 +11475,8 @@
    "start": "2027-01-12T18:00:00-07:00",
    "end": "2027-01-12T20:00:00-07:00",
    "all_day": false,
-   "location": "Kuna City Hall Chambers - Kuna City Hall Chambers 751 W 4th Street Kuna ID 83634",
-   "url": "https://www.kunacity.id.gov/Calendar.aspx?CID=14",
+   "location": "Kuna City Hall Chambers",
+   "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4435",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10774,7 +11500,7 @@
    "cancelled": false
   },
   {
-   "id": "9d7f246ef1ff",
+   "id": "48a855b8bda0",
    "title": "Weed Advisory Board Meeting",
    "host": "Washington County",
    "source": "washington-county",
@@ -10785,8 +11511,8 @@
    "start": "2027-01-12T19:00:00-07:00",
    "end": "2027-01-12T21:00:00-07:00",
    "all_day": false,
-   "location": "1118 E. Court Street Weiser ID 83672",
-   "url": "https://www.co.washington.id.us/Calendar.aspx?CID=14",
+   "location": "1118 E. Court Street",
+   "url": "https://www.co.washington.id.us/Calendar.aspx?EID=1604",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10848,7 +11574,7 @@
    "regular": true
   },
   {
-   "id": "ef89574fb5fb",
+   "id": "47aa69a0b95b",
    "title": "BOCC: Request for Cancellation of Taxes",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10859,14 +11585,14 @@
    "start": "2027-01-13T11:00:00-08:00",
    "end": "2027-01-13T11:10:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5428",
    "agenda_url": "",
    "note": "",
    "cancelled": true
   },
   {
-   "id": "af6dc0232439",
+   "id": "921976be9f1b",
    "title": "BOE: Board of Equalization",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10877,8 +11603,8 @@
    "start": "2027-01-13T11:10:00-08:00",
    "end": "2027-01-13T11:40:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5460",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10921,7 +11647,26 @@
    "regular": true
   },
   {
-   "id": "7842f3a11fbf",
+   "id": "34edf9b8fe2f",
+   "title": "Dalton Water Board Meeting",
+   "host": "City of Dalton Gardens",
+   "source": "dalton-gardens",
+   "area": "Dalton Gardens",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "council",
+   "start": "2027-01-13T17:00:00-08:00",
+   "end": "2027-01-13T18:00:00-08:00",
+   "all_day": false,
+   "location": "Dalton Gardens City Hall, 6360 N 4th St",
+   "url": "https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "d0dad5192270",
    "title": "Airport Advisory Board Meeting",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -10932,14 +11677,14 @@
    "start": "2027-01-13T17:00:00-08:00",
    "end": "2027-01-13T18:00:00-08:00",
    "all_day": false,
-   "location": "CDA Airport - 10375 Sensor Ave Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "CDA Airport - 10375 Sensor Ave",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5484",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "883dce8c9a5a",
+   "id": "91f9dd373afc",
    "title": "Planning & Zoning Commission Clarification Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -10950,8 +11695,8 @@
    "start": "2027-01-13T17:30:00-07:00",
    "end": "2027-01-13T18:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8508",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -10994,7 +11739,7 @@
    "regular": true
   },
   {
-   "id": "ea1cbcb53597",
+   "id": "d3dcb178a537",
    "title": "Planning & Zoning Commission Meeting",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -11005,8 +11750,8 @@
    "start": "2027-01-13T18:00:00-07:00",
    "end": "2027-01-13T19:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8560",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11067,7 +11812,7 @@
    "cancelled": false
   },
   {
-   "id": "474eb7876494",
+   "id": "d48e6d53e6bd",
    "title": "City Council Work Session",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -11078,14 +11823,14 @@
    "start": "2027-01-14T09:00:00-07:00",
    "end": "2027-01-14T14:00:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=10437",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "c216552a73b3",
+   "id": "d5f0eb575334",
    "title": "BOCC: Community Development AM",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -11096,14 +11841,14 @@
    "start": "2027-01-14T10:00:00-08:00",
    "end": "2027-01-14T12:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5576",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "07f5320a6a35",
+   "id": "95e4ea554187",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -11114,8 +11859,8 @@
    "start": "2027-01-14T13:30:00-08:00",
    "end": "2027-01-14T15:30:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5509",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -11177,7 +11922,7 @@
    "regular": true
   },
   {
-   "id": "67aeb5b5c993",
+   "id": "ffe52bc0bbe4",
    "title": "Hearing Examiner",
    "host": "City of Pocatello",
    "source": "pocatello",
@@ -11188,14 +11933,33 @@
    "start": "2027-01-14T17:30:00-07:00",
    "end": "2027-01-14T18:30:00-07:00",
    "all_day": false,
-   "location": "City Hall > Council Chambers - 911 N 7th Ave Pocatello ID 83201",
-   "url": "https://www.pocatello.gov/Calendar.aspx?CID=14",
+   "location": "Council Chambers, 911 N 7th Ave",
+   "url": "https://www.pocatello.gov/Calendar.aspx?EID=8131",
    "agenda_url": "",
    "note": "",
    "cancelled": false
   },
   {
-   "id": "e4f7fc550c81",
+   "id": "706bd14b84c2",
+   "title": "Design Review Board",
+   "host": "City of Eagle",
+   "source": "eagle",
+   "area": "Eagle",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-14T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Eagle City Hall, 660 E. Civic Lane",
+   "url": "https://www.cityofeagle.org/347/Design-Review-Board",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "b581927e6782",
    "title": "BOCC: Community Development PM",
    "host": "Kootenai County",
    "source": "kootenai-county",
@@ -11206,8 +11970,8 @@
    "start": "2027-01-14T18:00:00-08:00",
    "end": "2027-01-14T20:00:00-08:00",
    "all_day": false,
-   "location": "451 N Government Way Coeur d'Alene ID 83814",
-   "url": "https://www.kcgov.us/Calendar.aspx?CID=22",
+   "location": "451 N Government Way",
+   "url": "https://www.kcgov.us/Calendar.aspx?EID=5600",
    "agenda_url": "",
    "note": "",
    "cancelled": false

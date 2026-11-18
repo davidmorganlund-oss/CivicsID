@@ -3,55 +3,55 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Lemhi County
 BEGIN:VEVENT
-UID:c4a9360c7737@civicsid
-DTSTAMP:20261118T054020Z
+UID:4f96975b2b91@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Lemhi County Commissioners Meeting (Lemhi County)
-LOCATION:200 Fulton St Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:200 Fulton St
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=384
 END:VEVENT
 BEGIN:VEVENT
-UID:e47ba050b1ba@civicsid
-DTSTAMP:20261118T054020Z
+UID:37d7a9dc3734@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261208T020000Z
 DTEND:20261208T040000Z
 SUMMARY:Fair Board Mtg (Lemhi County)
-LOCATION:Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=486
 END:VEVENT
 BEGIN:VEVENT
-UID:9559a18b9a89@civicsid
-DTSTAMP:20261118T054020Z
+UID:4ea3de66e289@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261214T143000Z
 DTEND:20261214T190000Z
 SUMMARY:Lemhi County Commissioners Meeting (Lemhi County)
-LOCATION:200 Fulton St Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:200 Fulton St
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=285
 END:VEVENT
 BEGIN:VEVENT
-UID:261baa3377cf@civicsid
-DTSTAMP:20261118T054020Z
+UID:2ad59786ebb8@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Lemhi County Commissioners Meeting (Lemhi County)
-LOCATION:200 Fulton St Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:200 Fulton St
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=385
 END:VEVENT
 BEGIN:VEVENT
-UID:4a69249ca9fb@civicsid
-DTSTAMP:20261118T054020Z
+UID:b4d91b525586@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270105T020000Z
 DTEND:20270105T040000Z
 SUMMARY:Fair Board Mtg (Lemhi County)
-LOCATION:Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=487
 END:VEVENT
 BEGIN:VEVENT
-UID:4b7e6ad8040b@civicsid
-DTSTAMP:20261118T054020Z
+UID:a2841e686796@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20270111T143000Z
 DTEND:20270111T190000Z
 SUMMARY:Lemhi County Commissioners Meeting (Lemhi County)
-LOCATION:200 Fulton St Salmon ID 83467
-URL:https://www.lemhicountyidaho.org/Calendar.aspx?CID=14
+LOCATION:200 Fulton St
+URL:https://www.lemhicountyidaho.org/Calendar.aspx?EID=286
 END:VEVENT
 END:VCALENDAR

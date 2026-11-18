@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Elmore County
 BEGIN:VEVENT
 UID:95a620192c74@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -12,17 +12,17 @@ LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
 URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:e260765e5479@civicsid
-DTSTAMP:20261118T054020Z
+UID:b3930e1d6953@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261125T000000Z
 DTEND:20261125T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
-LOCATION:City Hall - 160 South 3rd East Mountain Home ID 83647
-URL:https://www.mountain-home.us/Calendar.aspx?CID=14
+LOCATION:City Hall\, 160 South 3rd East
+URL:https://www.mountain-home.us/Calendar.aspx?EID=717
 END:VEVENT
 BEGIN:VEVENT
 UID:561227262680@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -30,17 +30,17 @@ LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
 URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:1eea482304ec@civicsid
-DTSTAMP:20261118T054020Z
+UID:bdae5ac5b404@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261209T000000Z
 DTEND:20261209T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
-LOCATION:City Hall - 160 South 3rd East Mountain Home ID 83647
-URL:https://www.mountain-home.us/Calendar.aspx?CID=14
+LOCATION:City Hall\, 160 South 3rd East
+URL:https://www.mountain-home.us/Calendar.aspx?EID=718
 END:VEVENT
 BEGIN:VEVENT
 UID:4ad874547ac7@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261211
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -49,7 +49,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:9d2e1b7067ee@civicsid
-DTSTAMP:20261118T054020Z
+DTSTAMP:20261118T065204Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -57,12 +57,12 @@ LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
 URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:ef3fcb1f4781@civicsid
-DTSTAMP:20261118T054020Z
+UID:b9c96a727fe2@civicsid
+DTSTAMP:20261118T065204Z
 DTSTART:20261230T000000Z
 DTEND:20261230T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
-LOCATION:City Hall - 160 South 3rd East Mountain Home ID 83647
-URL:https://www.mountain-home.us/Calendar.aspx?CID=14
+LOCATION:City Hall\, 160 South 3rd East
+URL:https://www.mountain-home.us/Calendar.aspx?EID=719
 END:VEVENT
 END:VCALENDAR
