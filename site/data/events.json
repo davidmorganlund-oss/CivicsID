@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T20:15:26-07:00",
+ "generated": "2026-11-17T20:20:14-07:00",
  "events": [
   {
    "id": "68c8e3f0ba73",
@@ -2735,24 +2735,6 @@
    "cancelled": true
   },
   {
-   "id": "92e98acc98e1",
-   "title": "Closed for Thanksgiving",
-   "host": "Bonner County",
-   "source": "bonner-county",
-   "area": "countywide",
-   "county": "Bonner",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-26T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.bonnercountyid.gov/events/101517/",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "e617dba8eb17",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
@@ -2787,24 +2769,6 @@
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
    "cancelled": true
-  },
-  {
-   "id": "9850bbfab433",
-   "title": "Closed for Thanksgiving",
-   "host": "Bonner County",
-   "source": "bonner-county",
-   "area": "countywide",
-   "county": "Bonner",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-11-27T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.bonnercountyid.gov/events/101518/",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
   },
   {
    "id": "b16de030116d",
@@ -8031,24 +7995,6 @@
    "cancelled": false
   },
   {
-   "id": "a89a02874d75",
-   "title": "Closed for Christmas Eve",
-   "host": "Bonner County",
-   "source": "bonner-county",
-   "area": "countywide",
-   "county": "Bonner",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-12-24T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.bonnercountyid.gov/events/101519/",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
    "id": "3522c0323ce6",
    "title": "Planning & Zoning Commission",
    "host": "Kootenai County",
@@ -8082,24 +8028,6 @@
    "url": "https://moscowid.portal.civicclerk.com/event/3997/overview",
    "agenda_url": "",
    "note": "Fourth Thursday of the month at 4:30 PM",
-   "cancelled": false
-  },
-  {
-   "id": "de24fb216f2e",
-   "title": "Closed for Christmas Day",
-   "host": "Bonner County",
-   "source": "bonner-county",
-   "area": "countywide",
-   "county": "Bonner",
-   "tz": "PT",
-   "category": "council",
-   "start": "2026-12-25T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.bonnercountyid.gov/events/101520/",
-   "agenda_url": "",
-   "note": "",
    "cancelled": false
   },
   {
@@ -8913,24 +8841,6 @@
    "all_day": false,
    "location": "451 N Government Way Coeur d'Alene ID 83814",
    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=22",
-   "agenda_url": "",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "6778ee0d58a0",
-   "title": "Closed for New Years Day",
-   "host": "Bonner County",
-   "source": "bonner-county",
-   "area": "countywide",
-   "county": "Bonner",
-   "tz": "PT",
-   "category": "council",
-   "start": "2027-01-01T00:00:00-08:00",
-   "end": null,
-   "all_day": true,
-   "location": "",
-   "url": "https://www.bonnercountyid.gov/events/101521/",
    "agenda_url": "",
    "note": "",
    "cancelled": false
