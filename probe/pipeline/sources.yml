@@ -1358,3 +1358,29 @@ sources:
     default_category: council
     homepage: https://www.ci.jerome.id.us/Calendar.aspx?CID=14
 
+
+  # Sandpoint's site turns automated readers away (403), so these come from
+  # its own pages, read by a person: the P&Z page states its regular schedule;
+  # the council page lists its next dates but no standing rule.
+  - id: sandpoint
+    name: City of Sandpoint
+    type: schedule
+    county: Bonner
+    area: Sandpoint
+    timezone: America/Los_Angeles
+    homepage: https://www.sandpointidaho.gov/meetings
+    meetings:
+      - title: City Council Meeting
+        dates: [2026-11-18, 2026-12-02, 2026-12-16]
+        time: "17:30"
+        location: Council Chambers, 1123 Lake Street
+        category: council
+        url: https://www.sandpointidaho.gov/city-council
+      # "meets on the first and third Tuesday of each month at 5:30 p.m. in
+      # Council Chambers, 1123 Lake Street"
+      - title: Planning and Zoning Commission Meeting
+        when: 1st, 3rd Tuesday
+        time: "17:30"
+        location: Council Chambers, 1123 Lake Street
+        category: council
+        url: https://www.sandpointidaho.gov/planning-and-zoning-commission
