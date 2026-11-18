@@ -24,6 +24,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # the latest main, not the commit that triggered a queued run
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -47,7 +49,8 @@ jobs:
           git config user.email "civicsid-bot@users.noreply.github.com"
           git add site/data
           git diff --cached --quiet || git commit -m "Refresh calendar data"
-          git pull --rebase origin main || true
+          # If another run saved data meanwhile, keep this run's fresher data.
+          git pull --rebase -X theirs origin main
           git push
       - uses: actions/upload-pages-artifact@v3
         with:
