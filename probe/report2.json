@@ -1,59 +1,22 @@
 {
- "blackfoot-cats": [
-  [
-   "4",
-   "Blackfoot Urban Renewal Agency (BURA)"
-  ],
-  [
-   "3",
-   "City Council"
-  ],
-  [
-   "12",
-   "Community Events"
-  ],
-  [
-   "8",
-   "Industrial Development Corporation"
-  ],
-  [
-   "5",
-   "Mayor's Community Resource Council"
-  ],
-  [
-   "2",
-   "Planning & Zoning Commission"
-  ],
-  [
-   "10",
-   "Public Meetings - General"
-  ],
-  [
-   "6",
-   "Transportation Commission"
-  ]
- ],
- "bf-4": [],
- "bf-3": [],
- "bf-12": [],
- "bf-8": [],
- "bf-5": [],
- "bf-2": [
-  [
-   "2026-11-24T00:00",
-   "Planning and Zoning Public Hearing Agenda"
-  ]
- ],
- "bf-10": [],
- "bf-6": [],
- "https://www.lewiscountyid.us/robots.txt": {
-  "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.lewiscountyid.us\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERI"
+ "range": {
+  "status": 200,
+  "url": "https://www.ci.jerome.id.us/m/calendar?startDate=11%2F18%2F2026&endDate=01%2F17%2F2027&cat=14",
+  "len": 126089,
+  "titles": 0,
+  "grid": false,
+  "dates": [],
+  "parsed": [],
+  "snippet": "\n\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\">\r\n<!-- Google Tag Manager for GA4 -->\r\n\t\t\t\t<script>(function(w,d,s,l,i){w.GAMeasurementID='G-BMH3K9ZNWC';w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\t\t\t\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\t\t\t\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t\t\t\t})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>\r\n\t\t\t\t<!-- End Google Tag Manager for GA4 -->\r\n\t\t\t\t<script type='text/javascript'>\r\n\t\t\t\t\tvar enableTelemetry = 'false'\r\n\t\t\t\t\tvar aiConfig = {\r\n\t\t\t\t\tinstrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'\t\t\t\t\t\t\r\n\t\t\t\t\t}\r\n\t\t\t\t\tvar appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('sta"
  },
- "http://www.lewiscountyid.us/robots.txt": {
-  "error": "ConnectTimeout(MaxRetryError(\"HTTPConnectionPool(host='www.lewiscountyid.us', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lewiscountyi"
- },
- "https://lewiscountyid.us/robots.txt": {
-  "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'lewiscountyid.us\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_F"
- },
- "lewis-check": "RobotsUnavailable(\"couldn't read robots.txt at www.lewiscountyid.us (ConnectTimeout), so nothing was fetched\")"
+ "month12": {
+  "status": 200,
+  "url": "https://www.ci.jerome.id.us/m/calendar?startDate=2026-12-01&endDate=2026-12-31&cat=14",
+  "len": 118748,
+  "titles": 0,
+  "grid": false,
+  "dates": [],
+  "parsed": [],
+  "snippet": "\n\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\">\r\n<!-- Google Tag Manager for GA4 -->\r\n\t\t\t\t<script>(function(w,d,s,l,i){w.GAMeasurementID='G-BMH3K9ZNWC';w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\t\t\t\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\t\t\t\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t\t\t\t})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>\r\n\t\t\t\t<!-- End Google Tag Manager for GA4 -->\r\n\t\t\t\t<script type='text/javascript'>\r\n\t\t\t\t\tvar enableTelemetry = 'false'\r\n\t\t\t\t\tvar aiConfig = {\r\n\t\t\t\t\tinstrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'\t\t\t\t\t\t\r\n\t\t\t\t\t}\r\n\t\t\t\t\tvar appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('sta"
+ }
 }
