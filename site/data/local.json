@@ -251,7 +251,13 @@
   "Dalton Gardens": {
    "county": "Kootenai",
    "site": "https://daltongardens.com/",
-   "meetings": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6"
+   "meetings": "https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6",
+   "mayor": {
+    "name": "Curt Jernigan",
+    "source": "https://daltongardens.com/mayor",
+    "checked": "2026-11-17"
+   },
+   "council": "https://daltongardens.com/citycouncil"
   },
   "Eagle": {
    "county": "Ada",
@@ -261,7 +267,8 @@
     "source": "https://www.cityofeagle.org/2075/Mayors-Office",
     "checked": "2026-11-17"
    },
-   "council": "https://www.cityofeagle.org/312/City-Council"
+   "council": "https://www.cityofeagle.org/312/City-Council",
+   "meetings": "https://www.cityofeagle.org/305/City-Agendas-Videos"
   },
   "Emmett": {
    "county": "Gem",
@@ -288,7 +295,13 @@
   "Hailey": {
    "county": "Blaine",
    "site": "https://haileycityhall.org/",
-   "meetings": "https://haileycityhall.org/public-meetings/"
+   "meetings": "https://haileycityhall.org/public-meetings/",
+   "mayor": {
+    "name": "Martha Burke",
+    "source": "https://haileycityhall.org/city-administration/",
+    "checked": "2026-11-17"
+   },
+   "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
   },
   "Hayden": {
    "county": "Kootenai",
@@ -325,17 +338,35 @@
   "Kuna": {
    "county": "Ada",
    "site": "https://www.kunacity.id.gov/",
-   "meetings": "https://www.kunacity.id.gov/calendar.aspx"
+   "meetings": "https://www.kunacity.id.gov/calendar.aspx",
+   "mayor": {
+    "name": "Joe Stear",
+    "source": "https://kunacity.id.gov/620/Office-of-the-Mayor",
+    "checked": "2026-11-17"
+   }
   },
   "Lewiston": {
    "county": "Nez Perce",
-   "site": "",
-   "meetings": "https://lewistonid.portal.civicclerk.com/"
+   "site": "https://www.cityoflewiston.org/",
+   "meetings": "https://lewistonid.portal.civicclerk.com/",
+   "mayor": {
+    "name": "Daniel Johnson",
+    "source": "https://www.cityoflewiston.org/367/Mayor-City-Council",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityoflewiston.org/367/Mayor-City-Council"
   },
   "McCall": {
    "county": "Valley",
    "site": "https://www.mccall.id.us/",
-   "meetings": "https://www.mccall.id.us/calendar.aspx"
+   "meetings": "https://www.mccall.id.us/calendar.aspx",
+   "mayor": {
+    "name": "Colby Nielsen",
+    "source": "https://www.mccall.id.us/directory.aspx?EID=12",
+    "checked": "2026-11-17",
+    "note": "McCall's mayor is a voting member of the city council with no more authority than other members, and presides over council meetings."
+   },
+   "council": "https://www.mccall.id.us/directory.aspx?did=7"
   },
   "Meridian": {
    "county": "Ada",
@@ -349,13 +380,24 @@
   },
   "Moscow": {
    "county": "Latah",
-   "site": "",
-   "meetings": "https://moscowid.portal.civicclerk.com/"
+   "site": "https://www.ci.moscow.id.us/",
+   "meetings": "https://moscowid.portal.civicclerk.com/",
+   "mayor": {
+    "name": "Hailey Lewis",
+    "source": "https://www.ci.moscow.id.us/337/Mayor-Lewis",
+    "checked": "2026-11-17"
+   }
   },
   "Mountain Home": {
    "county": "Elmore",
    "site": "https://www.mountain-home.us/",
-   "meetings": "https://www.mountain-home.us/calendar.aspx?CID=14"
+   "meetings": "https://www.mountain-home.us/calendar.aspx?CID=14",
+   "mayor": {
+    "name": "Rich Sykes",
+    "source": "https://www.mountain-home.us/163/Mayors-Office",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.mountain-home.us/166/City-Council"
   },
   "Nampa": {
    "county": "Canyon",
@@ -401,13 +443,24 @@
   },
   "Rexburg": {
    "county": "Madison",
-   "site": "https://www.rexburg.org/",
-   "meetings": "https://www.rexburg.org/page/city-council-agendas"
+   "site": "https://www.rexburgid.gov/",
+   "meetings": "https://www.rexburg.org/page/city-council-agendas",
+   "mayor": {
+    "name": "Jerry Merrill",
+    "source": "https://www.rexburgid.gov/page/office-of-the-mayor/",
+    "checked": "2026-11-17"
+   }
   },
   "Star": {
    "county": "Ada",
    "site": "https://www.staridaho.org/",
-   "meetings": "https://www.staridaho.org/calendar.aspx"
+   "meetings": "https://www.staridaho.org/calendar.aspx",
+   "mayor": {
+    "name": "Trevor A. Chadwick",
+    "source": "https://www.staridaho.org/directory.aspx?EID=43",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.staridaho.org/1207/City-Council"
   },
   "Twin Falls": {
    "county": "Twin Falls",
@@ -420,6 +473,50 @@
     "note": "Twin Falls uses a council-manager government; the council chooses the mayor from among its members."
    },
    "council": "https://tfid.org/133/City-Council"
+  },
+  "Blackfoot": {
+   "county": "Bingham",
+   "site": "https://www.cityofblackfoot.org/",
+   "meetings": "https://www.cityofblackfoot.org/AgendaCenter",
+   "mayor": {
+    "name": "Scott Stufflebeam",
+    "source": "https://www.cityofblackfoot.org/Directory.aspx?did=16",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
+  },
+  "Burley": {
+   "county": "Cassia",
+   "site": "https://www.burleyidaho.org/",
+   "meetings": "https://www.burleyidaho.org/AgendaCenter",
+   "mayor": {
+    "name": "Steve Ormond",
+    "source": "https://www.burleyidaho.org/186/Mayors-Office",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.burleyidaho.org/175/City-Council"
+  },
+  "Jerome": {
+   "county": "Jerome",
+   "site": "https://www.ci.jerome.id.us/",
+   "meetings": "https://www.ci.jerome.id.us/agendacenter",
+   "mayor": {
+    "name": "Christopher Barber",
+    "source": "https://www.ci.jerome.id.us/Directory.aspx?DID=25",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.ci.jerome.id.us/Directory.aspx?DID=25"
+  },
+  "Sandpoint": {
+   "county": "Bonner",
+   "site": "https://www.sandpointidaho.gov/",
+   "meetings": "https://www.sandpointidaho.gov/meetings",
+   "mayor": {
+    "name": "Jeremy Grimm",
+    "source": "https://www.sandpointidaho.gov/our-government/page/mayor-jeremy-grimm",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.sandpointidaho.gov/city-council"
   }
  }
 }

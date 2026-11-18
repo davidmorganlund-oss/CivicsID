@@ -85,8 +85,67 @@ def make_event(src, *, title, start, end=None, all_day=False, location="", url="
     }
 
 
+# ---------- robots.txt ----------
+# CivicsID only reads what a site allows automated readers to read. Every
+# request checks the host's robots.txt first (cached per run); a source whose
+# address is disallowed fails with a clear message instead of being fetched.
+# Paths are compared without regard to case, because these government sites
+# run on servers that ignore case (a rule for /common/modules/icalendar/ is
+# meant to cover /common/modules/iCalendar/ too).
+
+ROBOTS_AGENT = "CivicsID"
+_robots_cache = {}
+
+
+class RobotsBlocked(Exception):
+    pass
+
+
+class RobotsUnavailable(Exception):
+    """robots.txt couldn't be read (timeout, server error): treated like any
+    other outage, so last night's listings stay up, but nothing is fetched."""
+
+
+def robots_rules(host_url):
+    """The parsed robots.txt for a site, or None when every path is allowed."""
+    from urllib.parse import urlsplit
+    from urllib.robotparser import RobotFileParser
+    import requests
+    parts = urlsplit(host_url)
+    key = f"{parts.scheme}://{parts.netloc}".lower()
+    if key in _robots_cache:
+        return _robots_cache[key]
+    rules = None
+    try:
+        resp = requests.get(key + "/robots.txt", headers={"User-Agent": UA}, timeout=20)
+        if resp.status_code >= 500:
+            rules = f"server error {resp.status_code}"  # RFC 9309: stay out for now
+        elif resp.ok and "html" not in resp.headers.get("Content-Type", "").lower():
+            rp = RobotFileParser()
+            rp.parse(resp.text.lower().splitlines())
+            rules = rp
+    except requests.RequestException as exc:
+        rules = type(exc).__name__
+    _robots_cache[key] = rules
+    return rules
+
+
+def check_robots(url):
+    from urllib.parse import urlsplit
+    rules = robots_rules(url)
+    if rules is None:
+        return
+    parts = urlsplit(url)
+    path = (parts.path or "/") + ("?" + parts.query if parts.query else "")
+    if isinstance(rules, str):
+        raise RobotsUnavailable(f"couldn't read robots.txt at {parts.netloc} ({rules}), so nothing was fetched")
+    if not rules.can_fetch(ROBOTS_AGENT.lower(), path.lower()):
+        raise RobotsBlocked(f"robots.txt at {parts.netloc} asks automated readers not to read {parts.path}")
+
+
 def get(url, params=None):
     import requests
+    check_robots(url)
     resp = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=TIMEOUT)
     resp.raise_for_status()
     return resp
@@ -554,19 +613,99 @@ def fetch_govaccess_rss(src, start_day, end_day, tz):
 CLOSURE_TITLE = re.compile(r"holiday|clos(ed|ure)|thanksgiving|christmas|new year|day observed|\bday$", re.I)
 
 
+CIVICPLUS_TITLE = re.compile(r'id="eventTitle_(\d+)"')
+CIVICPLUS_CLOCK = re.compile(r"(\d{1,2}):(\d{2})\s*([AP]M)", re.I)
+CIVICPLUS_DAY = re.compile(r"([A-Z][a-z]+ \d{1,2}, \d{4})")
+
+
+def _clock(h, mi, ap):
+    return time(int(h) % 12 + (12 if ap.upper() == "PM" else 0), int(mi))
+
+
+def normalize_civicplus(src, page_html, tz, site, cat):
+    """Events from a CivicPlus calendar page (Calendar.aspx?CID=...). Sites use
+    two layouts: a list (one <li> per event) and a month grid with a pop-up per
+    event. Both carry, per event, a title tagged eventTitle_<id> and a visible
+    date line ("December 1, 2026, 5:30 PM - 8:00 PM"), so those are read; the
+    schema.org markup some sites add supplies the place."""
+    import html as htmllib
+
+    def text(fragment):
+        return " ".join(htmllib.unescape(re.sub(r"<[^>]+>", " ", fragment)).replace("\u2009", " ").split())
+
+    marks = [(m.start(), m.group(1)) for m in CIVICPLUS_TITLE.finditer(page_html)]
+    blocks = {}
+    for i, (pos, eid) in enumerate(marks):
+        nxt = next((p for p, e in marks[i + 1:] if e != eid), len(page_html))
+        if eid not in blocks:
+            blocks[eid] = page_html[pos:nxt]
+        elif nxt > pos:
+            blocks[eid] += page_html[pos:nxt]
+    events = []
+    for eid, block in blocks.items():
+        head = re.search(r'id="eventTitle_\d+"[^>]*>(.*?)</h3>', block, re.S)
+        title = text(head.group(1)) if head else ""
+        if not title:
+            name = re.search(r'itemprop="name">([^<]*)<', block)
+            title = text(name.group(1)) if name else ""
+        line = re.search(r'<div class="date">(.*?)</div>', block, re.S)
+        line = text(line.group(1)) if line else ""
+        day = CIVICPLUS_DAY.search(line)
+        if not title or not day:
+            continue
+        try:
+            d = datetime.strptime(day.group(1), "%B %d, %Y").date()
+        except ValueError:
+            continue
+        clocks = CIVICPLUS_CLOCK.findall(line)
+        start = datetime.combine(d, _clock(*clocks[0]) if clocks else time(0, 0), tz)
+        end = None
+        if len(clocks) >= 2 and len(CIVICPLUS_DAY.findall(line)) == 1:
+            end = datetime.combine(d, _clock(*clocks[1]), tz)
+            if end <= start:
+                end = None
+        place = re.search(r'itemprop="location".*?itemprop="name">(.*?)</span>', block, re.S)
+        location = text(place.group(1)) if place else ""
+        if location.lower() in ("event location", "location"):
+            location = ""
+        if not location:
+            shown = re.search(r'class="eventLocation[^"]*">(.*?)</div>\s*</div>', block, re.S)
+            location = text(shown.group(1)).lstrip("@ ").strip() if shown else ""
+        street = re.search(r'itemprop="streetAddress">([^<]*)<', block)
+        street = text(street.group(1)) if street else ""
+        if street and not re.match(r"p\.?\s*o\.?\s*box", street, re.I) and street not in location:
+            location = f"{location}, {street}" if location else street
+        events.append(make_event(
+            src, title=title, start=start, end=end, all_day=not clocks, location=location,
+            url=f"{site}/Calendar.aspx?EID={eid}", uid=f"civicplus-{eid}",
+        ))
+    return events
+
+
 def fetch_civicplus(src, start_day, end_day, tz):
+    """CivicPlus calendar pages. (Since October 2026 CivicPlus sites ask
+    automated readers to stay out of their iCalendar feed, so the public
+    calendar page itself is read instead.)"""
     site = src["site"].rstrip("/")
     seen, events = set(), []
     for cat in src["categories"]:
-        ics = get(f"{site}/common/modules/iCalendar/iCalendar.aspx", {"catID": cat, "feed": "calendar"}).content
-        for e in normalize_ics(src, ics, start_day, end_day, tz):
+        pages = [get(f"{site}/Calendar.aspx", {"CID": cat, "startDate": start_day.strftime("%m/%d/%Y"),
+                                                "endDate": end_day.strftime("%m/%d/%Y")}).text]
+        if "showDetailsBox" in pages[0]:
+            # Month-grid sites show one month per page whatever range is asked
+            # for, so read each month in the window.
+            month = date(start_day.year, start_day.month, 1)
+            while True:
+                month = (month + timedelta(days=32)).replace(day=1)
+                if month > end_day:
+                    break
+                pages.append(get(f"{site}/Calendar.aspx", {"CID": cat, "month": month.month,
+                                                            "year": month.year}).text)
+        found = [e for page in pages for e in normalize_civicplus(src, page, tz, site, cat)]
+        for e in found:
             if e["id"] in seen or CLOSURE_TITLE.search(e["title"]):
                 continue
             seen.add(e["id"])
-            # CivicPlus feeds put their own feed address in URL, often as a
-            # relative path. Send people to that board's calendar page instead.
-            if not e["url"] or e["url"] == src.get("homepage", "") or "iCalendar.aspx" in e["url"]:
-                e["url"] = f"{site}/Calendar.aspx?CID={cat}"
             events.append(e)
     return events
 
@@ -718,6 +857,9 @@ def fetch_schedule(src, start_day, end_day, tz):
             if mtg.get("until"):  # the host has only published its schedule this far
                 last = mtg["until"] if isinstance(mtg["until"], date) else date.fromisoformat(str(mtg["until"]))
                 days = [d for d in days if d <= last]
+            if mtg.get("from"):  # a regular schedule that picks up after a list of posted dates
+                first = mtg["from"] if isinstance(mtg["from"], date) else date.fromisoformat(str(mtg["from"]))
+                days = [d for d in days if d >= first]
         if mtg.get("holiday_moves_to_next_day"):  # "if a holiday falls on a meeting day, it moves to Tuesday"
             days = [d + timedelta(days=1) if d in idaho_holidays(d.year) else d for d in days]
         for day in days:
@@ -1390,6 +1532,7 @@ def normalize_escribe(src, rows, tz):
 
 def fetch_escribe(src, start_day, end_day, tz):
     import requests
+    check_robots(src["site"].rstrip("/") + "/MeetingsCalendarView.aspx/GetCalendarMeetings")
     resp = requests.post(src["site"].rstrip("/") + "/MeetingsCalendarView.aspx/GetCalendarMeetings",
                          json={"calendarStartDate": start_day.isoformat(), "calendarEndDate": end_day.isoformat()},
                          headers={"User-Agent": UA}, timeout=TIMEOUT)
@@ -1587,6 +1730,19 @@ def ics_fold(line: str) -> str:
 # an agenda newly posted, or a cancellation. data/seen.json remembers what was
 # already announced, so feed readers and email services only see real news.
 
+def carry_over_seen(events, old_events, seen):
+    """When a connector changes how it identifies meetings, the same meeting
+    gets a new id. Match it to last night's listing (same source, start and
+    name) and keep its history, so the feeds don't announce it as new."""
+    def fingerprint(e):
+        return (e["source"], e["start"], " ".join(e["title"].lower().split()))
+    old_ids = {fingerprint(e): e["id"] for e in old_events}
+    for e in events:
+        old = old_ids.get(fingerprint(e))
+        if e["id"] not in seen and old and old in seen:
+            seen[e["id"]] = dict(seen[old])
+
+
 def update_seen(events, seen, today, baseline=False):
     """baseline=True (first run): record what's already on the calendar as old
     news, dated 0000-00-00, so it never shows up in the feeds."""
@@ -1726,8 +1882,11 @@ def main() -> int:
             status["state"] = "ok" if found else "quiet"
         except Exception as exc:  # one bad source must not sink the rest
             # Keep showing what we had, so a one-night outage doesn't blank a city.
-            found = [e for e in old_events if e["source"] == src["id"]
-                     and datetime.fromisoformat(e["start"]).date() >= start_day]
+            # Not when the site's robots.txt now asks us to stay out, though:
+            # then we stop showing what we can no longer check.
+            found = [] if isinstance(exc, RobotsBlocked) else [
+                e for e in old_events if e["source"] == src["id"]
+                and datetime.fromisoformat(e["start"]).date() >= start_day]
             status.update(ok=False, count=len(found), state="failing",
                           failing_since=previous.get(src["id"], {}).get("failing_since") or now.date().isoformat(),
                           last_success=previous.get(src["id"], {}).get("last_success", ""),
@@ -1793,6 +1952,7 @@ def main() -> int:
     except Exception:
         seen = {}
     first_run = not seen
+    carry_over_seen(events, old_events, seen)
     today_s = now.date().isoformat()
     update_seen(events, seen, today_s, baseline=first_run)
     cutoff = (now.date() - timedelta(days=30)).isoformat()

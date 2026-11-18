@@ -313,9 +313,21 @@ sources:
     area: Dalton Gardens
     timezone: America/Los_Angeles
     homepage: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+    # Posted dates come from the city's calendar page; after those run out, the
+    # regular schedules the city publishes on each board's own page take over.
     meetings:
       - title: Regular City Council Meeting
         dates: [2026-11-18, 2026-12-30]
+        time: "18:00"
+        end: "19:30"
+        category: council
+        url: https://daltongardens.com/citycouncil
+      # "typically held the last Wednesday of each month at 6pm, meetings in
+      # November and December may differ due to the holidays"
+      - title: Regular City Council Meeting
+        when: last Wednesday
+        from: 2027-01-01
+        skip_months: [11, 12]
         time: "18:00"
         end: "19:30"
         category: council
@@ -325,19 +337,49 @@ sources:
         time: "18:00"
         end: "19:00"
         category: council
-        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+        url: https://daltongardens.com/planning
+      # "typically held the first Thursday of each month at 6pm. January and
+      # July meetings may differ due to the holidays"
+      - title: Planning and Zoning Meeting
+        when: 1st Thursday
+        from: 2027-01-01
+        skip_months: [1, 7]
+        time: "18:00"
+        end: "19:00"
+        category: council
+        url: https://daltongardens.com/planning
       - title: Dalton Water Board Meeting
         dates: [2026-11-11, 2026-12-09]
         time: "17:00"
         end: "18:00"
         category: council
-        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+        url: https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704
+      # Dalton Water Association: "Regular board meetings are held at 5pm on the
+      # 2nd Wednesday of each month in the Council Room at Dalton Gardens' City Hall"
+      - title: Dalton Water Board Meeting
+        when: 2nd Wednesday
+        from: 2027-01-01
+        time: "17:00"
+        end: "18:00"
+        location: Dalton Gardens City Hall, 6360 N 4th St
+        category: council
+        url: https://daltongardens.com/index.asp?SEC=97ED42C6-7FEC-4515-B380-2841CCB2B704
       - title: Dalton Irrigation Board Meeting
         dates: [2026-12-14]
         time: "18:00"
         end: "19:00"
         category: council
-        url: https://daltongardens.com/index.asp?SEC=AC5941C2-9903-404E-8FF3-B027D3CC1EB6
+        url: https://daltongardens.com/irrigation
+      # Dalton Gardens Irrigation District: "Meetings are held at 6:00 PM on the
+      # second Monday of each month at the DGID office" (inside City Hall)
+      - title: Dalton Irrigation Board Meeting
+        when: 2nd Monday
+        from: 2027-01-01
+        time: "18:00"
+        end: "19:00"
+        location: Dalton Gardens Irrigation District office, Dalton Gardens City Hall
+        category: council
+        url: https://daltongardens.com/irrigation
 
   - id: post-falls
     name: City of Post Falls
@@ -1156,6 +1198,14 @@ sources:
     area: Garden City
     homepage: https://gardencityidaho.org/agendas-minutes/
     meetings:
+      # Elected Officials page: "Regular council meetings are held on the 2nd and
+      # 4th Mondays of each month at 6:00 p.m." at City Hall, 6015 Glenwood Street.
+      - title: City Council Meeting
+        when: 2nd, 4th Monday
+        time: "18:00"
+        location: Garden City Hall, 6015 N. Glenwood Street
+        category: council
+        url: https://gardencityidaho.org/elected-officials
       - title: Planning & Zoning Commission
         when: 3rd Wednesday
         time: "18:30"
@@ -1192,3 +1242,119 @@ sources:
         category: council
         url: https://www.cityofemmett.org/meeting
         note: Generally held on these dates unless a holiday interferes; check the city's schedule.
+
+  # ---------- Eagle, Blackfoot, Burley, Jerome, Sandpoint (November 2026) ----------
+
+  # Eagle posts agendas through Granicus, whose robots.txt asks all automated
+  # readers to stay out, so these are the regular schedules each body's page on
+  # cityofeagle.org publishes. All meet at City Hall, 660 E. Civic Lane.
+  - id: eagle
+    name: City of Eagle
+    type: schedule
+    county: Ada
+    area: Eagle
+    homepage: https://www.cityofeagle.org/305/City-Agendas-Videos
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 3rd, 4th Tuesday
+        time: "17:30"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/312/City-Council
+      - title: Planning & Zoning Commission
+        when: 1st, 3rd Monday
+        time: "18:00"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/355/Planning-Zoning-Commission
+      - title: Design Review Board
+        when: 2nd, 4th Thursday
+        time: "18:00"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/347/Design-Review-Board
+      - title: Parks, Pathways & Recreation Commission
+        when: 3rd Thursday
+        time: "17:30"
+        location: Eagle City Hall, 660 E. Civic Lane
+        category: council
+        url: https://www.cityofeagle.org/353/Parks-Pathways-Recreation-Commission
+      - title: Eagle Public Library Board
+        when: 3rd Wednesday
+        time: "18:00"
+        category: library
+        url: https://www.cityofeagle.org/351/Library-Board
+
+  # Blackfoot's CivicPlus calendar has no meetings posted, so its Agenda
+  # Center is read instead: each meeting shows up once its agenda posts.
+  - id: blackfoot
+    name: City of Blackfoot
+    type: agendacenter
+    site: https://www.cityofblackfoot.org
+    category: 3               # City Council
+    default_category: council
+    county: Bingham
+    area: Blackfoot
+    homepage: https://www.cityofblackfoot.org/AgendaCenter
+
+  - id: blackfoot-pz
+    name: City of Blackfoot
+    type: agendacenter
+    site: https://www.cityofblackfoot.org
+    category: 2               # Planning & Zoning Commission
+    default_category: council
+    county: Bingham
+    area: Blackfoot
+    homepage: https://www.cityofblackfoot.org/AgendaCenter
+
+  # Burley posts council and P&Z agendas in its Agenda Center a few days ahead;
+  # until one posts, the council's published schedule stands in.
+  - id: burley
+    name: City of Burley
+    type: agendacenter
+    site: https://www.burleyidaho.org
+    category: 2
+    time: "7:00 PM"
+    default_category: council
+    default_location: Burley City Hall, 1401 Overland Avenue
+    county: Cassia
+    area: Burley
+    homepage: https://www.burleyidaho.org/AgendaCenter
+
+  - id: burley-pz
+    name: City of Burley
+    type: agendacenter
+    site: https://www.burleyidaho.org
+    category: 5
+    default_category: council
+    default_location: Burley City Hall, 1401 Overland Avenue
+    county: Cassia
+    area: Burley
+    homepage: https://www.burleyidaho.org/AgendaCenter
+
+  - id: burley-schedule
+    name: City of Burley
+    type: schedule
+    county: Cassia
+    area: Burley
+    yield_to: [burley]
+    homepage: https://www.burleyidaho.org/175/City-Council
+    meetings:
+      # "7 p.m. Meets 1st and 3rd Tuesday of each month, 1401 Overland Avenue"
+      - title: City Council Meeting
+        when: 1st, 3rd Tuesday
+        time: "19:00"
+        location: Burley City Hall, 1401 Overland Avenue
+        category: council
+        url: https://www.burleyidaho.org/175/City-Council
+
+  - id: jerome
+    name: City of Jerome
+    type: civicplus
+    site: https://www.ci.jerome.id.us
+    categories: [14]          # "Main Calendar": council, P&Z, urban renewal
+    county: Jerome
+    area: Jerome
+    default_category: council
+    homepage: https://www.ci.jerome.id.us/Calendar.aspx?CID=14
+

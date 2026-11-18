@@ -55,6 +55,10 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of Nampa | Canyon | Published council schedule | `schedule` | Calendar turns away automated readers; 1st and 3rd Mondays, 5 p.m. |
 | Chubbuck | Bannock | WordPress events feed | `tribe` | |
 | Mountain Home | Elmore | CivicPlus | `civicplus` | Council calendar |
+| City of Eagle | Ada | Published regular schedules | `schedule` | Granicus agenda site asks automated readers to stay out |
+| City of Blackfoot | Bingham | CivicPlus Agenda Center | `agendacenter` | Council and P&Z |
+| City of Burley | Cassia | CivicPlus Agenda Center + published schedule | `agendacenter`, `schedule` | Council and P&Z |
+| City of Jerome | Jerome | CivicPlus | `civicplus` | Council, P&Z, urban renewal |
 | Rexburg, Ammon, Garden City (P&Z), Hailey, Emmett | various | Published schedules | `schedule` | Garden City doesn't publish its council meeting time |
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
 | West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25 school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
@@ -121,6 +125,18 @@ All 44 counties are connected. Hand-entered schedules come only from schedules t
 ## Spanish
 
 `site/es/` has the calendar and four guides in Spanish (speaking at a public meeting, the Open Meeting Law, public records requests, contacting your representatives). The calendar script reads `<html lang="es">` and switches its wording; meeting names and agendas stay in English because they come from the hosts. Spanish guides live in `tools/pages/guides_es.py` under the same slugs as the English ones, and every page links to its counterpart. Regenerate pages with `python3 tools/pages/gen.py`.
+
+## Reading only what sites allow
+
+Every request the pipeline makes checks the site's robots.txt first (`check_robots` in
+`pipeline/build.py`, cached per run, compared without regard to case). A source whose address
+is disallowed fails with a clear message, shows nothing, and is listed in the upkeep issue; if
+robots.txt can't be read at all, nothing is fetched that night and last night's listings stay up.
+
+CivicPlus sites have asked all automated readers to stay out of their iCalendar feeds since
+October 2026, so the `civicplus` connector reads each site's public calendar page
+(`Calendar.aspx?CID=...&startDate=...&endDate=...`), which they still allow. Both page layouts
+(list and month grid) are handled.
 
 ## Security
 

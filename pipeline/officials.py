@@ -79,6 +79,8 @@ def parse_congress(rows: list, state: str = "ID") -> dict:
 
 def get(url, params=None):
     import requests
+    from build import check_robots  # same robots.txt rule as the calendar
+    check_robots(url)
     resp = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=45)
     resp.raise_for_status()
     return resp

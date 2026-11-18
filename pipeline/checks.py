@@ -58,6 +58,11 @@ def site_links():
 
 def check(url):
     import requests
+    import build
+    try:
+        build.check_robots(url)
+    except (build.RobotsBlocked, build.RobotsUnavailable):
+        return url, -1, "robots"  # the site asks automated readers not to check this page
     try:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=20, allow_redirects=True, stream=True)
         r.close()

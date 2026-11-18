@@ -630,3 +630,122 @@ def test_ics_folds_long_lines_and_marks_cancellations(tmp_path):
     cal = icalendar.Calendar.from_ical(text)
     ev = cal.walk("VEVENT")[0]
     assert str(ev["SUMMARY"]).startswith("CANCELLED: " + "Ü" * 10)
+
+
+CIVICPLUS_PAGE = """<div><h2 class="title">Main Calendar</h2></div><ol>
+<li>
+  <h3> <a id="eventTitle_793" href="/Calendar.aspx?EID=793&month=11&year=2026&day=17&calType=0"><span>City Council Meeting</span></a></h3>
+</a></h3>
+<div class="subHeader"><div class="date">November&nbsp;17,&nbsp;2026,&nbsp;5:30 PM&thinsp;-&thinsp;8:00 PM</div><div class="eventLocation fr-element fr-view">@ <div class="name"><p>Jerome Council Chambers</p></div></div></div>
+<div class="hidden" itemscope itemtype="http://schema.org/Event"><span itemprop="name">City Council Meeting</span><span itemprop="startDate" class="hidden">2026-11-17T17:30:00</span><p itemprop="description"></p>
+<span itemprop="location" itemscope itemtype="http://schema.org/Place">
+<span itemprop="name"><p>Jerome Council Chambers</p></span><span class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">100 E Avenue A</span></span></span></div><p></p>
+<a href="/Calendar.aspx?EID=793&month=11&year=2026&day=17&calType=0">More Details</a>
+</li>
+<li>
+  <h3> <a id="eventTitle_718" href="/Calendar.aspx?EID=718"><span>Planning &amp; Zoning Meeting - CANCELLED</span></a></h3>
+<div class="subHeader"><div class="date">December&nbsp;8,&nbsp;2026,&nbsp;6:00 PM</div></div>
+<div class="hidden" itemscope itemtype="http://schema.org/Event"><span itemprop="name">Planning &amp; Zoning Meeting - CANCELLED</span><span itemprop="startDate" class="hidden">2026-12-08T18:00:00</span></div>
+</li>
+<li>
+  <h3> <a id="eventTitle_900" href="/Calendar.aspx?EID=900"><span>Thanksgiving - City Offices Closed</span></a></h3>
+<div class="subHeader"><div class="date">November&nbsp;26,&nbsp;2026</div></div>
+<div class="hidden" itemscope itemtype="http://schema.org/Event"><span itemprop="name">Thanksgiving - City Offices Closed</span><span itemprop="startDate" class="hidden">2026-11-26T00:00:00</span></div>
+</li></ol>"""
+
+
+def test_civicplus_calendar_page():
+    src = {"id": "jerome", "name": "City of Jerome", "area": "Jerome", "timezone": "America/Boise"}
+    tz = ZoneInfo("America/Boise")
+    events = build.normalize_civicplus(src, CIVICPLUS_PAGE, tz, "https://www.ci.jerome.id.us", 14)
+    assert [e["title"] for e in events] == ["City Council Meeting", "Planning & Zoning Meeting",
+                                             "Thanksgiving - City Offices Closed"]
+    council, pz, holiday = events
+    assert council["start"] == "2026-11-17T17:30:00-07:00" and council["end"] == "2026-11-17T20:00:00-07:00"
+    assert council["location"] == "Jerome Council Chambers, 100 E Avenue A"
+    assert council["url"] == "https://www.ci.jerome.id.us/Calendar.aspx?EID=793"
+    assert pz["cancelled"] and pz["end"] is None and not pz["all_day"]
+    assert holiday["all_day"]
+    assert build.CLOSURE_TITLE.search(holiday["title"])  # fetch_civicplus drops these
+
+
+def test_robots_gate(monkeypatch):
+    class Resp:
+        def __init__(self, status, text=""):
+            self.status_code, self.text, self.ok = status, text, status < 400
+            self.headers = {"Content-Type": "text/plain"}
+    robots = ("User-agent: GPTBot\nDisallow: /calendar.aspx\n"
+              "User-agent: *\nDisallow: /common/modules/icalendar/\nDisallow: /Search\n")
+    import requests
+    monkeypatch.setattr(requests, "get", lambda url, **kw: Resp(200, robots))
+    build._robots_cache.clear()
+    build.check_robots("https://city.gov/Calendar.aspx?CID=14")          # allowed for us
+    for blocked in ["https://city.gov/common/modules/iCalendar/iCalendar.aspx?catID=1",  # case-insensitive
+                    "https://city.gov/search?q=x"]:
+        try:
+            build.check_robots(blocked)
+            assert False, blocked
+        except build.RobotsBlocked:
+            pass
+    monkeypatch.setattr(requests, "get", lambda url, **kw: Resp(404))
+    build._robots_cache.clear()
+    build.check_robots("https://other.gov/anything")  # no robots.txt: everything allowed
+    monkeypatch.setattr(requests, "get", lambda url, **kw: Resp(503))
+    build._robots_cache.clear()
+    try:
+        build.check_robots("https://down.gov/x")
+        assert False
+    except build.RobotsUnavailable:
+        pass
+    build._robots_cache.clear()
+
+
+def test_carry_over_seen_keeps_history_when_ids_change():
+    old = [{"id": "old1", "source": "kc", "start": "2026-12-01T09:00:00-08:00", "title": "Board Meeting"}]
+    new = [{"id": "new1", "source": "kc", "start": "2026-12-01T09:00:00-08:00", "title": "Board  meeting"}]
+    seen = {"old1": {"first": "0000-00-00"}}
+    build.carry_over_seen(new, old, seen)
+    assert seen["new1"] == {"first": "0000-00-00"}
+    assert build.update_seen(new, seen, "2026-11-18") == []
+
+
+# Star: list layout without schema.org markup
+CIVICPLUS_PLAIN_LIST = """<div id="CID22" class="calendar"><div><h2 class="title">City Council Meetings</h2></div><ol>
+<li>
+  <h3> <a id="eventTitle_343" href="/Calendar.aspx?EID=343&month=11&year=2026&day=17&calType=0"><span>City Council Meeting</span></a></h3>
+</a></h3>
+<div class="subHeader"><div class="date">December&nbsp;1,&nbsp;2026,&nbsp;7:00 PM</div></div>
+<p></p>
+<a aria-labelledby="eventTitle_343 calendarEvent343"id="calendarEvent343" href="/Calendar.aspx?EID=343">More Details</a>
+</li>
+<li>
+  <h3> <a id="eventTitle_393" href="/Calendar.aspx?EID=393"><span>City Council Meeting</span></a></h3>
+<div class="subHeader"><div class="date">December&nbsp;15,&nbsp;2026,&nbsp;7:00 PM</div></div>
+</li></ol></div>"""
+
+# Kootenai County: month grid, each event with a pop-up and a hidden schema block
+CIVICPLUS_GRID = """<a href="/Calendar.aspx?EID=4883"><span itemprop="name">BOCC: Status Update || CANCELLED</span></a>
+<div style="display:none;" name="showDetailsBox" id="showDetails4883_2" class="detailsTooltip"><div class="tooltipInner">
+<h3 id="eventTitle_4883" class="dim">BOCC: Status Update || CANCELLED</h3><dl><dt>When:</dt><dd>10:00 AM&thinsp;-&thinsp;11:00 AM</dd></dl>
+<a aria-labelledby="eventTitle_4883 calendarEvent4883"id="calendarEvent4883" href="/Calendar.aspx?EID=4883">More Details</a></div></div>
+<div style="display: none;" class="hidden"><div class="subHeader"><div class="date">November&nbsp;3,&nbsp;2026,&nbsp;10:00 AM&thinsp;-&thinsp;11:00 AM</div></div>
+<div class="hidden" itemscope itemtype="http://schema.org/Event"><span itemprop="name">BOCC: Status Update || CANCELLED</span><span itemprop="startDate" class="hidden">2026-11-03T10:00:00</span>
+<span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="name">Event Location</span><span class="hidden" itemprop="address" itemscope><span itemprop="streetAddress">451 Government Way</span></span></span></div></div>
+<h3 id="eventTitle_4890" class="dim">Planning Commission</h3>
+<div class="subHeader"><div class="date">November&nbsp;12,&nbsp;2026,&nbsp;6:00 PM</div></div>
+<span itemprop="location"><span itemprop="name">Ketchum City Hall</span><span itemprop="streetAddress">P.O. Box 2315</span></span>"""
+
+
+def test_civicplus_other_layouts():
+    tz = ZoneInfo("America/Boise")
+    src = {"id": "star", "name": "City of Star", "area": "Star"}
+    plain = build.normalize_civicplus(src, CIVICPLUS_PLAIN_LIST, tz, "https://www.staridaho.org", 22)
+    assert [(e["start"], e["title"]) for e in plain] == [
+        ("2026-12-01T19:00:00-07:00", "City Council Meeting"), ("2026-12-15T19:00:00-07:00", "City Council Meeting")]
+    src = {"id": "kootenai-county", "name": "Kootenai County", "area": "countywide"}
+    grid = build.normalize_civicplus(src, CIVICPLUS_GRID, ZoneInfo("America/Los_Angeles"), "https://www.kcgov.us", 22)
+    assert len(grid) == 2
+    bocc, pc = grid
+    assert bocc["title"] == "BOCC: Status Update" and bocc["cancelled"]
+    assert bocc["end"] == "2026-11-03T11:00:00-08:00" and bocc["location"] == "451 Government Way"
+    assert pc["location"] == "Ketchum City Hall"  # P.O. box isn't a place to go
