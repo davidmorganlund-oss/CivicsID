@@ -33,6 +33,8 @@
       cantReadText: 'The county posts its commissioners’ meetings and agendas on its own website. Until we can add them here, that’s the place to check. Idaho law requires an agenda to be posted at least 48 hours before a regular meeting.',
       countyMeetings: function (c) { return c + ' County meetings and agendas'; },
       anywhere: function (c) { return 'Anywhere in ' + c + ' County'; }, pickCounty: 'Pick a county',
+      report: 'Report a problem', reportSubject: 'CivicsID: problem with a meeting listing',
+      reportBody: 'What looks wrong (time moved, cancelled, wrong place, something else)?\n\n\n',
       refreshed: 'Last refreshed ', loadFail: 'The calendar could not be loaded. Please try again later.'
     },
     es: {
@@ -60,6 +62,8 @@
       cantReadText: 'El condado publica las reuniones y agendas de sus comisionados en su propio sitio web. Hasta que podamos agregarlas aquí, revise allí. La ley de Idaho exige publicar la agenda al menos 48 horas antes de una reunión ordinaria.',
       countyMeetings: function (c) { return 'Reuniones y agendas del condado de ' + c; },
       anywhere: function (c) { return 'Cualquier lugar del condado de ' + c; }, pickCounty: 'Elija condado',
+      report: 'Reportar un problema', reportSubject: 'CivicsID: problema con una reunión',
+      reportBody: '¿Qué está mal (cambió la hora, se canceló, lugar equivocado, otra cosa)?\n\n\n',
       refreshed: 'Última actualización: ', loadFail: 'No se pudo cargar el calendario. Inténtelo de nuevo más tarde.'
     }
   }[LANG];
@@ -235,6 +239,13 @@
     if (safeUrl(e.url)) link(safeUrl(e.url), S.details);
     if (safeUrl(e.agenda_url)) link(safeUrl(e.agenda_url), S.agenda);
     if (!e.cancelled) link(icsLink(e), S.addCal, 'civicsid-event.ics');
+    // A prefilled email to BarNone, so clerks and residents can flag a change.
+    var body = S.reportBody + '----\n' + e.title + '\n' + dayLabel(p) + (e.all_day ? '' : ', ' + clock(p)) + '\n' + (e.host || '') +
+      '\nSource: ' + (e.source || '') + (safeUrl(e.url) ? '\n' + e.url : '');
+    var rep = el('a', 'report', S.report);
+    rep.href = 'mailto:admin@barnoneinc.org?subject=' + encodeURIComponent(S.reportSubject) + '&body=' + encodeURIComponent(body);
+    rep.setAttribute('aria-label', S.report + ': ' + e.title + ', ' + dayLabel(p));
+    actions.appendChild(rep);
     art.appendChild(actions);
     return art;
   }
@@ -262,6 +273,7 @@
     var sub = $('subscribe'), connected = state.county && (!state.connected || state.connected[state.county]);
     sub.href = BASE + 'data/ics/' + (connected ? slug(state.county) : 'statewide') + '.ics';
     sub.textContent = connected ? S.subCounty(state.county) : S.subLeg;
+    if ($('feed')) $('feed').href = BASE + 'data/feeds/' + (connected ? slug(state.county) : 'statewide') + '.xml';
     $('subscribe-text').textContent = connected
       ? S.subCountyText(state.county) : S.subLegText;
     renderStatus();

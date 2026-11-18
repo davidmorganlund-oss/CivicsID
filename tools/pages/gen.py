@@ -1,15 +1,16 @@
 """Generator for CivicsID's static pages (guides, Engage, reps, calendar shell).
 Run: python3 tools/pages/gen.py  -- writes plain HTML into site/."""
-import html, json, sys
+import html, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import guides_a, guides_b, guides_c, guides_es
 
 SITE = Path(__file__).resolve().parents[2] / "site"
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
-         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-         '<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">')
-NOTICE = '<div class="notice">A project of BarNone, a nonprofit. Not affiliated with any government agency.</div>'
+FONTS = ('<link rel="preload" href="{up}fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+         '<link rel="preload" href="{up}fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>')
+SITE_URL = "https://civicsid.org/"
+REPORT = "admin@barnoneinc.org"
+NOTICE = '<aside class="notice" aria-label="About CivicsID">A project of BarNone, a nonprofit. Not affiliated with any government agency.</aside>'
 BY = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barnone-phoenix.png" alt="" width="28" height="28">'
       '<span>A service of <strong>BarNone, Inc.</strong></span></a> An independent nonprofit. CivicsID is not a government website, '
       'is not affiliated with any government agency, and does not speak for any public office.</p>')
@@ -28,9 +29,18 @@ def head(title, up, desc, share=None, lang="en"):
 <meta property="og:title" content="{html.escape(share, quote=True)}">
 <meta property="og:description" content="{html.escape(desc, quote=True)}">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-{FONTS}
+<meta property="og:image" content="{SITE_URL}{"share-es.png" if lang == "es" else "share.png"}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{"CivicsID: Participa, Idaho." if lang == "es" else "CivicsID: Get Engaged, Idaho."}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#002676">
+<link rel="manifest" href="{up}manifest.webmanifest">
+<link rel="icon" href="{up}icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="{up}apple-touch-icon.png">
+{FONTS.format(up=up)}
 <link rel="stylesheet" href="{up}styles.css">
+<script src="{up}app-install.js" defer></script>
 </head>
 <body>'''
 
@@ -43,7 +53,7 @@ def top(up, current, lang="en", alt=None, reps_up=None):
     """alt: link to this page in the other language. Spanish pages link to the
     English representatives lookup (reps_up), which isn't translated yet."""
     cal, cal_s, eng, reps, reps_s, main = NAV[lang]
-    notice = NOTICE if lang == "en" else '<div class="notice">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</div>'
+    notice = NOTICE if lang == "en" else '<aside class="notice" aria-label="Acerca de CivicsID">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>'
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
         cur = ' aria-current="page"' if key == current else ""
@@ -68,6 +78,7 @@ def footer(up, first):
     return f'''<footer><div class="wrap">
   <p>{first}</p>
   {BY.format(up=up)}
+  <p class="footer-links"><a href="mailto:{REPORT}?subject=CivicsID%3A%20report%20a%20problem">Report a problem or a missing meeting</a> · <a href="{up}privacy.html">Privacy</a></p>
 </div></footer>'''
 
 
@@ -211,6 +222,11 @@ assert listed == set(ALL), (listed ^ set(ALL))
       <h2>Get it on your phone</h2>
       <p id="subscribe-text">Subscribe once and these meetings show up in the calendar app you already use.</p>
       <a class="link" id="subscribe" href="data/ics/statewide.ics">Subscribe to Idaho Legislature committee meetings</a>
+      <p style="margin-top: 14px">Want to hear when something changes? The <a id="feed" href="data/feeds/statewide.xml">what's-new feed</a> lists new meetings, newly posted agendas and cancellations. Add it to a feed reader, or to a free feed-to-email service to get it by email.</p>
+    </div>
+    <div class="card">
+      <h2>Use it like an app</h2>
+      <p>Add CivicsID to your home screen and it opens like an app, even without a signal. On iPhone, tap Share, then <strong>Add to Home Screen</strong>. On Android, tap the menu, then <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
     </div>
     <div class="card">
       <h2>Two time zones</h2>
@@ -337,6 +353,7 @@ def footer_es(up, first):
     return f'''<footer><div class="wrap">
   <p>{first}</p>
   {FOOT_ES.format(up=up)}
+  <p class="footer-links"><a href="mailto:{REPORT}?subject=CivicsID%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a> · <a href="{up}es/privacy.html">Privacidad</a></p>
 </div></footer>'''
 
 
@@ -433,6 +450,11 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
       <h2>En su teléfono</h2>
       <p id="subscribe-text">Suscríbase una vez y estas reuniones aparecerán en la aplicación de calendario que ya usa.</p>
       <a class="link" id="subscribe" href="../data/ics/statewide.ics">Suscribirse a las reuniones de comités de la Legislatura</a>
+      <p style="margin-top: 14px">¿Quiere saber cuando algo cambia? El <a id="feed" href="../data/feeds/statewide.xml">canal de novedades</a> muestra reuniones nuevas, agendas recién publicadas y cancelaciones. Agréguelo a un lector de noticias o a un servicio gratuito que lo envíe por correo.</p>
+    </div>
+    <div class="card">
+      <h2>Úselo como aplicación</h2>
+      <p>Agregue CivicsID a su pantalla de inicio y se abrirá como una aplicación, incluso sin señal. En iPhone, toque Compartir y luego <strong>Agregar a pantalla de inicio</strong>. En Android, toque el menú y luego <strong>Instalar aplicación</strong>.</p>
     </div>
     <div class="card">
       <h2>Dos zonas horarias</h2>
@@ -454,3 +476,73 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
 </html>
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("Spanish pages written:", len(guides_es.G) + 2)
+
+
+# ---------- Privacy (English and Spanish) ----------
+PRIV_EN = """
+  <h2>The short version</h2>
+  <p>CivicsID has no accounts, no ads, no cookies and no tracking or analytics. We don't collect your name, email or address.</p>
+  <h2>What stays on your device</h2>
+  <ul>
+    <li><strong>Your county and city.</strong> When you pick them, your browser remembers them so the calendar opens there next time. That choice is stored only in your browser. Clearing your browser data removes it.</li>
+    <li><strong>The app.</strong> If you add CivicsID to your home screen, your device keeps a copy of the pages and the latest calendar so it works without a signal.</li>
+  </ul>
+  <h2>What leaves your device</h2>
+  <ul>
+    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. It doesn't pass through us, and we never see or store it.</li>
+    <li><strong>Hosting.</strong> The site is hosted on GitHub Pages. Like any web host, GitHub keeps standard server logs, such as IP addresses, for security. We don't get or use those logs.</li>
+    <li><strong>Links you follow.</strong> Meeting details, agendas and guide sources open on government and other websites, which have their own privacy policies.</li>
+    <li><strong>Problem reports.</strong> If you email us a correction, it goes to BarNone's inbox ({REPORT}). We use it only to fix the site.</li>
+  </ul>
+  <p class="muted">Updated November 2026. Questions: {REPORT}.</p>
+"""
+PRIV_ES = """
+  <h2>En resumen</h2>
+  <p>CivicsID no tiene cuentas, anuncios, cookies, rastreo ni analítica. No recopilamos su nombre, correo ni dirección.</p>
+  <h2>Lo que se queda en su dispositivo</h2>
+  <ul>
+    <li><strong>Su condado y ciudad.</strong> Cuando los elige, su navegador los recuerda para que el calendario abra allí la próxima vez. Esa elección se guarda solo en su navegador.</li>
+    <li><strong>La aplicación.</strong> Si agrega CivicsID a su pantalla de inicio, su dispositivo guarda una copia de las páginas y del calendario más reciente para que funcione sin señal.</li>
+  </ul>
+  <h2>Lo que sale de su dispositivo</h2>
+  <ul>
+    <li><strong>Búsqueda por dirección.</strong> Cuando busca a sus representantes, su navegador envía la dirección directamente al servicio público de la Oficina del Censo de EE. UU. No pasa por nosotros y nunca la vemos ni la guardamos.</li>
+    <li><strong>Alojamiento.</strong> El sitio está en GitHub Pages. Como cualquier servidor web, GitHub guarda registros estándar, como direcciones IP, por seguridad. Nosotros no recibimos ni usamos esos registros.</li>
+    <li><strong>Enlaces.</strong> Los detalles de reuniones, agendas y fuentes abren en sitios de gobierno y otros sitios, que tienen sus propias políticas de privacidad.</li>
+    <li><strong>Reportes de problemas.</strong> Si nos envía una corrección por correo, llega a la bandeja de BarNone ({REPORT}). Solo la usamos para corregir el sitio.</li>
+  </ul>
+  <p class="muted">Actualizado en noviembre de 2026. Preguntas: {REPORT}.</p>
+"""
+(SITE / "privacy.html").write_text(f'''{head("Privacy | CivicsID", "", "CivicsID has no accounts, no ads, no cookies and no tracking.")}
+<a class="skip" href="#privacy">Skip to content</a>
+{top("", "", alt="es/privacy.html")}
+<main class="wrap narrow guide" id="privacy">
+  <h1>Privacy</h1>
+{PRIV_EN.format(REPORT=REPORT)}
+</main>
+{footer("", "CivicsID is free to use and asks nothing of you.")}
+</body>
+</html>
+''')
+(ES / "privacy.html").write_text(f'''{head("Privacidad | CivicsID", "../", "CivicsID no tiene cuentas, anuncios, cookies ni rastreo.", lang="es")}
+<a class="skip" href="#privacy">Ir al contenido</a>
+{top("", "", lang="es", alt="../privacy.html", reps_up="../")}
+<main class="wrap narrow guide" id="privacy">
+  <h1>Privacidad</h1>
+{PRIV_ES.format(REPORT=REPORT)}
+</main>
+{footer_es("../", "CivicsID es gratis y no le pide nada.")}
+</body>
+</html>
+'''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
+print("privacy pages written")
+
+
+# Every page's intro band is a named region, so screen reader users can jump
+# to it and nothing on the page sits outside a landmark.
+for page in SITE.rglob("*.html"):
+    text = page.read_text()
+    label = "Introducción" if '<html lang="es">' in text else "Introduction"
+    fixed = re.sub(r'<section class="hero', f'<section aria-label="{label}" class="hero', text)
+    if fixed != text:
+        page.write_text(fixed)

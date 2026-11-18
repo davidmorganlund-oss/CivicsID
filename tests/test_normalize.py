@@ -555,3 +555,29 @@ def test_upkeep_items():
     items = alerts.upkeep_items(cfg, date(2026, 11, 17))
     assert len(items) == 1 and "Fremont County" in items[0] and "2026-11-23" in items[0]
     assert len(alerts.upkeep_items(cfg, date(2026, 12, 30))) == 2
+
+
+def test_sanity_checks():
+    import checks
+    events = [{"source": "a", "start": "2026-11-20T18:00:00-07:00", "title": "Council", "all_day": False},
+              {"source": "a", "start": "2026-11-20T18:00:00-07:00", "title": "Council ", "all_day": False},
+              {"source": "b", "start": "2026-11-21T03:00:00-07:00", "title": "Board", "all_day": False, "tz": "MT"}]
+    status = {"sources": [{"id": "c", "name": "C", "count": 0, "state": "quiet"}]}
+    out = checks.sanity(events, status, {"sources": [{"id": "c", "count": 9}]})
+    assert any("Listed twice" in x for x in out) and any("Odd hour" in x for x in out) and any("Went quiet" in x for x in out)
+
+
+def test_whats_new_feed(tmp_path):
+    seen = {}
+    e = {"id": "x1", "title": "City Council", "host": "City of Boise", "start": "2026-11-23T18:00:00-07:00", "all_day": False,
+         "tz": "MT", "location": "City Hall", "url": "https://u", "agenda_url": "", "county": "Ada"}
+    assert [k for k, _, _ in build.update_seen([e], seen, "2026-11-17")] == ["new"]
+    assert build.update_seen([e], seen, "2026-11-18") == []
+    e2 = dict(e, agenda_url="https://a.pdf")
+    news = build.update_seen([e2], seen, "2026-11-19")
+    assert [k for k, _, _ in news] == ["agenda"]
+    build.write_feed(tmp_path / "f.xml", "T", news, "https://civicsid.org/", "2026-11-19T00:00:00")
+    feed = (tmp_path / "f.xml").read_text()
+    assert "Agenda posted: City Council (2026-11-23 18:00)" in feed and 'href="https://a.pdf"' in feed
+    from xml.dom import minidom
+    minidom.parseString(feed)

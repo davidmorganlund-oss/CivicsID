@@ -1533,6 +1533,63 @@ def ics_escape(text: str) -> str:
     return (text or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
+
+# --- "What's new" feeds (Atom), one per county plus the Legislature ---
+# Each entry is a change worth hearing about: a meeting newly on the calendar,
+# an agenda newly posted, or a cancellation. data/seen.json remembers what was
+# already announced, so feed readers and email services only see real news.
+
+def update_seen(events, seen, today, baseline=False):
+    """baseline=True (first run): record what's already on the calendar as old
+    news, dated 0000-00-00, so it never shows up in the feeds."""
+    news = []
+    stamp = "0000-00-00" if baseline else today
+    for e in events:
+        if e.get("regular"):
+            continue  # "usually meets" placeholders aren't news
+        rec = seen.setdefault(e["id"], {"first": stamp})
+        if rec["first"] == stamp and "listed" not in rec:
+            rec["listed"] = stamp
+            news.append(("new", stamp, e))
+        if e.get("agenda_url") and "agenda" not in rec:
+            rec["agenda"] = stamp
+            news.append(("agenda", stamp, e))
+        if e.get("cancelled") and "cancelled" not in rec:
+            rec["cancelled"] = stamp
+            news.append(("cancelled", stamp, e))
+    return news
+
+
+def write_feed(path, title, items, site, stamp):
+    from xml.sax.saxutils import escape as x
+    label = {"new": "New meeting", "agenda": "Agenda posted", "cancelled": "Cancelled"}
+    entries = []
+    for kind, day, e in items[:200]:
+        when = e["start"][:10] + ("" if e.get("all_day") else " " + e["start"][11:16])
+        link = e.get("agenda_url") if kind == "agenda" and e.get("agenda_url") else (e.get("url") or site)
+        summary = f"{e['host']} · {when} ({e.get('tz', '')})" + (f" · {e['location']}" if e.get("location") else "")
+        if e.get("highlights"):
+            summary += " · On the agenda: " + "; ".join(e["highlights"][:4])
+        entries.append(f"""  <entry>
+    <id>tag:civicsid.org,2026:{e['id']}:{kind}</id>
+    <title>{x(label[kind] + ': ' + e['title'] + ' (' + when + ')')}</title>
+    <updated>{day}T12:00:00Z</updated>
+    <link href="{x(link)}"/>
+    <summary>{x(summary)}</summary>
+  </entry>""")
+    path.write_text(f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{x(title)}</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
+  <id>{x(site)}</id>
+  <link href="{x(site)}"/>
+  <updated>{stamp}</updated>
+  <author><name>CivicsID (BarNone)</name></author>
+{chr(10).join(entries)}
+</feed>
+""")
+
+
 def write_ics(events, path: Path, stamp: datetime, name: str = "Idaho"):
     utc = ZoneInfo("UTC")
     fmt = "%Y%m%dT%H%M%SZ"
@@ -1624,6 +1681,20 @@ def main() -> int:
         all_events.extend(found)
         statuses.append(status)
 
+    # Clean-ups the nightly checks pointed at:
+    # - a feed that lists the same meeting twice (same source, start and name)
+    # - meetings "at midnight", which in these feeds means no time was given
+    seen, cleaned = set(), []
+    for e in all_events:
+        key = (e["source"], e["start"], " ".join(e["title"].lower().split()))
+        if key in seen:
+            continue
+        seen.add(key)
+        if not e.get("all_day") and e["start"][11:16] == "00:00":
+            e["all_day"] = True
+        cleaned.append(e)
+    all_events = cleaned
+
     # A regular-schedule source can name the feeds it stands in for ("yield_to").
     # On any day one of those feeds lists a meeting, the placeholder is dropped.
     by_id = {src["id"]: src for src in cfg["sources"]}
@@ -1652,6 +1723,35 @@ def main() -> int:
         mine = [e for e in events if e["county"] == county]
         label = "Idaho Legislature" if county == "Statewide" else f"{county} County"
         write_ics(mine, OUT / "ics" / f"{county_slug(county)}.ics", now, label)
+
+    # What's-new feeds. News from the last 30 days, newest first.
+    seen_path = OUT / "seen.json"
+    try:
+        seen = json.loads(seen_path.read_text())
+    except Exception:
+        seen = {}
+    first_run = not seen
+    today_s = now.date().isoformat()
+    update_seen(events, seen, today_s, baseline=first_run)
+    cutoff = (now.date() - timedelta(days=30)).isoformat()
+    live = {e["id"]: e for e in events}
+    seen = {k: v for k, v in seen.items() if k in live or max(v.values()) >= cutoff}
+    seen_path.write_text(json.dumps(seen, indent=0, sort_keys=True))
+    news = []
+    for eid, rec in seen.items():
+        e = live.get(eid)
+        if not e:
+            continue
+        for kind in ("listed", "agenda", "cancelled"):
+            if kind in rec and rec[kind] >= cutoff:
+                news.append(("new" if kind == "listed" else kind, rec[kind], e))
+    news.sort(key=lambda n: (n[1], n[2]["start"]), reverse=True)
+    (OUT / "feeds").mkdir(exist_ok=True)
+    write_feed(OUT / "feeds" / "idaho.xml", "CivicsID: what's new across Idaho", news, "https://civicsid.org/", stamp)
+    for county in sorted({e["county"] for e in events}):
+        label = "the Idaho Legislature" if county == "Statewide" else f"{county} County"
+        write_feed(OUT / "feeds" / f"{county_slug(county)}.xml", f"CivicsID: what's new in {label}",
+                   [n for n in news if n[2]["county"] == county], "https://civicsid.org/", stamp)
 
     for s in statuses:
         print(f"{s['state']:8} {s['count']:4}  {s['name']}")

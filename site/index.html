@@ -9,15 +9,23 @@
 <meta property="og:title" content="Get Engaged, Idaho: what your community is deciding this week">
 <meta property="og:description" content="See what your city council, county commissioners, library board and the Idaho Legislature are deciding this week, and how to make your voice heard.">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<meta property="og:image" content="https://civicsid.org/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CivicsID: Get Engaged, Idaho.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#002676">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
+<script src="app-install.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#events">Skip to events</a>
-<div class="notice">A project of BarNone, a nonprofit. Not affiliated with any government agency.</div>
+<aside class="notice" aria-label="About CivicsID">A project of BarNone, a nonprofit. Not affiliated with any government agency.</aside>
 
 <header class="top"><div class="wrap">
   <a class="brand" href="index.html">Civics<span>ID</span></a>
@@ -29,7 +37,7 @@
   </nav>
 </div></header>
 
-<section class="hero"><div class="wrap">
+<section aria-label="Introduction" class="hero"><div class="wrap">
   <p class="eyebrow light">Community Calendar</p>
   <h1>Find out what your community is deciding this week.</h1>
   <p class="lede">City councils, county commissioners, public hearings and the Legislature, from across Idaho, in one calendar. Pick where you live and we'll show you what's near you.</p>
@@ -67,6 +75,11 @@
       <h2>Get it on your phone</h2>
       <p id="subscribe-text">Subscribe once and these meetings show up in the calendar app you already use.</p>
       <a class="link" id="subscribe" href="data/ics/statewide.ics">Subscribe to Idaho Legislature committee meetings</a>
+      <p style="margin-top: 14px">Want to hear when something changes? The <a id="feed" href="data/feeds/statewide.xml">what's-new feed</a> lists new meetings, newly posted agendas and cancellations. Add it to a feed reader, or to a free feed-to-email service to get it by email.</p>
+    </div>
+    <div class="card">
+      <h2>Use it like an app</h2>
+      <p>Add CivicsID to your home screen and it opens like an app, even without a signal. On iPhone, tap Share, then <strong>Add to Home Screen</strong>. On Android, tap the menu, then <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
     </div>
     <div class="card">
       <h2>Two time zones</h2>
@@ -89,6 +102,7 @@
 <footer><div class="wrap">
   <p>Listings come straight from public agency calendars and are refreshed every night. <span id="updated"></span> Schedules change, so confirm with the host before you go.</p>
   <p class="by-barnone"><a href="https://barnoneinc.org"><img src="barnone-phoenix.png" alt="" width="28" height="28"><span>A service of <strong>BarNone, Inc.</strong></span></a> An independent nonprofit. CivicsID is not a government website, is not affiliated with any government agency, and does not speak for any public office.</p>
+  <p class="footer-links"><a href="mailto:admin@barnoneinc.org?subject=CivicsID%3A%20report%20a%20problem">Report a problem or a missing meeting</a> · <a href="privacy.html">Privacy</a></p>
 </div></footer>
 
 <script src="app.js"></script>

@@ -37,6 +37,10 @@
     if (safeUrl(e.agenda_url)) add(e.agenda_url, 'Agenda');
     if (safeUrl(e.url) && /sessioninfo|committees/.test(e.url)) add(e.url, 'Committee page and testimony sign-up');
     else if (safeUrl(e.url)) add(e.url, 'Details');
+    var rep = el('a', 'report', 'Report a problem');
+    rep.href = 'mailto:admin@barnoneinc.org?subject=' + encodeURIComponent('CivicsID: problem with a Legislature listing') +
+      '&body=' + encodeURIComponent('What looks wrong?\n\n\n----\n' + e.title + '\n' + dayLabel(p) + (e.all_day ? '' : ', ' + clock(p)));
+    actions.appendChild(rep);
     art.appendChild(actions);
     return art;
   }

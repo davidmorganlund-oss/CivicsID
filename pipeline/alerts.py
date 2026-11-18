@@ -88,6 +88,11 @@ def main():
     sync_issue(UPKEEP_TITLE, (["These hand-entered schedules or planned changes need a human look in the next "
                                f"{AHEAD} days. Once their meetings pass, the calendar quietly goes empty for them.", ""]
                               + items) if items else [], "Every hand-entered schedule has dates for the next three weeks.")
+    import checks
+    found = checks.report()
+    sync_issue("Data or link problems to look at", (["The nightly checks found these. Listings that look wrong may be a parsing or time zone "
+                                                   "problem; broken links are pages that moved (checked Mondays).", ""] + found) if found else [],
+               "Tonight's data and link checks came back clean.")
     stuck = stuck_sources(json.loads(STATUS.read_text()), date.today())
     found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{TITLE}" in:title',
                           "--json", "number,title"))
