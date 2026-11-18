@@ -682,6 +682,47 @@ def normalize_civicplus(src, page_html, tz, site, cat):
     return events
 
 
+CIVICPLUS_SHORT_CLOCK = re.compile(r"(\d{1,2})(?::(\d{2}))?\s*([ap])", re.I)
+
+
+def normalize_civicplus_json(src, items, tz, site):
+    """Events from CivicPlus's newer calendar (/m/calendar), which loads them
+    as JSON from /m/calendar/Home/MonthEvents. The end time is only in the
+    display string ("5:30p - 8p")."""
+    import html as htmllib
+    events = []
+    for it in items:
+        props = it.get("extendedProps") or {}
+        title = " ".join(htmllib.unescape(it.get("title") or "").split())
+        try:
+            start = datetime.fromisoformat(it["start"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        start = start.replace(tzinfo=tz) if start.tzinfo is None else start.astimezone(tz)
+        all_day = bool(it.get("allDay"))
+        end = None
+        if it.get("end"):
+            try:
+                end = datetime.fromisoformat(it["end"])
+                end = end.replace(tzinfo=tz) if end.tzinfo is None else end.astimezone(tz)
+            except ValueError:
+                end = None
+        elif not all_day:
+            clocks = CIVICPLUS_SHORT_CLOCK.findall(props.get("time") or "")
+            if len(clocks) >= 2:
+                h, mi, ap = clocks[1]
+                end = start.replace(hour=int(h) % 12 + (12 if ap.lower() == "p" else 0), minute=int(mi or 0))
+        if end is not None and (end <= start or all_day):
+            end = None
+        link = props.get("navigationUrl") or f"/m/calendar/event/detail/{it.get('id')}"
+        events.append(make_event(
+            src, title=title, start=start, end=end, all_day=all_day,
+            location=" ".join(htmllib.unescape(props.get("location") or "").split()),
+            url=urljoin(site + "/", link), uid=f"civicplus-{it.get('id')}",
+        ))
+    return [e for e in events if e["title"]]
+
+
 def fetch_civicplus(src, start_day, end_day, tz):
     """CivicPlus calendar pages. (Since October 2026 CivicPlus sites ask
     automated readers to stay out of their iCalendar feed, so the public
@@ -689,8 +730,19 @@ def fetch_civicplus(src, start_day, end_day, tz):
     site = src["site"].rstrip("/")
     seen, events = set(), []
     for cat in src["categories"]:
-        pages = [get(f"{site}/Calendar.aspx", {"CID": cat, "startDate": start_day.strftime("%m/%d/%Y"),
-                                                "endDate": end_day.strftime("%m/%d/%Y")}).text]
+        first = get(f"{site}/Calendar.aspx", {"CID": cat, "startDate": start_day.strftime("%m/%d/%Y"),
+                                               "endDate": end_day.strftime("%m/%d/%Y")})
+        if "/m/calendar" in first.url:
+            # The site has moved to CivicPlus's newer calendar, which loads
+            # its events as JSON.
+            items = get(f"{site}/m/calendar/Home/MonthEvents",
+                        {"startDate": start_day.isoformat(), "endDate": end_day.isoformat(), "cat": cat}).json()
+            for e in normalize_civicplus_json(src, items, tz, site):
+                if e["id"] not in seen and not CLOSURE_TITLE.search(e["title"]):
+                    seen.add(e["id"])
+                    events.append(e)
+            continue
+        pages = [first.text]
         if "showDetailsBox" in pages[0]:
             # Month-grid sites show one month per page whatever range is asked
             # for, so read each month in the window.

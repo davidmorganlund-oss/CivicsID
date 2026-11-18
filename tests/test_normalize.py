@@ -4,7 +4,7 @@ Most samples carry over from the Washington site this pipeline began as;
 the connectors are the same, so the samples still exercise them.
 """
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -749,3 +749,25 @@ def test_civicplus_other_layouts():
     assert bocc["title"] == "BOCC: Status Update" and bocc["cancelled"]
     assert bocc["end"] == "2026-11-03T11:00:00-08:00" and bocc["location"] == "451 Government Way"
     assert pc["location"] == "Ketchum City Hall"  # P.O. box isn't a place to go
+
+
+def test_civicplus_new_calendar_json():
+    items = [
+        {"id": "746", "title": "City Council Meeting", "start": "2026-12-01T17:30:00", "end": None, "allDay": False,
+         "extendedProps": {"location": "Jerome Council Chambers", "time": "5:30p - 8p",
+                           "navigationUrl": "/m/calendar/event/detail/746"}},
+        {"id": "718", "title": "Planning & Zoning Meeting - CANCELLED", "start": "2026-12-08T18:00:00", "end": None,
+         "allDay": False, "extendedProps": {"location": "", "time": "6p", "navigationUrl": "/m/calendar/event/detail/718"}},
+        {"id": "900", "title": "Christmas", "start": "2026-12-25T00:00:00", "end": None, "allDay": True, "extendedProps": {}},
+    ]
+    src = {"id": "jerome", "name": "City of Jerome", "area": "Jerome"}
+    ev = build.normalize_civicplus_json(src, items, ZoneInfo("America/Boise"), "https://www.ci.jerome.id.us")
+    council, pz, xmas = ev
+    assert council["start"] == "2026-12-01T17:30:00-07:00" and council["end"] == "2026-12-01T20:00:00-07:00"
+    assert council["url"] == "https://www.ci.jerome.id.us/m/calendar/event/detail/746"
+    assert pz["title"] == "Planning & Zoning Meeting" and pz["cancelled"] and pz["end"] is None
+    assert xmas["all_day"]
+    # Same uid scheme as the classic calendar, so a site switching over keeps its ids
+    old = build.make_event(src, title="City Council Meeting", start=datetime(2026, 12, 1, 17, 30, tzinfo=ZoneInfo("America/Boise")),
+                           uid="civicplus-746")
+    assert old["id"] == council["id"]

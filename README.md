@@ -58,7 +58,8 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of Eagle | Ada | Published regular schedules | `schedule` | Granicus agenda site asks automated readers to stay out |
 | City of Blackfoot | Bingham | CivicPlus Agenda Center | `agendacenter` | Council and P&Z |
 | City of Burley | Cassia | CivicPlus Agenda Center + published schedule | `agendacenter`, `schedule` | Council and P&Z |
-| City of Jerome | Jerome | CivicPlus | `civicplus` | Council, P&Z, urban renewal |
+| City of Jerome | Jerome | CivicPlus (newer calendar) | `civicplus` | Council, P&Z, urban renewal |
+| City of Sandpoint | Bonner | Published dates and schedule | `schedule` | Site turns automated readers away; read by a person from its own pages |
 | Rexburg, Ammon, Garden City (P&Z), Hailey, Emmett | various | Published schedules | `schedule` | Garden City doesn't publish its council meeting time |
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
 | West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25 school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
@@ -136,7 +137,8 @@ robots.txt can't be read at all, nothing is fetched that night and last night's 
 CivicPlus sites have asked all automated readers to stay out of their iCalendar feeds since
 October 2026, so the `civicplus` connector reads each site's public calendar page
 (`Calendar.aspx?CID=...&startDate=...&endDate=...`), which they still allow. Both page layouts
-(list and month grid) are handled.
+(list and month grid) are handled, and sites that have moved to CivicPlus's newer calendar
+(`/m/calendar`) are read from the JSON it loads (`/m/calendar/Home/MonthEvents`).
 
 ## Security
 
