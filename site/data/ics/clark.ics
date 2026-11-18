@@ -2,4 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Clark County
+BEGIN:VEVENT
+UID:c27995a7c716@civicsid
+DTSTAMP:20261118T030133Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Clark County BOCC Special Meeting (Clark County)
+LOCATION:Commissioners' Chambers\, 224 W. Main Street\, Dubois
+URL:https://www.clark-co.id.gov/AgendaCenter
+END:VEVENT
 END:VCALENDAR
