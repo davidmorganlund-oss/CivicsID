@@ -1,17 +1,29 @@
-"""Probe: Blaine County's new site through the CivicPlus reader."""
-import json, sys
-from datetime import date, timedelta
+"""Probe: Twin Falls County daily agenda PDFs; Bonneville Tyler Meeting Manager; Latah agendas."""
+import io, json, re, sys
 from pathlib import Path
-from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
-import build
-src = {"id": "blaine-county", "name": "Blaine County", "area": "countywide", "county": "Blaine",
-       "site": "https://www.blainecountyid.gov", "categories": [23, 25, 14], "default_category": "council"}
+import build, requests, pypdf
 out = {}
 try:
-    ev = build.fetch_civicplus(src, date.today(), date.today() + timedelta(days=60), ZoneInfo("America/Boise"))
-    out["events"] = [(e["start"][:16], e["end"] and e["end"][11:16], e["title"][:60], e["location"][:50], e["url"]) for e in ev]
+    page = build.get("https://twinfallscounty.org/commissioners/agenda/").text
+    links = re.findall(r'href="(https://twinfallscounty.org/wp-content/uploads/[A-Za-z]+-\d{1,2}\.\d{1,2}\.\d{2}[^"]*\.pdf)"', page)
+    out["tf_links"] = links
+    for u in links[1:3]:
+        r = pypdf.PdfReader(io.BytesIO(build.get(u).content))
+        out[u] = "\n".join(p.extract_text() or "" for p in r.pages)[:2500]
 except Exception as exc:
-    out["error"] = f"{type(exc).__name__}: {exc}"[:400]
+    out["tf_error"] = repr(exc)[:300]
+try:
+    u = "https://bonnevillecountyid.meetingmanager.tylerapp.com/tylermmcalendar5189bonnevillecountyid/meetingInformation/getMeetingInformationByDate"
+    build.check_robots(u)
+    r = requests.post(u, json={"startDate": "11/18/2026", "endDate": "01/17/2027", "meetingTypeIds": []}, headers={"User-Agent": build.UA}, timeout=60)
+    out["bonneville"] = f"{r.status_code} {len(r.json()) if r.ok else r.text[:200]}"
+except Exception as exc:
+    out["bonneville_error"] = repr(exc)[:300]
+try:
+    h = build.get("https://latahcountyid.gov/commissioners/").text
+    out["latah_agenda_links"] = re.findall(r'href="([^"]+)"[^>]*>([^<]{0,60}(?:Agenda|agenda)[^<]{0,40})<', h)[:12]
+except Exception as exc:
+    out["latah_error"] = repr(exc)[:300]
 Path(__file__).with_name("report2.json").write_text(json.dumps(out, indent=1))
-print(json.dumps(out, indent=1)[:5000])
+print(json.dumps(out, indent=1)[:9000])

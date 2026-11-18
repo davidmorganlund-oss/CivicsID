@@ -1384,3 +1384,29 @@ sources:
         location: Council Chambers, 1123 Lake Street
         category: council
         url: https://www.sandpointidaho.gov/planning-and-zoning-commission
+
+  # Blaine County's site (old and new address) turns automated readers away
+  # (403), so these come from its own pages, read by a person.
+  - id: blaine-county
+    name: Blaine County
+    type: schedule
+    county: Blaine
+    area: countywide
+    homepage: https://www.blainecountyid.gov/AgendaCenter
+    meetings:
+      # County Commissioners page: "normally held every Tuesday, except for the
+      # fifth Tuesday of the month ... Agendas are available the Thursday prior."
+      # No start time is published there, so none is shown.
+      - title: Board of County Commissioners Meeting
+        when: 1st, 2nd, 3rd, 4th Tuesday
+        location: Old County Courthouse, 206 South 1st Avenue, Hailey
+        category: council
+        url: https://www.blainecountyid.gov/352/County-Commissioners
+      # P&Z "2026 Regular Meeting Schedule": second and fourth Wednesdays
+      # (December 9th & 23rd); the calendar lists Nov 18 at 6:00 PM.
+      - title: Planning and Zoning Commission Meeting
+        dates: [2026-11-18, 2026-12-09, 2026-12-23]
+        time: "18:00"
+        location: Commissioners Large Meeting Room, Old County Courthouse, 206 South 1st Avenue, Hailey
+        category: council
+        url: https://www.blainecountyid.gov/1110/Planning-Zoning-Commission-Regular-Meeti
