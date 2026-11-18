@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-17T23:52:04-07:00</updated>
+  <updated>2026-11-18T05:10:42-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:3a2ba0d578a0:new</id>
@@ -19,19 +19,5 @@
     <updated>2026-11-17T12:00:00Z</updated>
     <link href="https://www.burleyidaho.org/AgendaCenter/ViewFile/Agenda/_11182026-495"/>
     <summary>City of Burley · 2026-11-18 (MT) · Burley City Hall, 1401 Overland Avenue</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:8663a327499e:new</id>
-    <title>New meeting: Special &amp; Regular City Council Agenda (2026-11-17 19:00)</title>
-    <updated>2026-11-17T12:00:00Z</updated>
-    <link href="https://www.burleyidaho.org/AgendaCenter"/>
-    <summary>City of Burley · 2026-11-17 19:00 (MT) · Burley City Hall, 1401 Overland Avenue</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:8663a327499e:agenda</id>
-    <title>Agenda posted: Special &amp; Regular City Council Agenda (2026-11-17 19:00)</title>
-    <updated>2026-11-17T12:00:00Z</updated>
-    <link href="https://www.burleyidaho.org/AgendaCenter/ViewFile/Agenda/_11172026-494"/>
-    <summary>City of Burley · 2026-11-17 19:00 (MT) · Burley City Hall, 1401 Overland Avenue</summary>
   </entry>
 </feed>
