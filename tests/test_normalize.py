@@ -581,3 +581,52 @@ def test_whats_new_feed(tmp_path):
     assert "Agenda posted: City Council (2026-11-23 18:00)" in feed and 'href="https://a.pdf"' in feed
     from xml.dom import minidom
     minidom.parseString(feed)
+
+
+# --- Security: event text comes from outside sites and is never trusted ---
+
+def test_safe_link_rejects_non_web_schemes():
+    for bad in ["javascript:alert(1)", "JaVaScRiPt:alert(1)", "data:text/html,x", "mailto:a@b.c",
+                "vbscript:x", "https://x.org/a b", 'https://x.org/"onmouseover=1', ""]:
+        assert build.safe_link(bad) == "", bad
+    assert build.safe_link("https://x.org/a?b=1") == "https://x.org/a?b=1"
+    assert build.safe_link("/Calendar.aspx?EID=5", "https://city.org") == "https://city.org/Calendar.aspx?EID=5"
+    assert build.safe_link("javascript:alert(1)", "https://city.org") == ""
+
+
+def test_clean_event_strips_control_chars_and_fills_link():
+    e = {"title": "Council\x0b Meeting", "url": "javascript:alert(1)", "agenda_url": "/a.pdf",
+         "highlights": ["Item\x00 one"], "location": "Hall\x1f"}
+    build.clean_event(e, {"site": "https://city.org", "homepage": "https://city.org/council"})
+    assert e["title"] == "Council Meeting" and e["location"] == "Hall" and e["highlights"] == ["Item one"]
+    assert e["url"] == "https://city.org/council"
+    assert e["agenda_url"] == "https://city.org/a.pdf"
+
+
+def test_feed_escapes_quotes_and_markup(tmp_path):
+    import xml.etree.ElementTree as ET
+    e = {"id": "x1", "title": 'A <b>"quoted"</b> & \x0c title', "host": "City", "start": "2026-12-01T18:00:00-07:00",
+         "all_day": False, "tz": "MT", "location": "", "url": 'https://x.org/?a="1"><script>', "agenda_url": ""}
+    build.write_feed(tmp_path / "f.xml", "T", [("new", "2026-11-19", e)], "https://civicsid.org/", "2026-11-19T00:00:00Z")
+    root = ET.parse(tmp_path / "f.xml").getroot()  # must still be well-formed XML
+    ns = "{http://www.w3.org/2005/Atom}"
+    entry = root.find(ns + "entry")
+    assert "<b>" in entry.find(ns + "title").text  # shown as text, not markup
+    assert entry.find(ns + "link").get("href") == "https://civicsid.org/"  # unsafe link replaced
+
+
+def test_ics_folds_long_lines_and_marks_cancellations(tmp_path):
+    from datetime import datetime, timezone
+    e = {"id": "x2", "title": "Ü" * 80, "host": "City", "start": "2026-12-01T18:00:00-07:00", "end": None,
+         "all_day": False, "cancelled": True, "location": "Hall; Room 1, upstairs\nside door", "url": "https://x.org/e"}
+    path = tmp_path / "c.ics"
+    build.write_ics([e], path, datetime(2026, 11, 19, tzinfo=timezone.utc))
+    raw = path.read_bytes()
+    assert all(len(line) <= 75 for line in raw.split(b"\r\n"))
+    text = raw.decode("utf-8")
+    assert "STATUS:CANCELLED" in text
+    assert r"LOCATION:Hall\; Room 1\, upstairs\nside door" in text.replace("\r\n ", "")
+    import icalendar
+    cal = icalendar.Calendar.from_ical(text)
+    ev = cal.walk("VEVENT")[0]
+    assert str(ev["SUMMARY"]).startswith("CANCELLED: " + "Ü" * 10)

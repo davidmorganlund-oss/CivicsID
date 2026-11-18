@@ -122,6 +122,19 @@ All 44 counties are connected. Hand-entered schedules come only from schedules t
 
 `site/es/` has the calendar and four guides in Spanish (speaking at a public meeting, the Open Meeting Law, public records requests, contacting your representatives). The calendar script reads `<html lang="es">` and switches its wording; meeting names and agendas stay in English because they come from the hosts. Spanish guides live in `tools/pages/guides_es.py` under the same slugs as the English ones, and every page links to its counterpart. Regenerate pages with `python3 tools/pages/gen.py`.
 
+## Security
+
+- The site is static: no logins, no database, no server code, nothing a visitor types is stored by us.
+- Everything about a meeting comes from outside sites, so the pipeline treats it as untrusted.
+  `clean_event` in `pipeline/build.py` keeps only full `http(s)` links (completing relative ones
+  against the host's site) and strips control characters before anything is written. The browser
+  code inserts all of it as plain text, never as HTML, and checks links again.
+- A Content-Security-Policy on every page lets scripts load only from this site and the Census
+  geocoder (which the representatives lookup needs; it doesn't support a plain fetch).
+- The workflow gives each job only the permissions it needs, pins GitHub Actions to exact commits
+  and Python packages to exact versions. Bump them on purpose and let the tests run.
+- Tests in `tests/test_normalize.py` cover the link checks and feed/calendar escaping.
+
 ## Run it yourself
 
     pip install -r requirements.txt

@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Get Engaged, Idaho | CivicsID</title>
 <meta name="description" content="See what your city council, county commissioners, library board and the Idaho Legislature are deciding this week, and how to make your voice heard.">
 <meta property="og:site_name" content="CivicsID">
@@ -41,7 +43,7 @@
   <p class="eyebrow light">Community Calendar</p>
   <h1>Find out what your community is deciding this week.</h1>
   <p class="lede">City councils, county commissioners, public hearings and the Legislature, from across Idaho, in one calendar. Pick where you live and we'll show you what's near you.</p>
-  <form class="search" id="search" onsubmit="return false">
+  <form class="search" id="search">
     <div class="field">
       <label for="county">County</label>
       <select id="county"><option value="">All of Idaho</option></select>

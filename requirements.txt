@@ -1,6 +1,8 @@
-requests
-icalendar
-recurring-ical-events
-pyyaml
-pytest
-pypdf
+# Pinned so a surprise upstream release can't change or break the nightly build.
+# Bump these on purpose, then let the tests run.
+requests==2.34.2
+icalendar==7.3.0
+recurring-ical-events==3.8.2
+pyyaml==6.0.3
+pytest==9.2.0
+pypdf==7.1.0

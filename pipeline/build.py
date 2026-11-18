@@ -21,6 +21,7 @@ import re
 import sys
 from datetime import date, datetime, time, timedelta
 from pathlib import Path
+from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
 import yaml
@@ -562,8 +563,10 @@ def fetch_civicplus(src, start_day, end_day, tz):
             if e["id"] in seen or CLOSURE_TITLE.search(e["title"]):
                 continue
             seen.add(e["id"])
-            if not e["url"] or e["url"] == src.get("homepage", ""):
-                e["url"] = src.get("homepage", "") or f"{site}/Calendar.aspx"
+            # CivicPlus feeds put their own feed address in URL, often as a
+            # relative path. Send people to that board's calendar page instead.
+            if not e["url"] or e["url"] == src.get("homepage", "") or "iCalendar.aspx" in e["url"]:
+                e["url"] = f"{site}/Calendar.aspx?CID={cat}"
             events.append(e)
     return events
 
@@ -1529,8 +1532,53 @@ CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics":
 
 # ---------- outputs ----------
 
+CONTROL_CHARS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+
+
+def safe_link(url, base=""):
+    """A full http(s) address, or "" for anything else (javascript:, mailto:,
+    data:, junk). Relative paths are resolved against the host's site."""
+    url = CONTROL_CHARS.sub("", (url or "").strip())
+    if not url:
+        return ""
+    if base and not re.match(r"[a-z][a-z0-9+.-]*:", url, re.I):
+        url = urljoin(base.rstrip("/") + "/", url)
+    if not re.match(r"https?://[^\s\"'<>]+$", url, re.I):
+        return ""
+    return url
+
+
+def clean_event(e, src):
+    """Sanitize one event in place before it's written anywhere. Event text
+    comes from dozens of outside sites, so nothing is trusted as-is."""
+    base = src.get("site") or src.get("homepage") or ""
+    for key in ("url", "agenda_url"):
+        if key in e:
+            e[key] = safe_link(e[key], base)
+    for key, value in list(e.items()):
+        if isinstance(value, str) and key not in ("url", "agenda_url"):
+            e[key] = CONTROL_CHARS.sub("", value)
+        elif key == "highlights" and isinstance(value, list):
+            e[key] = [CONTROL_CHARS.sub("", str(h)) for h in value]
+    if not e.get("url"):
+        e["url"] = safe_link(src.get("homepage", "")) or safe_link(base)
+
+
 def ics_escape(text: str) -> str:
-    return (text or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+    return (text or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\r\n", "\n").replace("\r", "\n").replace("\n", "\\n")
+
+
+def ics_fold(line: str) -> str:
+    """RFC 5545 says lines over 75 bytes are folded onto continuation lines."""
+    out, cur = [], b""
+    for ch in line:
+        b = ch.encode("utf-8")
+        if len(cur) + len(b) > (75 if not out else 74):
+            out.append(cur.decode("utf-8"))
+            cur = b""
+        cur += b
+    out.append(cur.decode("utf-8"))
+    return "\r\n ".join(out)
 
 
 
@@ -1561,12 +1609,15 @@ def update_seen(events, seen, today, baseline=False):
 
 
 def write_feed(path, title, items, site, stamp):
-    from xml.sax.saxutils import escape as x
+    from xml.sax.saxutils import escape
+
+    def x(text):  # safe in element text and in double-quoted attributes
+        return escape(CONTROL_CHARS.sub("", str(text)), {'"': "&quot;"})
     label = {"new": "New meeting", "agenda": "Agenda posted", "cancelled": "Cancelled"}
     entries = []
     for kind, day, e in items[:200]:
         when = e["start"][:10] + ("" if e.get("all_day") else " " + e["start"][11:16])
-        link = e.get("agenda_url") if kind == "agenda" and e.get("agenda_url") else (e.get("url") or site)
+        link = safe_link(e.get("agenda_url") if kind == "agenda" else "") or safe_link(e.get("url")) or site
         summary = f"{e['host']} · {when} ({e.get('tz', '')})" + (f" · {e['location']}" if e.get("location") else "")
         if e.get("highlights"):
             summary += " · On the agenda: " + "; ".join(e["highlights"][:4])
@@ -1605,10 +1656,14 @@ def write_ics(events, path: Path, stamp: datetime, name: str = "Idaho"):
             lines += [f"DTSTART:{start.astimezone(utc).strftime(fmt)}",
                       f"DTEND:{end.astimezone(utc).strftime(fmt)}"]
         summary = ("CANCELLED: " if e["cancelled"] else "") + f"{e['title']} ({e['host']})"
-        lines += [f"SUMMARY:{ics_escape(summary)}", f"LOCATION:{ics_escape(e['location'])}",
-                  f"URL:{e['url']}", "END:VEVENT"]
+        lines += [f"SUMMARY:{ics_escape(summary)}", f"LOCATION:{ics_escape(e['location'])}"]
+        if safe_link(e.get("url")):
+            lines.append(f"URL:{safe_link(e['url'])}")
+        if e["cancelled"]:
+            lines.append("STATUS:CANCELLED")
+        lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
-    path.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    path.write_text("\r\n".join(ics_fold(l) for l in lines) + "\r\n", encoding="utf-8")
 
 
 def apply_source_rules(src, events):
@@ -1686,9 +1741,13 @@ def main() -> int:
     # - meetings "at midnight", which in these feeds means no time was given
     # - office closures ("Closed for Thanksgiving"), which some calendars mix in
     closure = re.compile(r"^\s*(office(s)?\s+)?closed\b|\boffices? closed\b|\bclosed for\b", re.I)
+    # - links that aren't full web addresses, and stray control characters,
+    #   which break the feeds and calendar files (see clean_event)
+    by_id = {src["id"]: src for src in cfg["sources"]}
     seen, cleaned = set(), []
     for e in all_events:
-        if closure.search(e["title"]):
+        clean_event(e, by_id.get(e["source"], {}))
+        if not e["title"] or closure.search(e["title"]):
             continue
         key =(e["source"], e["start"], " ".join(e["title"].lower().split()))
         if key in seen:
@@ -1701,7 +1760,6 @@ def main() -> int:
 
     # A regular-schedule source can name the feeds it stands in for ("yield_to").
     # On any day one of those feeds lists a meeting, the placeholder is dropped.
-    by_id = {src["id"]: src for src in cfg["sources"]}
     real_days = {}
     for e in all_events:
         if not e.get("_scheduled"):

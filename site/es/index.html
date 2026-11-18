@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Participa en Idaho | CivicsID</title>
 <meta name="description" content="Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.">
 <meta property="og:site_name" content="CivicsID">
@@ -41,7 +43,7 @@
   <p class="eyebrow light">Calendario comunitario</p>
   <h1>Entérese de lo que su comunidad decide esta semana.</h1>
   <p class="lede">Concejos municipales, comisionados del condado, audiencias públicas y la Legislatura, de todo Idaho, en un solo calendario. Elija dónde vive y le mostraremos lo que hay cerca.</p>
-  <form class="search" id="search" onsubmit="return false">
+  <form class="search" id="search">
     <div class="field">
       <label for="county">Condado</label>
       <select id="county"><option value="">Todo Idaho</option></select>

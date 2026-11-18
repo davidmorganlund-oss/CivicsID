@@ -5,6 +5,7 @@ the issue opens, so a broken city calendar doesn't go unnoticed.
 Runs after build.py in the nightly workflow; needs the gh CLI and GH_TOKEN.
 """
 import json
+import re
 import subprocess
 import sys
 from datetime import date, timedelta
@@ -65,7 +66,14 @@ def upkeep_items(cfg, today):
     return items
 
 
+def quiet(text):
+    """Meeting names come from outside sites; keep a stray "@name" in one
+    from pinging a real GitHub user."""
+    return re.sub(r"@(?=[A-Za-z0-9])", "@\u2060", text)
+
+
 def sync_issue(title, lines, closing):
+    lines = [quiet(line) for line in lines]
     found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{title}" in:title',
                           "--json", "number,title"))
     issue = next((i["number"] for i in found if i["title"] == title), None)

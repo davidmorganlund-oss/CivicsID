@@ -149,8 +149,9 @@
   function icsLink(e) {
     var p = parts(e.start);
     var stamp = function (q) { return '' + q.y + String(q.mo).padStart(2, '0') + String(q.d).padStart(2, '0'); };
-    var esc = function (s) { return String(s || '').replace(/([\\;,])/g, '\\$1').replace(/\n/g, '\\n'); };
-    var lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//CivicsID//EN', 'BEGIN:VEVENT', 'UID:' + e.id + '@civicsid'];
+    var esc = function (s) { return String(s || '').replace(/([\\;,])/g, '\\$1').replace(/\r\n?|\n/g, '\\n'); };
+    var now = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
+    var lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//CivicsID//EN', 'BEGIN:VEVENT', 'UID:' + e.id + '@civicsid', 'DTSTAMP:' + now];
     if (e.all_day) {
       lines.push('DTSTART;VALUE=DATE:' + stamp(p));
     } else {
@@ -159,7 +160,7 @@
       lines.push('DTSTART;TZID=' + zone + ':' + t(p));
       if (e.end) lines.push('DTEND;TZID=' + zone + ':' + t(parts(e.end)));
     }
-    lines.push('SUMMARY:' + esc(e.title + ' (' + e.host + ')'), 'LOCATION:' + esc(e.location), 'URL:' + (safeUrl(e.url) || ''), 'END:VEVENT', 'END:VCALENDAR');
+    lines.push('SUMMARY:' + esc(e.title + ' (' + e.host + ')'), 'LOCATION:' + esc(e.location), 'URL:' + (safeUrl(e.url) || '').replace(/\s/g, ''), 'END:VEVENT', 'END:VCALENDAR');
     return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(lines.join('\r\n'));
   }
 
@@ -307,6 +308,8 @@
       b.addEventListener('click', function () { state.cat = c.id; render(); });
       $('chips').appendChild(b);
     });
+    // Pressing Enter in the search box shouldn't reload the page.
+    if ($('search')) $('search').addEventListener('submit', function (ev) { ev.preventDefault(); });
     $('more').addEventListener('click', function () { state.days += 14; render(); });
     var timer;
     $('q').value = state.q;
