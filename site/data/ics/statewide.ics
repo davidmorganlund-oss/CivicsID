@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Idaho Legislature
 BEGIN:VEVENT
 UID:9b81eefd6fa4@civicsid
-DTSTAMP:20261119T071105Z
+DTSTAMP:20261119T121050Z
 DTSTART:20261119T160000Z
 DTEND:20261119T170000Z
 SUMMARY:Rural Health Transformation Committee (Idaho Legislature)
@@ -13,7 +13,7 @@ URL:https://legislature.idaho.gov/sessioninfo/2026/interim/rhtc
 END:VEVENT
 BEGIN:VEVENT
 UID:f93731e7872c@civicsid
-DTSTAMP:20261119T071105Z
+DTSTAMP:20261119T121050Z
 DTSTART:20261119T233000Z
 DTEND:20261120T003000Z
 SUMMARY:Citizens' Committee on Legislative Compensation (Idaho Legislature)
@@ -22,7 +22,7 @@ URL:https://legislature.idaho.gov/sessioninfo/2026/interim/comp
 END:VEVENT
 BEGIN:VEVENT
 UID:7e9a51aeaceb@civicsid
-DTSTAMP:20261119T071105Z
+DTSTAMP:20261119T121050Z
 DTSTART:20261120T170000Z
 DTEND:20261120T180000Z
 SUMMARY:Medicaid Review Panel (Idaho Legislature)
