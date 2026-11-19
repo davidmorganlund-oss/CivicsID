@@ -28,17 +28,9 @@
   --display: "Source Serif 4", "Times New Roman", Times, serif;
   --condensed: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ground: #1C1311; --ink: #F7EFE5; --petrol: #F2B8C1; --muted: rgb(247 239 229 / 0.76);
-    --line: rgb(216 190 152 / 0.25); --chip-line: rgb(216 190 152 / 0.5); --tint: rgb(216 190 152 / 0.12); --card: #281B18;
-    --accent: #E3C08F; --accent-soft: rgb(227 192 143 / 0.16); --accent-ink: #F3E3C8;
-    --alert-soft: rgb(242 184 193 / 0.16); --alert-ink: #F2B8C1; --focus: #E3C08F;
-    --hero-bg: #2A1A17; --hero-ink: #F7EFE5; --hero-heading: #F3E3C8; --hero-rule: #9E2B3E;
-    --hero-accent: #E3C08F; --field-line: rgb(216 190 152 / 0.5);
-    --btn-bg: #9E2B3E; --btn-ink: #FFFFFF; --brand-accent: #E3C08F; --brand-navy: #3B1219;
-  }
-}
+/* Always the light wheat look, whatever the device's dark-mode setting.
+   (A dark palette is kept under data-theme="dark" for later use.) */
+:root { color-scheme: light; }
 :root[data-theme="dark"] {
   --ground: #1C1311; --ink: #F7EFE5; --petrol: #F2B8C1; --muted: rgb(247 239 229 / 0.76);
   --line: rgb(216 190 152 / 0.25); --chip-line: rgb(216 190 152 / 0.5); --tint: rgb(216 190 152 / 0.12); --card: #281B18;
