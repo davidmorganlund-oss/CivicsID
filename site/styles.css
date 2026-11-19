@@ -23,7 +23,7 @@
   --hero-bg: var(--wheat); --hero-ink: #2E1D1A; --hero-heading: var(--garnet-dark); --hero-rule: var(--garnet);
   --hero-accent: #8A5A22; --field-line: var(--tan-light);
   --btn-bg: var(--garnet); --btn-ink: #FFFFFF;
-  --brand-accent: var(--tan); --brand-navy: var(--garnet-dark); --notice-focus: var(--wheat);
+  --brand-accent: var(--tan); --brand-badge: #C8102E; --brand-navy: var(--garnet-dark); --notice-focus: var(--wheat);
   --sans: "Inter", Arial, system-ui, sans-serif;
   --display: "Source Serif 4", "Times New Roman", Times, serif;
   --condensed: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
@@ -53,7 +53,7 @@ a { color: var(--petrol); } a:hover { opacity: 0.8; }
 .top { background: var(--card); border-bottom: 1px solid var(--line); }
 .top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-block: 14px; }
 .brand { font-family: var(--display); font-weight: 700; font-size: 28px; text-decoration: none; letter-spacing: -0.01em; color: var(--petrol); }
-.brand span { color: var(--brand-accent); }
+.brand span { color: #FFFFFF; background: var(--brand-badge); border-radius: 0.2em; padding: 0 0.2em; margin-left: 0.1em; }
 .top nav { display: flex; flex-wrap: wrap; gap: 4px 8px; flex-grow: 1; }
 .top nav .short { display: none; }
 .top nav a { padding: 10px 12px; font-family: var(--condensed); font-size: 18px; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 500; text-decoration: none; color: var(--muted); border-bottom: 3px solid transparent; }
