@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-18T23:53:24-07:00</updated>
+  <updated>2026-11-19T00:00:19-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:2e61d1bda62b:new</id>
@@ -19,19 +19,5 @@
     <updated>2026-11-18T12:00:00Z</updated>
     <link href="https://www.bonnercountyid.gov/meetingfiles/102608/agendas/24a1930122dc4e1ea1c633daccc64282.pdf"/>
     <summary>Bonner County · 2026-11-24 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:523db6dab0a0:new</id>
-    <title>New meeting: Special Meeting - Solid Waste (2026-11-18 10:00)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/events/102562/"/>
-    <summary>Bonner County · 2026-11-18 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:523db6dab0a0:agenda</id>
-    <title>Agenda posted: Special Meeting - Solid Waste (2026-11-18 10:00)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/meetingfiles/102562/agendas/d5938008f2d845da9f039ec594448eb1.pdf"/>
-    <summary>Bonner County · 2026-11-18 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
   </entry>
 </feed>

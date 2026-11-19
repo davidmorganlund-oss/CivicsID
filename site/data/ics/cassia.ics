@@ -3,16 +3,8 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Cassia County
 BEGIN:VEVENT
-UID:3a2ba0d578a0@civicsid
-DTSTAMP:20261119T065324Z
-DTSTART;VALUE=DATE:20261118
-SUMMARY:Planning and Zoning Commission Regular Meeting (City of Burley)
-LOCATION:Burley City Hall\, 1401 Overland Avenue
-URL:https://www.burleyidaho.org/AgendaCenter
-END:VEVENT
-BEGIN:VEVENT
 UID:e7fb650f6031@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -21,7 +13,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:8ba77cf1524f@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261130T160000Z
 DTEND:20261130T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -30,7 +22,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:064dddf28e16@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261202T020000Z
 DTEND:20261202T030000Z
 SUMMARY:City Council Meeting (City of Burley)
@@ -39,7 +31,7 @@ URL:https://www.burleyidaho.org/175/City-Council
 END:VEVENT
 BEGIN:VEVENT
 UID:9a980e21de34@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261207T160000Z
 DTEND:20261207T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -48,7 +40,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:e06f34044038@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -57,7 +49,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:0880fc707154@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261216T020000Z
 DTEND:20261216T030000Z
 SUMMARY:City Council Meeting (City of Burley)
@@ -66,7 +58,7 @@ URL:https://www.burleyidaho.org/175/City-Council
 END:VEVENT
 BEGIN:VEVENT
 UID:7cad235efea2@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261221T160000Z
 DTEND:20261221T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -75,7 +67,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:7bebbac98a41@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -84,7 +76,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:6166c5ff5c3c@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20270104T160000Z
 DTEND:20270104T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
@@ -93,7 +85,7 @@ URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:4f1c3f4576db@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20270106T020000Z
 DTEND:20270106T030000Z
 SUMMARY:City Council Meeting (City of Burley)
@@ -102,9 +94,18 @@ URL:https://www.burleyidaho.org/175/City-Council
 END:VEVENT
 BEGIN:VEVENT
 UID:c7fd123b8044@civicsid
-DTSTAMP:20261119T065324Z
+DTSTAMP:20261119T070019Z
 DTSTART:20270111T160000Z
 DTEND:20270111T170000Z
+SUMMARY:Board of County Commissioners (Cassia County)
+LOCATION:Commission Chambers\, Room 206\, 1459 Overland Avenue\, Burley
+URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:7a4164781aec@civicsid
+DTSTAMP:20261119T070019Z
+DTSTART:20270118T160000Z
+DTEND:20270118T170000Z
 SUMMARY:Board of County Commissioners (Cassia County)
 LOCATION:Commission Chambers\, Room 206\, 1459 Overland Avenue\, Burley
 URL:https://www.cassia.gov/media/public-notices/NoticeofMeetings2026.pdf
