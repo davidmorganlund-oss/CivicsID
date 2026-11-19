@@ -36,7 +36,7 @@ def head(title, up, desc, share=None, lang="en"):
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{"CivicsID: Participa, Idaho." if lang == "es" else "CivicsID: Get Engaged, Idaho."}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#002676">
+<meta name="theme-color" content="#7A1F2E">
 <link rel="manifest" href="{up}manifest.webmanifest">
 <link rel="icon" href="{up}icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="{up}apple-touch-icon.png">

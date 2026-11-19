@@ -2,7 +2,7 @@
    Pages, scripts and styles: served from cache right away, refreshed in the
    background. Calendar data (data/*.json): network first, so it's never stale
    when you're online, with the last copy as the fallback offline. */
-var VERSION = 'civicsid-v2';
+var VERSION = 'civicsid-v3';
 var SHELL = ['/', '/index.html', '/styles.css', '/app.js', '/engage.html', '/legislature.html', '/legislature.js',
   '/reps.html', '/reps.js', '/privacy.html', '/es/', '/es/index.html', '/es/engage.html',
   '/fonts/inter-latin-400-normal.woff2', '/fonts/inter-latin-600-normal.woff2', '/fonts/source-serif-4-latin-700-normal.woff2',
