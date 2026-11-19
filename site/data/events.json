@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T05:10:50-07:00",
+ "generated": "2026-11-19T09:37:37-07:00",
  "events": [
   {
    "id": "c27995a7c716",
@@ -59,6 +59,24 @@
    "all_day": false,
    "location": "Hershberger Room, 218 Park Street",
    "url": "https://www.mccall.id.us/Calendar.aspx?EID=1544",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "8ef8301b8ca4",
+   "title": "District Curriculum Committee (DCC) Meeting",
+   "host": "Pocatello/Chubbuck School District 25",
+   "source": "pocatello-schools",
+   "area": "Pocatello",
+   "county": "Bannock",
+   "tz": "MT",
+   "category": "school",
+   "start": "2026-11-19T08:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -707,6 +725,24 @@
    "cancelled": false
   },
   {
+   "id": "d325f2f3ca96",
+   "title": "Special Board Meeting",
+   "host": "West Ada School District",
+   "source": "west-ada-schools",
+   "area": "Meridian",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "school",
+   "start": "2026-11-20T13:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031062",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "90741b2b7d00",
    "title": "Board of County Commissioners",
    "host": "Adams County",
@@ -1213,7 +1249,13 @@
    "url": "https://twinfallsid.portal.civicclerk.com/event/6143/overview",
    "agenda_url": "",
    "note": "",
-   "cancelled": false
+   "cancelled": false,
+   "highlights": [
+    "Discuss Future Redevelopment Strategies in Old Towne-2 Urban Renewal Project Area",
+    "Request to approve the Schedule of Regular Meetings for 2027",
+    "Monday, December 21, 2026 @ 12:00 pm"
+   ],
+   "highlights_more": 0
   },
   {
    "id": "485a78f5ebb8",
@@ -9188,6 +9230,42 @@
    "cancelled": false
   },
   {
+   "id": "46147b5223c3",
+   "title": "Planning and Zoning Commission Work Session",
+   "host": "City of Boise",
+   "source": "boise",
+   "area": "Boise",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-04T17:45:00-07:00",
+   "end": "2027-01-04T18:00:00-07:00",
+   "all_day": false,
+   "location": "City Hall - 3rd Floor Tablerock Room, 150 N. Capitol Blvd",
+   "url": "https://pub-cityofboise.escribemeetings.com/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "27c13fecba13",
+   "title": "Planning and Zoning Commission",
+   "host": "City of Boise",
+   "source": "boise",
+   "area": "Boise",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-04T18:00:00-07:00",
+   "end": "2027-01-04T21:00:00-07:00",
+   "all_day": false,
+   "location": "City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd",
+   "url": "https://pub-cityofboise.escribemeetings.com/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "52dae7c2b16d",
    "title": "City Council Meeting",
    "host": "City of Caldwell",
@@ -10636,6 +10714,42 @@
    "all_day": false,
    "location": "Council Chambers, 911 N 7th Ave",
    "url": "https://www.pocatello.gov/Calendar.aspx?EID=10283",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "6cb4d316d974",
+   "title": "Planning and Zoning Commission Work Session",
+   "host": "City of Boise",
+   "source": "boise",
+   "area": "Boise",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-11T17:45:00-07:00",
+   "end": "2027-01-11T18:00:00-07:00",
+   "all_day": false,
+   "location": "City Hall - 3rd Floor Tablerock Room, 150 N. Capitol Blvd",
+   "url": "https://pub-cityofboise.escribemeetings.com/",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "aabeee768a2c",
+   "title": "Planning and Zoning Commission",
+   "host": "City of Boise",
+   "source": "boise",
+   "area": "Boise",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-11T18:00:00-07:00",
+   "end": "2027-01-11T21:00:00-07:00",
+   "all_day": false,
+   "location": "City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd",
+   "url": "https://pub-cityofboise.escribemeetings.com/",
    "agenda_url": "",
    "note": "",
    "cancelled": false

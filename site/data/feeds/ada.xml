@@ -4,8 +4,43 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T05:10:50-07:00</updated>
+  <updated>2026-11-19T09:37:37-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:aabeee768a2c:new</id>
+    <title>New meeting: Planning and Zoning Commission (2027-01-11 18:00)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-11 18:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:6cb4d316d974:new</id>
+    <title>New meeting: Planning and Zoning Commission Work Session (2027-01-11 17:45)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-11 17:45 (MT) · City Hall - 3rd Floor Tablerock Room, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:27c13fecba13:new</id>
+    <title>New meeting: Planning and Zoning Commission (2027-01-04 18:00)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-04 18:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:46147b5223c3:new</id>
+    <title>New meeting: Planning and Zoning Commission Work Session (2027-01-04 17:45)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-04 17:45 (MT) · City Hall - 3rd Floor Tablerock Room, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:d325f2f3ca96:new</id>
+    <title>New meeting: Special Board Meeting (2026-11-20 13:00)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031062"/>
+    <summary>West Ada School District · 2026-11-20 13:00 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:782858e35638:new</id>
     <title>New meeting: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-11-24 09:15)</title>

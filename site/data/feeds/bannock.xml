@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T05:10:50-07:00</updated>
+  <updated>2026-11-19T09:37:37-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:8ef8301b8ca4:new</id>
+    <title>New meeting: District Curriculum Committee (DCC) Meeting (2026-11-19 08:00)</title>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <link href="https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884"/>
+    <summary>Pocatello/Chubbuck School District 25 · 2026-11-19 08:00 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:64f1aaaf90b5:new</id>
     <title>New meeting: Public Hearing – Adoption of Land Use and Development Ordinance (2026-12-01 11:00)</title>
