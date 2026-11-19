@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-18T10:12:03-07:00</updated>
+  <updated>2026-11-18T23:53:24-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:a05f3e45f69d:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-23)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
+    <summary>Twin Falls County · 2026-11-23 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; Notification for the Purchase of Livescan; 3. Consideration of a SLMV CHIF 2027 Grant Award Agreement; 63-602G</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:a05f3e45f69d:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-11-23)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Monday-11.23.26-1.pdf"/>
+    <summary>Twin Falls County · 2026-11-23 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; Notification for the Purchase of Livescan; 3. Consideration of a SLMV CHIF 2027 Grant Award Agreement; 63-602G</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:c74c4e222444:new</id>
     <title>New meeting: Board of County Commissioners (2026-11-19)</title>

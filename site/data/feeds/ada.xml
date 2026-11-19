@@ -4,7 +4,20 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-18T10:12:03-07:00</updated>
+  <updated>2026-11-18T23:53:24-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:782858e35638:new</id>
+    <title>New meeting: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-11-24 09:15)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://adacounty.id.gov/commissioners/"/>
+    <summary>Ada County · 2026-11-24 09:15 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:fbad701791ca:new</id>
+    <title>New meeting: Board of County Commissioners: Open Business Meeting (2026-11-24 09:00)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://adacounty.id.gov/commissioners/"/>
+    <summary>Ada County · 2026-11-24 09:00 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
+  </entry>
 </feed>

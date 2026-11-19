@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-18T10:12:03-07:00</updated>
+  <updated>2026-11-18T23:53:24-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:7e9a51aeaceb:agenda</id>
@@ -12,5 +12,19 @@
     <updated>2026-11-18T12:00:00Z</updated>
     <link href="https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261120_mrp_1000AM-Agenda.pdf"/>
     <summary>Idaho Legislature · 2026-11-20 10:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:e922059ebb31:new</id>
+    <title>New meeting: Committee on Uniform Accounting and Transparency (2026-11-18)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://legislature.idaho.gov/sessioninfo/2026/interim/uat"/>
+    <summary>Idaho Legislature · 2026-11-18 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:e922059ebb31:agenda</id>
+    <title>Agenda posted: Committee on Uniform Accounting and Transparency (2026-11-18)</title>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <link href="https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/interim/261118_uat_mtg_cancel-Agenda.pdf"/>
+    <summary>Idaho Legislature · 2026-11-18 (MT)</summary>
   </entry>
 </feed>
