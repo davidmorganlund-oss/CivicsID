@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Idaho County
 BEGIN:VEVENT
 UID:4a4a23eada5e@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261124T170000Z
 DTEND:20261124T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -14,7 +14,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:be24a048f90c@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -24,7 +24,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:0fd4d4dbfdc6@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261208T170000Z
 DTEND:20261208T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -34,7 +34,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:9e21a8c8f28c@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261215T170000Z
 DTEND:20261215T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -44,7 +44,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:7bb4000a6bad@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261222T170000Z
 DTEND:20261222T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -54,7 +54,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:66a630f00891@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20261229T170000Z
 DTEND:20261229T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -64,7 +64,7 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:9f19d99ed7bb@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20270105T170000Z
 DTEND:20270105T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
@@ -74,9 +74,19 @@ URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:64923f64c47d@civicsid
-DTSTAMP:20261119T163737Z
+DTSTAMP:20261120T070827Z
 DTSTART:20270112T170000Z
 DTEND:20270112T180000Z
+SUMMARY:Idaho County Commissioners (Idaho County)
+LOCATION:Idaho County Courthouse\, 320 West Main Street\, Grangeville
+URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:451a94d170a2@civicsid
+DTSTAMP:20261120T070827Z
+DTSTART:20270119T170000Z
+DTEND:20270119T180000Z
 SUMMARY:Idaho County Commissioners (Idaho County)
 LOCATION:Idaho County Courthouse\, 320 West Main Street\, Grangeville
 URL:https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes

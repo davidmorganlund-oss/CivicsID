@@ -4,14 +4,35 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T09:37:37-07:00</updated>
+  <updated>2026-11-20T00:08:27-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
-    <id>tag:civicsid.org,2026:8ef8301b8ca4:new</id>
-    <title>New meeting: District Curriculum Committee (DCC) Meeting (2026-11-19 08:00)</title>
-    <updated>2026-11-19T12:00:00Z</updated>
-    <link href="https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031884"/>
-    <summary>Pocatello/Chubbuck School District 25 · 2026-11-19 08:00 (MT)</summary>
+    <id>tag:civicsid.org,2026:8034f5033d95:new</id>
+    <title>New meeting: Library Board Meeting (2027-01-19 16:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.pocatello.gov/Calendar.aspx?EID=8626"/>
+    <summary>City of Pocatello · 2027-01-19 16:00 (MT) · Marshall Public Library, 113 S. Garfield Avenue</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:cbdee71742c9:new</id>
+    <title>New meeting: Community Development Block Grant Advisory Committee Meeting (2027-01-19 12:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.pocatello.gov/Calendar.aspx?EID=8998"/>
+    <summary>City of Pocatello · 2027-01-19 12:00 (MT) · Council Chambers, 911 N 7th Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:48548c0cbc42:new</id>
+    <title>New meeting: City Council Budget Development Special Meeting (2026-12-03 09:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.pocatello.gov/Calendar.aspx?EID=11091"/>
+    <summary>City of Pocatello · 2026-12-03 09:00 (MT) · Council Chambers, 911 N 7th Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:237e896e2773:new</id>
+    <title>New meeting: CDBG Advisory Committee Special Meeting (2026-12-01 11:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.pocatello.gov/Calendar.aspx?EID=11090"/>
+    <summary>City of Pocatello · 2026-12-01 11:00 (MT) · Paradice Conference Room, 911 N 7th Ave</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:64f1aaaf90b5:new</id>

@@ -3,10 +3,11 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Clark County
 BEGIN:VEVENT
-UID:c27995a7c716@civicsid
-DTSTAMP:20261119T163737Z
-DTSTART;VALUE=DATE:20261119
-SUMMARY:Clark County BOCC Special Meeting (Clark County)
+UID:749525e9ec9a@civicsid
+DTSTAMP:20261120T070827Z
+DTSTART;VALUE=DATE:20261124
+SUMMARY:Clark County Commissioners Special Meeting\, 4-H Extension Hiring (
+ Clark County)
 LOCATION:Commissioners' Chambers\, 224 W. Main Street\, Dubois
 URL:https://www.clark-co.id.gov/AgendaCenter
 END:VEVENT

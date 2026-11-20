@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T09:37:37-07:00</updated>
+  <updated>2026-11-20T00:08:27-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:e7c77e9d6e77:new</id>
+    <title>New meeting: City Council Meeting (2027-01-19 17:30)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.ci.jerome.id.us/m/calendar/event/detail/795"/>
+    <summary>City of Jerome · 2027-01-19 17:30 (MT) · Jerome Council Chambers</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:4b784ca92dc6:new</id>
     <title>New meeting: Urban Renewal Agency Meeting (2027-01-07 15:00)</title>

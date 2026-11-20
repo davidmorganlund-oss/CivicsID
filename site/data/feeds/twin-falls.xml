@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T09:37:37-07:00</updated>
+  <updated>2026-11-20T00:08:27-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:b58dd2333216:new</id>
+    <title>New meeting: Urban Renewal Agency (2027-01-19 12:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6157/overview"/>
+    <summary>City of Twin Falls · 2027-01-19 12:00 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:a05f3e45f69d:new</id>
     <title>New meeting: Board of County Commissioners (2026-11-23)</title>
@@ -17,21 +24,7 @@
     <id>tag:civicsid.org,2026:a05f3e45f69d:agenda</id>
     <title>Agenda posted: Board of County Commissioners (2026-11-23)</title>
     <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://twinfallscounty.org/wp-content/uploads/Monday-11.23.26-1.pdf"/>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Monday-11.23.26-2.pdf"/>
     <summary>Twin Falls County · 2026-11-23 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; Notification for the Purchase of Livescan; 3. Consideration of a SLMV CHIF 2027 Grant Award Agreement; 63-602G</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:c74c4e222444:new</id>
-    <title>New meeting: Board of County Commissioners (2026-11-19)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
-    <summary>Twin Falls County · 2026-11-19 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; 2. Consideration of the October 2026 Accounts Payables; 3. Consideration of a proposed Resolution #2027-003 Transferring Funds; 4. Consideration of a CivilPlus Service Agreement</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:c74c4e222444:agenda</id>
-    <title>Agenda posted: Board of County Commissioners (2026-11-19)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://twinfallscounty.org/wp-content/uploads/Thursday-11.19.26.pdf"/>
-    <summary>Twin Falls County · 2026-11-19 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Commissioner minutes; 2. Consideration of the October 2026 Accounts Payables; 3. Consideration of a proposed Resolution #2027-003 Transferring Funds; 4. Consideration of a CivilPlus Service Agreement</summary>
   </entry>
 </feed>

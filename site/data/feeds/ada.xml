@@ -4,8 +4,43 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-19T09:37:37-07:00</updated>
+  <updated>2026-11-20T00:08:27-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:2d9e265873c3:new</id>
+    <title>New meeting: City Council Meeting (2027-01-19 19:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.staridaho.org/Calendar.aspx?EID=394"/>
+    <summary>City of Star · 2027-01-19 19:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:80c377858b6f:new</id>
+    <title>New meeting: Kuna City Regular Council Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://www.kunacity.id.gov/Calendar.aspx?EID=4473"/>
+    <summary>City of Kuna · 2027-01-19 18:00 (MT) · Kuna City Hall Chambers</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:466b1b53389b:new</id>
+    <title>New meeting: City Council Regular Meeting (2027-01-19 18:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://meridianid.portal.civicclerk.com/event/49/overview"/>
+    <summary>City of Meridian · 2027-01-19 18:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:6101632c2148:new</id>
+    <title>New meeting: City Council Work Session (2027-01-19 16:30)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://meridianid.portal.civicclerk.com/event/102/overview"/>
+    <summary>City of Meridian · 2027-01-19 16:30 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:19ec27f7979c:new</id>
+    <title>New meeting: Hearing Examiner (2027-01-04 15:00)</title>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-04 15:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:aabeee768a2c:new</id>
     <title>New meeting: Planning and Zoning Commission (2027-01-11 18:00)</title>
