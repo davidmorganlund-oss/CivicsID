@@ -548,3 +548,67 @@ for page in SITE.rglob("*.html"):
     fixed = re.sub(r'<section class="hero', f'<section aria-label="{label}" class="hero', text)
     if fixed != text:
         page.write_text(fixed)
+
+
+# Search engines: each page names its one true address (canonical), points to
+# its translation (hreflang), and the home pages say who runs the site. Then a
+# sitemap lists every page, and robots.txt points to it.
+def page_url(rel):
+    rel = rel.replace("\\", "/")
+    if rel == "index.html":
+        return SITE_URL
+    if rel.endswith("/index.html"):
+        return SITE_URL + rel[: -len("index.html")]
+    return SITE_URL + rel
+
+
+def twin(rel):
+    """The same page in the other language, or None if it isn't translated."""
+    other = rel[3:] if rel.startswith("es/") else "es/" + rel
+    return other if (SITE / other).exists() else None
+
+
+ORG = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {"@type": "WebSite", "@id": SITE_URL + "#site", "name": "CivicsID", "url": SITE_URL,
+         "inLanguage": ["en", "es"], "publisher": {"@id": "https://barnoneinc.org/#org"},
+         "description": "A free calendar of what Idaho's city councils, county commissions, school and library boards and the Legislature are deciding, with plain-language guides to taking part."},
+        {"@type": "NGO", "@id": "https://barnoneinc.org/#org", "name": "BarNone", "url": "https://barnoneinc.org",
+         "logo": SITE_URL + "barnone-phoenix.png"},
+    ],
+}
+
+pages = sorted(p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html"))
+MARK = "<!-- seo -->"
+for rel in pages:
+    page = SITE / rel
+    text = re.sub(re.escape(MARK) + r".*?" + re.escape(MARK) + "\n", "", page.read_text(), flags=re.S)
+    tags = [f'<link rel="canonical" href="{page_url(rel)}">',
+            f'<meta property="og:url" content="{page_url(rel)}">']
+    other = twin(rel)
+    if other:
+        en, es = (other, rel) if rel.startswith("es/") else (rel, other)
+        tags += [f'<link rel="alternate" hreflang="en" href="{page_url(en)}">',
+                 f'<link rel="alternate" hreflang="es" href="{page_url(es)}">',
+                 f'<link rel="alternate" hreflang="x-default" href="{page_url(en)}">']
+    if rel in ("index.html", "es/index.html"):
+        tags.append('<script type="application/ld+json">' + json.dumps(ORG).replace("</", "<\\/") + "</script>")
+    block = MARK + "\n" + "\n".join(tags) + "\n" + MARK + "\n"
+    page.write_text(text.replace("</head>", block + "</head>", 1))
+
+entries = []
+for rel in pages:
+    links = ""
+    other = twin(rel)
+    if other:
+        en, es = (other, rel) if rel.startswith("es/") else (rel, other)
+        links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{page_url(r)}"/>'
+                        for l, r in (("en", en), ("es", es), ("x-default", en)))
+    entries.append(f"  <url>\n    <loc>{page_url(rel)}</loc>{links}\n  </url>")
+(SITE / "sitemap.xml").write_text(
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+    + "\n".join(entries) + "\n</urlset>\n")
+(SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
+print(f"search pieces written: {len(pages)} pages in the sitemap")
