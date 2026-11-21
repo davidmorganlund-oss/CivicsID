@@ -3,17 +3,8 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Elmore County
 BEGIN:VEVENT
-UID:95a620192c74@civicsid
-DTSTAMP:20261120T121017Z
-DTSTART;VALUE=DATE:20261120
-SUMMARY:Board of County Commissioners (Elmore County)
-LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
- 0 South 4th East\, Mountain Home
-URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
-END:VEVENT
-BEGIN:VEVENT
 UID:b3930e1d6953@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART:20261125T000000Z
 DTEND:20261125T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
@@ -22,7 +13,7 @@ URL:https://www.mountain-home.us/Calendar.aspx?EID=717
 END:VEVENT
 BEGIN:VEVENT
 UID:561227262680@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -31,7 +22,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:bdae5ac5b404@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART:20261209T000000Z
 DTEND:20261209T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)
@@ -40,7 +31,7 @@ URL:https://www.mountain-home.us/Calendar.aspx?EID=718
 END:VEVENT
 BEGIN:VEVENT
 UID:4ad874547ac7@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261211
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -49,7 +40,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:9d2e1b7067ee@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Board of County Commissioners (Elmore County)
 LOCATION:Commissioners Room\, basement of the Elmore County Courthouse\, 15
@@ -58,7 +49,7 @@ URL:https://elmorecounty.org/commissioners/meeting-minutes-2-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:b9c96a727fe2@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART:20261230T000000Z
 DTEND:20261230T040000Z
 SUMMARY:Regular City Council Meeting (City of Mountain Home)

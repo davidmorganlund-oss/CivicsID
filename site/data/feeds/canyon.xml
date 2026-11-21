@@ -4,8 +4,29 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-20T05:10:17-07:00</updated>
+  <updated>2026-11-21T04:56:43-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:a42d54e92963:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-27 08:00)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-27"/>
+    <summary>Canyon County · 2026-11-27 08:00 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: Canyon County Commissioners' Office Closed</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:9d1a57662d2b:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-26 08:00)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-26"/>
+    <summary>Canyon County · 2026-11-26 08:00 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: County Offices Closed in Observance of Thanksgiving</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:7ef62345ed21:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-24 09:30)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-24"/>
+    <summary>Canyon County · 2026-11-24 09:30 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: Meeting with County Attorneys for a Legal Staff Update and to Consider Action Items; Meeting to Consider Matters Related to County Assistance</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:e1107f95e627:new</id>
     <title>New meeting: City Council Meeting (2027-01-18 18:00)</title>

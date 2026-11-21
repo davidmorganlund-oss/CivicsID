@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Franklin County
 BEGIN:VEVENT
 UID:9a32ee189111@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -12,7 +12,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:4a61b035fd99@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -20,7 +20,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:64de299c33e1@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -28,7 +28,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:5bcbb447b8a0@civicsid
-DTSTAMP:20261120T121017Z
+DTSTAMP:20261121T115643Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Board of County Commissioners (Franklin County)
 LOCATION:

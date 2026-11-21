@@ -4,8 +4,36 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-20T05:10:17-07:00</updated>
+  <updated>2026-11-21T04:56:43-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:969df521484b:new</id>
+    <title>New meeting: Health Plan Trustee (2027-01-20 15:30)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/7042/overview"/>
+    <summary>City of Twin Falls · 2027-01-20 15:30 (MT) · 203 Main Ave E, Room 303, Twin Falls</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c90cb7c31d9b:cancelled</id>
+    <title>Cancelled: Public Art Commission (2026-12-01 12:00)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6080/overview"/>
+    <summary>City of Twin Falls · 2026-12-01 12:00 (MT) · 203 Main Ave East, Twin Falls</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c538d1571cf2:new</id>
+    <title>New meeting: Board of County Commissioners (2026-11-24 09:00)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
+    <summary>Twin Falls County · 2026-11-24 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications; Commissioner minutes; 2. Consideration of the Albertson's Opioid Settlement Agreement; develop a Comprehensive Water Management Plan</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c538d1571cf2:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-11-24 09:00)</title>
+    <updated>2026-11-21T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Tuesday-11.24.26.pdf"/>
+    <summary>Twin Falls County · 2026-11-24 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications; Commissioner minutes; 2. Consideration of the Albertson's Opioid Settlement Agreement; develop a Comprehensive Water Management Plan</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:b58dd2333216:new</id>
     <title>New meeting: Urban Renewal Agency (2027-01-19 12:00)</title>
