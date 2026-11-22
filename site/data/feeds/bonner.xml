@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-21T04:56:43-07:00</updated>
+  <updated>2026-11-22T04:54:59-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:b374c167770b:new</id>
+    <title>New meeting: BCASD Meeting (2027-01-21 11:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.bonnercountyid.gov/events/102310/"/>
+    <summary>Bonner County · 2027-01-21 11:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:ab7bc5aaa1b4:new</id>
+    <title>New meeting: EMSAC Meeting (2027-01-21 10:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.bonnercountyid.gov/events/102354/"/>
+    <summary>Bonner County · 2027-01-21 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:da12e277326d:new</id>
     <title>New meeting: Planning Commission (2026-12-01 16:30)</title>

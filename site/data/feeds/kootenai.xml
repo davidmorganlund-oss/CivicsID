@@ -4,8 +4,43 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-21T04:56:43-07:00</updated>
+  <updated>2026-11-22T04:54:59-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:ef7361bdbb60:new</id>
+    <title>New meeting: Hearing Examiner: Community Development - Public Hearing (2027-01-21 18:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5496"/>
+    <summary>Kootenai County · 2027-01-21 18:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:9f202d7fa46f:new</id>
+    <title>New meeting: Board of Trustees Regular Meeting (2027-01-21 14:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://communitylibrary.libcal.com/event/17409310"/>
+    <summary>Community Library Network · 2027-01-21 14:00 (PT) · Post Falls Library, Meeting Room 1, Meeting Room 2</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:f5097a152ebb:new</id>
+    <title>New meeting: Planning &amp; Zoning Commission (2027-01-21 13:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5510"/>
+    <summary>Kootenai County · 2027-01-21 13:30 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:0d7197c288db:new</id>
+    <title>New meeting: BOCC: Human Resources (2027-01-21 10:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5440"/>
+    <summary>Kootenai County · 2027-01-21 10:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:a8c5bc0959ae:new</id>
+    <title>New meeting: Post Falls Urban Renewal Agency Meeting (2027-01-21 09:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://www.postfalls.gov/Calendar.aspx?EID=899"/>
+    <summary>City of Post Falls · 2027-01-21 09:00 (PT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:f6ca84603fff:new</id>
     <title>New meeting: Aquifer Protection District Advisory Board (2027-01-20 16:00)</title>
