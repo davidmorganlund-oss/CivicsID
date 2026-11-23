@@ -1,265 +1,298 @@
 {
- "boardbook 2129": [
-  [
-   "2026-11-18T18:00",
-   "Regular School Board Meeting of the LJSD",
-   "Administrative Offices, 15506 N. Washing"
-  ],
-  [
-   "2026-11-11T18:00",
-   "Executive Session of the LJSD Board of T",
-   "Administrative Offices, 15506 N. Washing"
-  ],
-  [
-   "2026-11-04T18:00",
-   "Special Board Meeting of the LJSD Board ",
-   "Administrative Offices, 15506 N. Washing"
-  ],
-  [
-   "2026-11-02T18:00",
-   "LJSD Policy Committee",
-   "Administrative Offices, 15506 N. Washing"
-  ],
-  [
-   "2026-10-21T18:00",
-   "Regular School Board Meeting of the LJSD",
-   "Administrative Offices, 15506 N. Washing"
-  ]
+ "Meridian Library District": [
+  {
+   "url": "https://www.mld.org/",
+   "final": "https://www.mld.org/",
+   "platform": [],
+   "links": [
+    "https://www.mld.org/about",
+    "https://www.mld.org/board",
+    "https://www.mld.org/board-documents",
+    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=Culture&searchIndex=Keyword&searchSource=local",
+    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=War+Librarian&searchIndex=Keyword&searchSource=local",
+    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=The+Lions+of+Fifth+Avenue&searchIndex=Keyword&searchSource=local",
+    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=Littlest+Library&searchIndex=Keyword&searchSource=local",
+    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=With+Love+from+London&searchIndex=Keyword&searchSource=local"
+   ],
+   "sched": [
+    {
+     "https://www.mld.org/board": [
+      "&nbsp; The Board meets the third Wednesday of each month at 7 p.",
+      " Meetings are held&nbsp;in the program room at the Orchard Park branch and streamed on YouTube Live ."
+     ]
+    }
+   ]
+  }
  ],
- "jefferson": {
-  "final": "https://www.jeffersonsd251.org/",
-  "sched": [
-   "er 4, 2026 5 Day Week- School in Session December 4, 2026 See more details View our Community Announcements The Jefferson School District 251 Board of Trustees regular meeting is scheduled for December 9, at 7:30 a."
-  ],
-  "links": [
-   [
-    "https://www.jeffersonsd251.org/board-of-trustees/",
-    "Board of Trustees"
+ "Nampa Public Library": [
+  {
+   "url": "https://www.nampalibrary.org/",
+   "final": "https://nampalibrary.org/",
+   "platform": [
+    "libcal",
+    "wordpress"
    ],
-   [
-    "https://www.jeffersonsd251.org/board-of-trustees/",
-    "Board of Trustees"
-   ],
-   [
-    "https://www.jeffersonsd251.org/wp-content/uploads/2026/05/Bell-Schedule-26-27.pdf",
-    "2026-2027 School Bell Schedule"
-   ],
-   [
-    "https://www.youtube.com/@jeffersonjointschooldistri2129/streams",
-    "Board Meeting Livestream Link"
-   ],
-   [
-    "https://www.jeffersonsd251.org/board-of-trustees/",
-    "Board of Trustees"
+   "links": [
+    "https://nampalibrary.org/bookmobile/",
+    "https://nampalibrary.org/about-us/library-history/",
+    "https://nampalibrary.org/about-us/mission-values/",
+    "https://nampalibrary.org/about-us/board-of-trustees/",
+    "https://nampalibrary.org/about-us/reports/"
    ]
-  ]
- },
- "mtnhome": {
-  "final": "https://www.mtnhomesd.org/departments/school-board/public-input",
-  "sched": [
-   "sistant/Clerk of the Board including their reason for wanting to be a delegation, or desire to present to the Board no later than the Tuesday prior to the next regular board meeting."
-  ],
-  "links": [
-   [
-    "https://resources.finalsite.net/images/v1762901404/mtnhomesdorg/mtnhomesdorg/yoxqvhttkv9lokolwcrs/MountainHomeSchoolDistrict193favicon_2.png",
-    ".fs_style_1 { } .fs_style_2 { } .fs_style_3 { } .f"
-   ],
-   [
-    "https://www.mtnhomesd.org/about-us/mhsd-history/trustee-history",
-    "Trustee History"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board",
-    "School Board"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/board-meeting-agendas-minutes",
-    "Board Meeting Agendas &amp; Minutes"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/trustee-contact-information",
-    "Trustee Contact Information"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/open-enrollment-information",
-    "Open Enrollment Information"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/trustee-zones",
-    "Trustee Zones"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/calendar",
-    "Calendar"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/continuous-improvement-plan-essr-lea-arp-plan",
-    "Continuous Improvement Plan &amp; ESSR LEA ARP Pla"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/public-input",
-    "Public Input"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/election-information",
-    "Election Information"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/negotiations-and-master-agreement",
-    "Negotiations and Master Agreement"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board/officers-of-the-board",
-    "Officers of the Board"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/policies-and-procedures/board-policy",
-    "Board Policy"
-   ],
-   [
-    "https://www.mtnhomesd.org/departments/school-board",
-    "School Board"
+  }
+ ],
+ "Caldwell Public Library": [
+  {
+   "url": "https://www.caldwellpubliclibrary.org/",
+   "final": "https://www.caldwellpubliclibrary.org/",
+   "platform": [],
+   "links": [
+    "https://static.wixstatic.com/media/f0e5c0_b820f59953ed4fb9a73352bc772a9044%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/f0e5c0_b820f59953ed4fb9a73352bc772a9044%7Emv2.png",
+    "https://www.caldwellpubliclibrary.org/board-of-trustees"
    ]
-  ]
- },
- "mtnhome_notice": {
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mtnhomesd.org/cms/lib/ID50010914/Centricity/Domain/4/NOTICE%20OF%20CHANGE%20OF%20SCHEDULE%"
- },
- "kimberly": {
-  "final": "https://www.kimberly.edu/",
-  "sched": [],
-  "links": []
- },
- "preston": {
-  "final": "https://www.prestonschools.org/boe/board-of-education-information",
-  "sched": [],
-  "links": [
-   [
-    "https://www.prestonschools.org/uploaded/Favicon/favicon.ico",
-    ":root { }       :root { --display-accred-panel: no"
+  }
+ ],
+ "Idaho Falls Public Library": [
+  {
+   "url": "https://www.ifpl.org/",
+   "final": "https://www.ifpl.org/",
+   "platform": [
+    "tribe",
+    "wordpress"
    ],
-   [
-    "https://www.prestonschools.org/boe",
-    "Board of Education"
-   ],
-   [
-    "https://www.prestonschools.org/boe/board-of-education-information",
-    "Board of Education Information"
-   ],
-   [
-    "https://www.prestonschools.org/boe/boe-meetings",
-    "BoE Meetings"
-   ],
-   [
-    "https://www.prestonschools.org/",
-    "Board of Education"
-   ],
-   [
-    "https://www.prestonschools.org/",
-    "Board of Education"
-   ],
-   [
-    "https://www.prestonschools.org/boe",
-    "Board of Education"
-   ],
-   [
-    "https://www.prestonschools.org/boe/board-of-education-information",
-    "Board of Education Information"
-   ],
-   [
-    "https://www.prestonschools.org/boe/boe-meetings",
-    "BoE Meetings"
-   ],
-   [
-    "https://www.prestonschools.org/boe/board-of-education-information",
-    "Board of Education Information"
-   ],
-   [
-    "https://www.prestonschools.org/boe/boe-meetings",
-    "BoE Meetings"
-   ],
-   [
-    "https://www.prestonschools.org/boe",
-    "Board of Education"
-   ],
-   [
-    "https://www.prestonschools.org/boe/board-of-education-information",
-    "Board of Education Information"
-   ],
-   [
-    "https://www.prestonschools.org/boe/boe-meetings",
-    "BoE Meetings"
-   ],
-   [
-    "https://resources.finalsite.net/images/v1769798118/prestonschoolsorg/prestonschoolsorg/prestonschoolsorg/wjxlsr5ib8rnd3zu6jtl/BDMEMB121323.pdf",
-    ""
+   "links": [
+    "https://gmpg.org/xfn/11",
+    "https://www.ifpl.org/library-board/",
+    "https://www.ifpl.org/board/"
    ]
-  ]
- },
- "kuna_cal": {
-  "final": "https://www.kunaschools.org/12218_4",
-  "sched": [],
-  "links": [
-   [
-    "https://www.kunaschools.org/51068_2",
-    "Board of Trustees"
+  }
+ ],
+ "Eagle Public Library": [
+  {
+   "url": "https://www.eaglepubliclibrary.org/",
+   "final": "https://eaglepubliclibrary.org/",
+   "platform": [
+    "tribe",
+    "wordpress"
    ],
-   [
-    "https://www.kunaschools.org/boardhome",
-    "Board of Trustees Home"
+   "links": [
+    "https://eaglepubliclibrary.org/family-place-library-and-playgroup-series/",
+    "https://eaglepubliclibrary.org/about-us/",
+    "https://eaglepubliclibrary.org/about-us/policies/"
    ],
-   [
-    "https://www.kunaschools.org/boardagendas",
-    "Meetings: Agendas and Minutes"
-   ],
-   [
-    "https://www.kunaschools.org/76673_3",
-    "Board Report"
-   ],
-   [
-    "https://www.kunaschools.org/trusteeelection",
-    "Trustee Election"
-   ],
-   [
-    "https://www.kunaschools.org/bellschedules",
-    "School Bell Schedules"
-   ],
-   [
-    "https://www.kunaschools.org/12121_4",
-    "Certified Salary Schedule"
-   ],
-   [
-    "https://www.kunaschools.org/12122_4",
-    "Classified Salary Schedule"
-   ],
-   [
-    "https://www.kunaschools.org/13929_4",
-    "Extracurricular/Activities Salary Schedule"
-   ],
-   [
-    "https://www.kunaschools.org/12123_4",
-    "Administrative Salary Schedule"
-   ],
-   [
-    "https://www.kunaschools.org/51068_2",
-    "Board of Trustees"
-   ],
-   [
-    "https://www.kunaschools.org/boardhome",
-    "Board of Trustees Home"
-   ],
-   [
-    "https://www.kunaschools.org/boardagendas",
-    "Meetings: Agendas and Minutes"
-   ],
-   [
-    "https://www.kunaschools.org/76673_3",
-    "Board Report"
-   ],
-   [
-    "https://www.kunaschools.org/trusteeelection",
-    "Trustee Election"
+   "sched": [
+    {
+     "https://eaglepubliclibrary.org/about-us/": [
+      " The Board meets the third Wednesday of each month at 6:00 pm at Eagle City Hall."
+     ]
+    }
    ]
-  ]
- }
+  }
+ ],
+ "Garden City Public Library": [
+  {
+   "url": "https://www.gardencitylibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.gardencitylibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Kuna Library District": [
+  {
+   "url": "https://www.kunalibrary.org/",
+   "final": "https://kunalibrary.org/",
+   "platform": [
+    "libcal",
+    "wordpress"
+   ],
+   "links": [
+    "https://kunalibrary.org/books-more/board-games/",
+    "https://kunalibrary.org/howdoi/contact-a-board-member/",
+    "https://kunalibrary.org/howdoi/learn-more-about-kuna/"
+   ]
+  }
+ ],
+ "Madison Library District": [
+  {
+   "url": "https://www.madisonlib.org/",
+   "final": "https://www.madisonlib.org/",
+   "platform": [
+    "wordpress"
+   ],
+   "links": [
+    "https://www.madisonlib.org/xmlrpc.php",
+    "https://www.madisonlib.org/about/",
+    "https://www.madisonlib.org/about-us/",
+    "https://www.madisonlib.org/downloadables/"
+   ]
+  }
+ ],
+ "Portneuf District Library": [
+  {
+   "url": "https://www.portneuflibrary.org/",
+   "final": "https://www.portneuflibrary.org/",
+   "platform": [],
+   "links": [
+    "https://www.portneuflibrary.org/library-board.html"
+   ]
+  }
+ ],
+ "Lewiston City Library": [
+  {
+   "url": "https://www.lewistonlibrary.org/",
+   "final": "https://www.lewistonlibrary.org/",
+   "platform": [],
+   "links": [
+    "https://www.lewistonlibrary.org/160/About",
+    "https://www.lewistonlibrary.org/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css"
+   ]
+  }
+ ],
+ "Mountain Home Public Library": [
+  {
+   "url": "https://www.mhlibrary.org/",
+   "final": "https://mhlibrary.org/",
+   "platform": [
+    "libcal",
+    "wordpress"
+   ],
+   "links": [
+    "https://mhlibrary.org/about-the-library/",
+    "https://mhlibrary.org/board-of-trustees/",
+    "https://mhlibrary.org/teen-advisory-board/"
+   ],
+   "sched": [
+    {
+     "https://mhlibrary.org/board-of-trustees/": [
+      " Meeting Schedule The Library Board of Trustees of the Mountain Home Public Library holds regular meetings in the Library Conference Room on the first Thursday of each month at 5:00 p."
+     ]
+    },
+    {
+     "https://mhlibrary.org/teen-advisory-board/": [
+      " Regular meetings&nbsp;will be held on the&nbsp; first &nbsp;and&nbsp; third Fridays at 3:30 p."
+     ]
+    }
+   ]
+  }
+ ],
+ "The Community Library (Ketchum)": [
+  {
+   "url": "https://www.comlib.org/",
+   "final": "https://comlib.org/",
+   "platform": [
+    "libcal",
+    "wordpress"
+   ],
+   "links": [
+    "https://comlib.org/",
+    "https://comlib.org/our-story/staff-directory-and-board-of-directors/"
+   ]
+  }
+ ],
+ "Hailey Public Library": [
+  {
+   "url": "https://www.haileypubliclibrary.org/",
+   "final": "https://haileypubliclibrary.org/",
+   "platform": [
+    "communico",
+    "wordpress"
+   ],
+   "links": [
+    "https://haileypubliclibrary.org/about/hours-and-directions/",
+    "https://haileypubliclibrary.org/about/",
+    "https://haileypubliclibrary.org/about/board-of-trustees/",
+    "https://haileypubliclibrary.org/about/friends-of-the-library/",
+    "https://haileypubliclibrary.org/about/book-and-bake-sale/",
+    "https://haileypubliclibrary.org/about/staff/",
+    "https://haileypubliclibrary.org/about/careers/",
+    "https://haileypubliclibrary.org/about/volunteer/"
+   ]
+  }
+ ],
+ "Jerome Public Library": [
+  {
+   "url": "https://www.jeromepubliclibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.jeromepubliclibrary.org (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://jerome.lib.id.us/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at jerome.lib.id.us (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Blackfoot Public Library": [
+  {
+   "url": "https://www.blackfootlibrary.org/",
+   "final": "https://blackfootlibrary.org/",
+   "platform": [
+    "wordpress"
+   ],
+   "links": [
+    "https://blackfootlibrary.org/boards-committees/"
+   ]
+  }
+ ],
+ "Emmett Public Library": [
+  {
+   "url": "https://www.emmettpubliclibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.emmettpubliclibrary.org (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://emmettlibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at emmettlibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Burley Public Library": [
+  {
+   "url": "https://www.burleypubliclibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.burleypubliclibrary.org (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://burley.lib.id.us/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at burley.lib.id.us (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Rupert DL Evans Bicknell": [
+  {
+   "url": "https://www.rupertlibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.rupertlibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Star Library": [
+  {
+   "url": "https://www.starlibrary.org/",
+   "final": "https://www.starlibrary.org/",
+   "platform": [],
+   "links": [
+    "https://www.starlibrary.org/about/project",
+    "https://www.starlibrary.org/about/service"
+   ]
+  }
+ ],
+ "Bonneville County Library District": [
+  {
+   "url": "https://www.bonnevillelibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.bonnevillelibrary.org (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://bclid.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at bclid.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Payette Public Library": [
+  {
+   "url": "https://www.payettepubliclibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.payettepubliclibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Weiser Public Library": [
+  {
+   "url": "https://www.weiserlibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.weiserlibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Salmon Public Library": [
+  {
+   "url": "https://www.salmonpubliclibrary.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.salmonpubliclibrary.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Sandpoint (East Bonner)": []
 }
