@@ -1,6 +1,191 @@
 {
- "len": 1,
- "committee_snips": [],
- "scripts": [],
- "head": " "
+ "https://sde.idaho.gov/ed-directory.html": "HTTPError('404 Client Error: Not Found for url: https://www.sde.idaho.gov/ed-directory.html')",
+ "https://libraries.idaho.gov/idaho-library-directory/": {
+  "len": 210098,
+  "links": [
+   [
+    "https://libraries.idaho.gov/feed/",
+    "img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-"
+   ],
+   [
+    "https://libraries.idaho.gov/library-programs/adults/",
+    "Adult Services"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
+    "Districting Handbook"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
+    "Idaho Library Laws"
+   ],
+   [
+    "https://libraries.idaho.gov/knowledge-base/library-statistics/",
+    "Idaho Library Statistics"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
+    "Library Survival Guide"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/library-programs/adults/",
+    "Adult Services"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
+    "Districting Handbook"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
+    "Idaho Library Laws"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-statistics/",
+    "Idaho Library Statistics"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
+    "Library Survival Guide"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/a-b-mcdonald-elementary-school/",
+    "A. B. McDonald Elementary School"
+   ],
+   [
+    "https://www.msd281.org/district_schools/district_libraries/elementary_libraries",
+    "https://www.msd281.org/district_schools/district_libraries/e"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/a-h-bush-elementary-school-library/",
+    "A. H. Bush Elementary School Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/a-j-winters-elementary-school-library/",
+    "A. J. Winters Elementary School Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/a-w-johnson-elementary-school/",
+    "A. W. Johnson Elementary School"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/",
+    "Aberdeen District Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/?_page=2&amp;sort=",
+    "Load More"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/about/staff/",
+    "Staff Directory"
+   ]
+  ]
+ },
+ "https://libraries.idaho.gov/idaho-library-directory/categories/public-library/": {
+  "len": 192613,
+  "links": [
+   [
+    "https://libraries.idaho.gov/feed/",
+    "img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-"
+   ],
+   [
+    "https://libraries.idaho.gov/library-programs/adults/",
+    "Adult Services"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
+    "Districting Handbook"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
+    "Idaho Library Laws"
+   ],
+   [
+    "https://libraries.idaho.gov/knowledge-base/library-statistics/",
+    "Idaho Library Statistics"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
+    "Library Survival Guide"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/library-programs/adults/",
+    "Adult Services"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
+    "Districting Handbook"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
+    "Idaho Library Laws"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/idaho-library-statistics/",
+    "Idaho Library Statistics"
+   ],
+   [
+    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
+    "Library Survival Guide"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/categories/district-library/",
+    "District Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/",
+    "Aberdeen District Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library/",
+    "Ada Community Library"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-hidden-springs-branch/",
+    "Ada Community Library - Hidden Springs Branch"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-lake-hazel-branch/",
+    "Ada Community Library - Lake Hazel Branch"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-star-branch/",
+    "Ada Community Library - Star Branch"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/categories/public-library/?_page=2&amp;sort=",
+    "Load More"
+   ],
+   [
+    "https://libraries.idaho.gov/idaho-library-directory/",
+    "Library Locator"
+   ],
+   [
+    "https://libraries.idaho.gov/about/staff/",
+    "Staff Directory"
+   ]
+  ]
+ },
+ "https://libraries.idaho.gov/wp-json/wp/v2/types": "{\"post\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Posts\",\"slug\":\"post\",\"icon\":\"dashicons-admin-post\",\"taxonomies\":[\"category\",\"post_tag\"],\"rest_base\":\"posts\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/posts\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"page\":{\"description\":\"\",\"hierarchical\":true,\"has_archive\":false,\"name\":\"Pages\",\"slug\":\"page\",\"icon\":\"dashicons-admin-page\",\"taxonomies\":[],\"rest_base\":\"pages\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/pages\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"attachment\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Media\",\"slug\":\"attachment\",\"icon\":\"dashicons-admin-media\",\"taxonomies\":[],\"rest_base\":\"media\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/media\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"nav_menu_item\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Navigation Menu Items\",\"slug\":\"nav_menu_item\",\"icon\":null,\"taxonomies\":[\"nav_menu\"],\"rest_base\":\"menu-items\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/menu-items\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_block\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Patterns\",\"slug\":\"wp_block\",\"icon\":null,\"taxonomies\":[\"wp_pattern_category\"],\"rest_base\":\"blocks\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/blocks\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_template\":{\"description\":\"Templates to include in your theme.\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Templates\",\"slug\":\"wp_template\",\"icon\":null,\"taxonomies\":[],\"rest_base\":\"templates\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/templates\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_template_part\":{\"description\":\"Template p",
+ "https://libraries.idaho.gov/wp-json/": "{\"name\":\"Idaho Commission for Libraries\",\"description\":\"We assist libraries to build the capacity to better serve their communities.\",\"url\":\"https:\\/\\/libraries.idaho.gov\",\"home\":\"https:\\/\\/libraries.idaho.gov\",\"gmt_offset\":-7,\"timezone_string\":\"America\\/Boise\",\"page_for_posts\":0,\"page_on_front\":10709,\"show_on_front\":\"page\",\"namespaces\":[\"oembed\\/1.0\",\"ht-ai-search\\/v1\",\"ht-kb\\/v1\",\"ht-kb-settings\\/v1\",\"ht-kb-notifications\\/v1\",\"ht_kb\\/v1\",\"ht-ai-article-writer\\/v1\",\"redirection\\/v1\",\"relevanssi\\/v1\",\"wordfence-login-security\\/v1\",\"wordfence\\/v1\",\"wp-all-import\\/v1\",\"tribe\\/event-aggregator\\/v1\",\"tribe\\/events\\/v1\",\"tribe\\/views\\/v2\",\"tec\\/v2\\/onboarding\",\"tec\\/v1\",\"cptui\\/v1\",\"duplicate-post\\/v1\",\"objectcache\\/v1\",\"awb\",\"wp\\/v2\",\"wp-site-health\\/v1\",\"wp-block-editor\\/v1\",\"wp-abilities\\/v1\"],\"authentication\":[],\"routes\":{\"\\/\":{\"namespace\":\"\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/\"}]}},\"\\/batch\\/v1\":{\"namespace\":\"\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"validation\":{\"type\":\"string\",\"enum\":[\"require-all-validate\",\"normal\"],\"default\":\"normal\",\"required\":false},\"requests\":{\"type\":\"array\",\"maxItems\":25,\"items\":{\"type\":\"object\",\"properties\":{\"method\":{\"type\":\"string\",\"enum\":[\"POST\",\"PUT\",\"PATCH\",\"DELETE\"],\"default\":\"POST\"},\"path\":{\"type\":\"string\",\"required\":true},\"body\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":true},\"headers\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":{\"type\":[\"string\",\"array\"],\"items\":{\"type\":\"string\"}}}}},\"required\":true}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/batch\\/v1\"}]}},\"\\/oembed\\/1.0\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"oembed\\/1.0\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/oembed\\/1.0\"}]}},\"\\/oembed\\/1.0\\/embed\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"url\":{\"description\":\"The URL of the resource for which to fetch oEmbed data.\",\"type\":\"string\",\"format\":\"uri\",\"required\":true},\"format\":{\"default\":\"json\",\"required\":false},\"maxwidth\":{\"default\":600,\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/oembed\\/1.0\\/embed\"}]}},\"\\/oembed\\/1.0\\/proxy\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"url\":{\"description\":\"The URL of the resource for which to fetch oEmbed data.\",\"type\":\"string\",\"format\":\"uri\",\"required\":true},\"format\":{\"description\":\"The oEmbed format to use.\",\"type\":\"string\",\"default\":\"json\",\"enum\":[\"json\",\"xml\"],\"required\":false},\"maxwidth\":{\"description\":\"The maximum width of the embed frame in pixels.\",\"type\":\"integer\",\"default\":600,\"required\":false},\"maxheight\":{\"description\":\"The maximum height of the embed frame in pixels.\","
 }
