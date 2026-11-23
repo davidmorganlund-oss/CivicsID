@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:55:21-07:00",
+ "generated": "2026-11-22T23:04:31-07:00",
  "events": [
   {
    "id": "90741b2b7d00",
@@ -4490,6 +4490,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "ba48cefd03d7",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Blaine County School District 61",
+   "source": "blaine-schools",
+   "area": "Hailey",
+   "county": "Blaine",
+   "tz": "MT",
+   "category": "school",
+   "start": "2026-12-08T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Community Campus, 1050 Fox Acres Road, Hailey",
+   "url": "https://www.blaineschools.org/school-board/trustees/home",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "ca00ec5cfd2f",
@@ -12796,6 +12815,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "b577f9fb462b",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Blaine County School District 61",
+   "source": "blaine-schools",
+   "area": "Hailey",
+   "county": "Blaine",
+   "tz": "MT",
+   "category": "school",
+   "start": "2027-01-12T18:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "Community Campus, 1050 Fox Acres Road, Hailey",
+   "url": "https://www.blaineschools.org/school-board/trustees/home",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "d8a2727501fe",
