@@ -820,3 +820,13 @@ def test_twin_falls_daily_agenda():
                                    "Public hearing: Rezone request, 3600 N Rd"]
     quiet = TF_AGENDA.replace("**Consider", "Consider").replace("**Public", "Public")
     assert build.normalize_daily_agenda(src, quiet, date(2026, 11, 24), "u", tz) == []
+
+
+def test_schedule_skips_state_holidays():
+    from datetime import date
+    from zoneinfo import ZoneInfo
+    src = {"id": "x", "name": "Town", "county": "Ada", "area": "Town", "meetings": [
+        {"title": "City Council Meeting", "when": "4th Thursday", "time": "19:00"},
+        {"title": "Commission", "when": "4th Thursday", "time": "09:00", "meets_on_holidays": True}]}
+    ev = build.fetch_schedule(src, date(2026, 11, 1), date(2026, 11, 30), ZoneInfo("America/Boise"))
+    assert [e["title"] for e in ev] == ["Commission"]  # Nov 26, 2026 is Thanksgiving

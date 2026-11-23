@@ -194,6 +194,17 @@
   }
  },
  "cities": {
+  "American Falls": {
+   "county": "Power",
+   "site": "https://americanfallsid.gov/",
+   "meetings": "https://americanfallsid.gov/minutes-and-agendas/",
+   "mayor": {
+    "name": "Gilbert Hofmeister",
+    "source": "https://americanfallsid.gov/mayor-and-council/",
+    "checked": "2026-11-22"
+   },
+   "council": "https://americanfallsid.gov/mayor-and-council/"
+  },
   "Ammon": {
    "county": "Bonneville",
    "site": "https://cityofammon.us/",
@@ -205,6 +216,17 @@
    },
    "council": "https://cityofammon.us/government/city-council/"
   },
+  "Blackfoot": {
+   "county": "Bingham",
+   "site": "https://www.cityofblackfoot.org/",
+   "meetings": "https://www.cityofblackfoot.org/AgendaCenter",
+   "mayor": {
+    "name": "Scott Stufflebeam",
+    "source": "https://www.cityofblackfoot.org/Directory.aspx?did=16",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
+  },
   "Boise": {
    "county": "Ada",
    "site": "https://www.cityofboise.org/",
@@ -215,6 +237,28 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityofboise.org/departments/city-council/"
+  },
+  "Buhl": {
+   "county": "Twin Falls",
+   "site": "https://www.cityofbuhl.us/",
+   "meetings": "https://www.cityofbuhl.us/council-meeting-documents.html",
+   "mayor": {
+    "name": "Doug Howarth",
+    "source": "https://www.cityofbuhl.us/mayor.html",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.cityofbuhl.us/city-council.html"
+  },
+  "Burley": {
+   "county": "Cassia",
+   "site": "https://www.burleyidaho.org/",
+   "meetings": "https://www.burleyidaho.org/AgendaCenter",
+   "mayor": {
+    "name": "Steve Ormond",
+    "source": "https://www.burleyidaho.org/186/Mayors-Office",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.burleyidaho.org/175/City-Council"
   },
   "Caldwell": {
    "county": "Canyon",
@@ -281,6 +325,17 @@
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
   },
+  "Fruitland": {
+   "county": "Payette",
+   "site": "https://www.fruitland.org/",
+   "meetings": "https://www.fruitland.org/council-agendas",
+   "mayor": {
+    "name": "Kari Peterson",
+    "source": "https://www.fruitland.org/council",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.fruitland.org/council"
+  },
   "Garden City": {
    "county": "Ada",
    "site": "https://gardencityidaho.org/",
@@ -291,6 +346,28 @@
     "checked": "2026-11-17"
    },
    "council": "https://gardencityidaho.org/elected-officials"
+  },
+  "Gooding": {
+   "county": "Gooding",
+   "site": "https://www.goodingidaho.org/",
+   "meetings": "https://www.goodingidaho.org/agendas",
+   "mayor": {
+    "name": "Diane Houser",
+    "source": "https://www.goodingidaho.org/pages/elected-officials",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.goodingidaho.org/pages/elected-officials"
+  },
+  "Grangeville": {
+   "county": "Idaho",
+   "site": "https://grangeville.us/",
+   "meetings": "https://grangeville.us/city-council-agendas/",
+   "mayor": {
+    "name": "Wes Lester",
+    "source": "https://grangeville.us/mayor-and-city-council/",
+    "checked": "2026-11-22"
+   },
+   "council": "https://grangeville.us/mayor-and-city-council/"
   },
   "Hailey": {
    "county": "Blaine",
@@ -314,6 +391,17 @@
     "checked": "2026-11-17"
    }
   },
+  "Heyburn": {
+   "county": "Minidoka",
+   "site": "https://heyburn.id.gov/",
+   "meetings": "https://heyburn.id.gov/agendas",
+   "mayor": {
+    "name": "Chad Anderson",
+    "source": "https://heyburn.id.gov/officials",
+    "checked": "2026-11-22"
+   },
+   "council": "https://heyburn.id.gov/officials"
+  },
   "Idaho Falls": {
    "county": "Bonneville",
    "site": "https://www.idahofallsidaho.gov/",
@@ -323,6 +411,17 @@
     "source": "https://www.eastidahonews.com/?p=802717",
     "checked": "2026-11-17"
    }
+  },
+  "Jerome": {
+   "county": "Jerome",
+   "site": "https://www.ci.jerome.id.us/",
+   "meetings": "https://www.ci.jerome.id.us/agendacenter",
+   "mayor": {
+    "name": "Christopher Barber",
+    "source": "https://www.ci.jerome.id.us/Directory.aspx?DID=25",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.ci.jerome.id.us/Directory.aspx?DID=25"
   },
   "Ketchum": {
    "county": "Blaine",
@@ -334,6 +433,12 @@
     "checked": "2026-11-17"
    },
    "council": "https://ketchumidaho.gov/293/Mayor-City-Council"
+  },
+  "Kimberly": {
+   "county": "Twin Falls",
+   "site": "https://www.cityofkimberly.org/",
+   "meetings": "https://www.cityofkimberly.org/AgendaCenter",
+   "council": "https://www.cityofkimberly.org/319/City-Council"
   },
   "Kuna": {
    "county": "Ada",
@@ -378,6 +483,18 @@
     "checked": "2026-11-17"
    }
   },
+  "Middleton": {
+   "county": "Canyon",
+   "site": "https://middleton.id.gov/",
+   "meetings": "https://middleton.id.gov/public-meetings",
+   "mayor": {
+    "name": "Tim O'Meara",
+    "source": "https://www.kivitv.com/canyon-county/we-want-to-continue-to-follow-her-direction-mayor-omeara-outlines-priorities-for-middleton",
+    "checked": "2026-11-22",
+    "note": "Appointed by the City Council in March 2026 after Mayor Jackie Hutchison died."
+   },
+   "council": "https://middleton.id.gov/departments/city-council"
+  },
   "Moscow": {
    "county": "Latah",
    "site": "https://www.ci.moscow.id.us/",
@@ -409,6 +526,28 @@
     "checked": "2026-11-17"
    }
   },
+  "Orofino": {
+   "county": "Clearwater",
+   "site": "https://cityoforofino.org/",
+   "meetings": "https://cityoforofino.org/document-center/",
+   "mayor": {
+    "name": "Ryan Smathers",
+    "source": "https://cityoforofino.org/meet-the-city-service-team/",
+    "checked": "2026-11-22"
+   },
+   "council": "https://cityoforofino.org/meet-the-city-service-team/"
+  },
+  "Payette": {
+   "county": "Payette",
+   "site": "https://cityofpayette.com/",
+   "meetings": "https://cityofpayette.com/government",
+   "mayor": {
+    "name": "Ray Wickersham",
+    "source": "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&Type=B_BASIC",
+    "checked": "2026-11-22"
+   },
+   "council": "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&Type=B_BASIC"
+  },
   "Pocatello": {
    "county": "Bannock",
    "site": "https://www.pocatello.gov/",
@@ -428,6 +567,17 @@
     "source": "https://www.postfalls.gov/167/Mayor",
     "checked": "2026-11-17"
    }
+  },
+  "Preston": {
+   "county": "Franklin",
+   "site": "https://www.prestonidaho.net/",
+   "meetings": "https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php",
+   "mayor": {
+    "name": "Dan Keller",
+    "source": "https://www.prestonidaho.net/government/mayor___city_council/index.php",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.prestonidaho.net/government/mayor___city_council/index.php"
   },
   "Rathdrum": {
    "county": "Kootenai",
@@ -450,6 +600,78 @@
     "source": "https://www.rexburgid.gov/page/office-of-the-mayor/",
     "checked": "2026-11-17"
    }
+  },
+  "Rigby": {
+   "county": "Jefferson",
+   "site": "https://cityofrigby.gov/",
+   "meetings": "https://cityofrigby.gov/city-council-agendas/",
+   "mayor": {
+    "name": "Nichole Weight",
+    "source": "https://cityofrigby.gov/mayor-and-city-council/",
+    "checked": "2026-11-22"
+   },
+   "council": "https://cityofrigby.gov/mayor-and-city-council/"
+  },
+  "Rupert": {
+   "county": "Minidoka",
+   "site": "https://rupert-idaho.com/",
+   "meetings": "https://rupert-idaho.com/government/agendas-minutes",
+   "mayor": {
+    "name": "Tammy Jones",
+    "source": "https://rupert-idaho.com/government/mayor-council",
+    "checked": "2026-11-22"
+   },
+   "council": "https://rupert-idaho.com/government/mayor-council"
+  },
+  "Salmon": {
+   "county": "Lemhi",
+   "site": "https://www.cityofsalmon.com/",
+   "meetings": "https://www.cityofsalmon.com/page/meeting-schedules",
+   "mayor": {
+    "name": "Todd Nelson",
+    "source": "https://www.cityofsalmon.com/page/mayor-and-council",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.cityofsalmon.com/page/mayor-and-council"
+  },
+  "Sandpoint": {
+   "county": "Bonner",
+   "site": "https://www.sandpointidaho.gov/",
+   "meetings": "https://www.sandpointidaho.gov/meetings",
+   "mayor": {
+    "name": "Jeremy Grimm",
+    "source": "https://www.sandpointidaho.gov/our-government/page/mayor-jeremy-grimm",
+    "checked": "2026-11-17"
+   },
+   "council": "https://www.sandpointidaho.gov/city-council"
+  },
+  "Shelley": {
+   "county": "Bingham",
+   "site": "https://cityofshelley.org/",
+   "meetings": "https://cityofshelley.org/meetings/",
+   "mayor": {
+    "name": "Kim Westergard",
+    "source": "https://cityofshelley.org/city-officials/",
+    "checked": "2026-11-22"
+   },
+   "council": "https://cityofshelley.org/city-officials/"
+  },
+  "Soda Springs": {
+   "county": "Caribou",
+   "site": "https://www.sodaspringsid.com/",
+   "meetings": "https://www.sodaspringsid.com/city/city_council.php",
+   "mayor": {
+    "name": "Paul Gritton",
+    "source": "https://www.sodaspringsid.com/city/mayor_and_council/index.php",
+    "checked": "2026-11-22"
+   },
+   "council": "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
+  },
+  "St. Anthony": {
+   "county": "Fremont",
+   "site": "https://www.cityofstanthony.org/",
+   "meetings": "https://www.cityofstanthony.org/page/city-council",
+   "council": "https://www.cityofstanthony.org/page/city-council"
   },
   "Star": {
    "county": "Ada",
@@ -474,49 +696,16 @@
    },
    "council": "https://tfid.org/133/City-Council"
   },
-  "Blackfoot": {
-   "county": "Bingham",
-   "site": "https://www.cityofblackfoot.org/",
-   "meetings": "https://www.cityofblackfoot.org/AgendaCenter",
+  "Weiser": {
+   "county": "Washington",
+   "site": "https://www.cityofweiser.net/",
+   "meetings": "https://www.cityofweiser.net/agendas",
    "mayor": {
-    "name": "Scott Stufflebeam",
-    "source": "https://www.cityofblackfoot.org/Directory.aspx?did=16",
-    "checked": "2026-11-17"
+    "name": "Herb Haun",
+    "source": "https://www.cityofweiser.net/mayors-corner",
+    "checked": "2026-11-22"
    },
-   "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
-  },
-  "Burley": {
-   "county": "Cassia",
-   "site": "https://www.burleyidaho.org/",
-   "meetings": "https://www.burleyidaho.org/AgendaCenter",
-   "mayor": {
-    "name": "Steve Ormond",
-    "source": "https://www.burleyidaho.org/186/Mayors-Office",
-    "checked": "2026-11-17"
-   },
-   "council": "https://www.burleyidaho.org/175/City-Council"
-  },
-  "Jerome": {
-   "county": "Jerome",
-   "site": "https://www.ci.jerome.id.us/",
-   "meetings": "https://www.ci.jerome.id.us/agendacenter",
-   "mayor": {
-    "name": "Christopher Barber",
-    "source": "https://www.ci.jerome.id.us/Directory.aspx?DID=25",
-    "checked": "2026-11-17"
-   },
-   "council": "https://www.ci.jerome.id.us/Directory.aspx?DID=25"
-  },
-  "Sandpoint": {
-   "county": "Bonner",
-   "site": "https://www.sandpointidaho.gov/",
-   "meetings": "https://www.sandpointidaho.gov/meetings",
-   "mayor": {
-    "name": "Jeremy Grimm",
-    "source": "https://www.sandpointidaho.gov/our-government/page/mayor-jeremy-grimm",
-    "checked": "2026-11-17"
-   },
-   "council": "https://www.sandpointidaho.gov/city-council"
+   "council": "https://www.cityofweiser.net/city-council-members"
   }
  }
 }
