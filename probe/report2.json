@@ -1,359 +1,47 @@
 {
- "districts": [
-  {
-   "name": "LAKE PEND OREILLE SCHOOL DISTRICT",
-   "city": "PONDERAY",
-   "leaid": "1600002"
+ "bb 2093": "Canyon-Owyhee School Service Agency Public View - BoardBook Premier",
+ "bb 2127": "McCall-Donnelly Jt. School District No. 421 Public View - BoardBook Premier",
+ "bb 2607": "Preston Joint School District #201 Public View - BoardBook Premier",
+ "bb 1566": "Estacada School District Public View - BoardBook Premier",
+ "https://filerschools.org/": {
+  "final": "https://filerschools.org/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "error": null
+ },
+ "https://www.buhlschools.org/": {
+  "final": "https://www.buhlschools.org/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "error": null
+ },
+ "https://www.bcsd101.com/board/meeting-schedule": {
+  "final": null,
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bcsd101.com/board/meeting-schedule"
+ },
+ "https://mdsd.org/o/mdsd/page/board-of-trustees": {
+  "final": "https://www.mdsd.org/o/mdsd/page/board-of-trustees",
+  "platform": {
+   "boardbook": [
+    "2127"
+   ]
   },
-  {
-   "name": "ARBON ELEMENTARY DISTRICT",
-   "city": "ARBON",
-   "leaid": "1600090"
-  },
-  {
-   "name": "SALMON RIVER JOINT SCHOOL DISTRICT",
-   "city": "RIGGINS",
-   "leaid": "1600138"
-  },
-  {
-   "name": "AVERY SCHOOL DISTRICT",
-   "city": "CALDER",
-   "leaid": "1600150"
-  },
-  {
-   "name": "BASIN SCHOOL DISTRICT",
-   "city": "IDAHO CITY",
-   "leaid": "1600180"
-  },
-  {
-   "name": "BEAR LAKE COUNTY DISTRICT",
-   "city": "PARIS",
-   "leaid": "1600240"
-  },
-  {
-   "name": "BOUNDARY COUNTY DISTRICT",
-   "city": "BONNERS FERRY",
-   "leaid": "1600420"
-  },
-  {
-   "name": "BUHL JOINT DISTRICT",
-   "city": "BUHL",
-   "leaid": "1600480"
-  },
-  {
-   "name": "CAMAS COUNTY DISTRICT",
-   "city": "FAIRFIELD",
-   "leaid": "1600540"
-  },
-  {
-   "name": "CAMBRIDGE JOINT DISTRICT",
-   "city": "CAMBRIDGE",
-   "leaid": "1600570"
-  },
-  {
-   "name": "CASCADE DISTRICT",
-   "city": "CASCADE",
-   "leaid": "1600630"
-  },
-  {
-   "name": "CASSIA COUNTY JOINT DISTRICT",
-   "city": "BURLEY",
-   "leaid": "1600660"
-  },
-  {
-   "name": "CASTLEFORD DISTRICT",
-   "city": "CASTLEFORD",
-   "leaid": "1600690"
-  },
-  {
-   "name": "CLARK COUNTY DISTRICT",
-   "city": "DUBOIS",
-   "leaid": "1600750"
-  },
-  {
-   "name": "COEUR D'ALENE DISTRICT",
-   "city": "COEUR D'ALENE",
-   "leaid": "1600780"
-  },
-  {
-   "name": "PLUMMER-WORLEY JOINT DISTRICT",
-   "city": "PLUMMER",
-   "leaid": "1600815"
-  },
-  {
-   "name": "COUNCIL DISTRICT",
-   "city": "COUNCIL",
-   "leaid": "1600840"
-  },
-  {
-   "name": "CULDESAC JOINT DISTRICT",
-   "city": "CULDESAC",
-   "leaid": "1600870"
-  },
-  {
-   "name": "BONNEVILLE JOINT DISTRICT",
-   "city": "IDAHO FALLS",
-   "leaid": "1600930",
-   "site": "https://idahofalls.org/",
-   "platform": {},
-   "sched": [],
-   "pdfs": [
-    [
-     "https://www.idahofallsidaho.gov/DocumentCenter/View/19668/2026-CITY-COUNCIL-MEETING-SCHEDULE",
-     "2026 City Council meeting schedule"
-    ]
+  "sched": [],
+  "pdfs": [
+   [
+    "https://fonts.googleapis.com",
+    "window.clientWorkStateTemp = JSON.parse(\"{\\\"host\\\":\\\"www.mdsd.org\\\",\\\"alias\\\":\\\""
    ],
-   "pages": [
-    "https://www.idahofallsidaho.gov/414/Boards-Commissions",
-    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2980",
-    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2975",
-    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2912",
-    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2901",
-    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4103",
-    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4104"
-   ],
-   "final": "https://www.idahofallsidaho.gov/",
-   "title": "Idaho Falls, ID | Official Website"
-  },
-  {
-   "name": "PRESTON JOINT DISTRICT",
-   "city": "PRESTON",
-   "leaid": "1600960"
-  },
-  {
-   "name": "FILER DISTRICT",
-   "city": "FILER",
-   "leaid": "1601050"
-  },
-  {
-   "name": "FIRTH DISTRICT",
-   "city": "FIRTH",
-   "leaid": "1601080"
-  },
-  {
-   "name": "FREMONT COUNTY JOINT DISTRICT",
-   "city": "ST ANTHONY",
-   "leaid": "1601110"
-  },
-  {
-   "name": "GARDEN VALLEY DISTRICT",
-   "city": "GARDEN VALLEY",
-   "leaid": "1601170"
-  },
-  {
-   "name": "GLENNS FERRY JOINT DISTRICT",
-   "city": "GLENNS FERRY",
-   "leaid": "1601230"
-  },
-  {
-   "name": "GOODING JOINT DISTRICT",
-   "city": "GOODING",
-   "leaid": "1601260"
-  },
-  {
-   "name": "HAGERMAN JOINT DISTRICT",
-   "city": "HAGERMAN",
-   "leaid": "1601380"
-  },
-  {
-   "name": "HIGHLAND JOINT DISTRICT",
-   "city": "CRAIGMONT",
-   "leaid": "1601440"
-  },
-  {
-   "name": "HORSESHOE BEND SCHOOL DISTRICT",
-   "city": "HORSESHOE BEND",
-   "leaid": "1601500"
-  },
-  {
-   "name": "JEFFERSON COUNTY JOINT DISTRICT",
-   "city": "RIGBY",
-   "leaid": "1601570"
-  },
-  {
-   "name": "JEROME JOINT DISTRICT",
-   "city": "JEROME",
-   "leaid": "1601590"
-  },
-  {
-   "name": "KELLOGG JOINT DISTRICT",
-   "city": "KELLOGG",
-   "leaid": "1601650"
-  },
-  {
-   "name": "KIMBERLY DISTRICT",
-   "city": "KIMBERLY",
-   "leaid": "1601710"
-  },
-  {
-   "name": "KOOTENAI DISTRICT",
-   "city": "HARRISON",
-   "leaid": "1601740"
-  },
-  {
-   "name": "LAPWAI DISTRICT",
-   "city": "LAPWAI",
-   "leaid": "1601830"
-  },
-  {
-   "name": "LEWISTON INDEPENDENT DISTRICT",
-   "city": "LEWISTON",
-   "leaid": "1601860"
-  },
-  {
-   "name": "MADISON DISTRICT",
-   "city": "REXBURG",
-   "leaid": "1601920"
-  },
-  {
-   "name": "MARSH VALLEY JOINT DISTRICT",
-   "city": "ARIMO",
-   "leaid": "1601950"
-  },
-  {
-   "name": "MARSING JOINT DISTRICT",
-   "city": "MARSING",
-   "leaid": "1601980"
-  },
-  {
-   "name": "MCCALL-DONNELLY JOINT SCHOOL DISTRICT",
-   "city": "MCCALL",
-   "leaid": "1602030"
-  },
-  {
-   "name": "MEADOWS VALLEY DISTRICT",
-   "city": "NEW MEADOWS",
-   "leaid": "1602060"
-  },
-  {
-   "name": "MELBA JOINT DISTRICT",
-   "city": "MELBA",
-   "leaid": "1602070"
-  },
-  {
-   "name": "JOINT SCHOOL DISTRICT NO. 2",
-   "city": "MERIDIAN",
-   "leaid": "1602100"
-  },
-  {
-   "name": "MIDDLETON DISTRICT",
-   "city": "MIDDLETON",
-   "leaid": "1602130"
-  },
-  {
-   "name": "MINIDOKA COUNTY JOINT DISTRICT",
-   "city": "RUPERT",
-   "leaid": "1602190"
-  },
-  {
-   "name": "MOSCOW DISTRICT",
-   "city": "MOSCOW",
-   "leaid": "1602220"
-  },
-  {
-   "name": "MOUNTAIN HOME DISTRICT",
-   "city": "MOUNTAIN HOME",
-   "leaid": "1602250"
-  },
-  {
-   "name": "MULLAN DISTRICT",
-   "city": "MULLAN",
-   "leaid": "1602280"
-  },
-  {
-   "name": "NAMPA SCHOOL DISTRICT",
-   "city": "NAMPA",
-   "leaid": "1602340"
-  },
-  {
-   "name": "NEW PLYMOUTH DISTRICT",
-   "city": "NEW PLYMOUTH",
-   "leaid": "1602370"
-  },
-  {
-   "name": "NEZPERCE JOINT DISTRICT",
-   "city": "NEZPERCE",
-   "leaid": "1602400",
-   "site": "https://www.nezpercesd.us/",
-   "platform": {},
-   "sched": [],
-   "pdfs": [],
-   "pages": [
-    "https://www.nezpercesd.us/school/about-our-school"
-   ],
-   "final": "https://www.nezpercesd.us/",
-   "title": "Nezperce Schools"
-  },
-  {
-   "name": "NORTH GEM DISTRICT",
-   "city": "BANCROFT",
-   "leaid": "1602430"
-  },
-  {
-   "name": "ONEIDA COUNTY DISTRICT",
-   "city": "MALAD",
-   "leaid": "1602490"
-  },
-  {
-   "name": "POST FALLS DISTRICT",
-   "city": "POST FALLS",
-   "leaid": "1602670"
-  },
-  {
-   "name": "POTLATCH DISTRICT",
-   "city": "POTLATCH",
-   "leaid": "1602700"
-  },
-  {
-   "name": "PRAIRIE ELEMENTARY DISTRICT",
-   "city": "PRAIRIE",
-   "leaid": "1602730"
-  },
-  {
-   "name": "ROCKLAND DISTRICT",
-   "city": "ROCKLAND",
-   "leaid": "1602820"
-  },
-  {
-   "name": "SOUTH LEMHI DISTRICT",
-   "city": "LEADORE",
-   "leaid": "1603030"
-  },
-  {
-   "name": "TETON COUNTY DISTRICT",
-   "city": "DRIGGS",
-   "leaid": "1603180"
-  },
-  {
-   "name": "THREE CREEK JOINT ELEMENTARY DISTRICT",
-   "city": "ROGERSON",
-   "leaid": "1603210"
-  },
-  {
-   "name": "TWIN FALLS DISTRICT",
-   "city": "TWIN FALLS",
-   "leaid": "1603240"
-  },
-  {
-   "name": "VALLEY DISTRICT",
-   "city": "HAZELTON",
-   "leaid": "1603270"
-  },
-  {
-   "name": "WALLACE DISTRICT",
-   "city": "SILVERTON",
-   "leaid": "1603300"
-  },
-  {
-   "name": "WEST JEFFERSON DISTRICT",
-   "city": "TERRETON",
-   "leaid": "1603400"
-  }
- ],
- "pdfs": {
-  "mountainview": "RobotsBlocked('robots.txt at files.smartsites.parentsquare.com asks automated readers not to read /10900/board_meeting_schedule_2026-2027.pdf')",
-  "kendrick": "Kendrick Joint School District #283 2026 Board Meeting Calendar Date Time Location Wednesday, January 21st 7PM Kendrick High School Library Wednesday, February 18th 7PM Kendrick High School Library Wednesday, March 18th 7PM Kendrick High School Library Wednesday, April 15th 7PM Kendrick High School Library Wednesday, May 20th 7PM Kendrick High School Library Monday, June 15th 7AM Kendrick High School Library Monday, July 13th 7AM Kendrick High School Library Monday, August 17th 7AM Kendrick High School Library Wednesday, September 16th 7PM Kendrick High School Library Wednesday, October 21st 7PM Kendrick High School Library Wednesday, November 18th 7PM Kendrick High School Library Wednesday, December 16th 7PM Kendrick High School Library *Note: Summer Meetings will be held at 7:00AM",
-  "kamiah": "2026 Board and Board Meeting Schedule - Kamiah School District Skip to content Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Phone-alt Icon-facebook Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Icon-facebook 2026 Board and Board Meeting Schedule Meet The board Zone 1 Rikki Simler rsimle@kamiah.org (Board Chair) Zone 2 Tom Rodriguez trodriguez@kamiah.org Zone 3 Damon Keen dkeen@kamiah.org Zone 4 Terri Skinner terriskinner@kamiah.org Zone 5 Dona Simmons Board Meeting Schedule 2026 Regular Board Meetings Executive Session \u2013 6:00 Open Session \u2013 6:30 High School Library Wednesday January 14, 2026 Tuesday February 17, 2026 Monday March 16, 2026 Monday April 20, 2026 Monday May 18, 2026 Monday June 15, 2026 Monday July 20, 2026 Monday August 17, 2026 Monday September 21, 2026 Monday, October 19, 2026 Monday November 16, 2026 Monday December 21, 2026 *The Board of Trustees may meet earlier for Executive Session to accomodate for time allowed* contact the board clerk Tracy Lynde, Board Clerk 208-935-4003 tlynde@kam",
-  "bruneau": "NOTICE OF SCHEDULE OF REGULAR MEETINGS OF THE BOARD OF TRUSTEES JOINT SCHOOL DISTSRICT NO. 365 ELMORE-OWYHEE COUNTY, IDAHO NOTICE IS HEREBY GIVEN, that the regular meeting of the Board of Trustees of Joint School District No. 365, Bruneau Grand View, will be held for the conduct of business at 7 p.m. at Rimrock School Library on the following Tuesdays of each month through January 2027 unless the Board duly cancels such regular meeting or, by resolution and written notice, changes the day of the week designated for regular meetings of the Board. February 10, 2026 (1 p.m. Rimrock) March 10, 2026 (1 p.m. Grand View School) April 14, 2026 May 12, 2026 June 09, 2026 (Budget Hearing) July 14, 2026 August 11, 2026 September 8, 2026 October 13, 2026 November 10, 2026 (1 p.m. Bruneau Elementary School) December 08, 2026 January 12, 2027 (Annual Meeting) PUBLIC PLACES FOR POSTING OF PUBLIC NOTICES The public places for the posting of public notices from Joint School District No. 365 Are designated as: Rimrock School \u2013District Administrative Office www@sd365.us District Website Courtesy Postings-Bruneau Elementary-Grand View Elementary Said regular meetings of the Board of Trustees are held pursuant to Section 33-510, Idaho Code. Dated the 13 th day of January 2026 JayDene Aquiso Business Manager/Clerk Joint School District No. 365 Elmore and Owyhee Counties"
+   [
+    "https://fonts.googleapis.com",
+    "window.clientWorkStateTemp = JSON.parse(\"{\\\"host\\\":\\\"www.mdsd.org\\\",\\\"alias\\\":nu"
+   ]
+  ],
+  "error": null
  }
 }
