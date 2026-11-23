@@ -9,9 +9,23 @@ import sweeplib
 from sweeplib import scan_site, text
 sweeplib.SCHED = re.compile(r"[^.]{0,200}(?:council (?:meets|will meet|holds|meetings? (?:are|is) held)|regular(?:ly)? (?:scheduled )?(?:city )?(?:council |commission )?meetings? (?:are|is|will be) (?:held|scheduled)|meets? (?:on )?the (?:first|second|third|fourth|last|1st|2nd|3rd|4th)|(?:first|second|third|fourth|last|1st|2nd|3rd|4th)(?: and (?:first|second|third|fourth|last|1st|2nd|3rd|4th))? (?:Monday|Tuesday|Wednesday|Thursday|Friday)s? of (?:each|every|the) month)[^.]{0,220}\.", re.I)
 UA = {"User-Agent": build.UA}
-rows = requests.get("https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N&for=place:*&in=state:16", headers=UA, timeout=60).json()[1:]
-cities = [(re.sub(r" city, Idaho$", "", n), int(p)) for n, p, *_ in rows if n.endswith(" city, Idaho")]
+import html as HH
+build.check_robots("https://en.wikipedia.org/wiki/List_of_cities_in_Idaho")
+wh = requests.get("https://en.wikipedia.org/wiki/List_of_cities_in_Idaho", headers=UA, timeout=60).text
+tbl = wh[wh.find('<table class="wikitable'):]
+tbl = tbl[:tbl.find('</table>')]
+cities = []
+for row in re.findall(r"<tr>(.*?)</tr>", tbl, re.S):
+    cells = re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", row, re.S)
+    if len(cells) < 3: continue
+    name = HH.unescape(re.sub(r"<[^>]+>", "", cells[0])).strip()
+    name = re.sub(r"\[.*?\]|†|\*", "", name).strip()
+    county = HH.unescape(re.sub(r"<[^>]+>", "", cells[1] if len(cells) > 1 else "")).strip()
+    nums = [int(x.replace(",", "")) for x in re.findall(r"\b\d{1,3}(?:,\d{3})+\b|\b\d{2,6}\b", re.sub(r"<[^>]+>", " ", " ".join(cells[2:4])))]
+    if name and not name.lower().startswith("name"):
+        cities.append((name, nums[0] if nums else 0, county))
 cities.sort(key=lambda x: -x[1])
+print("cities parsed", len(cities), cities[:3])
 def slug(s): return re.sub(r"[^a-z]", "", s.lower())
 def guess(name):
     s = slug(name)
@@ -29,9 +43,9 @@ def guess(name):
             continue
     return None
 def do(c):
-    name, pop = c
+    name, pop, county = c
     site = guess(name)
-    rec = {"name": name, "pop": pop}
+    rec = {"name": name, "pop": pop, "county": county}
     if site: rec.update(scan_site(site))
     return rec
 with ThreadPoolExecutor(10) as ex:
