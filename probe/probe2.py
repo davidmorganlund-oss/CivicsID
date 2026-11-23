@@ -1,14 +1,17 @@
-import json, re, sys
+import json, re, sys, html as H
 from pathlib import Path
-from urllib.parse import urljoin
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
-import build
+import build, requests
 out = {}
-for home in ["https://www.cityofkamiah.org/", "https://www.oakleyidaho.org/", "https://www.duboisidaho.gov/"]:
+out["robots"] = requests.get("https://www.oakleyidaho.org/robots.txt", headers={"User-Agent": build.UA}, timeout=30).text[:500]
+for u in ["https://www.oakleyidaho.org/agendas", "https://www.oakleyidaho.org/calendar-of-events", "https://www.cityofkamiah.org/meeting-agendas-and-minutes", "https://www.duboisidaho.gov/agendas"]:
     try:
-        h = build.get(home).text
-        out[home] = {"gen": re.findall(r'<meta[^>]+generator[^>]+>', h)[:3], "powered": re.findall(r"[Pp]owered by[^<]{0,80}|catalis|govoffice|municipalimpact|revize|civicplus|thrillshare|apptegy|edlio|wix|squarespace|govstack|granicus|vision|govpilot|seamlessdocs", h)[:6],
-                     "links": sorted({urljoin(home, a) for a in re.findall(r'href="([^"#]+)"', h) if re.search(r"agenda|meeting|calendar|event|council|feed|ics|rss", a, re.I)})[:25]}
+        h = build.get(u).text
+        body = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", h)
+        out[u] = {"text": " ".join(H.unescape(re.sub(r"<[^>]+>", " ", body)).split())[:2500],
+                  "links": re.findall(r'href="([^"]+)"[^>]*>([^<]{0,80})<', body)[:40],
+                  "scripts": [s[:300] for s in re.findall(r"<script[^>]*>(.*?)</script>", h, re.S) if re.search(r"event|agenda|calendar", s, re.I)][:3],
+                  "apis": sorted(set(re.findall(r"[\"'](/api/[^\"']+|https://[^\"']*municipalimpact[^\"']*)[\"']", h)))[:15]}
     except Exception as exc:
-        out[home] = repr(exc)[:200]
+        out[u] = repr(exc)[:200]
 Path(__file__).with_name("report2.json").write_text(json.dumps(out, indent=1))
