@@ -1456,6 +1456,109 @@ def fetch_pdf_agendas(src, start_day, end_day, tz):
     return events
 
 
+# --- Daily agenda PDFs listed on one page (Twin Falls County) ---
+
+DAILY_AGENDA_LINK = re.compile(r'href="([^"]*/(?:Monday|Tuesday|Wednesday|Thursday|Friday)-(\d{1,2})\.(\d{1,2})\.(\d{2})[^"/]*\.pdf)"', re.I)
+AGENDA_CLOCK = re.compile(r"^\s*(\d{1,2}):(\d{2})\s*([ap])\.?m\.?", re.I)
+
+
+def normalize_daily_agenda(src, text, day, url, tz):
+    """One commissioners' agenda for one day. Many days only list commissioners
+    attending other groups' meetings; a meeting is listed only when the agenda
+    has action items (marked **), which are the county's own business."""
+    items, first = [], None
+    for raw in text.splitlines():
+        line = " ".join(raw.split())
+        if "**" not in line or re.search(r"Items marked with|^\*\*ACTION ITEM\*\*$|called\.\s*\*\*ACTION ITEM", line, re.I):
+            continue
+        clock = AGENDA_CLOCK.match(line)
+        if clock and first is None:
+            first = _clock(clock.group(1), clock.group(2), clock.group(3) + "m")
+        item = AGENDA_CLOCK.sub("", line).replace("**", "").strip(" .-")
+        if item:
+            items.append(item)
+    if not items:
+        return []
+    ev = make_event(src, title=src.get("meeting_title", "Board of County Commissioners"),
+                    start=datetime.combine(day, first or time(0, 0), tz), all_day=first is None,
+                    location=src.get("default_location", ""), url=src.get("homepage", url), agenda_url=url,
+                    uid=f"agenda-{day.isoformat()}")
+    ev["highlights"] = items[:6]
+    return [ev]
+
+
+def fetch_daily_agendas(src, start_day, end_day, tz):
+    import io
+    import pypdf
+    page = get(src["list_url"]).text
+    events, seen = [], set()
+    for href, mo, dy, yr in DAILY_AGENDA_LINK.findall(page):
+        try:
+            day = date(2000 + int(yr), int(mo), int(dy))
+        except ValueError:
+            continue
+        if not start_day <= day <= end_day or day in seen:
+            continue
+        seen.add(day)
+        url = urljoin(src["list_url"], href)
+        reader = pypdf.PdfReader(io.BytesIO(get(url).content))
+        text = "\n".join(pg.extract_text() or "" for pg in reader.pages)
+        events += normalize_daily_agenda(src, text, day, url, tz)
+    return events
+
+
+# --- Tyler Meeting Manager calendars (Bonneville County) ---
+
+def normalize_tyler_mm(src, items, tz):
+    """Meetings from a Tyler Meeting Manager calendar. Only the meeting types the
+    source lists are kept (a county may also post closures and notices of a
+    commissioner attending someone else's meeting). Types listed under
+    agenda_only show up only once an agenda is posted, which keeps a daily
+    "administrative business" placeholder off the calendar."""
+    import html as htmllib
+    keep = {int(t) for t in src.get("meeting_types", [])}
+    agenda_only = {int(t) for t in src.get("agenda_only", [])}
+    page = src.get("homepage", "")
+    events = []
+    for m in items:
+        kind = m.get("meetingTypeId")
+        if keep and kind not in keep:
+            continue
+        topics = [t for t in (m.get("agendaItemTitles") or []) if t]
+        if kind in agenda_only and not topics:
+            continue
+        try:
+            day = datetime.strptime((m.get("actualStartDate") or "")[:10], "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        def clock(value):
+            mt = re.match(r"\s*(\d{1,2}):(\d{2})\s*([AP]M)", value or "", re.I)
+            return _clock(*mt.groups()) if mt else None
+        st, en = clock(m.get("startTime")), clock(m.get("endTime"))
+        start = datetime.combine(day, st or time(0, 0), tz)
+        end = datetime.combine(day, en, tz) if st and en and en > st else None
+        title = " ".join(htmllib.unescape(m.get("meetingTitle") or m.get("meetingTypeName") or "").split())
+        if m.get("canceled"):
+            title += " - CANCELLED"
+        ev = make_event(src, title=title, start=start, end=end, all_day=st is None,
+                        location=" ".join((m.get("location") or "").split()) or src.get("default_location", ""),
+                        url=page, uid=f"tyler-{m.get('id')}")
+        if topics:
+            ev["highlights"] = [" ".join(htmllib.unescape(t).split()) for t in topics[:6]]
+        events.append(ev)
+    return events
+
+
+def fetch_tyler_mm(src, start_day, end_day, tz):
+    import requests
+    url = src["api"].rstrip("/") + "/meetingInformation/getMeetingInformationByDate"
+    check_robots(url)
+    resp = requests.post(url, json={"startDate": start_day.strftime("%m/%d/%Y"), "endDate": end_day.strftime("%m/%d/%Y"),
+                                    "meetingTypeIds": []}, headers={"User-Agent": UA}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return normalize_tyler_mm(src, resp.json(), tz)
+
+
 # --- "Next meeting" notice on a county page (Lewis County, DNN) ---
 
 def normalize_next_meeting(src, page, page_url, tz):
@@ -1713,7 +1816,7 @@ def fetch_legislature(src, start_day, end_day, tz):
 
 CONNECTORS = {"legistar": fetch_legistar, "civicclerk": fetch_civicclerk, "ics": fetch_ics,
               "bibliocommons": fetch_bibliocommons, "municode": fetch_municode, "mec_rss": fetch_mec_rss,
-              "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus,
+              "govaccess_rss": fetch_govaccess_rss, "civicplus": fetch_civicplus, "tyler_mm": fetch_tyler_mm, "daily_agendas": fetch_daily_agendas,
               "primegov": fetch_primegov, "civicweb": fetch_civicweb,
               "schedule": fetch_schedule, "iqm2_rss": fetch_iqm2_rss, "boardbook": fetch_boardbook,
               "libcal": fetch_libcal, "mec_library": fetch_mec_library, "tribe": fetch_tribe,
