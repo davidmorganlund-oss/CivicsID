@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Custer County
 BEGIN:VEVENT
 UID:91c2aa9391d0@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Custer County)
 LOCATION:
@@ -13,7 +13,7 @@ URL:https://custercountyidaho.org/departments/commissioners/agendas-and-min
 END:VEVENT
 BEGIN:VEVENT
 UID:d518a7750552@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Custer County)
 LOCATION:
@@ -22,7 +22,7 @@ URL:https://custercountyidaho.org/departments/commissioners/agendas-and-min
 END:VEVENT
 BEGIN:VEVENT
 UID:07242e625ec4@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART:20261215T020000Z
 DTEND:20261215T030000Z
 SUMMARY:Board of Trustees Meeting (Mackay Joint School District 182)
@@ -31,7 +31,7 @@ URL:https://www.mackayschools.org/our-district/district-office/school-board
 END:VEVENT
 BEGIN:VEVENT
 UID:06622a6cdbf4@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Custer County)
 LOCATION:
@@ -40,7 +40,7 @@ URL:https://custercountyidaho.org/departments/commissioners/agendas-and-min
 END:VEVENT
 BEGIN:VEVENT
 UID:1b6ba45f7c14@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Board of County Commissioners (Custer County)
 LOCATION:
@@ -49,7 +49,7 @@ URL:https://custercountyidaho.org/departments/commissioners/agendas-and-min
 END:VEVENT
 BEGIN:VEVENT
 UID:5a3ed3fbd920@civicsid
-DTSTAMP:20261123T064129Z
+DTSTAMP:20261123T065332Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:Board of Trustees Meeting (Mackay Joint School District 182)
