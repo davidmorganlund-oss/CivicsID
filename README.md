@@ -67,7 +67,9 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | City of Kimberly | Twin Falls | CivicPlus Agenda Center + published schedule | `agendacenter`, `schedule` | Council |
 | Middleton, Payette, Fruitland, Rupert, Weiser, Preston, Rigby, Shelley, American Falls, Buhl, St. Anthony, Gooding, Heyburn, Grangeville, Orofino, Salmon, Soda Springs | various | Published regular schedules | `schedule` | Read from each city's own pages (Nov 2026); agendas stay on the city's site. American Falls doesn't publish its council start time. Grangeville and Orofino are on Pacific time |
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
-| West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25 school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
+| West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25, Middleton, Emmett, Lewiston, Fremont County school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
+| Bonneville D93 and Minidoka County school districts | various | BoardBook | `boardbook` | |
+| Twin Falls, Madison, Blackfoot, Lake Pend Oreille, Shelley, Caldwell, Vallivue and Moscow school districts | various | Published board schedules and dates | `schedule` | Read from each district's own pages (Nov 2026); recheck each January |
 | Coeur d'Alene Public Schools | Kootenai | Published schedule | `schedule` | Its meetings portal asks automated readers to stay away |
 | Ada Community, Twin Falls and Marshall (Pocatello) libraries | various | Published board schedules | `schedule` | Boise Public Library's board comes through Boise's eScribe |
 

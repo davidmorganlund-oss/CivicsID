@@ -1877,3 +1877,197 @@ sources:
         location: Soda Springs City Hall, 9 West 2nd South
         category: council
         url: https://www.sodaspringsid.com/city/planning_and_zoning.php
+
+  # --- More school districts (added Nov 2026) ---
+
+  - id: bonneville-schools
+    name: Bonneville Joint School District 93
+    type: boardbook
+    organization: 1349
+    county: Bonneville
+    area: Ammon
+    default_category: school
+    homepage: https://www.d93schools.org/school-board
+
+  - id: minidoka-schools
+    name: Minidoka County School District 331
+    type: boardbook
+    organization: 2041
+    county: Minidoka
+    area: Rupert
+    default_category: school
+    homepage: https://meetings.boardbook.org/Public/Organization/2041
+
+  - id: middleton-schools
+    name: Middleton School District 134
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030890
+    county: Canyon
+    area: Middleton
+    homepage: https://www.msd134.org/school-board/meetings
+
+  - id: emmett-schools
+    name: Emmett Independent School District 221
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030867
+    county: Gem
+    area: Emmett
+    homepage: https://www.emmettschools.org/school-board-trustees/school-board
+
+  - id: lewiston-schools
+    name: Lewiston Independent School District 1
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908
+    county: Nez Perce
+    area: Lewiston
+    timezone: America/Los_Angeles
+    homepage: https://www.lewistonschools.net/page/school-board-meetings
+
+  - id: fremont-schools
+    name: Fremont County Joint School District 215
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031552
+    county: Fremont
+    area: St. Anthony
+    homepage: https://www.sd215.net/
+
+  # The district's adopted 2026 meeting dates (school board page): "January
+  # 2026 through January 2027 ... Meetings will begin at 7:00 p.m. and will be
+  # held at 160 Gooding Street West, Twin Falls, Idaho, unless otherwise specified."
+  - id: twin-falls-schools
+    name: Twin Falls School District 411
+    type: schedule
+    county: Twin Falls
+    area: Twin Falls
+    homepage: https://www.tfsd.org/page/school-board
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        dates: [2026-12-14]
+        time: "19:00"
+        location: 160 Gooding Street West, Twin Falls
+        category: school
+        url: https://www.tfsd.org/page/school-board
+      - title: Board of Trustees Organizational/Annual Meeting
+        dates: [2027-01-11]
+        time: "19:00"
+        location: 160 Gooding Street West, Twin Falls
+        category: school
+        url: https://www.tfsd.org/page/school-board
+      - title: Board of Trustees Work Session
+        dates: [2027-01-27]
+        time: "17:00"
+        location: 160 Gooding Street West, Twin Falls
+        category: school
+        url: https://www.tfsd.org/page/school-board
+
+  # From the district's "School Board Meeting Schedule 2026" PDF; 2027 dates not yet posted.
+  - id: madison-schools
+    name: Madison School District 321
+    type: schedule
+    county: Madison
+    area: Rexburg
+    homepage: https://www.msd321.com/page/board-of-trustees
+    meetings:
+      - title: Board Business Meeting
+        dates: [2026-12-17]
+        time: "09:00"
+        location: Madison High School Orchestra Room, 2300 University Blvd, Rexburg
+        category: school
+        url: https://www.msd321.com/page/board-of-trustees
+
+  # From "2026 School Board Meetings": "Meetings will begin at 6:30 p.m. at the
+  # District Office located at 270 East Bridge Street, Blackfoot, Idaho unless noted otherwise."
+  - id: blackfoot-schools
+    name: Blackfoot School District 55
+    type: schedule
+    county: Bingham
+    area: Blackfoot
+    homepage: https://www.sd55.org/board-meetings
+    meetings:
+      - title: Board of Trustees Meeting
+        dates: [2026-12-17, 2027-01-28]
+        time: "18:30"
+        location: District Office, 270 East Bridge Street, Blackfoot
+        category: school
+        url: https://www.sd55.org/board-meetings
+
+  # "The LPOSD School Board holds its regular monthly meetings on the second
+  # Tuesday of each month, beginning at 5:00 p.m." at the District Office.
+  - id: lposd-schools
+    name: Lake Pend Oreille School District 84
+    type: schedule
+    county: Bonner
+    area: Sandpoint
+    timezone: America/Los_Angeles
+    homepage: https://www.lposd.org/board-of-trustees/trustee-meeting-schedule
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Tuesday
+        time: "17:00"
+        location: LPOSD District Office, Sandpoint
+        category: school
+        url: https://www.lposd.org/board-of-trustees/agendas
+
+  # "Meetings are held at the Shelley High School - Library located 540 West
+  # Fir, Shelley, ID, 83274, on the third Wednesday of each month at 6:00 p.m."
+  - id: shelley-schools
+    name: Shelley Joint School District 60
+    type: schedule
+    county: Bingham
+    area: Shelley
+    homepage: https://www.shelleyschools.org/school-board-business
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 3rd Wednesday
+        time: "18:00"
+        location: Shelley High School Library, 540 West Fir, Shelley
+        category: school
+        url: https://www.shelleyschools.org/school-board-business
+
+  # "The Board of Trustees meet on the second Monday of every month at 7:00 p.m."
+  # at the Darrel Deide Administration Building, 107 Poplar Street.
+  - id: caldwell-schools
+    name: Caldwell School District 132
+    type: schedule
+    county: Canyon
+    area: Caldwell
+    homepage: https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297
+    meetings:
+      - title: Board of Trustees Meeting
+        when: 2nd Monday
+        time: "19:00"
+        location: Darrel Deide Administration Building, 107 Poplar Street, Caldwell
+        category: school
+        url: https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297
+
+  # "Date/Time: Second Tuesday each month at 6:00 PM" at Vallivue Crossing.
+  - id: vallivue-schools
+    name: Vallivue School District 139
+    type: schedule
+    county: Canyon
+    area: Caldwell
+    homepage: https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1439315
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Tuesday
+        time: "18:00"
+        location: Vallivue Crossing, 1404 E Homedale Rd, Caldwell
+        category: school
+        url: https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1439315
+
+  # "Regular Board Meeting, December 16, 2026, at 7:00 pm, at Moscow High
+  # School, 402 East 5th St. (use 3rd Street entrance)." (upcoming meeting notice)
+  - id: moscow-schools
+    name: Moscow School District 281
+    type: schedule
+    county: Latah
+    area: Moscow
+    timezone: America/Los_Angeles
+    homepage: https://www.msd281.org/page/board-meetings-minutes-notices
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        dates: [2026-12-16]
+        time: "19:00"
+        location: Moscow High School, 402 East 5th St. (use 3rd Street entrance)
+        category: school
+        url: https://www.msd281.org/page/board-meetings-minutes-notices
