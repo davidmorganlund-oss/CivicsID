@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Franklin County
 BEGIN:VEVENT
 UID:9a32ee189111@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -12,7 +12,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:4c1726289b60@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261124T010000Z
 DTEND:20261124T020000Z
 SUMMARY:City Council Meeting (City of Preston)
@@ -22,7 +22,7 @@ URL:https://www.prestonidaho.net/government/mayor___city_council/council_me
 END:VEVENT
 BEGIN:VEVENT
 UID:cb27f201e39a@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261126T020000Z
 DTEND:20261126T030000Z
 SUMMARY:Planning and Zoning Commission (City of Preston)
@@ -32,7 +32,7 @@ URL:https://www.prestonidaho.net/government/boards___committees/planning___
 END:VEVENT
 BEGIN:VEVENT
 UID:e6e1dd171c38@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261210T020000Z
 DTEND:20261210T030000Z
 SUMMARY:Planning and Zoning Commission (City of Preston)
@@ -42,7 +42,7 @@ URL:https://www.prestonidaho.net/government/boards___committees/planning___
 END:VEVENT
 BEGIN:VEVENT
 UID:4a61b035fd99@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -50,7 +50,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:f7e2b217e9c3@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261215T010000Z
 DTEND:20261215T020000Z
 SUMMARY:City Council Meeting (City of Preston)
@@ -60,7 +60,7 @@ URL:https://www.prestonidaho.net/government/mayor___city_council/council_me
 END:VEVENT
 BEGIN:VEVENT
 UID:4dfa695b2111@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261224T020000Z
 DTEND:20261224T030000Z
 SUMMARY:Planning and Zoning Commission (City of Preston)
@@ -70,7 +70,7 @@ URL:https://www.prestonidaho.net/government/boards___committees/planning___
 END:VEVENT
 BEGIN:VEVENT
 UID:64de299c33e1@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Commissioner Meeting (Franklin County)
 LOCATION:Franklin County Courthouse Board Room 39 West Oneida
@@ -78,7 +78,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:a3e951696119@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20261229T010000Z
 DTEND:20261229T020000Z
 SUMMARY:City Council Meeting (City of Preston)
@@ -88,7 +88,7 @@ URL:https://www.prestonidaho.net/government/mayor___city_council/council_me
 END:VEVENT
 BEGIN:VEVENT
 UID:5bcbb447b8a0@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Board of County Commissioners (Franklin County)
 LOCATION:
@@ -96,7 +96,7 @@ URL:https://www.franklincountyidaho.org/government/agendas_minutes.php
 END:VEVENT
 BEGIN:VEVENT
 UID:b54cdecb6d74@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20270112T010000Z
 DTEND:20270112T020000Z
 SUMMARY:City Council Meeting (City of Preston)
@@ -106,7 +106,7 @@ URL:https://www.prestonidaho.net/government/mayor___city_council/council_me
 END:VEVENT
 BEGIN:VEVENT
 UID:d10ca42bbbb5@civicsid
-DTSTAMP:20261123T053222Z
+DTSTAMP:20261123T054857Z
 DTSTART:20270114T020000Z
 DTEND:20270114T030000Z
 SUMMARY:Planning and Zoning Commission (City of Preston)

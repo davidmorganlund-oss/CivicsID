@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:32:22-07:00",
+ "generated": "2026-11-22T22:48:57-07:00",
  "events": [
   {
    "id": "90741b2b7d00",
@@ -387,6 +387,24 @@
    "regular": true
   },
   {
+   "id": "8a4cd7ecd238",
+   "title": "Commissioners Meeting",
+   "host": "Payette County",
+   "source": "payette-county",
+   "area": "countywide",
+   "county": "Payette",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-23T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioners-meeting",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "5b15ae3e71ec",
    "title": "Commissioner's Meeting",
    "host": "Power County",
@@ -751,6 +769,25 @@
     "PUBLIC HEARING FOR ZNC-26-4"
    ],
    "highlights_more": 6
+  },
+  {
+   "id": "ee5a5f1a4451",
+   "title": "Board of Trustees Meeting",
+   "host": "Lewiston Independent School District 1",
+   "source": "lewiston-schools-schedule",
+   "area": "Lewiston",
+   "county": "Nez Perce",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-11-23T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "bbcafb391ee1",
@@ -1840,6 +1877,24 @@
    "all_day": false,
    "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
    "url": "https://www.jcgov.us/Calendar.aspx?EID=5310",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "3a61938ad209",
+   "title": "Commissioners Meeting",
+   "host": "Payette County",
+   "source": "payette-county",
+   "area": "countywide",
+   "county": "Payette",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-30T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.payettecounty.org/calendar/eventdetail/14055/-/commissioners-meeting",
    "agenda_url": "",
    "note": "",
    "cancelled": false
@@ -4604,6 +4659,25 @@
    "cancelled": false
   },
   {
+   "id": "7faa746059d4",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Jefferson Joint School District 251",
+   "source": "jefferson-schools",
+   "area": "Rigby",
+   "county": "Jefferson",
+   "tz": "MT",
+   "category": "school",
+   "start": "2026-12-09T07:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "District office board room, 3850 E 300 N, Rigby",
+   "url": "https://www.jeffersonsd251.org/board-of-trustees/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "786ace3e30cb",
    "title": "Bingham County Commission",
    "host": "Bingham County",
@@ -6207,6 +6281,25 @@
    "cancelled": false
   },
   {
+   "id": "ee905f99f832",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Post Falls School District 273",
+   "source": "post-falls-schools",
+   "area": "Post Falls",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-14T17:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "River City Middle School, 1505 N. Fir, Post Falls",
+   "url": "https://www.pfsd.com/board-of-trustees/board-of-trustees-agendas",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "cc48a53b5c6e",
    "title": "Planning and Zoning Commission Work Session",
    "host": "City of Boise",
@@ -6352,6 +6445,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "39f8ac3d2cd0",
+   "title": "Board of Trustees Meeting",
+   "host": "Lewiston Independent School District 1",
+   "source": "lewiston-schools-schedule",
+   "area": "Lewiston",
+   "county": "Nez Perce",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-14T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "3841975cba18",
@@ -9689,6 +9801,25 @@
    "cancelled": false
   },
   {
+   "id": "396c2c6c802e",
+   "title": "Board of Trustees Meeting",
+   "host": "Lewiston Independent School District 1",
+   "source": "lewiston-schools-schedule",
+   "area": "Lewiston",
+   "county": "Nez Perce",
+   "tz": "PT",
+   "category": "school",
+   "start": "2026-12-28T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "afbc860c0a94",
    "title": "City Council Work Session",
    "host": "City of Buhl",
@@ -11870,6 +12001,25 @@
    "cancelled": false
   },
   {
+   "id": "67c74dcc7e53",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Post Falls School District 273",
+   "source": "post-falls-schools",
+   "area": "Post Falls",
+   "county": "Kootenai",
+   "tz": "PT",
+   "category": "school",
+   "start": "2027-01-11T17:30:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "River City Middle School, 1505 N. Fir, Post Falls",
+   "url": "https://www.pfsd.com/board-of-trustees/board-of-trustees-agendas",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "6cb4d316d974",
    "title": "Planning and Zoning Commission Work Session",
    "host": "City of Boise",
@@ -11997,6 +12147,25 @@
    "agenda_url": "",
    "note": "",
    "cancelled": false
+  },
+  {
+   "id": "7b2a5e84703a",
+   "title": "Board of Trustees Meeting",
+   "host": "Lewiston Independent School District 1",
+   "source": "lewiston-schools-schedule",
+   "area": "Lewiston",
+   "county": "Nez Perce",
+   "tz": "PT",
+   "category": "school",
+   "start": "2027-01-11T18:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
   },
   {
    "id": "c4019044da7b",
