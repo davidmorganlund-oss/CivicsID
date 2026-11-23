@@ -2248,3 +2248,325 @@ sources:
         location: Community Campus, 1050 Fox Acres Road, Hailey
         category: school
         url: https://www.blaineschools.org/school-board/trustees/home
+
+
+  # --- Statewide sweep of school district websites (Nov 2026) ---
+
+  - id: kuna-schools
+    name: Kuna School District 3
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031850
+    county: Ada
+    area: Kuna
+    homepage: https://www.kunaschools.org/boardagendas
+
+  - id: fruitland-schools
+    name: Fruitland School District 373
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031635
+    county: Payette
+    area: Fruitland
+    homepage: https://www.fruitlandschools.org/
+
+  - id: weiser-schools
+    name: Weiser School District 431
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031399
+    county: Washington
+    area: Weiser
+    homepage: https://www.weiserschools.org/
+
+  - id: payette-schools
+    name: Payette Joint School District 371
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031400
+    county: Payette
+    area: Payette
+    homepage: https://www.payetteschools.org/
+
+  - id: st-maries-schools
+    name: St. Maries Joint School District 41
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031530
+    county: Benewah
+    area: St. Maries
+    timezone: America/Los_Angeles
+    homepage: https://www.sd41.org/
+
+  - id: wilder-schools
+    name: Wilder School District 133
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031881
+    county: Canyon
+    area: Wilder
+    homepage: https://www.wilderschools.org/
+
+  - id: butte-schools
+    name: Butte County Joint School District 111
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032234
+    county: Butte
+    area: Arco
+    homepage: https://www.butteschooldistrict.org/district_office/school_board
+
+  - id: notus-schools
+    name: Notus School District 135
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032032
+    county: Canyon
+    area: Notus
+    homepage: https://www.notusschools.org/
+
+  - id: homedale-schools
+    name: Homedale Joint School District 370
+    type: boardbook
+    organization: 2069
+    county: Owyhee
+    area: Homedale
+    default_category: school
+    homepage: https://www.homedaleschools.org/
+
+  - id: west-bonner-schools
+    name: West Bonner County School District 83
+    type: boardbook
+    organization: 2136
+    county: Bonner
+    area: Priest River
+    timezone: America/Los_Angeles
+    default_category: school
+    homepage: https://www.sd83.org/board-of-trustees/board-meetings
+
+  # "Regular Meetings of the WBCSD Board of Trustees will generally be held on the third
+  # Wednesday of every month at 6 pm at the District Office, 134 Main Street, Priest River."
+  - id: west-bonner-schools-schedule
+    name: West Bonner County School District 83
+    type: schedule
+    county: Bonner
+    area: Priest River
+    timezone: America/Los_Angeles
+    yield_to: [west-bonner-schools]
+    homepage: https://www.sd83.org/board-of-trustees/board-meetings
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 3rd Wednesday
+        time: "18:00"
+        location: District Office, 134 Main Street, Priest River
+        category: school
+        url: https://www.sd83.org/board-of-trustees/board-meetings
+
+  # "School Board Meetings are held the 3rd Monday of each month in the Modular behind the High
+  # School located at 120 South Water St." (No start time stated.)
+  - id: butte-schools-schedule
+    name: Butte County Joint School District 111
+    type: schedule
+    county: Butte
+    area: Arco
+    yield_to: [butte-schools]
+    homepage: https://www.butteschooldistrict.org/district_office/school_board
+    meetings:
+      - title: School Board Meeting
+        when: 3rd Monday
+        note: "Check the agenda for the start time."
+        location: Modular behind Butte High School, 120 South Water St., Arco
+        category: school
+        url: https://www.butteschooldistrict.org/district_office/school_board
+
+  # "Regularly scheduled meetings of the Snake River District #52 Board are typically held on
+  # the third Wednesday of each month, at 7:00 p.m." Locations vary; see each notice.
+  - id: snake-river-schools
+    name: Snake River School District 52
+    type: schedule
+    county: Bingham
+    area: Blackfoot
+    homepage: https://www.snakeriver.org/board-meetings
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 3rd Wednesday
+        time: "19:00"
+        note: "The location varies; check the meeting notice."
+        category: school
+        url: https://www.snakeriver.org/board-meetings
+
+  # School board page: meetings "on the second Monday of each month in the Dahle Media Center,
+  # inside Beutler Middle School, unless otherwise posted." (No start time stated.)
+  - id: west-side-schools
+    name: West Side Joint School District 202
+    type: schedule
+    county: Franklin
+    area: Dayton
+    homepage: https://westside202.org/school-board/
+    meetings:
+      - title: Board of Trustees Meeting
+        when: 2nd Monday
+        note: "Check the agenda for the start time."
+        location: Dahle Media Center, Beutler Middle School, Dayton
+        category: school
+        url: https://westside202.org/school-board/
+
+  # "The School Board typically meets on the second Wednesday of each month in the Black Canyon
+  # Elementary Library at 7:00pm unless otherwise specified, subject to occasional change."
+  - id: grace-schools
+    name: Grace Joint School District 148
+    type: schedule
+    county: Caribou
+    area: Grace
+    homepage: https://www.sd148.org/en-US/board-members-d4aa484e
+    meetings:
+      - title: School Board Meeting
+        when: 2nd Wednesday
+        time: "19:00"
+        location: Black Canyon Elementary Library, Grace
+        category: school
+        url: https://www.sd148.org/en-US/board-members-d4aa484e
+
+  # "School Board meetings are held the second Monday of each month, unless otherwise specified,
+  # in the Troy High School Media Center beginning at 6:30pm unless otherwise noted."
+  - id: troy-schools
+    name: Troy School District 287
+    type: schedule
+    county: Latah
+    area: Troy
+    timezone: America/Los_Angeles
+    homepage: https://www.troysd287.org/schoolboard
+    meetings:
+      - title: School Board Meeting
+        when: 2nd Monday
+        time: "18:30"
+        location: Troy High School Media Center
+        category: school
+        url: https://www.troysd287.org/schoolboard
+
+  # "Monthly School Board Meetings are held on the 2nd Wednesday of each month in the Library,
+  # Room 201, of the Genesee School, at 6:00 p.m."
+  - id: genesee-schools
+    name: Genesee Joint School District 282
+    type: schedule
+    county: Latah
+    area: Genesee
+    timezone: America/Los_Angeles
+    homepage: https://www.sd282.org/district-information/school-board
+    meetings:
+      - title: School Board Meeting
+        when: 2nd Wednesday
+        time: "18:00"
+        location: Genesee School Library, Room 201
+        category: school
+        url: https://www.sd282.org/district-information/school-board
+
+  # Board page: regular meetings "on the second Tuesday of every month in the board room unless
+  # otherwise posted." (No start time on that page.)
+  - id: bruneau-grand-view-schools
+    name: Bruneau-Grand View Joint School District 365
+    type: schedule
+    county: Owyhee
+    area: Grand View
+    homepage: https://www.sd365.us/board-trustees
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Tuesday
+        note: "Check the agenda for the start time."
+        location: District board room
+        category: school
+        url: https://www.sd365.us/board-trustees
+
+  # "Board meeting are held the second Monday of each month in the high school library at 7:00
+  # pm unless otherwise posted."
+  - id: mackay-schools
+    name: Mackay Joint School District 182
+    type: schedule
+    county: Custer
+    area: Mackay
+    homepage: https://www.mackayschools.org/our-district/district-office/school-board
+    meetings:
+      - title: Board of Trustees Meeting
+        when: 2nd Monday
+        time: "19:00"
+        location: Mackay High School Library
+        category: school
+        url: https://www.mackayschools.org/our-district/district-office/school-board
+
+  # "The regular Board meetings will be held the second Monday of each month, with the exception
+  # of the June meeting and budget hearing." (No start time stated.)
+  - id: whitepine-schools
+    name: Whitepine Joint School District 288
+    type: schedule
+    county: Latah
+    area: Deary
+    timezone: America/Los_Angeles
+    homepage: https://www.sd288.org/schoolboardtrustees
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Monday
+        skip_months: [6]
+        note: "Check the agenda for the start time."
+        category: school
+        url: https://www.sd288.org/schoolboardtrustees
+
+  # --- Library boards from the statewide sweep ---
+
+  # "The library Board of Trustees meet @ 4:30pm the 3rd Wednesday of each month in the library
+  # community room."
+  - id: boise-basin-library
+    name: Boise Basin Library District
+    type: schedule
+    county: Boise
+    area: Idaho City
+    homepage: https://boisebasin.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Wednesday
+        time: "16:30"
+        location: Boise Basin Library, community room, Idaho City
+        category: library
+        url: https://boisebasin.lili.org/about-us/board-of-trustees/
+
+  # "The Board of Trustees meets the 4th Monday of the month, at 5pm in the Library Meeting
+  # Room."
+  - id: camas-library
+    name: Camas County District Library
+    type: schedule
+    county: Camas
+    area: Fairfield
+    homepage: https://camas.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 4th Monday
+        time: "17:00"
+        location: Camas County District Library, meeting room, Fairfield
+        category: library
+        url: https://camas.lili.org/about-us/board-of-trustees/
+
+  # "The Board of Trustees meets the first Tuesday of each month (except September and December)
+  # at 5:15 p.m."
+  - id: clark-county-library
+    name: Clark County District Library
+    type: schedule
+    county: Clark
+    area: Dubois
+    homepage: https://clarkcounty.lili.org/about/trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 1st Tuesday
+        time: "17:15"
+        skip_months: [9, 12]
+        location: Clark County District Library, Dubois
+        category: library
+        url: https://clarkcounty.lili.org/about/trustees/
+
+  # "Board meetings are held at alternating locations on the second Tuesday of each month at
+  # 5:00pm; at either the District Library in Weippe or the Conference room at Clearwater
+  # Memorial Library in Orofino."
+  - id: clearwater-library
+    name: Clearwater County Free Library District
+    type: schedule
+    county: Clearwater
+    area: Weippe
+    timezone: America/Los_Angeles
+    homepage: https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Tuesday
+        time: "17:00"
+        location: Weippe or Orofino (alternates; see the agenda)
+        category: library
+        url: https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas/
