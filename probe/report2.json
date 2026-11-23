@@ -1,1078 +1,1217 @@
 {
- "Middleton": [
-  {
-   "url": "https://middleton.id.gov/",
-   "final": "https://middleton.id.gov/",
-   "status": 200,
-   "title": "Home | City of Middleton",
-   "platform": [
-    "dnn"
+ "Middleton": {
+  "https://middleton.id.gov/departments/city-council": {
+   "hits": [
+    "website, forms, applications, content or any city meetings please contact us at City Hall or come to the office in-person."
    ],
-   "links": [
-    [
-     "City Government",
-     "javascript:;"
-    ],
-    [
-     "Elected Officials",
-     "https://middleton.id.gov/city-government/elected-officials"
-    ],
-    [
-     "Boards & Commissions",
-     "https://middleton.id.gov/city-government/boards-commissions"
-    ],
-    [
-     "Transparency",
-     "https://middleton.id.gov/city-government/transparency"
-    ],
-    [
-     "Emergency Preparedness",
-     "https://middleton.id.gov/city-government/emergency-preparedness"
-    ],
-    [
-     "Title VI",
-     "https://middleton.id.gov/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347"
-    ],
-    [
-     "City Council",
-     "https://middleton.id.gov/departments/city-council"
-    ],
-    [
-     "Planning & Zoning",
-     "https://middleton.id.gov/departments/planning-zoning"
-    ],
-    [
-     "Youth Council",
-     "https://middleton.id.gov/other-boards/youth-council"
-    ],
-    [
-     "Calendar",
-     "https://middleton.id.gov/calendar"
-    ],
-    [
-     "Public Meetings",
-     "https://middleton.id.gov/public-meetings"
-    ],
-    [
-     "City Council Meetings Live &amp; Recorde",
-     "https://www.youtube.com/@cityofmiddleton-idaho4286/streams"
-    ]
+   "pdfs": [
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf",
+    "/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347",
+    "https://middleton.id.gov/Portals/0/Fees Schedule and Attachments A-E 2026 Final.10.01.2026.pdf",
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf"
    ]
-  }
- ],
- "Payette": [
-  {
-   "url": "https://www.cityofpayette.com/",
-   "final": "https://cityofpayette.com/",
-   "status": 200,
-   "title": "City of Payette, Idaho\r\n\t\t\u00c2",
-   "platform": [
-    "vertical"
-   ],
-   "links": [
-    [
-     "Government",
-     "https://cityofpayette.com/government"
-    ],
-    [
-     "Payette's Mayor",
-     "https://cityofpayette.com/index.asp?SEC=EC229BCB-6752-46F1-A3D6-8AE9E7492111&amp;Type=B_BASIC"
-    ],
-    [
-     "City Council",
-     "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&amp;Type=B_BASIC"
-    ],
-    [
-     "Backflow Prevention",
-     "https://cityofpayette.com/index.asp?SEC=39372A49-C4D5-4D71-ADB4-3251533DE618&amp;Type=B_BASIC"
-    ],
-    [
-     "Building/Planning & Zoning",
-     "https://cityofpayette.com/index.asp?SEC=34FCF517-618E-4445-B5D1-DD6B900045C6&amp;Type=B_BASIC"
-    ],
-    [
-     "Comprehensive Plan Advisory Committee Ag",
-     "https://cityofpayette.com/index.asp?SEC=2C964A79-5E60-4DD5-94C7-D3398543CE77&amp;Type=B_BASIC"
-    ],
-    [
-     "Comprehensive Committee Meeting Summarie",
-     "https://cityofpayette.com/index.asp?SEC=F471B455-3493-4FB0-96D9-D53E5EDDB409&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2018",
-     "https://cityofpayette.com/index.asp?SEC=88EAAFF6-C55D-4EB9-B43F-BAFD729DC49E&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2017",
-     "https://cityofpayette.com/index.asp?SEC=AC96D24F-84E1-4E19-8D43-2C25D23A7909&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2016",
-     "https://cityofpayette.com/index.asp?SEC=9CD01FD1-F6F2-4383-B2A8-E9A56768CD5D&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2015",
-     "https://cityofpayette.com/index.asp?SEC=C8B0AB9D-F820-4622-BDA7-0D330060FE3F&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2014",
-     "https://cityofpayette.com/index.asp?SEC=A1435261-FB58-4210-BC0A-0416380ED9E8&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2013",
-     "https://cityofpayette.com/index.asp?SEC=94CD9F89-87B7-48ED-B123-BDF59AA8A125&amp;Type=B_BASIC"
-    ],
-    [
-     "Agenda 2012",
-     "https://cityofpayette.com/index.asp?SEC=8F736055-561E-4F92-98D9-DB335729BDD1&amp;Type=B_BASIC"
-    ],
-    [
-     "Agendas 2011",
-     "https://cityofpayette.com/index.asp?SEC=936FD5CD-AF53-4618-A57E-6974E6B56F29&amp;Type=B_BASIC"
-    ],
-    [
-     "Minutes",
-     "https://cityofpayette.com/index.asp?SEC=503F2E05-9016-4E9C-B537-AEEC9E699BC0&amp;Type=B_BASIC"
-    ],
-    [
-     "2018 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=DBFE0C1A-220D-4522-8921-A6B2A01B1C9F&amp;Type=B_BASIC"
-    ],
-    [
-     "2017 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=DE3579B2-2840-41CA-8255-C386007C0AFA&amp;Type=B_BASIC"
-    ],
-    [
-     "2016 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=43323510-4C6A-46F8-BA09-D6903EFFA924&amp;Type=B_BASIC"
-    ],
-    [
-     "2015 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=897191AE-50A2-404A-B1E6-F03CAEFEEED9&amp;Type=B_BASIC"
-    ],
-    [
-     "2014 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=F8AF1C24-6E81-47D7-B0EF-9C6CB6E74272&amp;Type=B_BASIC"
-    ],
-    [
-     "2013 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=0C3A285F-124E-4B7E-82F5-0D99B749C8CD&amp;Type=B_BASIC"
-    ],
-    [
-     "2012 Agendas",
-     "https://cityofpayette.com/index.asp?SEC=77026214-053D-4058-8B26-F4C74AED5258&amp;Type=B_BASIC"
-    ],
-    [
-     "Planning & Zoning Commission",
-     "https://cityofpayette.com/index.asp?SEC=16FAD3A1-7F4A-4474-A68C-E88153492ED6&amp;Type=B_BASIC"
-    ],
-    [
-     "Agendas 2026",
-     "https://cityofpayette.com/index.asp?SEC=FC3FE281-A929-4014-A2B8-A405AF79FB7D&amp;Type=B_BASIC"
-    ]
-   ]
-  }
- ],
- "Fruitland": [
-  {
-   "url": "https://www.fruitland.org/",
-   "final": "https://www.fruitland.org/",
-   "status": 200,
-   "title": "City of Fruitland Idaho",
-   "platform": [
-    "vertical"
-   ],
-   "links": [
-    [
-     "Community Calendar",
-     "https://www.fruitland.org/calendar"
-    ],
-    [
-     "Mayor's Youth Council",
-     "https://www.fruitland.org/index.asp?SEC=DC61B614-2591-40C8-9D57-3B0BAAFD2A54"
-    ],
-    [
-     "Government",
-     "https://www.fruitland.org/government"
-    ],
-    [
-     "City Council",
-     "https://www.fruitland.org/council"
-    ],
-    [
-     "City Council Meetings",
-     "https://www.fruitland.org/index.asp?SEC=116126E2-E6E0-4AE0-9EEE-9157CD7F70D5"
-    ],
-    [
-     "City Council Agendas",
-     "https://www.fruitland.org/council-agendas"
-    ],
-    [
-     "City Council Minutes",
-     "https://www.fruitland.org/council-minutes"
-    ],
-    [
-     "Planning and Zoning",
-     "https://www.fruitland.org/planning-zoning"
-    ],
-    [
-     "Planning & Zoning Agendas",
-     "https://www.fruitland.org/pz-agendas"
-    ],
-    [
-     "Planning & Zoning Minutes",
-     "https://www.fruitland.org/pz-minutes"
-    ],
-    [
-     "Planning & Zoning Hearing Notices",
-     "https://www.fruitland.org/pz-hearings"
-    ],
-    [
-     "Government Websites by Catalis",
-     "https://catalisgov.com"
-    ]
-   ]
-  }
- ],
- "Rupert": [
-  {
-   "url": "https://www.rupert-idaho.com/",
-   "final": "https://rupert-idaho.com/",
-   "status": 200,
-   "title": "City of Rupert, Idaho",
-   "platform": [],
-   "links": [
-    [
-     "Government",
-     "https://rupert-idaho.com/government"
-    ],
-    [
-     "Agendas &amp; Minutes",
-     "https://rupert-idaho.com/government/agendas-minutes"
-    ],
-    [
-     "Request a public record",
-     "https://rupert-idaho.com/government/public-records"
-    ],
-    [
-     "City Council Meeting Schedule &amp; How ",
-     "https://rupert-idaho.com/news/council-meeting-schedule"
-    ],
-    [
-     "Accessibility Statement",
-     "https://rupert-idaho.com/government/accessibility"
-    ]
-   ]
-  }
- ],
- "Weiser": [
-  {
-   "url": "https://www.cityofweiser.net/",
-   "final": "https://www.cityofweiser.net/",
-   "status": 200,
-   "title": "HOME",
-   "platform": [
-    "duda"
-   ],
-   "links": [
-    [
-     "HOME             window.SystemID = 'US_D",
-     "https://www.cityofweiser.net/"
-    ],
-    [
-     "Calendar of Events",
-     "https://www.cityofweiser.net/calendar-of-events"
-    ],
-    [
-     "Events &amp; Attractions",
-     "https://www.cityofweiser.net/events-attractions"
-    ],
-    [
-     "Mayor Herb Haun",
-     "https://www.cityofweiser.net/mayor-randy-hibberd"
-    ],
-    [
-     "Mayor's Corner",
-     "https://www.cityofweiser.net/mayors-corner"
-    ],
-    [
-     "City Council Members",
-     "https://www.cityofweiser.net/city-council-members"
-    ],
-    [
-     "City Council Packet &amp; Minutes",
-     "https://www.cityofweiser.net/city-council-packet"
-    ],
-    [
-     "Agendas",
-     "https://www.cityofweiser.net/agendas"
-    ],
-    [
-     "Planning &amp; Zoning Commission",
-     "https://www.cityofweiser.net/planning-zoning-commission"
-    ],
-    [
-     "Vendome Event Center",
-     "https://www.cityofweiser.net/vendome-event-center"
-    ],
-    [
-     "@font-face { font-family: \"Mireille-Mono",
-     "https://irp.cdn-website.com/fonts/css2?family=Lato:wght@100;300;400;700;900&family=Amiko:wght@400;600;700&family=Droid+Sans:wght@400;700&family=Open+Sans:wght@300..800&amp;subset=latin-ext&amp;display=swap"
-    ]
-   ]
-  }
- ],
- "Preston": [
-  {
-   "url": "https://www.prestonidaho.net/",
-   "final": "https://www.prestonidaho.net/",
-   "status": 200,
-   "title": "prestonid",
-   "platform": [
-    "revize"
-   ],
-   "links": [
-    [
-     "prestonid                               ",
-     "https://www.prestonidaho.net/"
-    ],
-    [
-     "Government",
-     "https://www.prestonidaho.net/government/index.php"
-    ],
-    [
-     "Mayor & City Council",
-     "https://www.prestonidaho.net/government/mayor___city_council/index.php"
-    ],
-    [
-     "Council Meeting Agendas & Minutes",
-     "https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php"
-    ],
-    [
-     "City Proclamations",
-     "https://www.prestonidaho.net/government/mayor___city_council/city_proclamations.php"
-    ],
-    [
-     "Public Notices",
-     "https://www.prestonidaho.net/government/mayor___city_council/public_notices.php"
-    ],
-    [
-     "Preston City Planning & Zoning Commissio",
-     "https://www.prestonidaho.net/government/planning___zoning/index.php"
-    ],
-    [
-     "P&Z Agendas & Minutes",
-     "https://www.prestonidaho.net/government/boards___committees/planning___zoning_commission/p_z_agendas___minutes.php"
-    ],
-    [
-     "Comprehensive Plan",
-     "https://www.prestonidaho.net/Documents/Departments/Planning & Zoning/Comprehensive Plan/COMPREHENSIVE PLAN 2026.pdf"
-    ],
-    [
-     "Boards & Committees",
-     "https://www.prestonidaho.net/government/boards___committees/index.php"
-    ],
-    [
-     "Preston City Recreation Board",
-     "https://www.prestonidaho.net/government/boards___committees/recreation_board/index.php"
-    ],
-    [
-     "Budget & Financial",
-     "https://www.prestonidaho.net/government/budget___financial/index.php"
-    ],
-    [
-     "Fiscal Year Budget",
-     "https://www.prestonidaho.net/government/budget___financial/fiscal_year_budget.php"
-    ],
-    [
-     "Quarterly Report",
-     "https://www.prestonidaho.net/government/budget___financial/quarterly_report.php"
-    ],
-    [
-     "Audits",
-     "https://www.prestonidaho.net/government/budget___financial/audits.php"
-    ],
-    [
-     "City Hall",
-     "https://www.prestonidaho.net/government/city_hall/index.php"
-    ],
-    [
-     "Employee Directory",
-     "https://www.prestonidaho.net/government/city_hall/employee_directory.php"
-    ],
-    [
-     "Economic Development",
-     "https://www.prestonidaho.net/government/economic_development/index.php"
-    ],
-    [
-     "Business License Application",
-     "https://www.prestonidaho.net/government/economic_development/business_license_application.php"
-    ],
-    [
-     "Franklin County Fire District",
-     "https://www.prestonidaho.net/government/boards___committees/fire_district.php"
-    ],
-    [
-     "Larsen-Sant Public Library",
-     "https://www.prestonidaho.net/government/boards___committees/library_district.php"
-    ],
-    [
-     "Worm Creek Opera House and Franklin Coun",
-     "https://www.wormcreek.org/"
-    ],
-    [
-     "How do I know when meetings are?",
-     "https://www.prestonidaho.net/calendar.php"
-    ],
-    [
-     "Baseball",
-     "https://www.prestonidaho.net/government/boards___committees/recreation_board/baseball/index.php"
-    ],
-    [
-     "Rules",
-     "https://www.prestonidaho.net/government/boards___committees/recreation_board/baseball/rules/index.php"
-    ]
-   ]
-  }
- ],
- "Rigby": [
-  {
-   "url": "https://cityofrigby.gov/",
-   "final": "https://cityofrigby.gov/",
-   "status": 200,
-   "title": "City of Rigby, Idaho | Official Website",
-   "platform": [
-    "wordpress"
-   ],
-   "links": [
-    [
-     "City of Rigby, Idaho | Official Website ",
-     "https://gmpg.org/xfn/11"
-    ],
-    [
-     "2019 Wastewater Facilities Planning Stud",
-     "https://cityofrigby.gov/wp-content/uploads/2023/03/2019_wastewater_study.pdf"
-    ],
-    [
-     "Mayor and City Council",
-     "https://cityofrigby.gov/mayor-and-city-council/"
-    ],
-    [
-     "Planning and Zoning Commission",
-     "https://cityofrigby.gov/planning-and-zoning-commission/"
-    ],
-    [
-     "Planning &#038; Zoning \u2013 Building",
-     "https://cityofrigby.gov/building-department/"
-    ],
-    [
-     "City Council Agendas",
-     "https://cityofrigby.gov/city-council-agendas/"
-    ],
-    [
-     "City Council Minutes",
-     "https://cityofrigby.gov/city-council-minutes/"
-    ],
-    [
-     "Planning &amp; Zoning Agendas",
-     "https://cityofrigby.gov/planning-and-zoning-agendas/"
-    ],
-    [
-     "Planning &amp; Zoning Minutes",
-     "https://cityofrigby.gov/planning-and-zoning-minutes/"
-    ],
-    [
-     "Calendar",
-     "https://cityofrigby.gov/calendar/"
-    ],
-    [
-     "Submit An Event",
-     "https://cityofrigby.gov/events/"
-    ]
-   ]
-  }
- ],
- "Kimberly": [
-  {
-   "url": "https://www.cityofkimberly.org/",
-   "final": "https://www.cityofkimberly.org/",
-   "status": 200,
-   "title": "Kimberly, ID | Official Website",
-   "platform": [
-    "civicplus"
-   ],
-   "links": [
-    [
-     "Kimberly, ID | Official Website         ",
-     "https://www.cityofkimberly.org/images/favicon.ico"
-    ],
-    [
-     "Government",
-     "https://www.cityofkimberly.org/27/Government"
-    ],
-    [
-     "//Updates search icons href to have the ",
-     "https://www.cityofkimberly.org/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css"
-    ],
-    [
-     "thosetwochicksevents@gmail.com",
-     "mailto:thosetowchicksevents@gmail.com"
-    ],
-    [
-     "Agendas &amp; Minutes",
-     "https://www.cityofkimberly.org/AgendaCenter"
-    ]
-   ]
-  }
- ],
- "Shelley": [
-  {
-   "url": "https://www.shelleyidaho.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.shelleyidaho.org (ConnectionError), so nothing was fetched"
   },
-  {
-   "url": "https://shelley.id.gov/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at shelley.id.gov (ConnectionError), so nothing was fetched"
+  "https://middleton.id.gov/public-meetings": {
+   "hits": [
+    "Public Meetings | City of Middleton",
+    "Public Meetings",
+    "Public Meetings Schedule 2026",
+    "Public Meeting Schedule 2026",
+    "Public Meetings Schedule 2026",
+    "Public Meeting Schedule 2026",
+    "website, forms, applications, content or any city meetings please contact us at City Hall or come to the office in-person."
+   ],
+   "pdfs": [
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf",
+    "/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347",
+    "https://middleton.id.gov/Portals/0/Fees Schedule and Attachments A-E 2026 Final.10.01.2026.pdf",
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf"
+   ]
   },
-  {
-   "url": "https://www.cityofshelley.org/",
-   "final": "https://cityofshelley.org:443/",
-   "status": 200,
-   "title": "Home | City of Shelley",
-   "platform": [],
-   "links": [
-    [
-     "Meetings",
-     "https://cityofshelley.org:443/meetings/"
-    ],
-    [
-     "Calendar",
-     "https://cityofshelley.org:443/calendar/"
-    ],
-    [
-     "Planning & Zoning",
-     "https://cityofshelley.org:443/city-departments/planning-and-zoning/"
-    ],
-    [
-     "Past Events",
-     "https://cityofshelley.org:443/spud-day/"
-    ],
-    [
-     "NOV   27",
-     "https://cityofshelley.org:443/calendar/thanksgiving-holiday-hours/"
-    ],
-    [
-     "DEC   04",
-     "https://cityofshelley.org:443/calendar/annual-chili-cookoff-raffle/"
-    ]
-   ]
-  }
- ],
- "American Falls": [
-  {
-   "url": "https://cityofamericanfalls.com/",
-   "final": "https://americanfallsid.gov/",
-   "status": 200,
-   "title": "americanfallsid.gov",
-   "platform": [
-    "wordpress"
+  "https://middleton.id.gov/city-government/elected-officials": {
+   "hits": [
+    "Middleton City operates under the five-member form of government. The elected officials, including the mayor and four city council members, operate as the policy making and legislative authority for the city. They each s",
+    "City Council meetings are regularly scheduled meetings held the first and third Wednesday of each month in the City Council Chambers, beginning at 5:30 p.m. Meetings are open to the public.",
+    "website, forms, applications, content or any city meetings please contact us at City Hall or come to the office in-person."
    ],
-   "links": [
-    [
-     "img:is([sizes=auto i],[sizes^=\"auto,\" i]",
-     "https://americanfallsid.gov/feed/"
-    ],
-    [
-     "Mayor and Council",
-     "https://americanfallsid.gov/mayor-and-council/"
-    ],
-    [
-     "Planning and Zoning",
-     "https://americanfallsid.gov/planning-and-zoning/"
-    ],
-    [
-     "Mayor\u2019s Corner",
-     "https://americanfallsid.gov/mayors-corner/"
-    ]
+   "pdfs": [
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf",
+    "/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347",
+    "https://middleton.id.gov/Portals/0/Fees Schedule and Attachments A-E 2026 Final.10.01.2026.pdf",
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf"
    ]
-  }
- ],
- "Buhl": [
-  {
-   "url": "https://www.cityofbuhl.us/",
-   "final": "https://www.cityofbuhl.us/",
-   "status": 200,
-   "title": "City of Buhl, Idaho | Est. 1906 - Home",
-   "platform": [
-    "weebly"
-   ],
-   "links": [
-    [
-     ".wsite-elements.wsite-not-footer:not(.ws",
-     "https://cdn11.editmysite.com/css/sites.css?buildtime=1795111099"
-    ],
-    [
-     "City Council",
-     "https://www.cityofbuhl.us/city-council.html"
-    ],
-    [
-     "Mayor",
-     "https://www.cityofbuhl.us/mayor.html"
-    ],
-    [
-     "Council",
-     "https://www.cityofbuhl.us/council.html"
-    ],
-    [
-     "Council Meeting Documents",
-     "https://www.cityofbuhl.us/council-meeting-documents.html"
-    ],
-    [
-     "Planning & Zoning Department   &gt;",
-     "https://www.cityofbuhl.us/planning--zoning-department.html"
-    ],
-    [
-     "Planning & Zoning Commission Meetings",
-     "https://www.cityofbuhl.us/planning--zoning-commission-meetings.html"
-    ],
-    [
-     "Joint Meeting",
-     "https://www.cityofbuhl.us/joint-meeting.html"
-    ]
-   ]
-  }
- ],
- "St. Anthony": [
-  {
-   "url": "https://www.cityofstanthony.org/",
-   "final": "https://www.cityofstanthony.org/",
-   "status": 200,
-   "title": "Home | City of St. Anthony",
-   "platform": [
-    "apptegy",
-    "dnn"
-   ],
-   "links": [
-    [
-     ".logo { height: 100px!important; }   :ro",
-     "https://fonts.googleapis.com"
-    ],
-    [
-     "City Council",
-     "https://www.cityofstanthony.org/page/city-council"
-    ],
-    [
-     "Agenda",
-     "https://stanthony.municipalcodeonline.com/"
-    ]
-   ]
-  }
- ],
- "Gooding": [
-  {
-   "url": "https://www.goodingidaho.org/",
-   "final": "https://www.goodingidaho.org/",
-   "status": 200,
-   "title": "Official Web Site of City of Gooding",
-   "platform": [],
-   "links": [
-    [
-     "Agendas",
-     "https://www.goodingidaho.org/agendas"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1149"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1149/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/916"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/916/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/672"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/672/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1185"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1185/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1140"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1140/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1087"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1087/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1184"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1184/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1151"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1151/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1139"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1139/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1147"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1147/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1146"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1146/PDF/get_agenda_document_link"
-    ],
-    [
-     "View Agenda",
-     "https://towncloud.io/go/gooding-id/agendas/1143"
-    ],
-    [
-     "Agenda PDF",
-     "https://towncloud.io/go/gooding-id/agendas/1143/PDF/get_agenda_document_link"
-    ]
-   ]
-  }
- ],
- "Heyburn": [
-  {
-   "url": "https://heyburn.id.gov/",
-   "final": "https://heyburn.id.gov/",
-   "status": 200,
-   "title": "Heyburn, ID",
-   "platform": [
-    "vertical",
-    "govoffice"
-   ],
-   "links": [
-    [
-     "Government",
-     "https://heyburn.id.gov/government"
-    ],
-    [
-     "Agendas and Minutes",
-     "https://heyburn.id.gov/agendas"
-    ],
-    [
-     "2026 Agendas and Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=CED04F24-BC21-4DD9-84F1-BB7EDE4F2910"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=3231C763-F07B-4646-AF04-ABF4316E02E6"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=8AC35134-010D-49A8-B1E7-477506F36F89"
-    ],
-    [
-     "2025 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=595B9F2A-E6F6-4657-A62F-357A6DD541BA"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=53AF7C3D-772A-4B14-A5E1-791D0E0E3CB8"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=78DDFBF3-4CF4-4094-8DFB-62941D7741D9"
-    ],
-    [
-     "2024 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=36B78A1A-F0A7-4181-90DA-EE9CE1B0EBB6"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=61C48A53-0825-4DBA-ABEC-F57054A92FE9"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=7DE39355-A212-406C-98FE-C1831C43BDEA"
-    ],
-    [
-     "2023 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=77A7E26C-FE54-4744-AF7C-2BC9F5C9746C"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=7EA317D6-0EE9-43B0-AB6C-5A6BC06BD508"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=DC39FDB5-DF21-4B11-9F72-D311491CF5EF"
-    ],
-    [
-     "2022 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=BA5C81BB-198B-446B-8B01-98BDE762AC96"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=634D2676-F520-4174-B5C0-6962B1B93960"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=113450E9-2B1E-409C-815E-BCEC99DAB892"
-    ],
-    [
-     "2021 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=DCF7F362-8040-4445-89E7-050FB33899B2"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=1E9F30D8-36FE-4498-A120-746B6BC75945"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=3E5B52B5-FEBD-4278-B527-4D489848FC60"
-    ],
-    [
-     "2020 Minutes",
-     "https://heyburn.id.gov/index.asp?SEC=C6DAFF63-1593-4806-8BA1-56A30F86FB06"
-    ],
-    [
-     "City Council",
-     "https://heyburn.id.gov/index.asp?SEC=B49EF5B8-638D-423E-98E0-E77602DDB8DE"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/index.asp?SEC=C70C7B1E-D898-4862-B2D1-5F5A4C8BCAD7"
-    ],
-    [
-     "Planning & Zoning",
-     "https://heyburn.id.gov/planning-building"
-    ],
-    [
-     "Events",
-     "https://heyburn.id.gov/index.asp?SEC=C8EC700B-E5F4-4E3D-9F02-D4FCC6AE0188"
-    ]
-   ]
-  }
- ],
- "Grangeville": [
-  {
-   "url": "https://grangeville.us/",
-   "final": "https://grangeville.us/",
-   "status": 200,
-   "title": "City of Grangeville Idaho &ndash; County Seat of Idaho County",
-   "platform": [
-    "wordpress"
-   ],
-   "links": [
-    [
-     "City of Grangeville Idaho &ndash; County",
-     "https://gmpg.org/xfn/11"
-    ],
-    [
-     "City Agendas",
-     "https://grangeville.us/city-council-agendas/"
-    ],
-    [
-     "City Council Minutes",
-     "https://grangeville.us/city-council-minutes/"
-    ],
-    [
-     "Council Committee Agendas",
-     "https://grangeville.us/city-council-agendas/council-committee-agendas/"
-    ],
-    [
-     "Fire Agendas",
-     "https://grangeville.us/city-council-agendas/fire-agendas/"
-    ],
-    [
-     "Library Agendas",
-     "https://grangeville.us/city-council-agendas/library-agendas/"
-    ],
-    [
-     "Miscellaneous Agendas",
-     "https://grangeville.us/city-council-agendas/miscellaneous-agendas/"
-    ],
-    [
-     "Planning &amp; Zoning Agendas",
-     "https://grangeville.us/city-council-agendas/planning-zoning-agendas/"
-    ],
-    [
-     "Technical Review Agendas",
-     "https://grangeville.us/city-council-agendas/technical-review-agendas/"
-    ],
-    [
-     "Council Committee Minutes",
-     "https://grangeville.us/city-council-minutes/council-committee-minutes/"
-    ],
-    [
-     "Fire Minutes",
-     "https://grangeville.us/city-council-minutes/fire-minutes/"
-    ],
-    [
-     "Library Minutes",
-     "https://grangeville.us/city-council-minutes/library-minutes/"
-    ],
-    [
-     "Miscellaneous Minutes",
-     "https://grangeville.us/city-council-minutes/miscellaneous-minutes/"
-    ],
-    [
-     "Planning &amp; Zoning Minutes",
-     "https://grangeville.us/city-council-minutes/planning-zoning-minutes/"
-    ],
-    [
-     "Technical Review Minutes",
-     "https://grangeville.us/city-council-minutes/technical-review-minutes/"
-    ],
-    [
-     "Mayor &amp; City Council",
-     "https://grangeville.us/mayor-and-city-council/"
-    ],
-    [
-     "City Staff",
-     "https://grangeville.us/mayor-and-city-council/city-staff/"
-    ],
-    [
-     "Planning &amp; Zoning Commission",
-     "https://grangeville.us/mayor-and-city-council/planning-and-zoning-commission/"
-    ],
-    [
-     "Library Meetings",
-     "https://grangeville.us/grangeville-centennial-library/"
-    ]
-   ]
-  }
- ],
- "Orofino": [
-  {
-   "url": "https://www.cityoforofino.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.cityoforofino.org (ConnectTimeout), so nothing was fetched"
   },
-  {
-   "url": "https://orofino.id.gov/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at orofino.id.gov (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://www.orofino-id.gov/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.orofino-id.gov (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://orofinoidaho.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at orofinoidaho.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Salmon": [
-  {
-   "url": "https://www.cityofsalmon.com/",
-   "final": "https://www.cityofsalmon.com/",
-   "status": 200,
-   "title": "Home | City of Salmon",
-   "platform": [
-    "apptegy",
-    "dnn"
+  "https://middleton.id.gov/departments/planning-zoning": {
+   "hits": [
+    "website, forms, applications, content or any city meetings please contact us at City Hall or come to the office in-person."
    ],
-   "links": [
-    [
-     "@media only screen and (min-width: 1280p",
-     "https://fonts.googleapis.com"
-    ],
-    [
-     "city council",
-     "https://www.cityofsalmon.com/page/mayor-and-council"
-    ],
-    [
-     "AGENDA&#39;S",
-     "https://www.cityofsalmon.com/documents/city-council-meeting-agendas/23937884"
-    ],
-    [
-     "MEETING MINUTES",
-     "https://www.cityofsalmon.com/documents/city-council-meeting-minutes/23937897"
-    ]
+   "pdfs": [
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf",
+    "/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347",
+    "https://middleton.id.gov/Portals/0/Fees Schedule and Attachments A-E 2026 Final.10.01.2026.pdf",
+    "/Portals/0/Files/Records%20Request%20Form%20-%20Use%20this%20one.pdf?ver=2024-02-15-161609-550",
+    "/Portals/0/Files/PublicsWorksDocs/23-11-15%20Middleton%20Supplement%20to%20the%20ISPWC.pdf?ver=2023-11-17-182940-030",
+    "https://middleton.id.gov/Portals/0/City Organization Chart  11.05.2026.pdf"
    ]
   }
- ],
- "Soda Springs": [
-  {
-   "url": "https://www.sodaspringsid.com/",
-   "final": "https://www.sodaspringsid.com/",
-   "status": 200,
-   "title": "Welcome to Soda Springs, ID",
-   "platform": [
-    "revize"
+ },
+ "Payette": {
+  "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&Type=B_BASIC": {
+   "hits": [
+    "Payette's Mayor",
+    "Comprehensive Committee Meeting Summaries",
+    "Economic Development Committee",
+    "Business Development",
+    "Payette's Mayor",
+    "Mayor",
+    "Business Development"
    ],
-   "links": [
-    [
-     "var defaultCalendarColor = \"#3788d8\"; va",
-     "https://www.sodaspringsid.com/revize/plugins/setup/css/revize.css"
-    ],
-    [
-     "Mayor & Council",
-     "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
-    ],
-    [
-     "Planning & Zoning",
-     "https://www.sodaspringsid.com/city/planning_and_zoning.php"
-    ],
-    [
-     "Public Meetings",
-     "https://www.sodaspringsid.com/city/publicmeetings.php"
-    ],
-    [
-     "City Council",
-     "https://www.sodaspringsid.com/city/city_council.php"
-    ],
-    [
-     "Planning & Zoning",
-     "https://www.sodaspringsid.com/city/planning___zoning.php"
-    ],
-    [
-     "Planning and Zoning Meetings and Minutes",
-     "https://sodaspringsid.com/city/planning___zoning.php"
-    ],
-    [
-     "view all events",
-     "https://www.sodaspringsid.com/calendar.php"
-    ]
+   "pdfs": []
+  },
+  "https://cityofpayette.com/index.asp?SEC=EC229BCB-6752-46F1-A3D6-8AE9E7492111&Type=B_BASIC": {
+   "hits": [
+    "Payette's Mayor - City of Payette, Idaho",
+    "Payette's Mayor",
+    "Comprehensive Committee Meeting Summaries",
+    "Economic Development Committee",
+    "Business Development",
+    "Payette's Mayor",
+    "as your mayor. I have spent most of my",
+    "run for Mayor. I have many visions for",
+    "my term as Mayor, but I know these are only achievable with the help of a",
+    "Mayor's Office",
+    "Business Development"
+   ],
+   "pdfs": []
+  },
+  "https://cityofpayette.com/index.asp?SEC=FC3FE281-A929-4014-A2B8-A405AF79FB7D&Type=B_BASIC": {
+   "hits": [
+    "Payette's Mayor",
+    "Comprehensive Committee Meeting Summaries",
+    "Economic Development Committee",
+    "Business Development",
+    "Economic Development Committee",
+    "05-14-2026 Urban Renewal Special Meeting",
+    "Business Development"
+   ],
+   "pdfs": [
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/11-18-2026_Agenda.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/10-28-2026_Agenda.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/09-30-2026_Agenda.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/08-26-2026_Urban_Renewal.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/07-29-2026_Agenda_amended.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/07-29-2026_Agenda.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/07-08-2026_Agenda.pdf",
+    "/vertical/sites/%7B44867065-4476-41DD-91A9-F7FF564B033D%7D/uploads/Agenda_Packet_4-8-2026.pdf"
+   ]
+  },
+  "https://cityofpayette.com/index.asp?SEC=16FAD3A1-7F4A-4474-A68C-E88153492ED6&Type=B_BASIC": {
+   "hits": [
+    "Payette's Mayor",
+    "Comprehensive Committee Meeting Summaries",
+    "Economic Development Committee",
+    "Business Development",
+    "Economic Development Committee",
+    "Business Development"
+   ],
+   "pdfs": []
+  }
+ },
+ "Fruitland": {
+  "https://www.fruitland.org/council": {
+   "hits": [
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "City Council Meetings",
+    "The Mayor and Council are elected by the citizens of Fruitland to serve a four year term."
+   ],
+   "pdfs": []
+  },
+  "https://www.fruitland.org/index.asp?SEC=116126E2-E6E0-4AE0-9EEE-9157CD7F70D5": {
+   "hits": [
+    "City Council Meetings - City of Fruitland Idaho",
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "City Council Meetings",
+    "The Fruitland City Council meets the second and fourth Monday of each Month at 7:00 P.M. at Fruitland City Hall, 200 S. Whitley Drive.",
+    "Please visit: https://fruitland.community.highbond.com/Portal/ to view upcoming meetings, search recent meetings and subscribe to email notifications about upcoming meetings.",
+    "City Council Meetings"
+   ],
+   "pdfs": []
+  },
+  "https://www.fruitland.org/council-agendas": {
+   "hits": [
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "The City Council meets the second and fourth Monday of each month at 7:00 p.m. at City Hall, 200 S. Whitley Drive. Notice of Public Meeting Items to be considered for the agenda need to be presented to the City Clerk, Su",
+    "Any person needing special accommodations to participate in public meetings should contact the clerk's office seven days prior to the meeting. The clerk may be reached at 200 S. Whitley Drive or phone 208-452-4421.",
+    "Special Meeting",
+    "Notice of Meeting Cancellation",
+    "Special Meeting - Budget Workshop",
+    "Notice of Meeting Cancellation",
+    "Notice of Meeting Time Change",
+    "Notice of Meeting Cancellation",
+    "Special Meeting",
+    "Notice of Meeting Cancellation",
+    "Special Meeting - Budget Workshop",
+    "May 26, 2025 - Notice of Meeting Cancellation",
+    "October 17, 2024 Special Meeting",
+    "Notice of Meeting Cancellation",
+    "Notice of Meeting Cancellation",
+    "NOTICE OF MEETING TIME CHANGE",
+    "Special Meeting",
+    "Notice of Special Meeting",
+    "Notice of Meeting Time Change",
+    "Notice of Special Meeting",
+    "Notice of Meeting Cancellation",
+    "Notice of Special Meeting-Impact Area Negotiations",
+    "Notice of Meeting Cancellation",
+    "Notice of Special Meeting",
+    "Notice of Special Meeting - Comp Plan Update Workshop",
+    "Special Meeting - Budget Workshop"
+   ],
+   "pdfs": [
+    "https://fruitland.govoffice.com/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Notice_of_Public_Meetings_Schedule.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Agenda-November_23_2026.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Agenda-_November_17-_Special_Meeting.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Agenda-_November_9_2026.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Updated-Agenda-October_26_2026.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/October_12_2026-NOTICE_OF_MEETING_CANCELLATION.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Agenda-September_28_2026_City_Council_Meeting.pdf",
+    "&#xA;                  /vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Agenda-_September_14_2026(1).pdf"
+   ]
+  },
+  "https://www.fruitland.org/planning-zoning": {
+   "hits": [
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "Mayor's Youth Council",
+    "City Council Meetings",
+    "The Fruitland Planning and Zoning Commission consists of nine members appointed by the Mayor and confirmed by the City Council. Members are appointed for four year terms. The Commission meets on the second Tuesday of eac",
+    "Applications should be submitted as early as possible in order to meet publishing and notification requirements. For assistance, please call (208) 452-4946.",
+    "Development Agreement",
+    "Planned Unit Development - Preliminary Plan",
+    "2026 Meeting Dates"
+   ],
+   "pdfs": [
+    "/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/AnnexCompZoneApp(1).pdf",
+    "https://fruitland.govoffice.com/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Conditional_Use_App.pdf",
+    "/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Development_Agreement.pdf",
+    "/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Easement_Vacation.pdf",
+    "/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Land_Division_Plan.pdf",
+    "https://fruitland.govoffice.com/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Lot_Line_Adjustment_Application.pdf",
+    "https://www.fruitland.org/vertical/sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Oil__Gas_Operations_Permit_Application.pdf",
+    "/vertical/Sites/%7B0D05ADA3-D512-48E7-8B13-DA20B51EAD7F%7D/uploads/Preliminary_PUD.pdf"
    ]
   }
- ]
+ },
+ "Rupert": {
+  "https://rupert-idaho.com/news/council-meeting-schedule": {
+   "hits": [
+    "City Council Meeting Schedule & How to Get an Item on the Agenda | City of Rupert, Idaho",
+    "Home \u203a News \u203a City Council Meeting Schedule & How to Get an Item on the Agenda City Council Meeting Schedule & How to Get an Item on the Agenda",
+    "The Rupert City Council meets on the 2nd and 4th Tuesday of each month at 7:00 PM in the Council Chambers at 624 F Street. Meetings are open to the public.",
+    "Agendas are posted at least 48 hours before each meeting, as required by the Idaho Open Meeting Law (Idaho Code \u00a774-204). To request that an item be placed on the agenda, contact the City Clerk at (208) 436-9600. You can"
+   ],
+   "pdfs": []
+  },
+  "https://rupert-idaho.com/government": {
+   "hits": [
+    "Mayor & City Council",
+    "Your elected officials and the council meeting schedule.",
+    "Council meeting agendas and minutes."
+   ],
+   "pdfs": []
+  },
+  "https://rupert-idaho.com/government/agendas-minutes": {
+   "hits": [
+    "Regular City Council meetings are the 2nd and 4th Tuesday of each month at 7:00 PM in the Council Chambers, 624 F Street. Agendas are posted at least 48 hours before each meeting (Idaho Code \u00a774-204)."
+   ],
+   "pdfs": [
+    "/forms/agendas/Agenda10-13-26.pdf",
+    "/forms/agendas/Agenda9-22-26.pdf",
+    "/forms/agendas/Agenda9-8-26.pdf",
+    "/forms/agendas/Agenda8-25-26.pdf",
+    "/forms/agendas/Agenda8-11-26.pdf",
+    "/forms/agendas/Agenda7-28-26.pdf",
+    "/forms/agendas/BUDGET2026Agenda.pdf",
+    "/forms/agendas/Agenda7-14-26.pdf"
+   ]
+  }
+ },
+ "Weiser": {
+  "https://www.cityofweiser.net/agendas": {
+   "hits": [
+    "Economic Development",
+    "Mayor Herb Haun",
+    "Mayor's Corner",
+    "REGULAR CITY COUNCIL MEETINGS",
+    "2nd MONDAY OF EACH MONTH",
+    "7:00 p.m.",
+    "October 13, 2026 (Tuesday Meeting)",
+    "City Council Meeting November 9, 2026",
+    "Any person needing special accommodations to participate in the above noticed meeting should contact the Weiser City Clerk four (4) days prior to the meeting at Weiser City Hall, 55 West Idaho, Weiser, Idaho 83672",
+    "Economic Development",
+    "\u00a9 2024 City of Weiser, Idaho, All Rights Reserved. No portion of this website may be reproduced without the express written permission of the Mayor of the City of Weiser, Idaho USA"
+   ],
+   "pdfs": [
+    "https://irp.cdn-website.com/544735d7/files/uploaded/DOC260105.pdf",
+    "https://irp.cdn-website.com/544735d7/files/uploaded/2026+NOVEMBER+AGENDA.pdf"
+   ]
+  },
+  "https://www.cityofweiser.net/city-council-members": {
+   "hits": [
+    "Economic Development",
+    "Mayor Herb Haun",
+    "Mayor's Corner",
+    "Step into the heart of local governance in Weiser as we invite you to meet the Weiser City Council. They are dedicated public servants to deliberate, decide, and drive the progress of our community.",
+    "Economic Development",
+    "\u00a9 2024 City of Weiser, Idaho, All Rights Reserved. No portion of this website may be reproduced without the express written permission of the Mayor of the City of Weiser, Idaho USA"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofweiser.net/mayors-corner": {
+   "hits": [
+    "Mayor's Corner",
+    "Economic Development",
+    "Mayor Herb Haun",
+    "Mayor's Corner",
+    "The Mayor's Corner",
+    "Mayor",
+    "Economic Development",
+    "\u00a9 2024 City of Weiser, Idaho, All Rights Reserved. No portion of this website may be reproduced without the express written permission of the Mayor of the City of Weiser, Idaho USA"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofweiser.net/planning-zoning-commission": {
+   "hits": [
+    "Economic Development",
+    "Mayor Herb Haun",
+    "Mayor's Corner",
+    "& ZONING MEETINGS",
+    "3RD MONDAY OF EACH MONTH",
+    "AT 7:00 pm",
+    "Planning and Zoning Meeting March 16, 2026",
+    "January 20, 2026 (Tuesday Meeting)",
+    "February 17, 2026 (Tuesday Meeting)",
+    "Economic Development",
+    "\u00a9 2024 City of Weiser, Idaho, All Rights Reserved. No portion of this website may be reproduced without the express written permission of the Mayor of the City of Weiser, Idaho USA"
+   ],
+   "pdfs": [
+    "https://irp.cdn-website.com/544735d7/files/uploaded/Weiser_Comp_Plan_Final_with_resolution.pdf",
+    "https://irp.cdn-website.com/544735d7/files/uploaded/Planning+and+Zoning+Meeting+March+16-+2026.pdf",
+    "https://irp.cdn-website.com/544735d7/files/uploaded/DOC260105+%28002%29.pdf"
+   ]
+  }
+ },
+ "Preston": {
+  "https://www.prestonidaho.net/government/mayor___city_council/index.php": {
+   "hits": [
+    "Mayor & City Council",
+    "Mayor & City Council",
+    "Council Meeting Agendas & Minutes",
+    "City Hall",
+    "Economic Development",
+    "How do I know when meetings are?",
+    "Council Meeting Agendas & Minutes",
+    "Mayor & City Council",
+    "Mayor & City Council",
+    "Mayor & City Council",
+    "A MESSAGE FROM THE MAYOR",
+    "Dan Keller, Mayor (208-852-6033)",
+    "Council President, City Economic Development, City Comprehensive Plan, Preston Area Chamber of Commerce, City Events, Liaison to Preston Community Foundation",
+    "<a href=\"http://www.prestonidaho.net/government/mayor___city_council/index.php\">Your Link Name</a>",
+    "Monday - Friday",
+    "8am - 5pm"
+   ],
+   "pdfs": [
+    "https://www.prestonidaho.net/Documents/How Do I/Forms & Applications/Building Permit Instructions/Major Street Plan 2.2.2 (1).pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Planning & Zoning/Comprehensive Plan/COMPREHENSIVE PLAN 2026.pdf",
+    "https://www.prestonidaho.net/Images/Economic Development/PACOC Local Holiday Shopping Guide.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/CCR 2023.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/Preston Typical Road Sections.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Police-Application.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Record Request Form 2026.pdf",
+    "https://www.prestonidaho.net/Documents/How Do I/Apply/Preston City Job Applicatin/Preston-City-Job-Application.pdf"
+   ]
+  },
+  "https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php": {
+   "hits": [
+    "Council Meeting Agendas and Minutes",
+    "Mayor & City Council",
+    "Council Meeting Agendas & Minutes",
+    "City Hall",
+    "Economic Development",
+    "How do I know when meetings are?",
+    "Council Meeting Agendas & Minutes",
+    "Mayor & City Council",
+    "Mayor & City Council",
+    "Council Meeting Agendas & Minutes",
+    "Council Meeting Agendas & Minutes",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting",
+    "Regular Meeting"
+   ],
+   "pdfs": [
+    "https://www.prestonidaho.net/Documents/How Do I/Forms & Applications/Building Permit Instructions/Major Street Plan 2.2.2 (1).pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Planning & Zoning/Comprehensive Plan/COMPREHENSIVE PLAN 2026.pdf",
+    "https://www.prestonidaho.net/Images/Economic Development/PACOC Local Holiday Shopping Guide.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/CCR 2023.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/Preston Typical Road Sections.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Police-Application.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Record Request Form 2026.pdf",
+    "https://www.prestonidaho.net/Documents/How Do I/Apply/Preston City Job Applicatin/Preston-City-Job-Application.pdf"
+   ]
+  },
+  "https://www.prestonidaho.net/government/planning___zoning/index.php": {
+   "hits": [
+    "Mayor & City Council",
+    "Council Meeting Agendas & Minutes",
+    "City Hall",
+    "Economic Development",
+    "How do I know when meetings are?",
+    "Monday - Friday",
+    "8am - 5pm"
+   ],
+   "pdfs": [
+    "https://www.prestonidaho.net/Documents/How Do I/Forms & Applications/Building Permit Instructions/Major Street Plan 2.2.2 (1).pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Planning & Zoning/Comprehensive Plan/COMPREHENSIVE PLAN 2026.pdf",
+    "https://www.prestonidaho.net/Images/Economic Development/PACOC Local Holiday Shopping Guide.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/CCR 2023.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Public Works/Preston Typical Road Sections.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Police-Application.pdf",
+    "https://www.prestonidaho.net/Documents/Departments/Police Department/Record Request Form 2026.pdf",
+    "https://www.prestonidaho.net/Documents/How Do I/Apply/Preston City Job Applicatin/Preston-City-Job-Application.pdf"
+   ]
+  },
+  "revize": {
+   "n": 44,
+   "future": []
+  }
+ },
+ "Rigby": {
+  "https://cityofrigby.gov/mayor-and-city-council/": {
+   "hits": [
+    "Mayor and City Council - City of Rigby",
+    "City Hall: 208.745.8111 Police: 208.745.1951 Library: 208.745.8231",
+    "Mayor and City Council",
+    "Mayor & City Council",
+    "Mayor Nichole Weight",
+    "ONLY THURSDAY AND FRIDAY trash collection will be delayed: \ud83d\uddd1\ufe0f Scheduled Thursday,\u2026",
+    "City Hall:",
+    "City Hall",
+    "Mayor and City Council"
+   ],
+   "pdfs": [
+    "https://cityofrigby.gov/wp-content/uploads/2025/02/TREASURER-REPORTS-2024-12-31.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/ZoneMapRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/08/WaterLineSurveyRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/2019_wastewater_study.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/05/Comp-Plan-February-2024.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/07/city-of-rigby-parking-regulations-snow-removal.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2025/08/CityElections.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2026/09/Public-Records-Request-UPDATED-1-2026.pdf"
+   ]
+  },
+  "https://cityofrigby.gov/city-council-agendas/": {
+   "hits": [
+    "City Hall: 208.745.8111 Police: 208.745.1951 Library: 208.745.8231",
+    "Mayor and City Council",
+    "The Rigby City Council regularly meets on the first and third Thursday of each month at 7:00 p.m. at Rigby City Hall, unless otherwise canceled or rescheduled. Agendas are posted on this page in accordance with Idaho\u2019s O",
+    "October 19, 2026 \u2013 Special Council Meeting",
+    "August 13, 2026 \u2013 Council SPECIAL MEETING",
+    "City Hall:",
+    "City Hall",
+    "Mayor and City Council"
+   ],
+   "pdfs": [
+    "https://cityofrigby.gov/wp-content/uploads/2025/02/TREASURER-REPORTS-2024-12-31.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/ZoneMapRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/08/WaterLineSurveyRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/2019_wastewater_study.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/05/Comp-Plan-February-2024.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/07/city-of-rigby-parking-regulations-snow-removal.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2025/08/CityElections.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2026/09/Public-Records-Request-UPDATED-1-2026.pdf"
+   ]
+  },
+  "https://cityofrigby.gov/planning-and-zoning-commission/": {
+   "hits": [
+    "City Hall: 208.745.8111 Police: 208.745.1951 Library: 208.745.8231",
+    "Mayor and City Council",
+    "Our Planning and Zoning Commission is a volunteer board made up of 8 individuals (when the board is full) that give of their time to the City of Rigby. These Commissioners commit themselves to learning and applying City ",
+    "Regular meetings are on the second Thursday of the month beginning at 7 PM in the Council Chambers at City Hall. Meetings are only held when there is business to be discussed. Agendas will be posted at City Hall and here",
+    "The Planning and Zoning office is open Monday through Thursday from 9:00 AM-5:00 PM, subject to adjustment. Scheduling an appointment in advance is best practice.",
+    "ONLY THURSDAY AND FRIDAY trash collection will be delayed: \ud83d\uddd1\ufe0f Scheduled Thursday,\u2026",
+    "City Hall:",
+    "City Hall",
+    "Mayor and City Council"
+   ],
+   "pdfs": [
+    "https://cityofrigby.gov/wp-content/uploads/2025/02/TREASURER-REPORTS-2024-12-31.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/ZoneMapRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/08/WaterLineSurveyRigby.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/2019_wastewater_study.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/05/Comp-Plan-February-2024.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2024/07/city-of-rigby-parking-regulations-snow-removal.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2025/08/CityElections.pdf",
+    "https://cityofrigby.gov/wp-content/uploads/2026/09/Public-Records-Request-UPDATED-1-2026.pdf"
+   ]
+  }
+ },
+ "Kimberly": {
+  "https://www.cityofkimberly.org/AgendaCenter": {
+   "hits": [
+    "City Council Meeting Agenda",
+    "City Council Meeting Agenda",
+    "\u2014 Posted Oct 9, 2026 5:51 PM",
+    "City Council Meeting",
+    "\u2014 Posted Sep 18, 2026 6:01 PM",
+    "city council meeting",
+    "City Council Meeting",
+    "\u2014 Posted Aug 21, 2026 5:49 PM",
+    "City Council Meeting",
+    "\u2014 Posted Aug 7, 2026 5:45 PM",
+    "Council Meeting",
+    "\u2014 Posted Jul 24, 2026 2:44 PM",
+    "\u2014 Posted Jul 11, 2026 5:22 PM",
+    "City Council Meeting",
+    "City Council Meeting",
+    "City Council Meeting",
+    "City Council meeting",
+    "\u2014 Posted Apr 24, 2026 5:47 PM",
+    "\u2014 Posted Apr 10, 2026 5:43 PM",
+    "\u2014 Posted Mar 20, 2026 12:11 PM",
+    "Council Meeting",
+    "\u2014 Amended Mar 28, 2026 12:12 PM",
+    "Council Meeting",
+    "City Council Meeting",
+    "\u2014 Posted Feb 6, 2026 4:24 PM",
+    "Council Meeting",
+    "\u2014 Posted Jan 23, 2026 6:43 PM",
+    "Council Meeting",
+    "\u2014 Posted Jan 9, 2026 7:05 PM",
+    "Council Meeting"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofkimberly.org/27/Government": {
+   "hits": [
+    "Find meeting information, agendas and minutes, and membership information for the City Council.",
+    "Mayor's Office",
+    "View information on Kimberly City's mayor.",
+    "Mayor's Office"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofkimberly.org/Directory.aspx": {
+   "hits": [
+    "Mayor's Office",
+    "Mayor's Office",
+    "Mayor's Office",
+    "Mayor",
+    "Mayor"
+   ],
+   "pdfs": []
+  }
+ },
+ "Shelley": {
+  "https://cityofshelley.org/meetings/": {
+   "hits": [
+    "Meetings | City of Shelley",
+    "Meetings",
+    "Meetings",
+    "Meeting Schedule",
+    "The council meets in the City Council Chambers at City Hall twice a month, on the second and fourth Wednesday at 7:30 p.m.",
+    "Planning coordination meeting is held in the City Council Chambers at City Hall the first Thursday of every month at noon.",
+    "Planning & Zoning meeting is held in the City Council Chambers at City Hall the third Wednesday of every month at 6:30 p.m.",
+    "The Shelley Urban Renewal Agency meets quarterly on the first Wednesday of the second month of each quarter at 9:00 a.m. at the City Council Chambers at City Hall. Meetings will be held in November, February, May, August",
+    "Agenda - February 12, 2026 - Work Meeting",
+    "Agenda - February 25, 2026 - Work Meeting",
+    "Agenda - April 08, 2026 - Work Meeting",
+    "Agenda - May 05, 2026 - Work Meeting",
+    "Agenda - May 19, 2026 - Work Meeting",
+    "Agenda - May 28, 2026 - Work Meeting",
+    "Agenda - July 23. 2026 - Work Meeting",
+    "Agenda - August 04, 2026 - Work Meeting",
+    "Agenda - August 26, 2026 - Special Meeting",
+    "Agenda - February 12, 2025 - Work Meeting",
+    "Agenda - March 18, 2025 - Special Meeting",
+    "Agenda - April 9, 2025 - Work Meeting",
+    "Agenda - July 29, 2025 - Work Meeting",
+    "Agenda - August 13, 2025 - Special Meeting",
+    "Agenda - August 27, 2025 - Work Meeting",
+    "Agenda - October 8, 2025 - Work Meeting",
+    "Agenda - October 20, 2025 - Work Meeting",
+    "Agenda - Work Meeting May 14, 2024",
+    "Agenda - Work Meeting July 09, 2024",
+    "Agenda - Work Meeting July 22, 2024",
+    "Agenda - Work Meeting August 06, 2024",
+    "Agenda - Special Meeting August 20, 2024"
+   ],
+   "pdfs": [
+    "/media/qhoc4wj5/city-council-agenda-01-14-26.pdf",
+    "/media/fh4cjaoc/agenda012826.pdf",
+    "/media/ql1juu5f/agenda021126.pdf",
+    "/media/urgdqrcu/agendawrk021226.pdf",
+    "/media/hvoh2wxg/agendawrk022526.pdf",
+    "/media/xdlphrbl/agenda-february-25-2026.pdf",
+    "/media/jhulrl0y/agenda030226-facilty-tour.pdf",
+    "/media/b1lnlcc1/agenda031026-eirsdopenhouse.pdf"
+   ]
+  },
+  "https://cityofshelley.org/": {
+   "hits": [
+    "Meetings",
+    "PLEASE CONSERVE WATER!!! IRRIGATE YOUR YARD NO MORE THAN EVERY OTHER DAY. DO NOT IRRIGATE ON SUNDAY AND DO NOT IRRIGATE DURING THE HEAT OF THE DAY WHICH IS CONSIDERED BETWEEN 10:00 A.M AND 5:00 P.M. THANK YOU.",
+    "The City of Shelley is taking bids for weekly cleaning services. Interested individuals and or businesses please fill out the application below and submit sealed bids to City Hall no later than November 30th 2026 at 5:30",
+    "Friday, November 27",
+    "City Hall Offices",
+    "Friday, December 4",
+    "4:00 P.M."
+   ],
+   "pdfs": [
+    "/media/adtnmee1/finalwaterinfosheet032326.pdf",
+    "/media/0a2pc1qu/cleaning-application.pdf",
+    "/media/zgplwrjh/welcome-letter.pdf",
+    "/media/ot4n3ucw/ccr2023.pdf",
+    "/media/icphqx2b/october-december-2026-newsletter-updated.pdf"
+   ]
+  },
+  "https://cityofshelley.org/city-departments/planning-and-zoning/": {
+   "hits": [
+    "Meetings"
+   ],
+   "pdfs": [
+    "/media/cy0gq1th/shelley-zoning-map-2024_09_18.pdf",
+    "/media/2s0dpkff/final-combined-draft-11-21-24.pdf",
+    "/media/3atgvokp/shelley-water-map-2024_09_18.pdf",
+    "/media/xuijbd2q/shelley-sewer-map-2024_09_18-1.pdf",
+    "/media/5yvpwp2p/subdivision-application-revised.pdf",
+    "/media/1i0blljm/annexation-rezone-application.pdf",
+    "/media/urjdtid3/special-use-application-revised.pdf",
+    "/media/wumdlrwb/variance-application-revised.pdf"
+   ]
+  }
+ },
+ "American Falls": {
+  "https://americanfallsid.gov/mayor-and-council/": {
+   "hits": [
+    "Mayor and Council \u2013 americanfallsid.gov",
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "Mayor and Council",
+    "Mayor of American Falls",
+    "A Message From The Mayor",
+    "Mayor of American Falls",
+    "A Message From The Mayor",
+    "Mayor of American Falls",
+    "A Message From The Mayor",
+    "City Hall Lobby Hours",
+    "Monday thru Thursday: 7:30am \u2013 6pm",
+    "Friday thru Sunday: Closed",
+    "City Hall"
+   ],
+   "pdfs": []
+  },
+  "https://americanfallsid.gov/planning-and-zoning/": {
+   "hits": [
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "The Planning & Zoning Department provides services regarding community development. The department reviews and processes applications for site development plans, conditional use permits, plats, and rezoning. The departme",
+    "Meeting Time: 2nd Wednesday of each month at 6:00 p.m. City Hall Council Chambers 550 North Oregon Trail.",
+    "The Planning & Zoning Department provides services regarding community development. The department reviews and processes applications for site development plans, conditional use permits, plats, and rezoning. The departme",
+    "Meeting Time: 2nd Wednesday of each month at 6:00 p.m. City Hall Council Chambers 550 North Oregon Trail.",
+    "The Planning & Zoning Department provides services regarding community development. The department reviews and processes applications for site development plans, conditional use permits, plats, and rezoning. The departme",
+    "Meeting Time: 2nd Wednesday of each month at 6:00 p.m. City Hall Council Chambers 550 North Oregon Trail.",
+    "City Hall Lobby Hours",
+    "Monday thru Thursday: 7:30am \u2013 6pm",
+    "Friday thru Sunday: Closed",
+    "City Hall"
+   ],
+   "pdfs": [
+    "https://americanfallsid.gov/wp-content/uploads/2024/07/Jobwork-city-pla1.pdf",
+    "https://americanfallsid.gov/wp-content/uploads/2024/07/Jobwork-city-pla1.pdf",
+    "https://americanfallsid.gov/wp-content/uploads/2024/07/Jobwork-city-pla1.pdf"
+   ]
+  },
+  "https://americanfallsid.gov/": {
+   "hits": [
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "Toggle Navigation Departments Mayor and Council",
+    "Mayor\u2019s Corner",
+    "City Hall Lobby Hours",
+    "Monday thru Thursday: 7:30am \u2013 6pm",
+    "Friday thru Sunday: Closed",
+    "City Hall"
+   ],
+   "pdfs": []
+  }
+ },
+ "Buhl": {
+  "https://www.cityofbuhl.us/city-council.html": {
+   "hits": [
+    "Industrial Development Opportunities",
+    "Mayor",
+    "Council Meeting Documents",
+    "Planning & Zoning Commission Meetings",
+    "Joint Meeting",
+    "The Buhl City Council is made up of an elected mayor and four elected council members.",
+    "Mayor",
+    "Former Mayors",
+    "C.D. Boring Appointed Mayor",
+    "Thomas L. Smith Appointed Mayor",
+    "Dale I. Christensen Appointed Mayor",
+    "Tom Tappen Appointed Mayor",
+    "City Hall Address Hours",
+    "Buhl, ID 83316 7am - 6pm"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofbuhl.us/mayor.html": {
+   "hits": [
+    "Mayor - City of Buhl, Idaho | Est. 1906",
+    "Industrial Development Opportunities",
+    "Mayor",
+    "Council Meeting Documents",
+    "Planning & Zoning Commission Meetings",
+    "Joint Meeting",
+    "Mayor Doug Howarth",
+    "City Hall Address Hours",
+    "Buhl, ID 83316 7am - 6pm"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofbuhl.us/council-meeting-documents.html": {
+   "hits": [
+    "Council Meeting Documents - City of Buhl, Idaho | Est. 1906",
+    "Industrial Development Opportunities",
+    "Mayor",
+    "Council Meeting Documents",
+    "Planning & Zoning Commission Meetings",
+    "Joint Meeting",
+    "Council Meeting Documents",
+    "Click HERE to view live meetings!",
+    "2nd Monday of the Month",
+    "6:30 PM",
+    "4th Monday of the Month",
+    "6:30 PM",
+    "UPCOMING MEETINGS:",
+    "November 9, 2026 - Regular Meeting",
+    "December 14, 2026 - Regular Meeting",
+    "\u200bMeeting Agendas will be posted 48 hours before a regular meeting. If a special meeting is called, the agenda will be posted 24 hours before the meeting. Meeting minutes will be posted within a reasonable amount of time ",
+    "April 7, 2026 - Special Meeting",
+    "May 28, 2026 - Special Meeting",
+    "\u200b August 3, 2026 - Special Meeting",
+    "October 13, 2026 - Special Meeting",
+    "\u200bAugust 4, 2025 - Special Meeting",
+    "Important Note Regarding Meeting Packets:",
+    "April 29, 2024 - Special Meeting",
+    "July 29, 2024 - Special Meeting",
+    "August 5, 2024 - Special Meeting",
+    "September 23, 2024 -Town Hall Meeting- Cancelled",
+    "October 28, 2024-Town Hall Meeting- Rescheduled",
+    "April 18, 2023 - Special Meeting",
+    "July 26, 2023 - City/County Meeting",
+    "September 25, 2023 - Meeting location will be at Popplewell Elementary Cafeteria"
+   ],
+   "pdfs": [
+    "/uploads/4/7/1/1/47114749/1.12.26_agenda.pdf",
+    "/uploads/4/7/1/1/47114749/01.26.26_agenda_-__amended.pdf",
+    "/uploads/4/7/1/1/47114749/1.29.26_special_meeting_agenda_-_city_officials_day_at_the_capitol.pdf",
+    "/uploads/4/7/1/1/47114749/02.02.26_agenda_-_workshop.pdf",
+    "/uploads/4/7/1/1/47114749/02.09.26_agenda.pdf",
+    "/uploads/4/7/1/1/47114749/02.17.26_agenda_-_pd_ribbon_cutting.pdf",
+    "/uploads/4/7/1/1/47114749/03.09.26_agenda.pdf",
+    "/uploads/4/7/1/1/47114749/03.23.26_agenda.pdf"
+   ]
+  },
+  "https://www.cityofbuhl.us/planning--zoning-commission-meetings.html": {
+   "hits": [
+    "Planning & Zoning Commission Meetings - City of Buhl, Idaho | Est. 1906",
+    "Industrial Development Opportunities",
+    "Mayor",
+    "Council Meeting Documents",
+    "Planning & Zoning Commission Meetings",
+    "Joint Meeting",
+    "Planning and Zoning Commission Meetings \u200b",
+    "\u200bDATE: 3rd Wednesday of Every Month",
+    "PUBLIC HEARING SESSION TIME: 6:00 p.m. (if hearings are scheduled)",
+    "LOCATION: Council Chambers, 203 Broadway Ave. N, Buhl, Idaho",
+    "All meetings \u200bare open to the public.",
+    "Can't make the meeting in person?",
+    "\u200bMeeting ID: 989 6219 8043",
+    "\u200bPublic Hearing - 6:00 p.m.:",
+    "\u200bMeeting ID: 989 0575 7683",
+    "\u200bJuly 23, 2026 - SPECIAL Meeting",
+    "July 23, 2026 - Special Meeting",
+    "August 27, 2025 - Special Meeting",
+    "\u200b October 29, 2025 - Special Meeting",
+    "November 24, 2025 - Special Meeting",
+    "August 27, 2025 - Special Meeting",
+    "November 24, 2025 - Special Meeting",
+    "January 18, 2024 - Special Meeting",
+    "December 4, 2024 - Special Meeting",
+    "January 18, 2024 - Special Meeting",
+    "\u200bDecember 4, 2024 - Special Meeting",
+    "February 22, 2023 - Special Meeting",
+    "September 27, 2023 - Special Meeting",
+    "February 22, 2023 - Special Meeting",
+    "\u200b September 27, 2023 - Special Meeting"
+   ],
+   "pdfs": [
+    "/uploads/4/7/1/1/47114749/p_z_agenda_01.21.2026.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_02.18.2026.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_03.18.2026__amended_.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_04.15.26.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_05.20.2026.pdf",
+    "/uploads/4/7/1/1/47114749/06.17.26_agenda_-_cancelled.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_7.15.26-cancelled__1_.pdf",
+    "/uploads/4/7/1/1/47114749/p_z_agenda_07.23.2026.pdf"
+   ]
+  }
+ },
+ "St. Anthony": {
+  "https://www.cityofstanthony.org/page/city-council": {
+   "hits": [],
+   "pdfs": []
+  },
+  "https://stanthony.municipalcodeonline.com/": {
+   "hits": [
+    "An index of the Minutes from meeting held by the Municipality."
+   ],
+   "pdfs": []
+  }
+ },
+ "Gooding": {
+  "https://www.goodingidaho.org/pages/elected-officials": {
+   "hits": [
+    "Mayor & City Council | City of Gooding",
+    "Mayor & City Council",
+    "Council Meetings",
+    "City Council meetings are held the first and third Monday of every month at 6:30 PM.",
+    "City Council meetings are held in the Council Chambers at City Hall",
+    "All Council meetings are open to the public. If you would like to address the City Council with a comment or concern please contact the City Clerk at (208) 595-4234 to be added to the agenda.",
+    "Meeting Agendas",
+    "Please see our Agenda page for all Council Meeting Agendas, Packets & Minutes.",
+    "Below is the annual regular meeting schedule -",
+    "Diane Houser - Mayor",
+    "mayor@goodingidaho.org",
+    "The Mayor is the superintending and administrative officer of the City. The Mayor signs officially for and in behalf of the City on all contracts, including all deeds, bonds, bills, notes, obligations and other agreement",
+    "The Mayor has the power to veto or sign any ordinance or resolution passed by the Council, provided that any ordinance or resolution vetoed by the Mayor may be passed over the veto by a vote of one- half (1/2) plus one o",
+    "The Mayor has the power to require a report from any City officer, and to report to the Council on any subject pertaining to the Office of the Mayor.",
+    "The Mayor has jurisdiction over all places within the corporate limits of the City for the enforcement of any health or quarantine ordinance, and has jurisdiction in all matters except taxation within the corporate limit",
+    "The Council elects a President from among its members at its first meeting in January every year. The Council President serves as Mayor in his/her absence and has such other duties and responsibilities as the Council may",
+    "Economic Development",
+    "Mayor & City Council"
+   ],
+   "pdfs": []
+  },
+  "https://www.goodingidaho.org/agendas": {
+   "hits": [
+    "City Council Special Meeting",
+    "at 5:00 pm",
+    "Planning & Zoning Regular Meeting",
+    "at 2:00 pm",
+    "Urban Renewal Meeting",
+    "Regular City Council Meeting",
+    "at 6:30 pm",
+    "Urban Renewal Meeting",
+    "Airport Advisory Commission Meeting",
+    "at 6:30 pm",
+    "Regular City Council Meeting",
+    "at 6:30 pm",
+    "City Council Work Session And Regular Meeting Agenda",
+    "at 5:30 pm",
+    "Planning & Zoning Public Hearing & Regular Meeting Agenda",
+    "at 2:00 pm",
+    "Regular City Council Meeting",
+    "at 6:30 pm",
+    "Planning & Zoning Regular Meeting",
+    "at 2:00 pm",
+    "Urban Renewal Meeting",
+    "Regular City Council Meeting",
+    "at 6:30 pm",
+    "City Council Public Hearing And Regular Meeting Agenda",
+    "at 6:15 pm",
+    "Urban Renewal Meeting",
+    "Regular City Council Meeting",
+    "at 6:30 pm",
+    "Regular City Council Meeting",
+    "at 6:30 pm"
+   ],
+   "pdfs": []
+  },
+  "https://www.goodingidaho.org/pages/city-info": {
+   "hits": [
+    "City Hall",
+    "Monday through Thursday: 7:30 AM to 5:30 PM",
+    "Closed Friday, Saturday & Sunday and all federal holidays",
+    "The City Clerk attends and records City Council sessions; preparing the agenda and information packets for Council meetings. The City Clerk performs administrative work to support the Mayor and City Council.",
+    "Economic Development",
+    "Mayor & City Council"
+   ],
+   "pdfs": []
+  }
+ },
+ "Heyburn": {
+  "https://heyburn.id.gov/index.asp?SEC=3231C763-F07B-4646-AF04-ABF4316E02E6": {
+   "hits": [
+    "November 23, 2026 City Council Meeting Agenda",
+    "December 11, 2026 Special Meeting Notice for Annual Employee Appreciation Dinner",
+    "November 12, 2026 City Council Meeting Agenda",
+    "October 28, 2026 City Council Meeting Amended Agenda",
+    "October 14, 2026 City Council Meeting Minutes",
+    "September 23, 2026, City Council Meeting & Public Hearing Minutes",
+    "September 09, 2026 City Council Meeting Minutes",
+    "August 26, 2026 City Council Meeting & Public Hearing Minutes",
+    "August 12, 2026 City Council Meeting & Public Hearing Minutes",
+    "July 22, 2026 City Council Meeting Minutes",
+    "July 08, 2026 City Council Meeting & Public Hearing Minutes",
+    "July 08, 2026 Special City Council Meeting Minutes",
+    "June 24, 2026 City Council Meeting & Public Hearing Minutes",
+    "June 24, 2026 Special Meeting Notice - America 250 Monument Celebration",
+    "June 16, 2026 City Council Meeting Minutes",
+    "June 16, 2026 Special City Council Meeting Minutes",
+    "May 27, 2026 Special City Council Meeting Minutes",
+    "May 27, 2026 City Council Meeting & Public Hearing Minutes",
+    "May 13, 2026 Special City Council Meeting Minutes",
+    "May 13, 2026 City Council Meeting & Public Hearing Minutes",
+    "April 22, 2026 City Council Meeting Minutes",
+    "Amended Notice of Special City Council Meetings \u2013 May 13, May 27, June 16, and July 8, 2026",
+    "April 08, 2026 City Council Meeting Minutes",
+    "March 25, 2026 City Council Meeting & Public Hearing Minutes",
+    "March 11, 2026 City Council Meeting Minutes",
+    "February 25, 2026 City Council Meeting & Public Hearing Minutes",
+    "March 04, 2026, Heyburn 21st Street Improvements Open House Meeting Notice",
+    "February 11, 2026 City Council Meeting Minutes",
+    "February 03, 2026 Special City Council Meeting Minutes",
+    "January 28, 2026 City Council Meeting & Public Hearing Minutes"
+   ],
+   "pdfs": []
+  },
+  "https://heyburn.id.gov/government": {
+   "hits": [
+    "Hours: Monday - Friday, 9:00 - 5:00"
+   ],
+   "pdfs": []
+  },
+  "https://heyburn.id.gov/agendas": {
+   "hits": [
+    "City of Heyburn Council Meeting and Agendas",
+    "CITY COUNCIL MEETING NOTICE",
+    "CITY COUNCIL WORK MEETING NOTICE",
+    "City Council Work Meetings are held on the 1 st Tuesday of each month at",
+    "3:45 PM at Heyburn City Hall Meeting Room, 941 18 th Street, Heyburn, Idaho. City Hall and the meeting room are accessible for persons with disabilities. Any person needing special accommodations to participate in the me",
+    "Meeting_Procedures.pdf",
+    "Hours: Monday - Friday, 9:00 - 5:00"
+   ],
+   "pdfs": [
+    "&#xA;                  /vertical/sites/%7B59CF33B4-6AFD-49C3-ABDF-5328F7144656%7D/uploads/Meeting_Procedures.pdf"
+   ]
+  },
+  "https://heyburn.id.gov/index.asp?SEC=CED04F24-BC21-4DD9-84F1-BB7EDE4F2910": {
+   "hits": [
+    "Hours: Monday - Friday, 9:00 - 5:00"
+   ],
+   "pdfs": []
+  }
+ },
+ "Grangeville": {
+  "https://grangeville.us/mayor-and-city-council/": {
+   "hits": [
+    "Mayor and City Council \u2013 City of Grangeville Idaho",
+    "Mayor & City Council",
+    "City Hall Administration",
+    "Mayor & City Council",
+    "Mayor and City Council",
+    "Regular meetings of the Council are held on the first and third Mondays of each month at 6:00 p.m. in the Council Chambers at City Hall, located at 225 W. North Street. The agenda deadline is 5:00 p.m. the Friday before ",
+    "2026 City Council Regular Meetings",
+    "Monday, January 5, 2026",
+    "Tuesday, January 20, 2026",
+    "Monday, February 2, 2026",
+    "Tuesday, February 17, 2026",
+    "Monday, March 2, 2026",
+    "Monday, March 16, 2026",
+    "Monday, April 6, 2026",
+    "Monday, April 20, 2026",
+    "Monday, May 4, 2026",
+    "Monday, May 18, 2026",
+    "Monday, June 1, 2026",
+    "Monday, June 15, 2026",
+    "Monday, July 6, 2026",
+    "Monday, July 20, 2026",
+    "Monday, August 3, 2026",
+    "Monday, August 17, 2026",
+    "Tuesday, September 8, 2026",
+    "Monday, September 21, 2026",
+    "Monday, October 5, 2026",
+    "Monday, October 19, 2026",
+    "Monday, November 2, 2026",
+    "Monday, November 16, 2026",
+    "Monday, December 7, 2026"
+   ],
+   "pdfs": []
+  },
+  "https://grangeville.us/city-council-agendas/": {
+   "hits": [
+    "Mayor & City Council",
+    "City Hall Administration",
+    "November 16, 2026 Regular Meeting",
+    "November 2, 2026 Regular Meeting",
+    "October 19, 2026 Regular Meeting",
+    "October 5, 2026 Regular Meeting",
+    "September 21, 2026 Regular Meeting",
+    "September 8, 2026 Regular Meeting",
+    "August 31, 2026 Special Meeting",
+    "August 17, 2026 Regular Meeting",
+    "August 3, 2026 Regular Meeting",
+    "July 20, 2026 Regular Meeting",
+    "July 9, 2026 Special Meeting",
+    "July 8, 2025 Special Meeting",
+    "July 7, 2026 Special Meeting",
+    "July 6, 2026 Regular Meeting",
+    "June 15, 2026 Regular Meeting",
+    "June 1, 2026 Regular Meeting",
+    "May 18, 2026 Regular Meeting",
+    "May 4, 2026 Regular Meeting",
+    "April 20, 2026 Regular Meeting",
+    "April 6, 2026 Regular Meeting",
+    "8:00AM - 5:00PM",
+    "City Council Meetings",
+    "Planning & Zoning Meetings",
+    "Library Meetings",
+    "City Council Meetings",
+    "Planning & Zoning Meetings",
+    "Library Meetings"
+   ],
+   "pdfs": []
+  },
+  "https://grangeville.us/mayor-and-city-council/planning-and-zoning-commission/": {
+   "hits": [
+    "Mayor & City Council",
+    "City Hall Administration",
+    "Mayor & City Council",
+    "Meetings",
+    "Meetings of the Planning and Zoning Commission are usually held on the fourth Tuesday of each month at 6:00 p.m. in the Council Chambers at City Hall, located at 225 West North Street.",
+    "The Commission consists of a seven member panel appointed by the Mayor and confirmed by the Council. The seven members are made up of six members residing either within or without the City of Grangeville but interested i",
+    "Meeting Minutes",
+    "Planning and Zoning Minutes are posted online under City Minutes. If you need additional information, please contact City Hall at 208.983.2851",
+    "8:00AM - 5:00PM",
+    "City Council Meetings",
+    "Planning & Zoning Meetings",
+    "Library Meetings",
+    "City Council Meetings",
+    "Planning & Zoning Meetings",
+    "Library Meetings"
+   ],
+   "pdfs": []
+  }
+ },
+ "Orofino": {
+  "https://cityoforofino.org/": {
+   "hits": [
+    "1.208.476.4725 8am-5pm",
+    "Economic Development",
+    "GOVERNMENT Meet the Mayor, City Council and City Staff",
+    "Document Center Meeting Minutes And Agendas",
+    "MEETINGS",
+    "Thank You for taking the time to explore our web site! Orofino is truly a paradise with a rich history of logging and mining. Our biggest treasure has always been our people! I think you\u2019ll find the warmest, most genuine",
+    "CITY MEETINGS & HAPPENINGS",
+    "6:00 pm - 8:00 pm",
+    "City Council Meeting",
+    "6:00 pm - 8:00 pm",
+    "City Council Meeting",
+    "City Council Meeting Agenda \u2013 11-24-2026",
+    "City Council Meeting Agenda \u2013 11-24-2026",
+    "City Council Meeting Agenda \u2013 11-10-2026",
+    "City Council Meeting Agenda \u2013 11-10-2026",
+    "Monday \u2013 Friday:",
+    "8:00 AM \u2013 5:00 PM",
+    "City Council Meeting Agenda \u2013 11-24-2026",
+    "City Council Meeting Agenda \u2013 11-10-2026",
+    "City Council Meeting Agenda -10-27-2026",
+    "The Mayor",
+    "Economic Development",
+    "6:00 pm - 8:00 pm",
+    "City Council Meeting",
+    "6:00 pm - 8:00 pm",
+    "City Council Meeting",
+    "City Hall: 1.208.476.4725",
+    "Monday \u2013 Friday:",
+    "8:00 AM \u2013 5:00 PM",
+    "The Mayor"
+   ],
+   "pdfs": []
+  }
+ },
+ "Salmon": {
+  "https://www.cityofsalmon.com/page/mayor-and-council": {
+   "hits": [
+    "Mayor And Council | City of Salmon",
+    "Mayor And Council"
+   ],
+   "pdfs": []
+  },
+  "https://www.cityofsalmon.com/page/meeting-schedules": {
+   "hits": [],
+   "pdfs": []
+  },
+  "https://www.cityofsalmon.com/documents/city-council-meeting-agendas/23937884": {
+   "hits": [
+    "City Council Meeting Agendas"
+   ],
+   "pdfs": []
+  }
+ },
+ "Soda Springs": {
+  "https://www.sodaspringsid.com/city/mayor_and_council/index.php": {
+   "hits": [
+    "Mayor and Council",
+    "Mayor & Council",
+    "Public Meetings",
+    "Mayor and Council",
+    "Mayor and Council",
+    "City Hall",
+    "City Hall",
+    "Home City Mayor and Council",
+    "Mayor and Council",
+    "Mayor Paul Gritton",
+    "<a href=\"http://www.sodaspringsid.com/city/mayor_and_council/index.php\">Your Link Name</a>",
+    "City Council Meetings and Minutes",
+    "Planning and Zoning Meetings and Minutes",
+    "Monday - Friday",
+    "8:00 AM - 5:00 PM"
+   ],
+   "pdfs": [
+    "2020 Comp Plan FINAL May 6-2020 Revision w-attachments.pdf",
+    "FLUM  FINAL   4-22-20.pdf"
+   ]
+  },
+  "https://www.sodaspringsid.com/city/city_council.php": {
+   "hits": [
+    "Mayor & Council",
+    "Public Meetings",
+    "Mayor and Council",
+    "Home City Public Meetings City Council",
+    "Annual Meeting Notice",
+    "CITY COUNCIL MEETINGS",
+    "Meetings are held on the 1 st and 3 rd Wednesdays of each month at 5:00 p.m. Rescheduled meetings are noted below.",
+    "ALL MEETINGS ARE OPEN TO THE PUBLIC",
+    "AGENDAS ARE POSTED AT CITY HALL AND ONLINE 48 HOURS IN ADVANCE OF EACH MEETING.",
+    "SPECIAL MEETINGS ARE POSTED 24 HOURS BEFORE THE MEETING.",
+    "Please note that meetings are occasionally changed or canceled. If you plan to attend, please call 208-547-2600 or sodaspringsid.com to verify that the meeting will be held as scheduled.",
+    "Anyone needing special accommodations to attend City Council Meetings should contact City Hall by calling 208-547-2600 at least seven (7) days in advance.",
+    "2027 Meeting Agendas, Minutes and Notices",
+    "2026 Meeting Agendas, Minutes and Notices",
+    "City Council Meetings and Minutes",
+    "Planning and Zoning Meetings and Minutes",
+    "Monday - Friday",
+    "8:00 AM - 5:00 PM"
+   ],
+   "pdfs": [
+    "2020 Comp Plan FINAL May 6-2020 Revision w-attachments.pdf",
+    "FLUM  FINAL   4-22-20.pdf",
+    "Agenda 11-18-26.pdf?t=202611161854030",
+    "Agenda 11-4-26.pdf?t=202611041339220",
+    "Enders Public Hearing Notice.pdf?t=202610081853050",
+    "CITY COUNCIL MINUTES 11-4-26.pdf?t=202611161845160",
+    "SPECIAL CITY COUNCIL MINUTES 10-22-2026 .pdf?t=202611051100250",
+    "Agenda 10-21-26.pdf?t=202610191846450"
+   ]
+  },
+  "https://www.sodaspringsid.com/city/publicmeetings.php": {
+   "hits": [
+    "ANNUAL NOTICE OF PUBLIC MEETINGS",
+    "Mayor & Council",
+    "Public Meetings",
+    "Public Meetings",
+    "Mayor and Council",
+    "Home City Public Meetings",
+    "ANNUAL NOTICE OF PUBLIC MEETINGS",
+    "2025 ANNUAL NOTICE OF PUBLIC MEETINGS",
+    "AT 9 WEST 2 ND SOUTH \u2013 CITY HALL",
+    "CITY COUNCIL MEETINGS \u2026\u2026\u2026\u2026\u2026. Held the 1 st and 3 rd Wednesday of each month at 5:00 p.m.",
+    "PLANNING & ZONING MEETINGS\u2026\u2026\u2026\u2026\u2026\u2026\u2026 Held on the 2 nd Tuesday of each month at 6:00 p.m.",
+    "LIBRARY BOARD MEETINGS \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. Held on the 1 st Tuesday of each month at 5:30 p.m.",
+    "DEVELOPMENT BOARD MEETINGS \u2026\u2026\u2026\u2026\u2026\u2026\u2026Held on the 2 nd Wednesday of each month at 5:15 p.m.",
+    "AIRPORT COMMISSION MEETINGS \u2026\u2026. Held quarterly in March, June, September & December",
+    "PARKS & RECREATION COMMISSION MEETINGS \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026Held every other month",
+    "ALL MEETINGS ARE OPEN TO THE PUBLIC",
+    "AGENDAS ARE POSTED AT CITY HALL AND ONLINE 48 HOURS IN ADVANCE OF EACH MEETING",
+    "Please be advised that meetings are occasionally changed or canceled. If you plan to attend, please call 208-547-2600 or sodaspringsid.com to verify that the meeting will be held as scheduled.",
+    "Any person needing special accommodations to participate in the above-noted meetings should contact Soda Springs City Hall by calling 208-547-2600 seven (7) days before the meeting.",
+    "<a href=\"http://www.sodaspringsid.com/city/publicmeetings.php\">Your Link Name</a>",
+    "City Council Meetings and Minutes",
+    "Planning and Zoning Meetings and Minutes",
+    "Monday - Friday",
+    "8:00 AM - 5:00 PM"
+   ],
+   "pdfs": [
+    "2020 Comp Plan FINAL May 6-2020 Revision w-attachments.pdf",
+    "FLUM  FINAL   4-22-20.pdf"
+   ]
+  },
+  "https://www.sodaspringsid.com/city/planning_and_zoning.php": {
+   "hits": [
+    "Mayor & Council",
+    "Public Meetings",
+    "Mayor and Council",
+    "The City's Planning & Zoning commission meets on the second Tuesday of every month, 6 PM at City Hall, 9 W 2nd S. The meetings are open to the public.",
+    "City Council Meetings and Minutes",
+    "Planning and Zoning Meetings and Minutes",
+    "Monday - Friday",
+    "8:00 AM - 5:00 PM"
+   ],
+   "pdfs": [
+    "2020 Comp Plan FINAL May 6-2020 Revision w-attachments.pdf",
+    "FLUM  FINAL   4-22-20.pdf"
+   ]
+  },
+  "revize": {
+   "n": 48,
+   "future": []
+  }
+ }
 }
