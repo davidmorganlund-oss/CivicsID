@@ -2453,8 +2453,8 @@ sources:
         category: school
         url: https://www.sd282.org/district-information/school-board
 
-  # Board page: regular meetings "on the second Tuesday of every month in the board room unless
-  # otherwise posted." (No start time on that page.)
+  # "NOTICE OF SCHEDULE OF REGULAR MEETINGS" (Jan. 13, 2026): regular meetings "at 7 p.m. at
+  # Rimrock School Library" on listed Tuesdays through January 2027.
   - id: bruneau-grand-view-schools
     name: Bruneau-Grand View Joint School District 365
     type: schedule
@@ -2463,9 +2463,15 @@ sources:
     homepage: https://www.sd365.us/board-trustees
     meetings:
       - title: Board of Trustees Regular Meeting
-        when: 2nd Tuesday
-        note: "Check the agenda for the start time."
-        location: District board room
+        dates: [2026-12-08]
+        time: "19:00"
+        location: Rimrock School Library
+        category: school
+        url: https://www.sd365.us/board-trustees
+      - title: Board of Trustees Annual Meeting
+        dates: [2027-01-12]
+        time: "19:00"
+        location: Rimrock School Library
         category: school
         url: https://www.sd365.us/board-trustees
 
@@ -3213,3 +3219,20 @@ sources:
         location: Idaho City City Hall
         category: council
         url: https://idahocity.municipalimpact.com/
+
+  # "Kendrick Joint School District #283 2026 Board Meeting Calendar": Wednesday,
+  # December 16th, 7PM, Kendrick High School Library. 2027 dates not yet posted.
+  - id: kendrick-schools
+    name: Kendrick Joint School District 283
+    type: schedule
+    county: Latah
+    area: Kendrick
+    timezone: America/Los_Angeles
+    homepage: https://www.sd283.org/
+    meetings:
+      - title: Board of Trustees Meeting
+        dates: [2026-12-16]
+        time: "19:00"
+        location: Kendrick High School Library
+        category: school
+        url: https://www.sd283.org/
