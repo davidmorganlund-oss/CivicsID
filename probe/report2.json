@@ -1,191 +1,831 @@
 {
- "https://sde.idaho.gov/ed-directory.html": "HTTPError('404 Client Error: Not Found for url: https://www.sde.idaho.gov/ed-directory.html')",
- "https://libraries.idaho.gov/idaho-library-directory/": {
-  "len": 210098,
-  "links": [
-   [
-    "https://libraries.idaho.gov/feed/",
-    "img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-"
+ "libraries": {
+  "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/": {
+   "name": "Aberdeen District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/library-programs/adults/",
-    "Adult Services"
+   "city": "Aberdeen"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-hidden-springs-branch/": {
+   "name": "Ada Community Library - Hidden Springs Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
-    "Districting Handbook"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-lake-hazel-branch/": {
+   "name": "Ada Community Library - Lake Hazel Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
-    "Idaho Library Laws"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-star-branch/": {
+   "name": "Ada Community Library - Star Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/knowledge-base/library-statistics/",
-    "Idaho Library Statistics"
+   "city": "Star"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library/": {
+   "name": "Ada Community Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
-    "Library Survival Guide"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ada-communnity-library-victory-branch/": {
+   "name": "Ada Community Library - Victory Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/american-falls-district-library/": {
+   "name": "American Falls District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/library-programs/adults/",
-    "Adult Services"
+   "city": "American Falls"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/armoral-tuttle-public-library/": {
+   "name": "Armoral Tuttle Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
-    "Districting Handbook"
+   "city": "New Plymouth"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/bear-lake-county-district-library/": {
+   "name": "Bear Lake County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
-    "Idaho Library Laws"
+   "city": "Montpelier"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/bellevue-public-library/": {
+   "name": "Bellevue Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-statistics/",
-    "Idaho Library Statistics"
+   "city": "Bellevue"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/benewah-county-district-library-tensed-branch/": {
+   "name": "Benewah County District Library - Tensed Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
-    "Library Survival Guide"
+   "city": "Tensed"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/benewah-county-district-library-tri-community/": {
+   "name": "Benewah County District Library - Myrtle Mellen Upriver Community Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
+   "city": "Fernwood"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/blackfoot-public-library/": {
+   "name": "Blackfoot Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/a-b-mcdonald-elementary-school/",
-    "A. B. McDonald Elementary School"
+   "city": "Blackfoot"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-basin-library-district/": {
+   "name": "Boise Basin Library District",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://www.msd281.org/district_schools/district_libraries/elementary_libraries",
-    "https://www.msd281.org/district_schools/district_libraries/e"
+   "city": "Idaho City"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-bown-crossing-branch/": {
+   "name": "Boise Public Library - Bown Crossing Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/a-h-bush-elementary-school-library/",
-    "A. H. Bush Elementary School Library"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-cole-ustick-branch/": {
+   "name": "Boise Public Library - Cole & Ustick Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/a-j-winters-elementary-school-library/",
-    "A. J. Winters Elementary School Library"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-collister-branch/": {
+   "name": "Boise Public Library - Collister Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/a-w-johnson-elementary-school/",
-    "A. W. Johnson Elementary School"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-hillcrest-branch/": {
+   "name": "Boise Public Library - Hillcrest Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/",
-    "Aberdeen District Library"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library/": {
+   "name": "Boise Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/?_page=2&amp;sort=",
-    "Load More"
+   "city": "Boise"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/boundary-county-district-library/": {
+   "name": "Boundary County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
+   "city": "Bonners Ferry"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/bruneau-district-library/": {
+   "name": "Bruneau District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
    ],
-   [
-    "https://libraries.idaho.gov/about/staff/",
-    "Staff Directory"
-   ]
-  ]
+   "city": "Bruneau"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/buhl-public-library/": {
+   "name": "Buhl Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Buhl"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/burley-public-library/": {
+   "name": "Burley Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Burley"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/caldwell-public-library/": {
+   "name": "Caldwell Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Caldwell"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/camas-county-district-library/": {
+   "name": "Camas County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Fairfield"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/cambridge-community-library/": {
+   "name": "Cambridge Community Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Cambridge"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/cascade-public-library/": {
+   "name": "Cascade Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Cascade"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/challis-public-library/": {
+   "name": "Challis Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Challis"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/clark-county-district-library/": {
+   "name": "Clark County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Dubois"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/clarkia-district-library/": {
+   "name": "Clarkia District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Clarkia"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/clearwater-county-district-library/": {
+   "name": "Clearwater County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Weippe"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/coeur-dalene-public-library/": {
+   "name": "Coeur d'Alene Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Alene"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-athol-branch/": {
+   "name": "Community Library Network - Athol Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Athol"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-harrison-branch/": {
+   "name": "Community Library Network - Harrison Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Harrison"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-hayden-branch/": {
+   "name": "Community Library Network - Hayden Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Hayden"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-pinehurst-branch/": {
+   "name": "Community Library Network - Pinehurst Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Pinehurst"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-post-falls-branch/": {
+   "name": "Community Library Network - Post Falls Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Post Falls"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-rathdrum-branch/": {
+   "name": "Community Library Network - Rathdrum Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Rathdrum"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-spirit-lake-branch/": {
+   "name": "Community Library Network - Spirit Lake Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Spirit Lake"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network/": {
+   "name": "Community Library Network",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Post Falls"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/council-district-library/": {
+   "name": "Council District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Council"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/demary-memorial-public-library/": {
+   "name": "DeMary Memorial Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Rupert"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/donnelly-public-library-district/": {
+   "name": "Donnelly Public Library District",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Donnelly"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/eagle-public-library/": {
+   "name": "Eagle Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Eagle"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district-bookmobile/": {
+   "name": "East Bonner County Library District - Bookmobile",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Sandpoint"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district-clark-fork/": {
+   "name": "East Bonner County Library District- Clark Fork",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Clark Fork"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district/": {
+   "name": "East Bonner County Library District - Sandpoint",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Sandpoint"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/eastern-owyhee-county-district-library/": {
+   "name": "Eastern Owyhee County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Grand View"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/elk-river-free-library-district/": {
+   "name": "Elk River Free Library District",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Elk River"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/emmett-public-library/": {
+   "name": "Emmett Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Emmett"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/filer-public-library/": {
+   "name": "Filer Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Filer"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/franklin-co-district-larsen-sant-library/": {
+   "name": "Franklin Co. District (Larsen-Sant) Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Preston"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-ashton-branch/": {
+   "name": "Fremont County District Library - Ashton Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Ashton"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-island-park-branch/": {
+   "name": "Fremont County District Library - Island Park Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Island Park"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-st-anthony-branch/": {
+   "name": "Fremont County District Library - St. Anthony Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "St. Anthony"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library/": {
+   "name": "Fremont County District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Ashton"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/garden-city-public-library/": {
+   "name": "Garden City Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Garden City"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/garden-valley-district-library/": {
+   "name": "Garden Valley District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Garden Valley"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/glenns-ferry-public-library/": {
+   "name": "Glenns Ferry Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Glenns Ferry"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/gooding-district-library/": {
+   "name": "Gooding District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Gooding"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/grace-district-library/": {
+   "name": "Grace District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Grace"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/grangeville-centennial-library/": {
+   "name": "Grangeville Centennial Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Grangeville"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/hagerman-public-library/": {
+   "name": "Hagerman Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Hagerman"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/hailey-public-library/": {
+   "name": "Hailey Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Hailey"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/hansen-community-library/": {
+   "name": "Hansen Community Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Hansen"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/homedale-public-library/": {
+   "name": "Homedale Library District",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Homedale"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/horseshoe-bend-district-library/": {
+   "name": "Horseshoe Bend District Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Horseshoe Bend"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library-iona-community-library/": {
+   "name": "Bonneville County Library District - Iona Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Iona"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library-swan-valley-branch/": {
+   "name": "Bonneville County Library District - Swan Valley Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Irwin"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library/": {
+   "name": "Idaho Falls Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Idaho Falls"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library-hamer-branch/": {
+   "name": "Jefferson County District Library - Hamer Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Hamer"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library-heart-of-the-valley-branch/": {
+   "name": "Jefferson County District Library - Heart of the Valley Branch",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Terreton"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library/": {
+   "name": "Jefferson County District Library - Menan Annis Grant",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Menan"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/jerome-public-library/": {
+   "name": "Jerome Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Jerome"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/kellogg-public-library/": {
+   "name": "Kellogg Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Kellogg"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/kimberly-public-library/": {
+   "name": "Kimberly Public Library",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Kimberly"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/kuna-library-district/": {
+   "name": "Kuna Library District",
+   "sites": [
+    "https://idaho.gov",
+    "https://idahotalkingbooks.org/",
+    "https://idahotalkingbooks.org/"
+   ],
+   "city": "Kuna"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-bovill-branch/": {
+   "error": "503 Server Error: Service Temporarily Unavailable for url: https://libraries.idaho.gov/idaho-library"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-deary-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-genesee-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-juliaetta-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-potlatch-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-troy-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lemhi-county-district-library-leadore-community-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lemhi-county-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lewiston-city-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lewisville-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/little-wood-river-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lizard-butte-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lost-rivers-district-library-howe-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/lost-rivers-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/mackay-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/madison-library-district/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/marshall-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/mccall-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/meadows-valley-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/meridian-library-district-silverstone-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/meridian-library-district/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/middleton-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/midvale-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/mountain-home-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/mullan-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/nampa-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/north-bingham-county-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/notus-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/oakley-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/ola-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/oneida-county-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/osburn-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/patricia-romanko-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/payette-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/pierce-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/plummer-public-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/portneuf-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-district-library/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-craigmont-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-culdesac-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-kamiah-branch/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  },
+  "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district/": {
+   "error": "503 Server Error: Service Unavailable for url: https://libraries.idaho.gov/idaho-library-directory/l"
+  }
  },
- "https://libraries.idaho.gov/idaho-library-directory/categories/public-library/": {
-  "len": 192613,
-  "links": [
-   [
-    "https://libraries.idaho.gov/feed/",
-    "img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-"
-   ],
-   [
-    "https://libraries.idaho.gov/library-programs/adults/",
-    "Adult Services"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
-    "Districting Handbook"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
-    "Idaho Library Laws"
-   ],
-   [
-    "https://libraries.idaho.gov/knowledge-base/library-statistics/",
-    "Idaho Library Statistics"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
-    "Library Survival Guide"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
-   ],
-   [
-    "https://libraries.idaho.gov/library-programs/adults/",
-    "Adult Services"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-districting-handbook/",
-    "Districting Handbook"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-law/",
-    "Idaho Library Laws"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/idaho-library-statistics/",
-    "Idaho Library Statistics"
-   ],
-   [
-    "https://libraries.idaho.gov/article-categories/library-director-survival-guide/",
-    "Library Survival Guide"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/categories/district-library/",
-    "District Library"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/",
-    "Aberdeen District Library"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library/",
-    "Ada Community Library"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-hidden-springs-branch/",
-    "Ada Community Library - Hidden Springs Branch"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-lake-hazel-branch/",
-    "Ada Community Library - Lake Hazel Branch"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-star-branch/",
-    "Ada Community Library - Star Branch"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/categories/public-library/?_page=2&amp;sort=",
-    "Load More"
-   ],
-   [
-    "https://libraries.idaho.gov/idaho-library-directory/",
-    "Library Locator"
-   ],
-   [
-    "https://libraries.idaho.gov/about/staff/",
-    "Staff Directory"
-   ]
-  ]
+ "districts_pages": {
+  "https://idaho.gov/education/school-districts": "HTTPError('404 Client Error: Not Found for url: https://idaho.gov/education/school-districts')",
+  "https://www.sde.idaho.gov/schools.html": "HTTPError('404 Client Error: Not Found for url: https://www.sde.idaho.gov/schools.html')"
  },
- "https://libraries.idaho.gov/wp-json/wp/v2/types": "{\"post\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Posts\",\"slug\":\"post\",\"icon\":\"dashicons-admin-post\",\"taxonomies\":[\"category\",\"post_tag\"],\"rest_base\":\"posts\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/posts\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"page\":{\"description\":\"\",\"hierarchical\":true,\"has_archive\":false,\"name\":\"Pages\",\"slug\":\"page\",\"icon\":\"dashicons-admin-page\",\"taxonomies\":[],\"rest_base\":\"pages\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/pages\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"attachment\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Media\",\"slug\":\"attachment\",\"icon\":\"dashicons-admin-media\",\"taxonomies\":[],\"rest_base\":\"media\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/media\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"nav_menu_item\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Navigation Menu Items\",\"slug\":\"nav_menu_item\",\"icon\":null,\"taxonomies\":[\"nav_menu\"],\"rest_base\":\"menu-items\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/menu-items\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_block\":{\"description\":\"\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Patterns\",\"slug\":\"wp_block\",\"icon\":null,\"taxonomies\":[\"wp_pattern_category\"],\"rest_base\":\"blocks\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/blocks\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_template\":{\"description\":\"Templates to include in your theme.\",\"hierarchical\":false,\"has_archive\":false,\"name\":\"Templates\",\"slug\":\"wp_template\",\"icon\":null,\"taxonomies\":[],\"rest_base\":\"templates\",\"rest_namespace\":\"wp\\/v2\",\"template\":[],\"template_lock\":false,\"_links\":{\"collection\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/types\"}],\"wp:items\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/wp\\/v2\\/templates\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}},\"wp_template_part\":{\"description\":\"Template p",
- "https://libraries.idaho.gov/wp-json/": "{\"name\":\"Idaho Commission for Libraries\",\"description\":\"We assist libraries to build the capacity to better serve their communities.\",\"url\":\"https:\\/\\/libraries.idaho.gov\",\"home\":\"https:\\/\\/libraries.idaho.gov\",\"gmt_offset\":-7,\"timezone_string\":\"America\\/Boise\",\"page_for_posts\":0,\"page_on_front\":10709,\"show_on_front\":\"page\",\"namespaces\":[\"oembed\\/1.0\",\"ht-ai-search\\/v1\",\"ht-kb\\/v1\",\"ht-kb-settings\\/v1\",\"ht-kb-notifications\\/v1\",\"ht_kb\\/v1\",\"ht-ai-article-writer\\/v1\",\"redirection\\/v1\",\"relevanssi\\/v1\",\"wordfence-login-security\\/v1\",\"wordfence\\/v1\",\"wp-all-import\\/v1\",\"tribe\\/event-aggregator\\/v1\",\"tribe\\/events\\/v1\",\"tribe\\/views\\/v2\",\"tec\\/v2\\/onboarding\",\"tec\\/v1\",\"cptui\\/v1\",\"duplicate-post\\/v1\",\"objectcache\\/v1\",\"awb\",\"wp\\/v2\",\"wp-site-health\\/v1\",\"wp-block-editor\\/v1\",\"wp-abilities\\/v1\"],\"authentication\":[],\"routes\":{\"\\/\":{\"namespace\":\"\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/\"}]}},\"\\/batch\\/v1\":{\"namespace\":\"\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"validation\":{\"type\":\"string\",\"enum\":[\"require-all-validate\",\"normal\"],\"default\":\"normal\",\"required\":false},\"requests\":{\"type\":\"array\",\"maxItems\":25,\"items\":{\"type\":\"object\",\"properties\":{\"method\":{\"type\":\"string\",\"enum\":[\"POST\",\"PUT\",\"PATCH\",\"DELETE\"],\"default\":\"POST\"},\"path\":{\"type\":\"string\",\"required\":true},\"body\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":true},\"headers\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":{\"type\":[\"string\",\"array\"],\"items\":{\"type\":\"string\"}}}}},\"required\":true}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/batch\\/v1\"}]}},\"\\/oembed\\/1.0\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"oembed\\/1.0\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/oembed\\/1.0\"}]}},\"\\/oembed\\/1.0\\/embed\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"url\":{\"description\":\"The URL of the resource for which to fetch oEmbed data.\",\"type\":\"string\",\"format\":\"uri\",\"required\":true},\"format\":{\"default\":\"json\",\"required\":false},\"maxwidth\":{\"default\":600,\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/libraries.idaho.gov\\/wp-json\\/oembed\\/1.0\\/embed\"}]}},\"\\/oembed\\/1.0\\/proxy\":{\"namespace\":\"oembed\\/1.0\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"url\":{\"description\":\"The URL of the resource for which to fetch oEmbed data.\",\"type\":\"string\",\"format\":\"uri\",\"required\":true},\"format\":{\"description\":\"The oEmbed format to use.\",\"type\":\"string\",\"default\":\"json\",\"enum\":[\"json\",\"xml\"],\"required\":false},\"maxwidth\":{\"description\":\"The maximum width of the embed frame in pixels.\",\"type\":\"integer\",\"default\":600,\"required\":false},\"maxheight\":{\"description\":\"The maximum height of the embed frame in pixels.\","
+ "n_listings": 120
 }
