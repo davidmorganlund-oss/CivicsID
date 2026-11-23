@@ -1,53 +1,353 @@
 {
- "https://www.cityofkamiah.org/": {
-  "gen": [],
-  "powered": [
-   "Powered by ",
-   "municipalimpact",
-   "municipalimpact"
-  ],
+ "robots": "User-agent: *\nCrawl-delay: 5\nDisallow: /search\nDisallow: /search?\n",
+ "https://www.oakleyidaho.org/agendas": {
+  "text": "Agendas | City of Oakley Opens in a new window Agendas Agenda CITY COUNCIL MEETING City of Oakley August 13, 2026 7:00 p.m. Welcome Pledge of allegiance & opening prayer Sheriff Review Public Hearing 2026-2027 Annual Budget Public Comment New business: ACTION ITEM- Utility Easement \u2013 Jared Mitton ACTION ITEM- Water Ordinance Follow Up ACTION ITEM- Park Usage Policy ACTION ITEM- approve minutes ACTION ITEM- approve bills Discussion items: City Managers Report: Executive Session 74-206 F ACTION ITEM- ADJOURN: Related Documents City Council Meeting Agendas Archive 2023 Council Meeting Agendas December ( PDF / 54 KB ) November ( PDF / 56 KB ) October ( PDF / 55 KB ) October extra meeting ( PDF / 54 KB ) September ( PDF / 55 KB ) August special ( PDF / 55 KB ) August ( PDF / 56 KB ) July ( PDF / 56 KB ) June special ( PDF / 54 KB ) June ( PDF / 40 KB ) May ( PDF / 36 KB ) April ( PDF / 40 KB ) March ( PDF / 38 KB ) March special ( PDF / 30 KB ) February ( PDF / 37 KB ) January ( PDF / 69 KB ) 2024 Council Meeting Agendas December special ( PDF / 33 KB ) December ( PDF / 56 KB ) November ( PDF / 57 KB ) October ( PDF / 54 KB ) September ( PDF / 55 KB ) August ( PDF / 54 KB ) July ( PDF / 56 KB ) June ( PDF / 55 KB ) May ( PDF / 54 KB ) April special ( PDF / 53 KB ) April ( PDF / 46 KB ) March ( PDF / 53 KB ) February ( PDF / 55 KB ) January ( PDF / 56 KB ) 2025 Council Meeting Agendas December ( PDF / 87 KB ) November ( PDF / 62 KB ) October ( PDF / 66 KB ) October extra meeting ( PDF / 52 KB ) September ( PDF / 56 KB ) August ( PDF / 56 KB ) July ( PDF / 56 KB ) June - bid signing ( PDF / 50 KB ) June ( PDF / 57 KB ) May ( PDF / 56 KB ) April ( PDF / 37 KB ) March ( PDF / 58 KB ) February ( PDF / 55 KB ) January ( PDF / 56 KB ) 2026 Council Meeting Agendas August ( PDF / 68 KB ) July ( PDF / 68 KB ) June ( PDF / 67 KB ) May ( PDF / 66 KB ) April ( PDF / 66 KB ) March ( PDF / 66 KB ) February ( PDF / 66 KB ) February PH ( PDF / 64 KB ) January ES ( PDF / 50 KB ) January ( PDF / 86 KB ) Navigation for section Government Get your dog licensed Come in to the City Office and get a license for your dog. Please keep your dogs contained so everyone can enjoy a safe stroll around the city. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive",
   "links": [
-   "https://www.cityofkamiah.org/agendas-archives-2017-2023",
-   "https://www.cityofkamiah.org/agendas-current-2024-2025",
-   "https://www.cityofkamiah.org/events",
-   "https://www.cityofkamiah.org/kamiah-seventh-day-adventist-church",
-   "https://www.cityofkamiah.org/mayor-and-council-members",
-   "https://www.cityofkamiah.org/meeting-agendas-and-minutes"
+   [
+    "https://oakleyidaho.org/agendas",
+    "\n\n"
+   ],
+   [
+    "/images/favicon.ico",
+    "\n"
+   ],
+   [
+    "/2021_assets/themes/css/desert.css?v=1772481330",
+    "\n    \n         \n    "
+   ],
+   [
+    "https://fonts.gstatic.com",
+    "\r\n"
+   ],
+   [
+    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
+    "\r\n"
+   ],
+   [
+    "/2021_assets/themes/css/typography_librebaskerville_lato.css",
+    "\r\n\n"
+   ],
+   [
+    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
+    "\n     \n      \n"
+   ],
+   [
+    "javascript:",
+    "\r\n"
+   ],
+   [
+    "/documents/472/12-06-23_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/11-16-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/10-12-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/10-03-2023_work_meeting_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/09-14-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/08-28-2023_special_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/08-10-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/07-13-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/06-22-2023_special_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/06-15-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/05-11-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/04-13-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/03-09-23_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/03-02-23_work_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/02-09-2023_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/01-12-23_agenda_1.pdf",
+    "\r\n            "
+   ],
+   [
+    "javascript:",
+    "\r\n"
+   ],
+   [
+    "/documents/472/12-12-24_special_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/12-12-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/11-14-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/10-15-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/09-12-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/08-08-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/07-11-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/06-06-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/05-09-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/04-22-24_special_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/04-11-24_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/03-14-2024_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/02-08-2024_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/472/01-11-2024_agenda.pdf",
+    "\r\n            "
+   ],
+   [
+    "javascript:",
+    "\r\n"
+   ]
+  ],
+  "scripts": [],
+  "apis": [
+   "https://clients.municipalimpact.com/client/",
+   "https://www.municipalimpact.com/"
   ]
  },
- "https://www.oakleyidaho.org/": {
-  "gen": [],
-  "powered": [
-   "Powered by ",
-   "municipalimpact",
-   "municipalimpact"
-  ],
+ "https://www.oakleyidaho.org/calendar-of-events": {
+  "text": "Calendar of Events | City of Oakley Opens in a new window Calendar of Events No matter what the season , there is always something going on in the City of Oakley. Keeping our residents informed of scheduled events and local happenings is important. Know of an upcoming event that we need to add? Give us a call or send us an email and we will be happy to add it for you. Navigation for section Community Get your dog licensed Come in to the City Office and get a license for your dog. Please keep your dogs contained so everyone can enjoy a safe stroll around the city. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
   "links": [
-   "https://www.oakleyidaho.org/agendas",
-   "https://www.oakleyidaho.org/calendar-of-events",
-   "https://www.oakleyidaho.org/city-council-meetings",
-   "https://www.oakleyidaho.org/council",
-   "https://www.oakleyidaho.org/mayor-and-council",
-   "https://www.oakleyidaho.org/oakley-valley-arts-council-ovac"
+   [
+    "https://oakleyidaho.org/calendar-of-events",
+    "\n\n"
+   ],
+   [
+    "/images/favicon.ico",
+    "\n"
+   ],
+   [
+    "/2021_assets/themes/css/desert.css?v=1772481330",
+    "\n    \n         \n    "
+   ],
+   [
+    "https://fonts.gstatic.com",
+    "\r\n"
+   ],
+   [
+    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
+    "\r\n"
+   ],
+   [
+    "/2021_assets/themes/css/typography_librebaskerville_lato.css",
+    "\r\n\n"
+   ],
+   [
+    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
+    "\n     \n      \n"
+   ],
+   [
+    "contact-us",
+    "email"
+   ],
+   [
+    "/animal-services",
+    ""
+   ],
+   [
+    "/water-rates-and-policies",
+    ""
+   ],
+   [
+    "/Shopping-dining-and-lodging",
+    ""
+   ],
+   [
+    "subscribe",
+    "Subscribe"
+   ],
+   [
+    "unsubscribe",
+    "Unsubscribe"
+   ]
+  ],
+  "scripts": [],
+  "apis": [
+   "https://clients.municipalimpact.com/client/",
+   "https://www.municipalimpact.com/"
   ]
  },
- "https://www.duboisidaho.gov/": {
-  "gen": [],
-  "powered": [
-   "municipalimpact",
-   "municipalimpact",
-   "municipalimpact",
-   "municipalimpact",
-   "municipalimpact",
-   "municipalimpact"
-  ],
+ "https://www.cityofkamiah.org/meeting-agendas-and-minutes": {
+  "text": "Meeting Agendas & Minutes | City of Kamiah Idaho Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Kamiah government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided. City Council members are elected at large. Notice for all public meetings, along with agendas, are posted in advance of the meeting. Minutes are posted after meetings have concluded. (when available) Related Documents City Of Kamiah Agenda 04_17_2024 ( PDF / 99 KB ) Navigation for section Government Support Local Animal Shelter Looking for a furry friend to become a part of your family? Consider adopting a dog or cat from your local animal shelter. An adopted pet will provide unconditional love and companionship to all. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
   "links": [
-   "https://www.duboisidaho.gov/agendas",
-   "https://www.duboisidaho.gov/archived-agendas",
-   "https://www.duboisidaho.gov/calendar-of-events",
-   "https://www.duboisidaho.gov/council",
-   "https://www.duboisidaho.gov/mayor-and-council",
-   "https://www.duboisidaho.gov/meeting-agendas-and-minutes"
+   [
+    "https://cityofkamiah.org/meeting-agendas-and-minutes",
+    "\n\n"
+   ],
+   [
+    "/images/favicon.ico",
+    "\n"
+   ],
+   [
+    "/2021_assets/themes/css/royal.css?v=1772481330",
+    "\n    \n         \n    "
+   ],
+   [
+    "https://fonts.gstatic.com",
+    "\r\n"
+   ],
+   [
+    "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+    "\r\n"
+   ],
+   [
+    "/2021_assets/themes/css/typography_playfair_poppins.css",
+    "\r\n\n"
+   ],
+   [
+    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
+    "\n     \n      \n"
+   ],
+   [
+    "/documents/113/City_Of_Kamiah_Agenda_04_17_2024.pdf",
+    "\r\n            "
+   ],
+   [
+    "/chamber-of-commerce",
+    ""
+   ],
+   [
+    "subscribe",
+    "Subscribe"
+   ],
+   [
+    "unsubscribe",
+    "Unsubscribe"
+   ]
+  ],
+  "scripts": [],
+  "apis": [
+   "https://clients.municipalimpact.com/client/",
+   "https://www.municipalimpact.com/"
+  ]
+ },
+ "https://www.duboisidaho.gov/agendas": {
+  "text": "Agendas | City of Dubois Opens in a new window Agendas The City of Dubois Agendas Check back often as I add old and new agendas. Thank you! Related Documents City Council Meeting Agendas 2026 City Council Meeting Agendas June 2026 Agenda ( PDF / 251 KB ) May 2026 Agenda ( PDF / 262 KB ) March 2026 Agenda ( PDF / 257 KB ) Navigation for section Government Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
+  "links": [
+   [
+    "https://dubois.municipalimpact.com/agendas",
+    "\n\n"
+   ],
+   [
+    "/images/favicon.ico",
+    "\n"
+   ],
+   [
+    "/2021_assets/themes/css/forest.css?v=1772481330",
+    "\n    \n         \n    "
+   ],
+   [
+    "https://fonts.gstatic.com",
+    "\r\n"
+   ],
+   [
+    "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+    "\r\n"
+   ],
+   [
+    "/2021_assets/themes/css/typography_playfair_poppins.css",
+    "\r\n\n"
+   ],
+   [
+    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
+    "\n     \n      \n"
+   ],
+   [
+    "javascript:",
+    "\r\n"
+   ],
+   [
+    "/documents/610/Agenda_June_2026.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/610/May_13_Agenda_2026_1.pdf",
+    "\r\n            "
+   ],
+   [
+    "/documents/610/March_11__Agenda_2026__1_.pdf",
+    "\r\n            "
+   ],
+   [
+    "subscribe",
+    "Subscribe"
+   ],
+   [
+    "unsubscribe",
+    "Unsubscribe"
+   ]
+  ],
+  "scripts": [],
+  "apis": [
+   "https://clients.municipalimpact.com/client/",
+   "https://dubois.municipalimpact.com/agendas",
+   "https://dubois.municipalimpact.com/imgD/muni_social.jpg",
+   "https://www.municipalimpact.com/"
   ]
  }
 }
