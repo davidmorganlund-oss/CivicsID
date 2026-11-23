@@ -1,57 +1,23 @@
 {
- "nampa": {
-  "hosts": [
-   "nampalibrary.libcal.com"
-  ],
-  "civic": [
-   [
-    "2026-12-09T16:00",
-    "Nampa Library Board of Trustees Monthly Meeting"
-   ],
-   [
-    "2026-12-23T14:00",
-    "Board Games for Adults"
-   ],
-   [
-    "2027-01-13T16:00",
-    "Nampa Library Board of Trustees Monthly Meeting"
-   ],
-   [
-    "2027-01-27T14:00",
-    "Board Games for Adults"
-   ]
-  ],
-  "n": 4
+ "robots https://msd281.community.diligentoneplatform.com": "200 \n#  Blocked Bots\n\nUser-agent: *  \nDisallow: /\n\nUser-agent: 007AC9  \nDisallow: /\n\nUser-agent: 008 \nDisallow: /\n\nUser-agent: 200PleaseBot  \nDisallow: /\n\nUser-agent: 360Spider  \nDisallow: /\n\nUser-agent: Aboundexbot  \nDisallow: /\n\nUser-agent: acapbot  \nDisallow: /\n\nUser-agent: Acoon  \nDisallow: /\n\nUser-agent: AdIdxBot \nDisallow: /\n\nUser-agent: ADmantX  \nDisallow: /\n\nUser-agent: AdMedia  \nDisallow: /\n\nUser-agent: AhrefsBot  \nDisallow: /\n\nUser-agent: aiHitBot  \nDisallow: /\n\nUser-agent: Alexibot  \nDisallow: /\n\nUser-agent: AOLbot/4.0  \nDisallow: /\n\nUser-agent: Applebot  \nDisallow: /\n\nUser-agent: archi",
+ "robots https://fruitland.community.highbond.com": "200 \n#  Blocked Bots\n\nUser-agent: *  \nDisallow: /\n\nUser-agent: 007AC9  \nDisallow: /\n\nUser-agent: 008 \nDisallow: /\n\nUser-agent: 200PleaseBot  \nDisallow: /\n\nUser-agent: 360Spider  \nDisallow: /\n\nUser-agent: Aboundexbot  \nDisallow: /\n\nUser-agent: acapbot  \nDisallow: /\n\nUser-agent: Acoon  \nDisallow: /\n\nUser-agent: AdIdxBot \nDisallow: /\n\nUser-agent: ADmantX  \nDisallow: /\n\nUser-agent: AdMedia  \nDisallow: /\n\nUser-agent: AhrefsBot  \nDisallow: /\n\nUser-agent: aiHitBot  \nDisallow: /\n\nUser-agent: Alexibot  \nDisallow: /\n\nUser-agent: AOLbot/4.0  \nDisallow: /\n\nUser-agent: Applebot  \nDisallow: /\n\nUser-agent: archi",
+ "robots https://go.boarddocs.com": "200  ",
+ "https://msd281.community.diligentoneplatform.com/Services/MeetingsService.svc/meetings?from=2026-11-01&to=2027-01-31&loadall=false": "RobotsBlocked('robots.txt at msd281.community.diligentoneplatform.com asks automated readers not to read /Services/MeetingsService.svc/meetings')",
+ "https://msd281.community.diligentoneplatform.com/Portal/MeetingTypeList.aspx": "RobotsBlocked('robots.txt at msd281.community.diligentoneplatform.com asks automated readers not to read /Portal/MeetingTypeList.aspx')",
+ "https://msd281.community.diligentoneplatform.com/Portal/": "RobotsBlocked('robots.txt at msd281.community.diligentoneplatform.com asks automated readers not to read /Portal/')",
+ "https://fruitland.community.highbond.com/Services/MeetingsService.svc/meetings?from=2026-11-01&to=2027-01-31&loadall=false": "RobotsBlocked('robots.txt at fruitland.community.highbond.com asks automated readers not to read /Services/MeetingsService.svc/meetings')",
+ "https://fruitland.community.highbond.com/Portal/MeetingTypeList.aspx": "RobotsBlocked('robots.txt at fruitland.community.highbond.com asks automated readers not to read /Portal/MeetingTypeList.aspx')",
+ "https://fruitland.community.highbond.com/Portal/": "RobotsBlocked('robots.txt at fruitland.community.highbond.com asks automated readers not to read /Portal/')",
+ "https://go.boarddocs.com/id/bcsd61/Board.nsf/Public": {
+  "status": 200,
+  "committee": [],
+  "ids": [],
+  "snip": []
  },
- "kuna": {
-  "hosts": [
-   "kunalibrary.libcal.com"
-  ],
-  "civic": [
-   [
-    "2026-12-15T13:00",
-    "Kuna Library District Board Meeting"
-   ]
-  ],
-  "n": 1
- },
- "mtnhome": {
-  "hosts": [
-   "api3.libcal.com",
-   "mhlibrary.libcal.com"
-  ],
-  "err": "HTTPError('404 Client Error: Not Found for url: https://api3.libcal.com/ajax/calendar/list?c=-1&date=0000-00-00&perpage=20&page=1&audience=&cats=&camps=&inc=0')"
- },
- "comlib": {
-  "hosts": [
-   "thecommunitylibrary.libcal.com"
-  ],
-  "civic": [
-   [
-    "2027-01-21T17:30",
-    "Idaho Legislative Preview"
-   ]
-  ],
-  "n": 1
+ "https://go.boarddocs.com/id/csd132/Board.nsf/Public": {
+  "status": 200,
+  "committee": [],
+  "ids": [],
+  "snip": []
  }
 }
