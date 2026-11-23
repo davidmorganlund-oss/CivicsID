@@ -69,7 +69,7 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |
 | West Ada, Nampa, Idaho Falls D91, Pocatello/Chubbuck D25, Middleton, Emmett, Lewiston, Fremont County school districts | various | Simbli | `simbli` | Nampa also shows its published 2026 calendar until each meeting posts |
 | Bonneville D93, Minidoka County and Lakeland 272 school districts | various | BoardBook | `boardbook` | |
-| Twin Falls, Madison, Blackfoot, Lake Pend Oreille, Shelley, Caldwell, Vallivue, Moscow, Post Falls, Jefferson 251 and Lewiston (until posted) school districts | various | Published board schedules and dates | `schedule` | Read from each district's own pages (Nov 2026); recheck each January |
+| Twin Falls, Madison, Blackfoot, Lake Pend Oreille, Shelley, Caldwell, Vallivue, Moscow, Post Falls, Jefferson 251, Blaine County and Lewiston (until posted) school districts | various | Published board schedules and dates | `schedule` | Read from each district's own pages (Nov 2026); recheck each January |
 | Coeur d'Alene Public Schools | Kootenai | Published schedule | `schedule` | Its meetings portal asks automated readers to stay away |
 | Ada Community, Twin Falls and Marshall (Pocatello) libraries | various | Published board schedules | `schedule` | Boise Public Library's board comes through Boise's eScribe |
 | Nampa, Kuna and The Community Library (Ketchum) | various | LibCal | `libcal` | Board meetings and civic programs only |
@@ -148,6 +148,10 @@ October 2026, so the `civicplus` connector reads each site's public calendar pag
 (`Calendar.aspx?CID=...&startDate=...&endDate=...`), which they still allow. Both page layouts
 (list and month grid) are handled, and sites that have moved to CivicPlus's newer calendar
 (`/m/calendar`) are read from the JSON it loads (`/m/calendar/Home/MonthEvents`).
+
+### Meeting portals we don't read
+
+Diligent Community (formerly HighBond/iCompass) portals, used by Moscow, Cassia and Blaine County schools and the City of Fruitland, publish a robots.txt that disallows all automated readers. CivicsID doesn't read them; those bodies are covered, where possible, from schedules on their own websites.
 
 ## Security
 

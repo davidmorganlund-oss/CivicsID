@@ -2230,3 +2230,21 @@ sources:
         location: Mountain Home Public Library, Conference Room
         category: library
         url: https://mhlibrary.org/board-of-trustees/
+
+  # "NOTICE OF SCHEDULE OF REGULAR MEETINGS" (2026, updated Dec. 15, 2025), linked
+  # from the district's trustees page: 6:00 p.m. at the Community Campus, 1050 Fox
+  # Acres Road, Hailey. Its meetings portal (Diligent) asks automated readers to
+  # stay out, so this was read by a person. Add the 2027 dates in January.
+  - id: blaine-schools
+    name: Blaine County School District 61
+    type: schedule
+    county: Blaine
+    area: Hailey
+    homepage: https://www.blaineschools.org/school-board/trustees/home
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        dates: [2026-12-08, 2027-01-12]
+        time: "18:00"
+        location: Community Campus, 1050 Fox Acres Road, Hailey
+        category: school
+        url: https://www.blaineschools.org/school-board/trustees/home
