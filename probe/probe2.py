@@ -1,41 +1,36 @@
-"""Probe: district board schedule pages and schedule PDFs (text)."""
+"""Probe: remaining districts."""
 import io, json, re, sys
 from pathlib import Path
+from datetime import date
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
 import build, pypdf
-PAGES = {
- "madison": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2804/Msd321/fc59d3b2-dbfb-4f9b-a47c-8e67a8abbc61/2026-School-Board-Meeting-Schedule.pdf?disposition=inline",
- "blackfoot": "https://docs.sd55.org/MeetingMinutes/2026.School.Board.Meeting.Schedule.8.10.26-1.pdf",
- "postfalls": "https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices",
- "lposd": "https://www.lposd.org/board-of-trustees/trustee-meeting-schedule",
- "jerome": "https://www.jeromeschools.org/boardmeetings", "snakeriver": "https://www.snakeriver.org/board-meetings",
- "shelley": "https://www.shelleyschools.org/school-board-business", "preston": "https://www.prestonschools.org/boe/boe-meetings",
- "kuna": "https://www.kunaschools.org/boardhome", "kimberly": "https://www.kimberly.edu/board-trustees",
- "blaine": "https://www.blaineschools.org/school-board/board-homepage",
- "caldwell": "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
-}
-def text_of(r):
-    if r.headers.get("content-type", "").startswith("application/pdf") or r.url.split("?")[0].endswith(".pdf"):
-        return "PDF: " + " ".join(" ".join((p.extract_text() or "") for p in pypdf.PdfReader(io.BytesIO(r.content)).pages).split())[:2500]
-    h = r.text
-    return " ".join(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", h)).split())
 out = {}
+try:
+    ev = build.fetch_boardbook({"id": "lakeland", "name": "x", "county": "Kootenai", "area": "Rathdrum", "organization": 2129, "default_category": "school"}, date(2026, 11, 22), date(2027, 1, 21), ZoneInfo("America/Los_Angeles"))
+    out["boardbook 2129"] = [(e["start"][:16], e["title"][:40], e.get("location", "")[:40]) for e in ev[:5]]
+except Exception as exc:
+    out["boardbook 2129"] = repr(exc)[:200]
+def text_of(r):
+    if r.url.split("?")[0].lower().endswith(".pdf") or "pdf" in r.headers.get("content-type", ""):
+        return "PDF: " + " ".join(" ".join((p.extract_text() or "") for p in pypdf.PdfReader(io.BytesIO(r.content)).pages).split())[:2500]
+    return " ".join(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", r.text)).split())
+PAGES = {
+ "jefferson": "https://www.jeffersonsd251.org/", "mtnhome": "https://www.mtnhomesd.org/Page/44",
+ "mtnhome_notice": "https://www.mtnhomesd.org/cms/lib/ID50010914/Centricity/Domain/4/NOTICE OF CHANGE OF SCHEDULE of Regular Board Meetings - Jun 17 25.pdf",
+ "kimberly": "https://www.kimberly.edu/", "preston": "https://www.prestonschools.org/boe/board-of-education-information",
+ "kuna_cal": "https://www.kunaschools.org/12218_4",
+}
 for k, u in PAGES.items():
     try:
         build.check_robots(u); r = build.get(u); t = text_of(r)
-        rec = {"final": r.url, "text": t[:2500] if t.startswith("PDF") else ""}
-        if not t.startswith("PDF"):
-            rec["sched"] = re.findall(r"[^.]{0,160}(?:regular(?:ly)?|meets?|meetings? (?:are|will be) held|schedule)[^.]{0,200}\.", t, re.I)[:6]
-            pdfs = [(urljoin(r.url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", x).strip()) for h, x in re.findall(r'href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S)
-                    if re.search(r"schedule|calendar|2026|2027", h + x, re.I) and re.search(r"board|meeting|schedule", h + x, re.I)]
-            rec["links"] = pdfs[:10]
-            for pu, label in pdfs[:3]:
-                if re.search(r"schedule", pu + label, re.I):
-                    try:
-                        build.check_robots(pu); rr = build.get(pu); rec.setdefault("follow", []).append({pu: text_of(rr)[:1800]})
-                    except Exception as exc:
-                        rec.setdefault("follow", []).append({pu: "ERR " + str(exc)[:100]})
+        rec = {"final": r.url}
+        if t.startswith("PDF"): rec["text"] = t
+        else:
+            rec["sched"] = re.findall(r"[^.]{0,160}(?:regular(?:ly)? (?:board )?meeting|board meets|meets on|meetings? (?:are|will be) held|of each month|of every month)[^.]{0,200}\.", t, re.I)[:6]
+            rec["links"] = [(urljoin(r.url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", x).strip()[:50]) for h, x in re.findall(r'href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S)
+                            if re.search(r"board|trustee|meeting|schedule", h + x, re.I)][:15]
         out[k] = rec
     except Exception as exc:
         out[k] = {"error": (type(exc).__name__ + ": " + str(exc))[:150]}
