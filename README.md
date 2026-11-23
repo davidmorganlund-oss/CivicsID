@@ -66,7 +66,7 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Rexburg, Ammon, Garden City (P&Z), Hailey, Emmett | various | Published schedules | `schedule` | Garden City doesn't publish its council meeting time |
 | Bonners Ferry, Hazelton (council) and Parma (library board) | various | CivicPlus Agenda Center | `agendacenter` | From the statewide city sweep |
 | City of Carey | Blaine | CivicClerk | `civicclerk` | |
-| Castleford, Clark Fork, Crouch, Downey, Driggs, Dubois, Franklin, Hagerman, Hauser, Juliaetta, Kendrick, Marsing, Montpelier, Osburn, Paul, Plummer, Sun Valley, Teton, Victor, Wendell, Weston | various | Published regular schedules | `schedule` | From a statewide sweep of city websites (Nov 2026) |
+| Castleford, Clark Fork, Crouch, Downey, Driggs, Dubois, Franklin, Hagerman, Hauser, Juliaetta, Kendrick, Marsing, Montpelier, Osburn, Paul, Plummer, Sun Valley, Teton, Victor, Wendell, Weston, Hollister, Priest River, Tetonia, Idaho City (historic preservation) | various | Published regular schedules | `schedule` | From a statewide sweep of city websites (Nov 2026) |
 | City of Kimberly | Twin Falls | CivicPlus Agenda Center + published schedule | `agendacenter`, `schedule` | Council |
 | Middleton, Payette, Fruitland, Rupert, Weiser, Preston, Rigby, Shelley, American Falls, Buhl, St. Anthony, Gooding, Heyburn, Grangeville, Orofino, Salmon, Soda Springs | various | Published regular schedules | `schedule` | Read from each city's own pages (Nov 2026); agendas stay on the city's site. American Falls doesn't publish its council start time. Grangeville and Orofino are on Pacific time |
 | Boise School District | Ada | Board meeting notice page | `notice_page` | Shows the next posted meeting |

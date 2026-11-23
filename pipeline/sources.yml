@@ -3149,3 +3149,67 @@ sources:
         location: Weston City Hall
         category: council
         url: https://www.westonidaho.org/
+
+  # "The City Council meets on the first and third Monday of each month." (No time stated.)
+  - id: hollister
+    name: City of Hollister
+    type: schedule
+    county: Twin Falls
+    area: Hollister
+    homepage: https://hollisteridaho.com/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Monday
+        note: "Check the agenda for the start time."
+        location: Hollister City Hall
+        category: council
+        url: https://hollisteridaho.com/
+
+  # "The City Council's regular meetings are scheduled for the first and third Monday of every
+  # month at the City Hall Council Chambers, starting at 6:00 pm unless otherwise posted."
+  - id: priest-river
+    name: City of Priest River
+    type: schedule
+    county: Bonner
+    area: Priest River
+    timezone: America/Los_Angeles
+    homepage: https://priestriver-id.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Monday
+        time: "18:00"
+        location: Priest River City Hall Council Chambers
+        category: council
+        url: https://priestriver-id.gov/
+
+  # Agendas page: "the regularly scheduled Council Meetings which occur the second Tuesday of
+  # each month." (No time stated.)
+  - id: tetonia
+    name: City of Tetonia
+    type: schedule
+    county: Teton
+    area: Tetonia
+    homepage: https://www.tetoniaidaho.com/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        note: "Check the agenda for the start time."
+        location: Tetonia City Offices
+        category: council
+        url: https://www.tetoniaidaho.com/
+
+  # "Historic Preservation Commission meetings are the 3rd Wednesday of every month at City
+  # Hall, 6pm."
+  - id: idaho-city-hpc
+    name: City of Idaho City
+    type: schedule
+    county: Boise
+    area: Idaho City
+    homepage: https://idahocity.municipalimpact.com/
+    meetings:
+      - title: Historic Preservation Commission
+        when: 3rd Wednesday
+        time: "18:00"
+        location: Idaho City City Hall
+        category: council
+        url: https://idahocity.municipalimpact.com/

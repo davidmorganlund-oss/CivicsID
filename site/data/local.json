@@ -216,6 +216,26 @@
    },
    "council": "https://cityofammon.us/government/city-council/"
   },
+  "Arimo": {
+   "county": "Bannock",
+   "site": "https://arimoidaho.us/",
+   "meetings": "https://arimoidaho.us/"
+  },
+  "Ashton": {
+   "county": "Fremont",
+   "site": "https://cityofashton.com/",
+   "meetings": "https://cityofashton.com/"
+  },
+  "Bancroft": {
+   "county": "Caribou",
+   "site": "https://www.cityofbancroft.com/",
+   "meetings": "https://www.cityofbancroft.com/agendas.htm"
+  },
+  "Bellevue": {
+   "county": "Blaine",
+   "site": "https://bellevueidaho.gov/",
+   "meetings": "https://bellevueidaho.gov/agendas-meetings/"
+  },
   "Blackfoot": {
    "county": "Bingham",
    "site": "https://www.cityofblackfoot.org/",
@@ -226,6 +246,11 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
+  },
+  "Bloomington": {
+   "county": "Bear Lake",
+   "site": "https://bloomingtonidaho.net/",
+   "meetings": "https://bloomingtonidaho.net/category/minutes-agendas/"
   },
   "Boise": {
    "county": "Ada",
@@ -242,6 +267,11 @@
    "county": "Boundary",
    "site": "https://www.bonnersferry.id.gov/",
    "meetings": "https://www.bonnersferry.id.gov/AgendaCenter"
+  },
+  "Bovill": {
+   "county": "Latah",
+   "site": "https://www.cityofbovill.net/",
+   "meetings": "https://www.cityofbovill.net/"
   },
   "Buhl": {
    "county": "Twin Falls",
@@ -280,10 +310,20 @@
    "site": "https://www.cityofcarey.org/",
    "meetings": "https://careyid.portal.civicclerk.com/"
   },
+  "Cascade": {
+   "county": "Valley",
+   "site": "https://cascadeid.us/",
+   "meetings": "https://cascadeid.us/"
+  },
   "Castleford": {
    "county": "Twin Falls",
    "site": "https://www.cityofcastleford.com/",
    "meetings": "https://www.cityofcastleford.com/"
+  },
+  "Challis": {
+   "county": "Custer",
+   "site": "https://cityofchallis.com/",
+   "meetings": "https://cityofchallis.com/meetings/"
   },
   "Chubbuck": {
    "county": "Bannock",
@@ -312,6 +352,16 @@
    },
    "council": "https://www.cdaid.org/government/mayor-and-council/council-members/"
   },
+  "Council": {
+   "county": "Adams",
+   "site": "https://www.cityofcouncilidaho.org/",
+   "meetings": "https://www.cityofcouncilidaho.org/"
+  },
+  "Craigmont": {
+   "county": "Lewis",
+   "site": "https://www.cityofcraigmontid.com/",
+   "meetings": "https://www.cityofcraigmontid.com/council-agendas"
+  },
   "Crouch": {
    "county": "Boise",
    "site": "https://cityofcrouch.org/",
@@ -328,6 +378,21 @@
    },
    "council": "https://daltongardens.com/citycouncil"
   },
+  "Deary": {
+   "county": "Latah",
+   "site": "https://www.dearyidaho.com/",
+   "meetings": "https://www.dearyidaho.com/council-agendas.html"
+  },
+  "Dietrich": {
+   "county": "Lincoln",
+   "site": "https://dietrichidaho.com/",
+   "meetings": "https://dietrichidaho.com/agendas%2C-notices-%26-flyers"
+  },
+  "Donnelly": {
+   "county": "Valley",
+   "site": "https://cityofdonnelly.org/",
+   "meetings": "https://cityofdonnelly.org/"
+  },
   "Downey": {
    "county": "Bannock",
    "site": "https://downeyidaho.us/",
@@ -337,6 +402,11 @@
    "county": "Teton",
    "site": "https://driggsidaho.org/",
    "meetings": "https://driggsidaho.org/"
+  },
+  "Drummond": {
+   "county": "Fremont",
+   "site": "https://www.drummondid.gov/",
+   "meetings": "https://www.drummondid.gov/"
   },
   "Dubois": {
    "county": "Clark",
@@ -365,6 +435,11 @@
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
   },
+  "Firth": {
+   "county": "Bingham",
+   "site": "https://firthidaho.gov/",
+   "meetings": "https://firthidaho.gov/"
+  },
   "Franklin": {
    "county": "Franklin",
    "site": "https://www.franklinidaho.org/index.html",
@@ -391,6 +466,16 @@
     "checked": "2026-11-17"
    },
    "council": "https://gardencityidaho.org/elected-officials"
+  },
+  "Georgetown": {
+   "county": "Bear Lake",
+   "site": "https://georgetown.id.gov/",
+   "meetings": "https://georgetown.id.gov/agendas-and-minutes"
+  },
+  "Glenns Ferry": {
+   "county": "Elmore",
+   "site": "https://www.glennsferryidaho.org/",
+   "meetings": "https://www.glennsferryidaho.org/"
   },
   "Gooding": {
    "county": "Gooding",
@@ -430,6 +515,11 @@
    },
    "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
   },
+  "Harrison": {
+   "county": "Kootenai",
+   "site": "https://cityofharrisonid.com/",
+   "meetings": "https://cityofharrisonid.com/meeting-agendas-%26-minutes"
+  },
   "Hauser": {
    "county": "Kootenai",
    "site": "https://cityofhauser.us/",
@@ -445,6 +535,11 @@
     "source": "https://www.haydenid.gov/mayor.php",
     "checked": "2026-11-17"
    }
+  },
+  "Hayden Lake": {
+   "county": "Kootenai",
+   "site": "https://cityofhaydenlake.gov/",
+   "meetings": "https://cityofhaydenlake.gov/meetings/"
   },
   "Hazelton": {
    "county": "Jerome",
@@ -462,6 +557,21 @@
    },
    "council": "https://heyburn.id.gov/officials"
   },
+  "Hollister": {
+   "county": "Twin Falls",
+   "site": "https://hollisteridaho.com/",
+   "meetings": "https://hollisteridaho.com/"
+  },
+  "Horseshoe Bend": {
+   "county": "Boise",
+   "site": "https://www.horseshoebendidaho.org/",
+   "meetings": "https://www.horseshoebendidaho.org/"
+  },
+  "Idaho City": {
+   "county": "Boise",
+   "site": "https://idahocity.municipalimpact.com/",
+   "meetings": "https://idahocity.municipalimpact.com/agendas-and-minutes"
+  },
   "Idaho Falls": {
    "county": "Bonneville",
    "site": "https://www.idahofallsidaho.gov/",
@@ -471,6 +581,16 @@
     "source": "https://www.eastidahonews.com/?p=802717",
     "checked": "2026-11-17"
    }
+  },
+  "Iona": {
+   "county": "Bonneville",
+   "site": "https://www.cityofiona.org/",
+   "meetings": "https://www.cityofiona.org/looking-for-agendas-minutes-city-code/"
+  },
+  "Irwin": {
+   "county": "Bonneville",
+   "site": "https://www.cityofirwin.com/",
+   "meetings": "https://www.cityofirwin.com/"
   },
   "Jerome": {
    "county": "Jerome",
@@ -487,6 +607,16 @@
    "county": "Latah",
    "site": "https://cityofjuliaetta.com/",
    "meetings": "https://cityofjuliaetta.com/"
+  },
+  "Kamiah": {
+   "county": "Lewis",
+   "site": "https://www.cityofkamiah.org/",
+   "meetings": "https://www.cityofkamiah.org/meeting-agendas-and-minutes"
+  },
+  "Kellogg": {
+   "county": "Shoshone",
+   "site": "https://www.kellogg.id.gov/",
+   "meetings": "https://www.kellogg.id.gov/news-events-meetings/"
   },
   "Kendrick": {
    "county": "Latah",
@@ -510,6 +640,16 @@
    "meetings": "https://www.cityofkimberly.org/AgendaCenter",
    "council": "https://www.cityofkimberly.org/319/City-Council"
   },
+  "Kooskia": {
+   "county": "Idaho",
+   "site": "https://www.cityofkooskia.org/",
+   "meetings": "https://www.cityofkooskia.org/council-meetings-and-minutes"
+  },
+  "Kootenai": {
+   "county": "Bonner",
+   "site": "https://cityofkootenai.org/",
+   "meetings": "https://cityofkootenai.org/meetings/"
+  },
   "Kuna": {
    "county": "Ada",
    "site": "https://www.kunacity.id.gov/",
@@ -519,6 +659,11 @@
     "source": "https://kunacity.id.gov/620/Office-of-the-Mayor",
     "checked": "2026-11-17"
    }
+  },
+  "Leadore": {
+   "county": "Lemhi",
+   "site": "https://www.cityofleadore.com/",
+   "meetings": "https://www.cityofleadore.com/"
   },
   "Lewiston": {
    "county": "Nez Perce",
@@ -547,6 +692,16 @@
     "note": "McCall's mayor is a voting member of the city council with no more authority than other members, and presides over council meetings."
    },
    "council": "https://www.mccall.id.us/directory.aspx?did=7"
+  },
+  "McCammon": {
+   "county": "Bannock",
+   "site": "https://www.mccammoncity.com/",
+   "meetings": "https://www.mccammoncity.com/"
+  },
+  "Menan": {
+   "county": "Jefferson",
+   "site": "https://www.cityofmenan.org/",
+   "meetings": "https://www.cityofmenan.org/"
   },
   "Meridian": {
    "county": "Ada",
@@ -606,6 +761,21 @@
     "checked": "2026-11-17"
    }
   },
+  "Newdale": {
+   "county": "Fremont",
+   "site": "https://www.cityofnewdale.org/",
+   "meetings": "https://www.cityofnewdale.org/meeting-agendas-and-minutes"
+  },
+  "Nezperce": {
+   "county": "Lewis",
+   "site": "https://www.cityofnezperce.gov/",
+   "meetings": "https://www.cityofnezperce.gov/news/city-council-meeting-changed-to-7-a-m-oct-13"
+  },
+  "Oakley": {
+   "county": "Cassia",
+   "site": "https://www.oakleyidaho.org/",
+   "meetings": "https://www.oakleyidaho.org/city-council-meetings"
+  },
   "Orofino": {
    "county": "Clearwater",
    "site": "https://cityoforofino.org/",
@@ -643,6 +813,16 @@
    },
    "council": "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&Type=B_BASIC"
   },
+  "Peck": {
+   "county": "Nez Perce",
+   "site": "https://www.cityofpeck.org/",
+   "meetings": "https://www.cityofpeck.org/meeting-agendas-and-minutes"
+  },
+  "Placerville": {
+   "county": "Boise",
+   "site": "https://placervilleidaho.org/",
+   "meetings": "https://placervilleidaho.org/minutes-of-city-council-meetings"
+  },
   "Plummer": {
    "county": "Benewah",
    "site": "https://www.cityofplummer.org/",
@@ -657,6 +837,11 @@
     "source": "https://www.eastidahonews.com/?p=802748",
     "checked": "2026-11-17"
    }
+  },
+  "Ponderay": {
+   "county": "Bonner",
+   "site": "https://cityofponderay.org/",
+   "meetings": "https://cityofponderay.org/category/meeting-agenda/"
   },
   "Post Falls": {
    "county": "Kootenai",
@@ -678,6 +863,11 @@
     "checked": "2026-11-22"
    },
    "council": "https://www.prestonidaho.net/government/mayor___city_council/index.php"
+  },
+  "Priest River": {
+   "county": "Bonner",
+   "site": "https://priestriver-id.gov/",
+   "meetings": "https://priestriver-id.gov/meeting-agendas-and-minutes"
   },
   "Rathdrum": {
    "county": "Kootenai",
@@ -701,6 +891,11 @@
     "checked": "2026-11-17"
    }
   },
+  "Richfield": {
+   "county": "Lincoln",
+   "site": "https://www.cityofrichfield.us/",
+   "meetings": "https://www.cityofrichfield.us/"
+  },
   "Rigby": {
    "county": "Jefferson",
    "site": "https://cityofrigby.gov/",
@@ -711,6 +906,16 @@
     "checked": "2026-11-22"
    },
    "council": "https://cityofrigby.gov/mayor-and-city-council/"
+  },
+  "Ririe": {
+   "county": "Jefferson",
+   "site": "https://www.cityofririe.com/",
+   "meetings": "https://www.cityofririe.com/agendas-minutes.php"
+  },
+  "Roberts": {
+   "county": "Jefferson",
+   "site": "https://cityofrobertsidaho.gov/",
+   "meetings": "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes"
   },
   "Rupert": {
    "county": "Minidoka",
@@ -767,6 +972,11 @@
    },
    "council": "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
   },
+  "Spirit Lake": {
+   "county": "Kootenai",
+   "site": "https://www.spiritlakeid.gov/",
+   "meetings": "https://www.spiritlakeid.gov/agendasandminutes"
+  },
   "St. Anthony": {
    "county": "Fremont",
    "site": "https://www.cityofstanthony.org/",
@@ -784,15 +994,30 @@
    },
    "council": "https://www.staridaho.org/1207/City-Council"
   },
+  "Sugar City": {
+   "county": "Madison",
+   "site": "https://sugarcityidaho.gov/",
+   "meetings": "https://sugarcityidaho.gov/city-council-agenda/"
+  },
   "Sun Valley": {
    "county": "Blaine",
    "site": "https://sunvalleyidaho.gov/",
    "meetings": "https://sunvalleyidaho.gov/"
   },
+  "Swan Valley": {
+   "county": "Bonneville",
+   "site": "https://www.cityofswanvalley.com/",
+   "meetings": "https://www.cityofswanvalley.com/"
+  },
   "Teton": {
    "county": "Fremont",
    "site": "https://www.cityofteton.com/",
    "meetings": "https://www.cityofteton.com/"
+  },
+  "Tetonia": {
+   "county": "Teton",
+   "site": "https://www.tetoniaidaho.com/",
+   "meetings": "https://www.tetoniaidaho.com/meeting-agendas-and-minutes"
   },
   "Twin Falls": {
    "county": "Twin Falls",
@@ -806,10 +1031,25 @@
    },
    "council": "https://tfid.org/133/City-Council"
   },
+  "Ucon": {
+   "county": "Bonneville",
+   "site": "https://www.cityofucon.us/",
+   "meetings": "https://www.cityofucon.us/meeting-agendas/"
+  },
   "Victor": {
    "county": "Teton",
    "site": "https://victoridaho.gov/",
    "meetings": "https://victoridaho.gov/"
+  },
+  "Wallace": {
+   "county": "Shoshone",
+   "site": "https://wallace.id.gov/",
+   "meetings": "https://wallace.id.gov/"
+  },
+  "Weippe": {
+   "county": "Clearwater",
+   "site": "https://cityofweippe.org/",
+   "meetings": "https://cityofweippe.org/city-hall/agendas-minutes/"
   },
   "Weiser": {
    "county": "Washington",
@@ -831,6 +1071,16 @@
    "county": "Franklin",
    "site": "https://www.westonidaho.org/",
    "meetings": "https://www.westonidaho.org/"
+  },
+  "Wilder": {
+   "county": "Canyon",
+   "site": "https://cityofwilder.org/",
+   "meetings": "https://cityofwilder.org/agendas"
+  },
+  "Winchester": {
+   "county": "Lewis",
+   "site": "https://www.winchesterid.gov/",
+   "meetings": "https://www.winchesterid.gov/meeting-agendas-and-minutes"
   }
  }
 }
