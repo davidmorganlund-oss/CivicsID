@@ -4,7 +4,13 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-22T22:48:57-07:00</updated>
+  <updated>2026-11-22T22:55:21-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:517f28453891:new</id>
+    <title>New meeting: Idaho Legislative Preview (2027-01-21 17:30)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://thecommunitylibrary.libcal.com/event/17833183"/>
+    <summary>The Community Library (Ketchum) · 2027-01-21 17:30 (MT) · The Community Library, John A. and Carole O. Moran Lecture Hall</summary>
+  </entry>
 </feed>

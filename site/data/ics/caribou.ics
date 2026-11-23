@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Caribou County
 BEGIN:VEVENT
 UID:ba7305a1b3b7@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Board of County Commissioners (Caribou County)
@@ -13,7 +13,7 @@ URL:https://www.cariboucounty.us/government/public_meeting.php
 END:VEVENT
 BEGIN:VEVENT
 UID:0471bc71deb8@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261203T000000Z
 DTEND:20261203T010000Z
 SUMMARY:City Council Meeting (City of Soda Springs)
@@ -22,7 +22,7 @@ URL:https://www.sodaspringsid.com/city/city_council.php
 END:VEVENT
 BEGIN:VEVENT
 UID:2a40918fbe7e@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:Planning and Zoning Commission (City of Soda Springs)
@@ -31,7 +31,7 @@ URL:https://www.sodaspringsid.com/city/planning_and_zoning.php
 END:VEVENT
 BEGIN:VEVENT
 UID:bff275ddf699@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Board of County Commissioners (Caribou County)
@@ -40,7 +40,7 @@ URL:https://www.cariboucounty.us/government/public_meeting.php
 END:VEVENT
 BEGIN:VEVENT
 UID:469a6d00e5ef@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261217T000000Z
 DTEND:20261217T010000Z
 SUMMARY:City Council Meeting (City of Soda Springs)
@@ -49,7 +49,7 @@ URL:https://www.sodaspringsid.com/city/city_council.php
 END:VEVENT
 BEGIN:VEVENT
 UID:f87392a68574@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
 SUMMARY:Board of County Commissioners (Caribou County)
@@ -58,7 +58,7 @@ URL:https://www.cariboucounty.us/government/public_meeting.php
 END:VEVENT
 BEGIN:VEVENT
 UID:a9f9312ff5ed@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270107T000000Z
 DTEND:20270107T010000Z
 SUMMARY:City Council Meeting (City of Soda Springs)
@@ -67,7 +67,7 @@ URL:https://www.sodaspringsid.com/city/city_council.php
 END:VEVENT
 BEGIN:VEVENT
 UID:8733e0e23092@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270111T160000Z
 DTEND:20270111T170000Z
 SUMMARY:Board of County Commissioners (Caribou County)
@@ -76,7 +76,7 @@ URL:https://www.cariboucounty.us/government/public_meeting.php
 END:VEVENT
 BEGIN:VEVENT
 UID:8c35577465a8@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270113T010000Z
 DTEND:20270113T020000Z
 SUMMARY:Planning and Zoning Commission (City of Soda Springs)
@@ -85,7 +85,7 @@ URL:https://www.sodaspringsid.com/city/planning_and_zoning.php
 END:VEVENT
 BEGIN:VEVENT
 UID:8a1a8cdf06ed@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270121T000000Z
 DTEND:20270121T010000Z
 SUMMARY:City Council Meeting (City of Soda Springs)

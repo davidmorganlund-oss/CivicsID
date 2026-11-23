@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Canyon County
 BEGIN:VEVENT
 UID:ae3d211394d0@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261123T233000Z
 DTEND:20261124T003000Z
 SUMMARY:Notice is Hereby Given of a Possible Quorum of Board in Attendance 
@@ -15,7 +15,7 @@ URL:https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S
 END:VEVENT
 BEGIN:VEVENT
 UID:7ef62345ed21@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261124T163000Z
 DTEND:20261124T173000Z
 SUMMARY:Board of County Commissioners (Canyon County)
@@ -24,7 +24,7 @@ URL:https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-24
 END:VEVENT
 BEGIN:VEVENT
 UID:9d1a57662d2b@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261126T150000Z
 DTEND:20261126T160000Z
 SUMMARY:Board of County Commissioners (Canyon County)
@@ -33,7 +33,7 @@ URL:https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-26
 END:VEVENT
 BEGIN:VEVENT
 UID:a42d54e92963@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261127T150000Z
 DTEND:20261127T160000Z
 SUMMARY:Board of County Commissioners (Canyon County)
@@ -42,7 +42,7 @@ URL:https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-27
 END:VEVENT
 BEGIN:VEVENT
 UID:68677ffc4cb9@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261203T003000Z
 DTEND:20261203T013000Z
 SUMMARY:City Council Meeting (City of Middleton)
@@ -51,7 +51,7 @@ URL:https://middleton.id.gov/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:5000241a2257@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261208T000000Z
 DTEND:20261208T010000Z
 SUMMARY:City Council (City of Nampa)
@@ -60,7 +60,7 @@ URL:https://www.cityofnampa.us/1612/Public-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:d281e4380639@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261208T010000Z
 DTEND:20261208T020000Z
 SUMMARY:City Council Meeting (City of Caldwell)
@@ -69,7 +69,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1016/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:d8570cf64c7f@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:Board of Trustees Regular Meeting (Vallivue School District 139)
@@ -78,8 +78,18 @@ URL:https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pR
  EC_ID=1439315
 END:VEVENT
 BEGIN:VEVENT
+UID:7d88a6d07c93@civicsid
+DTSTAMP:20261123T055521Z
+DTSTART:20261209T230000Z
+DTEND:20261210T000000Z
+SUMMARY:Nampa Library Board of Trustees Monthly Meeting (Nampa Public Libra
+ ry)
+LOCATION:Board Room
+URL:https://nampalibrary.libcal.com/event/17581182
+END:VEVENT
+BEGIN:VEVENT
 UID:f8bc056dbfcb@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261215T010000Z
 DTEND:20261215T020000Z
 SUMMARY:Caldwell Urban Renewal Agency Meeting (City of Caldwell)
@@ -88,7 +98,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1042/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:8da7dd3b5eb3@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261215T020000Z
 DTEND:20261215T030000Z
 SUMMARY:Board of Trustees Meeting (Caldwell School District 132)
@@ -99,7 +109,7 @@ URL:https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&typ
 END:VEVENT
 BEGIN:VEVENT
 UID:ad7fe9024817@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261216T000000Z
 DTEND:20261216T010000Z
 SUMMARY:Regular Board of Trustees Meeting (Nampa School District)
@@ -109,7 +119,7 @@ URL:https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S
 END:VEVENT
 BEGIN:VEVENT
 UID:b63b1fb8d550@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261217T003000Z
 DTEND:20261217T013000Z
 SUMMARY:City Council Meeting (City of Middleton)
@@ -117,8 +127,18 @@ LOCATION:Middleton City Council Chambers\, 1103 W. Main Street
 URL:https://middleton.id.gov/public-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:781fa946c446@civicsid
+DTSTAMP:20261123T055521Z
+DTSTART:20261217T190000Z
+DTEND:20261217T200000Z
+SUMMARY:Library Board of Trustees (Caldwell Public Library)
+LOCATION:Caldwell Public Library\, Dean E. Miller Community Room\, 1010 Dea
+ rborn St.
+URL:https://www.caldwellpubliclibrary.org/board-of-trustees
+END:VEVENT
+BEGIN:VEVENT
 UID:072bf878a5c9@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261222T000000Z
 DTEND:20261222T010000Z
 SUMMARY:City Council (City of Nampa)
@@ -127,7 +147,7 @@ URL:https://www.cityofnampa.us/1612/Public-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:73f41aba8417@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20261222T010000Z
 DTEND:20261222T020000Z
 SUMMARY:City Council Meeting (City of Caldwell)
@@ -136,7 +156,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1029/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:714bc72b3707@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270105T000000Z
 DTEND:20270105T010000Z
 SUMMARY:City Council (City of Nampa)
@@ -145,7 +165,7 @@ URL:https://www.cityofnampa.us/1612/Public-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:52dae7c2b16d@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270105T010000Z
 DTEND:20270105T020000Z
 SUMMARY:City Council Meeting (City of Caldwell)
@@ -154,7 +174,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1017/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c7486b53f26f@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270107T003000Z
 DTEND:20270107T013000Z
 SUMMARY:City Council Meeting (City of Middleton)
@@ -163,7 +183,7 @@ URL:https://middleton.id.gov/public-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:19c9ba07b825@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270112T010000Z
 DTEND:20270112T020000Z
 SUMMARY:Caldwell Urban Renewal Agency Meeting (City of Caldwell)
@@ -172,7 +192,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1043/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:c49a138889ab@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270112T020000Z
 DTEND:20270112T030000Z
 SUMMARY:Board of Trustees Meeting (Caldwell School District 132)
@@ -183,7 +203,7 @@ URL:https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&typ
 END:VEVENT
 BEGIN:VEVENT
 UID:bc287238e318@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270113T010000Z
 DTEND:20270113T020000Z
 SUMMARY:Board of Trustees Regular Meeting (Vallivue School District 139)
@@ -192,8 +212,18 @@ URL:https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pR
  EC_ID=1439315
 END:VEVENT
 BEGIN:VEVENT
+UID:a7589b3890fd@civicsid
+DTSTAMP:20261123T055521Z
+DTSTART:20270113T230000Z
+DTEND:20270114T000000Z
+SUMMARY:Nampa Library Board of Trustees Monthly Meeting (Nampa Public Libra
+ ry)
+LOCATION:Board Room
+URL:https://nampalibrary.libcal.com/event/17581183
+END:VEVENT
+BEGIN:VEVENT
 UID:e1107f95e627@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270119T010000Z
 DTEND:20270119T020000Z
 SUMMARY:City Council Meeting (City of Caldwell)
@@ -202,7 +232,7 @@ URL:https://caldwellid.portal.civicclerk.com/event/1030/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:0ad2d0d1605f@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270120T000000Z
 DTEND:20270120T010000Z
 SUMMARY:City Council (City of Nampa)
@@ -211,7 +241,7 @@ URL:https://www.cityofnampa.us/1612/Public-Meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:b0589e91f20c@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270120T000000Z
 DTEND:20270120T010000Z
 SUMMARY:Regular Board of Trustees Meeting (Nampa School District)
@@ -221,11 +251,21 @@ URL:https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S
 END:VEVENT
 BEGIN:VEVENT
 UID:417bb5cc95e6@civicsid
-DTSTAMP:20261123T054857Z
+DTSTAMP:20261123T055521Z
 DTSTART:20270121T003000Z
 DTEND:20270121T013000Z
 SUMMARY:City Council Meeting (City of Middleton)
 LOCATION:Middleton City Council Chambers\, 1103 W. Main Street
 URL:https://middleton.id.gov/public-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:09cb706304cb@civicsid
+DTSTAMP:20261123T055521Z
+DTSTART:20270121T190000Z
+DTEND:20270121T200000Z
+SUMMARY:Library Board of Trustees (Caldwell Public Library)
+LOCATION:Caldwell Public Library\, Dean E. Miller Community Room\, 1010 Dea
+ rborn St.
+URL:https://www.caldwellpubliclibrary.org/board-of-trustees
 END:VEVENT
 END:VCALENDAR
