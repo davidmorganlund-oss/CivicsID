@@ -1,38 +1,56 @@
-"""Probe: remaining districts."""
-import io, json, re, sys
+"""Probe: Idaho library districts - board schedules and event platforms."""
+import json, re, sys
 from pathlib import Path
-from datetime import date
 from urllib.parse import urljoin
-from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
-import build, pypdf
-out = {}
-try:
-    ev = build.fetch_boardbook({"id": "lakeland", "name": "x", "county": "Kootenai", "area": "Rathdrum", "organization": 2129, "default_category": "school"}, date(2026, 11, 22), date(2027, 1, 21), ZoneInfo("America/Los_Angeles"))
-    out["boardbook 2129"] = [(e["start"][:16], e["title"][:40], e.get("location", "")[:40]) for e in ev[:5]]
-except Exception as exc:
-    out["boardbook 2129"] = repr(exc)[:200]
-def text_of(r):
-    if r.url.split("?")[0].lower().endswith(".pdf") or "pdf" in r.headers.get("content-type", ""):
-        return "PDF: " + " ".join(" ".join((p.extract_text() or "") for p in pypdf.PdfReader(io.BytesIO(r.content)).pages).split())[:2500]
-    return " ".join(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", r.text)).split())
-PAGES = {
- "jefferson": "https://www.jeffersonsd251.org/", "mtnhome": "https://www.mtnhomesd.org/Page/44",
- "mtnhome_notice": "https://www.mtnhomesd.org/cms/lib/ID50010914/Centricity/Domain/4/NOTICE OF CHANGE OF SCHEDULE of Regular Board Meetings - Jun 17 25.pdf",
- "kimberly": "https://www.kimberly.edu/", "preston": "https://www.prestonschools.org/boe/board-of-education-information",
- "kuna_cal": "https://www.kunaschools.org/12218_4",
+import build
+L = {
+ "Meridian Library District": ["https://www.mld.org/"], "Nampa Public Library": ["https://www.nampalibrary.org/"],
+ "Caldwell Public Library": ["https://www.caldwellpubliclibrary.org/", "https://library.cityofcaldwell.org/"],
+ "Idaho Falls Public Library": ["https://www.ifpl.org/"], "Eagle Public Library": ["https://www.eaglepubliclibrary.org/"],
+ "Garden City Public Library": ["https://www.gardencitylibrary.org/"], "Kuna Library District": ["https://www.kunalibrary.org/"],
+ "Madison Library District": ["https://www.madisonlib.org/"], "Portneuf District Library": ["https://www.portneuflibrary.org/"],
+ "Lewiston City Library": ["https://www.lewistonlibrary.org/", "https://www.cityoflewiston.org/library"],
+ "Mountain Home Public Library": ["https://www.mhlibrary.org/", "https://mhpl.org/"], "The Community Library (Ketchum)": ["https://www.comlib.org/"],
+ "Hailey Public Library": ["https://www.haileypubliclibrary.org/"], "Jerome Public Library": ["https://www.jeromepubliclibrary.org/", "https://jerome.lib.id.us/"],
+ "Blackfoot Public Library": ["https://www.blackfootlibrary.org/", "https://www.blackfootpubliclibrary.org/"],
+ "Emmett Public Library": ["https://www.emmettpubliclibrary.org/", "https://emmettlibrary.org/"],
+ "Burley Public Library": ["https://www.burleypubliclibrary.org/", "https://burley.lib.id.us/"],
+ "Rupert DL Evans Bicknell": ["https://www.rupertlibrary.org/"], "Star Library": ["https://www.starlibrary.org/"],
+ "Bonneville County Library District": ["https://www.bonnevillelibrary.org/", "https://bclid.org/"],
+ "Payette Public Library": ["https://www.payettepubliclibrary.org/"], "Weiser Public Library": ["https://www.weiserlibrary.org/"],
+ "Salmon Public Library": ["https://www.salmonpubliclibrary.org/"], "Sandpoint (East Bonner)": [],
 }
-for k, u in PAGES.items():
-    try:
-        build.check_robots(u); r = build.get(u); t = text_of(r)
-        rec = {"final": r.url}
-        if t.startswith("PDF"): rec["text"] = t
-        else:
-            rec["sched"] = re.findall(r"[^.]{0,160}(?:regular(?:ly)? (?:board )?meeting|board meets|meets on|meetings? (?:are|will be) held|of each month|of every month)[^.]{0,200}\.", t, re.I)[:6]
-            rec["links"] = [(urljoin(r.url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", x).strip()[:50]) for h, x in re.findall(r'href="([^"]+)"[^>]*>(.*?)</a>', r.text, re.S)
-                            if re.search(r"board|trustee|meeting|schedule", h + x, re.I)][:15]
-        out[k] = rec
-    except Exception as exc:
-        out[k] = {"error": (type(exc).__name__ + ": " + str(exc))[:150]}
+PLAT = {"libcal": r"libcal\.com", "bibliocommons": r"bibliocommons", "communico": r"communico|libraryc\.org", "librarymarket": r"librarymarket|lm-events",
+        "assabet": r"assabetinteractive|libraryinsight", "tribe": r"tribe-events|/wp-json/tribe", "mec": r"modern-events-calendar|mec-", "wordpress": r"wp-content",
+        "evanced": r"evanced|spaces\.evanced", "boardbook": r"boardbook", "simbli": r"simbli"}
+out = {}
+for name, urls in L.items():
+    rec = []
+    for u in urls:
+        r = {"url": u}
+        try:
+            build.check_robots(u); resp = build.get(u); h = resp.text
+            r["final"] = resp.url
+            r["platform"] = [k for k, v in PLAT.items() if re.search(v, h, re.I)]
+            links = []
+            for href, txt in re.findall(r'href="([^"#]+)"[^>]*>(.*?)</a>', h, re.S | re.I):
+                t = re.sub(r"<[^>]+>|\s+", " ", txt).strip()
+                if re.search(r"board|trustee|agenda|governance|about", t + " " + href, re.I):
+                    a = urljoin(resp.url, href.replace("&amp;", "&"))
+                    if a not in links: links.append(a)
+            r["links"] = links[:8]
+            for a in links[:5]:
+                try:
+                    build.check_robots(a); hh = build.get(a).text
+                    txt = " ".join(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", hh)).split())
+                    s = re.findall(r"[^.]{0,160}(?:board (?:of trustees )?meets|regular(?:ly)? (?:board )?meetings?|meets? (?:on )?the (?:first|second|third|fourth|last|1st|2nd|3rd|4th)|meetings are held)[^.]{0,200}\.", txt, re.I)[:3]
+                    if s: r.setdefault("sched", []).append({a: s})
+                except Exception as exc:
+                    pass
+            rec.append(r); break
+        except Exception as exc:
+            r["error"] = (type(exc).__name__ + ": " + str(exc))[:120]; rec.append(r)
+    out[name] = rec
 Path(__file__).with_name("report2.json").write_text(json.dumps(out, indent=1))
 print("done")
