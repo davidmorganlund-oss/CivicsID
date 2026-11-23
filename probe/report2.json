@@ -1,353 +1,468 @@
-{
- "robots": "User-agent: *\nCrawl-delay: 5\nDisallow: /search\nDisallow: /search?\n",
- "https://www.oakleyidaho.org/agendas": {
-  "text": "Agendas | City of Oakley Opens in a new window Agendas Agenda CITY COUNCIL MEETING City of Oakley August 13, 2026 7:00 p.m. Welcome Pledge of allegiance & opening prayer Sheriff Review Public Hearing 2026-2027 Annual Budget Public Comment New business: ACTION ITEM- Utility Easement \u2013 Jared Mitton ACTION ITEM- Water Ordinance Follow Up ACTION ITEM- Park Usage Policy ACTION ITEM- approve minutes ACTION ITEM- approve bills Discussion items: City Managers Report: Executive Session 74-206 F ACTION ITEM- ADJOURN: Related Documents City Council Meeting Agendas Archive 2023 Council Meeting Agendas December ( PDF / 54 KB ) November ( PDF / 56 KB ) October ( PDF / 55 KB ) October extra meeting ( PDF / 54 KB ) September ( PDF / 55 KB ) August special ( PDF / 55 KB ) August ( PDF / 56 KB ) July ( PDF / 56 KB ) June special ( PDF / 54 KB ) June ( PDF / 40 KB ) May ( PDF / 36 KB ) April ( PDF / 40 KB ) March ( PDF / 38 KB ) March special ( PDF / 30 KB ) February ( PDF / 37 KB ) January ( PDF / 69 KB ) 2024 Council Meeting Agendas December special ( PDF / 33 KB ) December ( PDF / 56 KB ) November ( PDF / 57 KB ) October ( PDF / 54 KB ) September ( PDF / 55 KB ) August ( PDF / 54 KB ) July ( PDF / 56 KB ) June ( PDF / 55 KB ) May ( PDF / 54 KB ) April special ( PDF / 53 KB ) April ( PDF / 46 KB ) March ( PDF / 53 KB ) February ( PDF / 55 KB ) January ( PDF / 56 KB ) 2025 Council Meeting Agendas December ( PDF / 87 KB ) November ( PDF / 62 KB ) October ( PDF / 66 KB ) October extra meeting ( PDF / 52 KB ) September ( PDF / 56 KB ) August ( PDF / 56 KB ) July ( PDF / 56 KB ) June - bid signing ( PDF / 50 KB ) June ( PDF / 57 KB ) May ( PDF / 56 KB ) April ( PDF / 37 KB ) March ( PDF / 58 KB ) February ( PDF / 55 KB ) January ( PDF / 56 KB ) 2026 Council Meeting Agendas August ( PDF / 68 KB ) July ( PDF / 68 KB ) June ( PDF / 67 KB ) May ( PDF / 66 KB ) April ( PDF / 66 KB ) March ( PDF / 66 KB ) February ( PDF / 66 KB ) February PH ( PDF / 64 KB ) January ES ( PDF / 50 KB ) January ( PDF / 86 KB ) Navigation for section Government Get your dog licensed Come in to the City Office and get a license for your dog. Please keep your dogs contained so everyone can enjoy a safe stroll around the city. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive",
-  "links": [
-   [
-    "https://oakleyidaho.org/agendas",
-    "\n\n"
-   ],
-   [
-    "/images/favicon.ico",
-    "\n"
-   ],
-   [
-    "/2021_assets/themes/css/desert.css?v=1772481330",
-    "\n    \n         \n    "
-   ],
-   [
-    "https://fonts.gstatic.com",
-    "\r\n"
-   ],
-   [
-    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
-    "\r\n"
-   ],
-   [
-    "/2021_assets/themes/css/typography_librebaskerville_lato.css",
-    "\r\n\n"
-   ],
-   [
-    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
-    "\n     \n      \n"
-   ],
-   [
-    "javascript:",
-    "\r\n"
-   ],
-   [
-    "/documents/472/12-06-23_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/11-16-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/10-12-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/10-03-2023_work_meeting_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/09-14-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/08-28-2023_special_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/08-10-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/07-13-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/06-22-2023_special_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/06-15-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/05-11-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/04-13-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/03-09-23_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/03-02-23_work_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/02-09-2023_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/01-12-23_agenda_1.pdf",
-    "\r\n            "
-   ],
-   [
-    "javascript:",
-    "\r\n"
-   ],
-   [
-    "/documents/472/12-12-24_special_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/12-12-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/11-14-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/10-15-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/09-12-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/08-08-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/07-11-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/06-06-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/05-09-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/04-22-24_special_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/04-11-24_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/03-14-2024_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/02-08-2024_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/472/01-11-2024_agenda.pdf",
-    "\r\n            "
-   ],
-   [
-    "javascript:",
-    "\r\n"
-   ]
-  ],
-  "scripts": [],
-  "apis": [
-   "https://clients.municipalimpact.com/client/",
-   "https://www.municipalimpact.com/"
-  ]
+[
+ {
+  "name": "Aberdeen"
  },
- "https://www.oakleyidaho.org/calendar-of-events": {
-  "text": "Calendar of Events | City of Oakley Opens in a new window Calendar of Events No matter what the season , there is always something going on in the City of Oakley. Keeping our residents informed of scheduled events and local happenings is important. Know of an upcoming event that we need to add? Give us a call or send us an email and we will be happy to add it for you. Navigation for section Community Get your dog licensed Come in to the City Office and get a license for your dog. Please keep your dogs contained so everyone can enjoy a safe stroll around the city. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
-  "links": [
-   [
-    "https://oakleyidaho.org/calendar-of-events",
-    "\n\n"
-   ],
-   [
-    "/images/favicon.ico",
-    "\n"
-   ],
-   [
-    "/2021_assets/themes/css/desert.css?v=1772481330",
-    "\n    \n         \n    "
-   ],
-   [
-    "https://fonts.gstatic.com",
-    "\r\n"
-   ],
-   [
-    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap",
-    "\r\n"
-   ],
-   [
-    "/2021_assets/themes/css/typography_librebaskerville_lato.css",
-    "\r\n\n"
-   ],
-   [
-    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
-    "\n     \n      \n"
-   ],
-   [
-    "contact-us",
-    "email"
-   ],
-   [
-    "/animal-services",
-    ""
-   ],
-   [
-    "/water-rates-and-policies",
-    ""
-   ],
-   [
-    "/Shopping-dining-and-lodging",
-    ""
-   ],
-   [
-    "subscribe",
-    "Subscribe"
-   ],
-   [
-    "unsubscribe",
-    "Unsubscribe"
-   ]
-  ],
-  "scripts": [],
-  "apis": [
-   "https://clients.municipalimpact.com/client/",
-   "https://www.municipalimpact.com/"
-  ]
+ {
+  "name": "Acequia"
  },
- "https://www.cityofkamiah.org/meeting-agendas-and-minutes": {
-  "text": "Meeting Agendas & Minutes | City of Kamiah Idaho Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Kamiah government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided. City Council members are elected at large. Notice for all public meetings, along with agendas, are posted in advance of the meeting. Minutes are posted after meetings have concluded. (when available) Related Documents City Of Kamiah Agenda 04_17_2024 ( PDF / 99 KB ) Navigation for section Government Support Local Animal Shelter Looking for a furry friend to become a part of your family? Consider adopting a dog or cat from your local animal shelter. An adopted pet will provide unconditional love and companionship to all. Conserve Water It's our most precious natural resource. Every drop counts... Shop Local Whether it is a local farmer's market or main street shops, shopping local sustains our community and supports local merchants. A win-win for all! Pause Slideshow Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
-  "links": [
-   [
-    "https://cityofkamiah.org/meeting-agendas-and-minutes",
-    "\n\n"
-   ],
-   [
-    "/images/favicon.ico",
-    "\n"
-   ],
-   [
-    "/2021_assets/themes/css/royal.css?v=1772481330",
-    "\n    \n         \n    "
-   ],
-   [
-    "https://fonts.gstatic.com",
-    "\r\n"
-   ],
-   [
-    "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap",
-    "\r\n"
-   ],
-   [
-    "/2021_assets/themes/css/typography_playfair_poppins.css",
-    "\r\n\n"
-   ],
-   [
-    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
-    "\n     \n      \n"
-   ],
-   [
-    "/documents/113/City_Of_Kamiah_Agenda_04_17_2024.pdf",
-    "\r\n            "
-   ],
-   [
-    "/chamber-of-commerce",
-    ""
-   ],
-   [
-    "subscribe",
-    "Subscribe"
-   ],
-   [
-    "unsubscribe",
-    "Unsubscribe"
-   ]
-  ],
-  "scripts": [],
-  "apis": [
-   "https://clients.municipalimpact.com/client/",
-   "https://www.municipalimpact.com/"
-  ]
+ {
+  "name": "Albion"
  },
- "https://www.duboisidaho.gov/agendas": {
-  "text": "Agendas | City of Dubois Opens in a new window Agendas The City of Dubois Agendas Check back often as I add old and new agendas. Thank you! Related Documents City Council Meeting Agendas 2026 City Council Meeting Agendas June 2026 Agenda ( PDF / 251 KB ) May 2026 Agenda ( PDF / 262 KB ) March 2026 Agenda ( PDF / 257 KB ) Navigation for section Government Stay Informed Subscribe to receive news and alerts via email and SMS. Subscribe Unsubscribe",
-  "links": [
+ {
+  "name": "Arco"
+ },
+ {
+  "name": "Basalt"
+ },
+ {
+  "name": "Bliss"
+ },
+ {
+  "name": "Bloomington",
+  "site": "https://www.bloomingtonidaho.net/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://bloomingtonidaho.net/category/minutes-agendas/",
+   "https://bloomingtonidaho.net/bcc-and-badc-work-meeting-minutes-november-10-2026/",
+   "https://bloomingtonidaho.net/tag/work-meeting-minutes/",
+   "https://bloomingtonidaho.net/bcc-and-badc-work-meeting-minutes-october-27-2026/",
+   "https://bloomingtonidaho.net/city-council-meeting-minutes-october-21-2026/",
+   "https://bloomingtonidaho.net/category/agenda/",
+   "https://bloomingtonidaho.net/bcc-november-18-2026-meeting-agenda-and-zoom-link/"
+  ],
+  "final": "https://bloomingtonidaho.net/",
+  "title": "Welcome To Bloomington Idaho \u2013 Official Site For The City of Bloomington, Idaho"
+ },
+ {
+  "name": "Bovill",
+  "site": "https://www.cityofbovill.net/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://www.cityofbovill.net/government",
+   "https://www.cityofbovill.net/about-3"
+  ],
+  "final": "https://www.cityofbovill.net/",
+  "title": "Home | City Of Bovill"
+ },
+ {
+  "name": "Butte City"
+ },
+ {
+  "name": "Cambridge",
+  "site": "https://www.cambridgeidaho.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://cambridgeidaho.com/about-us",
+   "https://cambridgeidaho.com/meetings-%26-agendas"
+  ],
+  "final": "https://cambridgeidaho.com/",
+  "title": "Cambridge Idaho - Cambridge Idaho, Chamber of Commerce, Hells Canyon"
+ },
+ {
+  "name": "Cascade",
+  "site": "https://www.cascadeid.us/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [],
+  "final": "https://cascadeid.us/",
+  "title": "City of Cascade | Recreation, City Government, Parks & Recreation"
+ },
+ {
+  "name": "Clayton"
+ },
+ {
+  "name": "Clifton"
+ },
+ {
+  "name": "Craigmont",
+  "site": "https://www.cityofcraigmontid.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://www.cityofcraigmontid.com/about-craigmont",
+   "https://www.cityofcraigmontid.com/council-agendas",
+   "https://www.cityofcraigmontid.com/archived-agendas",
+   "https://www.cityofcraigmontid.com/blog_detail.html?item_id=206"
+  ],
+  "final": "https://www.cityofcraigmontid.com/",
+  "title": "Home | City of Craigmont"
+ },
+ {
+  "name": "Culdesac"
+ },
+ {
+  "name": "Dayton"
+ },
+ {
+  "name": "Deary",
+  "site": "https://www.dearyidaho.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://www.dearyidaho.com/about.html",
+   "https://www.dearyidaho.com/council-agendas.html",
+   "https://www.dearyidaho.com/p-z-agendas.html"
+  ],
+  "final": "https://www.dearyidaho.com/",
+  "title": "Home"
+ },
+ {
+  "name": "Declo"
+ },
+ {
+  "name": "Dietrich",
+  "site": "https://www.dietrichidaho.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://dietrichidaho.com/agendas%2C-notices-%26-flyers",
+   "https://dietrichidaho.com/meeting-minutes"
+  ],
+  "final": "https://dietrichidaho.com/",
+  "title": "Dietrich Official Site - City of Dietrich, Idaho"
+ },
+ {
+  "name": "Dover"
+ },
+ {
+  "name": "East Hope"
+ },
+ {
+  "name": "Eden"
+ },
+ {
+  "name": "Elk River"
+ },
+ {
+  "name": "Fairfield"
+ },
+ {
+  "name": "Ferdinand"
+ },
+ {
+  "name": "Fernan Lake Village"
+ },
+ {
+  "name": "Filer"
+ },
+ {
+  "name": "Genesee"
+ },
+ {
+  "name": "Grace"
+ },
+ {
+  "name": "Grand View"
+ },
+ {
+  "name": "Greenleaf"
+ },
+ {
+  "name": "Hamer"
+ },
+ {
+  "name": "Hansen"
+ },
+ {
+  "name": "Hollister",
+  "site": "https://www.hollisteridaho.com/",
+  "platform": {},
+  "sched": [
    [
-    "https://dubois.municipalimpact.com/agendas",
-    "\n\n"
+    "https://hollisteridaho.com/",
+    "lister Skip to content Contact FORMS Home PayPal Online Water & Sanitation Payment Welcome to Hollister, Idaho City Ordinances Online Payment Portal All About Hollister City Council Meetings The City Council meets on the first and third Monday of each month."
    ],
    [
-    "/images/favicon.ico",
-    "\n"
-   ],
-   [
-    "/2021_assets/themes/css/forest.css?v=1772481330",
-    "\n    \n         \n    "
-   ],
-   [
-    "https://fonts.gstatic.com",
-    "\r\n"
-   ],
-   [
-    "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap",
-    "\r\n"
-   ],
-   [
-    "/2021_assets/themes/css/typography_playfair_poppins.css",
-    "\r\n\n"
-   ],
-   [
-    "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css",
-    "\n     \n      \n"
-   ],
-   [
-    "javascript:",
-    "\r\n"
-   ],
-   [
-    "/documents/610/Agenda_June_2026.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/610/May_13_Agenda_2026_1.pdf",
-    "\r\n            "
-   ],
-   [
-    "/documents/610/March_11__Agenda_2026__1_.pdf",
-    "\r\n            "
-   ],
-   [
-    "subscribe",
-    "Subscribe"
-   ],
-   [
-    "unsubscribe",
-    "Unsubscribe"
+    "https://hollisteridaho.com/",
+    "Food distributions are on the first and third Thursdays of the month, unless otherwise announced, from 3 pm-6 pm."
    ]
   ],
-  "scripts": [],
-  "apis": [
-   "https://clients.municipalimpact.com/client/",
-   "https://dubois.municipalimpact.com/agendas",
-   "https://dubois.municipalimpact.com/imgD/muni_social.jpg",
-   "https://www.municipalimpact.com/"
-  ]
+  "pdfs": [],
+  "pages": [],
+  "final": "https://hollisteridaho.com/",
+  "title": "Home - City of Hollister"
+ },
+ {
+  "name": "Homedale"
+ },
+ {
+  "name": "Huetter"
+ },
+ {
+  "name": "Idaho City",
+  "site": "https://idahocity.municipalimpact.com/",
+  "platform": {},
+  "sched": [
+   [
+    "https://idahocity.municipalimpact.com/agendas-and-minutes",
+    "Idaho Rebound Protocols Visitors Attractions Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Agendas and Minutes Planning and Zoning meetings are the 2nd Tuesday of every month at city hall, 6pm."
+   ],
+   [
+    "https://idahocity.municipalimpact.com/agendas-and-minutes-1",
+    "Protocols Visitors Attractions Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Agendas and Minutes Historic Preservation Commission meetings are the 3rd Wednesday of every month at City Hall, 6pm."
+   ],
+   [
+    "https://idahocity.municipalimpact.com/meeting-agendas-and-minutes",
+    "ns Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Idaho City government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
+   ]
+  ],
+  "pdfs": [],
+  "pages": [
+   "https://idahocity.municipalimpact.com/boards-and-commissions",
+   "https://idahocity.municipalimpact.com/about-us",
+   "https://idahocity.municipalimpact.com/agendas-and-minutes",
+   "https://idahocity.municipalimpact.com/agendas-1",
+   "https://idahocity.municipalimpact.com/agendas-and-minutes-1",
+   "https://idahocity.municipalimpact.com/agendas-2",
+   "https://idahocity.municipalimpact.com/meeting-agendas-and-minutes"
+  ],
+  "final": "https://idahocity.municipalimpact.com/",
+  "title": "Home | City of Idaho City"
+ },
+ {
+  "name": "Inkom"
+ },
+ {
+  "name": "Island Park"
+ },
+ {
+  "name": "Lapwai"
+ },
+ {
+  "name": "Lewisville"
+ },
+ {
+  "name": "Lost River"
+ },
+ {
+  "name": "McCammon",
+  "site": "https://www.mccammoncity.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [
+   [
+    "https://irp.cdn-website.com/53fdcc5e/files/uploaded/RES+2026-19+Council+Meeting+Schedule+-+Dec+Update.pdf",
+    "A Resolution of the City Council of the City of McCammon Establishing the City C"
+   ]
+  ],
+  "pages": [
+   "http://www.mccammoncity.com/",
+   "https://www.mccammoncity.com/about",
+   "https://www.mccammoncity.com/forms"
+  ],
+  "final": "https://www.mccammoncity.com/",
+  "title": "City of McCammon Idaho - City Council, Forms, Permits, City Code and info about McCammon I"
+ },
+ {
+  "name": "Mackay"
+ },
+ {
+  "name": "Malad City"
+ },
+ {
+  "name": "Melba"
+ },
+ {
+  "name": "Midvale"
+ },
+ {
+  "name": "Minidoka"
+ },
+ {
+  "name": "Moore"
+ },
+ {
+  "name": "Moyie Springs"
+ },
+ {
+  "name": "Mud Lake"
+ },
+ {
+  "name": "Mullan"
+ },
+ {
+  "name": "Murtaugh"
+ },
+ {
+  "name": "New Meadows"
+ },
+ {
+  "name": "New Plymouth"
+ },
+ {
+  "name": "Notus"
+ },
+ {
+  "name": "Oldtown"
+ },
+ {
+  "name": "Onaway"
+ },
+ {
+  "name": "Oxford"
+ },
+ {
+  "name": "Paris",
+  "site": "https://www.parisidaho.com/",
+  "platform": {},
+  "sched": [],
+  "pdfs": [],
+  "pages": [
+   "https://parisidaho.com/agenda",
+   "https://parisidaho.com/meetings"
+  ],
+  "final": "https://parisidaho.com/",
+  "title": "A community supported website for residents, businesses and visitors to Paris Idaho."
+ },
+ {
+  "name": "Parker"
+ },
+ {
+  "name": "Pierce"
+ },
+ {
+  "name": "Pinehurst"
+ },
+ {
+  "name": "Potlatch"
+ },
+ {
+  "name": "Priest River",
+  "site": "https://priestriver.municipalimpact.com/",
+  "platform": {},
+  "sched": [
+   [
+    "https://priestriver-id.gov/meeting-agendas-and-minutes",
+    "elopment Corporation Visitors Attractions Business Directory Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Priest River government, the Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
+   ],
+   [
+    "https://priestriver-id.gov/meeting-agendas-and-minutes",
+    "The City Council's regular meetings are scheduled for the first and third Monday of every month at the City Hall Council Chambers, starting at 6:00 pm unless otherwise posted."
+   ]
+  ],
+  "pdfs": [
+   [
+    "https://priestriver-id.gov/documents/450/2026_CITY_COUNCIL_REGULAR_SCHEDULE.pdf",
+    "2026 City Council Meeting Schedule"
+   ]
+  ],
+  "pages": [
+   "https://priestriver-id.gov/boards-and-commissions",
+   "https://priestriver-id.gov/about-us",
+   "https://priestriver-id.gov/meeting-agendas-and-minutes",
+   "https://priestriver-id.gov/agendas"
+  ],
+  "final": "https://priestriver-id.gov/",
+  "title": "Home | City of Priest River"
+ },
+ {
+  "name": "Reubens"
+ },
+ {
+  "name": "Riggins"
+ },
+ {
+  "name": "Roberts",
+  "site": "https://roberts.municipalimpact.com/",
+  "platform": {},
+  "sched": [
+   [
+    "https://cityofrobertsidaho.gov/",
+    "City Council meetings are held the first Tuesday."
+   ],
+   [
+    "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
+    "iness Business Licenses & Permits Visitors Locations & Directions Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Roberts government, the Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
+   ],
+   [
+    "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
+    "(when available) Regular City Council Meetings are the second Tuesday of each month at 7:00 pm at Roberts City Hall."
+   ]
+  ],
+  "pdfs": [],
+  "pages": [
+   "https://cityofrobertsidaho.gov/about-us",
+   "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
+   "https://cityofrobertsidaho.gov/agendas",
+   "https://www.cityofrobertsidaho.gov/meeting-agendas-and-minutes"
+  ],
+  "final": "https://cityofrobertsidaho.gov/",
+  "title": "Home | City of Roberts, ID"
+ },
+ {
+  "name": "Rockland"
+ },
+ {
+  "name": "St. Charles"
+ },
+ {
+  "name": "St. Maries"
+ },
+ {
+  "name": "Shoshone"
+ },
+ {
+  "name": "Smelterville"
+ },
+ {
+  "name": "Spencer"
+ },
+ {
+  "name": "State Line"
+ },
+ {
+  "name": "Stites"
+ },
+ {
+  "name": "Tensed"
+ },
+ {
+  "name": "Tetonia",
+  "site": "https://www.tetoniaidaho.com/",
+  "platform": {},
+  "sched": [
+   [
+    "https://www.tetoniaidaho.com/meeting-agendas-and-minutes",
+    "itors Attractions Locations & Directions Tetonia Photo Album Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Tetonia government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
+   ],
+   [
+    "https://www.tetoniaidaho.com/agendas",
+    "w window Agendas The City of Tetonia Agendas The City of Tetonia Council Meeting Agendas are posted in the City Offices on the Friday prior to the regularly scheduled Council Meetings which occur the second Tuesday of each month."
+   ]
+  ],
+  "pdfs": [],
+  "pages": [
+   "https://www.tetoniaidaho.com/boards-and-commissions",
+   "https://www.tetoniaidaho.com/about-us",
+   "https://www.tetoniaidaho.com/meeting-agendas-and-minutes",
+   "https://www.tetoniaidaho.com/agendas"
+  ],
+  "final": "https://www.tetoniaidaho.com/",
+  "title": "Home | City of Tetonia Idaho"
+ },
+ {
+  "name": "Troy"
+ },
+ {
+  "name": "Wardner"
+ },
+ {
+  "name": "Warm River"
+ },
+ {
+  "name": "White Bird"
+ },
+ {
+  "name": "Worley"
  }
-}
+]
