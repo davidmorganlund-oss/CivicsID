@@ -1064,7 +1064,8 @@ def fetch_boardbook(src, start_day, end_day, tz):
 # used.) Closures are always dropped.
 
 def libcal_is_civic(title, categories):
-    if re.search(r"\bboards?\b|trustee", categories + " " + title, re.I):
+    text = re.sub(r"\bboard ?games?\b|\bboard ?books?\b|surfboard|skateboard|snowboard|keyboard|cardboard|whiteboard|chalkboard", "", categories + " " + title, flags=re.I)
+    if re.search(r"\bboards?\b|trustee", text, re.I):
         return True
     if re.search(r"friends of the library", categories + " " + title, re.I) and re.search(r"meeting", title, re.I):
         return True

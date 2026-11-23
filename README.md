@@ -72,6 +72,8 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Twin Falls, Madison, Blackfoot, Lake Pend Oreille, Shelley, Caldwell, Vallivue, Moscow, Post Falls, Jefferson 251 and Lewiston (until posted) school districts | various | Published board schedules and dates | `schedule` | Read from each district's own pages (Nov 2026); recheck each January |
 | Coeur d'Alene Public Schools | Kootenai | Published schedule | `schedule` | Its meetings portal asks automated readers to stay away |
 | Ada Community, Twin Falls and Marshall (Pocatello) libraries | various | Published board schedules | `schedule` | Boise Public Library's board comes through Boise's eScribe |
+| Nampa, Kuna and The Community Library (Ketchum) | various | LibCal | `libcal` | Board meetings and civic programs only |
+| Meridian, Eagle, Caldwell and Mountain Home libraries | various | Published board schedules | `schedule` | |
 
 `inventory/sources.csv` lists what was checked and what is still to do,
 including Nampa and Ada County.

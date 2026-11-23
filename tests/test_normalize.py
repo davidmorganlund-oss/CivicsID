@@ -830,3 +830,9 @@ def test_schedule_skips_state_holidays():
         {"title": "Commission", "when": "4th Thursday", "time": "09:00", "meets_on_holidays": True}]}
     ev = build.fetch_schedule(src, date(2026, 11, 1), date(2026, 11, 30), ZoneInfo("America/Boise"))
     assert [e["title"] for e in ev] == ["Commission"]  # Nov 26, 2026 is Thanksgiving
+
+
+def test_library_board_games_are_not_board_meetings():
+    assert not build.libcal_is_civic("Board Games for Adults", "Games")
+    assert build.libcal_is_civic("Nampa Library Board of Trustees Monthly Meeting", "")
+    assert build.libcal_is_civic("Kuna Library District Board Meeting", "")

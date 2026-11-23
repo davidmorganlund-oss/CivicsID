@@ -2136,3 +2136,97 @@ sources:
         location: District office board room, 3850 E 300 N, Rigby
         category: school
         url: https://www.jeffersonsd251.org/board-of-trustees/
+
+  # --- More libraries (added Nov 2026) ---
+
+  # LibCal calendars, kept to board meetings and civic programs.
+  - id: nampa-library
+    name: Nampa Public Library
+    type: libcal
+    host: nampalibrary.libcal.com
+    civic_only: true
+    county: Canyon
+    area: Nampa
+    homepage: https://nampalibrary.org/about-us/board-of-trustees/
+
+  - id: kuna-library
+    name: Kuna Library District
+    type: libcal
+    host: kunalibrary.libcal.com
+    civic_only: true
+    county: Ada
+    area: Kuna
+    homepage: https://kunalibrary.org/howdoi/contact-a-board-member/
+
+  - id: community-library-ketchum
+    name: The Community Library (Ketchum)
+    type: libcal
+    host: thecommunitylibrary.libcal.com
+    civic_only: true
+    county: Blaine
+    area: Ketchum
+    homepage: https://comlib.org/
+
+  # Board schedules as each library states them.
+  # "The Board meets the third Wednesday of each month at 7 p.m. Meetings are
+  # held in the program room at the Orchard Park branch"
+  - id: meridian-library
+    name: Meridian Library District
+    type: schedule
+    county: Ada
+    area: Meridian
+    homepage: https://www.mld.org/board
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Wednesday
+        time: "19:00"
+        location: Meridian Library District, Orchard Park branch program room
+        category: library
+        url: https://www.mld.org/board
+
+  # "The Board meets the third Wednesday of each month at 6:00 pm at Eagle City Hall."
+  - id: eagle-library
+    name: Eagle Public Library
+    type: schedule
+    county: Ada
+    area: Eagle
+    homepage: https://eaglepubliclibrary.org/about-us/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Wednesday
+        time: "18:00"
+        location: Eagle City Hall
+        category: library
+        url: https://eaglepubliclibrary.org/about-us/
+
+  # "regularly scheduled on the third Thursday of every month at 12:00 p.m." in the
+  # Dean E. Miller Community Room at the Caldwell Public Library, 1010 Dearborn St.
+  - id: caldwell-library
+    name: Caldwell Public Library
+    type: schedule
+    county: Canyon
+    area: Caldwell
+    homepage: https://www.caldwellpubliclibrary.org/board-of-trustees
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Thursday
+        time: "12:00"
+        location: Caldwell Public Library, Dean E. Miller Community Room, 1010 Dearborn St.
+        category: library
+        url: https://www.caldwellpubliclibrary.org/board-of-trustees
+
+  # "holds regular meetings in the Library Conference Room on the first Thursday
+  # of each month at 5:00 p.m."
+  - id: mountain-home-library
+    name: Mountain Home Public Library
+    type: schedule
+    county: Elmore
+    area: Mountain Home
+    homepage: https://mhlibrary.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 1st Thursday
+        time: "17:00"
+        location: Mountain Home Public Library, Conference Room
+        category: library
+        url: https://mhlibrary.org/board-of-trustees/
