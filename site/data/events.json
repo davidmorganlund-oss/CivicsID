@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T23:58:54-07:00",
+ "generated": "2026-11-23T05:07:53-07:00",
  "events": [
   {
    "id": "90741b2b7d00",
@@ -17235,6 +17235,43 @@
    "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
    "cancelled": false,
    "regular": true
+  },
+  {
+   "id": "083f9f7b0414",
+   "title": "Bingham County Commission",
+   "host": "Bingham County",
+   "source": "bingham-county",
+   "area": "countywide",
+   "county": "Bingham",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-22T08:15:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "501 N. Maple, Blackfoot",
+   "url": "https://www.binghamid.gov/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
+   "id": "ce1ab49dc0af",
+   "title": "AAB Meeting",
+   "host": "Bonner County",
+   "source": "bonner-county",
+   "area": "countywide",
+   "county": "Bonner",
+   "tz": "PT",
+   "category": "council",
+   "start": "2027-01-22T10:00:00-08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Bonner County Administrative Building, 1500 US-2, Sandpoint",
+   "url": "https://www.bonnercountyid.gov/events/102358/",
+   "agenda_url": "",
+   "note": "Bonner County Airport Advisory Board (AAB) meetings are held quarterly (January, April, July, October) on the 4th Friday of the month @ 10:00 AM Microsoft Teams meeting Join: https://teams.microsoft.com/meet/288161785518567?p=v0iiDhMnQcR7twxQLd Meeting ID: 288 161 785 518 567 Passcode: 76iT98D5 For Those Electronically Participating: Use of Zoom/Teams/YouTube is not intended as a substitute for in person, or written participation in the proceedings of County business. It is possible to have technology issues with the Zoom/Teams/YouTube to include, but not limited to, difficulty hearing and being heard. If you have information to communicate to the County, please come in person or send your information in writing. The County cannot assure that the information will be received via Zoom/Teams/YouTube. Use of Zoom/Teams/YouTube is at the risk of the user. Technology failure will not result in Bonner County re-agendizing and/or accepting post-deadline information on any given item or issue. In person attendance is recommended.",
+   "cancelled": false
   }
  ]
 }
