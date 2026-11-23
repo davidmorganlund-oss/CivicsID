@@ -2746,3 +2746,406 @@ sources:
         location: Soda Springs Public Library
         category: library
         url: https://soda.lili.org/library-board-of-trustees/
+
+
+  # --- Statewide sweep of city websites (Nov 2026) ---
+
+  - id: bonners-ferry
+    name: City of Bonners Ferry
+    type: agendacenter
+    site: https://www.bonnersferry.id.gov
+    category: 3
+    default_category: council
+    county: Boundary
+    area: Bonners Ferry
+    timezone: America/Los_Angeles
+    homepage: https://www.bonnersferry.id.gov/AgendaCenter
+
+  - id: bonners-ferry-pz
+    name: City of Bonners Ferry
+    type: agendacenter
+    site: https://www.bonnersferry.id.gov
+    category: 4
+    default_category: council
+    county: Boundary
+    area: Bonners Ferry
+    timezone: America/Los_Angeles
+    homepage: https://www.bonnersferry.id.gov/AgendaCenter
+
+  - id: hazelton
+    name: City of Hazelton
+    type: agendacenter
+    site: https://www.cityofhazelton.com
+    category: 2
+    default_category: council
+    county: Jerome
+    area: Hazelton
+    homepage: https://www.cityofhazelton.com/AgendaCenter
+
+  - id: parma-library
+    name: Parma Public Library
+    type: agendacenter
+    site: https://www.parma.id.gov
+    category: 3
+    default_category: library
+    county: Canyon
+    area: Parma
+    homepage: https://www.parma.id.gov/AgendaCenter
+
+  - id: carey
+    name: City of Carey
+    type: civicclerk
+    tenant: careyid
+    county: Blaine
+    area: Carey
+    homepage: https://careyid.portal.civicclerk.com/
+
+  # "All Castleford City Council Regular Meetings are scheduled for the 2nd Tuesday of each
+  # month at 7p.m." in Council Chambers, Castleford City Hall, 300 Main Street.
+  - id: castleford
+    name: City of Castleford
+    type: schedule
+    county: Twin Falls
+    area: Castleford
+    homepage: https://www.cityofcastleford.com/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "19:00"
+        location: Castleford City Hall, 300 Main Street
+        category: council
+        url: https://www.cityofcastleford.com/
+
+  # "City Council meetings are typically held the 2nd Monday of each month at 6pm in the City
+  # Council Chambers at City Hall, 110 East 3rd Ave Clark Fork Idaho."
+  - id: clark-fork
+    name: City of Clark Fork
+    type: schedule
+    county: Bonner
+    area: Clark Fork
+    timezone: America/Los_Angeles
+    homepage: http://clarkforkidaho.gov/COCF/index.html
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Monday
+        time: "18:00"
+        location: Clark Fork City Hall, 110 East 3rd Ave
+        category: council
+        url: http://clarkforkidaho.gov/COCF/index.html
+
+  # "City Council Meetings are held on the second Wednesday of every month at 6:30pm in the City
+  # Council Chambers located at 342 Village Circle."
+  - id: crouch
+    name: City of Crouch
+    type: schedule
+    county: Boise
+    area: Crouch
+    homepage: https://cityofcrouch.org/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Wednesday
+        time: "18:30"
+        location: Crouch City Council Chambers, 342 Village Circle
+        category: council
+        url: https://cityofcrouch.org/
+
+  # "The Regular Meetings of the Downey City Council will be held on the second Tuesday of each
+  # month at 7:00 p.m."
+  - id: downey
+    name: City of Downey
+    type: schedule
+    county: Bannock
+    area: Downey
+    homepage: https://downeyidaho.us/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "19:00"
+        location: Downey City Hall
+        category: council
+        url: https://downeyidaho.us/
+
+  # "Council meets regularly on the first and third Tuesday of each month in the City Council
+  # Chambers at 60 South Main Street in Driggs" (no time in that sentence).
+  - id: driggs
+    name: City of Driggs
+    type: schedule
+    county: Teton
+    area: Driggs
+    homepage: https://driggsidaho.org/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Tuesday
+        note: "Check the agenda for the start time."
+        location: Driggs City Council Chambers, 60 South Main Street
+        category: council
+        url: https://driggsidaho.org/
+
+  # "Every second Tuesday of each month, we will have our council meeting at 6pm."
+  - id: dubois
+    name: City of Dubois
+    type: schedule
+    county: Clark
+    area: Dubois
+    homepage: https://www.duboisidaho.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "18:00"
+        location: Dubois City Hall
+        category: council
+        url: https://www.duboisidaho.gov/
+
+  # "Regular Meetings: The City Council shall hold regular meetings on the second Wednesday of
+  # each month." (No time stated.)
+  - id: franklin
+    name: City of Franklin
+    type: schedule
+    county: Franklin
+    area: Franklin
+    homepage: https://www.franklinidaho.org/index.html
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Wednesday
+        note: "Check the agenda for the start time."
+        location: Franklin City Hall
+        category: council
+        url: https://www.franklinidaho.org/index.html
+
+  # "City Council Meetings are held at City Hall on the 1st and 3rd Wednesday of every month at
+  # 6:00 pm."
+  - id: hagerman
+    name: City of Hagerman
+    type: schedule
+    county: Gooding
+    area: Hagerman
+    homepage: https://www.hagermanidaho.us/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "18:00"
+        location: Hagerman City Hall
+        category: council
+        url: https://www.hagermanidaho.us/
+
+  # "The city council meets on the second Tuesday of every month at 6:30PM at city hall."
+  - id: hauser
+    name: City of Hauser
+    type: schedule
+    county: Kootenai
+    area: Hauser
+    timezone: America/Los_Angeles
+    homepage: https://cityofhauser.us/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "18:30"
+        location: Hauser City Hall
+        category: council
+        url: https://cityofhauser.us/
+
+  # "Juliaetta City Council meets the second Tuesday of each month at 7:00 pm in Council
+  # Chambers, located behind City Hall, 203 Main Street."
+  - id: juliaetta
+    name: City of Juliaetta
+    type: schedule
+    county: Latah
+    area: Juliaetta
+    timezone: America/Los_Angeles
+    homepage: https://cityofjuliaetta.com/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "19:00"
+        location: Council Chambers behind City Hall, 203 Main Street
+        category: council
+        url: https://cityofjuliaetta.com/
+
+  # "Kendrick City Council meets the 3rd Tuesday of Every Month at the Kendrick Fire Hall." (No
+  # time stated.)
+  - id: kendrick
+    name: City of Kendrick
+    type: schedule
+    county: Latah
+    area: Kendrick
+    timezone: America/Los_Angeles
+    homepage: https://www.cityofkendrick.com/
+    meetings:
+      - title: City Council Meeting
+        when: 3rd Tuesday
+        note: "Check the agenda for the start time."
+        location: Kendrick Fire Hall
+        category: council
+        url: https://www.cityofkendrick.com/
+
+  # "Marsing City Council will meet every second Thursday of the month." Its next meeting
+  # notice: "at the Sandbar Community Room @7pm".
+  - id: marsing
+    name: City of Marsing
+    type: schedule
+    county: Owyhee
+    area: Marsing
+    homepage: https://cityofmarsing.org/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Thursday
+        time: "19:00"
+        location: Sandbar Community Room
+        category: council
+        url: https://cityofmarsing.org/
+
+  # The council "meet[s] the first and third Wednesday evenings of each month at 7:30 P.M."
+  - id: montpelier
+    name: City of Montpelier
+    type: schedule
+    county: Bear Lake
+    area: Montpelier
+    homepage: https://montpelier.id.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "19:30"
+        location: Montpelier City Hall
+        category: council
+        url: https://montpelier.id.gov/
+
+  # "City Council Meetings are held at 5:30 PM on the second Tuesday of every month." "The
+  # Planning and Zoning Commission meets at 5:30 PM every fourth Tuesday of the month at Osburn
+  # City Hall."
+  - id: osburn
+    name: City of Osburn
+    type: schedule
+    county: Shoshone
+    area: Osburn
+    timezone: America/Los_Angeles
+    homepage: https://www.cityofosburn.org/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "17:30"
+        location: Osburn City Hall
+        category: council
+        url: https://www.cityofosburn.org/
+      - title: Planning and Zoning Commission
+        when: 4th Tuesday
+        time: "17:30"
+        location: Osburn City Hall
+        category: council
+        url: https://www.cityofosburn.org/
+
+  # "Council meetings are held the second Tuesday of every month at 7:00pm in the City of Paul
+  # conference room located at 152 south 600 west."
+  - id: paul
+    name: City of Paul
+    type: schedule
+    county: Minidoka
+    area: Paul
+    homepage: https://www.cityofpaul.org/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Tuesday
+        time: "19:00"
+        location: City of Paul conference room, 152 South 600 West
+        category: council
+        url: https://www.cityofpaul.org/
+
+  # "The Plummer City Council meets in regular session on the second Thursday of each month."
+  # (No time stated.)
+  - id: plummer
+    name: City of Plummer
+    type: schedule
+    county: Benewah
+    area: Plummer
+    timezone: America/Los_Angeles
+    homepage: https://www.cityofplummer.org/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Thursday
+        note: "Check the agenda for the start time."
+        location: Plummer City Hall
+        category: council
+        url: https://www.cityofplummer.org/
+
+  # "The regular City Council Meeting takes place the first Thursday of every month starting at
+  # 4:00 PM." "The regular Planning and Zoning Commission Meeting generally takes place the
+  # second and fourth Thursday of every month starting at 9:00 AM."
+  - id: sun-valley
+    name: City of Sun Valley
+    type: schedule
+    county: Blaine
+    area: Sun Valley
+    homepage: https://sunvalleyidaho.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 1st Thursday
+        time: "16:00"
+        location: Sun Valley City Hall
+        category: council
+        url: https://sunvalleyidaho.gov/
+      - title: Planning and Zoning Commission
+        when: 2nd, 4th Thursday
+        time: "09:00"
+        location: Sun Valley City Hall
+        category: council
+        url: https://sunvalleyidaho.gov/
+
+  # "Teton City Council Meets the THIRD Thursday of EVERY Month at 7:00pm."
+  - id: teton-city
+    name: City of Teton
+    type: schedule
+    county: Fremont
+    area: Teton
+    homepage: https://www.cityofteton.com/
+    meetings:
+      - title: City Council Meeting
+        when: 3rd Thursday
+        time: "19:00"
+        location: Teton City Hall
+        category: council
+        url: https://www.cityofteton.com/
+
+  # "The Victor City Council ... meet[s] regularly on the second and fourth Wednesday of each
+  # month at 6:00 P.M."
+  - id: victor
+    name: City of Victor
+    type: schedule
+    county: Teton
+    area: Victor
+    homepage: https://victoridaho.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Wednesday
+        time: "18:00"
+        location: Victor City Hall
+        category: council
+        url: https://victoridaho.gov/
+
+  # "City Council meets on the 1st and 3rd Thursdays of the month excluding holidays @ 6:30 PM."
+  - id: wendell
+    name: City of Wendell
+    type: schedule
+    county: Gooding
+    area: Wendell
+    homepage: https://wendell.id.gov/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Thursday
+        time: "18:30"
+        location: Wendell City Hall
+        category: council
+        url: https://wendell.id.gov/
+
+  # "City Council meeting will be held on the first Thursday of every month." (No time stated.)
+  - id: weston
+    name: City of Weston
+    type: schedule
+    county: Franklin
+    area: Weston
+    homepage: https://www.westonidaho.org/
+    meetings:
+      - title: City Council Meeting
+        when: 1st Thursday
+        note: "Check the agenda for the start time."
+        location: Weston City Hall
+        category: council
+        url: https://www.westonidaho.org/

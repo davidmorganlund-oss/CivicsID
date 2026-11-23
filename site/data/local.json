@@ -238,6 +238,11 @@
    },
    "council": "https://www.cityofboise.org/departments/city-council/"
   },
+  "Bonners Ferry": {
+   "county": "Boundary",
+   "site": "https://www.bonnersferry.id.gov/",
+   "meetings": "https://www.bonnersferry.id.gov/AgendaCenter"
+  },
   "Buhl": {
    "county": "Twin Falls",
    "site": "https://www.cityofbuhl.us/",
@@ -270,6 +275,16 @@
     "checked": "2026-11-17"
    }
   },
+  "Carey": {
+   "county": "Blaine",
+   "site": "https://www.cityofcarey.org/",
+   "meetings": "https://careyid.portal.civicclerk.com/"
+  },
+  "Castleford": {
+   "county": "Twin Falls",
+   "site": "https://www.cityofcastleford.com/",
+   "meetings": "https://www.cityofcastleford.com/"
+  },
   "Chubbuck": {
    "county": "Bannock",
    "site": "https://cityofchubbuck.us/",
@@ -280,6 +295,11 @@
     "checked": "2026-11-17"
    },
    "council": "https://cityofchubbuck.us/city-council/"
+  },
+  "Clark Fork": {
+   "county": "Bonner",
+   "site": "http://clarkforkidaho.gov/COCF/index.html",
+   "meetings": "http://clarkforkidaho.gov/COCF/index.html"
   },
   "Coeur d'Alene": {
    "county": "Kootenai",
@@ -292,6 +312,11 @@
    },
    "council": "https://www.cdaid.org/government/mayor-and-council/council-members/"
   },
+  "Crouch": {
+   "county": "Boise",
+   "site": "https://cityofcrouch.org/",
+   "meetings": "https://cityofcrouch.org/"
+  },
   "Dalton Gardens": {
    "county": "Kootenai",
    "site": "https://daltongardens.com/",
@@ -302,6 +327,21 @@
     "checked": "2026-11-17"
    },
    "council": "https://daltongardens.com/citycouncil"
+  },
+  "Downey": {
+   "county": "Bannock",
+   "site": "https://downeyidaho.us/",
+   "meetings": "https://downeyidaho.us/"
+  },
+  "Driggs": {
+   "county": "Teton",
+   "site": "https://driggsidaho.org/",
+   "meetings": "https://driggsidaho.org/"
+  },
+  "Dubois": {
+   "county": "Clark",
+   "site": "https://www.duboisidaho.gov/",
+   "meetings": "https://www.duboisidaho.gov/"
   },
   "Eagle": {
    "county": "Ada",
@@ -324,6 +364,11 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
+  },
+  "Franklin": {
+   "county": "Franklin",
+   "site": "https://www.franklinidaho.org/index.html",
+   "meetings": "https://www.franklinidaho.org/index.html"
   },
   "Fruitland": {
    "county": "Payette",
@@ -369,6 +414,11 @@
    },
    "council": "https://grangeville.us/mayor-and-city-council/"
   },
+  "Hagerman": {
+   "county": "Gooding",
+   "site": "https://www.hagermanidaho.us/",
+   "meetings": "https://www.hagermanidaho.us/"
+  },
   "Hailey": {
    "county": "Blaine",
    "site": "https://haileycityhall.org/",
@@ -380,6 +430,11 @@
    },
    "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
   },
+  "Hauser": {
+   "county": "Kootenai",
+   "site": "https://cityofhauser.us/",
+   "meetings": "https://cityofhauser.us/"
+  },
   "Hayden": {
    "county": "Kootenai",
    "site": "https://www.haydenid.gov/",
@@ -390,6 +445,11 @@
     "source": "https://www.haydenid.gov/mayor.php",
     "checked": "2026-11-17"
    }
+  },
+  "Hazelton": {
+   "county": "Jerome",
+   "site": "https://www.cityofhazelton.com/",
+   "meetings": "https://www.cityofhazelton.com/AgendaCenter"
   },
   "Heyburn": {
    "county": "Minidoka",
@@ -422,6 +482,16 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.ci.jerome.id.us/Directory.aspx?DID=25"
+  },
+  "Juliaetta": {
+   "county": "Latah",
+   "site": "https://cityofjuliaetta.com/",
+   "meetings": "https://cityofjuliaetta.com/"
+  },
+  "Kendrick": {
+   "county": "Latah",
+   "site": "https://www.cityofkendrick.com/",
+   "meetings": "https://www.cityofkendrick.com/"
   },
   "Ketchum": {
    "county": "Blaine",
@@ -461,6 +531,11 @@
    },
    "council": "https://www.cityoflewiston.org/367/Mayor-City-Council"
   },
+  "Marsing": {
+   "county": "Owyhee",
+   "site": "https://cityofmarsing.org/",
+   "meetings": "https://cityofmarsing.org/"
+  },
   "McCall": {
    "county": "Valley",
    "site": "https://www.mccall.id.us/",
@@ -494,6 +569,11 @@
     "note": "Appointed by the City Council in March 2026 after Mayor Jackie Hutchison died."
    },
    "council": "https://middleton.id.gov/departments/city-council"
+  },
+  "Montpelier": {
+   "county": "Bear Lake",
+   "site": "https://montpelier.id.gov/",
+   "meetings": "https://montpelier.id.gov/"
   },
   "Moscow": {
    "county": "Latah",
@@ -537,6 +617,21 @@
    },
    "council": "https://cityoforofino.org/meet-the-city-service-team/"
   },
+  "Osburn": {
+   "county": "Shoshone",
+   "site": "https://www.cityofosburn.org/",
+   "meetings": "https://www.cityofosburn.org/"
+  },
+  "Parma": {
+   "county": "Canyon",
+   "site": "https://www.parma.id.gov/",
+   "meetings": "https://www.parma.id.gov/AgendaCenter"
+  },
+  "Paul": {
+   "county": "Minidoka",
+   "site": "https://www.cityofpaul.org/",
+   "meetings": "https://www.cityofpaul.org/"
+  },
   "Payette": {
    "county": "Payette",
    "site": "https://cityofpayette.com/",
@@ -547,6 +642,11 @@
     "checked": "2026-11-22"
    },
    "council": "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&Type=B_BASIC"
+  },
+  "Plummer": {
+   "county": "Benewah",
+   "site": "https://www.cityofplummer.org/",
+   "meetings": "https://www.cityofplummer.org/"
   },
   "Pocatello": {
    "county": "Bannock",
@@ -684,6 +784,16 @@
    },
    "council": "https://www.staridaho.org/1207/City-Council"
   },
+  "Sun Valley": {
+   "county": "Blaine",
+   "site": "https://sunvalleyidaho.gov/",
+   "meetings": "https://sunvalleyidaho.gov/"
+  },
+  "Teton": {
+   "county": "Fremont",
+   "site": "https://www.cityofteton.com/",
+   "meetings": "https://www.cityofteton.com/"
+  },
   "Twin Falls": {
    "county": "Twin Falls",
    "site": "https://www.tfid.org/",
@@ -696,6 +806,11 @@
    },
    "council": "https://tfid.org/133/City-Council"
   },
+  "Victor": {
+   "county": "Teton",
+   "site": "https://victoridaho.gov/",
+   "meetings": "https://victoridaho.gov/"
+  },
   "Weiser": {
    "county": "Washington",
    "site": "https://www.cityofweiser.net/",
@@ -706,6 +821,16 @@
     "checked": "2026-11-22"
    },
    "council": "https://www.cityofweiser.net/city-council-members"
+  },
+  "Wendell": {
+   "county": "Gooding",
+   "site": "https://wendell.id.gov/",
+   "meetings": "https://wendell.id.gov/"
+  },
+  "Weston": {
+   "county": "Franklin",
+   "site": "https://www.westonidaho.org/",
+   "meetings": "https://www.westonidaho.org/"
   }
  }
 }
