@@ -2071,3 +2071,68 @@ sources:
         location: Moscow High School, 402 East 5th St. (use 3rd Street entrance)
         category: school
         url: https://www.msd281.org/page/board-meetings-minutes-notices
+
+  - id: lakeland-schools
+    name: Lakeland Joint School District 272
+    type: boardbook
+    organization: 2129
+    county: Kootenai
+    area: Rathdrum
+    timezone: America/Los_Angeles
+    default_category: school
+    homepage: https://meetings.boardbook.org/Public/Organization/2129
+
+  # Post Falls SD 273 "Schedule of Regular Meetings for the Year 2026": "held for
+  # the conduct of business at River City Middle School, 1505 N. Fir, Post Falls,
+  # Idaho, on the second Monday of each month, commencing at 5:30 p.m." The PDF
+  # host turns automated readers away, so this was read by a person.
+  - id: post-falls-schools
+    name: Post Falls School District 273
+    type: schedule
+    county: Kootenai
+    area: Post Falls
+    timezone: America/Los_Angeles
+    homepage: https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Monday
+        time: "17:30"
+        location: River City Middle School, 1505 N. Fir, Post Falls
+        category: school
+        url: https://www.pfsd.com/board-of-trustees/board-of-trustees-agendas
+
+  # Simbli listing overview: "All meetings will be held in Lewiston, Idaho on the
+  # second and fourth Monday at 6:00 p.m. unless otherwise noted." Shown until the
+  # meeting itself is posted (lewiston-schools).
+  - id: lewiston-schools-schedule
+    name: Lewiston Independent School District 1
+    type: schedule
+    county: Nez Perce
+    area: Lewiston
+    timezone: America/Los_Angeles
+    yield_to: [lewiston-schools]
+    homepage: https://www.lewistonschools.net/page/school-board-meetings
+    meetings:
+      - title: Board of Trustees Meeting
+        when: 2nd, 4th Monday
+        time: "18:00"
+        category: school
+        url: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031908
+
+  # District home page: "The Jefferson School District 251 Board of Trustees
+  # regular meeting is scheduled for December 9, at 7:30 a.m., in the district
+  # office board room at 3850 E 300 N, Rigby." (Its 2026 schedule PDF says 6:30
+  # p.m.; the newer notice wins.)
+  - id: jefferson-schools
+    name: Jefferson Joint School District 251
+    type: schedule
+    county: Jefferson
+    area: Rigby
+    homepage: https://www.jeffersonsd251.org/board-of-trustees/
+    meetings:
+      - title: Board of Trustees Regular Meeting
+        dates: [2026-12-09]
+        time: "07:30"
+        location: District office board room, 3850 E 300 N, Rigby
+        category: school
+        url: https://www.jeffersonsd251.org/board-of-trustees/
