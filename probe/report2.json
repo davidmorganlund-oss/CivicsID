@@ -1,298 +1,57 @@
 {
- "Meridian Library District": [
-  {
-   "url": "https://www.mld.org/",
-   "final": "https://www.mld.org/",
-   "platform": [],
-   "links": [
-    "https://www.mld.org/about",
-    "https://www.mld.org/board",
-    "https://www.mld.org/board-documents",
-    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=Culture&searchIndex=Keyword&searchSource=local",
-    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=War+Librarian&searchIndex=Keyword&searchSource=local",
-    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=The+Lions+of+Fifth+Avenue&searchIndex=Keyword&searchSource=local",
-    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=Littlest+Library&searchIndex=Keyword&searchSource=local",
-    "https://meridian.discover.lynxlibraries.org/Union/Search?view=list&showCovers=on&lookfor=With+Love+from+London&searchIndex=Keyword&searchSource=local"
+ "nampa": {
+  "hosts": [
+   "nampalibrary.libcal.com"
+  ],
+  "civic": [
+   [
+    "2026-12-09T16:00",
+    "Nampa Library Board of Trustees Monthly Meeting"
    ],
-   "sched": [
-    {
-     "https://www.mld.org/board": [
-      "&nbsp; The Board meets the third Wednesday of each month at 7 p.",
-      " Meetings are held&nbsp;in the program room at the Orchard Park branch and streamed on YouTube Live ."
-     ]
-    }
-   ]
-  }
- ],
- "Nampa Public Library": [
-  {
-   "url": "https://www.nampalibrary.org/",
-   "final": "https://nampalibrary.org/",
-   "platform": [
-    "libcal",
-    "wordpress"
+   [
+    "2026-12-23T14:00",
+    "Board Games for Adults"
    ],
-   "links": [
-    "https://nampalibrary.org/bookmobile/",
-    "https://nampalibrary.org/about-us/library-history/",
-    "https://nampalibrary.org/about-us/mission-values/",
-    "https://nampalibrary.org/about-us/board-of-trustees/",
-    "https://nampalibrary.org/about-us/reports/"
-   ]
-  }
- ],
- "Caldwell Public Library": [
-  {
-   "url": "https://www.caldwellpubliclibrary.org/",
-   "final": "https://www.caldwellpubliclibrary.org/",
-   "platform": [],
-   "links": [
-    "https://static.wixstatic.com/media/f0e5c0_b820f59953ed4fb9a73352bc772a9044%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/f0e5c0_b820f59953ed4fb9a73352bc772a9044%7Emv2.png",
-    "https://www.caldwellpubliclibrary.org/board-of-trustees"
-   ]
-  }
- ],
- "Idaho Falls Public Library": [
-  {
-   "url": "https://www.ifpl.org/",
-   "final": "https://www.ifpl.org/",
-   "platform": [
-    "tribe",
-    "wordpress"
+   [
+    "2027-01-13T16:00",
+    "Nampa Library Board of Trustees Monthly Meeting"
    ],
-   "links": [
-    "https://gmpg.org/xfn/11",
-    "https://www.ifpl.org/library-board/",
-    "https://www.ifpl.org/board/"
+   [
+    "2027-01-27T14:00",
+    "Board Games for Adults"
    ]
-  }
- ],
- "Eagle Public Library": [
-  {
-   "url": "https://www.eaglepubliclibrary.org/",
-   "final": "https://eaglepubliclibrary.org/",
-   "platform": [
-    "tribe",
-    "wordpress"
-   ],
-   "links": [
-    "https://eaglepubliclibrary.org/family-place-library-and-playgroup-series/",
-    "https://eaglepubliclibrary.org/about-us/",
-    "https://eaglepubliclibrary.org/about-us/policies/"
-   ],
-   "sched": [
-    {
-     "https://eaglepubliclibrary.org/about-us/": [
-      " The Board meets the third Wednesday of each month at 6:00 pm at Eagle City Hall."
-     ]
-    }
+  ],
+  "n": 4
+ },
+ "kuna": {
+  "hosts": [
+   "kunalibrary.libcal.com"
+  ],
+  "civic": [
+   [
+    "2026-12-15T13:00",
+    "Kuna Library District Board Meeting"
    ]
-  }
- ],
- "Garden City Public Library": [
-  {
-   "url": "https://www.gardencitylibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.gardencitylibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Kuna Library District": [
-  {
-   "url": "https://www.kunalibrary.org/",
-   "final": "https://kunalibrary.org/",
-   "platform": [
-    "libcal",
-    "wordpress"
-   ],
-   "links": [
-    "https://kunalibrary.org/books-more/board-games/",
-    "https://kunalibrary.org/howdoi/contact-a-board-member/",
-    "https://kunalibrary.org/howdoi/learn-more-about-kuna/"
+  ],
+  "n": 1
+ },
+ "mtnhome": {
+  "hosts": [
+   "api3.libcal.com",
+   "mhlibrary.libcal.com"
+  ],
+  "err": "HTTPError('404 Client Error: Not Found for url: https://api3.libcal.com/ajax/calendar/list?c=-1&date=0000-00-00&perpage=20&page=1&audience=&cats=&camps=&inc=0')"
+ },
+ "comlib": {
+  "hosts": [
+   "thecommunitylibrary.libcal.com"
+  ],
+  "civic": [
+   [
+    "2027-01-21T17:30",
+    "Idaho Legislative Preview"
    ]
-  }
- ],
- "Madison Library District": [
-  {
-   "url": "https://www.madisonlib.org/",
-   "final": "https://www.madisonlib.org/",
-   "platform": [
-    "wordpress"
-   ],
-   "links": [
-    "https://www.madisonlib.org/xmlrpc.php",
-    "https://www.madisonlib.org/about/",
-    "https://www.madisonlib.org/about-us/",
-    "https://www.madisonlib.org/downloadables/"
-   ]
-  }
- ],
- "Portneuf District Library": [
-  {
-   "url": "https://www.portneuflibrary.org/",
-   "final": "https://www.portneuflibrary.org/",
-   "platform": [],
-   "links": [
-    "https://www.portneuflibrary.org/library-board.html"
-   ]
-  }
- ],
- "Lewiston City Library": [
-  {
-   "url": "https://www.lewistonlibrary.org/",
-   "final": "https://www.lewistonlibrary.org/",
-   "platform": [],
-   "links": [
-    "https://www.lewistonlibrary.org/160/About",
-    "https://www.lewistonlibrary.org/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css"
-   ]
-  }
- ],
- "Mountain Home Public Library": [
-  {
-   "url": "https://www.mhlibrary.org/",
-   "final": "https://mhlibrary.org/",
-   "platform": [
-    "libcal",
-    "wordpress"
-   ],
-   "links": [
-    "https://mhlibrary.org/about-the-library/",
-    "https://mhlibrary.org/board-of-trustees/",
-    "https://mhlibrary.org/teen-advisory-board/"
-   ],
-   "sched": [
-    {
-     "https://mhlibrary.org/board-of-trustees/": [
-      " Meeting Schedule The Library Board of Trustees of the Mountain Home Public Library holds regular meetings in the Library Conference Room on the first Thursday of each month at 5:00 p."
-     ]
-    },
-    {
-     "https://mhlibrary.org/teen-advisory-board/": [
-      " Regular meetings&nbsp;will be held on the&nbsp; first &nbsp;and&nbsp; third Fridays at 3:30 p."
-     ]
-    }
-   ]
-  }
- ],
- "The Community Library (Ketchum)": [
-  {
-   "url": "https://www.comlib.org/",
-   "final": "https://comlib.org/",
-   "platform": [
-    "libcal",
-    "wordpress"
-   ],
-   "links": [
-    "https://comlib.org/",
-    "https://comlib.org/our-story/staff-directory-and-board-of-directors/"
-   ]
-  }
- ],
- "Hailey Public Library": [
-  {
-   "url": "https://www.haileypubliclibrary.org/",
-   "final": "https://haileypubliclibrary.org/",
-   "platform": [
-    "communico",
-    "wordpress"
-   ],
-   "links": [
-    "https://haileypubliclibrary.org/about/hours-and-directions/",
-    "https://haileypubliclibrary.org/about/",
-    "https://haileypubliclibrary.org/about/board-of-trustees/",
-    "https://haileypubliclibrary.org/about/friends-of-the-library/",
-    "https://haileypubliclibrary.org/about/book-and-bake-sale/",
-    "https://haileypubliclibrary.org/about/staff/",
-    "https://haileypubliclibrary.org/about/careers/",
-    "https://haileypubliclibrary.org/about/volunteer/"
-   ]
-  }
- ],
- "Jerome Public Library": [
-  {
-   "url": "https://www.jeromepubliclibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.jeromepubliclibrary.org (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://jerome.lib.id.us/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at jerome.lib.id.us (ConnectionError), so nothing was fetched"
-  }
- ],
- "Blackfoot Public Library": [
-  {
-   "url": "https://www.blackfootlibrary.org/",
-   "final": "https://blackfootlibrary.org/",
-   "platform": [
-    "wordpress"
-   ],
-   "links": [
-    "https://blackfootlibrary.org/boards-committees/"
-   ]
-  }
- ],
- "Emmett Public Library": [
-  {
-   "url": "https://www.emmettpubliclibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.emmettpubliclibrary.org (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://emmettlibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at emmettlibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Burley Public Library": [
-  {
-   "url": "https://www.burleypubliclibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.burleypubliclibrary.org (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://burley.lib.id.us/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at burley.lib.id.us (ConnectionError), so nothing was fetched"
-  }
- ],
- "Rupert DL Evans Bicknell": [
-  {
-   "url": "https://www.rupertlibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.rupertlibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Star Library": [
-  {
-   "url": "https://www.starlibrary.org/",
-   "final": "https://www.starlibrary.org/",
-   "platform": [],
-   "links": [
-    "https://www.starlibrary.org/about/project",
-    "https://www.starlibrary.org/about/service"
-   ]
-  }
- ],
- "Bonneville County Library District": [
-  {
-   "url": "https://www.bonnevillelibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.bonnevillelibrary.org (ConnectionError), so nothing was fetched"
-  },
-  {
-   "url": "https://bclid.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at bclid.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Payette Public Library": [
-  {
-   "url": "https://www.payettepubliclibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.payettepubliclibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Weiser Public Library": [
-  {
-   "url": "https://www.weiserlibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.weiserlibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Salmon Public Library": [
-  {
-   "url": "https://www.salmonpubliclibrary.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.salmonpubliclibrary.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Sandpoint (East Bonner)": []
+  ],
+  "n": 1
+ }
 }
