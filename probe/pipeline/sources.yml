@@ -1410,3 +1410,470 @@ sources:
         location: Commissioners Large Meeting Room, Old County Courthouse, 206 South 1st Avenue, Hailey
         category: council
         url: https://www.blainecountyid.gov/1110/Planning-Zoning-Commission-Regular-Meeti
+
+  # Bonneville County's commissioner calendar is a Tyler Meeting Manager site
+  # (no robots.txt). Kept: Board of Commissioners regular (3, only once an
+  # agenda posts, since a 9 a.m. "administrative business" slot is posted every
+  # weekday), public works (5), P&Z (10) and special meetings (11), the county
+  # Planning & Zoning Commission (4), public events (14) and "County
+  # Conversations with a Commissioner" office hours (7). Left out: closures,
+  # legal-counsel sessions, and commissioners attending other groups' meetings.
+  - id: bonneville-county
+    name: Bonneville County
+    type: tyler_mm
+    api: https://bonnevillecountyid.meetingmanager.tylerapp.com/tylermmcalendar5189bonnevillecountyid
+    meeting_types: [3, 4, 5, 7, 10, 11, 14]
+    agenda_only: [3]
+    default_location: Bonneville County Courthouse, 605 N Capital Ave, Idaho Falls
+    county: Bonneville
+    area: countywide
+    homepage: https://www.bonnevillecountyidaho.gov/calendar
+
+  # Twin Falls County posts each weekday's commissioners' agenda as a PDF on
+  # one page; a day is listed only when it has action items (**).
+  - id: twin-falls-county
+    name: Twin Falls County
+    type: daily_agendas
+    list_url: https://twinfallscounty.org/commissioners/agenda/
+    meeting_title: Board of County Commissioners
+    default_location: Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls
+    county: Twin Falls
+    area: countywide
+    homepage: https://twinfallscounty.org/commissioners/agenda/
+
+  # Latah County Commissioners page: "Usually however, the Board meets
+  # Tuesdays, between 9:00am and 4:00pm."
+  - id: latah-county
+    name: Latah County
+    type: schedule
+    county: Latah
+    area: countywide
+    timezone: America/Los_Angeles
+    homepage: https://latahcountyid.gov/commissioners/
+    meetings:
+      - title: Board of County Commissioners
+        when: 1st, 2nd, 3rd, 4th, 5th Tuesday
+        time: "09:00"
+        category: council
+        url: https://latahcountyid.gov/commissioners/
+
+  # Oneida County's site sits behind a bot challenge; its Board of Commissioner
+  # page publishes the 2026 dates and "the second and fourth Monday of each
+  # month starting at 9 a.m.", 459 S. Main, Malad.
+  - id: oneida-county
+    name: Oneida County
+    type: schedule
+    county: Oneida
+    area: countywide
+    homepage: https://oneidaid.us/government/board_of_commissioner/index.php
+    meetings:
+      - title: Board of County Commissioners
+        dates: [2026-11-23, 2026-12-14, 2026-12-21]
+        time: "09:00"
+        location: 459 S. Main, Malad
+        category: council
+        url: https://oneidaid.us/government/board_of_commissioner/index.php
+      - title: Board of County Commissioners
+        when: 2nd, 4th Monday
+        from: 2027-01-01
+        time: "09:00"
+        location: 459 S. Main, Malad
+        category: council
+        url: https://oneidaid.us/government/board_of_commissioner/index.php
+
+
+  # --- Smaller cities (added Nov 2026). Each schedule below is the city's own
+  # published regular schedule, read from its website; agendas link from there.
+
+  - id: kimberly
+    name: City of Kimberly
+    type: agendacenter
+    site: https://www.cityofkimberly.org
+    category: 3
+    time: "6:00 PM"
+    default_category: council
+    default_location: Kimberly City Hall, 242 Highway 30 E.
+    county: Twin Falls
+    area: Kimberly
+    homepage: https://www.cityofkimberly.org/AgendaCenter
+
+  # "City Council meetings are regularly scheduled meetings held the first and third Wednesday of
+  # each month in the City Council Chambers, beginning at 5:30 p.m." (elected officials page)
+  - id: middleton
+    name: City of Middleton
+    type: schedule
+    county: Canyon
+    area: Middleton
+    homepage: https://middleton.id.gov/public-meetings
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "17:30"
+        location: Middleton City Council Chambers, 1103 W. Main Street
+        category: council
+        url: https://middleton.id.gov/public-meetings
+
+  # "Regular Council meetings are held on the first and third Monday of each month" and "convene at
+  # 5:30 PM in Council Chambers at Payette City Hall", 700 Center Avenue (government page)
+  - id: payette
+    name: City of Payette
+    type: schedule
+    county: Payette
+    area: Payette
+    homepage: https://cityofpayette.com/government
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Monday
+        time: "17:30"
+        location: Payette City Hall, 700 Center Avenue
+        category: council
+        url: https://cityofpayette.com/government
+
+  # Council: "the second and fourth Monday of each Month at 7:00 P.M. at Fruitland City Hall, 200 S.
+  # Whitley Drive." P&Z: "meets on the second Tuesday of each month at 7:00 P.M."
+  - id: fruitland
+    name: City of Fruitland
+    type: schedule
+    county: Payette
+    area: Fruitland
+    homepage: https://www.fruitland.org/council-agendas
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Monday
+        time: "19:00"
+        location: Fruitland City Hall, 200 S. Whitley Drive
+        category: council
+        url: https://www.fruitland.org/council-agendas
+      - title: Planning and Zoning Commission
+        when: 2nd Tuesday
+        time: "19:00"
+        location: Fruitland City Hall, 200 S. Whitley Drive
+        category: council
+        url: https://www.fruitland.org/pz-agendas
+
+  # "Regular City Council meetings are the 2nd and 4th Tuesday of each month at 7:00 PM in the
+  # Council Chambers, 624 F Street."
+  - id: rupert
+    name: City of Rupert
+    type: schedule
+    county: Minidoka
+    area: Rupert
+    homepage: https://rupert-idaho.com/government/agendas-minutes
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Tuesday
+        time: "19:00"
+        location: Rupert City Council Chambers, 624 F Street
+        category: council
+        url: https://rupert-idaho.com/government/agendas-minutes
+
+  # Council: "2nd MONDAY OF EACH MONTH, 7:00 p.m." P&Z: "3RD MONDAY OF EACH MONTH AT 7:00 pm". Both
+  # pages list holiday weeks as "(Tuesday Meeting)".
+  - id: weiser
+    name: City of Weiser
+    type: schedule
+    county: Washington
+    area: Weiser
+    homepage: https://www.cityofweiser.net/agendas
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Monday
+        holiday_moves_to_next_day: true
+        time: "19:00"
+        location: Weiser City Hall, 55 West Idaho Street
+        category: council
+        url: https://www.cityofweiser.net/agendas
+      - title: Planning and Zoning Commission
+        when: 3rd Monday
+        holiday_moves_to_next_day: true
+        time: "19:00"
+        location: Weiser City Hall, 55 West Idaho Street
+        category: council
+        url: https://www.cityofweiser.net/planning-zoning-commission
+
+  # The city's own calendar (prestonidaho.net/calendar.php) lists City Council meetings on the 2nd
+  # and 4th Monday at 6 p.m. and Planning and Zoning on the 2nd and 4th Wednesday at 7 p.m. Its feed
+  # repeats them, which our Revize reader doesn't expand, so they are entered here.
+  - id: preston
+    name: City of Preston
+    type: schedule
+    county: Franklin
+    area: Preston
+    homepage: https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Monday
+        time: "18:00"
+        location: Preston City Hall
+        category: council
+        url: https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php
+      - title: Planning and Zoning Commission
+        when: 2nd, 4th Wednesday
+        time: "19:00"
+        location: Preston City Hall
+        category: council
+        url: https://www.prestonidaho.net/government/boards___committees/planning___zoning_commission/p_z_agendas___minutes.php
+
+  # Council: "regularly meets on the first and third Thursday of each month at 7:00 p.m. at Rigby
+  # City Hall". P&Z: "second Thursday of the month beginning at 7 PM ... only held when there is
+  # business to be discussed."
+  - id: rigby
+    name: City of Rigby
+    type: schedule
+    county: Jefferson
+    area: Rigby
+    homepage: https://cityofrigby.gov/city-council-agendas/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Thursday
+        time: "19:00"
+        location: Rigby City Hall
+        category: council
+        url: https://cityofrigby.gov/city-council-agendas/
+      - title: Planning and Zoning Commission
+        when: 2nd Thursday
+        note: "Held only when there is business to discuss."
+        time: "19:00"
+        location: Rigby City Hall Council Chambers
+        category: council
+        url: https://cityofrigby.gov/planning-and-zoning-agendas/
+
+  # The council page: "meets on alternating Tuesdays, the second and fourth of each month, starting
+  # at 6 p.m." at 242 Highway 30 E. Agendas post to its Agenda Center (source kimberly), which takes
+  # over on days it lists.
+  - id: kimberly-schedule
+    name: City of Kimberly
+    type: schedule
+    county: Twin Falls
+    area: Kimberly
+    yield_to: [kimberly]
+    homepage: https://www.cityofkimberly.org/319/City-Council
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Tuesday
+        time: "18:00"
+        location: Kimberly City Hall, 242 Highway 30 E.
+        category: council
+        url: https://www.cityofkimberly.org/AgendaCenter
+
+  # Council: "second and fourth Wednesday at 7:30 p.m." P&Z: "third Wednesday of every month at 6:30
+  # p.m." Both in the City Council Chambers at City Hall.
+  - id: shelley
+    name: City of Shelley
+    type: schedule
+    county: Bingham
+    area: Shelley
+    homepage: https://cityofshelley.org/meetings/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Wednesday
+        time: "19:30"
+        location: Shelley City Hall, Council Chambers
+        category: council
+        url: https://cityofshelley.org/meetings/
+      - title: Planning and Zoning Commission
+        when: 3rd Wednesday
+        time: "18:30"
+        location: Shelley City Hall, Council Chambers
+        category: council
+        url: https://cityofshelley.org/meetings/
+
+  # Its 2026 regular council agendas fall on the 1st and 3rd Wednesday; the site states no start
+  # time, so these show without one. P&Z: "2nd Wednesday of each month at 6:00 p.m. City Hall
+  # Council Chambers 550 North Oregon Trail."
+  - id: american-falls
+    name: City of American Falls
+    type: schedule
+    county: Power
+    area: American Falls
+    homepage: https://americanfallsid.gov/minutes-and-agendas/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        note: "Check the agenda for the start time."
+        location: American Falls City Hall, 550 North Oregon Trail
+        category: council
+        url: https://americanfallsid.gov/minutes-and-agendas/
+      - title: Planning and Zoning Commission
+        when: 2nd Wednesday
+        time: "18:00"
+        location: American Falls City Hall Council Chambers, 550 North Oregon Trail
+        category: council
+        url: https://americanfallsid.gov/planning-and-zoning/
+
+  # Council documents page: regular sessions "2nd Monday of the Month, 6:30 PM", working sessions
+  # "4th Monday of the Month". P&Z: "3rd Wednesday of Every Month", Council Chambers, 203 Broadway
+  # Ave. N.
+  - id: buhl
+    name: City of Buhl
+    type: schedule
+    county: Twin Falls
+    area: Buhl
+    homepage: https://www.cityofbuhl.us/council-meeting-documents.html
+    meetings:
+      - title: City Council Meeting
+        when: 2nd Monday
+        time: "18:30"
+        location: Buhl City Hall, 203 Broadway Ave. N.
+        category: council
+        url: https://www.cityofbuhl.us/council-meeting-documents.html
+      - title: City Council Work Session
+        when: 4th Monday
+        time: "18:30"
+        location: Buhl City Hall, 203 Broadway Ave. N.
+        category: council
+        url: https://www.cityofbuhl.us/council-meeting-documents.html
+      - title: Planning and Zoning Commission
+        when: 3rd Wednesday
+        note: "Public hearings start at 6 p.m. when any are scheduled."
+        location: Buhl Council Chambers, 203 Broadway Ave. N.
+        category: council
+        url: https://www.cityofbuhl.us/planning--zoning-commission-meetings.html
+
+  # "City Council meetings are held on the 2nd and 4th Thursday of each month. Council Meetings
+  # start at 7:00 pm and are held at the city building located at 420 N Bridge Street."
+  - id: st-anthony
+    name: City of St. Anthony
+    type: schedule
+    county: Fremont
+    area: St. Anthony
+    homepage: https://www.cityofstanthony.org/page/city-council
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Thursday
+        time: "19:00"
+        location: St. Anthony city building, 420 N. Bridge Street
+        category: council
+        url: https://www.cityofstanthony.org/page/city-council
+
+  # "City Council meetings are held the first and third Monday of every month at 6:30 PM", in the
+  # Council Chambers at City Hall.
+  - id: gooding
+    name: City of Gooding
+    type: schedule
+    county: Gooding
+    area: Gooding
+    homepage: https://www.goodingidaho.org/agendas
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Monday
+        time: "18:30"
+        location: Gooding City Hall, Council Chambers
+        category: council
+        url: https://www.goodingidaho.org/agendas
+
+  # Council: "the second and fourth Wednesdays of each month at 7:00 pm", Heyburn City Hall, 941
+  # 18th Street. Work meetings: "1st Tuesday of each month at 3:45 PM". November's second meeting
+  # moved to Monday, Nov. 23 (posted agenda).
+  - id: heyburn
+    name: City of Heyburn
+    type: schedule
+    county: Minidoka
+    area: Heyburn
+    homepage: https://heyburn.id.gov/agendas
+    meetings:
+      - title: City Council Meeting
+        dates: [2026-11-23]
+        time: "19:00"
+        location: Heyburn City Hall, 941 18th Street
+        category: council
+        url: https://heyburn.id.gov/agendas
+      - title: City Council Meeting
+        when: 2nd, 4th Wednesday
+        from: 2026-12-01
+        time: "19:00"
+        location: Heyburn City Hall, 941 18th Street
+        category: council
+        url: https://heyburn.id.gov/agendas
+      - title: City Council Work Meeting
+        when: 1st Tuesday
+        time: "15:45"
+        location: Heyburn City Hall Meeting Room, 941 18th Street
+        category: council
+        url: https://heyburn.id.gov/agendas
+
+  # Council: "the first and third Mondays of each month at 6:00 p.m." at City Hall, 225 W. North
+  # Street; its 2026 list moves holiday Mondays to Tuesday. P&Z: "usually held on the fourth Tuesday
+  # of each month at 6:00 p.m."
+  - id: grangeville
+    name: City of Grangeville
+    type: schedule
+    county: Idaho
+    area: Grangeville
+    timezone: America/Los_Angeles
+    homepage: https://grangeville.us/city-council-agendas/
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Monday
+        holiday_moves_to_next_day: true
+        time: "18:00"
+        location: Grangeville City Hall, 225 W. North Street
+        category: council
+        url: https://grangeville.us/city-council-agendas/
+      - title: Planning and Zoning Commission
+        when: 4th Tuesday
+        time: "18:00"
+        location: Grangeville City Hall, 225 W. North Street
+        category: council
+        url: https://grangeville.us/city-council-agendas/planning-zoning-agendas/
+
+  # "The Council meets the second and fourth Tuesdays of each month." "All meetings start at 6:00 PM
+  # and are open to the public." (Meet the City team page)
+  - id: orofino
+    name: City of Orofino
+    type: schedule
+    county: Clearwater
+    area: Orofino
+    timezone: America/Los_Angeles
+    homepage: https://cityoforofino.org/document-center/
+    meetings:
+      - title: City Council Meeting
+        when: 2nd, 4th Tuesday
+        time: "18:00"
+        location: Orofino City Hall
+        category: council
+        url: https://cityoforofino.org/document-center/
+
+  # Council: "1st and 3rd Wednesday of each month, 6:00 p.m." P&Z: "2nd Wednesday of each month,
+  # 7:00 p.m." Both in the Salmon Valley Center, 200 Main Street.
+  - id: salmon
+    name: City of Salmon
+    type: schedule
+    county: Lemhi
+    area: Salmon
+    homepage: https://www.cityofsalmon.com/page/meeting-schedules
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "18:00"
+        location: Salmon Valley Center, 200 Main Street
+        category: council
+        url: https://www.cityofsalmon.com/page/meeting-schedules
+      - title: Planning and Zoning Commission
+        when: 2nd Wednesday
+        time: "19:00"
+        location: Salmon Valley Center, 200 Main Street
+        category: council
+        url: https://www.cityofsalmon.com/page/meeting-schedules
+
+  # Annual notice: council "1st and 3rd Wednesday of each month at 5:00 p.m."; P&Z "2nd Tuesday of
+  # each month at 6:00 p.m."; at City Hall, 9 West 2nd South.
+  - id: soda-springs
+    name: City of Soda Springs
+    type: schedule
+    county: Caribou
+    area: Soda Springs
+    homepage: https://www.sodaspringsid.com/city/city_council.php
+    meetings:
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        time: "17:00"
+        location: Soda Springs City Hall, 9 West 2nd South
+        category: council
+        url: https://www.sodaspringsid.com/city/city_council.php
+      - title: Planning and Zoning Commission
+        when: 2nd Tuesday
+        time: "18:00"
+        location: Soda Springs City Hall, 9 West 2nd South
+        category: council
+        url: https://www.sodaspringsid.com/city/planning_and_zoning.php

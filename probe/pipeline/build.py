@@ -889,8 +889,9 @@ def idaho_holidays(year: int):
         d += timedelta(days=(0 - d.weekday()) % 7)
         return d + timedelta(weeks=n - 1)
     last_may = date(year, 5, 31) - timedelta(days=(date(year, 5, 31).weekday()) % 7)
+    thanksgiving = date(year, 11, 1) + timedelta(days=(3 - date(year, 11, 1).weekday()) % 7 + 21)
     return {date(year, 1, 1), nth_monday(1, 3), nth_monday(2, 3), last_may, date(year, 6, 19), date(year, 7, 4),
-            nth_monday(9, 1), nth_monday(10, 2), date(year, 11, 11), date(year, 12, 25)}
+            nth_monday(9, 1), nth_monday(10, 2), date(year, 11, 11), thanksgiving, date(year, 12, 25)}
 
 
 def fetch_schedule(src, start_day, end_day, tz):
@@ -914,6 +915,10 @@ def fetch_schedule(src, start_day, end_day, tz):
                 days = [d for d in days if d >= first]
         if mtg.get("holiday_moves_to_next_day"):  # "if a holiday falls on a meeting day, it moves to Tuesday"
             days = [d + timedelta(days=1) if d in idaho_holidays(d.year) else d for d in days]
+        elif not mtg.get("dates") and not mtg.get("meets_on_holidays"):
+            # A regular schedule says nothing about holidays, and offices are
+            # closed then, so leave a holiday off rather than guess where it moved.
+            days = [d for d in days if d not in idaho_holidays(d.year)]
         for day in days:
             if day.month in mtg.get("skip_months", []):
                 continue
