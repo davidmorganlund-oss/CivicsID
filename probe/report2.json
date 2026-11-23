@@ -1,1596 +1,359 @@
 {
- "rows": [
-  [
-   "2020 rank",
-   "City",
-   "2020 Census [ 2 ]",
-   "2010 Census [ 3 ]",
-   "Change",
-   "County"
-  ],
-  [
-   "1",
-   "Boise \u2020\u2020",
-   "235,684",
-   "205,671",
-   "+14.59%",
-   "Ada"
-  ],
-  [
-   "2",
-   "Meridian",
-   "117,635",
-   "75,092",
-   "+56.65%",
-   "Ada"
-  ],
-  [
-   "3",
-   "Nampa",
-   "100,200",
-   "81,557",
-   "+22.86%",
-   "Canyon"
-  ],
-  [
-   "4",
-   "Idaho Falls \u2020",
-   "64,818",
-   "56,813",
-   "+14.09%",
-   "Bonneville"
-  ],
-  [
-   "5",
-   "Caldwell \u2020",
-   "59,996",
-   "46,237",
-   "+29.76%",
-   "Canyon"
-  ],
-  [
-   "6",
-   "Pocatello \u2020",
-   "56,320",
-   "54,255",
-   "+3.81%",
-   "Bannock"
-  ],
-  [
-   "7",
-   "Coeur d'Alene \u2020",
-   "54,628",
-   "44,137",
-   "+23.77%",
-   "Kootenai"
-  ],
-  [
-   "8",
-   "Twin Falls \u2020",
-   "51,807",
-   "44,125",
-   "+17.41%",
-   "Twin Falls"
-  ],
-  [
-   "9",
-   "Rexburg \u2020",
-   "39,409",
-   "25,484",
-   "+54.64%",
-   "Madison"
-  ],
-  [
-   "10",
-   "Post Falls",
-   "38,485",
-   "27,574",
-   "+39.57%",
-   "Kootenai"
-  ],
-  [
-   "11",
-   "Lewiston \u2020",
-   "34,203",
-   "31,894",
-   "+7.24%",
-   "Nez Perce"
-  ],
-  [
-   "12",
-   "Eagle",
-   "30,346",
-   "19,908",
-   "+52.43%",
-   "Ada"
-  ],
-  [
-   "13",
-   "Moscow \u2020",
-   "25,435",
-   "23,800",
-   "+6.87%",
-   "Latah"
-  ],
-  [
-   "14",
-   "Kuna",
-   "24,011",
-   "15,210",
-   "+57.86%",
-   "Ada"
-  ],
-  [
-   "15",
-   "Ammon",
-   "17,694",
-   "13,816",
-   "+28.07%",
-   "Bonneville"
-  ],
-  [
-   "16",
-   "Mountain Home \u2020",
-   "15,979",
-   "14,206",
-   "+12.48%",
-   "Elmore"
-  ],
-  [
-   "17",
-   "Chubbuck",
-   "15,570",
-   "13,922",
-   "+11.84%",
-   "Bannock"
-  ],
-  [
-   "18",
-   "Hayden",
-   "15,570",
-   "13,294",
-   "+17.12%",
-   "Kootenai"
-  ],
-  [
-   "19",
-   "Jerome \u2020",
-   "12,349",
-   "10,890",
-   "+13.40%",
-   "Jerome"
-  ],
-  [
-   "20",
-   "Blackfoot \u2020",
-   "12,346",
-   "11,899",
-   "+3.76%",
-   "Bingham"
-  ],
-  [
-   "21",
-   "Garden City",
-   "12,316",
-   "10,972",
-   "+12.25%",
-   "Ada"
-  ],
-  [
-   "22",
-   "Burley \u2020",
-   "11,704",
-   "10,345",
-   "+13.14%",
-   "Cassia"
-  ],
-  [
-   "23",
-   "Star",
-   "11,117",
-   "5,793",
-   "+91.90%",
-   "Ada"
-  ],
-  [
-   "24",
-   "Middleton",
-   "9,425",
-   "5,524",
-   "+70.62%",
-   "Canyon"
-  ],
-  [
-   "25",
-   "Rathdrum",
-   "9,211",
-   "6,826",
-   "+34.94%",
-   "Kootenai"
-  ],
-  [
-   "26",
-   "Hailey \u2020",
-   "9,161",
-   "7,960",
-   "+15.09%",
-   "Blaine"
-  ],
-  [
-   "27",
-   "Sandpoint \u2020",
-   "8,639",
-   "7,365",
-   "+17.30%",
-   "Bonner"
-  ],
-  [
-   "28",
-   "Payette \u2020",
-   "8,127",
-   "7,433",
-   "+9.34%",
-   "Payette"
-  ],
-  [
-   "29",
-   "Emmett \u2020",
-   "7,647",
-   "6,557",
-   "+16.62%",
-   "Gem"
-  ],
-  [
-   "30",
-   "Rupert \u2020",
-   "6,082",
-   "5,554",
-   "+9.51%",
-   "Minidoka"
-  ],
-  [
-   "31",
-   "Fruitland",
-   "6,072",
-   "4,684",
-   "+29.63%",
-   "Payette"
-  ],
-  [
-   "32",
-   "Weiser \u2020",
-   "5,630",
-   "5,507",
-   "+2.23%",
-   "Washington"
-  ],
-  [
-   "33",
-   "Preston \u2020",
-   "5,591",
-   "5,204",
-   "+7.44%",
-   "Franklin"
-  ],
-  [
-   "34",
-   "Rigby \u2020",
-   "5,038",
-   "3,945",
-   "+27.71%",
-   "Jefferson"
-  ],
-  [
-   "35",
-   "Shelley",
-   "4,785",
-   "4,409",
-   "+8.53%",
-   "Bingham"
-  ],
-  [
-   "36",
-   "Kimberly",
-   "4,626",
-   "3,264",
-   "+41.73%",
-   "Twin Falls"
-  ],
-  [
-   "37",
-   "American Falls \u2020",
-   "4,568",
-   "4,457",
-   "+2.49%",
-   "Power"
-  ],
-  [
-   "38",
-   "Buhl",
-   "4,558",
-   "4,122",
-   "+10.58%",
-   "Twin Falls"
-  ],
-  [
-   "39",
-   "Gooding \u2020",
-   "3,707",
-   "3,567",
-   "+3.92%",
-   "Gooding"
-  ],
-  [
-   "40",
-   "Heyburn",
-   "3,700",
-   "3,089",
-   "+19.78%",
-   "Minidoka"
-  ],
-  [
-   "41",
-   "McCall",
-   "3,686",
-   "2,991",
-   "+23.24%",
-   "Valley"
-  ],
-  [
-   "42",
-   "St. Anthony \u2020",
-   "3,606",
-   "3,542",
-   "+1.81%",
-   "Fremont"
-  ],
-  [
-   "43",
-   "Ketchum",
-   "3,555",
-   "2,689",
-   "+32.21%",
-   "Blaine"
-  ],
-  [
-   "44",
-   "Grangeville \u2020",
-   "3,308",
-   "3,141",
-   "+5.32%",
-   "Idaho"
-  ],
-  [
-   "45",
-   "Orofino \u2020",
-   "3,239",
-   "3,142",
-   "+3.09%",
-   "Clearwater"
-  ],
-  [
-   "46",
-   "Soda Springs \u2020",
-   "3,133",
-   "3,058",
-   "+2.45%",
-   "Caribou"
-  ],
-  [
-   "47",
-   "Salmon \u2020",
-   "3,119",
-   "3,112",
-   "+0.22%",
-   "Lemhi"
-  ],
-  [
-   "48",
-   "Wendell",
-   "2,917",
-   "2,782",
-   "+4.85%",
-   "Gooding"
-  ],
-  [
-   "49",
-   "Homedale",
-   "2,881",
-   "2,633",
-   "+9.42%",
-   "Owyhee"
-  ],
-  [
-   "50",
-   "Filer",
-   "2,738",
-   "2,508",
-   "+9.17%",
-   "Twin Falls"
-  ],
-  [
-   "51",
-   "Iona",
-   "2,717",
-   "1,803",
-   "+50.69%",
-   "Bonneville"
-  ],
-  [
-   "52",
-   "Montpelier",
-   "2,643",
-   "2,597",
-   "+1.77%",
-   "Bear Lake"
-  ],
-  [
-   "53",
-   "Bellevue",
-   "2,560",
-   "2,287",
-   "+11.94%",
-   "Blaine"
-  ],
-  [
-   "54",
-   "Dalton Gardens",
-   "2,537",
-   "2,335",
-   "+8.65%",
-   "Kootenai"
-  ],
-  [
-   "55",
-   "Bonners Ferry \u2020",
-   "2,520",
-   "2,543",
-   "\u22120.90%",
-   "Boundary"
-  ],
-  [
-   "56",
-   "St. Maries \u2020",
-   "2,357",
-   "2,402",
-   "\u22121.87%",
-   "Benewah"
-  ],
-  [
-   "57",
-   "Spirit Lake",
-   "2,337",
-   "1,945",
-   "+20.15%",
-   "Kootenai"
-  ],
-  [
-   "58",
-   "Kellogg",
-   "2,314",
-   "2,120",
-   "+9.15%",
-   "Shoshone"
-  ],
-  [
-   "59",
-   "Malad City \u2020",
-   "2,299",
-   "2,095",
-   "+9.74%",
-   "Oneida"
-  ],
-  [
-   "60",
-   "Victor",
-   "2,157",
-   "1,928",
-   "+11.88%",
-   "Teton"
-  ],
-  [
-   "61",
-   "Parma",
-   "2,096",
-   "1,983",
-   "+5.70%",
-   "Canyon"
-  ],
-  [
-   "62",
-   "Driggs \u2020",
-   "1,984",
-   "1,660",
-   "+19.52%",
-   "Teton"
-  ],
-  [
-   "63",
-   "Sun Valley",
-   "1,783",
-   "1,406",
-   "+26.81%",
-   "Blaine"
-  ],
-  [
-   "64",
-   "Aberdeen",
-   "1,756",
-   "1,994",
-   "\u221211.94%",
-   "Bingham"
-  ],
-  [
-   "65",
-   "Sugar City",
-   "1,715",
-   "1,514",
-   "+13.28%",
-   "Madison"
-  ],
-  [
-   "66",
-   "Priest River",
-   "1,696",
-   "1,751",
-   "\u22123.14%",
-   "Bonner"
-  ],
-  [
-   "67",
-   "Pinehurst",
-   "1,679",
-   "1,619",
-   "+3.71%",
-   "Shoshone"
-  ],
-  [
-   "68",
-   "Shoshone \u2020",
-   "1,653",
-   "1,461",
-   "+13.14%",
-   "Lincoln"
-  ],
-  [
-   "69",
-   "Wilder",
-   "1,597",
-   "1,533",
-   "+4.17%",
-   "Canyon"
-  ],
-  [
-   "70",
-   "Osburn",
-   "1,567",
-   "1,555",
-   "+0.77%",
-   "Shoshone"
-  ],
-  [
-   "71",
-   "New Plymouth",
-   "1,494",
-   "1,538",
-   "\u22122.86%",
-   "Payette"
-  ],
-  [
-   "72",
-   "Ponderay",
-   "1,289",
-   "1,137",
-   "+13.37%",
-   "Bonner"
-  ],
-  [
-   "73",
-   "Glenns Ferry",
-   "1,282",
-   "1,319",
-   "\u22122.81%",
-   "Elmore"
-  ],
-  [
-   "74",
-   "Marsing",
-   "1,229",
-   "1,031",
-   "+19.20%",
-   "Owyhee"
-  ],
-  [
-   "75",
-   "Paul",
-   "1,195",
-   "1,169",
-   "+2.22%",
-   "Minidoka"
-  ],
-  [
-   "76",
-   "Lapwai",
-   "1,169",
-   "1,137",
-   "+2.81%",
-   "Nez Perce"
-  ],
-  [
-   "77",
-   "Ucon",
-   "1,160",
-   "1,108",
-   "+4.69%",
-   "Bonneville"
-  ],
-  [
-   "78",
-   "Kamiah",
-   "1,117",
-   "1,295",
-   "\u221213.75%",
-   "Lewis"
-  ],
-  [
-   "79",
-   "Hansen",
-   "1,086",
-   "1,144",
-   "\u22125.07%",
-   "Twin Falls"
-  ],
-  [
-   "80",
-   "Genesee",
-   "1,030",
-   "955",
-   "+7.85%",
-   "Latah"
-  ],
-  [
-   "81",
-   "Franklin",
-   "1,025",
-   "641",
-   "+59.91%",
-   "Franklin"
-  ],
-  [
-   "82",
-   "Plummer",
-   "1,015",
-   "1,044",
-   "\u22122.78%",
-   "Benewah"
-  ],
-  [
-   "83",
-   "Cascade \u2020",
-   "1,005",
-   "939",
-   "+7.03%",
-   "Valley"
-  ],
-  [
-   "84",
-   "Hagerman",
-   "968",
-   "872",
-   "+11.01%",
-   "Gooding"
-  ],
-  [
-   "85",
-   "Ashton",
-   "949",
-   "1,127",
-   "\u221215.79%",
-   "Fremont"
-  ],
-  [
-   "86",
-   "Kootenai",
-   "941",
-   "678",
-   "+38.79%",
-   "Bonner"
-  ],
-  [
-   "87",
-   "Grace",
-   "920",
-   "915",
-   "+0.55%",
-   "Caribou"
-  ],
-  [
-   "88",
-   "Challis \u2020",
-   "902",
-   "1,081",
-   "\u221216.56%",
-   "Custer"
-  ],
-  [
-   "89",
-   "Troy",
-   "890",
-   "862",
-   "+3.25%",
-   "Latah"
-  ],
-  [
-   "90",
-   "Arco \u2020",
-   "879",
-   "995",
-   "\u221211.66%",
-   "Butte"
-  ],
-  [
-   "91",
-   "Council \u2020",
-   "867",
-   "839",
-   "+3.34%",
-   "Adams"
-  ],
-  [
-   "92",
-   "McCammon",
-   "825",
-   "809",
-   "+1.98%",
-   "Bannock"
-  ],
-  [
-   "93",
-   "Cottonwood",
-   "822",
-   "900",
-   "\u22128.67%",
-   "Idaho"
-  ],
-  [
-   "94",
-   "Moyie Springs",
-   "822",
-   "718",
-   "+14.48%",
-   "Boundary"
-  ],
-  [
-   "95",
-   "Greenleaf",
-   "812",
-   "846",
-   "\u22124.02%",
-   "Canyon"
-  ],
-  [
-   "96",
-   "Hazelton",
-   "803",
-   "753",
-   "+6.64%",
-   "Jerome"
-  ],
-  [
-   "97",
-   "Inkom",
-   "792",
-   "854",
-   "\u22127.26%",
-   "Bannock"
-  ],
-  [
-   "98",
-   "Wallace \u2020",
-   "791",
-   "784",
-   "+0.89%",
-   "Shoshone"
-  ],
-  [
-   "99",
-   "Teton",
-   "787",
-   "735",
-   "+7.07%",
-   "Fremont"
-  ],
-  [
-   "100",
-   "Oakley",
-   "786",
-   "763",
-   "+3.01%",
-   "Cassia"
-  ],
-  [
-   "101",
-   "Potlatch",
-   "763",
-   "804",
-   "\u22125.10%",
-   "Latah"
-  ],
-  [
-   "102",
-   "Hauser",
-   "761",
-   "678",
-   "+12.24%",
-   "Kootenai"
-  ],
-  [
-   "103",
-   "Dover",
-   "752",
-   "556",
-   "+35.25%",
-   "Bonner"
-  ],
-  [
-   "104",
-   "Horseshoe Bend",
-   "715",
-   "707",
-   "+1.13%",
-   "Boise"
-  ],
-  [
-   "105",
-   "Menan",
-   "715",
-   "741",
-   "\u22123.51%",
-   "Jefferson"
-  ],
-  [
-   "106",
-   "Athol",
-   "709",
-   "692",
-   "+2.46%",
-   "Kootenai"
-  ],
-  [
-   "107",
-   "Carey",
-   "685",
-   "604",
-   "+13.41%",
-   "Blaine"
-  ],
-  [
-   "108",
-   "Smelterville",
-   "670",
-   "627",
-   "+6.86%",
-   "Shoshone"
-  ],
-  [
-   "109",
-   "Ririe",
-   "667",
-   "656",
-   "+1.68%",
-   "Jefferson"
-  ],
-  [
-   "110",
-   "Hayden Lake",
-   "649",
-   "574",
-   "+13.07%",
-   "Kootenai"
-  ],
-  [
-   "111",
-   "Mullan",
-   "646",
-   "692",
-   "\u22126.65%",
-   "Shoshone"
-  ],
-  [
-   "112",
-   "Juliaetta",
-   "624",
-   "579",
-   "+7.77%",
-   "Latah"
-  ],
-  [
-   "113",
-   "Notus",
-   "609",
-   "531",
-   "+14.69%",
-   "Canyon"
-  ],
-  [
-   "114",
-   "Melba",
-   "572",
-   "513",
-   "+11.50%",
-   "Canyon"
-  ],
-  [
-   "115",
-   "Downey",
-   "571",
-   "625",
-   "\u22128.64%",
-   "Bannock"
-  ],
-  [
-   "116",
-   "Paris \u2020",
-   "541",
-   "513",
-   "+5.46%",
-   "Bear Lake"
-  ],
-  [
-   "117",
-   "Firth",
-   "517",
-   "477",
-   "+8.39%",
-   "Bingham"
-  ],
-  [
-   "118",
-   "New Meadows",
-   "517",
-   "496",
-   "+4.23%",
-   "Adams"
-  ],
-  [
-   "119",
-   "Kooskia",
-   "514",
-   "607",
-   "\u221215.32%",
-   "Idaho"
-  ],
-  [
-   "120",
-   "Clark Fork",
-   "513",
-   "536",
-   "\u22124.29%",
-   "Bonner"
-  ],
-  [
-   "121",
-   "Dubois \u2020",
-   "511",
-   "677",
-   "\u221224.52%",
-   "Clark"
-  ],
-  [
-   "122",
-   "Weston",
-   "511",
-   "437",
-   "+16.93%",
-   "Franklin"
-  ],
-  [
-   "123",
-   "Dayton",
-   "510",
-   "463",
-   "+10.15%",
-   "Franklin"
-  ],
-  [
-   "124",
-   "Deary",
-   "508",
-   "506",
-   "+0.40%",
-   "Latah"
-  ],
-  [
-   "125",
-   "Georgetown",
-   "503",
-   "476",
-   "+5.67%",
-   "Bear Lake"
-  ],
-  [
-   "126",
-   "Roberts",
-   "500",
-   "580",
-   "\u221213.79%",
-   "Jefferson"
-  ],
-  [
-   "127",
-   "Pierce",
-   "467",
-   "508",
-   "\u22128.07%",
-   "Clearwater"
-  ],
-  [
-   "128",
-   "Idaho City \u2020",
-   "466",
-   "485",
-   "\u22123.92%",
-   "Boise"
-  ],
-  [
-   "129",
-   "Craigmont",
-   "458",
-   "501",
-   "\u22128.58%",
-   "Lewis"
-  ],
-  [
-   "130",
-   "Nezperce \u2020",
-   "458",
-   "466",
-   "\u22121.72%",
-   "Lewis"
-  ],
-  [
-   "131",
-   "Fairfield \u2020",
-   "441",
-   "416",
-   "+6.01%",
-   "Camas"
-  ],
-  [
-   "132",
-   "Grand View",
-   "440",
-   "452",
-   "\u22122.65%",
-   "Owyhee"
-  ],
-  [
-   "133",
-   "Mackay",
-   "439",
-   "517",
-   "\u221215.09%",
-   "Custer"
-  ],
-  [
-   "134",
-   "Richfield",
-   "431",
-   "482",
-   "\u221210.58%",
-   "Lincoln"
-  ],
-  [
-   "135",
-   "Lewisville",
-   "421",
-   "458",
-   "\u22128.08%",
-   "Jefferson"
-  ],
-  [
-   "136",
-   "Clifton",
-   "413",
-   "259",
-   "+59.46%",
-   "Franklin"
-  ],
-  [
-   "137",
-   "Culdesac",
-   "413",
-   "380",
-   "+8.68%",
-   "Nez Perce"
-  ],
-  [
-   "138",
-   "Weippe",
-   "400",
-   "441",
-   "\u22129.30%",
-   "Clearwater"
-  ],
-  [
-   "139",
-   "Eden",
-   "393",
-   "405",
-   "\u22122.96%",
-   "Jerome"
-  ],
-  [
-   "140",
-   "Riggins",
-   "372",
-   "419",
-   "\u221211.22%",
-   "Idaho"
-  ],
-  [
-   "141",
-   "Lava Hot Springs",
-   "358",
-   "407",
-   "\u221212.04%",
-   "Bannock"
-  ],
-  [
-   "142",
-   "Basalt",
-   "357",
-   "394",
-   "\u22129.39%",
-   "Bingham"
-  ],
-  [
-   "143",
-   "Winchester",
-   "356",
-   "340",
-   "+4.71%",
-   "Lewis"
-  ],
-  [
-   "144",
-   "Arimo",
-   "354",
-   "355",
-   "\u22120.28%",
-   "Bannock"
-  ],
-  [
-   "145",
-   "Declo",
-   "338",
-   "343",
-   "\u22121.46%",
-   "Cassia"
-  ],
-  [
-   "146",
-   "Newdale",
-   "337",
-   "323",
-   "+4.33%",
-   "Fremont"
-  ],
-  [
-   "147",
-   "Cambridge",
-   "335",
-   "328",
-   "+2.13%",
-   "Washington"
-  ],
-  [
-   "148",
-   "Mud Lake",
-   "321",
-   "358",
-   "\u221210.34%",
-   "Jefferson"
-  ],
-  [
-   "149",
-   "Tetonia",
-   "308",
-   "269",
-   "+14.50%",
-   "Teton"
-  ],
-  [
-   "150",
-   "Parker",
-   "302",
-   "305",
-   "\u22120.98%",
-   "Fremont"
-  ],
-  [
-   "151",
-   "Bancroft",
-   "299",
-   "377",
-   "\u221220.69%",
-   "Caribou"
-  ],
-  [
-   "152",
-   "Kendrick",
-   "288",
-   "303",
-   "\u22124.95%",
-   "Latah"
-  ],
-  [
-   "153",
-   "Dietrich",
-   "284",
-   "332",
-   "\u221214.46%",
-   "Lincoln"
-  ],
-  [
-   "154",
-   "Irwin",
-   "259",
-   "219",
-   "+18.26%",
-   "Bonneville"
-  ],
-  [
-   "155",
-   "Bliss",
-   "258",
-   "318",
-   "\u221218.87%",
-   "Gooding"
-  ],
-  [
-   "156",
-   "Worley",
-   "253",
-   "257",
-   "\u22121.56%",
-   "Kootenai"
-  ],
-  [
-   "157",
-   "Donnelly",
-   "249",
-   "152",
-   "+63.82%",
-   "Valley"
-  ],
-  [
-   "158",
-   "Hollister",
-   "243",
-   "272",
-   "\u221210.66%",
-   "Twin Falls"
-  ],
-  [
-   "159",
-   "Rockland",
-   "242",
-   "295",
-   "\u221217.97%",
-   "Power"
-  ],
-  [
-   "160",
-   "Albion",
-   "234",
-   "267",
-   "\u221212.36%",
-   "Cassia"
-  ],
-  [
-   "161",
-   "Harrison",
-   "233",
-   "203",
-   "+14.78%",
-   "Kootenai"
-  ],
-  [
-   "162",
-   "East Hope",
-   "229",
-   "210",
-   "+9.05%",
-   "Bonner"
-  ],
-  [
-   "163",
-   "Swan Valley",
-   "225",
-   "204",
-   "+10.29%",
-   "Bonneville"
-  ],
-  [
-   "164",
-   "Oldtown",
-   "221",
-   "184",
-   "+20.11%",
-   "Bonner"
-  ],
-  [
-   "165",
-   "Castleford",
-   "215",
-   "226",
-   "\u22124.87%",
-   "Twin Falls"
-  ],
-  [
-   "166",
-   "Bloomington",
-   "199",
-   "206",
-   "\u22123.40%",
-   "Bear Lake"
-  ],
-  [
-   "167",
-   "Onaway",
-   "196",
-   "187",
-   "+4.81%",
-   "Latah"
-  ],
-  [
-   "168",
-   "Island Park",
-   "193",
-   "286",
-   "\u221232.52%",
-   "Fremont"
-  ],
-  [
-   "169",
-   "Midvale",
-   "193",
-   "171",
-   "+12.87%",
-   "Washington"
-  ],
-  [
-   "170",
-   "Wardner",
-   "192",
-   "188",
-   "+2.13%",
-   "Shoshone"
-  ],
-  [
-   "171",
-   "Bovill",
-   "191",
-   "260",
-   "\u221226.54%",
-   "Latah"
-  ],
-  [
-   "172",
-   "Stites",
-   "171",
-   "221",
-   "\u221222.62%",
-   "Idaho"
-  ],
-  [
-   "173",
-   "Malta",
-   "167",
-   "193",
-   "\u221213.47%",
-   "Cassia"
-  ],
-  [
-   "174",
-   "Peck",
-   "166",
-   "197",
-   "\u221215.74%",
-   "Nez Perce"
-  ],
-  [
-   "175",
-   "Fernan Lake Village",
-   "164",
-   "169",
-   "\u22122.96%",
-   "Kootenai"
-  ],
-  [
-   "176",
-   "Moore",
-   "162",
-   "189",
-   "\u221214.29%",
-   "Butte"
-  ],
-  [
-   "177",
-   "St. Charles",
-   "161",
-   "131",
-   "+22.90%",
-   "Bear Lake"
-  ],
-  [
-   "178",
-   "Crouch",
-   "154",
-   "162",
-   "\u22124.94%",
-   "Boise"
-  ],
-  [
-   "179",
-   "Elk River",
-   "139",
-   "125",
-   "+11.20%",
-   "Clearwater"
-  ],
-  [
-   "180",
-   "Ferdinand",
-   "133",
-   "159",
-   "\u221216.35%",
-   "Idaho"
-  ],
-  [
-   "181",
-   "Acequia",
-   "131",
-   "124",
-   "+5.65%",
-   "Minidoka"
-  ],
-  [
-   "182",
-   "Stanley",
-   "116",
-   "63",
-   "+84.13%",
-   "Custer"
-  ],
-  [
-   "183",
-   "Murtaugh",
-   "114",
-   "115",
-   "\u22120.87%",
-   "Twin Falls"
-  ],
-  [
-   "184",
-   "Huetter",
-   "104",
-   "100",
-   "+4.00%",
-   "Kootenai"
-  ],
-  [
-   "185",
-   "Hope",
-   "98",
-   "86",
-   "+13.95%",
-   "Bonner"
-  ],
-  [
-   "186",
-   "Leadore",
-   "98",
-   "105",
-   "\u22126.67%",
-   "Lemhi"
-  ],
-  [
-   "187",
-   "Minidoka",
-   "86",
-   "112",
-   "\u221223.21%",
-   "Minidoka"
-  ],
-  [
-   "188",
-   "Tensed",
-   "84",
-   "123",
-   "\u221231.71%",
-   "Benewah"
-  ],
-  [
-   "189",
-   "White Bird",
-   "83",
-   "91",
-   "\u22128.79%",
-   "Idaho"
-  ],
-  [
-   "190",
-   "Butte City",
-   "78",
-   "74",
-   "+5.41%",
-   "Butte"
-  ],
-  [
-   "191",
-   "Placerville",
-   "48",
-   "53",
-   "\u22129.43%",
-   "Boise"
-  ],
-  [
-   "192",
-   "Reubens",
-   "46",
-   "71",
-   "\u221235.21%",
-   "Lewis"
-  ],
-  [
-   "193",
-   "Lost River",
-   "42",
-   "68",
-   "\u221238.24%",
-   "Custer"
-  ],
-  [
-   "194",
-   "State Line",
-   "39",
-   "38",
-   "+2.63%",
-   "Kootenai"
-  ],
-  [
-   "195",
-   "Spencer",
-   "31",
-   "37",
-   "\u221216.22%",
-   "Clark"
-  ],
-  [
-   "196",
-   "Drummond",
-   "13",
-   "16",
-   "\u221218.75%",
-   "Fremont"
-  ],
-  [
-   "197",
-   "Clayton",
-   "10",
-   "7",
-   "+42.86%",
-   "Custer"
-  ],
-  [
-   "198",
-   "Warm River",
-   "4",
-   "3",
-   "+33.33%",
-   "Fremont"
-  ]
- ]
+ "districts": [
+  {
+   "name": "LAKE PEND OREILLE SCHOOL DISTRICT",
+   "city": "PONDERAY",
+   "leaid": "1600002"
+  },
+  {
+   "name": "ARBON ELEMENTARY DISTRICT",
+   "city": "ARBON",
+   "leaid": "1600090"
+  },
+  {
+   "name": "SALMON RIVER JOINT SCHOOL DISTRICT",
+   "city": "RIGGINS",
+   "leaid": "1600138"
+  },
+  {
+   "name": "AVERY SCHOOL DISTRICT",
+   "city": "CALDER",
+   "leaid": "1600150"
+  },
+  {
+   "name": "BASIN SCHOOL DISTRICT",
+   "city": "IDAHO CITY",
+   "leaid": "1600180"
+  },
+  {
+   "name": "BEAR LAKE COUNTY DISTRICT",
+   "city": "PARIS",
+   "leaid": "1600240"
+  },
+  {
+   "name": "BOUNDARY COUNTY DISTRICT",
+   "city": "BONNERS FERRY",
+   "leaid": "1600420"
+  },
+  {
+   "name": "BUHL JOINT DISTRICT",
+   "city": "BUHL",
+   "leaid": "1600480"
+  },
+  {
+   "name": "CAMAS COUNTY DISTRICT",
+   "city": "FAIRFIELD",
+   "leaid": "1600540"
+  },
+  {
+   "name": "CAMBRIDGE JOINT DISTRICT",
+   "city": "CAMBRIDGE",
+   "leaid": "1600570"
+  },
+  {
+   "name": "CASCADE DISTRICT",
+   "city": "CASCADE",
+   "leaid": "1600630"
+  },
+  {
+   "name": "CASSIA COUNTY JOINT DISTRICT",
+   "city": "BURLEY",
+   "leaid": "1600660"
+  },
+  {
+   "name": "CASTLEFORD DISTRICT",
+   "city": "CASTLEFORD",
+   "leaid": "1600690"
+  },
+  {
+   "name": "CLARK COUNTY DISTRICT",
+   "city": "DUBOIS",
+   "leaid": "1600750"
+  },
+  {
+   "name": "COEUR D'ALENE DISTRICT",
+   "city": "COEUR D'ALENE",
+   "leaid": "1600780"
+  },
+  {
+   "name": "PLUMMER-WORLEY JOINT DISTRICT",
+   "city": "PLUMMER",
+   "leaid": "1600815"
+  },
+  {
+   "name": "COUNCIL DISTRICT",
+   "city": "COUNCIL",
+   "leaid": "1600840"
+  },
+  {
+   "name": "CULDESAC JOINT DISTRICT",
+   "city": "CULDESAC",
+   "leaid": "1600870"
+  },
+  {
+   "name": "BONNEVILLE JOINT DISTRICT",
+   "city": "IDAHO FALLS",
+   "leaid": "1600930",
+   "site": "https://idahofalls.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [
+    [
+     "https://www.idahofallsidaho.gov/DocumentCenter/View/19668/2026-CITY-COUNCIL-MEETING-SCHEDULE",
+     "2026 City Council meeting schedule"
+    ]
+   ],
+   "pages": [
+    "https://www.idahofallsidaho.gov/414/Boards-Commissions",
+    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2980",
+    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2975",
+    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2912",
+    "https://www.idahofallsidaho.gov/m/newsflash/home/detail/2901",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4103",
+    "https://www.idahofallsidaho.gov/Calendar.aspx?EID=4104"
+   ],
+   "final": "https://www.idahofallsidaho.gov/",
+   "title": "Idaho Falls, ID | Official Website"
+  },
+  {
+   "name": "PRESTON JOINT DISTRICT",
+   "city": "PRESTON",
+   "leaid": "1600960"
+  },
+  {
+   "name": "FILER DISTRICT",
+   "city": "FILER",
+   "leaid": "1601050"
+  },
+  {
+   "name": "FIRTH DISTRICT",
+   "city": "FIRTH",
+   "leaid": "1601080"
+  },
+  {
+   "name": "FREMONT COUNTY JOINT DISTRICT",
+   "city": "ST ANTHONY",
+   "leaid": "1601110"
+  },
+  {
+   "name": "GARDEN VALLEY DISTRICT",
+   "city": "GARDEN VALLEY",
+   "leaid": "1601170"
+  },
+  {
+   "name": "GLENNS FERRY JOINT DISTRICT",
+   "city": "GLENNS FERRY",
+   "leaid": "1601230"
+  },
+  {
+   "name": "GOODING JOINT DISTRICT",
+   "city": "GOODING",
+   "leaid": "1601260"
+  },
+  {
+   "name": "HAGERMAN JOINT DISTRICT",
+   "city": "HAGERMAN",
+   "leaid": "1601380"
+  },
+  {
+   "name": "HIGHLAND JOINT DISTRICT",
+   "city": "CRAIGMONT",
+   "leaid": "1601440"
+  },
+  {
+   "name": "HORSESHOE BEND SCHOOL DISTRICT",
+   "city": "HORSESHOE BEND",
+   "leaid": "1601500"
+  },
+  {
+   "name": "JEFFERSON COUNTY JOINT DISTRICT",
+   "city": "RIGBY",
+   "leaid": "1601570"
+  },
+  {
+   "name": "JEROME JOINT DISTRICT",
+   "city": "JEROME",
+   "leaid": "1601590"
+  },
+  {
+   "name": "KELLOGG JOINT DISTRICT",
+   "city": "KELLOGG",
+   "leaid": "1601650"
+  },
+  {
+   "name": "KIMBERLY DISTRICT",
+   "city": "KIMBERLY",
+   "leaid": "1601710"
+  },
+  {
+   "name": "KOOTENAI DISTRICT",
+   "city": "HARRISON",
+   "leaid": "1601740"
+  },
+  {
+   "name": "LAPWAI DISTRICT",
+   "city": "LAPWAI",
+   "leaid": "1601830"
+  },
+  {
+   "name": "LEWISTON INDEPENDENT DISTRICT",
+   "city": "LEWISTON",
+   "leaid": "1601860"
+  },
+  {
+   "name": "MADISON DISTRICT",
+   "city": "REXBURG",
+   "leaid": "1601920"
+  },
+  {
+   "name": "MARSH VALLEY JOINT DISTRICT",
+   "city": "ARIMO",
+   "leaid": "1601950"
+  },
+  {
+   "name": "MARSING JOINT DISTRICT",
+   "city": "MARSING",
+   "leaid": "1601980"
+  },
+  {
+   "name": "MCCALL-DONNELLY JOINT SCHOOL DISTRICT",
+   "city": "MCCALL",
+   "leaid": "1602030"
+  },
+  {
+   "name": "MEADOWS VALLEY DISTRICT",
+   "city": "NEW MEADOWS",
+   "leaid": "1602060"
+  },
+  {
+   "name": "MELBA JOINT DISTRICT",
+   "city": "MELBA",
+   "leaid": "1602070"
+  },
+  {
+   "name": "JOINT SCHOOL DISTRICT NO. 2",
+   "city": "MERIDIAN",
+   "leaid": "1602100"
+  },
+  {
+   "name": "MIDDLETON DISTRICT",
+   "city": "MIDDLETON",
+   "leaid": "1602130"
+  },
+  {
+   "name": "MINIDOKA COUNTY JOINT DISTRICT",
+   "city": "RUPERT",
+   "leaid": "1602190"
+  },
+  {
+   "name": "MOSCOW DISTRICT",
+   "city": "MOSCOW",
+   "leaid": "1602220"
+  },
+  {
+   "name": "MOUNTAIN HOME DISTRICT",
+   "city": "MOUNTAIN HOME",
+   "leaid": "1602250"
+  },
+  {
+   "name": "MULLAN DISTRICT",
+   "city": "MULLAN",
+   "leaid": "1602280"
+  },
+  {
+   "name": "NAMPA SCHOOL DISTRICT",
+   "city": "NAMPA",
+   "leaid": "1602340"
+  },
+  {
+   "name": "NEW PLYMOUTH DISTRICT",
+   "city": "NEW PLYMOUTH",
+   "leaid": "1602370"
+  },
+  {
+   "name": "NEZPERCE JOINT DISTRICT",
+   "city": "NEZPERCE",
+   "leaid": "1602400",
+   "site": "https://www.nezpercesd.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.nezpercesd.us/school/about-our-school"
+   ],
+   "final": "https://www.nezpercesd.us/",
+   "title": "Nezperce Schools"
+  },
+  {
+   "name": "NORTH GEM DISTRICT",
+   "city": "BANCROFT",
+   "leaid": "1602430"
+  },
+  {
+   "name": "ONEIDA COUNTY DISTRICT",
+   "city": "MALAD",
+   "leaid": "1602490"
+  },
+  {
+   "name": "POST FALLS DISTRICT",
+   "city": "POST FALLS",
+   "leaid": "1602670"
+  },
+  {
+   "name": "POTLATCH DISTRICT",
+   "city": "POTLATCH",
+   "leaid": "1602700"
+  },
+  {
+   "name": "PRAIRIE ELEMENTARY DISTRICT",
+   "city": "PRAIRIE",
+   "leaid": "1602730"
+  },
+  {
+   "name": "ROCKLAND DISTRICT",
+   "city": "ROCKLAND",
+   "leaid": "1602820"
+  },
+  {
+   "name": "SOUTH LEMHI DISTRICT",
+   "city": "LEADORE",
+   "leaid": "1603030"
+  },
+  {
+   "name": "TETON COUNTY DISTRICT",
+   "city": "DRIGGS",
+   "leaid": "1603180"
+  },
+  {
+   "name": "THREE CREEK JOINT ELEMENTARY DISTRICT",
+   "city": "ROGERSON",
+   "leaid": "1603210"
+  },
+  {
+   "name": "TWIN FALLS DISTRICT",
+   "city": "TWIN FALLS",
+   "leaid": "1603240"
+  },
+  {
+   "name": "VALLEY DISTRICT",
+   "city": "HAZELTON",
+   "leaid": "1603270"
+  },
+  {
+   "name": "WALLACE DISTRICT",
+   "city": "SILVERTON",
+   "leaid": "1603300"
+  },
+  {
+   "name": "WEST JEFFERSON DISTRICT",
+   "city": "TERRETON",
+   "leaid": "1603400"
+  }
+ ],
+ "pdfs": {
+  "mountainview": "RobotsBlocked('robots.txt at files.smartsites.parentsquare.com asks automated readers not to read /10900/board_meeting_schedule_2026-2027.pdf')",
+  "kendrick": "Kendrick Joint School District #283 2026 Board Meeting Calendar Date Time Location Wednesday, January 21st 7PM Kendrick High School Library Wednesday, February 18th 7PM Kendrick High School Library Wednesday, March 18th 7PM Kendrick High School Library Wednesday, April 15th 7PM Kendrick High School Library Wednesday, May 20th 7PM Kendrick High School Library Monday, June 15th 7AM Kendrick High School Library Monday, July 13th 7AM Kendrick High School Library Monday, August 17th 7AM Kendrick High School Library Wednesday, September 16th 7PM Kendrick High School Library Wednesday, October 21st 7PM Kendrick High School Library Wednesday, November 18th 7PM Kendrick High School Library Wednesday, December 16th 7PM Kendrick High School Library *Note: Summer Meetings will be held at 7:00AM",
+  "kamiah": "2026 Board and Board Meeting Schedule - Kamiah School District Skip to content Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Phone-alt Icon-facebook Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Home Schools Kamiah District Office Kamiah High School Kamiah Middle School Kamiah Elementary School Board of Trustees 2026 Board and Board Meeting Schedule Public Notices & Board Meeting Agendas Policy 4210- Facility Use Form Board Minutes Board Policy Public Information New Student Registration Employment Opportunities Enrollment Information Special Education Information District Information Payroll Contracts and Salary Schedule Collective Bargaining Agreement Title IX Food Service Native Culture and Language Committee Indian Ed Committee Technology Stop CIP, Audit, Gifted & Talented Family Engagement Plan Timeline Counselor\u2019s Corner Scholarships Graduation Requirements Calendar Icon-facebook 2026 Board and Board Meeting Schedule Meet The board Zone 1 Rikki Simler rsimle@kamiah.org (Board Chair) Zone 2 Tom Rodriguez trodriguez@kamiah.org Zone 3 Damon Keen dkeen@kamiah.org Zone 4 Terri Skinner terriskinner@kamiah.org Zone 5 Dona Simmons Board Meeting Schedule 2026 Regular Board Meetings Executive Session \u2013 6:00 Open Session \u2013 6:30 High School Library Wednesday January 14, 2026 Tuesday February 17, 2026 Monday March 16, 2026 Monday April 20, 2026 Monday May 18, 2026 Monday June 15, 2026 Monday July 20, 2026 Monday August 17, 2026 Monday September 21, 2026 Monday, October 19, 2026 Monday November 16, 2026 Monday December 21, 2026 *The Board of Trustees may meet earlier for Executive Session to accomodate for time allowed* contact the board clerk Tracy Lynde, Board Clerk 208-935-4003 tlynde@kam",
+  "bruneau": "NOTICE OF SCHEDULE OF REGULAR MEETINGS OF THE BOARD OF TRUSTEES JOINT SCHOOL DISTSRICT NO. 365 ELMORE-OWYHEE COUNTY, IDAHO NOTICE IS HEREBY GIVEN, that the regular meeting of the Board of Trustees of Joint School District No. 365, Bruneau Grand View, will be held for the conduct of business at 7 p.m. at Rimrock School Library on the following Tuesdays of each month through January 2027 unless the Board duly cancels such regular meeting or, by resolution and written notice, changes the day of the week designated for regular meetings of the Board. February 10, 2026 (1 p.m. Rimrock) March 10, 2026 (1 p.m. Grand View School) April 14, 2026 May 12, 2026 June 09, 2026 (Budget Hearing) July 14, 2026 August 11, 2026 September 8, 2026 October 13, 2026 November 10, 2026 (1 p.m. Bruneau Elementary School) December 08, 2026 January 12, 2027 (Annual Meeting) PUBLIC PLACES FOR POSTING OF PUBLIC NOTICES The public places for the posting of public notices from Joint School District No. 365 Are designated as: Rimrock School \u2013District Administrative Office www@sd365.us District Website Courtesy Postings-Bruneau Elementary-Grand View Elementary Said regular meetings of the Board of Trustees are held pursuant to Section 33-510, Idaho Code. Dated the 13 th day of January 2026 JayDene Aquiso Business Manager/Clerk Joint School District No. 365 Elmore and Owyhee Counties"
+ }
 }
