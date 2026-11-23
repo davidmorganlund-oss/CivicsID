@@ -1,64 +1,15 @@
 {
- "https://www.bonnersferry.id.gov": [
-  [
-   "3",
-   "City Council",
-   0
-  ],
-  [
-   "4",
-   "Planning & Zoning",
-   0
-  ],
-  [
-   "2",
-   "Loading",
-   0
-  ]
+ "https://legislature.idaho.gov/feeds/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
+ "https://legislature.idaho.gov/feed/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
+ "https://legislature.idaho.gov/?feed=my-calendar-ics": "404 text/xml; charset=UTF-8 '<error>\\n    <code>wp_die</code>\\n    <title><![CDATA[WordPress &amp;rsaquo; Error]]></title>\\n    <message><![CDATA[&lt;strong&gt;Error:&lt;/strong&gt; This is not a valid feed template.]]></message>\\n    <data>\\n        <status>404</status>\\n    </data>\\n</error>\\n'",
+ "https://legislature.idaho.gov/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
+ "https://legislature.idaho.gov/calendar/?format=ical": "200 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>Legislative Calendar - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href='",
+ "https://legislature.idaho.gov/calendar/": "200 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>Legislative Calendar - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href='",
+ "cal_links": [
+  "https://www.ag.idaho.gov/content/uploads/2026/07/EthicsInGovernment.pdf"
  ],
- "https://www.cityofhazelton.com": [
-  [
-   "2",
-   "Loading",
-   0
-  ]
- ],
- "https://www.parma.id.gov": [
-  [
-   "3",
-   "Public Library Board of Trustees",
-   0
-  ],
-  [
-   "2",
-   "Loading",
-   0
-  ]
- ],
- "carey": [
-  [
-   "2026-12-01T19:00",
-   "Planning and Zoning Meeting"
-  ],
-  [
-   "2026-12-07T19:00",
-   "One Time Event"
-  ],
-  [
-   "2026-12-21T19:00",
-   "City Council Meeting"
-  ],
-  [
-   "2026-12-21T19:00",
-   "One Time Event"
-  ],
-  [
-   "2027-01-05T19:00",
-   "Planning and Zoning Meeting"
-  ],
-  [
-   "2027-01-18T19:00",
-   "City Council Meeting"
-  ]
+ "mc": [
+  true,
+  80236
  ]
 }
