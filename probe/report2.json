@@ -1,15 +1,53 @@
 {
- "https://legislature.idaho.gov/feeds/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
- "https://legislature.idaho.gov/feed/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
- "https://legislature.idaho.gov/?feed=my-calendar-ics": "404 text/xml; charset=UTF-8 '<error>\\n    <code>wp_die</code>\\n    <title><![CDATA[WordPress &amp;rsaquo; Error]]></title>\\n    <message><![CDATA[&lt;strong&gt;Error:&lt;/strong&gt; This is not a valid feed template.]]></message>\\n    <data>\\n        <status>404</status>\\n    </data>\\n</error>\\n'",
- "https://legislature.idaho.gov/my-calendar-ics/": "404 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title> - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href=\\'//fonts.googleapis.'",
- "https://legislature.idaho.gov/calendar/?format=ical": "200 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>Legislative Calendar - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href='",
- "https://legislature.idaho.gov/calendar/": "200 text/html; charset=UTF-8 '<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <title>Legislative Calendar - Idaho State Legislature</title>\\n    <meta name=\\'robots\\' content=\\'max-image-preview:large\\' />\\n<link rel=\\'dns-prefetch\\' href='",
- "cal_links": [
-  "https://www.ag.idaho.gov/content/uploads/2026/07/EthicsInGovernment.pdf"
- ],
- "mc": [
-  true,
-  80236
- ]
+ "https://www.cityofkamiah.org/": {
+  "gen": [],
+  "powered": [
+   "Powered by ",
+   "municipalimpact",
+   "municipalimpact"
+  ],
+  "links": [
+   "https://www.cityofkamiah.org/agendas-archives-2017-2023",
+   "https://www.cityofkamiah.org/agendas-current-2024-2025",
+   "https://www.cityofkamiah.org/events",
+   "https://www.cityofkamiah.org/kamiah-seventh-day-adventist-church",
+   "https://www.cityofkamiah.org/mayor-and-council-members",
+   "https://www.cityofkamiah.org/meeting-agendas-and-minutes"
+  ]
+ },
+ "https://www.oakleyidaho.org/": {
+  "gen": [],
+  "powered": [
+   "Powered by ",
+   "municipalimpact",
+   "municipalimpact"
+  ],
+  "links": [
+   "https://www.oakleyidaho.org/agendas",
+   "https://www.oakleyidaho.org/calendar-of-events",
+   "https://www.oakleyidaho.org/city-council-meetings",
+   "https://www.oakleyidaho.org/council",
+   "https://www.oakleyidaho.org/mayor-and-council",
+   "https://www.oakleyidaho.org/oakley-valley-arts-council-ovac"
+  ]
+ },
+ "https://www.duboisidaho.gov/": {
+  "gen": [],
+  "powered": [
+   "municipalimpact",
+   "municipalimpact",
+   "municipalimpact",
+   "municipalimpact",
+   "municipalimpact",
+   "municipalimpact"
+  ],
+  "links": [
+   "https://www.duboisidaho.gov/agendas",
+   "https://www.duboisidaho.gov/archived-agendas",
+   "https://www.duboisidaho.gov/calendar-of-events",
+   "https://www.duboisidaho.gov/council",
+   "https://www.duboisidaho.gov/mayor-and-council",
+   "https://www.duboisidaho.gov/meeting-agendas-and-minutes"
+  ]
+ }
 }
