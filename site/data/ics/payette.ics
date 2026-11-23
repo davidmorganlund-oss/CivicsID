@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Payette County
 BEGIN:VEVENT
 UID:8a4cd7ecd238@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Commissioners Meeting (Payette County)
@@ -13,13 +13,94 @@ URL:https://www.payettecounty.org/calendar/eventdetail/14054/-/commissioner
  s-meeting
 END:VEVENT
 BEGIN:VEVENT
+UID:d60a4aadcdb5@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261124T020000Z
+DTEND:20261124T030000Z
+SUMMARY:City Council Meeting (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/council-agendas
+END:VEVENT
+BEGIN:VEVENT
 UID:3a61938ad209@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261130T160000Z
 DTEND:20261130T170000Z
 SUMMARY:Commissioners Meeting (Payette County)
 LOCATION:
 URL:https://www.payettecounty.org/calendar/eventdetail/14055/-/commissioner
  s-meeting
+END:VEVENT
+BEGIN:VEVENT
+UID:c73a5044185e@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261208T003000Z
+DTEND:20261208T013000Z
+SUMMARY:City Council Meeting (City of Payette)
+LOCATION:Payette City Hall\, 700 Center Avenue
+URL:https://cityofpayette.com/government
+END:VEVENT
+BEGIN:VEVENT
+UID:90bb0d90a8e1@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261209T020000Z
+DTEND:20261209T030000Z
+SUMMARY:Planning and Zoning Commission (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/pz-agendas
+END:VEVENT
+BEGIN:VEVENT
+UID:af9454665a6b@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261215T020000Z
+DTEND:20261215T030000Z
+SUMMARY:City Council Meeting (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/council-agendas
+END:VEVENT
+BEGIN:VEVENT
+UID:c4ca863b3344@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261222T003000Z
+DTEND:20261222T013000Z
+SUMMARY:City Council Meeting (City of Payette)
+LOCATION:Payette City Hall\, 700 Center Avenue
+URL:https://cityofpayette.com/government
+END:VEVENT
+BEGIN:VEVENT
+UID:e633233d96ff@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261229T020000Z
+DTEND:20261229T030000Z
+SUMMARY:City Council Meeting (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/council-agendas
+END:VEVENT
+BEGIN:VEVENT
+UID:81441aeaed5c@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270105T003000Z
+DTEND:20270105T013000Z
+SUMMARY:City Council Meeting (City of Payette)
+LOCATION:Payette City Hall\, 700 Center Avenue
+URL:https://cityofpayette.com/government
+END:VEVENT
+BEGIN:VEVENT
+UID:f973f00acb06@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270112T020000Z
+DTEND:20270112T030000Z
+SUMMARY:City Council Meeting (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/council-agendas
+END:VEVENT
+BEGIN:VEVENT
+UID:4547645d59d8@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270113T020000Z
+DTEND:20270113T030000Z
+SUMMARY:Planning and Zoning Commission (City of Fruitland)
+LOCATION:Fruitland City Hall\, 200 S. Whitley Drive
+URL:https://www.fruitland.org/pz-agendas
 END:VEVENT
 END:VCALENDAR

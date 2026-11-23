@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Twin Falls County
 BEGIN:VEVENT
 UID:a05f3e45f69d@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Board of County Commissioners (Twin Falls County)
 LOCATION:Twin Falls County Commissioners\, 630 Addison Ave W.\, Twin Falls
@@ -12,7 +12,7 @@ URL:https://twinfallscounty.org/commissioners/agenda/
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5d69d747d7@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261123T190000Z
 DTEND:20261123T200000Z
 SUMMARY:Special-Urban Renewal Agency (City of Twin Falls)
@@ -21,7 +21,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6143/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:3fdc7e9c787d@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261124T000000Z
 DTEND:20261124T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -29,8 +29,17 @@ LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6195/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:bbcafb391ee1@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261124T013000Z
+DTEND:20261124T023000Z
+SUMMARY:City Council Work Session (City of Buhl)
+LOCATION:Buhl City Hall\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/council-meeting-documents.html
+END:VEVENT
+BEGIN:VEVENT
 UID:c538d1571cf2@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261124T160000Z
 DTEND:20261124T170000Z
 SUMMARY:Board of County Commissioners (Twin Falls County)
@@ -38,8 +47,17 @@ LOCATION:Twin Falls County Commissioners\, 630 Addison Ave W.\, Twin Falls
 URL:https://twinfallscounty.org/commissioners/agenda/
 END:VEVENT
 BEGIN:VEVENT
+UID:71b2c0311f56@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261125T010000Z
+DTEND:20261125T020000Z
+SUMMARY:City Council Meeting (City of Kimberly)
+LOCATION:Kimberly City Hall\, 242 Highway 30 E.
+URL:https://www.cityofkimberly.org/AgendaCenter
+END:VEVENT
+BEGIN:VEVENT
 UID:a24e8ec1058b@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261130T220000Z
 DTEND:20261130T230000Z
 SUMMARY:CANCELLED: City Council Meeting (City of Twin Falls)
@@ -49,7 +67,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:c90cb7c31d9b@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261201T190000Z
 DTEND:20261201T200000Z
 SUMMARY:CANCELLED: Public Art Commission (City of Twin Falls)
@@ -59,7 +77,7 @@ STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:0fcf9e38489c@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261203T230000Z
 DTEND:20261204T000000Z
 SUMMARY:Airport Advisory Board (City of Twin Falls)
@@ -68,7 +86,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6106/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:b44f08d88f1a@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261207T210000Z
 DTEND:20261207T220000Z
 SUMMARY:Historic Preservation Commission (City of Twin Falls)
@@ -77,7 +95,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6120/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:5da4f44a4075@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261208T000000Z
 DTEND:20261208T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -86,7 +104,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6301/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:ad441acf3d59@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261208T183000Z
 DTEND:20261208T193000Z
 SUMMARY:Parks and Recreation Commission (City of Twin Falls)
@@ -94,8 +112,17 @@ LOCATION:203 Main Ave East\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6092/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:411e8a86cfc6@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261209T010000Z
+DTEND:20261209T020000Z
+SUMMARY:City Council Meeting (City of Kimberly)
+LOCATION:Kimberly City Hall\, 242 Highway 30 E.
+URL:https://www.cityofkimberly.org/AgendaCenter
+END:VEVENT
+BEGIN:VEVENT
 UID:ff2abb967641@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261211T000000Z
 DTEND:20261211T010000Z
 SUMMARY:Library Board of Trustees (Twin Falls Public Library)
@@ -104,7 +131,7 @@ URL:https://www.twinfallspubliclibrary.org/libraryboard/
 END:VEVENT
 BEGIN:VEVENT
 UID:a3dd94910d0b@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261215T000000Z
 DTEND:20261215T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -112,8 +139,17 @@ LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6198/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:3841975cba18@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261215T013000Z
+DTEND:20261215T023000Z
+SUMMARY:City Council Meeting (City of Buhl)
+LOCATION:Buhl City Hall\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/council-meeting-documents.html
+END:VEVENT
+BEGIN:VEVENT
 UID:0e841bdb7b9e@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261216T010000Z
 DTEND:20261216T020000Z
 SUMMARY:Planning and Zoning Commission Meeting (City of Twin Falls)
@@ -121,8 +157,16 @@ LOCATION:203 Main Ave East\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6057/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:5c5e8eba7390@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART;VALUE=DATE:20261216
+SUMMARY:Planning and Zoning Commission (City of Buhl)
+LOCATION:Buhl Council Chambers\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/planning--zoning-commission-meetings.html
+END:VEVENT
+BEGIN:VEVENT
 UID:9b105d6f48ae@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261216T223000Z
 DTEND:20261216T233000Z
 SUMMARY:Health Plan Trustee (City of Twin Falls)
@@ -131,7 +175,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6949/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:66ab44e8f558@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261221T190000Z
 DTEND:20261221T200000Z
 SUMMARY:Urban Renewal Agency (City of Twin Falls)
@@ -140,7 +184,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6156/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:9516de7d2614@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261222T000000Z
 DTEND:20261222T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -148,8 +192,17 @@ LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6770/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:14770262f637@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261223T010000Z
+DTEND:20261223T020000Z
+SUMMARY:City Council Meeting (City of Kimberly)
+LOCATION:Kimberly City Hall\, 242 Highway 30 E.
+URL:https://www.cityofkimberly.org/AgendaCenter
+END:VEVENT
+BEGIN:VEVENT
 UID:3c145af2ff5b@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261229T000000Z
 DTEND:20261229T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -157,8 +210,17 @@ LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6408/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:afbc860c0a94@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261229T013000Z
+DTEND:20261229T023000Z
+SUMMARY:City Council Work Session (City of Buhl)
+LOCATION:Buhl City Hall\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/council-meeting-documents.html
+END:VEVENT
+BEGIN:VEVENT
 UID:06f9df460355@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270105T000000Z
 DTEND:20270105T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -167,7 +229,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6772/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:a1aa39bf1c57@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270105T190000Z
 DTEND:20270105T200000Z
 SUMMARY:Public Art Commission (City of Twin Falls)
@@ -176,7 +238,7 @@ URL:https://twinfallsid.portal.civicclerk.com/event/6959/overview
 END:VEVENT
 BEGIN:VEVENT
 UID:540c99a1545e@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270112T000000Z
 DTEND:20270112T010000Z
 SUMMARY:City Council Meeting (City of Twin Falls)
@@ -184,8 +246,17 @@ LOCATION:203 Main Ave E \, Council Chambers\, Twin Falls
 URL:https://twinfallsid.portal.civicclerk.com/event/6773/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:c4019044da7b@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270112T013000Z
+DTEND:20270112T023000Z
+SUMMARY:City Council Meeting (City of Buhl)
+LOCATION:Buhl City Hall\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/council-meeting-documents.html
+END:VEVENT
+BEGIN:VEVENT
 UID:aeabcd32f702@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270112T183000Z
 DTEND:20270112T193000Z
 SUMMARY:Parks and Recreation Commission Meeting (City of Twin Falls)
@@ -193,8 +264,17 @@ LOCATION:
 URL:https://twinfallsid.portal.civicclerk.com/event/6971/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:33d5e1002991@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270113T010000Z
+DTEND:20270113T020000Z
+SUMMARY:City Council Meeting (City of Kimberly)
+LOCATION:Kimberly City Hall\, 242 Highway 30 E.
+URL:https://www.cityofkimberly.org/AgendaCenter
+END:VEVENT
+BEGIN:VEVENT
 UID:25caa6751f1d@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270115T000000Z
 DTEND:20270115T010000Z
 SUMMARY:Library Board of Trustees (Twin Falls Public Library)
@@ -203,7 +283,7 @@ URL:https://www.twinfallspubliclibrary.org/libraryboard/
 END:VEVENT
 BEGIN:VEVENT
 UID:b58dd2333216@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270119T190000Z
 DTEND:20270119T200000Z
 SUMMARY:Urban Renewal Agency (City of Twin Falls)
@@ -211,8 +291,16 @@ LOCATION:
 URL:https://twinfallsid.portal.civicclerk.com/event/6157/overview
 END:VEVENT
 BEGIN:VEVENT
+UID:f08b067c8f2f@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART;VALUE=DATE:20270120
+SUMMARY:Planning and Zoning Commission (City of Buhl)
+LOCATION:Buhl Council Chambers\, 203 Broadway Ave. N.
+URL:https://www.cityofbuhl.us/planning--zoning-commission-meetings.html
+END:VEVENT
+BEGIN:VEVENT
 UID:969df521484b@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270120T223000Z
 DTEND:20270120T233000Z
 SUMMARY:Health Plan Trustee (City of Twin Falls)

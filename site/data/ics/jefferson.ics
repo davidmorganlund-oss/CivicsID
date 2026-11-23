@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Jefferson County
 BEGIN:VEVENT
 UID:537822b2abf6@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261123T160000Z
 DTEND:20261124T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -13,7 +13,7 @@ URL:https://www.jcgov.us/Calendar.aspx?EID=5309
 END:VEVENT
 BEGIN:VEVENT
 UID:520df24546e8@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261130T160000Z
 DTEND:20261201T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -21,8 +21,17 @@ LOCATION:Annex Meeting Room\, 210 Courthouse Way\, Suite 240
 URL:https://www.jcgov.us/Calendar.aspx?EID=5310
 END:VEVENT
 BEGIN:VEVENT
+UID:9ba613668363@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261204T020000Z
+DTEND:20261204T030000Z
+SUMMARY:City Council Meeting (City of Rigby)
+LOCATION:Rigby City Hall
+URL:https://cityofrigby.gov/city-council-agendas/
+END:VEVENT
+BEGIN:VEVENT
 UID:5ca70d93e9e9@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261207T160000Z
 DTEND:20261208T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -30,8 +39,17 @@ LOCATION:Annex Meeting Room\, 210 Courthouse Way\, Suite 240
 URL:https://www.jcgov.us/Calendar.aspx?EID=5311
 END:VEVENT
 BEGIN:VEVENT
+UID:e762d6d683da@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261211T020000Z
+DTEND:20261211T030000Z
+SUMMARY:Planning and Zoning Commission (City of Rigby)
+LOCATION:Rigby City Hall Council Chambers
+URL:https://cityofrigby.gov/planning-and-zoning-agendas/
+END:VEVENT
+BEGIN:VEVENT
 UID:fd2116ac07d6@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261214T160000Z
 DTEND:20261215T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -40,7 +58,7 @@ URL:https://www.jcgov.us/Calendar.aspx?EID=5312
 END:VEVENT
 BEGIN:VEVENT
 UID:14870c995953@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261217T010000Z
 DTEND:20261217T020000Z
 SUMMARY:December 16th\, 2026 P&Z (Jefferson County)
@@ -49,8 +67,17 @@ LOCATION:Planning & Zoning Commission Meeting\, 210 Courthouse Way\, Suite
 URL:https://www.jcgov.us/Calendar.aspx?EID=5379
 END:VEVENT
 BEGIN:VEVENT
+UID:41c6d6099c21@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20261218T020000Z
+DTEND:20261218T030000Z
+SUMMARY:City Council Meeting (City of Rigby)
+LOCATION:Rigby City Hall
+URL:https://cityofrigby.gov/city-council-agendas/
+END:VEVENT
+BEGIN:VEVENT
 UID:5d35bc3601ef@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261221T160000Z
 DTEND:20261222T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -59,7 +86,7 @@ URL:https://www.jcgov.us/Calendar.aspx?EID=5313
 END:VEVENT
 BEGIN:VEVENT
 UID:ce07ec479c0f@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20261228T160000Z
 DTEND:20261229T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -68,7 +95,7 @@ URL:https://www.jcgov.us/Calendar.aspx?EID=5314
 END:VEVENT
 BEGIN:VEVENT
 UID:ece7c3fc0034@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270104T160000Z
 DTEND:20270105T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -76,8 +103,17 @@ LOCATION:Annex Meeting Room\, 210 Courthouse Way\, Suite 240
 URL:https://www.jcgov.us/Calendar.aspx?EID=5581
 END:VEVENT
 BEGIN:VEVENT
+UID:bcb045ec6625@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270108T020000Z
+DTEND:20270108T030000Z
+SUMMARY:City Council Meeting (City of Rigby)
+LOCATION:Rigby City Hall
+URL:https://cityofrigby.gov/city-council-agendas/
+END:VEVENT
+BEGIN:VEVENT
 UID:61565fadaf14@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270111T160000Z
 DTEND:20270112T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
@@ -85,12 +121,30 @@ LOCATION:Annex Meeting Room\, 210 Courthouse Way\, Suite 240
 URL:https://www.jcgov.us/Calendar.aspx?EID=5582
 END:VEVENT
 BEGIN:VEVENT
+UID:9c0605586593@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270115T020000Z
+DTEND:20270115T030000Z
+SUMMARY:Planning and Zoning Commission (City of Rigby)
+LOCATION:Rigby City Hall Council Chambers
+URL:https://cityofrigby.gov/planning-and-zoning-agendas/
+END:VEVENT
+BEGIN:VEVENT
 UID:a3c221a64a8c@civicsid
-DTSTAMP:20261122T115459Z
+DTSTAMP:20261123T050112Z
 DTSTART:20270118T160000Z
 DTEND:20270119T000000Z
 SUMMARY:County Commissioner Meeting (Jefferson County)
 LOCATION:Annex Meeting Room\, 210 Courthouse Way\, Suite 240
 URL:https://www.jcgov.us/Calendar.aspx?EID=5583
+END:VEVENT
+BEGIN:VEVENT
+UID:1e502bb93c92@civicsid
+DTSTAMP:20261123T050112Z
+DTSTART:20270122T020000Z
+DTEND:20270122T030000Z
+SUMMARY:City Council Meeting (City of Rigby)
+LOCATION:Rigby City Hall
+URL:https://cityofrigby.gov/city-council-agendas/
 END:VEVENT
 END:VCALENDAR
