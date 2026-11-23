@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-22T23:34:35-07:00</updated>
+  <updated>2026-11-22T23:41:29-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:517f28453891:new</id>
@@ -12,5 +12,47 @@
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://thecommunitylibrary.libcal.com/event/17833183"/>
     <summary>The Community Library (Ketchum) · 2027-01-21 17:30 (MT) · The Community Library, John A. and Carole O. Moran Lecture Hall</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:94bed027deae:new</id>
+    <title>New meeting: City Council Meeting (2027-01-18 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/24/overview"/>
+    <summary>City of Carey · 2027-01-18 19:00 (MT) · 20482 N. Main St., 20482 N Main Street, Carey</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:5de4fbfbc11c:new</id>
+    <title>New meeting: Planning and Zoning Meeting (2027-01-05 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/1024/overview"/>
+    <summary>City of Carey · 2027-01-05 19:00 (MT) · 20482 N Main Street, Carey</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:2ba23cbe2d32:new</id>
+    <title>New meeting: City Council Meeting (2026-12-21 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/23/overview"/>
+    <summary>City of Carey · 2026-12-21 19:00 (MT) · 20482 N. Main St., 20482 N Main Street, Carey</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:a1acf1d800ce:new</id>
+    <title>New meeting: One Time Event (2026-12-21 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/1036/overview"/>
+    <summary>City of Carey · 2026-12-21 19:00 (MT) · 20482 N Main Street, Carey</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:b148fdcbe486:new</id>
+    <title>New meeting: One Time Event (2026-12-07 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/1034/overview"/>
+    <summary>City of Carey · 2026-12-07 19:00 (MT) · 20482 N Main Street, Carey</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:9275d537c491:new</id>
+    <title>New meeting: Planning and Zoning Meeting (2026-12-01 19:00)</title>
+    <updated>2026-11-22T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/1023/overview"/>
+    <summary>City of Carey · 2026-12-01 19:00 (MT) · 20482 N Main Street, Carey</summary>
   </entry>
 </feed>
