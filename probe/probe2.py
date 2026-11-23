@@ -1,20 +1,16 @@
 import json, re, sys
 from pathlib import Path
-from datetime import date
-from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
-import build
+import build, requests
 out = {}
-for site in ["https://www.bonnersferry.id.gov", "https://www.cityofhazelton.com", "https://www.parma.id.gov"]:
+for u in ["https://legislature.idaho.gov/feeds/my-calendar-ics/", "https://legislature.idaho.gov/feed/my-calendar-ics/", "https://legislature.idaho.gov/?feed=my-calendar-ics",
+          "https://legislature.idaho.gov/my-calendar-ics/", "https://legislature.idaho.gov/calendar/?format=ical", "https://legislature.idaho.gov/calendar/"]:
     try:
-        h = build.get(site + "/AgendaCenter").text
-        out[site] = [(cid, re.sub(r"<[^>]+>|\s+", " ", t).strip()[:60], len(re.findall(r'aria-label="Agenda for', body))) for cid, t, body in
-                     re.findall(r'id="category-panel-(\d+)".*?<h2[^>]*>(.*?)</h2>(.*?)(?=id="category-panel-|\Z)', h, re.S)]
+        build.check_robots(u); r = requests.get(u, headers={"User-Agent": build.UA}, timeout=40)
+        out[u] = f"{r.status_code} {r.headers.get('content-type')} {r.text[:300]!r}"
+        if u.endswith("/calendar/"):
+            out["cal_links"] = sorted(set(re.findall(r'href="([^"]*(?:ics|ical|feed|my-calendar)[^"]*)"', r.text)))[:20]
+            out["mc"] = "my-calendar" in r.text, len(r.text)
     except Exception as exc:
-        out[site] = repr(exc)[:200]
-try:
-    ev = build.fetch_civicclerk({"id": "carey", "name": "Carey", "county": "Blaine", "area": "Carey", "tenant": "careyid"}, date(2026, 11, 22), date(2027, 1, 21), ZoneInfo("America/Boise"))
-    out["carey"] = [(e["start"][:16], e["title"]) for e in ev[:6]]
-except Exception as exc:
-    out["carey"] = repr(exc)[:200]
+        out[u] = repr(exc)[:200]
 Path(__file__).with_name("report2.json").write_text(json.dumps(out, indent=1))
