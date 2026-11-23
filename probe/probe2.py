@@ -1,16 +1,14 @@
 import json, re, sys
 from pathlib import Path
+from urllib.parse import urljoin
 sys.path.insert(0, str(Path(__file__).parent / "pipeline"))
-import build, requests
+import build
 out = {}
-for u in ["https://legislature.idaho.gov/feeds/my-calendar-ics/", "https://legislature.idaho.gov/feed/my-calendar-ics/", "https://legislature.idaho.gov/?feed=my-calendar-ics",
-          "https://legislature.idaho.gov/my-calendar-ics/", "https://legislature.idaho.gov/calendar/?format=ical", "https://legislature.idaho.gov/calendar/"]:
+for home in ["https://www.cityofkamiah.org/", "https://www.oakleyidaho.org/", "https://www.duboisidaho.gov/"]:
     try:
-        build.check_robots(u); r = requests.get(u, headers={"User-Agent": build.UA}, timeout=40)
-        out[u] = f"{r.status_code} {r.headers.get('content-type')} {r.text[:300]!r}"
-        if u.endswith("/calendar/"):
-            out["cal_links"] = sorted(set(re.findall(r'href="([^"]*(?:ics|ical|feed|my-calendar)[^"]*)"', r.text)))[:20]
-            out["mc"] = "my-calendar" in r.text, len(r.text)
+        h = build.get(home).text
+        out[home] = {"gen": re.findall(r'<meta[^>]+generator[^>]+>', h)[:3], "powered": re.findall(r"[Pp]owered by[^<]{0,80}|catalis|govoffice|municipalimpact|revize|civicplus|thrillshare|apptegy|edlio|wix|squarespace|govstack|granicus|vision|govpilot|seamlessdocs", h)[:6],
+                     "links": sorted({urljoin(home, a) for a in re.findall(r'href="([^"#]+)"', h) if re.search(r"agenda|meeting|calendar|event|council|feed|ics|rss", a, re.I)})[:25]}
     except Exception as exc:
-        out[u] = repr(exc)[:200]
+        out[home] = repr(exc)[:200]
 Path(__file__).with_name("report2.json").write_text(json.dumps(out, indent=1))
