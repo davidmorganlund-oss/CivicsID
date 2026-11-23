@@ -1,468 +1,1198 @@
-[
- {
-  "name": "Aberdeen"
- },
- {
-  "name": "Acequia"
- },
- {
-  "name": "Albion"
- },
- {
-  "name": "Arco"
- },
- {
-  "name": "Basalt"
- },
- {
-  "name": "Bliss"
- },
- {
-  "name": "Bloomington",
-  "site": "https://www.bloomingtonidaho.net/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://bloomingtonidaho.net/category/minutes-agendas/",
-   "https://bloomingtonidaho.net/bcc-and-badc-work-meeting-minutes-november-10-2026/",
-   "https://bloomingtonidaho.net/tag/work-meeting-minutes/",
-   "https://bloomingtonidaho.net/bcc-and-badc-work-meeting-minutes-october-27-2026/",
-   "https://bloomingtonidaho.net/city-council-meeting-minutes-october-21-2026/",
-   "https://bloomingtonidaho.net/category/agenda/",
-   "https://bloomingtonidaho.net/bcc-november-18-2026-meeting-agenda-and-zoom-link/"
+{
+ "rows": [
+  [
+   "2020 rank",
+   "City",
+   "2020 Census [ 2 ]",
+   "2010 Census [ 3 ]"
   ],
-  "final": "https://bloomingtonidaho.net/",
-  "title": "Welcome To Bloomington Idaho \u2013 Official Site For The City of Bloomington, Idaho"
- },
- {
-  "name": "Bovill",
-  "site": "https://www.cityofbovill.net/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://www.cityofbovill.net/government",
-   "https://www.cityofbovill.net/about-3"
+  [
+   "1",
+   "Boise \u2020\u2020",
+   "235,684",
+   "205,671"
   ],
-  "final": "https://www.cityofbovill.net/",
-  "title": "Home | City Of Bovill"
- },
- {
-  "name": "Butte City"
- },
- {
-  "name": "Cambridge",
-  "site": "https://www.cambridgeidaho.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://cambridgeidaho.com/about-us",
-   "https://cambridgeidaho.com/meetings-%26-agendas"
+  [
+   "2",
+   "Meridian",
+   "117,635",
+   "75,092"
   ],
-  "final": "https://cambridgeidaho.com/",
-  "title": "Cambridge Idaho - Cambridge Idaho, Chamber of Commerce, Hells Canyon"
- },
- {
-  "name": "Cascade",
-  "site": "https://www.cascadeid.us/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [],
-  "final": "https://cascadeid.us/",
-  "title": "City of Cascade | Recreation, City Government, Parks & Recreation"
- },
- {
-  "name": "Clayton"
- },
- {
-  "name": "Clifton"
- },
- {
-  "name": "Craigmont",
-  "site": "https://www.cityofcraigmontid.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://www.cityofcraigmontid.com/about-craigmont",
-   "https://www.cityofcraigmontid.com/council-agendas",
-   "https://www.cityofcraigmontid.com/archived-agendas",
-   "https://www.cityofcraigmontid.com/blog_detail.html?item_id=206"
+  [
+   "3",
+   "Nampa",
+   "100,200",
+   "81,557"
   ],
-  "final": "https://www.cityofcraigmontid.com/",
-  "title": "Home | City of Craigmont"
- },
- {
-  "name": "Culdesac"
- },
- {
-  "name": "Dayton"
- },
- {
-  "name": "Deary",
-  "site": "https://www.dearyidaho.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://www.dearyidaho.com/about.html",
-   "https://www.dearyidaho.com/council-agendas.html",
-   "https://www.dearyidaho.com/p-z-agendas.html"
+  [
+   "4",
+   "Idaho Falls \u2020",
+   "64,818",
+   "56,813"
   ],
-  "final": "https://www.dearyidaho.com/",
-  "title": "Home"
- },
- {
-  "name": "Declo"
- },
- {
-  "name": "Dietrich",
-  "site": "https://www.dietrichidaho.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://dietrichidaho.com/agendas%2C-notices-%26-flyers",
-   "https://dietrichidaho.com/meeting-minutes"
+  [
+   "5",
+   "Caldwell \u2020",
+   "59,996",
+   "46,237"
   ],
-  "final": "https://dietrichidaho.com/",
-  "title": "Dietrich Official Site - City of Dietrich, Idaho"
- },
- {
-  "name": "Dover"
- },
- {
-  "name": "East Hope"
- },
- {
-  "name": "Eden"
- },
- {
-  "name": "Elk River"
- },
- {
-  "name": "Fairfield"
- },
- {
-  "name": "Ferdinand"
- },
- {
-  "name": "Fernan Lake Village"
- },
- {
-  "name": "Filer"
- },
- {
-  "name": "Genesee"
- },
- {
-  "name": "Grace"
- },
- {
-  "name": "Grand View"
- },
- {
-  "name": "Greenleaf"
- },
- {
-  "name": "Hamer"
- },
- {
-  "name": "Hansen"
- },
- {
-  "name": "Hollister",
-  "site": "https://www.hollisteridaho.com/",
-  "platform": {},
-  "sched": [
-   [
-    "https://hollisteridaho.com/",
-    "lister Skip to content Contact FORMS Home PayPal Online Water & Sanitation Payment Welcome to Hollister, Idaho City Ordinances Online Payment Portal All About Hollister City Council Meetings The City Council meets on the first and third Monday of each month."
-   ],
-   [
-    "https://hollisteridaho.com/",
-    "Food distributions are on the first and third Thursdays of the month, unless otherwise announced, from 3 pm-6 pm."
-   ]
+  [
+   "6",
+   "Pocatello \u2020",
+   "56,320",
+   "54,255"
   ],
-  "pdfs": [],
-  "pages": [],
-  "final": "https://hollisteridaho.com/",
-  "title": "Home - City of Hollister"
- },
- {
-  "name": "Homedale"
- },
- {
-  "name": "Huetter"
- },
- {
-  "name": "Idaho City",
-  "site": "https://idahocity.municipalimpact.com/",
-  "platform": {},
-  "sched": [
-   [
-    "https://idahocity.municipalimpact.com/agendas-and-minutes",
-    "Idaho Rebound Protocols Visitors Attractions Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Agendas and Minutes Planning and Zoning meetings are the 2nd Tuesday of every month at city hall, 6pm."
-   ],
-   [
-    "https://idahocity.municipalimpact.com/agendas-and-minutes-1",
-    "Protocols Visitors Attractions Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Agendas and Minutes Historic Preservation Commission meetings are the 3rd Wednesday of every month at City Hall, 6pm."
-   ],
-   [
-    "https://idahocity.municipalimpact.com/meeting-agendas-and-minutes",
-    "ns Idaho City Pioneer Cemetery Idaho City Picture Gallery Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Idaho City government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
-   ]
+  [
+   "7",
+   "Coeur d'Alene \u2020",
+   "54,628",
+   "44,137"
   ],
-  "pdfs": [],
-  "pages": [
-   "https://idahocity.municipalimpact.com/boards-and-commissions",
-   "https://idahocity.municipalimpact.com/about-us",
-   "https://idahocity.municipalimpact.com/agendas-and-minutes",
-   "https://idahocity.municipalimpact.com/agendas-1",
-   "https://idahocity.municipalimpact.com/agendas-and-minutes-1",
-   "https://idahocity.municipalimpact.com/agendas-2",
-   "https://idahocity.municipalimpact.com/meeting-agendas-and-minutes"
+  [
+   "8",
+   "Twin Falls \u2020",
+   "51,807",
+   "44,125"
   ],
-  "final": "https://idahocity.municipalimpact.com/",
-  "title": "Home | City of Idaho City"
- },
- {
-  "name": "Inkom"
- },
- {
-  "name": "Island Park"
- },
- {
-  "name": "Lapwai"
- },
- {
-  "name": "Lewisville"
- },
- {
-  "name": "Lost River"
- },
- {
-  "name": "McCammon",
-  "site": "https://www.mccammoncity.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [
-   [
-    "https://irp.cdn-website.com/53fdcc5e/files/uploaded/RES+2026-19+Council+Meeting+Schedule+-+Dec+Update.pdf",
-    "A Resolution of the City Council of the City of McCammon Establishing the City C"
-   ]
+  [
+   "9",
+   "Rexburg \u2020",
+   "39,409",
+   "25,484"
   ],
-  "pages": [
-   "http://www.mccammoncity.com/",
-   "https://www.mccammoncity.com/about",
-   "https://www.mccammoncity.com/forms"
+  [
+   "10",
+   "Post Falls",
+   "38,485",
+   "27,574"
   ],
-  "final": "https://www.mccammoncity.com/",
-  "title": "City of McCammon Idaho - City Council, Forms, Permits, City Code and info about McCammon I"
- },
- {
-  "name": "Mackay"
- },
- {
-  "name": "Malad City"
- },
- {
-  "name": "Melba"
- },
- {
-  "name": "Midvale"
- },
- {
-  "name": "Minidoka"
- },
- {
-  "name": "Moore"
- },
- {
-  "name": "Moyie Springs"
- },
- {
-  "name": "Mud Lake"
- },
- {
-  "name": "Mullan"
- },
- {
-  "name": "Murtaugh"
- },
- {
-  "name": "New Meadows"
- },
- {
-  "name": "New Plymouth"
- },
- {
-  "name": "Notus"
- },
- {
-  "name": "Oldtown"
- },
- {
-  "name": "Onaway"
- },
- {
-  "name": "Oxford"
- },
- {
-  "name": "Paris",
-  "site": "https://www.parisidaho.com/",
-  "platform": {},
-  "sched": [],
-  "pdfs": [],
-  "pages": [
-   "https://parisidaho.com/agenda",
-   "https://parisidaho.com/meetings"
+  [
+   "11",
+   "Lewiston \u2020",
+   "34,203",
+   "31,894"
   ],
-  "final": "https://parisidaho.com/",
-  "title": "A community supported website for residents, businesses and visitors to Paris Idaho."
- },
- {
-  "name": "Parker"
- },
- {
-  "name": "Pierce"
- },
- {
-  "name": "Pinehurst"
- },
- {
-  "name": "Potlatch"
- },
- {
-  "name": "Priest River",
-  "site": "https://priestriver.municipalimpact.com/",
-  "platform": {},
-  "sched": [
-   [
-    "https://priestriver-id.gov/meeting-agendas-and-minutes",
-    "elopment Corporation Visitors Attractions Business Directory Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Priest River government, the Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
-   ],
-   [
-    "https://priestriver-id.gov/meeting-agendas-and-minutes",
-    "The City Council's regular meetings are scheduled for the first and third Monday of every month at the City Hall Council Chambers, starting at 6:00 pm unless otherwise posted."
-   ]
+  [
+   "12",
+   "Eagle",
+   "30,346",
+   "19,908"
   ],
-  "pdfs": [
-   [
-    "https://priestriver-id.gov/documents/450/2026_CITY_COUNCIL_REGULAR_SCHEDULE.pdf",
-    "2026 City Council Meeting Schedule"
-   ]
+  [
+   "13",
+   "Moscow \u2020",
+   "25,435",
+   "23,800"
   ],
-  "pages": [
-   "https://priestriver-id.gov/boards-and-commissions",
-   "https://priestriver-id.gov/about-us",
-   "https://priestriver-id.gov/meeting-agendas-and-minutes",
-   "https://priestriver-id.gov/agendas"
+  [
+   "14",
+   "Kuna",
+   "24,011",
+   "15,210"
   ],
-  "final": "https://priestriver-id.gov/",
-  "title": "Home | City of Priest River"
- },
- {
-  "name": "Reubens"
- },
- {
-  "name": "Riggins"
- },
- {
-  "name": "Roberts",
-  "site": "https://roberts.municipalimpact.com/",
-  "platform": {},
-  "sched": [
-   [
-    "https://cityofrobertsidaho.gov/",
-    "City Council meetings are held the first Tuesday."
-   ],
-   [
-    "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
-    "iness Business Licenses & Permits Visitors Locations & Directions Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Roberts government, the Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
-   ],
-   [
-    "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
-    "(when available) Regular City Council Meetings are the second Tuesday of each month at 7:00 pm at Roberts City Hall."
-   ]
+  [
+   "15",
+   "Ammon",
+   "17,694",
+   "13,816"
   ],
-  "pdfs": [],
-  "pages": [
-   "https://cityofrobertsidaho.gov/about-us",
-   "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes",
-   "https://cityofrobertsidaho.gov/agendas",
-   "https://www.cityofrobertsidaho.gov/meeting-agendas-and-minutes"
+  [
+   "16",
+   "Mountain Home \u2020",
+   "15,979",
+   "14,206"
   ],
-  "final": "https://cityofrobertsidaho.gov/",
-  "title": "Home | City of Roberts, ID"
- },
- {
-  "name": "Rockland"
- },
- {
-  "name": "St. Charles"
- },
- {
-  "name": "St. Maries"
- },
- {
-  "name": "Shoshone"
- },
- {
-  "name": "Smelterville"
- },
- {
-  "name": "Spencer"
- },
- {
-  "name": "State Line"
- },
- {
-  "name": "Stites"
- },
- {
-  "name": "Tensed"
- },
- {
-  "name": "Tetonia",
-  "site": "https://www.tetoniaidaho.com/",
-  "platform": {},
-  "sched": [
-   [
-    "https://www.tetoniaidaho.com/meeting-agendas-and-minutes",
-    "itors Attractions Locations & Directions Tetonia Photo Album Search Search Submit Opens in a new window Meeting Agendas & Minutes As the legislative branch of the City of Tetonia government, the City Council holds open public meetings where local laws, policies, and basic decisions for the city are discussed and decided."
-   ],
-   [
-    "https://www.tetoniaidaho.com/agendas",
-    "w window Agendas The City of Tetonia Agendas The City of Tetonia Council Meeting Agendas are posted in the City Offices on the Friday prior to the regularly scheduled Council Meetings which occur the second Tuesday of each month."
-   ]
+  [
+   "17",
+   "Chubbuck",
+   "15,570",
+   "13,922"
   ],
-  "pdfs": [],
-  "pages": [
-   "https://www.tetoniaidaho.com/boards-and-commissions",
-   "https://www.tetoniaidaho.com/about-us",
-   "https://www.tetoniaidaho.com/meeting-agendas-and-minutes",
-   "https://www.tetoniaidaho.com/agendas"
+  [
+   "18",
+   "Hayden",
+   "15,570",
+   "13,294"
   ],
-  "final": "https://www.tetoniaidaho.com/",
-  "title": "Home | City of Tetonia Idaho"
- },
- {
-  "name": "Troy"
- },
- {
-  "name": "Wardner"
- },
- {
-  "name": "Warm River"
- },
- {
-  "name": "White Bird"
- },
- {
-  "name": "Worley"
- }
-]
+  [
+   "19",
+   "Jerome \u2020",
+   "12,349",
+   "10,890"
+  ],
+  [
+   "20",
+   "Blackfoot \u2020",
+   "12,346",
+   "11,899"
+  ],
+  [
+   "21",
+   "Garden City",
+   "12,316",
+   "10,972"
+  ],
+  [
+   "22",
+   "Burley \u2020",
+   "11,704",
+   "10,345"
+  ],
+  [
+   "23",
+   "Star",
+   "11,117",
+   "5,793"
+  ],
+  [
+   "24",
+   "Middleton",
+   "9,425",
+   "5,524"
+  ],
+  [
+   "25",
+   "Rathdrum",
+   "9,211",
+   "6,826"
+  ],
+  [
+   "26",
+   "Hailey \u2020",
+   "9,161",
+   "7,960"
+  ],
+  [
+   "27",
+   "Sandpoint \u2020",
+   "8,639",
+   "7,365"
+  ],
+  [
+   "28",
+   "Payette \u2020",
+   "8,127",
+   "7,433"
+  ],
+  [
+   "29",
+   "Emmett \u2020",
+   "7,647",
+   "6,557"
+  ],
+  [
+   "30",
+   "Rupert \u2020",
+   "6,082",
+   "5,554"
+  ],
+  [
+   "31",
+   "Fruitland",
+   "6,072",
+   "4,684"
+  ],
+  [
+   "32",
+   "Weiser \u2020",
+   "5,630",
+   "5,507"
+  ],
+  [
+   "33",
+   "Preston \u2020",
+   "5,591",
+   "5,204"
+  ],
+  [
+   "34",
+   "Rigby \u2020",
+   "5,038",
+   "3,945"
+  ],
+  [
+   "35",
+   "Shelley",
+   "4,785",
+   "4,409"
+  ],
+  [
+   "36",
+   "Kimberly",
+   "4,626",
+   "3,264"
+  ],
+  [
+   "37",
+   "American Falls \u2020",
+   "4,568",
+   "4,457"
+  ],
+  [
+   "38",
+   "Buhl",
+   "4,558",
+   "4,122"
+  ],
+  [
+   "39",
+   "Gooding \u2020",
+   "3,707",
+   "3,567"
+  ],
+  [
+   "40",
+   "Heyburn",
+   "3,700",
+   "3,089"
+  ],
+  [
+   "41",
+   "McCall",
+   "3,686",
+   "2,991"
+  ],
+  [
+   "42",
+   "St. Anthony \u2020",
+   "3,606",
+   "3,542"
+  ],
+  [
+   "43",
+   "Ketchum",
+   "3,555",
+   "2,689"
+  ],
+  [
+   "44",
+   "Grangeville \u2020",
+   "3,308",
+   "3,141"
+  ],
+  [
+   "45",
+   "Orofino \u2020",
+   "3,239",
+   "3,142"
+  ],
+  [
+   "46",
+   "Soda Springs \u2020",
+   "3,133",
+   "3,058"
+  ],
+  [
+   "47",
+   "Salmon \u2020",
+   "3,119",
+   "3,112"
+  ],
+  [
+   "48",
+   "Wendell",
+   "2,917",
+   "2,782"
+  ],
+  [
+   "49",
+   "Homedale",
+   "2,881",
+   "2,633"
+  ],
+  [
+   "50",
+   "Filer",
+   "2,738",
+   "2,508"
+  ],
+  [
+   "51",
+   "Iona",
+   "2,717",
+   "1,803"
+  ],
+  [
+   "52",
+   "Montpelier",
+   "2,643",
+   "2,597"
+  ],
+  [
+   "53",
+   "Bellevue",
+   "2,560",
+   "2,287"
+  ],
+  [
+   "54",
+   "Dalton Gardens",
+   "2,537",
+   "2,335"
+  ],
+  [
+   "55",
+   "Bonners Ferry \u2020",
+   "2,520",
+   "2,543"
+  ],
+  [
+   "56",
+   "St. Maries \u2020",
+   "2,357",
+   "2,402"
+  ],
+  [
+   "57",
+   "Spirit Lake",
+   "2,337",
+   "1,945"
+  ],
+  [
+   "58",
+   "Kellogg",
+   "2,314",
+   "2,120"
+  ],
+  [
+   "59",
+   "Malad City \u2020",
+   "2,299",
+   "2,095"
+  ],
+  [
+   "60",
+   "Victor",
+   "2,157",
+   "1,928"
+  ],
+  [
+   "61",
+   "Parma",
+   "2,096",
+   "1,983"
+  ],
+  [
+   "62",
+   "Driggs \u2020",
+   "1,984",
+   "1,660"
+  ],
+  [
+   "63",
+   "Sun Valley",
+   "1,783",
+   "1,406"
+  ],
+  [
+   "64",
+   "Aberdeen",
+   "1,756",
+   "1,994"
+  ],
+  [
+   "65",
+   "Sugar City",
+   "1,715",
+   "1,514"
+  ],
+  [
+   "66",
+   "Priest River",
+   "1,696",
+   "1,751"
+  ],
+  [
+   "67",
+   "Pinehurst",
+   "1,679",
+   "1,619"
+  ],
+  [
+   "68",
+   "Shoshone \u2020",
+   "1,653",
+   "1,461"
+  ],
+  [
+   "69",
+   "Wilder",
+   "1,597",
+   "1,533"
+  ],
+  [
+   "70",
+   "Osburn",
+   "1,567",
+   "1,555"
+  ],
+  [
+   "71",
+   "New Plymouth",
+   "1,494",
+   "1,538"
+  ],
+  [
+   "72",
+   "Ponderay",
+   "1,289",
+   "1,137"
+  ],
+  [
+   "73",
+   "Glenns Ferry",
+   "1,282",
+   "1,319"
+  ],
+  [
+   "74",
+   "Marsing",
+   "1,229",
+   "1,031"
+  ],
+  [
+   "75",
+   "Paul",
+   "1,195",
+   "1,169"
+  ],
+  [
+   "76",
+   "Lapwai",
+   "1,169",
+   "1,137"
+  ],
+  [
+   "77",
+   "Ucon",
+   "1,160",
+   "1,108"
+  ],
+  [
+   "78",
+   "Kamiah",
+   "1,117",
+   "1,295"
+  ],
+  [
+   "79",
+   "Hansen",
+   "1,086",
+   "1,144"
+  ],
+  [
+   "80",
+   "Genesee",
+   "1,030",
+   "955"
+  ],
+  [
+   "81",
+   "Franklin",
+   "1,025",
+   "641"
+  ],
+  [
+   "82",
+   "Plummer",
+   "1,015",
+   "1,044"
+  ],
+  [
+   "83",
+   "Cascade \u2020",
+   "1,005",
+   "939"
+  ],
+  [
+   "84",
+   "Hagerman",
+   "968",
+   "872"
+  ],
+  [
+   "85",
+   "Ashton",
+   "949",
+   "1,127"
+  ],
+  [
+   "86",
+   "Kootenai",
+   "941",
+   "678"
+  ],
+  [
+   "87",
+   "Grace",
+   "920",
+   "915"
+  ],
+  [
+   "88",
+   "Challis \u2020",
+   "902",
+   "1,081"
+  ],
+  [
+   "89",
+   "Troy",
+   "890",
+   "862"
+  ],
+  [
+   "90",
+   "Arco \u2020",
+   "879",
+   "995"
+  ],
+  [
+   "91",
+   "Council \u2020",
+   "867",
+   "839"
+  ],
+  [
+   "92",
+   "McCammon",
+   "825",
+   "809"
+  ],
+  [
+   "93",
+   "Cottonwood",
+   "822",
+   "900"
+  ],
+  [
+   "94",
+   "Moyie Springs",
+   "822",
+   "718"
+  ],
+  [
+   "95",
+   "Greenleaf",
+   "812",
+   "846"
+  ],
+  [
+   "96",
+   "Hazelton",
+   "803",
+   "753"
+  ],
+  [
+   "97",
+   "Inkom",
+   "792",
+   "854"
+  ],
+  [
+   "98",
+   "Wallace \u2020",
+   "791",
+   "784"
+  ],
+  [
+   "99",
+   "Teton",
+   "787",
+   "735"
+  ],
+  [
+   "100",
+   "Oakley",
+   "786",
+   "763"
+  ],
+  [
+   "101",
+   "Potlatch",
+   "763",
+   "804"
+  ],
+  [
+   "102",
+   "Hauser",
+   "761",
+   "678"
+  ],
+  [
+   "103",
+   "Dover",
+   "752",
+   "556"
+  ],
+  [
+   "104",
+   "Horseshoe Bend",
+   "715",
+   "707"
+  ],
+  [
+   "105",
+   "Menan",
+   "715",
+   "741"
+  ],
+  [
+   "106",
+   "Athol",
+   "709",
+   "692"
+  ],
+  [
+   "107",
+   "Carey",
+   "685",
+   "604"
+  ],
+  [
+   "108",
+   "Smelterville",
+   "670",
+   "627"
+  ],
+  [
+   "109",
+   "Ririe",
+   "667",
+   "656"
+  ],
+  [
+   "110",
+   "Hayden Lake",
+   "649",
+   "574"
+  ],
+  [
+   "111",
+   "Mullan",
+   "646",
+   "692"
+  ],
+  [
+   "112",
+   "Juliaetta",
+   "624",
+   "579"
+  ],
+  [
+   "113",
+   "Notus",
+   "609",
+   "531"
+  ],
+  [
+   "114",
+   "Melba",
+   "572",
+   "513"
+  ],
+  [
+   "115",
+   "Downey",
+   "571",
+   "625"
+  ],
+  [
+   "116",
+   "Paris \u2020",
+   "541",
+   "513"
+  ],
+  [
+   "117",
+   "Firth",
+   "517",
+   "477"
+  ],
+  [
+   "118",
+   "New Meadows",
+   "517",
+   "496"
+  ],
+  [
+   "119",
+   "Kooskia",
+   "514",
+   "607"
+  ],
+  [
+   "120",
+   "Clark Fork",
+   "513",
+   "536"
+  ],
+  [
+   "121",
+   "Dubois \u2020",
+   "511",
+   "677"
+  ],
+  [
+   "122",
+   "Weston",
+   "511",
+   "437"
+  ],
+  [
+   "123",
+   "Dayton",
+   "510",
+   "463"
+  ],
+  [
+   "124",
+   "Deary",
+   "508",
+   "506"
+  ],
+  [
+   "125",
+   "Georgetown",
+   "503",
+   "476"
+  ],
+  [
+   "126",
+   "Roberts",
+   "500",
+   "580"
+  ],
+  [
+   "127",
+   "Pierce",
+   "467",
+   "508"
+  ],
+  [
+   "128",
+   "Idaho City \u2020",
+   "466",
+   "485"
+  ],
+  [
+   "129",
+   "Craigmont",
+   "458",
+   "501"
+  ],
+  [
+   "130",
+   "Nezperce \u2020",
+   "458",
+   "466"
+  ],
+  [
+   "131",
+   "Fairfield \u2020",
+   "441",
+   "416"
+  ],
+  [
+   "132",
+   "Grand View",
+   "440",
+   "452"
+  ],
+  [
+   "133",
+   "Mackay",
+   "439",
+   "517"
+  ],
+  [
+   "134",
+   "Richfield",
+   "431",
+   "482"
+  ],
+  [
+   "135",
+   "Lewisville",
+   "421",
+   "458"
+  ],
+  [
+   "136",
+   "Clifton",
+   "413",
+   "259"
+  ],
+  [
+   "137",
+   "Culdesac",
+   "413",
+   "380"
+  ],
+  [
+   "138",
+   "Weippe",
+   "400",
+   "441"
+  ],
+  [
+   "139",
+   "Eden",
+   "393",
+   "405"
+  ],
+  [
+   "140",
+   "Riggins",
+   "372",
+   "419"
+  ],
+  [
+   "141",
+   "Lava Hot Springs",
+   "358",
+   "407"
+  ],
+  [
+   "142",
+   "Basalt",
+   "357",
+   "394"
+  ],
+  [
+   "143",
+   "Winchester",
+   "356",
+   "340"
+  ],
+  [
+   "144",
+   "Arimo",
+   "354",
+   "355"
+  ],
+  [
+   "145",
+   "Declo",
+   "338",
+   "343"
+  ],
+  [
+   "146",
+   "Newdale",
+   "337",
+   "323"
+  ],
+  [
+   "147",
+   "Cambridge",
+   "335",
+   "328"
+  ],
+  [
+   "148",
+   "Mud Lake",
+   "321",
+   "358"
+  ],
+  [
+   "149",
+   "Tetonia",
+   "308",
+   "269"
+  ],
+  [
+   "150",
+   "Parker",
+   "302",
+   "305"
+  ],
+  [
+   "151",
+   "Bancroft",
+   "299",
+   "377"
+  ],
+  [
+   "152",
+   "Kendrick",
+   "288",
+   "303"
+  ],
+  [
+   "153",
+   "Dietrich",
+   "284",
+   "332"
+  ],
+  [
+   "154",
+   "Irwin",
+   "259",
+   "219"
+  ],
+  [
+   "155",
+   "Bliss",
+   "258",
+   "318"
+  ],
+  [
+   "156",
+   "Worley",
+   "253",
+   "257"
+  ],
+  [
+   "157",
+   "Donnelly",
+   "249",
+   "152"
+  ],
+  [
+   "158",
+   "Hollister",
+   "243",
+   "272"
+  ],
+  [
+   "159",
+   "Rockland",
+   "242",
+   "295"
+  ],
+  [
+   "160",
+   "Albion",
+   "234",
+   "267"
+  ],
+  [
+   "161",
+   "Harrison",
+   "233",
+   "203"
+  ],
+  [
+   "162",
+   "East Hope",
+   "229",
+   "210"
+  ],
+  [
+   "163",
+   "Swan Valley",
+   "225",
+   "204"
+  ],
+  [
+   "164",
+   "Oldtown",
+   "221",
+   "184"
+  ],
+  [
+   "165",
+   "Castleford",
+   "215",
+   "226"
+  ],
+  [
+   "166",
+   "Bloomington",
+   "199",
+   "206"
+  ],
+  [
+   "167",
+   "Onaway",
+   "196",
+   "187"
+  ],
+  [
+   "168",
+   "Island Park",
+   "193",
+   "286"
+  ],
+  [
+   "169",
+   "Midvale",
+   "193",
+   "171"
+  ],
+  [
+   "170",
+   "Wardner",
+   "192",
+   "188"
+  ],
+  [
+   "171",
+   "Bovill",
+   "191",
+   "260"
+  ],
+  [
+   "172",
+   "Stites",
+   "171",
+   "221"
+  ],
+  [
+   "173",
+   "Malta",
+   "167",
+   "193"
+  ],
+  [
+   "174",
+   "Peck",
+   "166",
+   "197"
+  ],
+  [
+   "175",
+   "Fernan Lake Village",
+   "164",
+   "169"
+  ],
+  [
+   "176",
+   "Moore",
+   "162",
+   "189"
+  ],
+  [
+   "177",
+   "St. Charles",
+   "161",
+   "131"
+  ],
+  [
+   "178",
+   "Crouch",
+   "154",
+   "162"
+  ],
+  [
+   "179",
+   "Elk River",
+   "139",
+   "125"
+  ],
+  [
+   "180",
+   "Ferdinand",
+   "133",
+   "159"
+  ],
+  [
+   "181",
+   "Acequia",
+   "131",
+   "124"
+  ],
+  [
+   "182",
+   "Stanley",
+   "116",
+   "63"
+  ],
+  [
+   "183",
+   "Murtaugh",
+   "114",
+   "115"
+  ],
+  [
+   "184",
+   "Huetter",
+   "104",
+   "100"
+  ],
+  [
+   "185",
+   "Hope",
+   "98",
+   "86"
+  ],
+  [
+   "186",
+   "Leadore",
+   "98",
+   "105"
+  ],
+  [
+   "187",
+   "Minidoka",
+   "86",
+   "112"
+  ],
+  [
+   "188",
+   "Tensed",
+   "84",
+   "123"
+  ],
+  [
+   "189",
+   "White Bird",
+   "83",
+   "91"
+  ],
+  [
+   "190",
+   "Butte City",
+   "78",
+   "74"
+  ],
+  [
+   "191",
+   "Placerville",
+   "48",
+   "53"
+  ],
+  [
+   "192",
+   "Reubens",
+   "46",
+   "71"
+  ],
+  [
+   "193",
+   "Lost River",
+   "42",
+   "68"
+  ],
+  [
+   "194",
+   "State Line",
+   "39",
+   "38"
+  ],
+  [
+   "195",
+   "Spencer",
+   "31",
+   "37"
+  ],
+  [
+   "196",
+   "Drummond",
+   "13",
+   "16"
+  ],
+  [
+   "197",
+   "Clayton",
+   "10",
+   "7"
+  ],
+  [
+   "198",
+   "Warm River",
+   "4",
+   "3"
+  ]
+ ]
+}
