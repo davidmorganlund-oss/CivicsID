@@ -1999,6 +1999,7 @@ sources:
     county: Bonner
     area: Sandpoint
     timezone: America/Los_Angeles
+    yield_to: [lposd-boardbook]
     homepage: https://www.lposd.org/board-of-trustees/trustee-meeting-schedule
     meetings:
       - title: Board of Trustees Regular Meeting
@@ -2031,6 +2032,7 @@ sources:
     type: schedule
     county: Canyon
     area: Caldwell
+    yield_to: [caldwell-simbli]
     homepage: https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297
     meetings:
       - title: Board of Trustees Meeting
@@ -3236,3 +3238,58 @@ sources:
         location: Kendrick High School Library
         category: school
         url: https://www.sd283.org/
+
+  # BoardBook and Simbli portals found by search (Nov 2026).
+  - id: mccall-donnelly-schools
+    name: McCall-Donnelly Joint School District 421
+    type: boardbook
+    organization: 2127
+    county: Valley
+    area: McCall
+    default_category: school
+    homepage: https://www.mdsd.org/o/mdsd/page/board-of-trustees
+
+  - id: preston-schools
+    name: Preston Joint School District 201
+    type: boardbook
+    organization: 2607
+    county: Franklin
+    area: Preston
+    default_category: school
+    homepage: https://www.prestonschools.org/boe/boe-meetings
+
+  - id: marsing-schools
+    name: Marsing Joint School District 363
+    type: boardbook
+    organization: 2142
+    county: Owyhee
+    area: Marsing
+    default_category: school
+    homepage: https://meetings.boardbook.org/Public/Organization/2142
+
+  - id: cossa
+    name: Canyon-Owyhee School Service Agency
+    type: boardbook
+    organization: 2093
+    county: Canyon
+    area: Wilder
+    default_category: school
+    homepage: https://meetings.boardbook.org/Public/Organization/2093
+
+  - id: lposd-boardbook
+    name: Lake Pend Oreille School District 84
+    type: boardbook
+    organization: 2582
+    county: Bonner
+    area: Sandpoint
+    timezone: America/Los_Angeles
+    default_category: school
+    homepage: https://meetings.boardbook.org/Public/Organization/2582
+
+  - id: caldwell-simbli
+    name: Caldwell School District 132
+    type: simbli
+    listing: https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031513
+    county: Canyon
+    area: Caldwell
+    homepage: https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297
