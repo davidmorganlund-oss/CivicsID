@@ -1,5 +1,2830 @@
 {
- "https://www.sde.idaho.gov/wp-json/wp/v2/pages?search=directory&per_page=20&_fields=link,title": "[{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/finance-transparency\\/public-school-finance\\/professional-and-advanced-professional-endorsements\\/\",\"title\":{\"rendered\":\"Professional and Advanced Professional Endorsements\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/about-us\\/departments\\/fiscal-policy\\/\",\"title\":{\"rendered\":\"Fiscal Policy &amp; Accountability\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/about-us\\/departments\\/special-education\\/funding-and-fiscal-accountability\\/\",\"title\":{\"rendered\":\"Funding and Fiscal Accountability\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/about-us\\/departments\\/federal-programs\\/federal-programs-monitoring\\/\",\"title\":{\"rendered\":\"Federal Programs Monitoring\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/high-school-graduation-requirements\\/\",\"title\":{\"rendered\":\"High School Graduation Requirements\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/supporting-military-families\\/\",\"title\":{\"rendered\":\"Supporting Military Families\"}},{\"link\":\"https:\\/\\/www.sde.idaho.gov\\/about-us\\/our-staff\\/\",\"title\":{\"rendered\":\"Our Staff\"}}]",
- "https://www.sde.idaho.gov/wp-json/wp/v2/media?search=directory&per_page=30&_fields=source_url,title": "[{\"title\":{\"rendered\":\"Sample Directory Infomation Policy\"},\"source_url\":\"https:\\/\\/www.sde.idaho.gov\\/wp-content\\/uploads\\/2026\\/05\\/Sample-Directory-Infomation-Policy.pdf\"},{\"title\":{\"rendered\":\"Student Opportunities Directory Template\"},\"source_url\":\"https:\\/\\/www.sde.idaho.gov\\/wp-content\\/uploads\\/2026\\/01\\/Student-Opportunities-Directory-Template.pdf\"},{\"title\":{\"rendered\":\"Student Opportunities Directory Example\"},\"source_url\":\"https:\\/\\/www.sde.idaho.gov\\/wp-content\\/uploads\\/2026\\/01\\/Student-Opportunities-Directory-Example.pdf\"},{\"title\":{\"rendered\":\"Cognia Non-Public Partner Directory and Fact Sheets\"},\"source_url\":\"https:\\/\\/www.sde.idaho.gov\\/wp-content\\/uploads\\/2025\\/09\\/Cognia-Non-Public-Partner-Directory.pdf\"}]",
- "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1600030": "RobotsBlocked('robots.txt at nces.ed.gov asks automated readers not to read /ccd/districtsearch/district_detail.asp')"
+ "districts": [
+  {
+   "name": "WEST BONNER COUNTY DISTRICT",
+   "city": "PRIEST RIVER",
+   "county": "Bonner County",
+   "enrollment": 1146,
+   "leaid": "1600001",
+   "site": "https://www.sd83.org/",
+   "platform": {
+    "simbli": [
+     "36032255"
+    ],
+    "boardbook": [
+     "2136"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.sd83.org/board-of-trustees",
+     "The Board of Trustees of West Bonner Schools meets regularly on the third Wednesday of each month at the District Office, 134 Main Street, Priest River, unless otherwise noticed."
+    ],
+    [
+     "https://www.sd83.org/board-of-trustees/board-meetings",
+     "Series Covid-19 Zone Maps Home > Board of Trustees > Board Meetings, Minutes, & Agenda Board Meetings, Minutes, & Agenda Regular Meetings of the WBCSD Board of Trustees will generally be held on the third Wednesday of every month at 6 pm at the District Office, 134 Main Street, Priest River."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd83.org/board-of-trustees",
+    "https://www.sd83.org/board-of-trustees/approved-budget",
+    "https://www.sd83.org/board-of-trustees/board-forms",
+    "https://www.sd83.org/board-of-trustees/board-meetings",
+    "https://www.sd83.org/board-of-trustees/goals",
+    "https://www.sd83.org/board-of-trustees/policy",
+    "https://www.sd83.org/board-of-trustees/policy/1000-board-of-trustees"
+   ],
+   "final": "https://www.sd83.org/",
+   "title": "Home - West Bonner County School District 83"
+  },
+  {
+   "name": "LAKE PEND OREILLE SCHOOL DISTRICT",
+   "city": "PONDERAY",
+   "county": "Bonner County",
+   "enrollment": 3822,
+   "leaid": "1600002"
+  },
+  {
+   "name": "TROY SCHOOL DISTRICT",
+   "city": "TROY",
+   "county": "Latah County",
+   "enrollment": 323,
+   "leaid": "1600009",
+   "site": "https://www.sd287.k12.id.us/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.troysd287.org/schoolboard",
+     "ransportation School Board Policies Calendars Staff Employee Forms Staff Directory Staff Email Open Enrollment Google Classroom Open Enrollment Athletics Trojan Cafe THS TES School Board School Board meetings are held the second Monday of each month, unless otherwise specified, in the Troy High School Media Center beginning at 6:30pm unless otherwise noted."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.troysd287.org/schoolboard",
+    "https://www.troysd287.org/aboutus"
+   ],
+   "final": "https://www.troysd287.org/",
+   "title": "Home"
+  },
+  {
+   "name": "WHITEPINE JOINT SCHOOL DISTRICT",
+   "city": "DEARY",
+   "county": "Latah County",
+   "enrollment": 207,
+   "leaid": "1600010",
+   "site": "https://www.sd288.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.sd288.org/schoolboardtrustees",
+     "The regular Board meetings will be held the second Monday of each month, with the exception of the June meeting and budget hearing."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd288.org/schoolboardtrustees",
+    "https://www.sd288.org/aboutdearymssrhighschool",
+    "https://www.sd288.org/aboutdearyelementary",
+    "https://www.sd288.org/aboutbovillelementary"
+   ],
+   "final": "https://www.sd288.org/",
+   "title": "Home"
+  },
+  {
+   "name": "ABERDEEN DISTRICT",
+   "city": "ABERDEEN",
+   "county": "Bingham County",
+   "enrollment": 673,
+   "leaid": "1600030",
+   "site": "https://www.aberdeen58.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "final": "https://www.aberdeen58.org/",
+   "title": "Aberdeen School District #58 \u2013 Aberdeen, Idaho 83210"
+  },
+  {
+   "name": "AMERICAN FALLS JOINT DISTRICT",
+   "city": "AMERICAN FALLS",
+   "county": "Power County",
+   "enrollment": 1572,
+   "leaid": "1600060",
+   "site": "https://www.sd381.k12.id.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd381.k12.id.us/page/board-of-trustees",
+    "https://www.sd381.k12.id.us/page/contact-board-of-trustees",
+    "https://www.sd381.k12.id.us/page/about-us"
+   ],
+   "final": "https://www.sd381.k12.id.us/",
+   "title": "Home | American Falls School District #381"
+  },
+  {
+   "name": "ARBON ELEMENTARY DISTRICT",
+   "city": "ARBON",
+   "county": "Power County",
+   "enrollment": 27,
+   "leaid": "1600090"
+  },
+  {
+   "name": "SALMON RIVER JOINT SCHOOL DISTRICT",
+   "city": "RIGGINS",
+   "county": "Idaho County",
+   "enrollment": 140,
+   "leaid": "1600138"
+  },
+  {
+   "name": "MOUNTAIN VIEW SCHOOL DISTRICT",
+   "city": "GRANGEVILLE",
+   "county": "Idaho County",
+   "enrollment": 1109,
+   "leaid": "1600139",
+   "site": "https://www.sd244.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [
+    [
+     "https://files.smartsites.parentsquare.com/10900/board_meeting_schedule_2026-2027.pdf",
+     "Meeting Calendar"
+    ]
+   ],
+   "pages": [
+    "https://www.sd244.org/board-of-trustees-home",
+    "https://www.sd244.org/prev-board-agenda",
+    "https://www.sd244.org/about-our-district",
+    "https://www.sd244.org/182941_3",
+    "https://www.sd244.org/184579_3",
+    "https://www.sd244.org/184579_3",
+    "https://www.sd244.org/minutes"
+   ],
+   "final": "https://www.sd244.org/",
+   "title": "Grangeville School District 246 - Home"
+  },
+  {
+   "name": "AVERY SCHOOL DISTRICT",
+   "city": "CALDER",
+   "county": "Shoshone County",
+   "enrollment": 24,
+   "leaid": "1600150"
+  },
+  {
+   "name": "BASIN SCHOOL DISTRICT",
+   "city": "IDAHO CITY",
+   "county": "Boise County",
+   "enrollment": 336,
+   "leaid": "1600180"
+  },
+  {
+   "name": "BEAR LAKE COUNTY DISTRICT",
+   "city": "PARIS",
+   "county": "Bear Lake County",
+   "enrollment": 1424,
+   "leaid": "1600240"
+  },
+  {
+   "name": "BLACKFOOT DISTRICT",
+   "city": "BLACKFOOT",
+   "county": "Bingham County",
+   "enrollment": 3990,
+   "leaid": "1600270",
+   "site": "https://www.sd55.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.sd55.org/board-meetings",
+     "The Board meets at the District Offi ce, 270 East Bridge Street, unless otherwise posted."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://docs.sd55.org/MeetingMinutes/2026.School.Board.Meeting.Schedule.8.10.26-1.pdf",
+     "HERE."
+    ],
+    [
+     "https://docs.sd55.org/MeetingMinutes/2026_School_Board_Meeting_Schedule_1.pdf",
+     "HERE"
+    ]
+   ],
+   "pages": [
+    "https://www.sd55.org/board-meetings",
+    "https://www.sd55.org/board-trustee-information",
+    "https://www.sd55.org/copy-of-board-meetings"
+   ],
+   "final": "https://www.sd55.org/",
+   "title": "Home | sd55.org"
+  },
+  {
+   "name": "BLAINE COUNTY DISTRICT",
+   "city": "HAILEY",
+   "county": "Blaine County",
+   "enrollment": 3312,
+   "leaid": "1600300",
+   "site": "https://www.blaineschools.org/",
+   "platform": {
+    "diligent": [
+     "blaineschools.community.highbond.com"
+    ]
+   },
+   "sched": [],
+   "pdfs": [
+    [
+     "https://drive.google.com/file/d/1zHZwk1gUFsJ52QCCJW-rfbSG-O86bfUD/view?usp=drive_link",
+     "2026 Schedule of Regular School Board Meetings"
+    ]
+   ],
+   "pages": [
+    "https://www.blaineschools.org/school-board/trustees/home",
+    "https://www.blaineschools.org/school-board/trustees/home",
+    "https://www.blaineschools.org/school-board/best-practices-of-school-board-trustees",
+    "https://www.blaineschools.org/school-board/board-accolades",
+    "https://www.blaineschools.org/school-board/board-committees",
+    "https://www.blaineschools.org/school-board/board-committees/calendar-committee",
+    "https://www.blaineschools.org/school-board/board-committees/finance-committee"
+   ],
+   "final": "https://www.blaineschools.org/",
+   "title": "Home - Blaine County District"
+  },
+  {
+   "name": "BLISS JOINT DISTRICT",
+   "city": "BLISS",
+   "county": "Gooding County",
+   "enrollment": 125,
+   "leaid": "1600330",
+   "site": "https://www.bliss234.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://bliss234.org/board-agenda",
+    "https://bliss234.org/about-us"
+   ],
+   "final": "https://bliss234.org/",
+   "title": "Home"
+  },
+  {
+   "name": "BOISE INDEPENDENT DISTRICT",
+   "city": "BOISE",
+   "county": "Ada County",
+   "enrollment": 22809,
+   "leaid": "1600360",
+   "site": "https://www.boiseschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.boiseschools.org/about",
+    "https://www.boiseschools.org/about-us",
+    "https://www.boiseschools.org/board-of-trustees-home",
+    "https://www.boiseschools.org/202273_3",
+    "https://www.boiseschools.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=97341830"
+   ],
+   "final": "https://www.boiseschools.org/",
+   "title": "Boise School District - Home"
+  },
+  {
+   "name": "BOUNDARY COUNTY DISTRICT",
+   "city": "BONNERS FERRY",
+   "county": "Boundary County",
+   "enrollment": 1441,
+   "leaid": "1600420"
+  },
+  {
+   "name": "BRUNEAU-GRAND VIEW JOINT SCHOOL DISTRICT",
+   "city": "BRUNEAU",
+   "county": "Owyhee County",
+   "enrollment": 302,
+   "leaid": "1600450",
+   "site": "https://www.sd365.us/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.sd365.us/board-trustees",
+     "on the second Tuesday of every month in the board room unless otherwise posted."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://wsos-cdn.s3.us-west-2.amazonaws.com/uploads/sites/73/NOTICE-OF-SCHEDULE-OF-REGULAR-TUESDAY-MEETINGS-2026-2027-3.docx.pdf",
+     "2026-2027 School Board Meeting Schedule"
+    ]
+   ],
+   "pages": [
+    "https://www.sd365.us/board-trustees",
+    "https://www.sd365.us/board-policies",
+    "https://www.sd365.us/about-us"
+   ],
+   "final": "https://www.sd365.us/",
+   "title": "Bruneau-Grand View Joint School District #365 |"
+  },
+  {
+   "name": "BUHL JOINT DISTRICT",
+   "city": "BUHL",
+   "county": "Twin Falls County",
+   "enrollment": 1264,
+   "leaid": "1600480"
+  },
+  {
+   "name": "BUTTE COUNTY JOINT DISTRICT",
+   "city": "ARCO",
+   "county": "Butte County",
+   "enrollment": 414,
+   "leaid": "1600490",
+   "site": "https://www.butteschooldistrict.org/",
+   "platform": {
+    "simbli": [
+     "36032234"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.butteschooldistrict.org/district_office/school_board",
+     "School Board Meetings are held the 3rd Monday of each month in the Modular behind the High School located at 120 South Water St."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.butteschooldistrict.org/district_office/school_board",
+    "https://www.butteschooldistrict.org/district_office/school_board/school_board_reports",
+    "https://www.butteschooldistrict.org/district_office/school_board/meeting-_minutes",
+    "https://www.butteschooldistrict.org/district_office/school_board/district-_finances",
+    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36032234&ptid=GLcntiSgkfX6gYOohkz3Kw==",
+    "https://drive.google.com/drive/folders/0B1RaW_ZAZbLrM2tSck12YlphTU0?ths=true&amp;resourcekey=0-wGey9s-UByiMDcDQLt3uvw&resourcekey=0-wGey9s-UByiMDcDQLt3uvw",
+    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36032234"
+   ],
+   "final": "https://www.butteschooldistrict.org/",
+   "title": "Home - buttecountyschools"
+  },
+  {
+   "name": "CALDWELL DISTRICT",
+   "city": "CALDWELL",
+   "county": "Canyon County",
+   "enrollment": 5499,
+   "leaid": "1600510",
+   "site": "https://www.caldwellschools.org/",
+   "platform": {
+    "simbli": [
+     "36031513"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
+     "The Board of Trustees meet on the second Monday of every month at 7:00 p."
+    ],
+    [
+     "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
+     "The Board often holds work sessions on the fourth Monday of every month at 6:00 pm to learn more about issues or participate in training."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
+    "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=503957&type=d&pREC_ID=979278",
+    "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=2407237"
+   ],
+   "final": "https://www.caldwellschools.org/",
+   "title": "Caldwell School District"
+  },
+  {
+   "name": "CAMAS COUNTY DISTRICT",
+   "city": "FAIRFIELD",
+   "county": "Camas County",
+   "enrollment": 184,
+   "leaid": "1600540"
+  },
+  {
+   "name": "CAMBRIDGE JOINT DISTRICT",
+   "city": "CAMBRIDGE",
+   "county": "Washington County",
+   "enrollment": 152,
+   "leaid": "1600570"
+  },
+  {
+   "name": "VALLIVUE SCHOOL DISTRICT",
+   "city": "CALDWELL",
+   "county": "Canyon County",
+   "enrollment": 9892,
+   "leaid": "1600600",
+   "site": "https://www.vallivue.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1439315",
+    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353187",
+    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353174"
+   ],
+   "final": "https://www.vallivue.org/",
+   "title": "Vallivue School District"
+  },
+  {
+   "name": "CASCADE DISTRICT",
+   "city": "CASCADE",
+   "county": "Valley County",
+   "enrollment": 206,
+   "leaid": "1600630"
+  },
+  {
+   "name": "CASSIA COUNTY JOINT DISTRICT",
+   "city": "BURLEY",
+   "county": "Cassia County",
+   "enrollment": 5561,
+   "leaid": "1600660"
+  },
+  {
+   "name": "CASTLEFORD DISTRICT",
+   "city": "CASTLEFORD",
+   "county": "Twin Falls County",
+   "enrollment": 306,
+   "leaid": "1600690"
+  },
+  {
+   "name": "CHALLIS JOINT DISTRICT",
+   "city": "CHALLIS",
+   "county": "Custer County",
+   "enrollment": 328,
+   "leaid": "1600720",
+   "site": "https://www.d181.k12.id.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.d181.k12.id.us/district/trustees/trustee-directory",
+    "https://www.d181.k12.id.us/district/trustees/meeting-agendas",
+    "https://www.d181.k12.id.us/district/trustees/2017-2018-meeting-minutes",
+    "https://www.d181.k12.id.us/district/trustees/2018-2019-meeting-minutes",
+    "https://www.d181.k12.id.us/district/trustees/2019-2020-meeting-minutes",
+    "https://www.d181.k12.id.us/district/trustees/2020-2021-meeting-minutes",
+    "https://www.d181.k12.id.us/district/trustees/2021-2022-meeting-minutes"
+   ],
+   "final": "https://www.d181.k12.id.us/",
+   "title": "Home - Challis School District"
+  },
+  {
+   "name": "CLARK COUNTY DISTRICT",
+   "city": "DUBOIS",
+   "county": "Clark County",
+   "enrollment": 117,
+   "leaid": "1600750"
+  },
+  {
+   "name": "COEUR D'ALENE DISTRICT",
+   "city": "COEUR D'ALENE",
+   "county": "Kootenai County",
+   "enrollment": 10107,
+   "leaid": "1600780"
+  },
+  {
+   "name": "COTTONWOOD JOINT DISTRICT",
+   "city": "COTTONWOOD",
+   "county": "Idaho County",
+   "enrollment": 441,
+   "leaid": "1600810",
+   "site": "https://www.sd242.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://sd242.org/school-board/",
+    "https://sd242.org/school-board-meetings/",
+    "https://sd242.org/about/"
+   ],
+   "final": "https://sd242.org/",
+   "title": "Welcome - Cottonwood Joint School District #242"
+  },
+  {
+   "name": "PLUMMER-WORLEY JOINT DISTRICT",
+   "city": "PLUMMER",
+   "county": "Benewah County",
+   "enrollment": 357,
+   "leaid": "1600815"
+  },
+  {
+   "name": "COUNCIL DISTRICT",
+   "city": "COUNCIL",
+   "county": "Adams County",
+   "enrollment": 373,
+   "leaid": "1600840"
+  },
+  {
+   "name": "CULDESAC JOINT DISTRICT",
+   "city": "CULDESAC",
+   "county": "Nez Perce County",
+   "enrollment": 115,
+   "leaid": "1600870"
+  },
+  {
+   "name": "DIETRICH DISTRICT",
+   "city": "DIETRICH",
+   "county": "Lincoln County",
+   "enrollment": 195,
+   "leaid": "1600900",
+   "site": "https://www.dietrichschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "final": "https://www.dietrichschools.org/",
+   "title": "Home"
+  },
+  {
+   "name": "BONNEVILLE JOINT DISTRICT",
+   "city": "IDAHO FALLS",
+   "county": "Bonneville County",
+   "enrollment": 13778,
+   "leaid": "1600930"
+  },
+  {
+   "name": "PRESTON JOINT DISTRICT",
+   "city": "PRESTON",
+   "county": "Franklin County",
+   "enrollment": 2468,
+   "leaid": "1600960"
+  },
+  {
+   "name": "EMMETT INDEPENDENT DISTRICT",
+   "city": "EMMETT",
+   "county": "Gem County",
+   "enrollment": 2608,
+   "leaid": "1601020",
+   "site": "https://www.emmettschools.org/",
+   "platform": {
+    "simbli": [
+     "36030867"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.emmettschools.org/school-board-trustees/meetings-and-minutes",
+     "Simbli ~ District Policy Manual (opens in new window/tab) YouTube ~ ESD 221 Channel (opens in new window/tab) Home > School Board > Meetings and Minutes Meetings and Minutes The Regular School Board Meetings are held the second (2nd) Monday of every month at 6:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.emmettschools.org/school-board-trustees",
+    "https://www.emmettschools.org/school-board-trustees/school-board",
+    "https://www.emmettschools.org/school-board-trustees/board-election-information",
+    "https://www.emmettschools.org/school-board-trustees/meetings-and-minutes",
+    "https://www.emmettschools.org/~board/esd-news/post/homecoming-2026-memories",
+    "https://www.emmettschools.org/~board/esd-news/post/the-e-gets-a-facelift",
+    "https://www.emmettschools.org/~board/esd-news/post/ehs-domes-feedback-involvement"
+   ],
+   "final": "https://www.emmettschools.org/",
+   "title": "Home - Emmett Independent School District"
+  },
+  {
+   "name": "FILER DISTRICT",
+   "city": "FILER",
+   "county": "Twin Falls County",
+   "enrollment": 1598,
+   "leaid": "1601050"
+  },
+  {
+   "name": "FIRTH DISTRICT",
+   "city": "FIRTH",
+   "county": "Bingham County",
+   "enrollment": 845,
+   "leaid": "1601080"
+  },
+  {
+   "name": "FREMONT COUNTY JOINT DISTRICT",
+   "city": "ST ANTHONY",
+   "county": "Fremont County",
+   "enrollment": 2222,
+   "leaid": "1601110"
+  },
+  {
+   "name": "FRUITLAND DISTRICT",
+   "city": "FRUITLAND",
+   "county": "Payette County",
+   "enrollment": 1634,
+   "leaid": "1601140",
+   "site": "https://www.fruitlandschools.org/",
+   "platform": {
+    "simbli": [
+     "36031635"
+    ]
+   },
+   "sched": [],
+   "pdfs": [
+    [
+     "https://fonts.googleapis.com",
+     "window.clientWorkStateTemp = JSON.parse(\"{\\\"host\\\":\\\"www.fruitlandschools.org\\\","
+    ]
+   ],
+   "pages": [
+    "https://www.fruitlandschools.org/documents/district/request-to-address-the-board-%2F-policy-4105-community-relations/681224",
+    "https://www.fruitlandschools.org/o/fsd/page/school-board"
+   ],
+   "final": "https://www.fruitlandschools.org/",
+   "title": "Home | Fruitland School District #373"
+  },
+  {
+   "name": "GARDEN VALLEY DISTRICT",
+   "city": "GARDEN VALLEY",
+   "county": "Boise County",
+   "enrollment": 276,
+   "leaid": "1601170"
+  },
+  {
+   "name": "GENESEE JOINT DISTRICT",
+   "city": "GENESEE",
+   "county": "Latah County",
+   "enrollment": 306,
+   "leaid": "1601200",
+   "site": "https://www.sd282.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.sd282.org/district-information/school-board",
+     "org School Board Meetings Monthly School Board Meetings are held on the 2nd Wednesday of each month in the Library, Room 201, of the Genesee School, at 6:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd282.org/district-information/school-board",
+    "https://www.sd282.org/district-information/school-board/board-policy",
+    "https://www.sd282.org/teacher-pages/mranselmoadmin/~board/mr-paul-anselmo",
+    "https://www.sd282.org/teacher-pages/mrcrowleyadmin/~board/mr-pete-crowley",
+    "https://www.sd282.org/teacher-pages/mrskirkadmin/~board/mrs-heather-kirk"
+   ],
+   "final": "https://www.sd282.org/",
+   "title": "Home - Genesee Joint School District 282"
+  },
+  {
+   "name": "GLENNS FERRY JOINT DISTRICT",
+   "city": "GLENNS FERRY",
+   "county": "Elmore County",
+   "enrollment": 379,
+   "leaid": "1601230"
+  },
+  {
+   "name": "GOODING JOINT DISTRICT",
+   "city": "GOODING",
+   "county": "Gooding County",
+   "enrollment": 1244,
+   "leaid": "1601260"
+  },
+  {
+   "name": "GRACE JOINT DISTRICT",
+   "city": "GRACE",
+   "county": "Caribou County",
+   "enrollment": 534,
+   "leaid": "1601290",
+   "site": "https://www.sd148.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.sd148.org/en-US/board-members-d4aa484e",
+     "istrict #148 Login Main Menu District Information Departments Schools Calendar School Board Contact Us End of main menu Grace School Board of Trustees School Board Meetings The School Board typically meets on the second Wednesday of each month in the Black Canyon Elementary Library at 7:00pm unless otherwise specified, subject to occasional change."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://drive.google.com/file/d/1oV-CA8BWVQT5tYVQREvrmznmI4m6aK3I/view?usp=sharing",
+     "2026 Board Meeting Schedule"
+    ]
+   ],
+   "pages": [
+    "https://www.sd148.org/en-US/board-members-d4aa484e",
+    "https://www.sd148.org/en-US/board-members-d4aa484e"
+   ],
+   "final": "https://www.sd148.org/en-US",
+   "title": "Home - Grace School District #148"
+  },
+  {
+   "name": "HAGERMAN JOINT DISTRICT",
+   "city": "HAGERMAN",
+   "county": "Gooding County",
+   "enrollment": 379,
+   "leaid": "1601380"
+  },
+  {
+   "name": "HANSEN DISTRICT",
+   "city": "HANSEN",
+   "county": "Twin Falls County",
+   "enrollment": 335,
+   "leaid": "1601410",
+   "site": "https://www.hansenschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [
+    [
+     "https://fonts.googleapis.com",
+     "window.clientWorkStateTemp = JSON.parse(\"{\\\"host\\\":\\\"www.hansenschools.org\\\",\\\"a"
+    ]
+   ],
+   "pages": [],
+   "final": "https://www.hansenschools.org/",
+   "title": "Home | Hansen School District 415"
+  },
+  {
+   "name": "HIGHLAND JOINT DISTRICT",
+   "city": "CRAIGMONT",
+   "county": "Lewis County",
+   "enrollment": 169,
+   "leaid": "1601440"
+  },
+  {
+   "name": "HOMEDALE JOINT DISTRICT",
+   "city": "HOMEDALE",
+   "county": "Owyhee County",
+   "enrollment": 1260,
+   "leaid": "1601470",
+   "site": "https://www.homedaleschools.org/",
+   "platform": {
+    "boardbook": [
+     "2069"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "final": "https://www.homedaleschools.org/en-US",
+   "title": "Home - Homedale Joint School District #370"
+  },
+  {
+   "name": "HORSESHOE BEND SCHOOL DISTRICT",
+   "city": "HORSESHOE BEND",
+   "county": "Boise County",
+   "enrollment": 225,
+   "leaid": "1601500"
+  },
+  {
+   "name": "IDAHO FALLS DISTRICT",
+   "city": "IDAHO FALLS",
+   "county": "Bonneville County",
+   "enrollment": 10250,
+   "leaid": "1601530",
+   "site": "https://www.d91.k12.id.us/",
+   "platform": {
+    "simbli": [
+     "36032118"
+    ]
+   },
+   "sched": [],
+   "pdfs": [
+    [
+     "https://ifschoolsorg.finalsite.com/fs/resource-manager/view/5d3cc54b-9c0e-42c3-a92a-557d01828ee9",
+     "Calendar Committee Meeting on Monday, November 30, 2026, at 4:30 pm, at the Dist"
+    ],
+    [
+     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css",
+     "Board Meetings Schedule Board Meetings 2026"
+    ]
+   ],
+   "pages": [
+    "https://www.ifschools.org/our-district/board-of-trustees",
+    "https://www.ifschools.org/our-district/board-of-trustees/board-meeting-records",
+    "https://www.ifschools.org/our-district/board-of-trustees/live-stream-meetings",
+    "https://www.ifschools.org/our-district/board-of-trustees/board-polices-under-reveiw"
+   ],
+   "final": "https://www.ifschools.org/",
+   "title": "Home - Idaho Falls School District 91"
+  },
+  {
+   "name": "JEFFERSON COUNTY JOINT DISTRICT",
+   "city": "RIGBY",
+   "county": "Jefferson County",
+   "enrollment": 6770,
+   "leaid": "1601570"
+  },
+  {
+   "name": "JEROME JOINT DISTRICT",
+   "city": "JEROME",
+   "county": "Jerome County",
+   "enrollment": 4164,
+   "leaid": "1601590"
+  },
+  {
+   "name": "KAMIAH JOINT DISTRICT",
+   "city": "KAMIAH",
+   "county": "Lewis County",
+   "enrollment": 393,
+   "leaid": "1601620",
+   "site": "https://www.kamiahsd.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [
+    [
+     "https://kamiahsd.org/board-of-trustees/2026-board-meeting-schedule/",
+     "2026 Board and Board Meeting Schedule"
+    ],
+    [
+     "https://gmpg.org/xfn/11",
+     "2026 Board and Board Meeting Schedule - Kamiah School District Skip to content"
+    ]
+   ],
+   "pages": [
+    "https://kamiahsd.org/board-of-trustees/2026-board-meeting-schedule/",
+    "https://kamiahsd.org/board-of-trustees/public-notices-and-board-meeting-agendas/",
+    "https://kamiahsd.org/board-of-trustees/policy-4210f-facility-use-application-form/",
+    "https://kamiahsd.org/board-of-trustees/board-minutes/",
+    "https://kamiahsd.org/board-of-trustees/board-policy/"
+   ],
+   "final": "https://kamiahsd.org/",
+   "title": "Home - Kamiah School District"
+  },
+  {
+   "name": "KELLOGG JOINT DISTRICT",
+   "city": "KELLOGG",
+   "county": "Shoshone County",
+   "enrollment": 1201,
+   "leaid": "1601650"
+  },
+  {
+   "name": "KENDRICK JOINT DISTRICT",
+   "city": "KENDRICK",
+   "county": "Latah County",
+   "enrollment": 289,
+   "leaid": "1601680",
+   "site": "https://www.sd283.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [
+    [
+     "https://content.myconnectsuite.com/api/documents/f732f6045a50474e9b0fb7d5db743e13.pdf",
+     "SD283 - 2026 Board Meeting Calendar.pdf"
+    ]
+   ],
+   "pages": [
+    "https://www.sd283.org/schoolboard",
+    "https://www.sd283.org/about",
+    "https://www.sd283.org/aboutkendrickjrsrhigh",
+    "https://www.sd283.org/aboutjuliaettaelemenaryschool"
+   ],
+   "final": "https://www.sd283.org/",
+   "title": "Home"
+  },
+  {
+   "name": "KIMBERLY DISTRICT",
+   "city": "KIMBERLY",
+   "county": "Twin Falls County",
+   "enrollment": 2153,
+   "leaid": "1601710"
+  },
+  {
+   "name": "KOOTENAI DISTRICT",
+   "city": "HARRISON",
+   "county": "Kootenai County",
+   "enrollment": 210,
+   "leaid": "1601740"
+  },
+  {
+   "name": "KUNA JOINT DISTRICT",
+   "city": "KUNA",
+   "county": "Ada County",
+   "enrollment": 5825,
+   "leaid": "1601770",
+   "site": "https://www.kunaschools.org/",
+   "platform": {
+    "simbli": [
+     "36031850"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.kunaschools.org/boardhome",
+    "https://www.kunaschools.org/boardagendas",
+    "https://www.kunaschools.org/trusteeelection",
+    "https://www.kunaschools.org/50857_2",
+    "https://www.kunaschools.org/boardhome",
+    "https://www.kunaschools.org/76673_3",
+    "https://www.kunaschools.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=94257375"
+   ],
+   "final": "https://www.kunaschools.org/",
+   "title": "Kuna School District - Home"
+  },
+  {
+   "name": "LAKELAND DISTRICT",
+   "city": "RATHDRUM",
+   "county": "Kootenai County",
+   "enrollment": 4693,
+   "leaid": "1601800",
+   "site": "https://www.sd272.org/",
+   "platform": {
+    "boardbook": [
+     "2129"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.sd272.org/school-board",
+     "on the first and third Wednesday of each month (unless otherwise posted), at the Lakeland Joint School District Administrative Offices, 15506 N Washington Street, Rathdrum, Idaho."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd272.org/school-board",
+    "https://www.sd272.org/school-board/policies-and-resolutions",
+    "https://www.sd272.org/school-board/policy-feedback",
+    "https://www.sd272.org/school-board/meeting-schedule",
+    "https://www.sd272.org/school-board/agenda",
+    "https://www.sd272.org/school-board/minutes",
+    "https://www.sd272.org/school-board/data-points"
+   ],
+   "final": "https://www.sd272.org/",
+   "title": "Home - Lakeland Joint School District 272"
+  },
+  {
+   "name": "LAPWAI DISTRICT",
+   "city": "LAPWAI",
+   "county": "Nez Perce County",
+   "enrollment": 519,
+   "leaid": "1601830"
+  },
+  {
+   "name": "LEWISTON INDEPENDENT DISTRICT",
+   "city": "LEWISTON",
+   "county": "Nez Perce County",
+   "enrollment": 4765,
+   "leaid": "1601860"
+  },
+  {
+   "name": "MACKAY JOINT DISTRICT",
+   "city": "MACKAY",
+   "county": "Custer County",
+   "enrollment": 231,
+   "leaid": "1601900",
+   "site": "https://www.mackayschools.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.mackayschools.org/our-district/district-office/school-board",
+     "Series-Financial Management 8000 Series-Non-Instructional Ops 9000 Series-School Facilities Facility Projects Open Enrollment School Board Mackay Schools Board of Trustees Board meeting are held the second Monday of each month in the high school library at 7:00 pm unless otherwise posted."
+    ],
+    [
+     "https://www.mackayschools.org/our-district/district-office/school-board-meeting-minutes",
+     "0 Series-Financial Management 8000 Series-Non-Instructional Ops 9000 Series-School Facilities Facility Projects Open Enrollment School Board Meeting Minutes Meeting Minutes Board meeting are held the second Monday of each month in the high school library at 7:00 pm unless otherwise posted."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.mackayschools.org/our-district/district-office/school-board",
+    "https://www.mackayschools.org/our-district/district-office/school-board-meeting-minutes",
+    "https://www.mackayschools.org/our-district/district-office/board-terms-and-boundariesmaps",
+    "https://www.mackayschools.org/our-district/policy-page/1000-series-board-of-trustees",
+    "https://www.mackayschools.org/staff/about-us-calendar"
+   ],
+   "final": "https://www.mackayschools.org/",
+   "title": "Home - Mackay Joint School District 182"
+  },
+  {
+   "name": "MADISON DISTRICT",
+   "city": "REXBURG",
+   "county": "Madison County",
+   "enrollment": 5758,
+   "leaid": "1601920"
+  },
+  {
+   "name": "MARSH VALLEY JOINT DISTRICT",
+   "city": "ARIMO",
+   "county": "Bannock County",
+   "enrollment": 1258,
+   "leaid": "1601950"
+  },
+  {
+   "name": "MARSING JOINT DISTRICT",
+   "city": "MARSING",
+   "county": "Owyhee County",
+   "enrollment": 854,
+   "leaid": "1601980"
+  },
+  {
+   "name": "MCCALL-DONNELLY JOINT SCHOOL DISTRICT",
+   "city": "MCCALL",
+   "county": "Valley County",
+   "enrollment": 1364,
+   "leaid": "1602030"
+  },
+  {
+   "name": "MEADOWS VALLEY DISTRICT",
+   "city": "NEW MEADOWS",
+   "county": "Adams County",
+   "enrollment": 142,
+   "leaid": "1602060"
+  },
+  {
+   "name": "MELBA JOINT DISTRICT",
+   "city": "MELBA",
+   "county": "Canyon County",
+   "enrollment": 824,
+   "leaid": "1602070"
+  },
+  {
+   "name": "JOINT SCHOOL DISTRICT NO. 2",
+   "city": "MERIDIAN",
+   "county": "Ada County",
+   "enrollment": 39496,
+   "leaid": "1602100"
+  },
+  {
+   "name": "MIDDLETON DISTRICT",
+   "city": "MIDDLETON",
+   "county": "Canyon County",
+   "enrollment": 4318,
+   "leaid": "1602130"
+  },
+  {
+   "name": "MIDVALE DISTRICT",
+   "city": "MIDVALE",
+   "county": "Washington County",
+   "enrollment": 149,
+   "leaid": "1602160",
+   "site": "https://www.midvaleschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.midvaleschools.org/board-minutes-2/",
+    "https://www.midvaleschools.org/for-parents/about/"
+   ],
+   "final": "https://www.midvaleschools.org/",
+   "title": "Midvaleschools.org"
+  },
+  {
+   "name": "MINIDOKA COUNTY JOINT DISTRICT",
+   "city": "RUPERT",
+   "county": "Minidoka County",
+   "enrollment": 4405,
+   "leaid": "1602190"
+  },
+  {
+   "name": "MOSCOW DISTRICT",
+   "city": "MOSCOW",
+   "county": "Latah County",
+   "enrollment": 2397,
+   "leaid": "1602220"
+  },
+  {
+   "name": "MOUNTAIN HOME DISTRICT",
+   "city": "MOUNTAIN HOME",
+   "county": "Elmore County",
+   "enrollment": 3757,
+   "leaid": "1602250"
+  },
+  {
+   "name": "MULLAN DISTRICT",
+   "city": "MULLAN",
+   "county": "Shoshone County",
+   "enrollment": 85,
+   "leaid": "1602280"
+  },
+  {
+   "name": "MURTAUGH JOINT DISTRICT",
+   "city": "MURTAUGH",
+   "county": "Twin Falls County",
+   "enrollment": 399,
+   "leaid": "1602310",
+   "site": "https://www.murtaugh.k12.id.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://drive.google.com/drive/folders/1Tn1X7ubyK-SRlAMbSDB8fL0PdHSfFKIf?usp=sharing",
+    "https://www.murtaugh.k12.id.us/school_board",
+    "https://www.murtaugh.k12.id.us/cms/one.aspx?pageId=4110558"
+   ],
+   "final": "https://www.murtaugh.k12.id.us/",
+   "title": "Home - Murtaugh School District #418"
+  },
+  {
+   "name": "NAMPA SCHOOL DISTRICT",
+   "city": "NAMPA",
+   "county": "Canyon County",
+   "enrollment": 13398,
+   "leaid": "1602340"
+  },
+  {
+   "name": "NEW PLYMOUTH DISTRICT",
+   "city": "NEW PLYMOUTH",
+   "county": "Payette County",
+   "enrollment": 990,
+   "leaid": "1602370"
+  },
+  {
+   "name": "NEZPERCE JOINT DISTRICT",
+   "city": "NEZPERCE",
+   "county": "Lewis County",
+   "enrollment": 180,
+   "leaid": "1602400"
+  },
+  {
+   "name": "NORTH GEM DISTRICT",
+   "city": "BANCROFT",
+   "county": "Caribou County",
+   "enrollment": 138,
+   "leaid": "1602430"
+  },
+  {
+   "name": "NOTUS DISTRICT",
+   "city": "CALDWELL",
+   "county": "Canyon County",
+   "enrollment": 347,
+   "leaid": "1602460",
+   "site": "https://www.notusschools.org/",
+   "platform": {
+    "simbli": [
+     "36032032"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.notusschools.org/board-of-trustees",
+    "https://www.notusschools.org/board-of-trustees/board-meetings",
+    "https://www.notusschools.org/board-of-trustees/simbli-board-docs"
+   ],
+   "final": "https://www.notusschools.org/",
+   "title": "Home - Notus School District 135"
+  },
+  {
+   "name": "ONEIDA COUNTY DISTRICT",
+   "city": "MALAD",
+   "county": "Oneida County",
+   "enrollment": 7818,
+   "leaid": "1602490"
+  },
+  {
+   "name": "OROFINO JOINT DISTRICT",
+   "city": "OROFINO",
+   "county": "Clearwater County",
+   "enrollment": 1131,
+   "leaid": "1602520",
+   "site": "https://www.sd171.k12.id.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd171.k12.id.us/trusteezonemap",
+    "https://www.sd171.k12.id.us/boardinfo",
+    "https://www.sd171.k12.id.us/board-members",
+    "https://www.sd171.k12.id.us/agendasminutes"
+   ],
+   "final": "https://www.sd171.k12.id.us/",
+   "title": "Home"
+  },
+  {
+   "name": "PARMA DISTRICT",
+   "city": "PARMA",
+   "county": "Canyon County",
+   "enrollment": 1038,
+   "leaid": "1602550",
+   "site": "https://www.parmaschools.org/",
+   "platform": {
+    "diligent": [
+     "parmaschools.community.diligentoneplatform.com"
+    ]
+   },
+   "sched": [],
+   "pdfs": [
+    [
+     "https://www.parmaschools.org/news-details/~board/bell-schedules/post/2026-2027-bell-schedules",
+     "Bell Schedules"
+    ]
+   ],
+   "pages": [
+    "https://www.parmaschools.org/school-board/current-school-board-members",
+    "https://www.parmaschools.org/school-board/meeting-schedule",
+    "https://www.parmaschools.org/school-board/zone-maps",
+    "https://www.parmaschools.org/school-board/elections",
+    "https://www.parmaschools.org/news-details/~board/district-info/post/certified-master-contract",
+    "https://www.parmaschools.org/news-details/~board/district-info/post/non-certified-employee-handbook",
+    "https://www.parmaschools.org/news-details/~board/district-info/post/strategic-cip-plan"
+   ],
+   "final": "https://www.parmaschools.org/home",
+   "title": "District Home - Parma School District #137"
+  },
+  {
+   "name": "PAYETTE JOINT DISTRICT",
+   "city": "PAYETTE",
+   "county": "Payette County",
+   "enrollment": 1371,
+   "leaid": "1602580",
+   "site": "https://www.payetteschools.org/",
+   "platform": {
+    "simbli": [
+     "36031400"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.payetteschools.org/our-district/board-of-trustees16",
+    "https://www.payetteschools.org/our-district/board-of-trustees16/request-to-address-the-board",
+    "https://www.payetteschools.org/our-district/board-of-trustees16/board-meetings"
+   ],
+   "final": "https://www.payetteschools.org/",
+   "title": "Home - Payette Joint District"
+  },
+  {
+   "name": "PLEASANT VALLEY ELEMENTARY DISTRICT",
+   "city": "JORDAN VALLEY",
+   "county": "Owyhee County",
+   "enrollment": 11,
+   "leaid": "1602610",
+   "site": "https://www.pleasantvalleyschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.pleasantvalleyschools.org/board-of-trustees",
+    "https://www.pleasantvalleyschools.org/board-policies",
+    "https://www.pleasantvalleyschools.org/about-us",
+    "https://www.pleasantvalleyschools.org/about-us/school-report-card",
+    "https://www.pleasantvalleyschools.org/about-us/employment-opportunities",
+    "https://www.pleasantvalleyschools.org/about-us/open-enrollment-available-seats"
+   ],
+   "final": "https://www.pleasantvalleyschools.org/",
+   "title": "PVSD 364"
+  },
+  {
+   "name": "POCATELLO DISTRICT",
+   "city": "POCATELLO",
+   "county": "Bannock County",
+   "enrollment": 12259,
+   "leaid": "1602640",
+   "site": "https://www.sd25.us/",
+   "platform": {
+    "simbli": [
+     "36031884"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd25.us/district/board",
+    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031884",
+    "https://www.sd25.us/board",
+    "https://www.sd25.us/district/board/briefs",
+    "https://www.sd25.us/departments/communications/news-details/~board/district-25-governance/post/operating-principles",
+    "https://www.sd25.us/departments/communications/news-details/~board/pcsd-25-news/post/two-777s-for-the-giving-machine-initiative"
+   ],
+   "final": "https://www.sd25.us/",
+   "title": "Home - Pocatello-Chubbuck School District 25"
+  },
+  {
+   "name": "POST FALLS DISTRICT",
+   "city": "POST FALLS",
+   "county": "Kootenai County",
+   "enrollment": 6050,
+   "leaid": "1602670"
+  },
+  {
+   "name": "POTLATCH DISTRICT",
+   "city": "POTLATCH",
+   "county": "Latah County",
+   "enrollment": 480,
+   "leaid": "1602700"
+  },
+  {
+   "name": "PRAIRIE ELEMENTARY DISTRICT",
+   "city": "PRAIRIE",
+   "county": "Elmore County",
+   "enrollment": 5,
+   "leaid": "1602730"
+  },
+  {
+   "name": "RICHFIELD DISTRICT",
+   "city": "RICHFIELD",
+   "county": "Lincoln County",
+   "enrollment": 196,
+   "leaid": "1602760",
+   "site": "https://www.richfieldsd.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.richfieldsd.org/district/board-meetings",
+    "https://www.richfieldsd.org/district/board-of-trustees"
+   ],
+   "final": "https://www.richfieldsd.org/",
+   "title": "Richfield School #316"
+  },
+  {
+   "name": "RIRIE JOINT DISTRICT",
+   "city": "RIRIE",
+   "county": "Jefferson County",
+   "enrollment": 733,
+   "leaid": "1602790",
+   "site": "https://www.ririe252.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://sites.google.com/ririe252.org/ririeschooldistrict252/school-district/school-board"
+   ],
+   "final": "https://sites.google.com/ririe252.org/ririeschooldistrict252/home",
+   "title": "Ririe School District #252"
+  },
+  {
+   "name": "ROCKLAND DISTRICT",
+   "city": "ROCKLAND",
+   "county": "Power County",
+   "enrollment": 176,
+   "leaid": "1602820"
+  },
+  {
+   "name": "SALMON DISTRICT",
+   "city": "SALMON",
+   "county": "Lemhi County",
+   "enrollment": 683,
+   "leaid": "1602850",
+   "site": "https://www.salmon291.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://salmon291.org/en-US/school-board-33cc5142"
+   ],
+   "final": "https://www.salmon291.org/en-US",
+   "title": "Home - Salmon School District"
+  },
+  {
+   "name": "SHELLEY JOINT DISTRICT",
+   "city": "SHELLEY",
+   "county": "Bingham County",
+   "enrollment": 2509,
+   "leaid": "1602910",
+   "site": "https://www.shelleyschools.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.shelleyschools.org/school-board-business",
+     "Business School Board Business Board Meeting Agenda 2026 Regular School Board Meeting Schedule - Meetings are held at the Shelley High School -Library located 540 West Fir, Shelley, ID, 83274, on the third Wednesday of each month at 6:00 p."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://docs.google.com/document/d/1BptIz740yAVgin1u3iMfaH6kTpp0ceCMkkZIBMwOMJU/edit?usp=sharing",
+     "2026 Regular School Board Meeting Schedule"
+    ]
+   ],
+   "pages": [
+    "https://www.shelleyschools.org/school-board-business",
+    "https://www.shelleyschools.org/about-us",
+    "https://www.shelleyschools.org/85138"
+   ],
+   "final": "https://www.shelleyschools.org/",
+   "title": "Shelley School District - Home"
+  },
+  {
+   "name": "SHOSHONE JOINT DISTRICT",
+   "city": "SHOSHONE",
+   "county": "Lincoln County",
+   "enrollment": 525,
+   "leaid": "1602940",
+   "site": "https://www.shoshonesd.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://shoshonesd.org/board-of-trustees/",
+    "https://shoshonesd.org/school-board-meeting-tuesday-october-13-2026/",
+    "https://shoshonesd.org/school-board-meeting-tuesday-november-10-2026/",
+    "https://shoshonesd.org/about/",
+    "https://shoshonesd.org/agendas/"
+   ],
+   "final": "https://shoshonesd.org/",
+   "title": "Shoshone School District"
+  },
+  {
+   "name": "SNAKE RIVER DISTRICT",
+   "city": "BLACKFOOT",
+   "county": "Bingham County",
+   "enrollment": 2888,
+   "leaid": "1602970",
+   "site": "https://www.snakeriver.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.snakeriver.org/policies-and-procedures",
+     "Regularly scheduled meetings of the Snake River District #52 Board are typically held on the third Wednesday of each month, at 7:00 p."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://irp.cdn-website.com/68c89c0a/files/uploaded/Change+of+Scheduled+Meeting+Notice+01.22.2026.pdf",
+     "Change of January Scheduled Meeting"
+    ],
+    [
+     "https://irp.cdn-website.com/68c89c0a/files/uploaded/Change+of+Scheduled+Meeting+Notice+02.18.2026.pdf",
+     "Change Time-February Scheduled Meeting"
+    ],
+    [
+     "https://irp.cdn-website.com/68c89c0a/files/uploaded/Change+of+Scheduled+Meeting+Notice+04.15.2026.pdf",
+     "Change of April Scheduled Meeting"
+    ],
+    [
+     "https://irp.cdn-website.com/68c89c0a/files/uploaded/Change+of+Scheduled+Meeting+Notice+07.22.2026.pdf",
+     "Change of July Scheduled Meeting"
+    ],
+    [
+     "https://irp.cdn-website.com/68c89c0a/files/uploaded/Change+of+Scheduled+Meeting+Notice+11.18.2026.pdf",
+     "Change Location of November Meeting"
+    ]
+   ],
+   "pages": [
+    "https://www.snakeriver.org/board-meetings",
+    "https://www.snakeriver.org/policies-and-procedures"
+   ],
+   "final": "https://www.snakeriver.org/",
+   "title": "Snake River SD #52 | Idaho Farming Community School Info, Updates and Blog"
+  },
+  {
+   "name": "SODA SPRINGS JOINT DISTRICT",
+   "city": "SODA SPRINGS",
+   "county": "Caribou County",
+   "enrollment": 922,
+   "leaid": "1603000",
+   "site": "https://www.sodaschools.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sodaschools.org/apps/pages/index.jsp?uREC_ID=3792686&type=d&pREC_ID=2437038",
+    "https://www.sodaschools.org/apps/pages/index.jsp?uREC_ID=3792686&type=d&pREC_ID=2437709",
+    "https://www.sodaschools.org/apps/pages/index.jsp?uREC_ID=3792686&type=d&pREC_ID=2437769"
+   ],
+   "final": "https://www.sodaschools.org/",
+   "title": "Soda Springs Joint School District #150"
+  },
+  {
+   "name": "SOUTH LEMHI DISTRICT",
+   "city": "LEADORE",
+   "county": "Lemhi County",
+   "enrollment": 120,
+   "leaid": "1603030"
+  },
+  {
+   "name": "ST MARIES JOINT DISTRICT",
+   "city": "ST MARIES",
+   "county": "Benewah County",
+   "enrollment": 953,
+   "leaid": "1603060",
+   "site": "https://www.sd41.org/",
+   "platform": {
+    "simbli": [
+     "36031530"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd41.org/about-us/board-of-trustees",
+    "https://simbli.eboardsolutions.com/Index.aspx?S=36031530",
+    "https://www.sd41.org/about-us",
+    "https://www.sd41.org/about-us/directory",
+    "https://www.sd41.org/about-us/district-overview",
+    "https://www.sd41.org/about-us/financial-overview",
+    "https://www.sd41.org/about-us/financial-overview/agreements"
+   ],
+   "final": "https://www.sd41.org/",
+   "title": "Home - Saint Maries Joint School District 41"
+  },
+  {
+   "name": "SUGAR-SALEM JOINT DISTRICT",
+   "city": "SUGAR CITY",
+   "county": "Madison County",
+   "enrollment": 1972,
+   "leaid": "1603090",
+   "site": "https://www.sugarsalem.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sugarsalem.org/school-board",
+    "https://www.sugarsalem.org/school-board",
+    "https://www.sugarsalem.org/boardpolicyportal",
+    "https://www.sugarsalem.org/boardoftrustees1000",
+    "https://www.sugarsalem.org/boardcontracts",
+    "https://www.sugarsalem.org/missionvisionandvalues",
+    "https://www.sugarsalem.org/missionvisionandvalues"
+   ],
+   "final": "https://www.sugarsalem.org/",
+   "title": "Sugar Salem School District #322 - Home"
+  },
+  {
+   "name": "SWAN VALLEY ELEMENTARY DISTRICT",
+   "city": "IRWIN",
+   "county": "Bonneville County",
+   "enrollment": 67,
+   "leaid": "1603120",
+   "site": "https://www.sd92.k12.id.us/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "final": "https://www.sd92.k12.id.us/",
+   "title": "About Us - Swan Valley Elementary School"
+  },
+  {
+   "name": "TETON COUNTY DISTRICT",
+   "city": "DRIGGS",
+   "county": "Teton County",
+   "enrollment": 1878,
+   "leaid": "1603180"
+  },
+  {
+   "name": "THREE CREEK JOINT ELEMENTARY DISTRICT",
+   "city": "ROGERSON",
+   "county": "Owyhee County",
+   "enrollment": 4,
+   "leaid": "1603210"
+  },
+  {
+   "name": "TWIN FALLS DISTRICT",
+   "city": "TWIN FALLS",
+   "county": "Twin Falls County",
+   "enrollment": 9352,
+   "leaid": "1603240"
+  },
+  {
+   "name": "VALLEY DISTRICT",
+   "city": "HAZELTON",
+   "county": "Jerome County",
+   "enrollment": 531,
+   "leaid": "1603270"
+  },
+  {
+   "name": "WALLACE DISTRICT",
+   "city": "SILVERTON",
+   "county": "Shoshone County",
+   "enrollment": 512,
+   "leaid": "1603300"
+  },
+  {
+   "name": "WEISER DISTRICT",
+   "city": "WEISER",
+   "county": "Washington County",
+   "enrollment": 1559,
+   "leaid": "1603330",
+   "site": "https://www.weiserschools.org/",
+   "platform": {
+    "simbli": [
+     "36031399"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.weiserschools.org/board-of-trustees",
+    "https://www.weiserschools.org/board-of-trustees/board-vacancy-information",
+    "https://www.weiserschools.org/board-of-trustees/district-calendar",
+    "https://www.weiserschools.org/board-of-trustees/request-to-address-the-board",
+    "https://www.weiserschools.org/~board/wsd-news/post/we-have-a-new-number-youll-now-get-texts-from-97178",
+    "https://www.weiserschools.org/~board/wsd-news/post/lower-snake-river-retired-educators",
+    "https://www.weiserschools.org/~board/wsd-news/post/we-hope-you-enjoy-the-new-look-and-style"
+   ],
+   "final": "https://www.weiserschools.org/",
+   "title": "Home - Weiser School District 431"
+  },
+  {
+   "name": "WENDELL DISTRICT",
+   "city": "WENDELL",
+   "county": "Gooding County",
+   "enrollment": 1121,
+   "leaid": "1603360",
+   "site": "https://www.sd232.k12.id.us/",
+   "platform": {
+    "diligent": [
+     "sd232-k12.community.highbond.com"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.sd232.k12.id.us/schoolboard",
+    "https://www.sd232.k12.id.us/aboutus"
+   ],
+   "final": "https://www.sd232.k12.id.us/",
+   "title": "Home"
+  },
+  {
+   "name": "WEST JEFFERSON DISTRICT",
+   "city": "TERRETON",
+   "county": "Madison County",
+   "enrollment": 606,
+   "leaid": "1603400"
+  },
+  {
+   "name": "WEST SIDE JOINT DISTRICT",
+   "city": "DAYTON",
+   "county": "Franklin County",
+   "enrollment": 849,
+   "leaid": "1603420",
+   "site": "https://www.westside202.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://westside202.org/school-board/",
+     "on the second Monday of each month in the Dahle Media Center, inside Beutler Middle School, unless otherwise posted."
+    ],
+    [
+     "https://westside202.org/school-board/",
+     "(Special Meetings or those that are scheduled on a day other than the 2nd Monday of the month will be listed in BOLD ."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://westside202.org/school-board/"
+   ],
+   "final": "https://westside202.org/",
+   "title": "West Side School District 202 \u2013 The Mission of the West Side School District is to provide"
+  },
+  {
+   "name": "WILDER DISTRICT",
+   "city": "WILDER",
+   "county": "Canyon County",
+   "enrollment": 659,
+   "leaid": "1603480",
+   "site": "https://www.wilderschools.org/",
+   "platform": {
+    "simbli": [
+     "36031881"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.wilderschools.org/o/wilderschooldistrict133/page/title-ix-info"
+   ],
+   "final": "https://www.wilderschools.org/",
+   "title": "Home | Wilder School District 133"
+  }
+ ],
+ "libraries": [
+  {
+   "name": "Aberdeen District Library",
+   "county": "Bingham",
+   "city": "Aberdeen",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/aberdeen-district-library/",
+   "site": "https://aberdeen.lili.org",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://aberdeen.lili.org/board-meeting-agenda/",
+    "https://aberdeen.lili.org/board-members/",
+    "https://aberdeen.lili.org/board-meetings/",
+    "https://aberdeen.lili.org/about-us/"
+   ],
+   "final": "https://aberdeen.lili.org/",
+   "title": "Aberdeen District Library \u2013 Aberdeen District Library"
+  },
+  {
+   "name": "Ada Community Library - Hidden Springs Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-hidden-springs-branch/",
+   "site": "http://www.adalib.org/hiddensprings/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://adalib.org/hiddensprings/"
+  },
+  {
+   "name": "Ada Community Library - Lake Hazel Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-lake-hazel-branch/",
+   "site": "http://www.adalib.org/lakehazel/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://adalib.org/lakehazel/"
+  },
+  {
+   "name": "Ada Community Library - Star Branch",
+   "county": "Ada",
+   "city": "Star",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library-star-branch/",
+   "site": "http://www.adalib.org/star/",
+   "platform": {},
+   "sched": [
+    [
+     "https://adalib.org/board-of-trustees/",
+     "a Library Card Catalog & Account Collections Books & Reading Learning Events Contact Board of Trustees gholman 2026-04-16T16:47:02-06:00 Board of Trustees Board of Trustees The Ada Community Library Board of Trustees meets the third Tuesday of each month at 4:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://adalib.org/board-of-trustees/",
+    "https://adalib.org/"
+   ],
+   "final": "https://adalib.org/star-branch/",
+   "title": "Star Branch \u2013 Ada Community Library"
+  },
+  {
+   "name": "Ada Community Library",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ada-community-library/",
+   "site": "https://www.adalib.org",
+   "platform": {},
+   "sched": [
+    [
+     "https://adalib.org/board-of-trustees/",
+     "a Library Card Catalog & Account Collections Books & Reading Learning Events Contact Board of Trustees gholman 2026-04-16T16:47:02-06:00 Board of Trustees Board of Trustees The Ada Community Library Board of Trustees meets the third Tuesday of each month at 4:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://adalib.org/board-of-trustees/",
+    "https://adalib.org/"
+   ],
+   "final": "https://adalib.org/",
+   "title": "Ada Community Library \u2013 Dreams, Ideas and Information"
+  },
+  {
+   "name": "Ada Community Library - Victory Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ada-communnity-library-victory-branch/",
+   "site": "http://www.adalib.org/victory/",
+   "platform": {},
+   "sched": [
+    [
+     "https://adalib.org/board-of-trustees/",
+     "a Library Card Catalog & Account Collections Books & Reading Learning Events Contact Board of Trustees gholman 2026-04-16T16:47:02-06:00 Board of Trustees Board of Trustees The Ada Community Library Board of Trustees meets the third Tuesday of each month at 4:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://adalib.org/board-of-trustees/",
+    "https://adalib.org/"
+   ],
+   "final": "https://adalib.org/victory-branch/",
+   "title": "Victory Branch \u2013 Ada Community Library"
+  },
+  {
+   "name": "American Falls District Library",
+   "county": "Power",
+   "city": "American Falls",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/american-falls-district-library/",
+   "site": "http://www.aflibrary.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.aflibrary.org/board-meeting-11/",
+    "https://www.aflibrary.org/board-meeting-10/",
+    "https://www.aflibrary.org/about/",
+    "https://www.aflibrary.org/about/closure-dates/",
+    "https://www.aflibrary.org/about/community-room-information/",
+    "https://www.aflibrary.org/about/hours-directions/",
+    "https://www.aflibrary.org/about/get-a-library-card/"
+   ],
+   "final": "https://www.aflibrary.org/",
+   "title": "AMERICAN FALLS DISTRICT LIBRARY | 308 Roosevelt Street, (208) 226-2335"
+  },
+  {
+   "name": "Armoral Tuttle Public Library",
+   "county": "Payette",
+   "city": "New Plymouth",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/armoral-tuttle-public-library/",
+   "site": "http://newplymouth.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://newplymouth.lili.org/library-information/board-of-trustees/"
+   ],
+   "final": "https://newplymouth.lili.org/",
+   "title": "Armoral Tuttle Public Library \u2013 Welcome To Armoral Tuttle Public Library"
+  },
+  {
+   "name": "Bear Lake County District Library",
+   "county": "Bear Lake",
+   "city": "Montpelier",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/bear-lake-county-district-library/",
+   "site": "https://bearlake.lili.org",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://bearlake.lili.org/about-us/board-of-trustees/",
+    "https://bearlake.lili.org/board-meeting/",
+    "https://bearlake.lili.org/board-bylaws/",
+    "https://bearlake.lili.org/about-us/",
+    "https://bearlake.lili.org/about-us/our-mission-statement/",
+    "https://bearlake.lili.org/about-us/library-rules/",
+    "https://bearlake.lili.org/about-us/internet-computer-use-policy/"
+   ],
+   "final": "https://bearlake.lili.org/",
+   "title": "Bear Lake County Library District \u2013 Preserving Yesterday\u2026Enriching Today\u2026Inspiring Tomorro"
+  },
+  {
+   "name": "Bellevue Public Library",
+   "county": "Blaine",
+   "city": "Bellevue",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/bellevue-public-library/",
+   "site": "http://bellevue.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://bellevue.lili.org/about-us/board-of-trustees/",
+    "https://bellevue.lili.org/library-board-agenda-5-17-26/",
+    "https://bellevue.lili.org/about-us/",
+    "https://bellevue.lili.org/about-us/library-policies/",
+    "https://bellevue.lili.org/about-us/friends-of-the-library/"
+   ],
+   "final": "https://bellevue.lili.org/",
+   "title": "Bellevue Public Library \u2013 Welcome to the Bellevue Public Library"
+  },
+  {
+   "name": "Benewah County District Library - Tensed Branch",
+   "county": "Benewah",
+   "city": "Tensed",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/benewah-county-district-library-tensed-branch/",
+   "site": "http://tensed.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://tensed.lili.org/about-us/friends-of-the-library/",
+     "vices Newsletter About Us Friends of The Library Board of Trustees Policies Hours & Directions Contact Us Board Meeting Agendas and Minutes Friends of The Library Friends of the Tensed DeSmet Library meet the first weekend of May each year to pick up litter from a mile long section of Highway 95 that passes right through the center of Tensed."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://tensed.lili.org/about-us/board-of-trustees/",
+    "https://tensed.lili.org/about-us/",
+    "https://tensed.lili.org/about-us/friends-of-the-library/",
+    "https://tensed.lili.org/about-us/policies/",
+    "https://tensed.lili.org/meeting-agendas-2024/"
+   ],
+   "final": "https://tensed.lili.org/",
+   "title": "Tensed DeSmet Library \u2013 Welcome to Tensed DeSmet Library"
+  },
+  {
+   "name": "Benewah County District Library - Myrtle Mellen Upriver Community Library",
+   "county": "Benewah",
+   "city": "Fernwood",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/benewah-county-district-library-tri-community/",
+   "site": "http://tricommunity.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://tricommunity.lili.org/about-us/friends-of-the-library/",
+     "The Friends meet the third Monday of every other month, beginning with January."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://tricommunity.lili.org/wp-content/uploads/sites/81/2026/01/Agenda-January-15-2026-Special-Meeting.pdf",
+     "Special meeting Agenda for Jan 19th, 2026 (Rescheduled from the 15th)"
+    ]
+   ],
+   "pages": [
+    "https://tricommunity.lili.org/about-us/board-of-trustees/",
+    "https://tricommunity.lili.org/home/board-meeting-minutes/",
+    "https://tricommunity.lili.org/board-meeting-minutes/",
+    "https://tricommunity.lili.org/about-us/",
+    "https://tricommunity.lili.org/about-us/friends-of-the-library/",
+    "https://tricommunity.lili.org/about-us/meet-our-staff/",
+    "https://tricommunity.lili.org/about-us/policies/"
+   ],
+   "final": "https://tricommunity.lili.org/",
+   "title": "The Myrtle Mellen UpRiver Community Library \u2013 Welcome to The UpRiver Library"
+  },
+  {
+   "name": "Blackfoot Public Library",
+   "county": "Bingham",
+   "city": "Blackfoot",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/blackfoot-public-library/",
+   "site": "http://blackfootlibrary.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://blackfootlibrary.org/",
+     "read more Lucy\u2019s Ladies Book Club Join Lucy\u2019s Ladies! Looking for a fun and welcoming book club? Lucy\u2019s Ladies Book Club meets on the first Thursday of every month at 6:45 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://blackfootlibrary.org/boards-committees/",
+    "https://blackfootlibrary.org/lawyers-all-applications-for-inheritance-must-now-be-filed-with-the-court/"
+   ],
+   "final": "https://blackfootlibrary.org/",
+   "title": "blackfootlibrary.org"
+  },
+  {
+   "name": "Boise Basin Library District",
+   "county": "Boise",
+   "city": "Idaho City",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-basin-library-district/",
+   "site": "https://boisebasin.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://boisebasin.lili.org/about-us/board-of-trustees/",
+     "Catalog About Us Board of Trustees & Monthly Agenda Board Meeting Minutes Hours & Directions eBooks eBook How To Free eBook Resources Contact Us Search The library Board of Trustees meet @ 4:30pm the 3rd Wednesday of each month in the library community room."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://boisebasin.lili.org/about-us/board-of-trustees/",
+    "https://boisebasin.lili.org/board-meeting-minutes/",
+    "https://boisebasin.lili.org/about-us/"
+   ],
+   "final": "https://boisebasin.lili.org/",
+   "title": "Boise Basin Library District \u2013 Welcome to Boise Basin Library District"
+  },
+  {
+   "name": "Boise Public Library - Bown Crossing Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-bown-crossing-branch/"
+  },
+  {
+   "name": "Boise Public Library - Cole & Ustick Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-cole-ustick-branch/"
+  },
+  {
+   "name": "Boise Public Library - Collister Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-collister-branch/"
+  },
+  {
+   "name": "Boise Public Library - Hillcrest Branch",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library-hillcrest-branch/"
+  },
+  {
+   "name": "Boise Public Library",
+   "county": "Ada",
+   "city": "Boise",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boise-public-library/",
+   "site": "http://www.boisepubliclibrary.org",
+   "platform": {
+    "libcal": [
+     "boisepubliclibrary.libcal.com"
+    ]
+   },
+   "sched": [
+    [
+     "https://www.boisepubliclibrary.org/",
+     "12 Read More Boise Public Library Board of Trustees Sets Meeting Schedule and Locations for Year The Boise Public Library Board of Trustees set their fiscal year 2027 meetings to be held on the second Wednesday of each month at 11:30 a."
+    ],
+    [
+     "https://www.boisepubliclibrary.org/about-us/board-of-trustees/",
+     "FY2027 Library Board Meeting Schedule The regular Board of Trustees meeting is scheduled for the second Wednesday of each month at 11:30 a."
+    ],
+    [
+     "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+     "ibrary Board of Trustees Sets Meeting Schedule and Locations for Year October 6, 2026 12:05 PM BOISE \u2014 The Boise Public Library Board of Trustees set their fiscal year 2027 meetings to be held on the second Wednesday of each month at 11:30 a."
+    ]
+   ],
+   "pdfs": [
+    [
+     "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+     "Boise Public Library Board of Trustees Sets Meeting Schedule and Locations for Y"
+    ]
+   ],
+   "pages": [
+    "https://www.boisepubliclibrary.org/about-us/board-of-trustees/",
+    "https://www.boisepubliclibrary.org/news/boise-public-library-board-of-trustees-sets-meeting-schedule-and-locations-for-year/",
+    "https://www.boisepubliclibrary.org/books-plus-more/obituaries-and-local-history/",
+    "https://www.boisepubliclibrary.org/using-the-library/library-cards/",
+    "https://www.boisepubliclibrary.org/using-the-library/meeting-rooms/",
+    "https://www.boisepubliclibrary.org/about-us/",
+    "https://www.boisepubliclibrary.org/about-us/strategic-planning/"
+   ],
+   "final": "https://www.boisepubliclibrary.org/",
+   "title": "Home | Boise Public Library"
+  },
+  {
+   "name": "Boundary County District Library",
+   "county": "Boundary",
+   "city": "Bonners Ferry",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/boundary-county-district-library/",
+   "site": "http://www.boundarycountylibrary.com/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://www.boundarycountylibrary.com/contact-board-info"
+   ],
+   "final": "https://www.boundarycountylibrary.com/",
+   "title": "Home | New"
+  },
+  {
+   "name": "Bruneau District Library",
+   "county": "Owyhee",
+   "city": "Bruneau",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/bruneau-district-library/"
+  },
+  {
+   "name": "Buhl Public Library",
+   "county": "Twin Falls",
+   "city": "Buhl",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/buhl-public-library/",
+   "site": "https://buhlpubliclibrary.org",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "final": "https://www.buhlpubliclibrary.org",
+   "title": "Main | Buhl Public Library"
+  },
+  {
+   "name": "Burley Public Library",
+   "county": "Cassia",
+   "city": "Burley",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/burley-public-library/",
+   "site": "https://www.bplibrary.org/",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.bplibrary.org (SSLError), so nothing was fetched"
+  },
+  {
+   "name": "Caldwell Public Library",
+   "county": "Canyon",
+   "city": "Caldwell",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/caldwell-public-library/",
+   "site": "https://www.caldwellpubliclibrary.org/",
+   "platform": {},
+   "sched": [
+    [
+     "https://www.caldwellpubliclibrary.org/board-of-trustees",
+     "Monthly meetings of the Caldwell Public Library Board of Directors are regularly scheduled on the third Thursday of every month at 12:00 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://www.caldwellpubliclibrary.org/board-of-trustees",
+    "https://www.caldwellpubliclibrary.org/copy-of-meeting-rooms"
+   ],
+   "final": "https://www.caldwellpubliclibrary.org/",
+   "title": "Caldwell Public Library | caldwell-library"
+  },
+  {
+   "name": "Camas County District Library",
+   "county": "Camas",
+   "city": "Fairfield",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/camas-county-district-library/",
+   "site": "http://camas.lili.org",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://camas.lili.org/about-us/board-of-trustees/",
+     "You are here: Home / About Us / Board of Trustees Board of Trustees Connie Reagan Chair Sharon Lee Vice-Chair Victoria Miller Secretary Janet Dennis Roxane Olson Stephanie Jewett Library Director The Board of Trustees meets the 4th Monday of the month, at 5pm in the Library Meeting Room."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://camas.lili.org/about-us/board-of-trustees/",
+    "https://camas.lili.org/book-discussion-group/",
+    "https://camas.lili.org/about-us/",
+    "https://camas.lili.org/about-us/hours-directions/",
+    "https://camas.lili.org/about-us/library-foundation/",
+    "https://camas.lili.org/about-us/policies/"
+   ],
+   "final": "https://camas.lili.org/",
+   "title": "Camas County Public Library \u2013 Imagine, Explore, Discover"
+  },
+  {
+   "name": "Cambridge Community Library",
+   "county": "Washington",
+   "city": "Cambridge",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/cambridge-community-library/",
+   "site": "http://cambridge.lili.org",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://cambridge.lili.org/about-us/board-of-trustees/",
+    "https://cambridge.lili.org/about-us/",
+    "https://cambridge.lili.org/about-us/friends-of-the-library/",
+    "https://cambridge.lili.org/about-us/policies/"
+   ],
+   "final": "https://cambridge.lili.org/",
+   "title": "Cambridge Community Library \u2013 Welcome to Cambridge Community Library"
+  },
+  {
+   "name": "Cascade Public Library",
+   "county": "Valley",
+   "city": "Cascade",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/cascade-public-library/",
+   "site": "http://cascade.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://cascade.lili.org/board-meeting-minutes-agendas/",
+     "nda & Minutes Archive 2021 Meeting Agenda & Minutes Archive 2020 Meeting Agendas & Minutes Archive 2019 Meeting Agendas & Minutes Archive 2018 Meeting Agendas & Minutes Archive Cascade Public Library regular meetings are held at the Cascade Library or via Zoom."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://cascade.lili.org/board-meeting-minutes-agendas/",
+    "https://cascade.lili.org/board/",
+    "https://cascade.lili.org/board-meeting-minutes-agendas/expansion-committee-agenda-and-minutes/",
+    "https://cascade.lili.org/about-us/",
+    "https://cascade.lili.org/about-us/library-membership/",
+    "https://cascade.lili.org/2024-agenda-and-minutes/",
+    "https://cascade.lili.org/about-us/blog-posts/"
+   ],
+   "final": "https://cascade.lili.org/",
+   "title": "Cascade Public Library"
+  },
+  {
+   "name": "Challis Public Library",
+   "county": "Custer",
+   "city": "Challis",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/challis-public-library/",
+   "site": "http://challis.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://challis.lili.org/board/",
+    "https://challis.lili.org/aboutus/"
+   ],
+   "final": "https://challis.lili.org/",
+   "title": "Challis Public Library \u2013 Welcome to the Challis Public Library!"
+  },
+  {
+   "name": "Clark County District Library",
+   "county": "Clark",
+   "city": "Dubois",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/clark-county-district-library/",
+   "site": "http://clarkcounty.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://clarkcounty.lili.org/about/trustees/",
+     "& Directions Contact Us Board of Trustees Board Members Alice Tweedie, Chairman Jaci Furey, Vice Chair Diana Jacobson, Secretary BJ Adams Jeanette Korrell (Amy Hymas \u2013 Bookkeeper) Board Meetings The Board of Trustees meets the first Tuesday of each month (except September and December) at 5:15 p."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://clarkcounty.lili.org/about/trustees/",
+    "https://clarkcounty.lili.org/about/",
+    "https://clarkcounty.lili.org/agendas/"
+   ],
+   "final": "https://clarkcounty.lili.org/",
+   "title": "Clark County Library \u2013 Welcome to Clark County Library!"
+  },
+  {
+   "name": "Clarkia District Library",
+   "county": "Shoshone",
+   "city": "Clarkia",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/clarkia-district-library/",
+   "site": "https://clarkia.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [],
+   "pdfs": [],
+   "pages": [
+    "https://clarkia.lili.org/about-us/board-of-trustees/",
+    "https://clarkia.lili.org/board-meetings/",
+    "https://clarkia.lili.org/about-us/"
+   ],
+   "final": "https://clarkia.lili.org/",
+   "title": "Clarkia District Library"
+  },
+  {
+   "name": "Clearwater County District Library",
+   "county": "Clearwater",
+   "city": "Weippe",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/clearwater-county-district-library/",
+   "site": "https://ccfldatweippe.lili.org/",
+   "platform": {
+    "tribe": [
+     "tribe-events"
+    ]
+   },
+   "sched": [
+    [
+     "https://ccfldatweippe.lili.org/about-us/board-of-trustees/",
+     "4058 Election Candidate Forms 2025 CCFLD Board Meetings Board meetings are held at alternating locations (between Weippe and Orofino, please contact district clerk for location) on the second Tuesday of each month at 5:00pm."
+    ],
+    [
+     "https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas/",
+     "Board meetings are held at alternating locations on the second Tuesday of each month at 5:00pm; at either the District Library in Weippe or the Conference room at Clearwater Memorial Library in Orofino."
+    ]
+   ],
+   "pdfs": [],
+   "pages": [
+    "https://ccfldatweippe.lili.org/about-us/board-of-trustees/",
+    "https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas/",
+    "https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-minutes/",
+    "https://ccfldatweippe.lili.org/about-us/lending-policies/",
+    "https://ccfldatweippe.lili.org/about-us/",
+    "https://ccfldatweippe.lili.org/about-us/friends-of-the-weippe-library/",
+    "https://ccfldatweippe.lili.org/about-us/our-history/"
+   ],
+   "final": "https://ccfldatweippe.lili.org/",
+   "title": "Clearwater Co. Free Library District"
+  },
+  {
+   "name": "Coeur d'Alene Public Library",
+   "county": "Kootenai",
+   "city": "Coeur d'Alene",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/coeur-dalene-public-library/",
+   "site": "http://www.cdalibrary.org",
+   "platform": {},
+   "sched": [],
+   "pdfs": [],
+   "pages": [],
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.cdalibrary.org (server error 522), so nothing was fetched"
+  },
+  {
+   "name": "Community Library Network - Athol Branch",
+   "county": "Kootenai",
+   "city": "Athol",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-athol-branch/"
+  },
+  {
+   "name": "Community Library Network - Harrison Branch",
+   "county": "Kootenai",
+   "city": "Harrison",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-harrison-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-hayden-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-pinehurst-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-post-falls-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-rathdrum-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network-spirit-lake-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/community-library-network/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/council-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/demary-memorial-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/donnelly-public-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/eagle-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district-bookmobile/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district-clark-fork/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/east-bonner-county-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/eastern-owyhee-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/elk-river-free-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/emmett-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/filer-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/franklin-co-district-larsen-sant-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-ashton-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-island-park-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library-st-anthony-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/fremont-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/garden-city-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/garden-valley-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/glenns-ferry-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/gooding-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/grace-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/grangeville-centennial-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/hagerman-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/hailey-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/hansen-community-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/homedale-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/horseshoe-bend-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library-iona-community-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library-swan-valley-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/idaho-falls-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library-hamer-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library-heart-of-the-valley-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/jefferson-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/jerome-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/kellogg-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/kimberly-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/kuna-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-bovill-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-deary-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-genesee-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-juliaetta-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-potlatch-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district-troy-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/latah-county-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lemhi-county-district-library-leadore-community-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lemhi-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lewiston-city-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lewisville-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/little-wood-river-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lizard-butte-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lost-rivers-district-library-howe-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/lost-rivers-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/mackay-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/madison-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/marshall-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/mccall-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/meadows-valley-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/meridian-library-district-silverstone-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/meridian-library-district/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/middleton-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/midvale-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/mountain-home-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/mullan-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/nampa-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/north-bingham-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/notus-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/oakley-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/ola-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/oneida-county-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/osburn-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/patricia-romanko-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/payette-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/pierce-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/plummer-public-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/portneuf-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-district-library/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-craigmont-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-culdesac-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district-kamiah-branch/"
+  },
+  {
+   "name": "Your access to this site has been limited by the site owner",
+   "county": "",
+   "city": "",
+   "listing": "https://libraries.idaho.gov/idaho-library-directory/listing/prairie-river-library-district/"
+  }
+ ]
 }
