@@ -2,4 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Benewah County
+BEGIN:VEVENT
+UID:d3623d209a30@civicsid
+DTSTAMP:20261123T063435Z
+DTSTART:20270106T010000Z
+DTEND:20270106T020000Z
+SUMMARY:Library Board of Trustees (Plummer Public Library)
+LOCATION:Plummer Public Library
+URL:https://plummer.lili.org/about-us/board-of-trustees/
+END:VEVENT
 END:VCALENDAR

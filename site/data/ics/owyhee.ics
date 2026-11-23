@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Owyhee County
 BEGIN:VEVENT
 UID:ca8ee93ed1ec@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20261123T160000Z
 DTEND:20261123T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -13,7 +13,7 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:b6349e89e11f@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20261207T160000Z
 DTEND:20261207T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -22,7 +22,7 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:4bfd3fafef1a@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART;VALUE=DATE:20261208
 SUMMARY:Board of Trustees Regular Meeting (Bruneau-Grand View Joint School 
  District 365)
@@ -31,7 +31,7 @@ URL:https://www.sd365.us/board-trustees
 END:VEVENT
 BEGIN:VEVENT
 UID:2984267f9be6@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -39,8 +39,16 @@ LOCATION:Courtroom No. 2\, Owyhee County Courthouse\, Murphy
 URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:9bfb16185c12@civicsid
+DTSTAMP:20261123T063435Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Library Board of Trustees (Eastern Owyhee County Library District)
+LOCATION:Eastern Owyhee County Library\, Grand View
+URL:https://eastowyhee.lili.org/about-us/board-of-trustees/
+END:VEVENT
+BEGIN:VEVENT
 UID:446a3624b2b3@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20261221T160000Z
 DTEND:20261221T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -49,7 +57,7 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:87039a2d02b6@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -58,7 +66,7 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:1a3844a2b95b@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20270104T160000Z
 DTEND:20270104T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -67,7 +75,7 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:ce773ccadab2@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20270111T160000Z
 DTEND:20270111T170000Z
 SUMMARY:Board of County Commissioners (Owyhee County)
@@ -76,11 +84,19 @@ URL:https://owyheecounty.net/commissioners/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:e330beb3a685@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART;VALUE=DATE:20270112
 SUMMARY:Board of Trustees Regular Meeting (Bruneau-Grand View Joint School 
  District 365)
 LOCATION:District board room
 URL:https://www.sd365.us/board-trustees
+END:VEVENT
+BEGIN:VEVENT
+UID:2241aaec4894@civicsid
+DTSTAMP:20261123T063435Z
+DTSTART;VALUE=DATE:20270119
+SUMMARY:Library Board of Trustees (Eastern Owyhee County Library District)
+LOCATION:Eastern Owyhee County Library\, Grand View
+URL:https://eastowyhee.lili.org/about-us/board-of-trustees/
 END:VEVENT
 END:VCALENDAR

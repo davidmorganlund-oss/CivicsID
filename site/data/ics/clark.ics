@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Clark County
 BEGIN:VEVENT
 UID:749525e9ec9a@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:Clark County Commissioners Special Meeting\, 4-H Extension Hiring (
  Clark County)
@@ -13,7 +13,7 @@ URL:https://www.clark-co.id.gov/AgendaCenter
 END:VEVENT
 BEGIN:VEVENT
 UID:961b24b8dac6@civicsid
-DTSTAMP:20261123T062515Z
+DTSTAMP:20261123T063435Z
 DTSTART:20270106T001500Z
 DTEND:20270106T011500Z
 SUMMARY:Library Board of Trustees (Clark County District Library)
