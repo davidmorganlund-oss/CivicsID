@@ -1,1039 +1,323 @@
 {
- "Bonneville 93": [
-  {
-   "url": "https://www.d93schools.org/",
-   "final": "https://www.d93schools.org/",
-   "platform": {
-    "meetingmanager": [
-     "tylerapp"
-    ]
-   },
-   "board_links": [
-    "https://www.d93schools.org/school-board",
-    "https://www.d93schools.org/board-meetings",
-    "https://www.d93schools.org/board-meeting-schedule",
-    "https://www.d93schools.org/board-packet-items-schedule",
-    "https://www.d93schools.org/upcoming-meeting-agenda",
-    "https://www.d93schools.org/board-minutes",
-    "https://www.d93schools.org/watch-meetings",
-    "https://www.d93schools.org/request-to-appear",
-    "https://www.d93schools.org/board-policies",
-    "https://www.d93schools.org/boardpolicies"
-   ],
-   "sub": [
-    {
-     "url": "https://www.d93schools.org/school-board",
-     "platform": {
-      "boardbook": [
-       "meetings.boardbook.org/Public/Organization/1349"
-      ],
-      "meetingmanager": [
-       "tylerapp"
-      ]
-     },
-     "sched": [
-      " &nbsp; Join Virtually: All regular board meetings are broadcast online via live stream."
-     ]
-    },
-    {
-     "url": "https://www.d93schools.org/board-meetings",
-     "platform": {
-      "meetingmanager": [
-       "tylerapp"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.d93schools.org/board-meeting-schedule",
-     "platform": {
-      "meetingmanager": [
-       "tylerapp"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.d93schools.org/board-packet-items-schedule",
-     "platform": {
-      "meetingmanager": [
-       "tylerapp"
-      ]
-     },
-     "sched": []
-    }
+ "simbli middleton": {
+  "n": 0,
+  "sample": []
+ },
+ "simbli emmett": {
+  "n": 1,
+  "sample": [
+   [
+    "2026-11-23T17:00",
+    "Special Meeting with Executive Session",
+    ""
    ]
-  }
- ],
- "Vallivue 139": [
-  {
-   "url": "https://www.vallivue.org/",
-   "final": "https://www.vallivue.org/",
-   "platform": {
-    "edlio": [
-     "Edlio",
-     "edlio"
-    ]
-   },
-   "board_links": [
-    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1439315",
-    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353187",
-    "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353174"
+  ]
+ },
+ "simbli lewiston": {
+  "n": 0,
+  "sample": []
+ },
+ "simbli fremont": {
+  "n": 0,
+  "sample": []
+ },
+ "simbli caldwell": {
+  "n": 0,
+  "sample": []
+ },
+ "boardbook bonneville93": {
+  "n": 320,
+  "sample": [
+   [
+    "2026-11-18T11:30",
+    "Amended Work Meeting",
+    "PLC Building, 3442 E Iona Rd"
    ],
-   "sub": [
-    {
-     "url": "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1439315",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353187",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1198115&type=d&pREC_ID=1353174",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Kuna 3": [
-  {
-   "url": "https://www.kunaschools.org/",
-   "final": "https://www.kunaschools.org/",
-   "platform": {},
-   "board_links": [
-    "https://www.kunaschools.org/51068_2",
-    "https://www.kunaschools.org/boardhome",
-    "https://www.kunaschools.org/boardagendas",
-    "https://www.kunaschools.org/76673_3",
-    "https://www.kunaschools.org/trusteeelection",
-    "https://www.kunaschools.org/dist/assets/PostFeedComponent-DxVwAoOp.js",
-    "https://www.kunaschools.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=94257375",
-    "https://www.kunaschools.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=92529247"
+   [
+    "2026-11-14T10:00",
+    "Special Meeting/Executive Session",
+    "District Office, 3497 N Ammon Rd"
    ],
-   "sub": [
-    {
-     "url": "https://www.kunaschools.org/51068_2",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.kunaschools.org/boardhome",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.kunaschools.org/boardagendas",
-     "platform": {},
-     "sched": [
-      "ere the Board needs to address issues not on the agenda, the agenda may in good faith be modified either before or at a regular meeting.",
-      " View regular Board Meetings via live-stream on our YouTube Channel."
-     ]
-    },
-    {
-     "url": "https://www.kunaschools.org/76673_3",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Twin Falls 411": [
-  {
-   "url": "https://www.tfsd.org/",
-   "final": "https://www.tfsd.org/",
-   "platform": {
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ],
-    "meetingmanager": [
-     "tylerapp"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://www.tfsd.org/page/school-board"
+   [
+    "2026-10-28T11:30",
+    "Amended Special Work Meeting/Executive Session",
+    "PLC Building, 3442 E Iona Rd"
    ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    },
-    {
-     "url": "https://www.tfsd.org/page/school-board",
-     "platform": {
-      "meetingmanager": [
-       "tylerapp"
-      ]
-     },
-     "sched": []
-    }
-   ]
-  }
- ],
- "Caldwell 132": [
-  {
-   "url": "https://www.caldwellschools.org/",
-   "final": "https://www.caldwellschools.org/",
-   "platform": {
-    "simbli": [
-     "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031513",
-     "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031513"
-    ],
-    "edlio": [
-     "Edlio",
-     "edlio"
-    ]
-   },
-   "board_links": [
-    "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
-    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031513&ptid=yH5CtcrH538rrI0VwdB78g==",
-    "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=2407237",
-    "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031513&revid=hHRFA3uYVigcDnlslshDtwtsQ==&ptid=yH5CtcrH538rrI0VwdB78g==&secid=TM1VkPKkp8lnePumws8B4w==&PG=6&IRP=0&isPndg=false",
-    "https://www.caldwellschools.org/apps/events/2026/11/23/60816664/?REC_ID=60816664&id=0&d=2026-11-23",
-    "https://simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031513&revid=2fLU6v5BDGsmfiFslshdVuydw%3d%3d&ptid=yH5CtcrH538rrI0VwdB78g%3d%3d&secid=TM1VkPKkp8lnePumws8B4w%3d%3d&PG=6&IRP=0&isPndg=false"
+   [
+    "2026-10-01T19:00",
+    "Special Meeting/Executive Session",
+    "District Office, 3497 N Ammon Rd"
    ],
-   "sub": [
-    {
-     "url": "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=979297",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36031513",
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031513",
-       "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031513"
-      ],
-      "boarddocs": [
-       "go.boarddocs.com/id/csd132/Board.nsf/Public?open&id=policies#"
-      ]
-     },
-     "sched": [
-      "ndas Link opens in a new window Board Meeting Recordings School Board Public Comments Board Report - Summary of Monthly Regular Meeting School Board Zones 2015 - 2023 Board Meetings Policies Link opens in a new window Caldwell School District 1200 Grant St."
-     ]
-    },
-    {
-     "url": "https://www.caldwellschools.org/apps/pages/index.jsp?uREC_ID=453519&type=d&pREC_ID=2407237",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36031513",
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031513",
-       "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36031513"
-      ],
-      "boarddocs": [
-       "go.boarddocs.com/id/csd132/Board.nsf/Public?open&id=policies#"
-      ]
-     },
-     "sched": [
-      "ndas Link opens in a new window Board Meeting Recordings School Board Public Comments Board Report - Summary of Monthly Regular Meeting School Board Zones 2015 - 2023 Board Meetings Policies Link opens in a new window Caldwell School District 1200 Grant St."
-     ]
-    }
-   ]
-  }
- ],
- "Madison 321": [
-  {
-   "url": "https://www.msd321.com/",
-   "final": "https://www.msd321.com/",
-   "platform": {
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://skyward.iscorp.com/MadisonSD321IDBus/ApplicantTracking/JobBoard/ViewJobPostings"
+   [
+    "2026-09-09T19:00",
+    "Regular Meeting",
+    "District Office, 3497 N Ammon Rd"
    ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    },
-    {
-     "url": "https://skyward.iscorp.com/MadisonSD321IDBus/ApplicantTracking/JobBoard/ViewJobPostings",
-     "platform": {},
-     "sched": []
-    }
+   [
+    "2026-09-09T17:30",
+    "Amended Work Meeting",
+    "District Office, 3497 N Ammon Rd"
    ]
-  }
- ],
- "Lakeland 272": [
-  {
-   "url": "https://www.lakelandsd.org/",
-   "final": "https://www.lakelandsd.org/",
-   "platform": {
-    "edlio": [
-     "Edlio",
-     "edlio"
-    ]
-   },
-   "board_links": [
-    "javascript:;",
-    "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=943404",
-    "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=943403",
-    "https://4.files.edl.io/7e94/01/06/26/151847-e20ada8b-185f-455a-9bc4-f3cf5758e1dc.pdf",
-    "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=1108463",
-    "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=2118147",
-    "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d"
+  ]
+ },
+ "boardbook minidoka331": {
+  "n": 707,
+  "sample": [
+   [
+    "2026-11-16T19:00",
+    "Regular Meeting",
+    "District Service Center, 310 10th Street"
    ],
-   "sub": [
-    {
-     "url": "javascript:;",
-     "error": "couldn't read robots.txt at  (InvalidSchema), so nothing was fetched"
-    },
-    {
-     "url": "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=943404",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=434125&type=d&pREC_ID=943403",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://4.files.edl.io/7e94/01/06/26/151847-e20ada8b-185f-455a-9bc4-f3cf5758e1dc.pdf",
-     "error": "robots.txt at 4.files.edl.io asks automated readers not to read /7e94/01/06/26/151847-e20ada8b-185f-"
-    }
-   ]
-  }
- ],
- "Post Falls 273": [
-  {
-   "url": "https://www.pfsd.com/",
-   "final": "https://www.pfsd.com/",
-   "platform": {
-    "finalsite": [
-     "Finalsite",
-     "finalsite"
-    ]
-   },
-   "board_links": [
-    "https://www.pfsd.com/board-of-trustees",
-    "https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices",
-    "https://www.pfsd.com/board-of-trustees/board-of-trustees-agendas",
-    "https://www.pfsd.com/board-of-trustees/board-of-trustees-zone-maps",
-    "https://www.pfsd.com/board-of-trustees/board-of-trustees-policy-manual",
-    "https://www.pfsd.com/fs/resource-manager/view/8080c7f4-5a8a-480a-9129-3e56f5d9c006"
+   [
+    "2026-11-04T08:00",
+    "ISBA Convention",
+    "District Service Center, 310 10th Street"
    ],
-   "sub": [
-    {
-     "url": "https://www.pfsd.com/board-of-trustees",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices",
-     "platform": {},
-     "sched": [
-      "tees Policy Manual Home &gt; Board of Trustees &gt; Board of Trustees Meeting Notices Board Meeting Notices Schedule of Regular Board Meetings 2026 Special Meeting -&nbsp;Board Workshop 11.",
-      "25 Schedule of Regular Board Meetings 2025 January Regular Meeting and Annual Reorganization 1."
-     ]
-    },
-    {
-     "url": "https://www.pfsd.com/board-of-trustees/board-of-trustees-agendas",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.pfsd.com/board-of-trustees/board-of-trustees-zone-maps",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Middleton 134": [
-  {
-   "url": "https://www.msd134.org/",
-   "final": "https://www.msd134.org/",
-   "platform": {
-    "simbli": [
-     "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030890",
-     "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36030890",
-     "simbli.eboardsolutions.com/sb_epolicy/sb_policyoverview.aspx?s=36030890"
-    ],
-    "finalsite": [
-     "Finalsite",
-     "finalsite"
-    ]
-   },
-   "board_links": [
-    "https://simbli.eboardsolutions.com/sb_epolicy/sb_policyoverview.aspx?s=36030890",
-    "https://www.msd134.org/school-board",
-    "https://www.msd134.org/school-board/board-of-trustees",
-    "https://www.msd134.org/school-board/meetings",
-    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030890",
-    "https://www.msd134.org/school-board/trustee-zone-descriptions",
-    "https://www.msd134.org/school-board/trustee-zone-map",
-    "https://msd134.sjc1.qualtrics.com/public-dashboard/v0/dashboard/web/651ec6caddb10300085b3fa8/pages/Page_83408317-3f1e-4b7b-974d-5cb9254f271b?language=EN",
-    "https://skyward.iscorp.com/MiddletonSD134IDSky/ApplicantTracking/JobBoard/ViewJobPostings",
-    "https://www.youtube.com/@msdboardmeeting6894"
+   [
+    "2026-10-19T19:00",
+    "Regular Meeting",
+    "District Service Center, 310 10th Street"
    ],
-   "sub": [
-    {
-     "url": "https://www.msd134.org/school-board",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030890",
-       "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36030890",
-       "simbli.eboardsolutions.com/sb_epolicy/sb_policyoverview.aspx?s=36030890"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.msd134.org/school-board/board-of-trustees",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030890",
-       "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36030890",
-       "simbli.eboardsolutions.com/sb_epolicy/sb_policyoverview.aspx?s=36030890"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.msd134.org/school-board/meetings",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36030890",
-       "simbli.eboardsolutions.com/Policy/ViewPolicy.aspx?S=36030890",
-       "simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36030890",
-       "simbli.eboardsolutions.com/sb_epolicy/sb_policyoverview.aspx?s=36030890"
-      ]
-     },
-     "sched": []
-    }
-   ]
-  }
- ],
- "Jefferson 251": [
-  {
-   "url": "https://www.sd251.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.sd251.org (ConnectTimeout), so nothing was fetched"
-  }
- ],
- "Blackfoot 55": [
-  {
-   "url": "https://www.d55.k12.id.us/",
-   "final": "https://www.sd55.org",
-   "platform": {},
-   "board_links": [
-    "https://www.sd55.org/board-meetings",
-    "https://www.sd55.org/board-trustee-information",
-    "https://docs.sd55.org/Policies/200.pdf",
-    "https://docs.sd55.org/MeetingMinutes/Agenda/11_19_26.pdf",
-    "https://docs.sd55.org/MeetingMinutes/Agenda/10_22_26 .pdf",
-    "https://www.sd55.org/copy-of-board-meetings"
+   [
+    "2026-09-21T19:00",
+    "Regular Meeting",
+    "District Service Center, 310 10th Street"
    ],
-   "sub": [
-    {
-     "url": "https://www.sd55.org/board-meetings",
-     "platform": {},
-     "sched": [
-      " &nbsp; The Board meets at the District Offi ce, 270 East Bridge Street, unless otherwise posted."
-     ]
-    },
-    {
-     "url": "https://www.sd55.org/board-trustee-information",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://docs.sd55.org/Policies/200.pdf",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://docs.sd55.org/MeetingMinutes/Agenda/11_19_26.pdf",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Minidoka 331": [
-  {
-   "url": "https://www.minidokaschools.org/",
-   "final": "https://www.minidokaschools.org/",
-   "platform": {
-    "boardbook": [
-     "meetings.boardbook.org/Public/Organization/2041"
-    ],
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com"
+   [
+    "2026-08-17T19:00",
+    "Regular Meeting",
+    "District Service Center, 310 10th Street"
    ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    }
+   [
+    "2026-07-27T19:00",
+    "Regular Meeting",
+    "District Service Center, 310 10th Street"
    ]
-  }
+  ]
+ },
+ "tyler https://www.d93schools.org/board-meetings": [
+  "https://myridek12.tylerapp.com/"
  ],
- "Cassia 151": [
-  {
-   "url": "https://www.cassiaschools.org/",
-   "final": "https://www.cassiaschools.org/",
-   "platform": {
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ],
-    "diligent": [
-     "diligent"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com"
-   ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    }
-   ]
-  }
+ "tyler https://www.tfsd.org/page/school-board": [
+  "https://twinfallsschooldistrictid.employeeaccess.tylerapp.com/main",
+  "https://twinfallsschooldistrictid.employeeaccess.tylerapp.com/main\\"
  ],
- "Lake Pend Oreille 84": [
-  {
-   "url": "https://www.lposd.org/",
-   "final": "https://www.lposd.org/",
-   "platform": {},
-   "board_links": [
-    "https://www.lposd.org/board-of-trustees",
-    "https://www.lposd.org/board-of-trustees/agendas",
-    "https://www.lposd.org/board-of-trustees/board-meeting-videos",
-    "https://www.lposd.org/board-of-trustees/board-meeting-videos/facility-meeting-videos",
-    "https://www.lposd.org/board-of-trustees/board-policy",
-    "https://www.lposd.org/board-of-trustees/school-board-minutes",
-    "https://www.lposd.org/board-of-trustees/trustee-meeting-schedule",
-    "http://www.google.com/url?q=http%3A%2F%2Fwww.idsba.org%2F&sa=D&sntz=1&usg=AOvVaw3mqs4PWmwpzgf9wbRDESma",
-    "https://www.lposd.org/board-of-trustees/long-range-facility-planning",
-    "https://www.google.com/url?q=https%3A%2F%2Fskyward.iscorp.com%2FLakePendOreilleSD84IDBus%2FApplicantTracking%2FJobBoard%2FViewJobPostings%3Fp%3Dce4a2302f1bb4c80aefb64ef7ed6f3b3%26w%3Dc2dc69b635d148418dfa2a4959b0dbea&sa=D&sntz=1&usg=AOvVaw1eILHDqwJbIIuM4EQRiOb0"
-   ],
-   "sub": [
-    {
-     "url": "https://www.lposd.org/board-of-trustees",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.lposd.org/board-of-trustees/agendas",
-     "platform": {},
-     "sched": [
-      "17 Download September 13, 2016 Regular Meeting 616 Download August 23, 2016 Regular Meeting 615 Download August 9, 2016 Regular Meeting 614 Download July 19, 2016 Annual Meeting 613 Download Agenda Packets Note: Agendas and Agenda Packets exclude any executive session information."
-     ]
-    },
-    {
-     "url": "https://www.lposd.org/board-of-trustees/board-meeting-videos",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.lposd.org/board-of-trustees/board-meeting-videos/facility-meeting-videos",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
+ "tyler https://www.d93schools.org/school-board": [
+  "https://myridek12.tylerapp.com/"
  ],
- "Mountain Home 193": [
-  {
-   "url": "https://www.mhsd193.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.mhsd193.org (ConnectionError), so nothing was fetched"
-  }
- ],
- "Jerome 261": [
-  {
-   "url": "https://www.jeromeschools.org/",
-   "final": "https://www.jeromeschools.org/",
-   "platform": {
-    "bbloomerang": [
-     "schoolmessenger"
-    ]
-   },
-   "board_links": [
-    "https://static.wixstatic.com/media/b52d71_e953245cb3094c3f91bd058a42148eae%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/b52d71_e953245cb3094c3f91bd058a42148eae%7Emv2.jpeg",
-    "https://www.jeromeschools.org/schoolboard",
-    "https://www.jeromeschools.org/boardmeetings",
-    "https://drive.google.com/file/d/1CHB_cBWOCWE7zeJOJuepax6SlLrVrzLo/view"
-   ],
-   "sub": [
-    {
-     "url": "https://static.wixstatic.com/media/b52d71_e953245cb3094c3f91bd058a42148eae%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/b52d71_e953245cb3094c3f91bd058a42148eae%7Emv2.jpeg",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.jeromeschools.org/schoolboard",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.jeromeschools.org/boardmeetings",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://drive.google.com/file/d/1CHB_cBWOCWE7zeJOJuepax6SlLrVrzLo/view",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Emmett 221": [
-  {
-   "url": "https://www.emmettschools.org/",
-   "final": "https://www.emmettschools.org/",
-   "platform": {
-    "simbli": [
-     "simbli.eboardsolutions.com/Index.aspx?S=36030867"
-    ],
-    "finalsite": [
-     "Finalsite",
-     "finalsite"
-    ]
-   },
-   "board_links": [
-    "https://www.emmettschools.org/school-board-trustees",
-    "https://www.emmettschools.org/school-board-trustees/school-board",
-    "https://www.emmettschools.org/school-board-trustees/board-election-information",
-    "https://emmettschoolsorg.finalsite.com/fs/resource-manager/view/91449826-23ee-49ca-8b42-828ad5ab9f5a",
-    "https://emmettschoolsorg.finalsite.com/fs/resource-manager/view/f00f1f2b-9be0-4565-a3fc-d3c2d166d22c",
-    "https://emmettschoolsorg.finalsite.com/fs/resource-manager/view/b80ca139-f137-44c9-872d-6744bd4ce727",
-    "https://emmettschoolsorg.finalsite.com/fs/resource-manager/view/cec6b022-17e2-4ad5-ad90-71b0338f85b4",
-    "https://www.emmettschools.org/school-board-trustees/meetings-and-minutes",
-    "https://simbli.eboardsolutions.com/Index.aspx?S=36030867",
-    "https://www.emmettschools.org/~board/esd-news/post/homecoming-2026-memories"
-   ],
-   "sub": [
-    {
-     "url": "https://www.emmettschools.org/school-board-trustees",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36030867"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.emmettschools.org/school-board-trustees/school-board",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36030867",
-       "simbli.eboardsolutions.com/SB_ePolicy/SB_PolicyOverview.aspx?S=36030867"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.emmettschools.org/school-board-trustees/board-election-information",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36030867"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://emmettschoolsorg.finalsite.com/fs/resource-manager/view/91449826-23ee-49ca-8b42-828ad5ab9f5a",
-     "error": "robots.txt at emmettschoolsorg.finalsite.com asks automated readers not to read /fs/resource-manager"
-    }
-   ]
-  }
- ],
- "Moscow 281": [
-  {
-   "url": "https://www.msd281.org/",
-   "final": "https://www.msd281.org/",
-   "platform": {
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ],
-    "diligent": [
-     "diligent"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://www.msd281.org/page/interest-based-bargaining-ibb-minutes-agendas",
-    "https://www.msd281.org/page/board-of-trustees",
-    "https://www.msd281.org/page/board-meetings-minutes-notices",
-    "https://www.msd281.org/page/board-policy",
-    "https://www.msd281.org/page/community-event-flyers"
-   ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    },
-    {
-     "url": "https://www.msd281.org/page/interest-based-bargaining-ibb-minutes-agendas",
-     "platform": {
-      "diligent": [
-       "diligent"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.msd281.org/page/board-of-trustees",
-     "platform": {
-      "diligent": [
-       "diligent"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.msd281.org/page/board-meetings-minutes-notices",
-     "platform": {
-      "diligent": [
-       "diligent"
-      ]
-     },
-     "sched": []
-    }
-   ]
-  }
- ],
- "Lewiston 340": [
-  {
-   "url": "https://www.lewistonschools.net/",
-   "final": "https://www.lewistonschools.net/",
-   "platform": {
-    "simbli": [
-     "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031908"
-    ],
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031908",
-    "https://www.lewistonschools.net/page/school-board-meetings"
-   ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    },
-    {
-     "url": "https://www.lewistonschools.net/page/school-board-meetings",
-     "platform": {
-      "simbli": [
-       "simbli.eboardsolutions.com/Index.aspx?S=36031908",
-       "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031908"
-      ]
-     },
-     "sched": []
-    }
-   ]
-  }
- ],
- "Blaine 61": [
-  {
-   "url": "https://www.blaineschools.org/",
-   "final": "https://www.blaineschools.org/",
-   "platform": {
-    "finalsite": [
-     "Finalsite",
-     "finalsite"
-    ],
-    "diligent": [
-     "highbond"
-    ]
-   },
-   "board_links": [
-    "https://skyward.iscorp.com/BlaineCounty61IDBus/ApplicantTracking/JobBoard/ViewJobPostings",
-    "https://www.blaineschools.org/school-board/board-homepage",
-    "https://www.blaineschools.org/school-board/trustees/home",
-    "https://www.blaineschools.org/school-board/best-practices-of-school-board-trustees",
-    "https://www.blaineschools.org/school-board/board-accolades",
-    "https://www.blaineschools.org/school-board/board-committees",
-    "https://www.blaineschools.org/school-board/board-committees/calendar-committee",
-    "https://www.blaineschools.org/school-board/board-committees/finance-committee",
-    "https://www.blaineschools.org/school-board/board-committees/policy-committee",
-    "https://www.blaineschools.org/school-board/board-committees/curriculum-committee"
-   ],
-   "sub": [
-    {
-     "url": "https://skyward.iscorp.com/BlaineCounty61IDBus/ApplicantTracking/JobBoard/ViewJobPostings",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.blaineschools.org/school-board/board-homepage",
-     "platform": {
-      "boarddocs": [
-       "go.boarddocs.com/id/bcsd61/Board.nsf/Public&amp;source=gmail&amp;ust=1712426285834000&amp;usg=AOvVaw1A90Xpe3R_o9xPe6Z5TICb",
-       "go.boarddocs.com/id/bcsd61/Board.nsf/files/DAYLKD56B0E8/$file/2024-25_AdvisoryCommitteePriorityLists.pdf"
-      ],
-      "diligent": [
-       "Diligent",
-       "highbond"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.blaineschools.org/school-board/trustees/home",
-     "platform": {
-      "boarddocs": [
-       "go.boarddocs.com/id/bcsd61/Board.nsf/Public&amp;source=gmail&amp;ust=1712426285834000&amp;usg=AOvVaw1A90Xpe3R_o9xPe6Z5TICb",
-       "go.boarddocs.com/id/bcsd61/Board.nsf/files/DAYLKD56B0E8/$file/2024-25_AdvisoryCommitteePriorityLists.pdf"
-      ],
-      "diligent": [
-       "Diligent",
-       "highbond"
-      ]
-     },
-     "sched": []
-    },
-    {
-     "url": "https://www.blaineschools.org/school-board/best-practices-of-school-board-trustees",
-     "platform": {
-      "diligent": [
-       "highbond"
-      ]
-     },
-     "sched": []
-    }
-   ]
-  }
- ],
- "Kimberly 414": [
-  {
-   "url": "https://www.kimberly.edu/",
-   "final": "https://www.kimberly.edu/",
-   "platform": {},
-   "board_links": []
-  }
- ],
- "Fremont 215": [
-  {
-   "url": "https://www.sd215.net/",
-   "final": "https://www.sd215.net/",
-   "platform": {
-    "simbli": [
-     "simbli.eboardsolutions.com/Index.aspx?S=36031552",
-     "simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031552",
-     "simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031552"
-    ],
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://simbli.eboardsolutions.com/Index.aspx?S=36031552",
-    "https://simbli.eboardsolutions.com/Policy/PolicyListing.aspx?S=36031552&ptid=oVcRlsjBrS1RiFJZD7M3Dw==&secid=rMXB5COEgF6BslshbxSC9npluspQ==",
-    "https://simbli.eboardsolutions.com/SB_Meetings/SB_MeetingListing.aspx?S=36031552"
-   ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    }
-   ]
-  }
- ],
- "Snake River 52": [
-  {
-   "url": "https://www.snakeriver.org/",
-   "final": "https://www.snakeriver.org/",
-   "platform": {},
-   "board_links": [
-    "https://www.snakeriver.org/policies-and-procedures",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Board_Priorities_2025_website.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+01.22.2026.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+02.02.26+Special+Meeting.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+02.18.2026-fc182353.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+03.02.26+Special+Meeting.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+03.18.2026.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+04.21.2026.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+05.20.2026.pdf",
-    "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+05.26.26+Special+Meeting.pdf"
-   ],
-   "sub": [
-    {
-     "url": "https://www.snakeriver.org/policies-and-procedures",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://irp.cdn-website.com/68c89c0a/files/uploaded/Board_Priorities_2025_website.pdf",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+01.22.2026.pdf",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+02.02.26+Special+Meeting.pdf",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Shelley 60": [
-  {
-   "url": "https://www.shelleyschools.org/",
-   "final": "https://www.shelleyschools.org/",
-   "platform": {},
-   "board_links": [
-    "https://www.shelleyschools.org/school-board-business",
-    "https://www.shelleyschools.org/85138"
-   ],
-   "sub": [
-    {
-     "url": "https://www.shelleyschools.org/school-board-business",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.shelleyschools.org/85138",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Rigby/Jefferson alt": [],
- "Preston 201": [
-  {
-   "url": "https://www.prestonschools.org/",
-   "final": "https://www.prestonschools.org/",
-   "platform": {
-    "finalsite": [
-     "Finalsite",
-     "finalsite"
-    ]
-   },
-   "board_links": [
-    "https://www.prestonschools.org/boe",
-    "https://www.prestonschools.org/boe/board-of-education-information",
-    "https://www.prestonschools.org/boe/boe-meetings",
-    "https://www.prestonschools.org/",
-    "https://www.prestonschools.org/~board/homepage-announcements/post/presents-for-preston",
-    "https://www.prestonschools.org/~board/homepage-announcements/post/we-are-on-social-media",
-    "https://www.prestonschools.org/~board/homepage-announcements/post/preschool-screening",
-    "https://www.prestonschools.org/~board/homepage-announcements/post/resources-for-military-families",
-    "https://www.prestonschools.org/~board/homepage-announcements/post/preston-public-library-events"
-   ],
-   "sub": [
-    {
-     "url": "https://www.prestonschools.org/boe",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.prestonschools.org/boe/board-of-education-information",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.prestonschools.org/boe/boe-meetings",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.prestonschools.org/",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Gooding 231": [
-  {
-   "url": "https://www.goodingschools.org/",
-   "error": "RobotsUnavailable: couldn't read robots.txt at www.goodingschools.org (SSLError), so nothing was fetched"
-  }
- ],
- "Bonners Ferry 101": [
-  {
-   "url": "https://www.bcsd101.com/",
-   "final": "https://www.bcsd101.com/",
-   "platform": {
-    "apptegy": [
-     "APPTEGY",
-     "Apptegy",
-     "Thrillshare",
-     "apptegy"
-    ]
-   },
-   "board_links": [
-    "https://fonts.googleapis.com",
-    "https://www.bcsd101.com/page/meet-our-trustees",
-    "https://www.bcsd101.com/page/board-meetings",
-    "https://www.bcsd101.com/page/board-agenda-request"
-   ],
-   "sub": [
-    {
-     "url": "https://fonts.googleapis.com",
-     "error": "404 Client Error: Not Found for url: https://fonts.googleapis.com/"
-    },
-    {
-     "url": "https://www.bcsd101.com/page/meet-our-trustees",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.bcsd101.com/page/board-meetings",
-     "platform": {},
-     "sched": []
-    },
-    {
-     "url": "https://www.bcsd101.com/page/board-agenda-request",
-     "platform": {},
-     "sched": []
-    }
-   ]
-  }
- ],
- "Sugar-Salem 322": [
-  {
-   "url": "https://www.sugarsalem.com/",
-   "final": "https://www.parentsquare.com",
-   "platform": {
-    "wordpress": [
-     "wp-content"
-    ]
-   },
-   "board_links": []
-  }
- ]
+ "boarddocs bcsd61": "200  ",
+ "boarddocs csd132": "200  ",
+ "page moscow": {
+  "final": "https://www.msd281.org/page/board-meetings-minutes-notices",
+  "sched": [],
+  "links": [
+   "/page/board-meetings-minutes-notices",
+   "/page/board-of-trustees",
+   "/page/board-policy",
+   "/page/interest-based-bargaining-ibb-minutes-agendas",
+   "https://www.msd281.org/page/board-meetings-minutes-notices/"
+  ]
+ },
+ "page cassia": {
+  "final": "https://www.cassiaschools.org/",
+  "sched": [],
+  "links": []
+ },
+ "page vallivue": {
+  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vallivue.org/apps/pages/index.jsp?uREC_ID=1166963&type=d"
+ },
+ "page vallivue_home": {
+  "final": "https://www.vallivue.org/",
+  "sched": [],
+  "links": []
+ },
+ "page kuna": {
+  "final": "https://www.kunaschools.org/boardagendas",
+  "sched": [
+   "sues arise and/or where the Board needs to address issues not on the agenda, the agenda may in good faith be modified either before or at a regular meeting.",
+   " View regular Board Meetings via live-stream on our YouTube Channel."
+  ],
+  "links": [
+   "/boardagendas",
+   "/boardhome",
+   "/trusteeelection",
+   "https://files.smartsites.parentsquare.com/4192/01132026_agenda.pdf",
+   "https://files.smartsites.parentsquare.com/4192/01142025_agenda_1.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02052026_agenda-work_session.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02052026_minutes_special_meeting.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02102026_agenda.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02112025_agenda_1.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02242026_0830_minutes_special_meeting.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02242026_minutes_1930_special_meeting.pdf",
+   "https://files.smartsites.parentsquare.com/4192/02242026_notice_and_agenda.pdf",
+   "https://files.smartsites.parentsquare.com/4192/03042025_agenda.pdf",
+   "https://files.smartsites.parentsquare.com/4192/03102026_agenda_1.pdf"
+  ]
+ },
+ "page madison": {
+  "final": "https://www.msd321.com/page/board-of-trustees",
+  "sched": [],
+  "links": [
+   "/page/board-of-trustees",
+   "https://skyward.iscorp.com/MadisonSD321IDBus/ApplicantTracking/JobBoard/ViewJobPostings",
+   "https://www.msd321.com/page/board-of-trustees/"
+  ]
+ },
+ "page lakeland": {
+  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.lakelandsd.org/apps/pages/index.jsp?uREC_ID=1031548&type=d"
+ },
+ "page lakeland_home": {
+  "final": "https://www.lakelandsd.org/",
+  "sched": [],
+  "links": []
+ },
+ "page postfalls": {
+  "final": "https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices",
+  "sched": [
+   "e Maps Board of Trustees Policy Manual Home &gt; Board of Trustees &gt; Board of Trustees Meeting Notices Board Meeting Notices Schedule of Regular Board Meetings 2026 Special Meeting -&nbsp;Board Workshop 11.",
+   "25 Schedule of Regular Board Meetings 2025 January Regular Meeting and Annual Reorganization 1."
+  ],
+  "links": [
+   "/board-of-trustees",
+   "/board-of-trustees/board-of-trustees-agendas",
+   "/board-of-trustees/board-of-trustees-meeting-notices",
+   "/board-of-trustees/board-of-trustees-policy-manual",
+   "/board-of-trustees/board-of-trustees-zone-maps",
+   "https://www.pfsd.com/board-of-trustees/board-of-trustees-meeting-notices"
+  ]
+ },
+ "page blackfoot": {
+  "final": "https://www.sd55.org/board-meetings",
+  "sched": [
+   " &nbsp; The Board meets at the District Offi ce, 270 East Bridge Street, unless otherwise posted."
+  ],
+  "links": [
+   "https://docs.d55.k12.id.us/MeetingMinutes/1_22_26.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/2_11_26.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/3_19_26.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/4_23_26.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/5_11_26_001.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/6_25_26.pdf",
+   "https://docs.d55.k12.id.us/MeetingMinutes/7_23_26.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2021.Board.of.Trustees.Meeting.Minutes.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2022.Board.of.Trustees.Meeting.Minutes.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2023.Board.of.Trustees.Meeting.Minutes.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2024.Board.of.Trustees.Meeting.Minutes.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2025.Board.of.Trustees.Meeting.Minutes.pdf",
+   "https://docs.sd55.org/MeetingMinutes/2026.School.Board.Meeting.Schedule.8.10.26-1.pdf",
+   "https://docs.sd55.org/MeetingMinutes/Agenda/10_22_26%20.pdf"
+  ]
+ },
+ "page lposd": {
+  "final": "https://www.lposd.org/board-of-trustees",
+  "sched": [],
+  "links": [
+   "/board-of-trustees",
+   "/board-of-trustees/agendas",
+   "/board-of-trustees/board-meeting-videos",
+   "/board-of-trustees/board-meeting-videos/facility-meeting-videos",
+   "/board-of-trustees/board-policy",
+   "/board-of-trustees/long-range-facility-planning",
+   "/board-of-trustees/school-board-minutes",
+   "/board-of-trustees/trustee-meeting-schedule",
+   "https://www.google.com/url?q=https%3A%2F%2Fskyward.iscorp.com%2FLakePendOreilleSD84IDBus%2FApplicantTracking%2FJobBoard%2FViewJobPostings%3Fp%3Dce4a2302f1bb4c80aefb64ef7ed6f3b3%26w%3Dc2dc69b635d148418dfa2a4959b0dbea&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1eILHDqwJbIIuM4EQRiOb0",
+   "https://www.google.com/url?q=https%3A%2F%2Fskyward.iscorp.com%2FLakePendOreilleSD84IDBus%2FApplicantTracking%2FJobBoard%2FViewJobPostings&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0hBsUTRrnHVVNZLt-vLUme"
+  ]
+ },
+ "page lposd_ag": {
+  "final": "https://www.lposd.org/board-of-trustees/agendas",
+  "sched": [
+   "16 Regular Meeting 617 Download September 13, 2016 Regular Meeting 616 Download August 23, 2016 Regular Meeting 615 Download August 9, 2016 Regular Meeting 614 Download July 19, 2016 Annual Meeting 613 Download Agenda Packets Note: Agendas and Agenda Packets exclude any executive session information."
+  ],
+  "links": [
+   "/board-of-trustees",
+   "/board-of-trustees/agendas",
+   "/board-of-trustees/board-meeting-videos",
+   "/board-of-trustees/board-meeting-videos/facility-meeting-videos",
+   "/board-of-trustees/board-policy",
+   "/board-of-trustees/long-range-facility-planning",
+   "/board-of-trustees/school-board-minutes",
+   "/board-of-trustees/trustee-meeting-schedule",
+   "https://www.google.com/url?q=https%3A%2F%2Fskyward.iscorp.com%2FLakePendOreilleSD84IDBus%2FApplicantTracking%2FJobBoard%2FViewJobPostings%3Fp%3Dce4a2302f1bb4c80aefb64ef7ed6f3b3%26w%3Dc2dc69b635d148418dfa2a4959b0dbea&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1eILHDqwJbIIuM4EQRiOb0",
+   "https://www.google.com/url?q=https%3A%2F%2Fskyward.iscorp.com%2FLakePendOreilleSD84IDBus%2FApplicantTracking%2FJobBoard%2FViewJobPostings&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0hBsUTRrnHVVNZLt-vLUme"
+  ]
+ },
+ "page jerome": {
+  "final": "https://www.jeromeschools.org/",
+  "sched": [],
+  "links": [
+   "https://www.jeromeschools.org/boardmeetings",
+   "https://www.jeromeschools.org/schoolboard"
+  ]
+ },
+ "page kimberly": {
+  "final": "https://www.kimberly.edu/",
+  "sched": [],
+  "links": []
+ },
+ "page snakeriver": {
+  "final": "https://www.snakeriver.org/",
+  "sched": [],
+  "links": [
+   "/board-meetings",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Board_Priorities_2025_website.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+02.02.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+03.02.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+05.26.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+06.16.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+09.08.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+10.22.26+Special+Meeting.pdf",
+   "https://irp.cdn-website.com/68c89c0a/files/uploaded/Notice+ISBA+Board+Training.pdf"
+  ]
+ },
+ "page shelley": {
+  "final": "https://www.shelleyschools.org/",
+  "sched": [],
+  "links": [
+   "/school-board-business"
+  ]
+ },
+ "page preston": {
+  "final": "https://www.prestonschools.org/",
+  "sched": [],
+  "links": [
+   "/boe/board-of-education-information",
+   "/boe/boe-meetings",
+   "https://www.prestonschools.org/~board/homepage-announcements/post/preschool-screening",
+   "https://www.prestonschools.org/~board/homepage-announcements/post/presents-for-preston",
+   "https://www.prestonschools.org/~board/homepage-announcements/post/preston-public-library-events",
+   "https://www.prestonschools.org/~board/homepage-announcements/post/resources-for-military-families",
+   "https://www.prestonschools.org/~board/homepage-announcements/post/we-are-on-social-media"
+  ]
+ },
+ "page twinfalls": {
+  "final": "https://www.tfsd.org/page/school-board",
+  "sched": [],
+  "links": [
+   "/page/school-board",
+   "https://tfsd.org/page/school-board/"
+  ]
+ },
+ "page bonnersferry": {
+  "final": "https://www.bcsd101.com/",
+  "sched": [],
+  "links": [
+   "/page/board-agenda-request",
+   "/page/board-meetings",
+   "/page/meet-our-trustees"
+  ]
+ },
+ "page madison_home": {
+  "final": "https://www.msd321.com/",
+  "sched": [],
+  "links": [
+   "https://skyward.iscorp.com/MadisonSD321IDBus/ApplicantTracking/JobBoard/ViewJobPostings"
+  ]
+ },
+ "page jefferson": {
+  "error": "RobotsUnavailable: couldn't read robots.txt at sd251.org (ConnectTimeout), so nothing was fetched"
+ },
+ "page mtnhome": {
+  "error": "RobotsUnavailable: couldn't read robots.txt at mhsd193.org (ConnectionError), so nothing was fetched"
+ }
 }
