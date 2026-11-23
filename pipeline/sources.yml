@@ -2570,3 +2570,179 @@ sources:
         location: Weippe or Orofino (alternates; see the agenda)
         category: library
         url: https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas/
+
+
+  # "meets in the library at 4:00 pm on the last Tuesday of each month."
+  - id: burley-library
+    name: Burley Public Library
+    type: schedule
+    county: Cassia
+    area: Burley
+    homepage: https://bplibrary.org/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: last Tuesday
+        time: "16:00"
+        location: Burley Public Library
+        category: library
+        url: https://bplibrary.org/board-of-trustees/
+
+  # "Board of Trustees meetings are the third Tuesday of each month." (No time stated.)
+  - id: eastern-owyhee-library
+    name: Eastern Owyhee County Library District
+    type: schedule
+    county: Owyhee
+    area: Grand View
+    homepage: https://eastowyhee.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        note: "Check the agenda for the start time."
+        location: Eastern Owyhee County Library, Grand View
+        category: library
+        url: https://eastowyhee.lili.org/about-us/board-of-trustees/
+
+  # "The Library Board of Trustees meets at the Gooding Public Library the fourth Monday of each
+  # month at 5:30 p.m."
+  - id: gooding-library
+    name: Gooding Public Library
+    type: schedule
+    county: Gooding
+    area: Gooding
+    homepage: https://gooding.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 4th Monday
+        time: "17:30"
+        location: Gooding Public Library
+        category: library
+        url: https://gooding.lili.org/about-us/board-of-trustees/
+
+  # "Regular business meetings of the board are held on the first Monday of each month at 5:00
+  # P.M."
+  - id: grace-library
+    name: Grace District Library
+    type: schedule
+    county: Caribou
+    area: Grace
+    homepage: https://grace.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 1st Monday
+        time: "17:00"
+        location: Grace District Library
+        category: library
+        url: https://grace.lili.org/about-us/board-of-trustees/
+
+  # "The Hansen Library Board of Trustees meets the first Monday of every month at 7 pm."
+  - id: hansen-library
+    name: Hansen Community Library
+    type: schedule
+    county: Twin Falls
+    area: Hansen
+    homepage: https://hansen.lili.org/about-us/board-meetings/
+    meetings:
+      - title: Library Board of Trustees
+        when: 1st Monday
+        time: "19:00"
+        location: Hansen Community Library
+        category: library
+        url: https://hansen.lili.org/about-us/board-meetings/
+
+  # "Board Meeting Schedule 2026-27": "The meetings will be held on the second Tuesday of each
+  # month except as noted." (Time on the schedule page.)
+  - id: kellogg-library
+    name: Kellogg Public Library
+    type: schedule
+    county: Shoshone
+    area: Kellogg
+    timezone: America/Los_Angeles
+    homepage: https://kellogg.lili.org/board-meeting-schedule-2026-27/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Tuesday
+        note: "Check the agenda for the start time."
+        location: Kellogg Public Library
+        category: library
+        url: https://kellogg.lili.org/board-meeting-schedule-2026-27/
+
+  # "The Notus Public Library Board meets the second Thursday of each month at 6 p.m."
+  - id: notus-library
+    name: Notus Public Library
+    type: schedule
+    county: Canyon
+    area: Notus
+    homepage: https://notus.lili.org/about-us/library-board/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Thursday
+        time: "18:00"
+        location: Notus Public Library
+        category: library
+        url: https://notus.lili.org/about-us/library-board/
+
+  # "The Library Board meets the second Tuesday of each month at 5:00 pm in the Community Room."
+  - id: payette-library
+    name: Payette Public Library
+    type: schedule
+    county: Payette
+    area: Payette
+    homepage: https://payette.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 2nd Tuesday
+        time: "17:00"
+        location: Payette Public Library, Community Room
+        category: library
+        url: https://payette.lili.org/about-us/board-of-trustees/
+
+  # "The Board normally meets the first Tuesday of each month (except July and December) at 5:00
+  # p.m."
+  - id: plummer-library
+    name: Plummer Public Library
+    type: schedule
+    county: Benewah
+    area: Plummer
+    timezone: America/Los_Angeles
+    homepage: https://plummer.lili.org/about-us/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 1st Tuesday
+        time: "17:00"
+        skip_months: [7, 12]
+        location: Plummer Public Library
+        category: library
+        url: https://plummer.lili.org/about-us/board-of-trustees/
+
+  # "Meetings are held at 1:00 PM on the 3rd Tuesday of every month (excluding December)."
+  - id: priest-lake-library
+    name: Priest Lake Public Library
+    type: schedule
+    county: Bonner
+    area: Priest Lake
+    timezone: America/Los_Angeles
+    homepage: https://priestlake.lili.org/about/board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "13:00"
+        skip_months: [12]
+        location: Priest Lake Public Library
+        category: library
+        url: https://priestlake.lili.org/about/board-of-trustees/
+
+  # "Regular business meetings of the board are held at the library on the third Tuesday of each
+  # month at 5:30 P.M."
+  - id: soda-springs-library
+    name: Soda Springs Public Library
+    type: schedule
+    county: Caribou
+    area: Soda Springs
+    homepage: https://soda.lili.org/library-board-of-trustees/
+    meetings:
+      - title: Library Board of Trustees
+        when: 3rd Tuesday
+        time: "17:30"
+        location: Soda Springs Public Library
+        category: library
+        url: https://soda.lili.org/library-board-of-trustees/

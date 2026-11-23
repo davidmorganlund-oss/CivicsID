@@ -74,7 +74,7 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 | Ada Community, Twin Falls and Marshall (Pocatello) libraries | various | Published board schedules | `schedule` | Boise Public Library's board comes through Boise's eScribe |
 | Nampa, Kuna and The Community Library (Ketchum) | various | LibCal | `libcal` | Board meetings and civic programs only |
 | Meridian, Eagle, Caldwell and Mountain Home libraries | various | Published board schedules | `schedule` | |
-| Snake River, West Side, Grace, Troy, Genesee, Bruneau-Grand View, Mackay and Whitepine school districts; Boise Basin, Camas County, Clark County and Clearwater County libraries | various | Published board schedules | `schedule` | From a statewide sweep of district and library websites (Nov 2026) |
+| Snake River, West Side, Grace, Troy, Genesee, Bruneau-Grand View, Mackay and Whitepine school districts; Boise Basin, Camas County, Clark County, Clearwater County, Burley, Eastern Owyhee, Gooding, Grace, Hansen, Kellogg, Notus, Payette, Plummer, Priest Lake and Soda Springs libraries | various | Published board schedules | `schedule` | From a statewide sweep of district and library websites (Nov 2026) |
 
 `inventory/sources.csv` lists what was checked and what is still to do,
 including Nampa and Ada County.
