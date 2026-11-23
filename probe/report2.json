@@ -1,23 +1,1078 @@
 {
- "tf_links": [
-  "https://twinfallscounty.org/wp-content/uploads/Monday-11.16.26.pdf",
-  "https://twinfallscounty.org/wp-content/uploads/Tuesday-11.17.26.pdf",
-  "https://twinfallscounty.org/wp-content/uploads/Wednesday-8.19.26-1.pdf",
-  "https://twinfallscounty.org/wp-content/uploads/Wednesday-11.18.26.pdf",
-  "https://twinfallscounty.org/wp-content/uploads/Thursday-11.19.26.pdf",
-  "https://twinfallscounty.org/wp-content/uploads/Friday-11.20.26.pdf"
+ "Middleton": [
+  {
+   "url": "https://middleton.id.gov/",
+   "final": "https://middleton.id.gov/",
+   "status": 200,
+   "title": "Home | City of Middleton",
+   "platform": [
+    "dnn"
+   ],
+   "links": [
+    [
+     "City Government",
+     "javascript:;"
+    ],
+    [
+     "Elected Officials",
+     "https://middleton.id.gov/city-government/elected-officials"
+    ],
+    [
+     "Boards & Commissions",
+     "https://middleton.id.gov/city-government/boards-commissions"
+    ],
+    [
+     "Transparency",
+     "https://middleton.id.gov/city-government/transparency"
+    ],
+    [
+     "Emergency Preparedness",
+     "https://middleton.id.gov/city-government/emergency-preparedness"
+    ],
+    [
+     "Title VI",
+     "https://middleton.id.gov/Portals/0/Files/Government/Title%20VI%20Plan%20-%202013.pdf?ver=2024-01-18-183436-347"
+    ],
+    [
+     "City Council",
+     "https://middleton.id.gov/departments/city-council"
+    ],
+    [
+     "Planning & Zoning",
+     "https://middleton.id.gov/departments/planning-zoning"
+    ],
+    [
+     "Youth Council",
+     "https://middleton.id.gov/other-boards/youth-council"
+    ],
+    [
+     "Calendar",
+     "https://middleton.id.gov/calendar"
+    ],
+    [
+     "Public Meetings",
+     "https://middleton.id.gov/public-meetings"
+    ],
+    [
+     "City Council Meetings Live &amp; Recorde",
+     "https://www.youtube.com/@cityofmiddleton-idaho4286/streams"
+    ]
+   ]
+  }
  ],
- "https://twinfallscounty.org/wp-content/uploads/Tuesday-11.17.26.pdf": "Executive Sessions may be held pursuant to Idaho Code \u00a774-206 as needed during regularly scheduled meetings.  The \npurpose of such sessions shall be announced at the time such sessions are called.  **ACTION ITEM** \n \nAny person needing special accommodations to participate in the above noticed meeting should contact the Twin Falls \nCounty commissioners\u2019 office prior to the meeting at 208.736.4068 \nAgenda \nTuesday, November 17, 2026 \nItems marked with ** indicate an Action Item. \n \nCall to Order. \n  Pledge of Allegiance. \n  Consideration of Amendments to the Agenda. \n \n7:00 a.m. Commissioner Hawkins to attend a Rotary meeting. \n  \n  8:00 a.m. Commissioners to attend a Twin Falls School District Legislative Tour.  \n \n  8:30 a.m. Commissioner Reinke to attend a Joining Forces of the Magic Valley meeting. \n \n10:30 a.m. Commissioner Hawkins to attend a Twin Falls Chamber of Commerce Board meeting.  \n \n  1:30 p.m. Commissioners to attend a tour of the Valley House properties. \n \n  5:30 p.m. Commissioner Reinke to attend a Magic Valley Land Trust meeting.   \n  \n \n \nTwin Falls County \nCommissioners \n \nBrent Reinke, Suzanne Hawkins, Rocky Matthews \n \n630 Addison Ave W.  \nP.O. Box 126 \nTwin Falls, ID  83303 \n208.736.4087 \n ",
- "https://twinfallscounty.org/wp-content/uploads/Wednesday-8.19.26-1.pdf": "Executive Sessions may be held pursuant to Idaho Code \u00a774-206 as needed during regularly scheduled meetings.  \nThe purpose of such sessions shall be announced at the time such sessions are called.  **ACTION ITEM** \n \nAny person needing special accommodations to participate in the above noticed meeting should contact the Twin \nFalls County commissioners\u2019 office prior to the meeting at 208.736.4068 \n \n * AMENDED Agenda \nWednesday, August 19, 2026 \nItems marked with ** indicate an Action Item. \n \nCall to Order. \n  Pledge of Allegiance. \n  Consideration of Amendments to Agenda. \n \n8:15 a.m. Commissioners to attend a staff meeting. \n \n8:30 a.m. Commissioner Matthews to attend a Planning and Zoning staff meeting.  \n \n*10:30 a.m. Commissioners to meet with Val Stotts, Safehouse Director and Nathaniel \nAnderson, R&D Supervisor for a department update. \n \n1:00 p.m. Commissioner Reinke to meet with Kristina Glascock, Clerk, for a department  \nupdate.  \n \n1:30 p.m. Commissioner Reinke to attend a Board of Health meeting. \n \n2:00 p.m. Commissioner Hawkins to attend an Idaho Department of Health and Welfare \nRural Health Transformation Program meeting.  \nCommissioner Matthews to attend an Idaho Association of Counties Rural Health \nmeeting.  \n \n3:00 p.m. Commissioner Hawkins to attend an ICRMP Supervisor Training.  \n \n4:30 p.m. Commissioner Hawkins to attend a Twin Falls County Health Initiatives Trust \nBoard meeting.  \n \n \n \n \nTwin Falls County \nCommissioners \n \nBrent Reinke, Suzanne Hawkins, Rocky Matthews \n \n630 Addison Ave W.  \nP.O. Box 126 \nTwin Falls, ID  83303 \n208.736.4087 \n ",
- "bonneville": "200 95",
- "latah_agenda_links": [
-  [
-   "#",
-   "Current BOCC Agenda"
-  ],
-  [
-   "#agendas",
-   "Agendas"
-  ]
+ "Payette": [
+  {
+   "url": "https://www.cityofpayette.com/",
+   "final": "https://cityofpayette.com/",
+   "status": 200,
+   "title": "City of Payette, Idaho\r\n\t\t\u00c2",
+   "platform": [
+    "vertical"
+   ],
+   "links": [
+    [
+     "Government",
+     "https://cityofpayette.com/government"
+    ],
+    [
+     "Payette's Mayor",
+     "https://cityofpayette.com/index.asp?SEC=EC229BCB-6752-46F1-A3D6-8AE9E7492111&amp;Type=B_BASIC"
+    ],
+    [
+     "City Council",
+     "https://cityofpayette.com/index.asp?SEC=3E868623-D11C-4F30-A389-C51A121FB9A7&amp;Type=B_BASIC"
+    ],
+    [
+     "Backflow Prevention",
+     "https://cityofpayette.com/index.asp?SEC=39372A49-C4D5-4D71-ADB4-3251533DE618&amp;Type=B_BASIC"
+    ],
+    [
+     "Building/Planning & Zoning",
+     "https://cityofpayette.com/index.asp?SEC=34FCF517-618E-4445-B5D1-DD6B900045C6&amp;Type=B_BASIC"
+    ],
+    [
+     "Comprehensive Plan Advisory Committee Ag",
+     "https://cityofpayette.com/index.asp?SEC=2C964A79-5E60-4DD5-94C7-D3398543CE77&amp;Type=B_BASIC"
+    ],
+    [
+     "Comprehensive Committee Meeting Summarie",
+     "https://cityofpayette.com/index.asp?SEC=F471B455-3493-4FB0-96D9-D53E5EDDB409&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2018",
+     "https://cityofpayette.com/index.asp?SEC=88EAAFF6-C55D-4EB9-B43F-BAFD729DC49E&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2017",
+     "https://cityofpayette.com/index.asp?SEC=AC96D24F-84E1-4E19-8D43-2C25D23A7909&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2016",
+     "https://cityofpayette.com/index.asp?SEC=9CD01FD1-F6F2-4383-B2A8-E9A56768CD5D&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2015",
+     "https://cityofpayette.com/index.asp?SEC=C8B0AB9D-F820-4622-BDA7-0D330060FE3F&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2014",
+     "https://cityofpayette.com/index.asp?SEC=A1435261-FB58-4210-BC0A-0416380ED9E8&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2013",
+     "https://cityofpayette.com/index.asp?SEC=94CD9F89-87B7-48ED-B123-BDF59AA8A125&amp;Type=B_BASIC"
+    ],
+    [
+     "Agenda 2012",
+     "https://cityofpayette.com/index.asp?SEC=8F736055-561E-4F92-98D9-DB335729BDD1&amp;Type=B_BASIC"
+    ],
+    [
+     "Agendas 2011",
+     "https://cityofpayette.com/index.asp?SEC=936FD5CD-AF53-4618-A57E-6974E6B56F29&amp;Type=B_BASIC"
+    ],
+    [
+     "Minutes",
+     "https://cityofpayette.com/index.asp?SEC=503F2E05-9016-4E9C-B537-AEEC9E699BC0&amp;Type=B_BASIC"
+    ],
+    [
+     "2018 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=DBFE0C1A-220D-4522-8921-A6B2A01B1C9F&amp;Type=B_BASIC"
+    ],
+    [
+     "2017 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=DE3579B2-2840-41CA-8255-C386007C0AFA&amp;Type=B_BASIC"
+    ],
+    [
+     "2016 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=43323510-4C6A-46F8-BA09-D6903EFFA924&amp;Type=B_BASIC"
+    ],
+    [
+     "2015 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=897191AE-50A2-404A-B1E6-F03CAEFEEED9&amp;Type=B_BASIC"
+    ],
+    [
+     "2014 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=F8AF1C24-6E81-47D7-B0EF-9C6CB6E74272&amp;Type=B_BASIC"
+    ],
+    [
+     "2013 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=0C3A285F-124E-4B7E-82F5-0D99B749C8CD&amp;Type=B_BASIC"
+    ],
+    [
+     "2012 Agendas",
+     "https://cityofpayette.com/index.asp?SEC=77026214-053D-4058-8B26-F4C74AED5258&amp;Type=B_BASIC"
+    ],
+    [
+     "Planning & Zoning Commission",
+     "https://cityofpayette.com/index.asp?SEC=16FAD3A1-7F4A-4474-A68C-E88153492ED6&amp;Type=B_BASIC"
+    ],
+    [
+     "Agendas 2026",
+     "https://cityofpayette.com/index.asp?SEC=FC3FE281-A929-4014-A2B8-A405AF79FB7D&amp;Type=B_BASIC"
+    ]
+   ]
+  }
+ ],
+ "Fruitland": [
+  {
+   "url": "https://www.fruitland.org/",
+   "final": "https://www.fruitland.org/",
+   "status": 200,
+   "title": "City of Fruitland Idaho",
+   "platform": [
+    "vertical"
+   ],
+   "links": [
+    [
+     "Community Calendar",
+     "https://www.fruitland.org/calendar"
+    ],
+    [
+     "Mayor's Youth Council",
+     "https://www.fruitland.org/index.asp?SEC=DC61B614-2591-40C8-9D57-3B0BAAFD2A54"
+    ],
+    [
+     "Government",
+     "https://www.fruitland.org/government"
+    ],
+    [
+     "City Council",
+     "https://www.fruitland.org/council"
+    ],
+    [
+     "City Council Meetings",
+     "https://www.fruitland.org/index.asp?SEC=116126E2-E6E0-4AE0-9EEE-9157CD7F70D5"
+    ],
+    [
+     "City Council Agendas",
+     "https://www.fruitland.org/council-agendas"
+    ],
+    [
+     "City Council Minutes",
+     "https://www.fruitland.org/council-minutes"
+    ],
+    [
+     "Planning and Zoning",
+     "https://www.fruitland.org/planning-zoning"
+    ],
+    [
+     "Planning & Zoning Agendas",
+     "https://www.fruitland.org/pz-agendas"
+    ],
+    [
+     "Planning & Zoning Minutes",
+     "https://www.fruitland.org/pz-minutes"
+    ],
+    [
+     "Planning & Zoning Hearing Notices",
+     "https://www.fruitland.org/pz-hearings"
+    ],
+    [
+     "Government Websites by Catalis",
+     "https://catalisgov.com"
+    ]
+   ]
+  }
+ ],
+ "Rupert": [
+  {
+   "url": "https://www.rupert-idaho.com/",
+   "final": "https://rupert-idaho.com/",
+   "status": 200,
+   "title": "City of Rupert, Idaho",
+   "platform": [],
+   "links": [
+    [
+     "Government",
+     "https://rupert-idaho.com/government"
+    ],
+    [
+     "Agendas &amp; Minutes",
+     "https://rupert-idaho.com/government/agendas-minutes"
+    ],
+    [
+     "Request a public record",
+     "https://rupert-idaho.com/government/public-records"
+    ],
+    [
+     "City Council Meeting Schedule &amp; How ",
+     "https://rupert-idaho.com/news/council-meeting-schedule"
+    ],
+    [
+     "Accessibility Statement",
+     "https://rupert-idaho.com/government/accessibility"
+    ]
+   ]
+  }
+ ],
+ "Weiser": [
+  {
+   "url": "https://www.cityofweiser.net/",
+   "final": "https://www.cityofweiser.net/",
+   "status": 200,
+   "title": "HOME",
+   "platform": [
+    "duda"
+   ],
+   "links": [
+    [
+     "HOME             window.SystemID = 'US_D",
+     "https://www.cityofweiser.net/"
+    ],
+    [
+     "Calendar of Events",
+     "https://www.cityofweiser.net/calendar-of-events"
+    ],
+    [
+     "Events &amp; Attractions",
+     "https://www.cityofweiser.net/events-attractions"
+    ],
+    [
+     "Mayor Herb Haun",
+     "https://www.cityofweiser.net/mayor-randy-hibberd"
+    ],
+    [
+     "Mayor's Corner",
+     "https://www.cityofweiser.net/mayors-corner"
+    ],
+    [
+     "City Council Members",
+     "https://www.cityofweiser.net/city-council-members"
+    ],
+    [
+     "City Council Packet &amp; Minutes",
+     "https://www.cityofweiser.net/city-council-packet"
+    ],
+    [
+     "Agendas",
+     "https://www.cityofweiser.net/agendas"
+    ],
+    [
+     "Planning &amp; Zoning Commission",
+     "https://www.cityofweiser.net/planning-zoning-commission"
+    ],
+    [
+     "Vendome Event Center",
+     "https://www.cityofweiser.net/vendome-event-center"
+    ],
+    [
+     "@font-face { font-family: \"Mireille-Mono",
+     "https://irp.cdn-website.com/fonts/css2?family=Lato:wght@100;300;400;700;900&family=Amiko:wght@400;600;700&family=Droid+Sans:wght@400;700&family=Open+Sans:wght@300..800&amp;subset=latin-ext&amp;display=swap"
+    ]
+   ]
+  }
+ ],
+ "Preston": [
+  {
+   "url": "https://www.prestonidaho.net/",
+   "final": "https://www.prestonidaho.net/",
+   "status": 200,
+   "title": "prestonid",
+   "platform": [
+    "revize"
+   ],
+   "links": [
+    [
+     "prestonid                               ",
+     "https://www.prestonidaho.net/"
+    ],
+    [
+     "Government",
+     "https://www.prestonidaho.net/government/index.php"
+    ],
+    [
+     "Mayor & City Council",
+     "https://www.prestonidaho.net/government/mayor___city_council/index.php"
+    ],
+    [
+     "Council Meeting Agendas & Minutes",
+     "https://www.prestonidaho.net/government/mayor___city_council/council_meeting_agendas___minutes.php"
+    ],
+    [
+     "City Proclamations",
+     "https://www.prestonidaho.net/government/mayor___city_council/city_proclamations.php"
+    ],
+    [
+     "Public Notices",
+     "https://www.prestonidaho.net/government/mayor___city_council/public_notices.php"
+    ],
+    [
+     "Preston City Planning & Zoning Commissio",
+     "https://www.prestonidaho.net/government/planning___zoning/index.php"
+    ],
+    [
+     "P&Z Agendas & Minutes",
+     "https://www.prestonidaho.net/government/boards___committees/planning___zoning_commission/p_z_agendas___minutes.php"
+    ],
+    [
+     "Comprehensive Plan",
+     "https://www.prestonidaho.net/Documents/Departments/Planning & Zoning/Comprehensive Plan/COMPREHENSIVE PLAN 2026.pdf"
+    ],
+    [
+     "Boards & Committees",
+     "https://www.prestonidaho.net/government/boards___committees/index.php"
+    ],
+    [
+     "Preston City Recreation Board",
+     "https://www.prestonidaho.net/government/boards___committees/recreation_board/index.php"
+    ],
+    [
+     "Budget & Financial",
+     "https://www.prestonidaho.net/government/budget___financial/index.php"
+    ],
+    [
+     "Fiscal Year Budget",
+     "https://www.prestonidaho.net/government/budget___financial/fiscal_year_budget.php"
+    ],
+    [
+     "Quarterly Report",
+     "https://www.prestonidaho.net/government/budget___financial/quarterly_report.php"
+    ],
+    [
+     "Audits",
+     "https://www.prestonidaho.net/government/budget___financial/audits.php"
+    ],
+    [
+     "City Hall",
+     "https://www.prestonidaho.net/government/city_hall/index.php"
+    ],
+    [
+     "Employee Directory",
+     "https://www.prestonidaho.net/government/city_hall/employee_directory.php"
+    ],
+    [
+     "Economic Development",
+     "https://www.prestonidaho.net/government/economic_development/index.php"
+    ],
+    [
+     "Business License Application",
+     "https://www.prestonidaho.net/government/economic_development/business_license_application.php"
+    ],
+    [
+     "Franklin County Fire District",
+     "https://www.prestonidaho.net/government/boards___committees/fire_district.php"
+    ],
+    [
+     "Larsen-Sant Public Library",
+     "https://www.prestonidaho.net/government/boards___committees/library_district.php"
+    ],
+    [
+     "Worm Creek Opera House and Franklin Coun",
+     "https://www.wormcreek.org/"
+    ],
+    [
+     "How do I know when meetings are?",
+     "https://www.prestonidaho.net/calendar.php"
+    ],
+    [
+     "Baseball",
+     "https://www.prestonidaho.net/government/boards___committees/recreation_board/baseball/index.php"
+    ],
+    [
+     "Rules",
+     "https://www.prestonidaho.net/government/boards___committees/recreation_board/baseball/rules/index.php"
+    ]
+   ]
+  }
+ ],
+ "Rigby": [
+  {
+   "url": "https://cityofrigby.gov/",
+   "final": "https://cityofrigby.gov/",
+   "status": 200,
+   "title": "City of Rigby, Idaho | Official Website",
+   "platform": [
+    "wordpress"
+   ],
+   "links": [
+    [
+     "City of Rigby, Idaho | Official Website ",
+     "https://gmpg.org/xfn/11"
+    ],
+    [
+     "2019 Wastewater Facilities Planning Stud",
+     "https://cityofrigby.gov/wp-content/uploads/2023/03/2019_wastewater_study.pdf"
+    ],
+    [
+     "Mayor and City Council",
+     "https://cityofrigby.gov/mayor-and-city-council/"
+    ],
+    [
+     "Planning and Zoning Commission",
+     "https://cityofrigby.gov/planning-and-zoning-commission/"
+    ],
+    [
+     "Planning &#038; Zoning \u2013 Building",
+     "https://cityofrigby.gov/building-department/"
+    ],
+    [
+     "City Council Agendas",
+     "https://cityofrigby.gov/city-council-agendas/"
+    ],
+    [
+     "City Council Minutes",
+     "https://cityofrigby.gov/city-council-minutes/"
+    ],
+    [
+     "Planning &amp; Zoning Agendas",
+     "https://cityofrigby.gov/planning-and-zoning-agendas/"
+    ],
+    [
+     "Planning &amp; Zoning Minutes",
+     "https://cityofrigby.gov/planning-and-zoning-minutes/"
+    ],
+    [
+     "Calendar",
+     "https://cityofrigby.gov/calendar/"
+    ],
+    [
+     "Submit An Event",
+     "https://cityofrigby.gov/events/"
+    ]
+   ]
+  }
+ ],
+ "Kimberly": [
+  {
+   "url": "https://www.cityofkimberly.org/",
+   "final": "https://www.cityofkimberly.org/",
+   "status": 200,
+   "title": "Kimberly, ID | Official Website",
+   "platform": [
+    "civicplus"
+   ],
+   "links": [
+    [
+     "Kimberly, ID | Official Website         ",
+     "https://www.cityofkimberly.org/images/favicon.ico"
+    ],
+    [
+     "Government",
+     "https://www.cityofkimberly.org/27/Government"
+    ],
+    [
+     "//Updates search icons href to have the ",
+     "https://www.cityofkimberly.org/Common/Controls/jquery-ui-1.14.2/jquery-ui.min.css"
+    ],
+    [
+     "thosetwochicksevents@gmail.com",
+     "mailto:thosetowchicksevents@gmail.com"
+    ],
+    [
+     "Agendas &amp; Minutes",
+     "https://www.cityofkimberly.org/AgendaCenter"
+    ]
+   ]
+  }
+ ],
+ "Shelley": [
+  {
+   "url": "https://www.shelleyidaho.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.shelleyidaho.org (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://shelley.id.gov/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at shelley.id.gov (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://www.cityofshelley.org/",
+   "final": "https://cityofshelley.org:443/",
+   "status": 200,
+   "title": "Home | City of Shelley",
+   "platform": [],
+   "links": [
+    [
+     "Meetings",
+     "https://cityofshelley.org:443/meetings/"
+    ],
+    [
+     "Calendar",
+     "https://cityofshelley.org:443/calendar/"
+    ],
+    [
+     "Planning & Zoning",
+     "https://cityofshelley.org:443/city-departments/planning-and-zoning/"
+    ],
+    [
+     "Past Events",
+     "https://cityofshelley.org:443/spud-day/"
+    ],
+    [
+     "NOV   27",
+     "https://cityofshelley.org:443/calendar/thanksgiving-holiday-hours/"
+    ],
+    [
+     "DEC   04",
+     "https://cityofshelley.org:443/calendar/annual-chili-cookoff-raffle/"
+    ]
+   ]
+  }
+ ],
+ "American Falls": [
+  {
+   "url": "https://cityofamericanfalls.com/",
+   "final": "https://americanfallsid.gov/",
+   "status": 200,
+   "title": "americanfallsid.gov",
+   "platform": [
+    "wordpress"
+   ],
+   "links": [
+    [
+     "img:is([sizes=auto i],[sizes^=\"auto,\" i]",
+     "https://americanfallsid.gov/feed/"
+    ],
+    [
+     "Mayor and Council",
+     "https://americanfallsid.gov/mayor-and-council/"
+    ],
+    [
+     "Planning and Zoning",
+     "https://americanfallsid.gov/planning-and-zoning/"
+    ],
+    [
+     "Mayor\u2019s Corner",
+     "https://americanfallsid.gov/mayors-corner/"
+    ]
+   ]
+  }
+ ],
+ "Buhl": [
+  {
+   "url": "https://www.cityofbuhl.us/",
+   "final": "https://www.cityofbuhl.us/",
+   "status": 200,
+   "title": "City of Buhl, Idaho | Est. 1906 - Home",
+   "platform": [
+    "weebly"
+   ],
+   "links": [
+    [
+     ".wsite-elements.wsite-not-footer:not(.ws",
+     "https://cdn11.editmysite.com/css/sites.css?buildtime=1795111099"
+    ],
+    [
+     "City Council",
+     "https://www.cityofbuhl.us/city-council.html"
+    ],
+    [
+     "Mayor",
+     "https://www.cityofbuhl.us/mayor.html"
+    ],
+    [
+     "Council",
+     "https://www.cityofbuhl.us/council.html"
+    ],
+    [
+     "Council Meeting Documents",
+     "https://www.cityofbuhl.us/council-meeting-documents.html"
+    ],
+    [
+     "Planning & Zoning Department   &gt;",
+     "https://www.cityofbuhl.us/planning--zoning-department.html"
+    ],
+    [
+     "Planning & Zoning Commission Meetings",
+     "https://www.cityofbuhl.us/planning--zoning-commission-meetings.html"
+    ],
+    [
+     "Joint Meeting",
+     "https://www.cityofbuhl.us/joint-meeting.html"
+    ]
+   ]
+  }
+ ],
+ "St. Anthony": [
+  {
+   "url": "https://www.cityofstanthony.org/",
+   "final": "https://www.cityofstanthony.org/",
+   "status": 200,
+   "title": "Home | City of St. Anthony",
+   "platform": [
+    "apptegy",
+    "dnn"
+   ],
+   "links": [
+    [
+     ".logo { height: 100px!important; }   :ro",
+     "https://fonts.googleapis.com"
+    ],
+    [
+     "City Council",
+     "https://www.cityofstanthony.org/page/city-council"
+    ],
+    [
+     "Agenda",
+     "https://stanthony.municipalcodeonline.com/"
+    ]
+   ]
+  }
+ ],
+ "Gooding": [
+  {
+   "url": "https://www.goodingidaho.org/",
+   "final": "https://www.goodingidaho.org/",
+   "status": 200,
+   "title": "Official Web Site of City of Gooding",
+   "platform": [],
+   "links": [
+    [
+     "Agendas",
+     "https://www.goodingidaho.org/agendas"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1149"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1149/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/916"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/916/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/672"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/672/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1185"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1185/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1140"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1140/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1087"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1087/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1184"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1184/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1151"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1151/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1139"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1139/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1147"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1147/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1146"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1146/PDF/get_agenda_document_link"
+    ],
+    [
+     "View Agenda",
+     "https://towncloud.io/go/gooding-id/agendas/1143"
+    ],
+    [
+     "Agenda PDF",
+     "https://towncloud.io/go/gooding-id/agendas/1143/PDF/get_agenda_document_link"
+    ]
+   ]
+  }
+ ],
+ "Heyburn": [
+  {
+   "url": "https://heyburn.id.gov/",
+   "final": "https://heyburn.id.gov/",
+   "status": 200,
+   "title": "Heyburn, ID",
+   "platform": [
+    "vertical",
+    "govoffice"
+   ],
+   "links": [
+    [
+     "Government",
+     "https://heyburn.id.gov/government"
+    ],
+    [
+     "Agendas and Minutes",
+     "https://heyburn.id.gov/agendas"
+    ],
+    [
+     "2026 Agendas and Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=CED04F24-BC21-4DD9-84F1-BB7EDE4F2910"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=3231C763-F07B-4646-AF04-ABF4316E02E6"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=8AC35134-010D-49A8-B1E7-477506F36F89"
+    ],
+    [
+     "2025 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=595B9F2A-E6F6-4657-A62F-357A6DD541BA"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=53AF7C3D-772A-4B14-A5E1-791D0E0E3CB8"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=78DDFBF3-4CF4-4094-8DFB-62941D7741D9"
+    ],
+    [
+     "2024 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=36B78A1A-F0A7-4181-90DA-EE9CE1B0EBB6"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=61C48A53-0825-4DBA-ABEC-F57054A92FE9"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=7DE39355-A212-406C-98FE-C1831C43BDEA"
+    ],
+    [
+     "2023 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=77A7E26C-FE54-4744-AF7C-2BC9F5C9746C"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=7EA317D6-0EE9-43B0-AB6C-5A6BC06BD508"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=DC39FDB5-DF21-4B11-9F72-D311491CF5EF"
+    ],
+    [
+     "2022 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=BA5C81BB-198B-446B-8B01-98BDE762AC96"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=634D2676-F520-4174-B5C0-6962B1B93960"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=113450E9-2B1E-409C-815E-BCEC99DAB892"
+    ],
+    [
+     "2021 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=DCF7F362-8040-4445-89E7-050FB33899B2"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=1E9F30D8-36FE-4498-A120-746B6BC75945"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=3E5B52B5-FEBD-4278-B527-4D489848FC60"
+    ],
+    [
+     "2020 Minutes",
+     "https://heyburn.id.gov/index.asp?SEC=C6DAFF63-1593-4806-8BA1-56A30F86FB06"
+    ],
+    [
+     "City Council",
+     "https://heyburn.id.gov/index.asp?SEC=B49EF5B8-638D-423E-98E0-E77602DDB8DE"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/index.asp?SEC=C70C7B1E-D898-4862-B2D1-5F5A4C8BCAD7"
+    ],
+    [
+     "Planning & Zoning",
+     "https://heyburn.id.gov/planning-building"
+    ],
+    [
+     "Events",
+     "https://heyburn.id.gov/index.asp?SEC=C8EC700B-E5F4-4E3D-9F02-D4FCC6AE0188"
+    ]
+   ]
+  }
+ ],
+ "Grangeville": [
+  {
+   "url": "https://grangeville.us/",
+   "final": "https://grangeville.us/",
+   "status": 200,
+   "title": "City of Grangeville Idaho &ndash; County Seat of Idaho County",
+   "platform": [
+    "wordpress"
+   ],
+   "links": [
+    [
+     "City of Grangeville Idaho &ndash; County",
+     "https://gmpg.org/xfn/11"
+    ],
+    [
+     "City Agendas",
+     "https://grangeville.us/city-council-agendas/"
+    ],
+    [
+     "City Council Minutes",
+     "https://grangeville.us/city-council-minutes/"
+    ],
+    [
+     "Council Committee Agendas",
+     "https://grangeville.us/city-council-agendas/council-committee-agendas/"
+    ],
+    [
+     "Fire Agendas",
+     "https://grangeville.us/city-council-agendas/fire-agendas/"
+    ],
+    [
+     "Library Agendas",
+     "https://grangeville.us/city-council-agendas/library-agendas/"
+    ],
+    [
+     "Miscellaneous Agendas",
+     "https://grangeville.us/city-council-agendas/miscellaneous-agendas/"
+    ],
+    [
+     "Planning &amp; Zoning Agendas",
+     "https://grangeville.us/city-council-agendas/planning-zoning-agendas/"
+    ],
+    [
+     "Technical Review Agendas",
+     "https://grangeville.us/city-council-agendas/technical-review-agendas/"
+    ],
+    [
+     "Council Committee Minutes",
+     "https://grangeville.us/city-council-minutes/council-committee-minutes/"
+    ],
+    [
+     "Fire Minutes",
+     "https://grangeville.us/city-council-minutes/fire-minutes/"
+    ],
+    [
+     "Library Minutes",
+     "https://grangeville.us/city-council-minutes/library-minutes/"
+    ],
+    [
+     "Miscellaneous Minutes",
+     "https://grangeville.us/city-council-minutes/miscellaneous-minutes/"
+    ],
+    [
+     "Planning &amp; Zoning Minutes",
+     "https://grangeville.us/city-council-minutes/planning-zoning-minutes/"
+    ],
+    [
+     "Technical Review Minutes",
+     "https://grangeville.us/city-council-minutes/technical-review-minutes/"
+    ],
+    [
+     "Mayor &amp; City Council",
+     "https://grangeville.us/mayor-and-city-council/"
+    ],
+    [
+     "City Staff",
+     "https://grangeville.us/mayor-and-city-council/city-staff/"
+    ],
+    [
+     "Planning &amp; Zoning Commission",
+     "https://grangeville.us/mayor-and-city-council/planning-and-zoning-commission/"
+    ],
+    [
+     "Library Meetings",
+     "https://grangeville.us/grangeville-centennial-library/"
+    ]
+   ]
+  }
+ ],
+ "Orofino": [
+  {
+   "url": "https://www.cityoforofino.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.cityoforofino.org (ConnectTimeout), so nothing was fetched"
+  },
+  {
+   "url": "https://orofino.id.gov/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at orofino.id.gov (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://www.orofino-id.gov/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at www.orofino-id.gov (ConnectionError), so nothing was fetched"
+  },
+  {
+   "url": "https://orofinoidaho.org/",
+   "error": "RobotsUnavailable: couldn't read robots.txt at orofinoidaho.org (ConnectionError), so nothing was fetched"
+  }
+ ],
+ "Salmon": [
+  {
+   "url": "https://www.cityofsalmon.com/",
+   "final": "https://www.cityofsalmon.com/",
+   "status": 200,
+   "title": "Home | City of Salmon",
+   "platform": [
+    "apptegy",
+    "dnn"
+   ],
+   "links": [
+    [
+     "@media only screen and (min-width: 1280p",
+     "https://fonts.googleapis.com"
+    ],
+    [
+     "city council",
+     "https://www.cityofsalmon.com/page/mayor-and-council"
+    ],
+    [
+     "AGENDA&#39;S",
+     "https://www.cityofsalmon.com/documents/city-council-meeting-agendas/23937884"
+    ],
+    [
+     "MEETING MINUTES",
+     "https://www.cityofsalmon.com/documents/city-council-meeting-minutes/23937897"
+    ]
+   ]
+  }
+ ],
+ "Soda Springs": [
+  {
+   "url": "https://www.sodaspringsid.com/",
+   "final": "https://www.sodaspringsid.com/",
+   "status": 200,
+   "title": "Welcome to Soda Springs, ID",
+   "platform": [
+    "revize"
+   ],
+   "links": [
+    [
+     "var defaultCalendarColor = \"#3788d8\"; va",
+     "https://www.sodaspringsid.com/revize/plugins/setup/css/revize.css"
+    ],
+    [
+     "Mayor & Council",
+     "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
+    ],
+    [
+     "Planning & Zoning",
+     "https://www.sodaspringsid.com/city/planning_and_zoning.php"
+    ],
+    [
+     "Public Meetings",
+     "https://www.sodaspringsid.com/city/publicmeetings.php"
+    ],
+    [
+     "City Council",
+     "https://www.sodaspringsid.com/city/city_council.php"
+    ],
+    [
+     "Planning & Zoning",
+     "https://www.sodaspringsid.com/city/planning___zoning.php"
+    ],
+    [
+     "Planning and Zoning Meetings and Minutes",
+     "https://sodaspringsid.com/city/planning___zoning.php"
+    ],
+    [
+     "view all events",
+     "https://www.sodaspringsid.com/calendar.php"
+    ]
+   ]
+  }
  ]
 }
