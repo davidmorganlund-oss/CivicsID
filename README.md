@@ -165,7 +165,10 @@ Diligent Community (formerly HighBond/iCompass) portals, used by Moscow, Cassia 
   against the host's site) and strips control characters before anything is written. The browser
   code inserts all of it as plain text, never as HTML, and checks links again.
 - A Content-Security-Policy on every page lets scripts load only from this site and the Census
-  geocoder (which the representatives lookup needs; it doesn't support a plain fetch).
+  geocoder (which the representatives lookup needs; it doesn't support a plain fetch). The
+  representatives pages also allow `services.arcgis.com`, where the Idaho State Tax Commission
+  publishes its taxing district map. `site/districts.js` sends it only the map point the Census
+  Bureau returned, never the address, and inserts what comes back as plain text.
 - The workflow gives each job only the permissions it needs, pins GitHub Actions to exact commits
   and Python packages to exact versions. Bump them on purpose and let the tests run.
 - Tests in `tests/test_normalize.py` cover the link checks and feed/calendar escaping.

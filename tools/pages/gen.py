@@ -9,6 +9,8 @@ SITE = Path(__file__).resolve().parents[2] / "site"
 FONTS = ('<link rel="preload" href="{up}fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
          '<link rel="preload" href="{up}fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>')
 SITE_URL = "https://civicsid.org/"
+# The reps page also loads the Idaho State Tax Commission's district map (JSONP).
+REPS_SCRIPTS = " https://services.arcgis.com"
 REPORT = "admin@barnoneinc.org"
 NOTICE = '<aside class="notice" aria-label="About CivicsID">A project of BarNone, a nonprofit. Not affiliated with any government agency.</aside>'
 BY = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barnone-phoenix.png" alt="" width="28" height="28">'
@@ -16,14 +18,15 @@ BY = ('<p class="by-barnone"><a href="https://barnoneinc.org"><img src="{up}barn
       'is not affiliated with any government agency, and does not speak for any public office.</p>')
 
 
-def head(title, up, desc, share=None, lang="en"):
+def head(title, up, desc, share=None, lang="en", scripts=""):
+    """scripts: extra hosts this page may load scripts from, for its CSP."""
     share = share or title.split(" | ")[0]
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov{scripts}; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc, quote=True)}">
@@ -256,13 +259,13 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 
 # ---------- representatives ----------
-(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsID", "", "Enter an Idaho street address to see your state legislators and members of Congress, plus where to find your city and county officials.")}
+(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsID", "", "Enter an Idaho street address to see every district you live in, your state legislators and members of Congress, plus where to find your city and county officials.", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Skip to results</a>
 {top("", "reps", alt="es/reps.html")}
 
 <section class="hero"><div class="wrap">
   <h1>Find who represents you.</h1>
-  <p class="lede">Enter an Idaho street address to see your state legislators and members of Congress and how to reach them, plus where to find your city and county officials.</p>
+  <p class="lede">Enter an Idaho street address to see every district you live in, from Congress down to your fire and library districts, plus your state legislators and members of Congress and how to reach them.</p>
   <form class="search" id="lookup">
     <div class="field wide">
       <label for="address">Street address</label>
@@ -270,7 +273,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
     </div>
     <button class="btn" type="submit">Look up</button>
   </form>
-  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. CivicsID never receives or stores it. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
+  <p class="small">Your address is sent from your browser to the U.S. Census Bureau's address lookup to find your districts. Only the map point it returns, not your address, goes to the Idaho State Tax Commission's public map to find special districts. CivicsID never receives or stores either. Your browser remembers only your county and city, so the Engage guides can show local links.</p>
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
@@ -283,6 +286,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 {footer("", "State legislators come from Open States, a public roster built from the Idaho Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 44 counties where we could confirm a website, and city links cover some of Idaho's larger cities.")}
 
 <script src="local.js"></script>
+<script src="districts.js"></script>
 <script src="reps.js"></script>
 </body>
 </html>
@@ -534,7 +538,7 @@ PRIV_EN = """
   </ul>
   <h2>What leaves your device</h2>
   <ul>
-    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. It doesn't pass through us, and we never see or store it.</li>
+    <li><strong>Address lookups.</strong> When you look up your representatives, your browser sends the address straight to the U.S. Census Bureau's public geocoder to find your districts. Your browser then sends only the map point the Census Bureau returns, not the address, to the Idaho State Tax Commission's public map service to find fire, library and other special districts. Neither passes through us, and we never see or store them.</li>
     <li><strong>Hosting.</strong> The site is hosted on GitHub Pages. Like any web host, GitHub keeps standard server logs, such as IP addresses, for security. We don't get or use those logs.</li>
     <li><strong>Links you follow.</strong> Meeting details, agendas and guide sources open on government and other websites, which have their own privacy policies.</li>
     <li><strong>Problem reports.</strong> If you email us a correction, it goes to BarNone's inbox ({REPORT}). We use it only to fix the site.</li>
@@ -551,7 +555,7 @@ PRIV_ES = """
   </ul>
   <h2>Lo que sale de su dispositivo</h2>
   <ul>
-    <li><strong>Búsqueda por dirección.</strong> Cuando busca a sus representantes, su navegador envía la dirección directamente al servicio público de la Oficina del Censo de EE. UU. No pasa por nosotros y nunca la vemos ni la guardamos.</li>
+    <li><strong>Búsqueda por dirección.</strong> Cuando busca a sus representantes, su navegador envía la dirección directamente al servicio público de la Oficina del Censo de EE. UU. Después envía solo el punto en el mapa que devuelve el Censo, no la dirección, al servicio de mapas público de la Comisión de Impuestos del Estado de Idaho para encontrar los distritos especiales, como los de bomberos y bibliotecas. Nada de esto pasa por nosotros y nunca lo vemos ni lo guardamos.</li>
     <li><strong>Alojamiento.</strong> El sitio está en GitHub Pages. Como cualquier servidor web, GitHub guarda registros estándar, como direcciones IP, por seguridad. Nosotros no recibimos ni usamos esos registros.</li>
     <li><strong>Enlaces.</strong> Los detalles de reuniones, agendas y fuentes abren en sitios de gobierno y otros sitios, que tienen sus propias políticas de privacidad.</li>
     <li><strong>Reportes de problemas.</strong> Si nos envía una corrección por correo, llega a la bandeja de BarNone ({REPORT}). Solo la usamos para corregir el sitio.</li>
@@ -582,13 +586,13 @@ PRIV_ES = """
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("privacy pages written")
 
-(ES / "reps.html").write_text(f'''{head("Quién le representa | CivicsID", "../", "Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.", lang="es")}
+(ES / "reps.html").write_text(f'''{head("Quién le representa | CivicsID", "../", "Escriba una dirección de Idaho para ver todos los distritos donde vive, sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.", lang="es", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Ir a los resultados</a>
 {top("", "reps", lang="es", alt="../reps.html")}
 
 <section class="hero"><div class="wrap">
   <h1>Encuentre quién le representa.</h1>
-  <p class="lede">Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos, y dónde encontrar a los funcionarios de su ciudad y condado.</p>
+  <p class="lede">Escriba una dirección de Idaho para ver todos los distritos donde vive, desde el Congreso hasta sus distritos de bomberos y bibliotecas, además de sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos.</p>
   <form class="search" id="lookup">
     <div class="field wide">
       <label for="address">Dirección</label>
@@ -596,7 +600,7 @@ print("privacy pages written")
     </div>
     <button class="btn" type="submit">Buscar</button>
   </form>
-  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. CivicsID nunca la recibe ni la guarda. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
+  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. Solo el punto en el mapa que devuelve, no su dirección, va al mapa público de la Comisión de Impuestos del Estado de Idaho para encontrar los distritos especiales. CivicsID nunca recibe ni guarda ninguno de los dos. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
@@ -609,6 +613,7 @@ print("privacy pages written")
 {footer_es("../", "Los legisladores estatales vienen de Open States, una lista pública basada en las páginas de miembros de la Legislatura de Idaho, y los miembros del Congreso de una lista pública. Ambas se actualizan cada noche. Los enlaces de condados cubren los 44 condados donde pudimos confirmar un sitio web, y los de ciudades cubren algunas de las ciudades más grandes de Idaho. Los sitios enlazados están en inglés.")}
 
 <script src="../local.js"></script>
+<script src="../districts.js"></script>
 <script src="../reps.js"></script>
 </body>
 </html>
