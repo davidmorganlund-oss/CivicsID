@@ -215,7 +215,7 @@ G["local-government"] = dict(
   </ul>
   <p>Su recibo de impuestos a la propiedad muestra cada distrito que le cobra impuestos. Es la manera más rápida de saber en cuáles vive.</p>
 
-  <section class="near-you" data-show="site" data-title="Los sitios web de su ciudad y su condado" aria-label="Los sitios web de su ciudad y su condado"></section>
+  <section class="near-you" data-show="site,schools,districts" data-title="Sus gobiernos locales" aria-label="Sus gobiernos locales"></section>
 
   <h2>Dónde puede participar</h2>
   <ul>
