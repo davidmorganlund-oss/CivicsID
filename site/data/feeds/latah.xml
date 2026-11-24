@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T13:18:15-07:00</updated>
+  <updated>2026-11-24T15:08:25-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:9827ba52be4d:agenda</id>
+    <title>Agenda posted: LOCATION CHANGE Fair &amp; Affordable Housing Commission Regular Meeting (2026-12-03 17:15)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://moscowid.portal.civicclerk.com/event/3788/files"/>
+    <summary>City of Moscow · 2026-12-03 17:15 (PT) · Council Chambers, 206 E Third Street, Moscow</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:1089d5e3e784:agenda</id>
+    <title>Agenda posted: Board of Adjustment Public Hearing (2026-12-01 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://moscowid.portal.civicclerk.com/event/3992/files"/>
+    <summary>City of Moscow · 2026-12-01 19:00 (PT) · Council Chambers, 206 E Third Street, Moscow</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:4cd55a5929b5:agenda</id>
     <title>Agenda posted: Farmers Market Commission Regular Meeting (2026-12-01 16:00)</title>

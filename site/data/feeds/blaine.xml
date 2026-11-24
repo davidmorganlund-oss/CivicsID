@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T13:18:15-07:00</updated>
+  <updated>2026-11-24T15:08:25-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:d7cfba3d6e95:new</id>
@@ -19,6 +19,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://ketchumidaho.gov/AgendaCenter/ViewFile/Agenda/_12042026-61?html=true"/>
     <summary>City of Ketchum · 2026-12-04 10:00 (MT) · City Hall</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:9275d537c491:agenda</id>
+    <title>Agenda posted: Planning and Zoning Meeting (2026-12-01 19:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://careyid.portal.civicclerk.com/event/1023/files"/>
+    <summary>City of Carey · 2026-12-01 19:00 (MT) · 20482 N Main Street, Carey · On the agenda: Ensure every commissioner is successfully logged on to Civic Plus agenda review &amp; minute creation portal; Updates and changes to zoning map; Blue Cross of Idaho Foundation for Health grant of $25,000 to fund the ordinance re-write</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:517f28453891:new</id>
@@ -67,6 +74,6 @@
     <title>New meeting: Planning and Zoning Meeting (2026-12-01 19:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
     <link href="https://careyid.portal.civicclerk.com/event/1023/overview"/>
-    <summary>City of Carey · 2026-12-01 19:00 (MT) · 20482 N Main Street, Carey</summary>
+    <summary>City of Carey · 2026-12-01 19:00 (MT) · 20482 N Main Street, Carey · On the agenda: Ensure every commissioner is successfully logged on to Civic Plus agenda review &amp; minute creation portal; Updates and changes to zoning map; Blue Cross of Idaho Foundation for Health grant of $25,000 to fund the ordinance re-write</summary>
   </entry>
 </feed>

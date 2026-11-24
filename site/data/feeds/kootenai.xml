@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T13:18:15-07:00</updated>
+  <updated>2026-11-24T15:08:25-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:cdd43811e9b5:agenda</id>
@@ -75,6 +75,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12022026-6172"/>
     <summary>Kootenai County · 2026-12-02 08:30 (PT) · Search &amp; Rescue Building, 10865 N Ramsey Rd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:78c5a30fa663:new</id>
+    <title>New meeting: BOCC: Advisory Board Interviews (2026-12-01 11:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5641"/>
+    <summary>Kootenai County · 2026-12-01 11:00 (PT) · 451 N Government Way</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:cdfe5a5cef7b:agenda</id>
