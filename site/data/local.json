@@ -1,49 +1,220 @@
 {
- "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page.",
+ "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page. Added November 2026: more cities; each county's 'schools' (school districts, from the State Department of Education list) and 'districts' (libraries, from the Idaho Commission for Libraries directory, and the Port of Lewiston).",
  "counties": {
   "Ada": {
    "site": "https://adacounty.id.gov/",
    "commissioners": "https://adacounty.id.gov/commissioners/",
    "meetings": "https://apps.adacounty.id.gov/AdaFileBrowse/?papp=BOCCAgendas",
-   "boards": "https://adacounty.id.gov/commissioners/volunteer-board-information-applications/"
+   "boards": "https://adacounty.id.gov/commissioners/volunteer-board-information-applications/",
+   "districts": [
+    {
+     "name": "Boise Public Library",
+     "kind": "library",
+     "site": "https://www.boisepubliclibrary.org/"
+    },
+    {
+     "name": "Garden City Public Library",
+     "kind": "library",
+     "site": "https://notaquietlibrary.org/"
+    }
+   ]
   },
   "Adams": {
    "site": "https://www.co.adams.id.us/",
    "commissioners": "https://www.co.adams.id.us/county-commissioners",
-   "meetings": "https://www.co.adams.id.us/public-meetings"
+   "meetings": "https://www.co.adams.id.us/public-meetings",
+   "districts": [
+    {
+     "name": "Meadows Valley Public Library",
+     "kind": "library",
+     "site": "https://meadowsvalley.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Council School District 13",
+     "site": "https://www.csd13.org/"
+    },
+    {
+     "name": "Meadows Valley School District 11",
+     "site": "https://www.mvsd11.org/"
+    }
+   ]
   },
   "Bannock": {
    "site": "https://www.bannockcounty.gov/",
    "commissioners": "https://www.bannockcounty.gov/commissioners/",
    "meetings": "https://www.bannockcounty.gov/meetings/",
-   "boards": "https://www.bannockcounty.gov/commissioners/#advisoryboards"
+   "boards": "https://www.bannockcounty.gov/commissioners/#advisoryboards",
+   "districts": [
+    {
+     "name": "Portneuf District Library",
+     "kind": "library",
+     "site": "https://www.portneuflibrary.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Marsh Valley Joint School District 21",
+     "site": "https://www.mvsd21.org/"
+    }
+   ]
   },
   "Bear Lake": {
    "site": "https://www.bearlakecounty.info/",
    "commissioners": "https://www.bearlakecounty.info/commissioners.html",
-   "meetings": "https://www.bearlakecounty.info/meetings.html"
+   "meetings": "https://www.bearlakecounty.info/meetings.html",
+   "districts": [
+    {
+     "name": "Bear Lake County District Library",
+     "kind": "library",
+     "site": "https://bearlake.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Bear Lake County School District 33",
+     "site": "https://www.blsd.net/en-US"
+    }
+   ]
   },
   "Benewah": {
-   "site": ""
+   "site": "",
+   "districts": [
+    {
+     "name": "St Maries Public Library",
+     "kind": "library",
+     "site": "https://stmarieslibrary.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Plummer/Worley Joint School District 44",
+     "site": "https://www.pwsd.com/"
+    }
+   ]
   },
   "Bingham": {
-   "site": "https://www.binghamid.gov/"
+   "site": "https://www.binghamid.gov/",
+   "districts": [
+    {
+     "name": "Aberdeen District Library",
+     "kind": "library",
+     "site": "https://aberdeen.lili.org/"
+    },
+    {
+     "name": "Blackfoot Public Library",
+     "kind": "library",
+     "site": "https://blackfootlibrary.org/"
+    },
+    {
+     "name": "North Bingham County District Library",
+     "kind": "library",
+     "site": "https://nblibrary.org/"
+    },
+    {
+     "name": "Snake River School/Community Library",
+     "kind": "library",
+     "site": "https://www.snakeriverlibrary.com/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Aberdeen School District 58",
+     "site": "https://asd58.us/"
+    },
+    {
+     "name": "Firth School District 59",
+     "site": "https://sites.google.com/d59.k12.id.us/fsd/our-district"
+    }
+   ]
   },
   "Blaine": {
-   "site": "https://www.blainecountyid.gov/"
+   "site": "https://www.blainecountyid.gov/",
+   "districts": [
+    {
+     "name": "Bellevue Public Library",
+     "kind": "library",
+     "site": "https://bellevue.lili.org/"
+    },
+    {
+     "name": "Hailey Public Library",
+     "kind": "library",
+     "site": "https://haileypubliclibrary.org/"
+    }
+   ]
   },
   "Boise": {
-   "site": "https://www.boisecounty.us/"
+   "site": "https://www.boisecounty.us/",
+   "districts": [
+    {
+     "name": "Garden Valley District Library",
+     "kind": "library",
+     "site": "https://gardenvalley.lili.org/"
+    },
+    {
+     "name": "Horseshoe Bend District Library",
+     "kind": "library",
+     "site": "https://horseshoebend.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Basin School District 72",
+     "site": "https://www.basinschools.net/"
+    },
+    {
+     "name": "Garden Valley School District 71",
+     "site": "https://www.gvsd.net/"
+    },
+    {
+     "name": "Horseshoe Bend School School District 73",
+     "site": "https://www.hsbschools.org/"
+    }
+   ]
   },
   "Bonner": {
-   "site": "https://www.bonnercountyid.gov/"
+   "site": "https://www.bonnercountyid.gov/",
+   "districts": [
+    {
+     "name": "West Bonner District Library",
+     "kind": "library",
+     "site": "https://www.westbonnerlibrary.org/"
+    }
+   ]
   },
   "Bonneville": {
    "site": "https://www.bonnevillecountyidaho.gov/",
-   "meetings": "https://www.bonnevillecountyidaho.gov/calendar"
+   "meetings": "https://www.bonnevillecountyidaho.gov/calendar",
+   "districts": [
+    {
+     "name": "Idaho Falls Public Library",
+     "kind": "library",
+     "site": "https://www.ifpl.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Swan Valley School District 92",
+     "site": "https://sd92.k12.id.us/"
+    }
+   ]
   },
   "Boundary": {
-   "site": "https://www.boundarycountyid.org/"
+   "site": "https://www.boundarycountyid.org/",
+   "districts": [
+    {
+     "name": "Boundary County District Library",
+     "kind": "library",
+     "site": "https://www.boundarycountylibrary.com/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Boundary County School District 101",
+     "site": "https://www.bcsd101.com/"
+    }
+   ]
   },
   "Butte": {
    "site": "https://buttecountyid.us/",
@@ -53,147 +224,677 @@
   "Camas": {
    "site": "https://camascounty.id.gov/",
    "commissioners": "https://camascounty.id.gov/commissioners/",
-   "meetings": "https://camascounty.id.gov/category/commissioner-agenda/"
+   "meetings": "https://camascounty.id.gov/category/commissioner-agenda/",
+   "schools": [
+    {
+     "name": "Camas County School District 121",
+     "site": "https://www.camascountyschools.org/"
+    }
+   ]
   },
   "Canyon": {
    "site": "https://www.canyoncounty.id.gov/",
    "commissioners": "https://www.canyoncounty.id.gov/elected-officials/commissioners/",
-   "meetings": "https://agenda.canyoncounty.id.gov/Search"
+   "meetings": "https://agenda.canyoncounty.id.gov/Search",
+   "districts": [
+    {
+     "name": "Wilder District Library",
+     "kind": "library",
+     "site": "https://wilder.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Melba Joint School District 136",
+     "site": "https://msd136.org/"
+    },
+    {
+     "name": "Parma School District 137",
+     "site": "https://www.parmaschools.org/home"
+    }
+   ]
   },
   "Caribou": {
    "site": "https://www.cariboucounty.us/",
    "commissioners": "https://www.cariboucounty.us/government/county_commissioners/index.php",
-   "meetings": "https://www.cariboucounty.us/government/public_meeting.php"
+   "meetings": "https://www.cariboucounty.us/government/public_meeting.php",
+   "schools": [
+    {
+     "name": "North Gem School District 149",
+     "site": "https://www.sd149.com/en-US"
+    },
+    {
+     "name": "Soda Springs Joint School District 150",
+     "site": "https://www.sodaschools.org/"
+    }
+   ]
   },
   "Cassia": {
    "site": "https://www.cassia.gov/",
    "commissioners": "https://www.cassia.gov/clerk-of-the-board-of-county-commissioners",
-   "meetings": "https://www.cassia.gov/meetings"
+   "meetings": "https://www.cassia.gov/meetings",
+   "districts": [
+    {
+     "name": "Oakley District Library",
+     "kind": "library",
+     "site": "https://oakley.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Cassia Joint School District 151",
+     "site": "https://www.cassiaschools.org/"
+    }
+   ]
   },
   "Clark": {
    "site": "https://www.clark-co.id.gov/",
-   "meetings": "https://www.clark-co.id.gov/agendacenter"
+   "meetings": "https://www.clark-co.id.gov/agendacenter",
+   "schools": [
+    {
+     "name": "Clark County School District 161",
+     "site": "https://www.clarkcountyschools161.org/"
+    }
+   ]
   },
   "Clearwater": {
    "site": "https://www.clearwatercounty.org/",
    "commissioners": "https://www.clearwatercounty.org/departments/commissioners/index.php",
    "meetings": "https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php",
-   "boards": "https://www.clearwatercounty.org/i_want_to/volunteer/index.php"
+   "boards": "https://www.clearwatercounty.org/i_want_to/volunteer/index.php",
+   "districts": [
+    {
+     "name": "Elk River District Library",
+     "kind": "library",
+     "site": "https://elkriver.lili.org/"
+    },
+    {
+     "name": "Pierce District Library",
+     "kind": "library",
+     "site": "https://piercelibrary.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Orofino Joint School District 171",
+     "site": "https://www.sd171.k12.id.us/"
+    }
+   ]
   },
   "Custer": {
-   "site": "https://custercountyidaho.org/"
+   "site": "https://custercountyidaho.org/",
+   "districts": [
+    {
+     "name": "Challis Public Library",
+     "kind": "library",
+     "site": "https://challis.lili.org/"
+    },
+    {
+     "name": "Mackay District Library",
+     "kind": "library",
+     "site": "https://mackay.lili.org/"
+    },
+    {
+     "name": "Stanley District Library",
+     "kind": "library",
+     "site": "https://stanley.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Challis Joint School District 181",
+     "site": "https://www.d181.k12.id.us/"
+    }
+   ]
   },
   "Elmore": {
    "site": "https://elmorecounty.org/",
    "commissioners": "https://elmorecounty.org/commissioners/",
-   "meetings": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/"
+   "meetings": "https://elmorecounty.org/commissioners/meeting-minutes-2-2/",
+   "schools": [
+    {
+     "name": "Glenns Ferry School District 192",
+     "site": "https://www.glennsferryschools.org/"
+    },
+    {
+     "name": "Mountain Home School District 193",
+     "site": "https://www.mtnhomesd.org/"
+    },
+    {
+     "name": "Prairie Elementary School District 191",
+     "site": "https://prairie191k8.org/"
+    }
+   ]
   },
   "Franklin": {
    "site": "https://www.franklincountyidaho.org/",
    "commissioners": "https://www.franklincountyidaho.org/government/county_commissioners.php",
-   "meetings": "https://www.franklincountyidaho.org/government/agendas_minutes.php"
+   "meetings": "https://www.franklincountyidaho.org/government/agendas_minutes.php",
+   "districts": [
+    {
+     "name": "Larsen-Sant/Franklin District Library",
+     "kind": "library",
+     "site": "https://larsen-sant.lili.org/"
+    }
+   ]
   },
   "Fremont": {
-   "site": "https://www.fremontcountyid.gov/"
+   "site": "https://www.fremontcountyid.gov/",
+   "districts": [
+    {
+     "name": "Fremont County District Library",
+     "kind": "library",
+     "site": "https://fremont.lili.org/"
+    }
+   ]
   },
   "Gem": {
    "site": "https://www.gemcounty.org/",
    "commissioners": "https://www.gemcounty.org/government/county_commissioners/index.php",
    "meetings": "https://www.gemcounty.org/government/county_commissioners/agendas_and_minutes.php",
-   "boards": "https://www.gemcounty.org/government/county_commissioners/county_boards/index.php"
+   "boards": "https://www.gemcounty.org/government/county_commissioners/county_boards/index.php",
+   "districts": [
+    {
+     "name": "Ola District Library",
+     "kind": "library",
+     "site": "https://olalibrary.org/"
+    }
+   ]
   },
   "Gooding": {
    "site": "https://www.goodingcounty.org/",
-   "meetings": "https://www.goodingcounty.org/agendacenter"
+   "meetings": "https://www.goodingcounty.org/agendacenter",
+   "schools": [
+    {
+     "name": "Bliss School District 234",
+     "site": "https://bliss234.org/"
+    },
+    {
+     "name": "Gooding Joint School District 231",
+     "site": "https://gsd231.org/"
+    },
+    {
+     "name": "Hagerman School District 233",
+     "site": "https://www.hjsd.org/"
+    },
+    {
+     "name": "Wendell School District 232",
+     "site": "https://www.sd232.k12.id.us/"
+    }
+   ]
   },
   "Idaho": {
    "site": "https://idahocounty.org/",
    "commissioners": "https://idahocounty.org/planb/commissioners/",
    "meetings": "https://idahocounty.org/planb/commissioners/meeting-agendas-and-minutes/",
-   "boards": "https://idahocounty.org/planb/commissioners/idaho-county-commissioners-advisory-boards/"
+   "boards": "https://idahocounty.org/planb/commissioners/idaho-county-commissioners-advisory-boards/",
+   "schools": [
+    {
+     "name": "Cottonwood Joint School District 242",
+     "site": "https://sd242.org/"
+    },
+    {
+     "name": "Salmon River Joint School District 243",
+     "site": "https://www.jsd243.org/"
+    }
+   ]
   },
   "Jefferson": {
-   "site": "https://www.co.jefferson.id.us/"
+   "site": "https://www.co.jefferson.id.us/",
+   "districts": [
+    {
+     "name": "Lewisville Public Library",
+     "kind": "library",
+     "site": "https://lewisville.lili.org/"
+    },
+    {
+     "name": "Rigby Public Library",
+     "kind": "library",
+     "site": "https://rigby.lili.org/"
+    },
+    {
+     "name": "Roberts City Library",
+     "kind": "library",
+     "site": "https://roberts.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Ririe Joint School District 252",
+     "site": "https://sites.google.com/ririe252.org/ririeschooldistrict252/home"
+    }
+   ]
   },
   "Jerome": {
    "site": "https://www.jeromecountyid.us/",
-   "meetings": "https://www.jeromecountyid.us/agendacenter"
+   "meetings": "https://www.jeromecountyid.us/agendacenter",
+   "districts": [
+    {
+     "name": "Jerome Public Library",
+     "kind": "library",
+     "site": "https://jerome.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Jerome Joint School District 261",
+     "site": "https://www.jeromeschools.org/"
+    },
+    {
+     "name": "Valley School District 262",
+     "site": "https://www.valley262.org/"
+    }
+   ]
   },
   "Kootenai": {
    "site": "https://www.kcgov.us/",
    "commissioners": "https://www.kcgov.us/487/Board-of-County-Commissioners",
-   "meetings": "https://www.kcgov.us/AgendaCenter"
+   "meetings": "https://www.kcgov.us/AgendaCenter",
+   "schools": [
+    {
+     "name": "Kootenai School District 274",
+     "site": "https://www.sd274.com/"
+    }
+   ]
   },
   "Latah": {
    "site": "https://latahcountyid.gov/",
    "commissioners": "https://latahcountyid.gov/commissioners/",
-   "boards": "https://latahcountyid.gov/commissions/"
+   "boards": "https://latahcountyid.gov/commissions/",
+   "schools": [
+    {
+     "name": "Potlatch School District 285",
+     "site": "https://www.psd285.org/"
+    }
+   ]
   },
   "Lemhi": {
    "site": "https://www.lemhicountyidaho.org/",
-   "meetings": "https://www.lemhicountyidaho.org/AgendaCenter"
+   "meetings": "https://www.lemhicountyidaho.org/AgendaCenter",
+   "schools": [
+    {
+     "name": "Salmon School District 291",
+     "site": "https://www.salmon291.org/en-US"
+    },
+    {
+     "name": "South Lemhi School District 292",
+     "site": "https://www.leadoreschool.org/"
+    }
+   ]
   },
   "Lewis": {
-   "site": "http://www.lewiscountyid.us/"
+   "site": "http://www.lewiscountyid.us/",
+   "schools": [
+    {
+     "name": "Highland School District 305",
+     "site": "http://www.sd305.k12.id.us/"
+    },
+    {
+     "name": "Kamiah Joint School District 304",
+     "site": "https://kamiahsd.org/"
+    },
+    {
+     "name": "Nezperce School District 302",
+     "site": "https://sites.google.com/nezpercesd.us/school"
+    }
+   ]
   },
   "Lincoln": {
    "site": "https://www.lincolncountyid.gov/",
-   "meetings": "https://www.lincolncountyid.gov/meetings"
+   "meetings": "https://www.lincolncountyid.gov/meetings",
+   "districts": [
+    {
+     "name": "Richfield District Library",
+     "kind": "library",
+     "site": "https://richfield.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Dietrich School District 314",
+     "site": "https://district.dietrichschools.org/"
+    },
+    {
+     "name": "Richfield School District 316",
+     "site": "https://www.richfieldsd.org/"
+    },
+    {
+     "name": "Shoshone Joint School District 312",
+     "site": "https://shoshonesd.org/"
+    }
+   ]
   },
   "Madison": {
-   "site": "https://www.madisoncountyid.gov/"
+   "site": "https://www.madisoncountyid.gov/",
+   "districts": [
+    {
+     "name": "Madison Library District",
+     "kind": "library",
+     "site": "https://www.madisonlib.org/"
+    },
+    {
+     "name": "Sugar Salem School/Community Library",
+     "kind": "library",
+     "site": "https://sugarlib.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Sugar-Salem School District 322",
+     "site": "https://www.sugarsalem.org/"
+    },
+    {
+     "name": "West Jefferson School District 253",
+     "site": "https://www.wjsd.org/"
+    }
+   ]
   },
   "Minidoka": {
    "site": "https://www.minidoka.id.us/",
-   "meetings": "https://www.minidoka.id.us/AgendaCenter"
+   "meetings": "https://www.minidoka.id.us/AgendaCenter",
+   "districts": [
+    {
+     "name": "DeMary Memorial Library",
+     "kind": "library",
+     "site": "https://demarylibrary.org/"
+    }
+   ]
   },
   "Nez Perce": {
-   "site": "https://www.co.nezperce.id.us/"
+   "site": "https://www.co.nezperce.id.us/",
+   "districts": [
+    {
+     "name": "Port of Lewiston",
+     "kind": "port",
+     "site": "https://portoflewiston.com/"
+    },
+    {
+     "name": "Lewiston City Public Library",
+     "kind": "library",
+     "site": "https://cityoflewiston.org/899/Library"
+    },
+    {
+     "name": "Prairie River District Library",
+     "kind": "library",
+     "site": "https://www.prld.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Lapwai School District 341",
+     "site": "http://www.lapwai.org/"
+    }
+   ]
   },
   "Oneida": {
-   "site": "https://oneidacountyid.com/"
+   "site": "https://oneidacountyid.com/",
+   "schools": [
+    {
+     "name": "Oneida County School District 351",
+     "site": "https://www.oneidaschooldistrict.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Oneida County District Library",
+     "kind": "library",
+     "site": "https://www.oneidacountylibrary.org/"
+    }
+   ]
   },
   "Owyhee": {
    "site": "https://owyheecounty.net/",
-   "commissioners": "https://owyheecounty.net/commissioners/"
+   "commissioners": "https://owyheecounty.net/commissioners/",
+   "districts": [
+    {
+     "name": "Bruneau Valley District Library",
+     "kind": "library",
+     "site": "https://bruneau.lili.org/"
+    },
+    {
+     "name": "Homedale Public Library",
+     "kind": "library",
+     "site": "https://homedale.lili.org/"
+    },
+    {
+     "name": "Lizard Butte District Library",
+     "kind": "library",
+     "site": "https://lizardbutte.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Pleasant Valley School District 364",
+     "site": "https://www.pleasantvalleyschools.org/"
+    }
+   ]
   },
   "Payette": {
    "site": "https://www.payettecounty.org/",
    "commissioners": "https://www.payettecounty.org/elected-officials/commissioners",
    "meetings": "https://www.payettecounty.org/elected-officials/commissioners/agenda",
-   "boards": "https://www.payettecounty.org/other-resources/advisory-board"
+   "boards": "https://www.payettecounty.org/other-resources/advisory-board",
+   "districts": [
+    {
+     "name": "Armoral Tuttle Public Library",
+     "kind": "library",
+     "site": "https://newplymouth.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "New Plymouth School School District 372",
+     "site": "https://www.npschools.us/"
+    }
+   ]
   },
   "Power": {
-   "site": "https://www.powercounty.gov/"
+   "site": "https://www.powercounty.gov/",
+   "districts": [
+    {
+     "name": "American Falls District Library",
+     "kind": "library",
+     "site": "https://www.aflibrary.org/"
+    },
+    {
+     "name": "Rockland School/Community Library",
+     "kind": "library",
+     "site": "https://rbulldogs.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "American Falls Joint School District 381",
+     "site": "https://www.sd381.k12.id.us/"
+    },
+    {
+     "name": "Arbon Elementary School District 383",
+     "site": "https://arbonvalley.com/school-district/"
+    },
+    {
+     "name": "Rockland School District 382",
+     "site": "https://rbulldogs.org/"
+    }
+   ]
   },
   "Shoshone": {
    "site": "https://shoshonecounty.id.gov/",
    "commissioners": "https://shoshonecounty.id.gov/commissioners/",
-   "meetings": "https://shoshonecounty.id.gov/commissioners/"
+   "meetings": "https://shoshonecounty.id.gov/commissioners/",
+   "districts": [
+    {
+     "name": "Clarkia District Library",
+     "kind": "library",
+     "site": "https://clarkia.lili.org/"
+    },
+    {
+     "name": "Mullan Public Library",
+     "kind": "library",
+     "site": "https://mullan.lili.org/"
+    },
+    {
+     "name": "Osburn Public Library",
+     "kind": "library",
+     "site": "https://osburn.lili.org/"
+    },
+    {
+     "name": "Wallace Public Library",
+     "kind": "library",
+     "site": "https://wallace.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Avery School District 394",
+     "site": "https://sd394.com/"
+    },
+    {
+     "name": "Kellogg Joint School District 391",
+     "site": "https://www.kelloggschools.org/"
+    },
+    {
+     "name": "Mullan School District 392",
+     "site": "https://www.mullanschools.com/"
+    },
+    {
+     "name": "Wallace School District 393",
+     "site": "https://www.wsd393.org/"
+    }
+   ]
   },
   "Teton": {
    "site": "https://www.tetoncountyidaho.gov/",
    "commissioners": "https://www.tetoncountyidaho.gov/government/elected_officials/county_commissioners/index.php",
    "meetings": "https://pub-tetoncounty.escribemeetings.com/",
-   "boards": "https://www.tetoncountyidaho.gov/government/boards/index.php"
+   "boards": "https://www.tetoncountyidaho.gov/government/boards/index.php",
+   "schools": [
+    {
+     "name": "Teton County School District 401",
+     "site": "https://tsd401.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Valley of the Tetons District Library",
+     "kind": "library",
+     "site": "https://valleyofthetetonslibrary.org/"
+    }
+   ]
   },
   "Twin Falls": {
    "site": "https://twinfallscounty.org/",
    "commissioners": "https://twinfallscounty.org/commissioners/",
    "meetings": "https://twinfallscounty.org/commissioners/agenda/",
-   "boards": "https://twinfallscounty.org/hr/advisory-board/"
+   "boards": "https://twinfallscounty.org/hr/advisory-board/",
+   "districts": [
+    {
+     "name": "Buhl Public Library",
+     "kind": "library",
+     "site": "https://www.buhlpubliclibrary.org"
+    },
+    {
+     "name": "Filer Public Library",
+     "kind": "library",
+     "site": "https://filer.lili.org/"
+    },
+    {
+     "name": "Kimberly Public Library",
+     "kind": "library",
+     "site": "https://kimberly.lili.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Buhl Joint School District 412",
+     "site": "https://www.buhlschools.org/"
+    },
+    {
+     "name": "Castleford School District 417",
+     "site": "https://castlefordschools.wordpress.com/"
+    },
+    {
+     "name": "Filer School District 413",
+     "site": "https://filerschools.org/"
+    },
+    {
+     "name": "Hansen School District 415",
+     "site": "https://www.hansenschools.org/"
+    },
+    {
+     "name": "Kimberly School District 414",
+     "site": "http://www.kimberly.edu/"
+    },
+    {
+     "name": "Murtaugh Joint School District 418",
+     "site": "https://www.murtaugh.k12.id.us/"
+    }
+   ]
   },
   "Valley": {
    "site": "https://www.valleycountyid.gov/",
-   "meetings": "https://www.valleycountyid.gov/calendar/72/"
+   "meetings": "https://www.valleycountyid.gov/calendar/72/",
+   "districts": [
+    {
+     "name": "Cascade Public Library",
+     "kind": "library",
+     "site": "https://cascade.lili.org/"
+    },
+    {
+     "name": "Donnelly Public Library District",
+     "kind": "library",
+     "site": "https://donnelly.lili.org/"
+    },
+    {
+     "name": "McCall Public Library",
+     "kind": "library",
+     "site": "https://mccall.id.us/162/McCall-Public-Library"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Cascade School District 422",
+     "site": "https://www.cascadeschools.org/"
+    }
+   ]
   },
   "Washington": {
    "site": "https://www.co.washington.id.us/",
    "commissioners": "https://www.co.washington.id.us/183",
-   "meetings": "https://www.co.washington.id.us/calendar.aspx?CID=14"
+   "meetings": "https://www.co.washington.id.us/calendar.aspx?CID=14",
+   "districts": [
+    {
+     "name": "Cambridge District Library",
+     "kind": "library",
+     "site": "https://cambridge.lili.org/"
+    },
+    {
+     "name": "Midvale District Library",
+     "kind": "library",
+     "site": "https://midvale.lili.org/"
+    },
+    {
+     "name": "Weiser Public Library",
+     "kind": "library",
+     "site": "https://weiserlibrary.org/"
+    }
+   ],
+   "schools": [
+    {
+     "name": "Cambridge Joint School District",
+     "site": "https://www.cambridge432.org/"
+    },
+    {
+     "name": "Midvale School District 433",
+     "site": "https://www.midvaleschools.org/"
+    }
+   ]
   }
  },
  "cities": {
+  "Albion": {
+   "county": "Cassia",
+   "site": "https://albionidaho.gov"
+  },
   "American Falls": {
    "county": "Power",
    "site": "https://americanfallsid.gov/",
@@ -216,6 +917,10 @@
    },
    "council": "https://cityofammon.us/government/city-council/"
   },
+  "Arco": {
+   "county": "Butte",
+   "site": "https://cityofarco.municipalimpact.com/"
+  },
   "Arimo": {
    "county": "Bannock",
    "site": "https://arimoidaho.us/",
@@ -225,6 +930,10 @@
    "county": "Fremont",
    "site": "https://cityofashton.com/",
    "meetings": "https://cityofashton.com/"
+  },
+  "Athol": {
+   "county": "Kootenai",
+   "site": "https://atholidaho.com/"
   },
   "Bancroft": {
    "county": "Caribou",
@@ -305,6 +1014,10 @@
     "checked": "2026-11-17"
    }
   },
+  "Cambridge": {
+   "county": "Washington",
+   "site": "https://cambridgeidaho.com/"
+  },
   "Carey": {
    "county": "Blaine",
    "site": "https://www.cityofcarey.org/",
@@ -340,6 +1053,10 @@
    "county": "Bonner",
    "site": "http://clarkforkidaho.gov/COCF/index.html",
    "meetings": "http://clarkforkidaho.gov/COCF/index.html"
+  },
+  "Clifton": {
+   "county": "Franklin",
+   "site": "https://cliftonidaho.com/"
   },
   "Coeur d'Alene": {
    "county": "Kootenai",
@@ -435,6 +1152,10 @@
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
   },
+  "Fernan Lake Village": {
+   "county": "Kootenai",
+   "site": "https://www.fernanvillage.org/"
+  },
   "Firth": {
    "county": "Bingham",
    "site": "https://firthidaho.gov/",
@@ -467,6 +1188,10 @@
    },
    "council": "https://gardencityidaho.org/elected-officials"
   },
+  "Genesee": {
+   "county": "Latah",
+   "site": "https://cityofgenesee.com/"
+  },
   "Georgetown": {
    "county": "Bear Lake",
    "site": "https://georgetown.id.gov/",
@@ -487,6 +1212,14 @@
     "checked": "2026-11-22"
    },
    "council": "https://www.goodingidaho.org/pages/elected-officials"
+  },
+  "Grace": {
+   "county": "Caribou",
+   "site": "https://www.cityofgraceid.com/"
+  },
+  "Grand View": {
+   "county": "Owyhee",
+   "site": "https://www.grandview.id/"
   },
   "Grangeville": {
    "county": "Idaho",
@@ -514,6 +1247,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
+  },
+  "Hansen": {
+   "county": "Twin Falls",
+   "site": "https://www.cityofhansen.org"
   },
   "Harrison": {
    "county": "Kootenai",
@@ -561,6 +1298,10 @@
    "county": "Twin Falls",
    "site": "https://hollisteridaho.com/",
    "meetings": "https://hollisteridaho.com/"
+  },
+  "Homedale": {
+   "county": "Owyhee",
+   "site": "https://cityofhomedale.org/"
   },
   "Horseshoe Bend": {
    "county": "Boise",
@@ -660,6 +1401,14 @@
     "checked": "2026-11-17"
    }
   },
+  "Lapwai": {
+   "county": "Nez Perce",
+   "site": "https://www.cityoflapwai.gov/"
+  },
+  "Lava Hot Springs": {
+   "county": "Bannock",
+   "site": "https://www.lavahotspringscity.com/"
+  },
   "Leadore": {
    "county": "Lemhi",
    "site": "https://www.cityofleadore.com/",
@@ -675,6 +1424,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityoflewiston.org/367/Mayor-City-Council"
+  },
+  "Mackay": {
+   "county": "Custer",
+   "site": "https://mackayidaho-city.com/"
   },
   "Marsing": {
    "county": "Owyhee",
@@ -697,6 +1450,10 @@
    "county": "Bannock",
    "site": "https://www.mccammoncity.com/",
    "meetings": "https://www.mccammoncity.com/"
+  },
+  "Melba": {
+   "county": "Canyon",
+   "site": "https://cityofmelba.org/"
   },
   "Menan": {
    "county": "Jefferson",
@@ -751,6 +1508,14 @@
    },
    "council": "https://www.mountain-home.us/166/City-Council"
   },
+  "Moyie Springs": {
+   "county": "Boundary",
+   "site": "https://www.cityofmoyiesprings.com/"
+  },
+  "Murtaugh": {
+   "county": "Twin Falls",
+   "site": "https://sites.google.com/view/cityofmurtaugh/home"
+  },
   "Nampa": {
    "county": "Canyon",
    "site": "https://www.cityofnampa.us/",
@@ -760,6 +1525,14 @@
     "source": "https://www.cityofnampa.us/529/Office-of-the-Mayor",
     "checked": "2026-11-17"
    }
+  },
+  "New Meadows": {
+   "county": "Adams",
+   "site": "https://newmeadowsidaho.us/"
+  },
+  "New Plymouth": {
+   "county": "Payette",
+   "site": "https://www.npidaho.com/"
   },
   "Newdale": {
    "county": "Fremont",
@@ -818,6 +1591,10 @@
    "site": "https://www.cityofpeck.org/",
    "meetings": "https://www.cityofpeck.org/meeting-agendas-and-minutes"
   },
+  "Pierce": {
+   "county": "Clearwater",
+   "site": "https://www.cityofpierce.net/"
+  },
   "Placerville": {
    "county": "Boise",
    "site": "https://placervilleidaho.org/",
@@ -852,6 +1629,10 @@
     "source": "https://www.postfalls.gov/167/Mayor",
     "checked": "2026-11-17"
    }
+  },
+  "Potlatch": {
+   "county": "Latah",
+   "site": "https://www.cityofpotlatch.org/"
   },
   "Preston": {
    "county": "Franklin",
@@ -961,6 +1742,10 @@
    },
    "council": "https://cityofshelley.org/city-officials/"
   },
+  "Shoshone": {
+   "county": "Lincoln",
+   "site": "https://www.shoshonecityid.gov/"
+  },
   "Soda Springs": {
    "county": "Caribou",
    "site": "https://www.sodaspringsid.com/",
@@ -982,6 +1767,14 @@
    "site": "https://www.cityofstanthony.org/",
    "meetings": "https://www.cityofstanthony.org/page/city-council",
    "council": "https://www.cityofstanthony.org/page/city-council"
+  },
+  "St. Maries": {
+   "county": "Benewah",
+   "site": "https://cityofstmaries.org/"
+  },
+  "Stanley": {
+   "county": "Custer",
+   "site": "https://www.cityofstanleyid.gov/"
   },
   "Star": {
    "county": "Ada",
@@ -1018,6 +1811,10 @@
    "county": "Teton",
    "site": "https://www.tetoniaidaho.com/",
    "meetings": "https://www.tetoniaidaho.com/meeting-agendas-and-minutes"
+  },
+  "Troy": {
+   "county": "Latah",
+   "site": "https://www.cityoftroy.net/"
   },
   "Twin Falls": {
    "county": "Twin Falls",

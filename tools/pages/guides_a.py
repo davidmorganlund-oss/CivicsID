@@ -77,7 +77,7 @@ G["local-government"] = dict(
   </ul>
   <p>Your property tax bill lists every district that taxes you. It is the quickest way to learn which ones you live in.</p>
 
-  <section class="near-you" data-show="site" data-title="Your city and county websites" aria-label="Your city and county websites"></section>
+  <section class="near-you" data-show="site,schools,districts" data-title="Your local governments" aria-label="Your local governments"></section>
 
   <h2>Where you can step in</h2>
   <ul>
