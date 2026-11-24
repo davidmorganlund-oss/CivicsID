@@ -197,7 +197,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
     </div>
     <div class="field">
       <label for="city">City</label>
-      <select id="city" disabled><option value="">Pick a county</option></select>
+      <select id="city" disabled><option value="">Pick a county first</option></select>
     </div>
   </form>
   <p class="small"><span id="coverage">Covering more of Idaho every month.</span> No account needed, and your choice stays in your browser.</p>
@@ -211,7 +211,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
     </div>
     <p class="muted" id="place-msg" role="status" hidden></p>
     <div class="find">
-      <label for="q">Search meetings and agendas</label>
+      <label for="q">Search meetings</label>
       <input id="q" type="search" placeholder="Try zoning, library, budget, schools" autocomplete="off">
     </div>
     <div class="chips" role="group" aria-label="Filter by type" id="chips"></div>
@@ -425,7 +425,7 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
     </div>
     <div class="field">
       <label for="city">Ciudad</label>
-      <select id="city" disabled><option value="">Elija condado</option></select>
+      <select id="city" disabled><option value="">Primero elija un condado</option></select>
     </div>
   </form>
   <p class="small"><span id="coverage"></span> No necesita cuenta, y su elección se guarda solo en su navegador.</p>
@@ -434,12 +434,12 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
 <div class="wrap layout">
   <main class="main" id="events">
     <div class="heading">
-      <h2 id="heading">Próximamente en todo Idaho</h2>
+      <h2 id="heading">Próximas reuniones en todo Idaho</h2>
       <span id="range"></span>
     </div>
     <p class="muted">Los nombres de las reuniones y las agendas vienen de cada entidad y están en inglés.</p>
     <div class="find">
-      <label for="q">Buscar en reuniones y agendas (en inglés)</label>
+      <label for="q">Buscar reuniones (en inglés)</label>
       <input id="q" type="search" placeholder="Pruebe zoning, library, budget, school" autocomplete="off">
     </div>
     <div class="chips" role="group" aria-label="Filtrar por tipo" id="chips"></div>
@@ -452,7 +452,7 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
       <h2>En su teléfono</h2>
       <p id="subscribe-text">Suscríbase una vez y estas reuniones aparecerán en la aplicación de calendario que ya usa.</p>
       <a class="link" id="subscribe" href="../data/ics/statewide.ics">Suscribirse a las reuniones de comités de la Legislatura</a>
-      <p style="margin-top: 14px">¿Quiere saber cuando algo cambia? El <a id="feed" href="../data/feeds/statewide.xml">canal de novedades</a> muestra reuniones nuevas, agendas recién publicadas y cancelaciones. Agréguelo a un lector de noticias o a un servicio gratuito que lo envíe por correo.</p>
+      <p style="margin-top: 14px">¿Quiere saber cuándo cambia algo? El <a id="feed" href="../data/feeds/statewide.xml">canal de novedades</a> muestra reuniones nuevas, agendas recién publicadas y cancelaciones. Agréguelo a un lector de noticias o a un servicio gratuito que lo envíe por correo.</p>
     </div>
     <div class="card">
       <h2>Úselo como aplicación</h2>
@@ -579,7 +579,7 @@ ORG = {
     ],
 }
 
-pages = sorted(p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html"))
+pages = sorted(p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html") if p.name != "404.html")
 MARK = "<!-- seo -->"
 for rel in pages:
     page = SITE / rel
@@ -612,3 +612,28 @@ for rel in pages:
     + "\n".join(entries) + "\n</urlset>\n")
 (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
 print(f"search pieces written: {len(pages)} pages in the sitemap")
+
+
+# ---------- page not found ----------
+# GitHub Pages serves 404.html for any address that doesn't exist, at any
+# depth, so every link in it starts from the site root. Written last so it
+# stays out of the sitemap and carries no canonical address.
+(SITE / "404.html").write_text(f'''{head("Page not found | CivicsID", "/", "That page isn't here. Head back to the CivicsID calendar, guides or representatives lookup.").replace("</head>", '<meta name="robots" content="noindex">' + chr(10) + "</head>")}
+<a class="skip" href="#notfound">Skip to content</a>
+{top("/", "", alt="/es/index.html")}
+<main class="wrap narrow guide" id="notfound">
+  <h1>We can't find that page.</h1>
+  <p>The address may be mistyped, or the page may have moved. Here's where most people are headed:</p>
+  <ul>
+    <li><a href="/index.html">Community Calendar</a>: what your city, county, school board and the Legislature are deciding.</li>
+    <li><a href="/engage.html">Engage</a>: plain-language guides to taking part.</li>
+    <li><a href="/reps.html">My representatives</a>: who represents you, by address.</li>
+  </ul>
+  <p lang="es">¿Busca la versión en español? Vaya al <a href="/es/index.html" hreflang="es">calendario en español</a>.</p>
+  <p class="muted">Followed a link on this site to get here? <a href="mailto:{REPORT}?subject=CivicsID%3A%20broken%20link">Tell us</a> and we'll fix it.</p>
+</main>
+{footer("/", "CivicsID is free to use and asks nothing of you.")}
+</body>
+</html>
+''')
+print("404 page written")

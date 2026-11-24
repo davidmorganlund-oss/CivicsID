@@ -28,11 +28,12 @@
       noneLoaded: 'No events are loaded yet. The calendar fills in after its first nightly run.',
       noneSearch: function (q) { return 'No upcoming meetings mention “' + q + '” here. Agendas post a few days ahead, so check back, or try a broader word or all of Idaho.'; },
       allIdaho: 'All of Idaho', county: function (c) { return c + ' County'; }, linksOnly: ' (links only)',
-      coverage: function (n) { return 'Meetings from ' + n + ' of Idaho’s 44 counties so far, and links for the rest.'; },
+      coverage: function (n) { return n >= 44 ? 'Meetings from all 44 Idaho counties.' : 'Meetings from ' + n + ' of Idaho’s 44 counties so far, and links to the county’s own calendar for the rest.'; },
+      legDown: 'We can’t reach the Legislature’s calendar right now, so its committee meetings may be missing here. Check legislature.idaho.gov/calendar.',
       cantRead: function (c) { return 'We can’t read ' + c + ' County’s meeting calendar yet'; },
       cantReadText: 'The county posts its commissioners’ meetings and agendas on its own website. Until we can add them here, that’s the place to check. Idaho law requires an agenda to be posted at least 48 hours before a regular meeting.',
       countyMeetings: function (c) { return c + ' County meetings and agendas'; },
-      anywhere: function (c) { return 'Anywhere in ' + c + ' County'; }, pickCounty: 'Pick a county',
+      anywhere: function (c) { return 'Anywhere in ' + c + ' County'; }, pickCounty: 'Pick a county first',
       report: 'Report a problem', reportSubject: 'CivicsID: problem with a meeting listing',
       reportBody: 'What looks wrong (time moved, cancelled, wrong place, something else)?\n\n\n',
       refreshed: 'Last refreshed ', loadFail: 'The calendar could not be loaded. Please try again later.'
@@ -48,7 +49,7 @@
       details: 'Detalles de la entidad', agenda: 'Agenda (en inglés)', addCal: 'Agregar a mi calendario', openLink: 'Abrir enlace',
       matches: function (n, q) { return n + (n === 1 ? ' resultado' : ' resultados') + ' para “' + q + '” en todas las reuniones próximas'; },
       range: function (a, b, n) { return 'Del ' + a + ' al ' + b + ' · ' + n + (n === 1 ? ' reunión' : ' reuniones'); },
-      heading: function (city, county) { return 'Próximamente ' + (city ? 'en ' + city + ' y sus alrededores' : county ? 'en el condado de ' + county : 'en todo Idaho'); },
+      heading: function (city, county) { return 'Próximas reuniones ' + (city ? 'en ' + city + ' y sus alrededores' : county ? 'en el condado de ' + county : 'en todo Idaho'); },
       subCounty: function (c) { return 'Suscribirse a las reuniones del condado de ' + c; },
       subLeg: 'Suscribirse a las reuniones de comités de la Legislatura',
       subCountyText: function (c) { return 'Suscríbase una vez y las reuniones del condado de ' + c + ' aparecerán en la aplicación de calendario que ya usa.'; },
@@ -57,11 +58,12 @@
       noneLoaded: 'Todavía no hay reuniones cargadas. El calendario se llena después de su primera actualización nocturna.',
       noneSearch: function (q) { return 'Ninguna reunión próxima menciona “' + q + '” aquí. Las agendas se publican unos días antes, así que vuelva a revisar, o pruebe una palabra más general o todo Idaho. Las agendas están en inglés.'; },
       allIdaho: 'Todo Idaho', county: function (c) { return 'Condado de ' + c; }, linksOnly: ' (solo enlaces)',
-      coverage: function (n) { return 'Reuniones de ' + n + ' de los 44 condados de Idaho, y enlaces para los demás.'; },
+      coverage: function (n) { return n >= 44 ? 'Reuniones de los 44 condados de Idaho.' : 'Reuniones de ' + n + ' de los 44 condados de Idaho, y enlaces al calendario del propio condado para los demás.'; },
+      legDown: 'En este momento no podemos leer el calendario de la Legislatura, así que pueden faltar reuniones de sus comités. Consulte legislature.idaho.gov/calendar.',
       cantRead: function (c) { return 'Todavía no podemos leer el calendario del condado de ' + c; },
       cantReadText: 'El condado publica las reuniones y agendas de sus comisionados en su propio sitio web. Hasta que podamos agregarlas aquí, revise allí. La ley de Idaho exige publicar la agenda al menos 48 horas antes de una reunión ordinaria.',
       countyMeetings: function (c) { return 'Reuniones y agendas del condado de ' + c; },
-      anywhere: function (c) { return 'Cualquier lugar del condado de ' + c; }, pickCounty: 'Elija condado',
+      anywhere: function (c) { return 'Cualquier lugar del condado de ' + c; }, pickCounty: 'Primero elija un condado',
       report: 'Reportar un problema', reportSubject: 'CivicsID: problema con una reunión',
       reportBody: '¿Qué está mal (cambió la hora, se canceló, lugar equivocado, otra cosa)?\n\n\n',
       refreshed: 'Última actualización: ', loadFail: 'No se pudo cargar el calendario. Inténtelo de nuevo más tarde.'
@@ -285,6 +287,7 @@
       list.appendChild(el('p', 'empty', state.events.length
         ? S.noneType : S.noneLoaded));
       if (state.q && state.events.length) list.lastChild.textContent = S.noneSearch(state.q);
+      else if (state.cat === 'legislature' && legislatureDown()) list.lastChild.textContent = S.legDown;
     }
     var lastDay = '';
     rows.forEach(function (e) {
@@ -334,8 +337,14 @@
   // Counties and cities come from the sources we read, so the lists only
   // offer places that have meetings here.
   function fillCounties() {
-    var counties = {};
-    state.sources.forEach(function (s) { if (s.county && s.county !== 'Statewide') counties[s.county] = true; });
+    // A county counts as covered when one of its calendars is answering, or
+    // we still hold meetings from it. A county whose only source is down and
+    // has nothing listed is offered as links only, not counted as covered.
+    var counties = {}, has = {};
+    state.events.forEach(function (e) { has[e.county] = true; });
+    state.sources.forEach(function (s) {
+      if (s.county && s.county !== 'Statewide' && (s.state !== 'failing' || has[s.county])) counties[s.county] = true;
+    });
     var all = Object.keys(state.local.counties || {});
     if (!all.length) all = Object.keys(counties);
     var sel = $('county');
@@ -374,6 +383,10 @@
     if (!cities[state.city]) state.city = '';
     sel.value = state.city;
     sel.disabled = !state.county;
+  }
+
+  function legislatureDown() {
+    return state.sources.some(function (s) { return s.id === 'legislature' && s.state === 'failing'; });
   }
 
   function renderStatus() {

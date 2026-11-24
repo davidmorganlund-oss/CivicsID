@@ -45,14 +45,34 @@
     return art;
   }
 
-  fetch('data/events.json').then(function (r) { return r.json(); }).then(function (d) {
+  // When the Legislature's own calendar feed is down, say so. "No meetings"
+  // would read as a fact when it's really an outage on their end.
+  function outage(src) {
+    var box = el('div', 'card notice-card');
+    box.appendChild(el('h3', null, 'We can’t reach the Legislature’s calendar right now'));
+    var since = new Date((src.failing_since || '') + 'T12:00:00');
+    var when = isNaN(since) ? '' : ' since ' + since.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+    box.appendChild(el('p', null, 'The Legislature’s calendar feed has not answered' + when + ', so committee meetings may be missing from this page. We check again every night. Until it’s back, the Legislature’s own site is the place to look.'));
+    var a = el('a', 'link', 'The Legislature’s calendar');
+    a.href = 'https://legislature.idaho.gov/calendar/'; a.rel = 'noopener';
+    box.appendChild(a);
+    return box;
+  }
+
+  Promise.all([
+    fetch('data/events.json').then(function (r) { return r.json(); }),
+    fetch('data/status.json').then(function (r) { return r.json(); }).catch(function () { return { sources: [] }; })
+  ]).then(function (res) {
+    var d = res[0];
+    var down = (res[1].sources || []).filter(function (s) { return s.id === 'legislature' && s.state === 'failing'; })[0];
     var rows = (d.events || []).filter(function (e) { return e.county === 'Statewide' && e.start.slice(0, 10) >= today; })
       .sort(function (a, b) { return a.start < b.start ? -1 : 1; });
     var list = $('leg-list');
     list.textContent = '';
-    $('leg-range').textContent = rows.length + (rows.length === 1 ? ' meeting' : ' meetings') + ' on the calendar';
+    $('leg-range').textContent = down && !rows.length ? 'Calendar unavailable' : rows.length + (rows.length === 1 ? ' meeting' : ' meetings') + ' on the calendar';
+    if (down) list.appendChild(outage(down));
     if (today >= '2027-01-11') $('session-note').textContent = 'The 2027 session is underway. Standing committees meet most weekday mornings; check each agenda for the bills being heard.';
-    if (!rows.length) { list.appendChild(el('p', 'empty', 'No committee meetings are on the Legislature’s calendar right now.')); return; }
+    if (!rows.length) { if (down) return; list.appendChild(el('p', 'empty', 'No committee meetings are on the Legislature’s calendar right now.')); return; }
     var last = '';
     rows.forEach(function (e) {
       var p = parts(e.start);
