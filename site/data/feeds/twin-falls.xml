@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T05:11:57-07:00</updated>
+  <updated>2026-11-24T09:37:41-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:8d02311391a3:new</id>
@@ -12,6 +12,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://twinfallsid.portal.civicclerk.com/event/7055/overview"/>
     <summary>City of Twin Falls · 2026-12-14 14:00 (MT) · 203 Main Ave East, Twin Falls</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:0fcf9e38489c:agenda</id>
+    <title>Agenda posted: Airport Advisory Board (2026-12-03 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6106/files"/>
+    <summary>City of Twin Falls · 2026-12-03 16:00 (MT) · On the agenda: Air Service Update; Airport Updates; TWF Performance Measures and Marketing Plan</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:969df521484b:new</id>

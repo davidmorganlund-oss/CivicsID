@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T05:11:57-07:00</updated>
+  <updated>2026-11-24T09:37:41-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:cdd43811e9b5:agenda</id>
@@ -19,6 +19,13 @@
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12222026-6147"/>
     <summary>Kootenai County · 2026-12-22 09:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:ce45cdc3b5b1:agenda</id>
+    <title>Agenda posted: Hearing Examiner: Community Development - Public Hearing (2026-12-17 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12172026-6174"/>
+    <summary>Kootenai County · 2026-12-17 18:00 (PT) · 451 N Government Way</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:ce45cdc3b5b1:cancelled</id>

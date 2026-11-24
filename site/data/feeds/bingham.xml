@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T05:11:57-07:00</updated>
+  <updated>2026-11-24T09:37:41-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:0738fb1dce56:new</id>
+    <title>New meeting: Planning &amp; Zoning Meeting Agenda and Supporting Documents (2026-12-08)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.cityofblackfoot.org/AgendaCenter"/>
+    <summary>City of Blackfoot · 2026-12-08 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:0738fb1dce56:agenda</id>
+    <title>Agenda posted: Planning &amp; Zoning Meeting Agenda and Supporting Documents (2026-12-08)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.cityofblackfoot.org/AgendaCenter/ViewFile/Agenda/_12082026-780"/>
+    <summary>City of Blackfoot · 2026-12-08 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:d011c4fbb6b9:new</id>
     <title>New meeting: Planning and Zoning Public Hearing Agenda (2026-11-24)</title>

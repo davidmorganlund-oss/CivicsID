@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CivicsID: what's new in Lewis County</title>
+  <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
+  <id>https://civicsid.org/</id>
+  <link href="https://civicsid.org/"/>
+  <updated>2026-11-24T09:37:41-07:00</updated>
+  <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:7bc1866a3bdb:new</id>
+    <title>New meeting: Board of Lewis County Commissioners (Regular Business Meeting) (2026-12-07)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="http://www.lewiscountyid.us/Elected-Officials/Commissioners/Meeting-Agendas"/>
+    <summary>Lewis County · 2026-12-07 (PT) · Lewis County Courthouse, 510 Oak St, Nezperce</summary>
+  </entry>
+</feed>
