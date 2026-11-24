@@ -4,13 +4,34 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-23T05:07:53-07:00</updated>
+  <updated>2026-11-24T01:32:56-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
-    <id>tag:civicsid.org,2026:719543841223:agenda</id>
-    <title>Agenda posted: Board of County Commissioners Meeting (2026-11-23 09:00)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://www.valleycountyid.gov/meetingfiles/17585/agendas/c88d875275794bc5bd6a33776c8bbb28.pdf"/>
-    <summary>Valley County · 2026-11-23 09:00 (MT) · Valley County Courthouse, 219 N. Main St., Cascade</summary>
+    <id>tag:civicsid.org,2026:3bae29746936:new</id>
+    <title>New meeting: Board of County Commissioners Meeting (2027-01-19 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.valleycountyid.gov/events/18447/"/>
+    <summary>Valley County · 2027-01-19 09:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:0fd5d7c73e86:new</id>
+    <title>New meeting: Board of County Commissioners Meeting (2027-01-11 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.valleycountyid.gov/events/18446/"/>
+    <summary>Valley County · 2027-01-11 09:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:900df767d1fe:new</id>
+    <title>New meeting: Board of County Commissioners Meeting (2027-01-04 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.valleycountyid.gov/events/18432/"/>
+    <summary>Valley County · 2027-01-04 09:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:fd397bdcb1ff:new</id>
+    <title>New meeting: Notice of Council Quorum (2026-12-01 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/Calendar.aspx?EID=2385"/>
+    <summary>City of McCall · 2026-12-01 09:00 (MT) · The Grove Hotel</summary>
   </entry>
 </feed>

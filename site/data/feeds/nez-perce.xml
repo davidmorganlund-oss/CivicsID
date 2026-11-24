@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-23T05:07:53-07:00</updated>
+  <updated>2026-11-24T01:32:56-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:089ff98b31a4:cancelled</id>
+    <title>Cancelled: Cemetery and Urban Forestry Advisory Commission Meeting (2026-12-23 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://lewistonid.portal.civicclerk.com/event/946/overview"/>
+    <summary>City of Lewiston · 2026-12-23 16:00 (PT) · Lewiston Community Center, 1424 Main Street, Lewiston</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c7e33b180634:cancelled</id>
+    <title>Cancelled: Cemetery and Urban Forestry Advisory Commission Meeting (2026-11-25 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://lewistonid.portal.civicclerk.com/event/945/overview"/>
+    <summary>City of Lewiston · 2026-11-25 16:00 (PT) · Lewiston Community Center, 1424 Main Street, Lewiston</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:58684380cbb0:new</id>
     <title>New meeting: Code Board of Appeals (2026-12-03 17:30)</title>

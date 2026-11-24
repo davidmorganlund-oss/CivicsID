@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-23T05:07:53-07:00</updated>
+  <updated>2026-11-24T01:32:56-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:ce45cdc3b5b1:cancelled</id>
+    <title>Cancelled: Hearing Examiner: Community Development - Public Hearing (2026-12-17 18:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5102"/>
+    <summary>Kootenai County · 2026-12-17 18:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:87f70b70fcec:new</id>
+    <title>New meeting: Historic Preservation Commission (2026-12-03 13:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5036"/>
+    <summary>Kootenai County · 2026-12-03 13:30 (PT) · 451 N Government Way</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:ef7361bdbb60:new</id>
     <title>New meeting: Hearing Examiner: Community Development - Public Hearing (2027-01-21 18:00)</title>
