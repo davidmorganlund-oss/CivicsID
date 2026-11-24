@@ -13,10 +13,76 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/engage.html"/>
   </url>
   <url>
+    <loc>https://civicsid.org/es/guides/boards-and-commissions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/boards-and-commissions.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/boards-and-commissions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/boards-and-commissions.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/campaign-finance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/campaign-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/campaign-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/campaign-finance.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/constitution.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/constitution.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/constitution.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/constitution.html"/>
+  </url>
+  <url>
     <loc>https://civicsid.org/es/guides/contact-your-representatives.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/contact-your-representatives.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/contact-your-representatives.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/contact-your-representatives.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/courts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/courts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/courts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/courts.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/federal-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-agencies.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/federal-budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-budget.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/federal-offices.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-offices.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-offices.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-offices.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/legislature.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/legislature.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/legislature.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/legislature.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/local-ballot-measures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/local-ballot-measures.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/local-ballot-measures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/local-ballot-measures.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/local-government.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/local-government.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/local-government.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/local-government.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/media-literacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/media-literacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/media-literacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/media-literacy.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/es/guides/open-meeting-law.html</loc>
@@ -25,16 +91,76 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/open-meeting-law.html"/>
   </url>
   <url>
+    <loc>https://civicsid.org/es/guides/problem-to-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/problem-to-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/problem-to-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/problem-to-policy.html"/>
+  </url>
+  <url>
     <loc>https://civicsid.org/es/guides/public-records-requests.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/public-records-requests.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/public-records-requests.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/public-records-requests.html"/>
   </url>
   <url>
+    <loc>https://civicsid.org/es/guides/read-a-bill-or-agenda.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/read-a-bill-or-agenda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/read-a-bill-or-agenda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/read-a-bill-or-agenda.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/running-for-office.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/running-for-office.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/running-for-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/running-for-office.html"/>
+  </url>
+  <url>
     <loc>https://civicsid.org/es/guides/speak-at-a-public-meeting.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/speak-at-a-public-meeting.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/speak-at-a-public-meeting.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/speak-at-a-public-meeting.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/state-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-agencies.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/state-budgets.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-budgets.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-budgets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-budgets.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/state-initiatives.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-initiatives.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-initiatives.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-initiatives.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/two-minute-pitch.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/two-minute-pitch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/two-minute-pitch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/two-minute-pitch.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/volunteer-and-public-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/volunteer-and-public-service.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/volunteer-and-public-service.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/volunteer-and-public-service.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/weigh-in-on-a-state-bill.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/weigh-in-on-a-state-bill.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/weigh-in-on-a-state-bill.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/weigh-in-on-a-state-bill.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/guides/your-neighborhood.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/your-neighborhood.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/your-neighborhood.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/your-neighborhood.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/es/</loc>
@@ -56,12 +182,21 @@
   </url>
   <url>
     <loc>https://civicsid.org/guides/boards-and-commissions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/boards-and-commissions.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/boards-and-commissions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/boards-and-commissions.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/campaign-finance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/campaign-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/campaign-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/campaign-finance.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/constitution.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/constitution.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/constitution.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/constitution.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/contact-your-representatives.html</loc>
@@ -71,27 +206,51 @@
   </url>
   <url>
     <loc>https://civicsid.org/guides/courts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/courts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/courts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/courts.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/federal-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-agencies.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/federal-budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-budget.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/federal-offices.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/federal-offices.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/federal-offices.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/federal-offices.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/legislature.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/legislature.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/legislature.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/legislature.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/local-ballot-measures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/local-ballot-measures.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/local-ballot-measures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/local-ballot-measures.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/local-government.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/local-government.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/local-government.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/local-government.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/media-literacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/media-literacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/media-literacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/media-literacy.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/open-meeting-law.html</loc>
@@ -101,6 +260,9 @@
   </url>
   <url>
     <loc>https://civicsid.org/guides/problem-to-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/problem-to-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/problem-to-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/problem-to-policy.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/public-records-requests.html</loc>
@@ -110,9 +272,15 @@
   </url>
   <url>
     <loc>https://civicsid.org/guides/read-a-bill-or-agenda.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/read-a-bill-or-agenda.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/read-a-bill-or-agenda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/read-a-bill-or-agenda.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/running-for-office.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/running-for-office.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/running-for-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/running-for-office.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/speak-at-a-public-meeting.html</loc>
@@ -122,24 +290,45 @@
   </url>
   <url>
     <loc>https://civicsid.org/guides/state-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-agencies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-agencies.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/state-budgets.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-budgets.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-budgets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-budgets.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/state-initiatives.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/state-initiatives.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/state-initiatives.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/state-initiatives.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/two-minute-pitch.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/two-minute-pitch.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/two-minute-pitch.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/two-minute-pitch.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/volunteer-and-public-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/volunteer-and-public-service.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/volunteer-and-public-service.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/volunteer-and-public-service.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/weigh-in-on-a-state-bill.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/weigh-in-on-a-state-bill.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/weigh-in-on-a-state-bill.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/weigh-in-on-a-state-bill.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/guides/your-neighborhood.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/guides/your-neighborhood.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/guides/your-neighborhood.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/guides/your-neighborhood.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/</loc>
