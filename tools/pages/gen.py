@@ -38,6 +38,7 @@ def head(title, up, desc, share=None, lang="en"):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#7A1F2E">
 <link rel="manifest" href="{up}manifest.webmanifest">
+<link rel="icon" href="{up}favicon.ico" sizes="32x32">
 <link rel="icon" href="{up}icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="{up}apple-touch-icon.png">
 {FONTS.format(up=up)}
@@ -538,6 +539,7 @@ PRIV_ES = """
 </html>
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("privacy pages written")
+
 
 
 # Every page's intro band is a named region, so screen reader users can jump

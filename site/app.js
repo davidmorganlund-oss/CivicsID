@@ -308,7 +308,7 @@
       var b = el('button', 'chip', c.label);
       b.type = 'button';
       b.dataset.cat = c.id;
-      b.addEventListener('click', function () { state.cat = c.id; render(); });
+      b.addEventListener('click', function () { state.cat = c.id; syncUrl(); render(); });
       $('chips').appendChild(b);
     });
     // Pressing Enter in the search box shouldn't reload the page.
@@ -320,17 +320,17 @@
       clearTimeout(timer);
       timer = setTimeout(function () {
         state.q = $('q').value.trim();
-        try { history.replaceState(null, '', state.q ? '?q=' + encodeURIComponent(state.q) : location.pathname); } catch (e) {}
+        syncUrl();
         render();
       }, 200);
     });
     $('county').addEventListener('change', function () {
       state.county = $('county').value; state.city = '';
-      savePlace({ county: state.county }); fillCities(); render();
+      savePlace({ county: state.county }); fillCities(); syncUrl(); render();
     });
     $('city').addEventListener('change', function () {
       state.city = $('city').value;
-      savePlace({ county: state.county, city: state.city }); render();
+      savePlace({ county: state.county, city: state.city }); syncUrl(); render();
     });
   }
 
@@ -401,8 +401,26 @@
   if (wanted && CATEGORIES.some(function (c) { return c.id === wanted; })) state.cat = wanted;
   var asked = (location.search.match(/[?&]q=([^&]*)/) || [])[1];
   if (asked) { try { state.q = decodeURIComponent(asked.replace(/\+/g, ' ')).slice(0, 80); } catch (e) {} }
-  state.county = place.county || '';
-  state.city = place.city || '';
+  // The address bar carries the county, city, filter and search, so a view can
+  // be copied and shared. Nothing here is personal: it's a place name at most.
+  function syncUrl() {
+    var bits = [];
+    if (state.county) bits.push('county=' + encodeURIComponent(state.county));
+    if (state.city) bits.push('city=' + encodeURIComponent(state.city));
+    if (state.cat && state.cat !== 'all') bits.push('cat=' + state.cat);
+    if (state.q) bits.push('q=' + encodeURIComponent(state.q));
+    try { history.replaceState(null, '', bits.length ? '?' + bits.join('&') : location.pathname); } catch (e) {}
+  }
+  // A shared link's county and city win for this visit, without replacing the
+  // place this browser has saved.
+  function param(name) {
+    var m = new RegExp('[?&]' + name + '=([^&]*)').exec(location.search);
+    if (!m) return null;
+    try { return decodeURIComponent(m[1].replace(/\+/g, ' ')).slice(0, 60); } catch (e) { return null; }
+  }
+  var linkCounty = param('county');
+  state.county = linkCounty != null ? linkCounty : (place.county || '');
+  state.city = linkCounty != null ? (param('city') || '') : (place.city || '');
   setup();
   Promise.all([
     fetch(BASE + 'data/events.json').then(function (r) { return r.json(); }),
@@ -415,6 +433,7 @@
     state.sources = res[1].sources || [];
     fillCounties();
     fillCities();
+    syncUrl();
     render();
   }).catch(function () {
     $('list').textContent = '';
