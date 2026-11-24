@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Power County
 BEGIN:VEVENT
 UID:53ae046bf9d2@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART;VALUE=DATE:20261202
 SUMMARY:City Council Meeting (City of American Falls)
 LOCATION:American Falls City Hall\, 550 North Oregon Trail
@@ -12,7 +12,7 @@ URL:https://americanfallsid.gov/minutes-and-agendas/
 END:VEVENT
 BEGIN:VEVENT
 UID:6f21cb5c028f@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART:20261210T010000Z
 DTEND:20261210T020000Z
 SUMMARY:Planning and Zoning Commission (City of American Falls)
@@ -21,7 +21,7 @@ URL:https://americanfallsid.gov/planning-and-zoning/
 END:VEVENT
 BEGIN:VEVENT
 UID:ddd21de2fd7c@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Commissioner's Meeting (Power County)
@@ -30,7 +30,7 @@ URL:https://www.powercounty.gov/Calendar.aspx?EID=1015
 END:VEVENT
 BEGIN:VEVENT
 UID:a9a5286a1c77@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART;VALUE=DATE:20261216
 SUMMARY:City Council Meeting (City of American Falls)
 LOCATION:American Falls City Hall\, 550 North Oregon Trail
@@ -38,7 +38,7 @@ URL:https://americanfallsid.gov/minutes-and-agendas/
 END:VEVENT
 BEGIN:VEVENT
 UID:01899100ca6c@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
 SUMMARY:Commissioner's Meeting (Power County)
@@ -47,7 +47,7 @@ URL:https://www.powercounty.gov/Calendar.aspx?EID=1024
 END:VEVENT
 BEGIN:VEVENT
 UID:fd055cb107e8@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART;VALUE=DATE:20270106
 SUMMARY:City Council Meeting (City of American Falls)
 LOCATION:American Falls City Hall\, 550 North Oregon Trail
@@ -55,7 +55,7 @@ URL:https://americanfallsid.gov/minutes-and-agendas/
 END:VEVENT
 BEGIN:VEVENT
 UID:e03bd548475b@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART:20270114T010000Z
 DTEND:20270114T020000Z
 SUMMARY:Planning and Zoning Commission (City of American Falls)
@@ -64,7 +64,7 @@ URL:https://americanfallsid.gov/planning-and-zoning/
 END:VEVENT
 BEGIN:VEVENT
 UID:b410c733ff96@civicsid
-DTSTAMP:20261124T083749Z
+DTSTAMP:20261124T084247Z
 DTSTART;VALUE=DATE:20270120
 SUMMARY:City Council Meeting (City of American Falls)
 LOCATION:American Falls City Hall\, 550 North Oregon Trail
