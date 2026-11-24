@@ -1,5 +1,5 @@
 {
- "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page. Added November 2026: more cities; each county's 'schools' (school districts, from the State Department of Education list) and 'districts' (libraries, from the Idaho Commission for Libraries directory, and the Port of Lewiston).",
+ "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page. Added November 2026: more cities; each county's 'schools' (school districts, from the State Department of Education list) and 'districts' (libraries, from the Idaho Commission for Libraries directory, and the Port of Lewiston). Cities with no website of their own have 'clerk' instead of 'site': a link to the Idaho Department of Commerce directory of city clerk offices.",
  "counties": {
   "Ada": {
    "site": "https://adacounty.id.gov/",
@@ -987,6 +987,10 @@
    "site": "https://aberdeenidaho.us/",
    "meetings": "https://aberdeenidaho.us/city-council.html"
   },
+  "Acequia": {
+   "county": "Minidoka",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Albion": {
    "county": "Cassia",
    "site": "https://albionidaho.gov"
@@ -1031,10 +1035,18 @@
    "county": "Kootenai",
    "site": "https://atholidaho.com/"
   },
+  "Atomic City": {
+   "county": "Bingham",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Bancroft": {
    "county": "Caribou",
    "site": "https://www.cityofbancroft.com/",
    "meetings": "https://www.cityofbancroft.com/agendas.htm"
+  },
+  "Basalt": {
+   "county": "Bingham",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Bellevue": {
    "county": "Blaine",
@@ -1051,6 +1063,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
+  },
+  "Bliss": {
+   "county": "Gooding",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Bloomington": {
    "county": "Bear Lake",
@@ -1099,6 +1115,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.burleyidaho.org/175/City-Council"
+  },
+  "Butte City": {
+   "county": "Butte",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Caldwell": {
    "county": "Canyon",
@@ -1150,6 +1170,10 @@
    "site": "http://clarkforkidaho.gov/COCF/index.html",
    "meetings": "http://clarkforkidaho.gov/COCF/index.html"
   },
+  "Clayton": {
+   "county": "Custer",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Clifton": {
    "county": "Franklin",
    "site": "https://cliftonidaho.com/"
@@ -1164,6 +1188,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cdaid.org/government/mayor-and-council/council-members/"
+  },
+  "Cottonwood": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Council": {
    "county": "Adams",
@@ -1180,6 +1208,10 @@
    "site": "https://cityofcrouch.org/",
    "meetings": "https://cityofcrouch.org/"
   },
+  "Culdesac": {
+   "county": "Nez Perce",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Dalton Gardens": {
    "county": "Kootenai",
    "site": "https://daltongardens.com/",
@@ -1191,10 +1223,18 @@
    },
    "council": "https://daltongardens.com/citycouncil"
   },
+  "Dayton": {
+   "county": "Franklin",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Deary": {
    "county": "Latah",
    "site": "https://www.dearyidaho.com/",
    "meetings": "https://www.dearyidaho.com/council-agendas.html"
+  },
+  "Declo": {
+   "county": "Cassia",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Dietrich": {
    "county": "Lincoln",
@@ -1247,6 +1287,10 @@
    "site": "https://www.cityofeasthope.com/",
    "meetings": "https://www.cityofeasthope.com/agendas-minutes"
   },
+  "Eden": {
+   "county": "Jerome",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Elk River": {
    "county": "Clearwater",
    "site": "https://www.cityelkriver.org/",
@@ -1266,6 +1310,10 @@
   "Fairfield": {
    "county": "Camas",
    "site": "https://cityoffairfieldidaho.com/"
+  },
+  "Ferdinand": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Fernan Lake Village": {
    "county": "Kootenai",
@@ -1372,6 +1420,10 @@
    },
    "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
   },
+  "Hamer": {
+   "county": "Jefferson",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Hansen": {
    "county": "Twin Falls",
    "site": "https://www.cityofhansen.org"
@@ -1436,6 +1488,10 @@
    "county": "Boise",
    "site": "https://www.horseshoebendidaho.org/",
    "meetings": "https://www.horseshoebendidaho.org/"
+  },
+  "Huetter": {
+   "county": "Kootenai",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Idaho City": {
    "county": "Boise",
@@ -1643,6 +1699,10 @@
    "site": "https://montpelier.id.gov/",
    "meetings": "https://montpelier.id.gov/"
   },
+  "Moore": {
+   "county": "Butte",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Moscow": {
    "county": "Latah",
    "site": "https://www.ci.moscow.id.us/",
@@ -1667,6 +1727,14 @@
   "Moyie Springs": {
    "county": "Boundary",
    "site": "https://www.cityofmoyiesprings.com/"
+  },
+  "Mud Lake": {
+   "county": "Jefferson",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Mullan": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Murtaugh": {
    "county": "Twin Falls",
@@ -1709,6 +1777,14 @@
    "site": "https://www.oakleyidaho.org/",
    "meetings": "https://www.oakleyidaho.org/city-council-meetings"
   },
+  "Oldtown": {
+   "county": "Bonner",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Onaway": {
+   "county": "Latah",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Orofino": {
    "county": "Clearwater",
    "site": "https://cityoforofino.org/",
@@ -1724,6 +1800,14 @@
    "county": "Shoshone",
    "site": "https://www.cityofosburn.org/",
    "meetings": "https://www.cityofosburn.org/"
+  },
+  "Paris": {
+   "county": "Bear Lake",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Parker": {
+   "county": "Fremont",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Parma": {
    "county": "Canyon",
@@ -1754,6 +1838,10 @@
   "Pierce": {
    "county": "Clearwater",
    "site": "https://www.cityofpierce.net/"
+  },
+  "Pinehurst": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Placerville": {
    "county": "Boise",
@@ -1821,6 +1909,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.rathdrum.gov/394/council-members"
+  },
+  "Reubens": {
+   "county": "Lewis",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Rexburg": {
    "county": "Madison",
@@ -1915,6 +2007,10 @@
    "county": "Lincoln",
    "site": "https://www.shoshonecityid.gov/"
   },
+  "Smelterville": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Soda Springs": {
    "county": "Caribou",
    "site": "https://www.sodaspringsid.com/",
@@ -1925,6 +2021,10 @@
     "checked": "2026-11-22"
    },
    "council": "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
+  },
+  "Spencer": {
+   "county": "Clark",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Spirit Lake": {
    "county": "Kootenai",
@@ -1961,6 +2061,14 @@
    },
    "council": "https://www.staridaho.org/1207/City-Council"
   },
+  "State Line": {
+   "county": "Kootenai",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Stites": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Sugar City": {
    "county": "Madison",
    "site": "https://sugarcityidaho.gov/",
@@ -1975,6 +2083,10 @@
    "county": "Bonneville",
    "site": "https://www.cityofswanvalley.com/",
    "meetings": "https://www.cityofswanvalley.com/"
+  },
+  "Tensed": {
+   "county": "Benewah",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Teton": {
    "county": "Fremont",
@@ -2022,6 +2134,10 @@
    "site": "http://www.wardner.id.gov/",
    "meetings": "http://www.wardner.id.gov/p/minutes.html"
   },
+  "Warm River": {
+   "county": "Fremont",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Weippe": {
    "county": "Clearwater",
    "site": "https://cityofweippe.org/",
@@ -2047,6 +2163,10 @@
    "county": "Franklin",
    "site": "https://www.westonidaho.org/",
    "meetings": "https://www.westonidaho.org/"
+  },
+  "White Bird": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Wilder": {
    "county": "Canyon",
