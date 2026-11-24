@@ -1,5 +1,5 @@
 {
- "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page. Added November 2026: more cities; each county's 'schools' (school districts, from the State Department of Education list) and 'districts' (libraries, from the Idaho Commission for Libraries directory, and the Port of Lewiston).",
+ "_note": "Official websites and commissioners, meetings and boards pages for Idaho's 44 counties and some of its larger cities, gathered in November 2026. County website addresses started from the Secretary of State's Idaho Blue Book and were opened and checked where the site allowed it. A county with only 'site' has no deeper page we could confirm; Benewah County has no website we could confirm. 'meetings' is the county's or city's own meetings or agendas page. Added November 2026: more cities; each county's 'schools' (school districts, from the State Department of Education list) and 'districts' (libraries, from the Idaho Commission for Libraries directory, and the Port of Lewiston). Cities with no website of their own have 'clerk' instead of 'site': a link to the Idaho Department of Commerce directory of city clerk offices.",
  "counties": {
   "Ada": {
    "site": "https://adacounty.id.gov/",
@@ -28,6 +28,11 @@
      "name": "Meadows Valley Public Library",
      "kind": "library",
      "site": "https://meadowsvalley.lili.org/"
+    },
+    {
+     "name": "Council Valley District Library",
+     "kind": "library",
+     "site": "https://council.lili.org"
     }
    ],
    "schools": [
@@ -51,6 +56,11 @@
      "name": "Portneuf District Library",
      "kind": "library",
      "site": "https://www.portneuflibrary.org/"
+    },
+    {
+     "name": "South Bannock Library District",
+     "kind": "library",
+     "site": "https://www.southbannocklibrary.org/"
     }
    ],
    "schools": [
@@ -85,6 +95,11 @@
      "name": "St Maries Public Library",
      "kind": "library",
      "site": "https://stmarieslibrary.lili.org/"
+    },
+    {
+     "name": "Benewah County District Library (Tri-Community branch)",
+     "kind": "library",
+     "site": "http://tricommunity.lili.org/"
     }
    ],
    "schools": [
@@ -241,6 +256,16 @@
      "name": "Wilder District Library",
      "kind": "library",
      "site": "https://wilder.lili.org/"
+    },
+    {
+     "name": "Middleton Public Library",
+     "kind": "library",
+     "site": "https://www.mymidlib.org"
+    },
+    {
+     "name": "Patricia Romanko Public Library",
+     "kind": "library",
+     "site": "http://parma.lili.org/"
     }
    ],
    "schools": [
@@ -364,6 +389,13 @@
      "name": "Prairie Elementary School District 191",
      "site": "https://prairie191k8.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Glenns Ferry Public Library",
+     "kind": "library",
+     "site": "https://www.glennsferryidaho.org/city/departments/library/"
+    }
    ]
   },
   "Franklin": {
@@ -398,6 +430,11 @@
      "name": "Ola District Library",
      "kind": "library",
      "site": "https://olalibrary.org/"
+    },
+    {
+     "name": "Emmett Public Library",
+     "kind": "library",
+     "site": "https://www.cityofemmett.org/library-about"
     }
    ]
   },
@@ -421,6 +458,18 @@
      "name": "Wendell School District 232",
      "site": "https://www.sd232.k12.id.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Sherburn Smith Memorial Library (Wendell Public Library)",
+     "kind": "library",
+     "site": "http://wendell.lili.org/"
+    },
+    {
+     "name": "Hagerman Public Library",
+     "kind": "library",
+     "site": "https://www.hagermanpubliclibrary.org"
+    }
    ]
   },
   "Idaho": {
@@ -434,8 +483,24 @@
      "site": "https://sd242.org/"
     },
     {
+     "name": "Grangeville School District 246 (formerly Mountain View School District 244)",
+     "site": "https://sd244.org/"
+    },
+    {
      "name": "Salmon River Joint School District 243",
      "site": "https://www.jsd243.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Grangeville Centennial Library",
+     "kind": "library",
+     "site": "http://grangeville.us/grangeville-centennial-library/"
+    },
+    {
+     "name": "Salmon River Public Library",
+     "kind": "library",
+     "site": "http://www.rigginsidaho.org/library.html"
     }
    ]
   },
@@ -456,6 +521,16 @@
      "name": "Roberts City Library",
      "kind": "library",
      "site": "https://roberts.lili.org/"
+    },
+    {
+     "name": "Jefferson County District Library (Menan Annis Grant branch)",
+     "kind": "library",
+     "site": "http://menanlibrary.weebly.com/"
+    },
+    {
+     "name": "Ririe Public Library",
+     "kind": "library",
+     "site": "https://ririelibrary.lili.org/"
     }
    ],
    "schools": [
@@ -520,6 +595,13 @@
      "name": "South Lemhi School District 292",
      "site": "https://www.leadoreschool.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Lemhi County District Library (Salmon Public Library)",
+     "kind": "library",
+     "site": "https://salmonlibrary.org/"
+    }
    ]
   },
   "Lewis": {
@@ -547,6 +629,11 @@
      "name": "Richfield District Library",
      "kind": "library",
      "site": "https://richfield.lili.org/"
+    },
+    {
+     "name": "Shoshone Public Library",
+     "kind": "library",
+     "site": "https://shoshone.lili.org"
     }
    ],
    "schools": [
@@ -620,6 +707,10 @@
     }
    ],
    "schools": [
+    {
+     "name": "Culdesac Joint School District 342",
+     "site": "https://www.culsch.org/"
+    },
     {
      "name": "Lapwai School District 341",
      "site": "http://www.lapwai.org/"
@@ -891,6 +982,15 @@
   }
  },
  "cities": {
+  "Aberdeen": {
+   "county": "Bingham",
+   "site": "https://aberdeenidaho.us/",
+   "meetings": "https://aberdeenidaho.us/city-council.html"
+  },
+  "Acequia": {
+   "county": "Minidoka",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Albion": {
    "county": "Cassia",
    "site": "https://albionidaho.gov"
@@ -935,10 +1035,18 @@
    "county": "Kootenai",
    "site": "https://atholidaho.com/"
   },
+  "Atomic City": {
+   "county": "Bingham",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Bancroft": {
    "county": "Caribou",
    "site": "https://www.cityofbancroft.com/",
    "meetings": "https://www.cityofbancroft.com/agendas.htm"
+  },
+  "Basalt": {
+   "county": "Bingham",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Bellevue": {
    "county": "Blaine",
@@ -955,6 +1063,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cityofblackfoot.org/Directory.aspx?did=16"
+  },
+  "Bliss": {
+   "county": "Gooding",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Bloomington": {
    "county": "Bear Lake",
@@ -1003,6 +1115,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.burleyidaho.org/175/City-Council"
+  },
+  "Butte City": {
+   "county": "Butte",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Caldwell": {
    "county": "Canyon",
@@ -1054,6 +1170,10 @@
    "site": "http://clarkforkidaho.gov/COCF/index.html",
    "meetings": "http://clarkforkidaho.gov/COCF/index.html"
   },
+  "Clayton": {
+   "county": "Custer",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Clifton": {
    "county": "Franklin",
    "site": "https://cliftonidaho.com/"
@@ -1068,6 +1188,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://www.cdaid.org/government/mayor-and-council/council-members/"
+  },
+  "Cottonwood": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Council": {
    "county": "Adams",
@@ -1084,6 +1208,10 @@
    "site": "https://cityofcrouch.org/",
    "meetings": "https://cityofcrouch.org/"
   },
+  "Culdesac": {
+   "county": "Nez Perce",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Dalton Gardens": {
    "county": "Kootenai",
    "site": "https://daltongardens.com/",
@@ -1095,10 +1223,18 @@
    },
    "council": "https://daltongardens.com/citycouncil"
   },
+  "Dayton": {
+   "county": "Franklin",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Deary": {
    "county": "Latah",
    "site": "https://www.dearyidaho.com/",
    "meetings": "https://www.dearyidaho.com/council-agendas.html"
+  },
+  "Declo": {
+   "county": "Cassia",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Dietrich": {
    "county": "Lincoln",
@@ -1109,6 +1245,11 @@
    "county": "Valley",
    "site": "https://cityofdonnelly.org/",
    "meetings": "https://cityofdonnelly.org/"
+  },
+  "Dover": {
+   "county": "Bonner",
+   "site": "https://cityofdover.id.gov/",
+   "meetings": "https://cityofdover.id.gov/public-documents/council-meeting-minutes/"
   },
   "Downey": {
    "county": "Bannock",
@@ -1141,6 +1282,20 @@
    "council": "https://www.cityofeagle.org/312/City-Council",
    "meetings": "https://www.cityofeagle.org/305/City-Agendas-Videos"
   },
+  "East Hope": {
+   "county": "Bonner",
+   "site": "https://www.cityofeasthope.com/",
+   "meetings": "https://www.cityofeasthope.com/agendas-minutes"
+  },
+  "Eden": {
+   "county": "Jerome",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Elk River": {
+   "county": "Clearwater",
+   "site": "https://www.cityelkriver.org/",
+   "meetings": "https://cityelkriver.org/council-meeting-agendas-and-minutes/"
+  },
   "Emmett": {
    "county": "Gem",
    "site": "https://www.cityofemmett.org/",
@@ -1152,9 +1307,22 @@
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
   },
+  "Fairfield": {
+   "county": "Camas",
+   "site": "https://cityoffairfieldidaho.com/"
+  },
+  "Ferdinand": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Fernan Lake Village": {
    "county": "Kootenai",
    "site": "https://www.fernanvillage.org/"
+  },
+  "Filer": {
+   "county": "Twin Falls",
+   "site": "https://www.cityoffiler.net/",
+   "meetings": "https://www.cityoffiler.net/o/cof/page/annual-council-agenda"
   },
   "Firth": {
    "county": "Bingham",
@@ -1232,6 +1400,10 @@
    },
    "council": "https://grangeville.us/mayor-and-city-council/"
   },
+  "Greenleaf": {
+   "county": "Canyon",
+   "site": "https://greenleaf-idaho.us/"
+  },
   "Hagerman": {
    "county": "Gooding",
    "site": "https://www.hagermanidaho.us/",
@@ -1247,6 +1419,10 @@
     "checked": "2026-11-17"
    },
    "council": "https://haileycityhall.org/boards-and-commissions/city-council/"
+  },
+  "Hamer": {
+   "county": "Jefferson",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Hansen": {
    "county": "Twin Falls",
@@ -1303,10 +1479,19 @@
    "county": "Owyhee",
    "site": "https://cityofhomedale.org/"
   },
+  "Hope": {
+   "county": "Bonner",
+   "site": "https://hope-idaho.org/",
+   "meetings": "https://hope-idaho.org/city-council"
+  },
   "Horseshoe Bend": {
    "county": "Boise",
    "site": "https://www.horseshoebendidaho.org/",
    "meetings": "https://www.horseshoebendidaho.org/"
+  },
+  "Huetter": {
+   "county": "Kootenai",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Idaho City": {
    "county": "Boise",
@@ -1323,6 +1508,10 @@
     "checked": "2026-11-17"
    }
   },
+  "Inkom": {
+   "county": "Bannock",
+   "site": "https://inkomcity.org/"
+  },
   "Iona": {
    "county": "Bonneville",
    "site": "https://www.cityofiona.org/",
@@ -1332,6 +1521,11 @@
    "county": "Bonneville",
    "site": "https://www.cityofirwin.com/",
    "meetings": "https://www.cityofirwin.com/"
+  },
+  "Island Park": {
+   "county": "Fremont",
+   "site": "https://islandparkid.govoffice2.com/",
+   "meetings": "https://islandparkid.govoffice2.com/council-agendas"
   },
   "Jerome": {
    "county": "Jerome",
@@ -1425,9 +1619,18 @@
    },
    "council": "https://www.cityoflewiston.org/367/Mayor-City-Council"
   },
+  "Lewisville": {
+   "county": "Jefferson",
+   "site": "http://www.cityoflewisville.org/"
+  },
   "Mackay": {
    "county": "Custer",
    "site": "https://mackayidaho-city.com/"
+  },
+  "Malta": {
+   "county": "Cassia",
+   "site": "https://www.maltaidaho.org/",
+   "meetings": "https://www.maltaidaho.org/city-council"
   },
   "Marsing": {
    "county": "Owyhee",
@@ -1482,10 +1685,23 @@
    },
    "council": "https://middleton.id.gov/departments/city-council"
   },
+  "Midvale": {
+   "county": "Washington",
+   "site": "https://midvaleidaho.org/"
+  },
+  "Minidoka": {
+   "county": "Minidoka",
+   "site": "https://minidoka.city/",
+   "meetings": "https://minidoka.city/?page_id=88"
+  },
   "Montpelier": {
    "county": "Bear Lake",
    "site": "https://montpelier.id.gov/",
    "meetings": "https://montpelier.id.gov/"
+  },
+  "Moore": {
+   "county": "Butte",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Moscow": {
    "county": "Latah",
@@ -1511,6 +1727,14 @@
   "Moyie Springs": {
    "county": "Boundary",
    "site": "https://www.cityofmoyiesprings.com/"
+  },
+  "Mud Lake": {
+   "county": "Jefferson",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Mullan": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Murtaugh": {
    "county": "Twin Falls",
@@ -1544,10 +1768,22 @@
    "site": "https://www.cityofnezperce.gov/",
    "meetings": "https://www.cityofnezperce.gov/news/city-council-meeting-changed-to-7-a-m-oct-13"
   },
+  "Notus": {
+   "county": "Canyon",
+   "site": "https://notusidaho.org/index.html"
+  },
   "Oakley": {
    "county": "Cassia",
    "site": "https://www.oakleyidaho.org/",
    "meetings": "https://www.oakleyidaho.org/city-council-meetings"
+  },
+  "Oldtown": {
+   "county": "Bonner",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Onaway": {
+   "county": "Latah",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Orofino": {
    "county": "Clearwater",
@@ -1564,6 +1800,14 @@
    "county": "Shoshone",
    "site": "https://www.cityofosburn.org/",
    "meetings": "https://www.cityofosburn.org/"
+  },
+  "Paris": {
+   "county": "Bear Lake",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Parker": {
+   "county": "Fremont",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Parma": {
    "county": "Canyon",
@@ -1594,6 +1838,10 @@
   "Pierce": {
    "county": "Clearwater",
    "site": "https://www.cityofpierce.net/"
+  },
+  "Pinehurst": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Placerville": {
    "county": "Boise",
@@ -1662,6 +1910,10 @@
    },
    "council": "https://www.rathdrum.gov/394/council-members"
   },
+  "Reubens": {
+   "county": "Lewis",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Rexburg": {
    "county": "Madison",
    "site": "https://www.rexburgid.gov/",
@@ -1688,6 +1940,10 @@
    },
    "council": "https://cityofrigby.gov/mayor-and-city-council/"
   },
+  "Riggins": {
+   "county": "Idaho",
+   "site": "https://www.rigginsidaho.org/"
+  },
   "Ririe": {
    "county": "Jefferson",
    "site": "https://www.cityofririe.com/",
@@ -1697,6 +1953,11 @@
    "county": "Jefferson",
    "site": "https://cityofrobertsidaho.gov/",
    "meetings": "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes"
+  },
+  "Rockland": {
+   "county": "Power",
+   "site": "https://www.rocklandcity.us/",
+   "meetings": "https://rocklandcity.us/council-mtg-agenda/"
   },
   "Rupert": {
    "county": "Minidoka",
@@ -1746,6 +2007,10 @@
    "county": "Lincoln",
    "site": "https://www.shoshonecityid.gov/"
   },
+  "Smelterville": {
+   "county": "Shoshone",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Soda Springs": {
    "county": "Caribou",
    "site": "https://www.sodaspringsid.com/",
@@ -1757,6 +2022,10 @@
    },
    "council": "https://www.sodaspringsid.com/city/mayor_and_council/index.php"
   },
+  "Spencer": {
+   "county": "Clark",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Spirit Lake": {
    "county": "Kootenai",
    "site": "https://www.spiritlakeid.gov/",
@@ -1767,6 +2036,11 @@
    "site": "https://www.cityofstanthony.org/",
    "meetings": "https://www.cityofstanthony.org/page/city-council",
    "council": "https://www.cityofstanthony.org/page/city-council"
+  },
+  "St. Charles": {
+   "county": "Bear Lake",
+   "site": "https://stcharlesidaho.weebly.com/",
+   "meetings": "https://stcharlesidaho.weebly.com/publicnotices.html"
   },
   "St. Maries": {
    "county": "Benewah",
@@ -1787,6 +2061,14 @@
    },
    "council": "https://www.staridaho.org/1207/City-Council"
   },
+  "State Line": {
+   "county": "Kootenai",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
+  "Stites": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Sugar City": {
    "county": "Madison",
    "site": "https://sugarcityidaho.gov/",
@@ -1801,6 +2083,10 @@
    "county": "Bonneville",
    "site": "https://www.cityofswanvalley.com/",
    "meetings": "https://www.cityofswanvalley.com/"
+  },
+  "Tensed": {
+   "county": "Benewah",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
   },
   "Teton": {
    "county": "Fremont",
@@ -1843,6 +2129,15 @@
    "site": "https://wallace.id.gov/",
    "meetings": "https://wallace.id.gov/"
   },
+  "Wardner": {
+   "county": "Shoshone",
+   "site": "http://www.wardner.id.gov/",
+   "meetings": "http://www.wardner.id.gov/p/minutes.html"
+  },
+  "Warm River": {
+   "county": "Fremont",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Weippe": {
    "county": "Clearwater",
    "site": "https://cityofweippe.org/",
@@ -1869,6 +2164,10 @@
    "site": "https://www.westonidaho.org/",
    "meetings": "https://www.westonidaho.org/"
   },
+  "White Bird": {
+   "county": "Idaho",
+   "clerk": "https://business.idaho.gov/faq/city-clerks-offices-in-idaho/"
+  },
   "Wilder": {
    "county": "Canyon",
    "site": "https://cityofwilder.org/",
@@ -1878,6 +2177,10 @@
    "county": "Lewis",
    "site": "https://www.winchesterid.gov/",
    "meetings": "https://www.winchesterid.gov/meeting-agendas-and-minutes"
+  },
+  "Worley": {
+   "county": "Kootenai",
+   "site": "http://www.cityofworley.org/"
   }
  }
 }

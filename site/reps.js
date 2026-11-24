@@ -28,7 +28,7 @@
   var BASE = LANG === 'es' ? '../' : '';
   var S = {
     en: {
-      seat: 'Seat ', district: 'District ', website: 'Website', official: 'Official website',
+      seat: 'Seat ', district: 'District ', website: 'Website', official: 'Official website', clerk: 'No city website: how to reach the city clerk',
       boards: 'Boards and committees', commissionersLink: 'Commissioners (they appoint board members)', meetings: 'Meetings and agendas',
       mayor: 'Mayor', source: 'Source', mayorPage: 'Mayor’s page', council: 'City council members',
       commissioners: 'County Commissioners', noCommissioners: 'No commissioners listed.',
@@ -64,7 +64,7 @@
       dMissing: 'Not listed here: county commissioner districts, city council districts, voting precincts, highway district subdistricts, irrigation districts and soil and water conservation districts. Your county clerk can tell you those.'
     },
     es: {
-      seat: 'Escaño ', district: 'Distrito ', website: 'Sitio web', official: 'Sitio web oficial',
+      seat: 'Escaño ', district: 'Distrito ', website: 'Sitio web', official: 'Sitio web oficial', clerk: 'La ciudad no tiene sitio web: cómo comunicarse con el secretario municipal',
       boards: 'Juntas y comités', commissionersLink: 'Comisionados (nombran a los miembros de las juntas)', meetings: 'Reuniones y agendas',
       mayor: 'Alcalde o alcaldesa', source: 'Fuente', mayorPage: 'Página de la alcaldía', council: 'Miembros del concejo municipal',
       commissioners: 'Comisionados del condado', noCommissioners: 'No hay comisionados en la lista.',
@@ -233,6 +233,7 @@
     if (!place) return;
     var p = el('p');
     if (safeUrl(place.site)) p.appendChild(link(place.site, S.official));
+    else if (safeUrl(place.clerk)) p.appendChild(link(place.clerk, S.clerk));
     var second = place.boards ? [place.boards, S.boards]
       : place.commissioners ? [place.commissioners, S.commissionersLink]
       : place.meetings ? [place.meetings, S.meetings] : null;

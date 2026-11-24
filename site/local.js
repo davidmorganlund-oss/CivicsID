@@ -29,6 +29,8 @@
     meetingsInNote: 'El calendario de CivicsID, con su condado seleccionado.',
     cityMeetings: function (c) { return 'Reuniones de la ciudad de ' + c; },
     cityMeetingsNote: 'Las agendas del concejo están en el sitio web de la ciudad (en inglés).',
+    cityClerk: function (c) { return 'Ciudad de ' + c + ': secretario municipal'; },
+    cityClerkNote: 'Esta ciudad no tiene sitio web. El directorio estatal de oficinas de secretarios municipales indica cómo comunicarse con el secretario, o a qué oficina del condado llamar, para preguntar por reuniones, agendas y vacantes (en inglés).',
     countyMeetings: function (c) { return 'Reuniones del condado de ' + c; },
     countyMeetingsNote: 'Las agendas de los comisionados están en el sitio web del condado (en inglés).',
     near: 'Cerca de usted', countyLabel: 'Condado', chooseCounty: 'Escoja su condado', countyName: function (c) { return 'Condado de ' + c; },
@@ -68,6 +70,8 @@
     meetingsInNote: 'The CivicsID calendar, set to your county.',
     cityMeetings: function (c) { return 'City of ' + c + ' meetings'; },
     cityMeetingsNote: 'Council agendas are on the city’s website.',
+    cityClerk: function (c) { return 'City of ' + c + ' clerk'; },
+    cityClerkNote: 'This city has no website. The state’s directory of city clerk offices shows how to reach its clerk, or which county office to call, about meetings, agendas and openings.',
     countyMeetings: function (c) { return c + ' County meetings'; },
     countyMeetingsNote: 'Commissioners’ agendas are on the county’s website.',
     near: 'Near you', countyLabel: 'County', chooseCounty: 'Choose your county', countyName: function (c) { return c + ' County'; },
@@ -131,12 +135,14 @@
       if (kind === 'boards') {
         if (city && city.boards) item(ul, city.boards, T.cityBoards(place.city), T.cityBoardsNote);
         else if (city && city.site) item(ul, city.site, T.city(place.city), T.cityNoBoards);
+        else if (city && city.clerk) item(ul, city.clerk, T.cityClerk(place.city), T.cityClerkNote);
         if (county && county.boards) item(ul, county.boards, T.countyBoards(place.county), T.countyBoardsNote);
         else if (county && (county.commissioners || county.site)) item(ul, county.commissioners || county.site, T.countyCommissioners(place.county), T.countyNoBoards);
         item(ul, STATE_BOARDS, T.stateBoards, T.stateBoardsNote);
       }
       if (kind === 'site') {
         if (city && city.site) item(ul, city.site, T.city(place.city), T.citySite);
+        else if (city && city.clerk) item(ul, city.clerk, T.cityClerk(place.city), T.cityClerkNote);
         if (county && county.site) item(ul, county.site, T.county(place.county), T.countySite);
       }
       if (kind === 'schools') {
@@ -149,6 +155,7 @@
       if (kind === 'meetings') {
         if (place.county) item(ul, base() + T.home, T.meetingsIn(place.county), T.meetingsInNote);
         if (city && (city.meetings || city.site)) item(ul, city.meetings || city.site, T.cityMeetings(place.city), T.cityMeetingsNote);
+        else if (city && city.clerk) item(ul, city.clerk, T.cityClerk(place.city), T.cityClerkNote);
         if (county && (county.meetings || county.site)) item(ul, county.meetings || county.site, T.countyMeetings(place.county), T.countyMeetingsNote);
       }
     });
