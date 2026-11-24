@@ -53,7 +53,15 @@
       looking: 'Looking up your districts…',
       notFound: 'We could not find that address. Check the spelling, include the city or ZIP code, and leave off apartment numbers.',
       down: 'The address lookup is not responding right now. You can use the Legislature’s ', downEnd: ' page instead.',
-      party: {}, office: {}
+      party: {}, office: {},
+      dEyebrow: 'Your districts', dTitle: 'Every district you live in',
+      dCongress: 'U.S. House', dLeg: 'State Legislature', dLegNote: 'You elect one state senator and two state representatives from this district.',
+      dSchool: 'School district', dSchoolNote: 'Elected trustees run your public schools.',
+      dTribal: 'Tribal land', dTribalNote: 'This address is on tribal land. The tribe’s own government serves its members here.',
+      dLooking: 'Looking up fire, ambulance, highway, library and other special districts…',
+      dFailed: 'The special district lookup did not respond, so this list is missing fire, highway, library and other districts. Try again in a few minutes.',
+      dSource: function (tca, c) { return 'Special districts come from the Idaho State Tax Commission’s taxing district maps' + (tca ? ' (tax code area ' + tca + (c ? ' in ' + c + ' County' : '') + ', the number on a property tax notice)' : '') + '. They show districts that levy a property tax.'; },
+      dMissing: 'Not listed here: county commissioner districts, city council districts, voting precincts, highway district subdistricts, irrigation districts and soil and water conservation districts. Your county clerk can tell you those.'
     },
     es: {
       seat: 'Escaño ', district: 'Distrito ', website: 'Sitio web', official: 'Sitio web oficial',
@@ -82,7 +90,15 @@
       notFound: 'No pudimos encontrar esa dirección. Revise la ortografía, incluya la ciudad o el código postal y omita el número de apartamento.',
       down: 'La búsqueda de direcciones no responde en este momento. Puede usar la página de la Legislatura ', downEnd: '.',
       party: { Republican: 'Partido Republicano', Democrat: 'Partido Demócrata', Independent: 'Independiente' },
-      office: { Assessor: 'Tasador(a)', Clerk: 'Secretario(a) del condado', Coroner: 'Médico forense', Prosecutor: 'Fiscal', Sheriff: 'Sheriff', Treasurer: 'Tesorero(a)' }
+      office: { Assessor: 'Tasador(a)', Clerk: 'Secretario(a) del condado', Coroner: 'Médico forense', Prosecutor: 'Fiscal', Sheriff: 'Sheriff', Treasurer: 'Tesorero(a)' },
+      dEyebrow: 'Sus distritos', dTitle: 'Todos los distritos donde vive',
+      dCongress: 'Cámara de Representantes federal', dLeg: 'Legislatura estatal', dLegNote: 'Usted elige a un senador estatal y a dos representantes estatales de este distrito.',
+      dSchool: 'Distrito escolar', dSchoolNote: 'Fideicomisarios electos dirigen sus escuelas públicas.',
+      dTribal: 'Tierra tribal', dTribalNote: 'Esta dirección está en tierra tribal. El gobierno de la tribu atiende a sus miembros aquí.',
+      dLooking: 'Buscando distritos de bomberos, ambulancia, carreteras, bibliotecas y otros distritos especiales…',
+      dFailed: 'La búsqueda de distritos especiales no respondió, así que faltan los distritos de bomberos, carreteras, bibliotecas y otros. Intente de nuevo en unos minutos.',
+      dSource: function (tca, c) { return 'Los distritos especiales vienen de los mapas de distritos fiscales de la Comisión de Impuestos del Estado de Idaho' + (tca ? ' (área de código fiscal ' + tca + (c ? ' en el condado de ' + c : '') + ', el número que aparece en el aviso del impuesto a la propiedad)' : '') + '. Muestran los distritos que cobran un impuesto a la propiedad.'; },
+      dMissing: 'No aparecen aquí: distritos de comisionados del condado, distritos del concejo municipal, precintos electorales, subdistritos de carreteras, distritos de riego y distritos de conservación de suelos y agua. La secretaría del condado puede indicárselos.'
     }
   }[LANG];
 
@@ -125,6 +141,60 @@
     var key = Object.keys(geographies).filter(function (k) { return pattern.test(k); })[0];
     var rows = key ? geographies[key] : null;
     return rows && rows[0] ? rows[0].BASENAME : '';
+  }
+
+  function names(geographies, pattern) {
+    var out = [];
+    Object.keys(geographies).filter(function (k) { return pattern.test(k); }).forEach(function (k) {
+      (geographies[k] || []).forEach(function (row) {
+        if (row.NAME && out.indexOf(row.NAME) < 0) out.push(row.NAME);
+      });
+    });
+    return out;
+  }
+
+  function districtItem(list, d) {
+    var li = el('li', 'district');
+    li.appendChild(el('strong', null, d.label + ': '));
+    li.appendChild(document.createTextNode(d.name));
+    if (d.note) li.appendChild(el('span', 'muted', d.note));
+    list.appendChild(li);
+  }
+
+  // One card listing every district the address sits in. The districts the
+  // Census lookup already named show right away; special districts come from
+  // the Idaho State Tax Commission's map service, which gets only the map point.
+  function districtsCard(g, match, parts) {
+    var card = section(S.dEyebrow, S.dTitle);
+    var list = el('ul', 'districts');
+    card.appendChild(list);
+    var add = function (d) { districtItem(list, d); };
+    if (parts.cd) add({ label: S.dCongress, name: S.cd(parts.cd) });
+    if (parts.ld) add({ label: S.dLeg, name: S.ld(parts.ld), note: S.dLegNote });
+    if (parts.county) add({ label: S.county, name: S.countyOf(parts.county) });
+    add({ label: S.city, name: parts.city ? S.cityOf(parts.city) : S.outside });
+    names(g, /School Districts/).forEach(function (n) {
+      add({ label: S.dSchool, name: n, note: S.dSchoolNote });
+    });
+    names(g, /American Indian Reservations|Off-Reservation Trust Lands/).forEach(function (n) {
+      add({ label: S.dTribal, name: n, note: S.dTribalNote });
+    });
+
+    var status = el('p', 'muted', S.dLooking);
+    card.appendChild(status);
+    var D = window.CivicsIDDistricts;
+    var c = match.coordinates || {};
+    if (!D || typeof c.x !== 'number' || typeof c.y !== 'number') {
+      status.textContent = S.dFailed;
+      return card;
+    }
+    D.lookup(c.x, c.y, parts.county, LANG).then(function (r) {
+      if (!r) { status.textContent = S.dFailed; return; }
+      r.districts.forEach(add);
+      status.textContent = S.dSource(r.taxCodeArea, parts.county);
+      card.appendChild(el('p', 'muted', S.dMissing));
+    });
+    return card;
   }
 
   function person(p) {
@@ -255,6 +325,7 @@
     var cd = layer(g, /Congressional Districts/);
 
     out.appendChild(el('p', 'muted', S.showing(match.matchedAddress)));
+    out.appendChild(districtsCard(g, match, { city: city, county: county, ld: ld, cd: cd }));
     if (window.CivicsIDLocal && county) {
       // Remember only the county and city, so the Engage guides can show local links.
       window.CivicsIDLocal.save({ county: county, city: localData && localData.cities[city] ? city : '' });

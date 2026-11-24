@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov https://services.arcgis.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Quién le representa | CivicsID</title>
-<meta name="description" content="Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
+<meta name="description" content="Escriba una dirección de Idaho para ver todos los distritos donde vive, sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
 <meta property="og:site_name" content="CivicsID">
 <meta property="og:title" content="Quién le representa">
-<meta property="og:description" content="Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
+<meta property="og:description" content="Escriba una dirección de Idaho para ver todos los distritos donde vive, sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://civicsid.org/share-es.png">
 <meta property="og:image:width" content="1200">
@@ -49,7 +49,7 @@
 
 <section aria-label="Introducción" class="hero"><div class="wrap">
   <h1>Encuentre quién le representa.</h1>
-  <p class="lede">Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos, y dónde encontrar a los funcionarios de su ciudad y condado.</p>
+  <p class="lede">Escriba una dirección de Idaho para ver todos los distritos donde vive, desde el Congreso hasta sus distritos de bomberos y bibliotecas, además de sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos.</p>
   <form class="search" id="lookup">
     <div class="field wide">
       <label for="address">Dirección</label>
@@ -57,7 +57,7 @@
     </div>
     <button class="btn" type="submit">Buscar</button>
   </form>
-  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. CivicsID nunca la recibe ni la guarda. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
+  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. Solo el punto en el mapa que devuelve, no su dirección, va al mapa público de la Comisión de Impuestos del Estado de Idaho para encontrar los distritos especiales. CivicsID nunca recibe ni guarda ninguno de los dos. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
 </div></section>
 
 <main class="wrap narrow" style="padding-block: 40px 64px">
@@ -74,6 +74,7 @@
 </div></footer>
 
 <script src="../local.js"></script>
+<script src="../districts.js"></script>
 <script src="../reps.js"></script>
 </body>
 </html>

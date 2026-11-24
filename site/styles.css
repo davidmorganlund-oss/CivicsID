@@ -121,6 +121,8 @@ footer p { margin: 0; flex: 1 1 320px; }
 .wrap.narrow { max-width: 820px; }
 .field.wide { max-width: 520px; flex-basis: 320px; }
 .people { list-style: none; margin: 0; padding: 0 !important; gap: 10px !important; }
+.districts { list-style: none; margin: 0; padding: 0 !important; gap: 10px !important; }
+.district .muted { display: block; font-size: 14px; }
 .person .contact { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 15px; }
 .person .contact a { padding: 6px 0; }
 .card h4 { margin: 6px 0 0; font-family: var(--condensed); font-size: 16px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
