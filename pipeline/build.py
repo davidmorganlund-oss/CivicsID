@@ -240,6 +240,9 @@ def civicclerk_highlights(src, events, start_day):
             continue
         if not meeting.get("agendaIsPublish"):
             continue  # draft agendas are not public yet
+        # The portal's files page opens on the posted agenda, with the packet
+        # and notice beside it.
+        e["agenda_url"] = e["url"].replace("/overview", "/files")
         titles = []
 
         def walk(items, section=""):
@@ -318,7 +321,7 @@ def normalize_civicclerk(src, rows, tz):
             src,
             title=r.get("eventName") or r.get("categoryName") or "Public meeting",
             start=start,
-            location=place,
+            location=place or src.get("default_location", ""),
             url=f"https://{tenant}.portal.civicclerk.com/event/{r['id']}/overview",
             note=r.get("eventDescription") or "",
             uid=str(r["id"]),
@@ -759,7 +762,44 @@ def fetch_civicplus(src, start_day, end_day, tz):
                 continue
             seen.add(e["id"])
             events.append(e)
+    try:
+        link_agendacenter(events, get(f"{site}/AgendaCenter").text, site)
+    except Exception as exc:  # plenty of CivicPlus sites don't use the Agenda Center
+        print(f"[info] {src['id']}: Agenda Center not read: {exc}", file=sys.stderr)
     return events
+
+
+# CivicPlus sites post agendas in a separate "Agenda Center", not on the
+# calendar. Each agenda there carries its meeting date and a name, so a
+# calendar meeting is linked when exactly one agenda that day has its name.
+AC_NOISE = re.compile(r"\|\|?\s*cancel+ed|\b(agenda|meeting|regular|special|public hearing|the|of|for|city|county)\b", re.I)
+
+
+def agenda_name(title: str) -> frozenset:
+    words = re.sub(r"[^a-z0-9 ]+", " ", AC_NOISE.sub(" ", (title or "").lower().replace("&", " and ")))
+    return frozenset(w for w in words.split() if w != "and")
+
+
+def link_agendacenter(events, page, site):
+    import html as htmllib
+    by_day = {}
+    for day, href, title in AC_ROW.findall(page):
+        try:
+            d = datetime.strptime(day, "%B %d, %Y").date().isoformat()
+        except ValueError:
+            continue
+        name = agenda_name(htmllib.unescape(re.sub(r"<[^>]+>", "", title)))
+        by_day.setdefault(d, []).append((name, site + href))
+    for e in events:
+        if e.get("agenda_url"):
+            continue
+        want = agenda_name(e["title"])
+        if not want:
+            continue
+        hits = {url for name, url in by_day.get(e["start"][:10], [])
+                if name and (name == want or name <= want or want <= name)}
+        if len(hits) == 1:
+            e["agenda_url"] = hits.pop()
 
 
 # --- PrimeGov public portals (upcoming meetings list) ---

@@ -836,3 +836,30 @@ def test_library_board_games_are_not_board_meetings():
     assert not build.libcal_is_civic("Board Games for Adults", "Games")
     assert build.libcal_is_civic("Nampa Library Board of Trustees Monthly Meeting", "")
     assert build.libcal_is_civic("Kuna Library District Board Meeting", "")
+
+
+def test_civicplus_meetings_link_agenda_center():
+    """A calendar meeting picks up its agenda from the site's Agenda Center when
+    exactly one agenda that day carries its name."""
+    row = ('<strong aria-label="Agenda for {day}">x</strong></h3><p><a id="a" href="/AgendaCenter/ViewFile/Agenda/{slug}" '
+           'target="_blank">\n\t\t{title}\n\t</a></p>')
+    page = "".join([
+        row.format(day="December 2, 2026", slug="_12022026-6172", title="Snowmobile Advisory Board "),
+        row.format(day="December 1, 2026", slug="_12012026-1", title="BOCC: Status Update"),
+        row.format(day="December 1, 2026", slug="_12012026-2", title="BOCC: Business Meeting"),
+        row.format(day="December 3, 2026", slug="_12032026-3", title="Planning and Zoning Commission ||CANCELLED"),
+        row.format(day="December 8, 2026", slug="_12082026-4", title="Board A"),
+        row.format(day="December 8, 2026", slug="_12082026-5", title="Board A Special Meeting"),
+    ])
+    def ev(title, day):
+        return {"title": title, "start": day + "T10:00:00-08:00", "agenda_url": ""}
+    events = [ev("Snowmobile Advisory Board", "2026-12-02"), ev("BOCC: Business Meeting", "2026-12-01"),
+              ev("Planning & Zoning Commission", "2026-12-03"), ev("Fair Board", "2026-12-02"),
+              ev("Board A", "2026-12-08"), ev("City Council Meeting", "2026-12-01")]
+    build.link_agendacenter(events, page, "https://www.kcgov.us")
+    assert events[0]["agenda_url"] == "https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12022026-6172"
+    assert events[1]["agenda_url"].endswith("_12012026-2")       # not the Status Update agenda
+    assert events[2]["agenda_url"].endswith("_12032026-3")       # "&" and "and" match; cancelled tag ignored
+    assert events[3]["agenda_url"] == ""                           # no agenda by that name
+    assert events[4]["agenda_url"] == ""                           # two agendas could be it, so neither is linked
+    assert events[5]["agenda_url"] == ""                           # a bare "Council" never matches an empty name
