@@ -361,6 +361,7 @@ def footer_es(up, first):
 
 for slug, g in guides_es.G.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
+    script = '\n<script src="../../local.js"></script>' if 'class="near-you"' in g["body"] else ""
     (ES / "guides" / f"{slug}.html").write_text(f'''{head(g["title"] + " | CivicsID", "../../", g["lede"], lang="es")}
 <a class="skip" href="#guide">Ir a la guía</a>
 {top("../", "engage", lang="es", alt="../../guides/" + slug + ".html")}
@@ -378,31 +379,73 @@ for slug, g in guides_es.G.items():
   <p class="muted">Revisado en noviembre de 2026. Esta guía es información general, no asesoría legal. Las reglas cambian, así que revise las fuentes antes de depender de un plazo.</p>
 </main>
 
-{footer_es("../../", "Cada guía cita sus fuentes para que usted pueda verificarlas.")}
+{footer_es("../../", "Cada guía cita sus fuentes para que usted pueda verificarlas.")}{script}
 </body>
 </html>
 '''.replace('href="../../styles.css"', 'href="../../styles.css"'))
 
-ES_LIST = [("speak-at-a-public-meeting", "Lo que la ley de Idaho le permite, lo que no, y cómo aprovechar dos minutos."),
-           ("open-meeting-law", "Avisos, agendas, sesiones a puerta cerrada, su derecho a grabar y qué hacer cuando no se cumple la ley."),
-           ("public-records-requests", "Cómo pedir correos, contratos e informes, cuánto cuesta, los plazos y qué hacer si le dicen que no."),
-           ("contact-your-representatives", "Cómo escoger la oficina correcta y escribir un mensaje que sí se lea.")]
-assert {k for k, _ in ES_LIST} == set(guides_es.G)
-rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]["title"])}<span>{html.escape(b)}</span></a></li>' for k, b in ES_LIST)
+# Same sections and order as the English Engage page.
+ES_SECTIONS = [
+    ("Empiece aquí", [
+        ("reps.html", "Quién le representa", "Escriba su dirección para ver a sus representantes de la ciudad, el condado, el estado y el gobierno federal."),
+        ("guides/contact-your-representatives.html", None, "Cómo escoger la oficina correcta y escribir un mensaje que sí se lea."),
+    ]),
+    ("Su ciudad y su condado", [
+        ("guides/local-government.html", None, "Condados, ciudades, distritos escolares y los distritos especiales que manejan caminos, bomberos, agua y más."),
+        ("guides/speak-at-a-public-meeting.html", None, "Lo que la ley de Idaho le permite, lo que no, y cómo aprovechar dos minutos."),
+        ("guides/open-meeting-law.html", None, "Avisos, agendas, sesiones a puerta cerrada, su derecho a grabar y qué hacer cuando no se cumple la ley."),
+        ("guides/public-records-requests.html", None, "Cómo pedir correos, contratos e informes, cuánto cuesta, los plazos y qué hacer si le dicen que no."),
+        ("guides/your-neighborhood.html", None, "Cómo lograr que arreglen problemas, enterarse de lo que se planea y organizar a sus vecinos."),
+        ("guides/local-ballot-measures.html", None, "Bonos, impuestos locales (levies), y por qué un bono escolar puede sacar 60 por ciento y aun así no aprobarse."),
+    ]),
+    ("El estado de Idaho", [
+        ("guides/legislature.html", None, "Quiénes la forman, el calendario de la sesión, cómo avanza un proyecto de ley y dónde cuenta su voz."),
+        ("guides/weigh-in-on-a-state-bill.html", None, "Cuatro maneras de decirle a la Legislatura lo que usted piensa, y los tiempos que toman a la gente por sorpresa."),
+        ("guides/state-budgets.html", None, "El ciclo anual, el comité que lo escribe y cuándo puede participar en cada paso."),
+        ("guides/boards-and-commissions.html", None, "Cómo se nombra a residentes en juntas estatales, del condado y de la ciudad."),
+        ("guides/campaign-finance.html", None, "Quién les da dinero a los candidatos de Idaho, cuáles son los límites y dónde consultarlo."),
+        ("guides/state-agencies.html", None, "Un directorio corto para las necesidades más comunes, y qué hacer cuando se atora."),
+        ("guides/running-for-office.html", None, "Qué cargos se eligen y cuándo, cómo inscribirse como candidato y lo básico del financiamiento de campañas."),
+        ("guides/state-initiatives.html", None, "Cómo los votantes ponen una ley en la boleta, las reglas de las firmas y los plazos."),
+    ]),
+    ("El gobierno federal", [
+        ("guides/federal-offices.html", None, "La Cámara de Representantes, el Senado y la Presidencia, y lo que la Constitución exige para cada uno."),
+        ("guides/courts.html", None, "Las cortes estatales de Idaho y las cortes federales, lado a lado."),
+        ("guides/constitution.html", None, "Las constituciones de Estados Unidos y de Idaho, y cómo se cambia cada una."),
+        ("guides/federal-agencies.html", None, "Ayuda con casos, decisiones sobre tierras públicas, comentarios sobre reglamentos y solicitudes de registros."),
+        ("guides/federal-budget.html", None, "Las asignaciones, el año fiscal y las solicitudes de proyectos comunitarios."),
+    ]),
+    ("Habilidades y vida diaria", [
+        ("guides/two-minute-pitch.html", None, "Una forma sencilla de presentar su caso en el tiempo que le dan."),
+        ("guides/read-a-bill-or-agenda.html", None, "Números de proyectos de ley, subrayados y tachados, puntos de acción y paquetes de la reunión."),
+        ("guides/media-literacy.html", "Cómo evaluar la información", "Hábitos rápidos para distinguir la buena información de la mala."),
+        ("guides/volunteer-and-public-service.html", None, "Dónde encontrar puestos de voluntario y empleos en el gobierno."),
+        ("guides/problem-to-policy.html", None, "Cómo encontrar el nivel de gobierno correcto y armar una petición concreta."),
+    ]),
+]
+es_blocks, es_listed = [], set()
+for i, (heading, items) in enumerate(ES_SECTIONS):
+    style = ' style="margin-top: 20px"' if i else ""
+    rows = []
+    for href, label, blurb in items:
+        if href.startswith("guides/"):
+            slug = href[7:-5]
+            es_listed.add(slug)
+            label = label or guides_es.G[slug]["title"]
+        rows.append(f'    <li><a href="{href}">{html.escape(label)}<span>{html.escape(blurb)}</span></a></li>')
+    es_blocks.append(f'  <h2{style}>{heading}</h2>\n  <ul class="guide-links">\n' + "\n".join(rows) + "\n  </ul>")
+assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
 (ES / "engage.html").write_text(f'''{head("Participa | CivicsID", "../", "Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar.", lang="es")}
 <a class="skip" href="#guides">Ir a las guías</a>
 {top("", "engage", lang="es", alt="../engage.html")}
 
 <section class="hero plain"><div class="wrap">
-  <h1>Participa: cómo tomar parte en su gobierno local.</h1>
-  <p class="lede">Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar. Cada guía cita sus fuentes. Estamos traduciendo más guías; las demás están <a href="../engage.html">en inglés</a>.</p>
+  <h1>Participa: cómo tomar parte, desde su cuadra hasta el Congreso.</h1>
+  <p class="lede">Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar. Cada guía cita sus fuentes para que usted pueda verificarlas. Muchas de las páginas oficiales que citamos están solo en inglés.</p>
 </div></section>
 
 <main class="wrap" id="guides" style="padding-block: 32px 64px; display: flex; flex-direction: column; gap: 20px">
-  <h2>Su ciudad y su condado</h2>
-  <ul class="guide-links">
-{rows}
-  </ul>
+{chr(10).join(es_blocks)}
 </main>
 
 {footer_es("../", "Las guías están escritas en lenguaje sencillo, citan sus fuentes y funcionan con lectores de pantalla.")}
