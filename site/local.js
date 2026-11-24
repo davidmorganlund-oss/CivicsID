@@ -8,6 +8,7 @@
 
   var KEY = 'civicsid.place';
   var STATE_BOARDS = 'https://gov.idaho.gov/appointments/';
+  var SDE_DIRECTORY = 'https://www.sde.idaho.gov/school-districts/';
   var ES = document.documentElement.lang === 'es';
   // Place names (Ada, Boise) stay as they are; only our own wording changes.
   var T = ES ? {
@@ -35,7 +36,20 @@
     remember: '. Guardamos su selección solo en este dispositivo.',
     otherTown: 'Otro pueblo, o fuera de los límites de la ciudad', countyFirst: 'Primero escoja un condado',
     noCity: 'La mayoría de las ciudades y pueblos publican sus juntas en su propio sitio web, por lo general en la sección del ayuntamiento (City Hall) o de gobierno (Government). Si vive fuera de los límites de una ciudad, el condado es su gobierno local.',
-    home: 'es/index.html', reps: 'es/reps.html'
+    home: 'es/index.html', reps: 'es/reps.html',
+    schoolsNote: 'Sitio web del distrito: reuniones de la junta escolar (trustees), agendas y elecciones (en inglés).',
+    sdeDirectory: 'Directorio de distritos escolares de Idaho',
+    sdeDirectoryNote: 'El Departamento de Educación del Estado (SDE) enumera todos los distritos (en inglés).',
+    districtNotes: {
+      port: 'Distrito portuario: comisionados electos. Reuniones y agendas (en inglés).',
+      library: 'Biblioteca: reuniones y agendas de la junta directiva (en inglés).',
+      utility: 'Servicio público: reuniones y agendas de la junta (en inglés).',
+      transit: 'Agencia de transporte público: reuniones de la junta y cambios de servicio (en inglés).',
+      hospital: 'Distrito hospitalario: reuniones y agendas de la junta (en inglés).',
+      highway: 'Distrito de carreteras: comisionados electos que mantienen los caminos locales. Reuniones y agendas (en inglés).',
+      fire: 'Distrito de bomberos: comisionados electos. Reuniones y agendas (en inglés).',
+      other: 'Las reuniones y agendas de la junta están en su sitio web (en inglés).'
+    }
   } : {
     cityBoards: function (c) { return 'City of ' + c + ' boards and commissions'; },
     cityBoardsNote: 'Openings, applications and what each board does.',
@@ -61,7 +75,20 @@
     remember: '. We remember your choice on this device only.',
     otherTown: 'Another town, or outside city limits', countyFirst: 'Choose a county first',
     noCity: 'Most cities and towns post their boards on their own website, usually under City Hall or Government. If you live outside city limits, the county is your local government.',
-    home: 'index.html', reps: 'reps.html'
+    home: 'index.html', reps: 'reps.html',
+    schoolsNote: 'District website: school board (trustee) meetings, agendas and elections.',
+    sdeDirectory: 'Idaho school district directory',
+    sdeDirectoryNote: 'The State Department of Education lists every district.',
+    districtNotes: {
+      port: 'Port district: elected commissioners. Meetings and agendas.',
+      library: 'Library: board of trustees meetings and agendas.',
+      utility: 'Public utility: board meetings and agendas.',
+      transit: 'Transit agency: board meetings, agendas and service changes.',
+      hospital: 'Hospital district: board meetings and agendas.',
+      highway: 'Highway district: elected commissioners who maintain local roads. Meetings and agendas.',
+      fire: 'Fire district: elected commissioners. Meetings and agendas.',
+      other: 'Board meetings and agendas are on its website.'
+    }
   };
 
   function base() {
@@ -111,6 +138,13 @@
       if (kind === 'site') {
         if (city && city.site) item(ul, city.site, T.city(place.city), T.citySite);
         if (county && county.site) item(ul, county.site, T.county(place.county), T.countySite);
+      }
+      if (kind === 'schools') {
+        ((county && county.schools) || []).forEach(function (d) { item(ul, d.site, d.name, T.schoolsNote); });
+        item(ul, SDE_DIRECTORY, T.sdeDirectory, T.sdeDirectoryNote);
+      }
+      if (kind === 'districts') {
+        ((county && county.districts) || []).forEach(function (d) { item(ul, d.site, d.name, T.districtNotes[d.kind] || T.districtNotes.other); });
       }
       if (kind === 'meetings') {
         if (place.county) item(ul, base() + T.home, T.meetingsIn(place.county), T.meetingsInNote);

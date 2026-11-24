@@ -2142,10 +2142,19 @@ sources:
     county: Jefferson
     area: Rigby
     homepage: https://www.jeffersonsd251.org/board-of-trustees/
+    # From the district's "2026 Monthly Board Meeting Schedule" PDF, linked from the board page.
+    # December meets in the morning; the next date it lists is January 13, 2027, in the evening.
     meetings:
       - title: Board of Trustees Regular Meeting
         dates: [2026-12-09]
+        one_off: true           # the morning time differs from the evening series below
         time: "07:30"
+        location: District office board room, 3850 E 300 N, Rigby
+        category: school
+        url: https://www.jeffersonsd251.org/board-of-trustees/
+      - title: Board of Trustees Regular Meeting
+        dates: [2027-01-13]
+        time: "18:30"
         location: District office board room, 3850 E 300 N, Rigby
         category: school
         url: https://www.jeffersonsd251.org/board-of-trustees/
