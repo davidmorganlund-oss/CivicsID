@@ -4,21 +4,21 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T09:49:28-07:00</updated>
+  <updated>2026-11-24T13:12:25-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:95ae0d9a4c7e:new</id>
+    <title>New meeting: Parks and Recreation Commission (2027-01-21 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-21 16:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:9bbe93a7d154:new</id>
     <title>New meeting: Design Review Commission (2027-01-13 18:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://pub-cityofboise.escribemeetings.com/"/>
     <summary>City of Boise · 2027-01-13 18:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:91fbd9714286:new</id>
-    <title>New meeting: Airport Commission (2026-12-02 09:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://pub-cityofboise.escribemeetings.com/"/>
-    <summary>City of Boise · 2026-12-02 09:00 (MT) · Airport - 3rd Floor Boise River Room, 3201 W. Airport Way</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:3ccc46bd2b21:agenda</id>
@@ -80,14 +80,14 @@
     <id>tag:civicsid.org,2026:782858e35638:agenda</id>
     <title>Agenda posted: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-11-24 09:15)</title>
     <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <link href="https://adacounty.id.gov/commissioners/"/>
     <summary>Ada County · 2026-11-24 09:15 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:fbad701791ca:agenda</id>
     <title>Agenda posted: Board of County Commissioners: Open Business Meeting (2026-11-24 09:00)</title>
     <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <link href="https://adacounty.id.gov/commissioners/"/>
     <summary>Ada County · 2026-11-24 09:00 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
   <entry>
@@ -157,14 +157,14 @@
     <id>tag:civicsid.org,2026:782858e35638:new</id>
     <title>New meeting: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-11-24 09:15)</title>
     <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <link href="https://adacounty.id.gov/commissioners/"/>
     <summary>Ada County · 2026-11-24 09:15 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:fbad701791ca:new</id>
     <title>New meeting: Board of County Commissioners: Open Business Meeting (2026-11-24 09:00)</title>
     <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <link href="https://adacounty.id.gov/commissioners/"/>
     <summary>Ada County · 2026-11-24 09:00 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
 </feed>

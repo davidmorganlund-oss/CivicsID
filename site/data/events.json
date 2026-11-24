@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T09:49:28-07:00",
+ "generated": "2026-11-24T13:12:25-07:00",
  "events": [
   {
    "id": "21a0bc60f738",
@@ -124,8 +124,8 @@
    "end": null,
    "all_day": false,
    "location": "Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise",
-   "url": "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&puid=null",
-   "agenda_url": "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&puid=null",
+   "url": "https://adacounty.id.gov/commissioners/",
+   "agenda_url": "",
    "note": "",
    "cancelled": false
   },
@@ -322,8 +322,8 @@
    "end": null,
    "all_day": false,
    "location": "Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise",
-   "url": "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&puid=null",
-   "agenda_url": "https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&doc=%5C2026%5C11+November%5C11-24-26_Open_Business_Mtg.pdf&puid=null",
+   "url": "https://adacounty.id.gov/commissioners/",
+   "agenda_url": "",
    "note": "",
    "cancelled": false
   },
@@ -1445,6 +1445,24 @@
    "regular": true
   },
   {
+   "id": "72deae1dabc6",
+   "title": "City Council Agenda 12/01/2026",
+   "host": "City of Blackfoot",
+   "source": "blackfoot",
+   "area": "Blackfoot",
+   "county": "Bingham",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-01T00:00:00-07:00",
+   "end": null,
+   "all_day": true,
+   "location": "",
+   "url": "https://www.cityofblackfoot.org/AgendaCenter",
+   "agenda_url": "https://www.cityofblackfoot.org/AgendaCenter/ViewFile/Agenda/_12012026-781",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "cce1c0eca219",
    "title": "City Council Meeting",
    "host": "City of Driggs",
@@ -2118,24 +2136,6 @@
    "location": "Search & Rescue Building, 10865 N Ramsey Rd",
    "url": "https://www.kcgov.us/Calendar.aspx?EID=5614",
    "agenda_url": "https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12022026-6172",
-   "note": "",
-   "cancelled": false
-  },
-  {
-   "id": "91fbd9714286",
-   "title": "Airport Commission",
-   "host": "City of Boise",
-   "source": "boise",
-   "area": "Boise",
-   "county": "Ada",
-   "tz": "MT",
-   "category": "council",
-   "start": "2026-12-02T09:00:00-07:00",
-   "end": "2026-12-02T10:00:00-07:00",
-   "all_day": false,
-   "location": "Airport - 3rd Floor Boise River Room, 3201 W. Airport Way",
-   "url": "https://pub-cityofboise.escribemeetings.com/",
-   "agenda_url": "",
    "note": "",
    "cancelled": false
   },
@@ -2894,7 +2894,7 @@
    "all_day": false,
    "location": "451 N Government Way",
    "url": "https://www.kcgov.us/Calendar.aspx?EID=5090",
-   "agenda_url": "",
+   "agenda_url": "https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12032026-6175",
    "note": "",
    "cancelled": false
   },
@@ -10600,6 +10600,24 @@
    "regular": true
   },
   {
+   "id": "d7cfba3d6e95",
+   "title": "Drop-in: Vision Boards",
+   "host": "The Community Library (Ketchum)",
+   "source": "community-library-ketchum",
+   "area": "Ketchum",
+   "county": "Blaine",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-12-29T10:00:00-07:00",
+   "end": "2026-12-29T18:00:00-07:00",
+   "all_day": false,
+   "location": "The Community Library, Children's Library",
+   "url": "https://thecommunitylibrary.libcal.com/event/15784945",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
    "id": "c183ccd01c65",
    "title": "BOCC: Status Update",
    "host": "Kootenai County",
@@ -14516,6 +14534,25 @@
    "regular": true
   },
   {
+   "id": "fc0a9e9a5593",
+   "title": "Board of Trustees Regular Meeting",
+   "host": "Jefferson Joint School District 251",
+   "source": "jefferson-schools",
+   "area": "Rigby",
+   "county": "Jefferson",
+   "tz": "MT",
+   "category": "school",
+   "start": "2027-01-13T18:30:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "District office board room, 3850 E 300 N, Rigby",
+   "url": "https://www.jeffersonsd251.org/board-of-trustees/",
+   "agenda_url": "",
+   "note": "From the regular meeting schedule the host publishes. Meetings can be cancelled or moved, so check the host's page before you go.",
+   "cancelled": false,
+   "regular": true
+  },
+  {
    "id": "a1846c82e005",
    "title": "Planning & Zoning Commission Public Meeting",
    "host": "Madison County",
@@ -16350,6 +16387,24 @@
    "all_day": false,
    "location": "Post Falls Library, Meeting Room 1, Meeting Room 2",
    "url": "https://communitylibrary.libcal.com/event/17409310",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "95ae0d9a4c7e",
+   "title": "Parks and Recreation Commission",
+   "host": "City of Boise",
+   "source": "boise",
+   "area": "Boise",
+   "county": "Ada",
+   "tz": "MT",
+   "category": "council",
+   "start": "2027-01-21T16:00:00-07:00",
+   "end": "2027-01-21T17:30:00-07:00",
+   "all_day": false,
+   "location": "City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd",
+   "url": "https://pub-cityofboise.escribemeetings.com/",
    "agenda_url": "",
    "note": "",
    "cancelled": false
