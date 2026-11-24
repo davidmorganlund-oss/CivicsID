@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T01:42:47-07:00</updated>
+  <updated>2026-11-24T01:57:32-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:cdd43811e9b5:agenda</id>
+    <title>Agenda posted: BOCC: Status Update (2026-12-22 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12222026-6145"/>
+    <summary>Kootenai County · 2026-12-22 10:00 (PT) · 451 Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:14b21e3350de:agenda</id>
+    <title>Agenda posted: BOCC: Airport (2026-12-22 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12222026-6147"/>
+    <summary>Kootenai County · 2026-12-22 09:00 (PT) · 451 N Government Way</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:ce45cdc3b5b1:cancelled</id>
     <title>Cancelled: Hearing Examiner: Community Development - Public Hearing (2026-12-17 18:00)</title>
@@ -14,11 +28,53 @@
     <summary>Kootenai County · 2026-12-17 18:00 (PT) · 451 N Government Way</summary>
   </entry>
   <entry>
+    <id>tag:civicsid.org,2026:4f6483ca8a06:agenda</id>
+    <title>Agenda posted: Aquifer Protection District Advisory Board (2026-12-16 16:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12162026-6143"/>
+    <summary>Kootenai County · 2026-12-16 16:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:217fa1f3fdec:agenda</id>
+    <title>Agenda posted: BOCC: Status Update (2026-12-15 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12152026-6144"/>
+    <summary>Kootenai County · 2026-12-15 10:00 (PT) · 451 Government Way</summary>
+  </entry>
+  <entry>
     <id>tag:civicsid.org,2026:87f70b70fcec:new</id>
     <title>New meeting: Historic Preservation Commission (2026-12-03 13:30)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://www.kcgov.us/Calendar.aspx?EID=5036"/>
     <summary>Kootenai County · 2026-12-03 13:30 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:87f70b70fcec:agenda</id>
+    <title>Agenda posted: Historic Preservation Commission (2026-12-03 13:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12032026-6171"/>
+    <summary>Kootenai County · 2026-12-03 13:30 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:b6ab56d3d536:agenda</id>
+    <title>Agenda posted: Snowmobile Advisory Board (2026-12-02 08:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12022026-6172"/>
+    <summary>Kootenai County · 2026-12-02 08:30 (PT) · Search &amp; Rescue Building, 10865 N Ramsey Rd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:cdfe5a5cef7b:agenda</id>
+    <title>Agenda posted: BOCC: Business Meeting (2026-11-24 14:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_11242026-6170"/>
+    <summary>Kootenai County · 2026-11-24 14:00 (PT) · 451 Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:33d0fb5b8c31:agenda</id>
+    <title>Agenda posted: BOCC: Status Update (2026-11-24 10:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_11242026-6169"/>
+    <summary>Kootenai County · 2026-11-24 10:00 (PT) · 451 Government Way</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:ef7361bdbb60:new</id>

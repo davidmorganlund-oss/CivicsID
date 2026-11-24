@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T01:42:47-07:00</updated>
+  <updated>2026-11-24T01:57:32-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:3bae29746936:new</id>
@@ -28,10 +28,38 @@
     <summary>Valley County · 2027-01-04 09:00 (MT)</summary>
   </entry>
   <entry>
+    <id>tag:civicsid.org,2026:2212c0917d34:agenda</id>
+    <title>Agenda posted: Tree Advisory Committee (2026-12-01 12:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/AgendaCenter/ViewFile/Agenda/_12012026-482?html=true"/>
+    <summary>City of McCall · 2026-12-01 12:00 (MT) · Transit Center, 210 Park St</summary>
+  </entry>
+  <entry>
     <id>tag:civicsid.org,2026:fd397bdcb1ff:new</id>
     <title>New meeting: Notice of Council Quorum (2026-12-01 09:00)</title>
     <updated>2026-11-24T12:00:00Z</updated>
     <link href="https://www.mccall.id.us/Calendar.aspx?EID=2385"/>
     <summary>City of McCall · 2026-12-01 09:00 (MT) · The Grove Hotel</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:fd397bdcb1ff:agenda</id>
+    <title>Agenda posted: Notice of Council Quorum (2026-12-01 09:00)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/AgendaCenter/ViewFile/Agenda/_12012026-483?html=true"/>
+    <summary>City of McCall · 2026-12-01 09:00 (MT) · The Grove Hotel</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:61026bdf08a0:agenda</id>
+    <title>Agenda posted: Public Art Advisory Committee (2026-11-30 16:30)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/AgendaCenter/ViewFile/Agenda/_11302026-480?html=true"/>
+    <summary>City of McCall · 2026-11-30 16:30 (MT) · Hershberger Room, 218 Park Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:3024d69723f6:agenda</id>
+    <title>Agenda posted: Historic Preservation Commission (2026-11-30 13:15)</title>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/AgendaCenter/ViewFile/Agenda/_11302026-481?html=true"/>
+    <summary>City of McCall · 2026-11-30 13:15 (MT) · Legion Hall, 216 E PARK ST</summary>
   </entry>
 </feed>
