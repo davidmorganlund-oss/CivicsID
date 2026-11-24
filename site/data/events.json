@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T01:32:56-07:00",
+ "generated": "2026-11-24T01:37:49-07:00",
  "events": [
   {
    "id": "21a0bc60f738",
@@ -1125,6 +1125,24 @@
    "all_day": false,
    "location": "Annex Meeting Room, 210 Courthouse Way, Suite 240",
    "url": "https://www.jcgov.us/Calendar.aspx?EID=5310",
+   "agenda_url": "",
+   "note": "",
+   "cancelled": false
+  },
+  {
+   "id": "3a61938ad209",
+   "title": "Commissioners Meeting",
+   "host": "Payette County",
+   "source": "payette-county",
+   "area": "countywide",
+   "county": "Payette",
+   "tz": "MT",
+   "category": "council",
+   "start": "2026-11-30T09:00:00-07:00",
+   "end": null,
+   "all_day": false,
+   "location": "",
+   "url": "https://www.payettecounty.org/calendar/eventdetail/14055/-/commissioners-meeting",
    "agenda_url": "",
    "note": "",
    "cancelled": false
