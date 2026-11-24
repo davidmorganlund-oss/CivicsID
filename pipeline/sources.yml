@@ -50,6 +50,7 @@ sources:
     name: City of Meridian
     type: civicclerk
     tenant: meridianid
+    default_location: Meridian City Hall   # the city says all council and commission meetings are held there
     county: Ada
     area: Meridian
     homepage: https://meridianid.portal.civicclerk.com/
@@ -566,11 +567,13 @@ sources:
       - title: Board of County Commissioners
         when: 2nd, 4th Monday
         time: "09:00"
+        location: Commissioners' meeting room, first floor of the Courthouse, 150 Courthouse Drive, Driggs
         category: council
         url: https://pub-tetoncounty.escribemeetings.com/
       - title: Board of County Commissioners
         when: 4th Tuesday
         time: "09:00"
+        location: Commissioners' meeting room, first floor of the Courthouse, 150 Courthouse Drive, Driggs
         category: council
         url: https://pub-tetoncounty.escribemeetings.com/
 
@@ -780,6 +783,7 @@ sources:
       - title: Commissioners Regular Business Meeting
         when: 1st, 2nd, 3rd, 4th, 5th Wednesday
         time: "09:30"
+        location: Commissioners Conference Room, 700 Bank Street, Wallace
         category: council
         url: https://shoshonecounty.id.gov/commissioners/
 
