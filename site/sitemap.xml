@@ -49,6 +49,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/privacy.html"/>
   </url>
   <url>
+    <loc>https://civicsid.org/es/reps.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/reps.html"/>
+  </url>
+  <url>
     <loc>https://civicsid.org/guides/boards-and-commissions.html</loc>
   </url>
   <url>
@@ -152,5 +158,8 @@
   </url>
   <url>
     <loc>https://civicsid.org/reps.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/reps.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/reps.html"/>
   </url>
 </urlset>

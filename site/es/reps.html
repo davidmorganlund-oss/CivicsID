@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://geocoding.geo.census.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Quién le representa | CivicsID</title>
+<meta name="description" content="Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
+<meta property="og:site_name" content="CivicsID">
+<meta property="og:title" content="Quién le representa">
+<meta property="og:description" content="Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://civicsid.org/share-es.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CivicsID: Participa, Idaho.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#7A1F2E">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preload" href="../fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+<script src="../app-install.js" defer></script>
+<!-- seo -->
+<link rel="canonical" href="https://civicsid.org/es/reps.html">
+<meta property="og:url" content="https://civicsid.org/es/reps.html">
+<link rel="alternate" hreflang="en" href="https://civicsid.org/reps.html">
+<link rel="alternate" hreflang="es" href="https://civicsid.org/es/reps.html">
+<link rel="alternate" hreflang="x-default" href="https://civicsid.org/reps.html">
+<!-- seo -->
+</head>
+<body>
+<a class="skip" href="#results">Ir a los resultados</a>
+<aside class="notice" aria-label="Acerca de CivicsID">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Civics<span>ID</span></a>
+  <a class="lang-switch" href="../reps.html" lang="en" hreflang="en">English</a>
+  <nav aria-label="Principal">
+    <a href="index.html" aria-label="Calendario comunitario"><span class="full">Calendario comunitario</span><span class="short">Calendario</span></a>
+    <a href="engage.html">Participa</a>
+    <a href="reps.html" aria-current="page" aria-label="Mis representantes"><span class="full">Mis representantes</span><span class="short">Mis reps</span></a>
+  </nav>
+</div></header>
+
+<section aria-label="Introducción" class="hero"><div class="wrap">
+  <h1>Encuentre quién le representa.</h1>
+  <p class="lede">Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos, y dónde encontrar a los funcionarios de su ciudad y condado.</p>
+  <form class="search" id="lookup">
+    <div class="field wide">
+      <label for="address">Dirección</label>
+      <input id="address" name="address" type="text" autocomplete="street-address" placeholder="700 W Jefferson St, Boise">
+    </div>
+    <button class="btn" type="submit">Buscar</button>
+  </form>
+  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. CivicsID nunca la recibe ni la guarda. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
+</div></section>
+
+<main class="wrap narrow" style="padding-block: 40px 64px">
+  <div class="list" id="results" aria-live="polite">
+    <p class="empty">Sus representantes aparecerán aquí.</p>
+  </div>
+  <p class="muted" style="margin-top: 24px">¿No sabe qué decir cuando ya tiene un nombre? Lea <a href="guides/contact-your-representatives.html">cómo comunicarse con quienes le representan</a>.</p>
+</main>
+
+<footer><div class="wrap">
+  <p>Los legisladores estatales vienen de Open States, una lista pública basada en las páginas de miembros de la Legislatura de Idaho, y los miembros del Congreso de una lista pública. Ambas se actualizan cada noche. Los enlaces de condados cubren los 44 condados donde pudimos confirmar un sitio web, y los de ciudades cubren algunas de las ciudades más grandes de Idaho. Los sitios enlazados están en inglés.</p>
+  <p class="by-barnone"><a href="https://barnoneinc.org"><img src="../barnone-phoenix.png" alt="" width="28" height="28"><span>Un servicio de <strong>BarNone, Inc.</strong></span></a> Una organización independiente sin fines de lucro. CivicsID no es un sitio de gobierno, no está afiliado a ninguna agencia de gobierno y no habla en nombre de ningún cargo público.</p>
+  <p class="footer-links"><a href="mailto:admin@barnoneinc.org?subject=CivicsID%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a> · <a href="../es/privacy.html">Privacidad</a></p>
+</div></footer>
+
+<script src="../local.js"></script>
+<script src="../reps.js"></script>
+</body>
+</html>

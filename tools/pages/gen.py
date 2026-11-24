@@ -52,8 +52,7 @@ NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", 
 
 
 def top(up, current, lang="en", alt=None, reps_up=None):
-    """alt: link to this page in the other language. Spanish pages link to the
-    English representatives lookup (reps_up), which isn't translated yet."""
+    """alt: link to this page in the other language."""
     cal, cal_s, eng, reps, reps_s, main = NAV[lang]
     notice = NOTICE if lang == "en" else '<aside class="notice" aria-label="Acerca de CivicsID">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>'
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
@@ -258,7 +257,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 # ---------- representatives ----------
 (SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsID", "", "Enter an Idaho street address to see your state legislators and members of Congress, plus where to find your city and county officials.")}
 <a class="skip" href="#results">Skip to results</a>
-{top("", "reps")}
+{top("", "reps", alt="es/reps.html")}
 
 <section class="hero"><div class="wrap">
   <h1>Find who represents you.</h1>
@@ -363,7 +362,7 @@ for slug, g in guides_es.G.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     (ES / "guides" / f"{slug}.html").write_text(f'''{head(g["title"] + " | CivicsID", "../../", g["lede"], lang="es")}
 <a class="skip" href="#guide">Ir a la guía</a>
-{top("../", "engage", lang="es", alt="../../guides/" + slug + ".html", reps_up="../../")}
+{top("../", "engage", lang="es", alt="../../guides/" + slug + ".html")}
 
 <main class="wrap narrow guide" id="guide">
   <p class="eyebrow"><a href="../engage.html">Participa</a> · {g["cat"]}</p>
@@ -391,7 +390,7 @@ assert {k for k, _ in ES_LIST} == set(guides_es.G)
 rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]["title"])}<span>{html.escape(b)}</span></a></li>' for k, b in ES_LIST)
 (ES / "engage.html").write_text(f'''{head("Participa | CivicsID", "../", "Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar.", lang="es")}
 <a class="skip" href="#guides">Ir a las guías</a>
-{top("", "engage", lang="es", alt="../engage.html", reps_up="../")}
+{top("", "engage", lang="es", alt="../engage.html")}
 
 <section class="hero plain"><div class="wrap">
   <h1>Participa: cómo tomar parte en su gobierno local.</h1>
@@ -412,7 +411,7 @@ rows = "\n".join(f'    <li><a href="guides/{k}.html">{html.escape(guides_es.G[k]
 
 (ES / "index.html").write_text(f'''{head("Participa en Idaho | CivicsID", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.", "Participa en Idaho: lo que su comunidad decide esta semana", lang="es")}
 <a class="skip" href="#events">Ir a las reuniones</a>
-{top("", "calendar", lang="es", alt="../index.html", reps_up="../")}
+{top("", "calendar", lang="es", alt="../index.html")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Calendario comunitario</p>
@@ -528,7 +527,7 @@ PRIV_ES = """
 ''')
 (ES / "privacy.html").write_text(f'''{head("Privacidad | CivicsID", "../", "CivicsID no tiene cuentas, anuncios, cookies ni rastreo.", lang="es")}
 <a class="skip" href="#privacy">Ir al contenido</a>
-{top("", "", lang="es", alt="../privacy.html", reps_up="../")}
+{top("", "", lang="es", alt="../privacy.html")}
 <main class="wrap narrow guide" id="privacy">
   <h1>Privacidad</h1>
 {PRIV_ES.format(REPORT=REPORT)}
@@ -538,6 +537,40 @@ PRIV_ES = """
 </html>
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("privacy pages written")
+
+(ES / "reps.html").write_text(f'''{head("Quién le representa | CivicsID", "../", "Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.", lang="es")}
+<a class="skip" href="#results">Ir a los resultados</a>
+{top("", "reps", lang="es", alt="../reps.html")}
+
+<section class="hero"><div class="wrap">
+  <h1>Encuentre quién le representa.</h1>
+  <p class="lede">Escriba una dirección de Idaho para ver a sus legisladores estatales y miembros del Congreso y cómo comunicarse con ellos, y dónde encontrar a los funcionarios de su ciudad y condado.</p>
+  <form class="search" id="lookup">
+    <div class="field wide">
+      <label for="address">Dirección</label>
+      <input id="address" name="address" type="text" autocomplete="street-address" placeholder="700 W Jefferson St, Boise">
+    </div>
+    <button class="btn" type="submit">Buscar</button>
+  </form>
+  <p class="small">Su navegador envía la dirección al servicio de búsqueda de direcciones de la Oficina del Censo de EE. UU. para encontrar sus distritos. CivicsID nunca la recibe ni la guarda. Su navegador recuerda solo su condado y ciudad, para que las guías puedan mostrar enlaces locales.</p>
+</div></section>
+
+<main class="wrap narrow" style="padding-block: 40px 64px">
+  <div class="list" id="results" aria-live="polite">
+    <p class="empty">Sus representantes aparecerán aquí.</p>
+  </div>
+  <p class="muted" style="margin-top: 24px">¿No sabe qué decir cuando ya tiene un nombre? Lea <a href="guides/contact-your-representatives.html">cómo comunicarse con quienes le representan</a>.</p>
+</main>
+
+{footer_es("../", "Los legisladores estatales vienen de Open States, una lista pública basada en las páginas de miembros de la Legislatura de Idaho, y los miembros del Congreso de una lista pública. Ambas se actualizan cada noche. Los enlaces de condados cubren los 44 condados donde pudimos confirmar un sitio web, y los de ciudades cubren algunas de las ciudades más grandes de Idaho. Los sitios enlazados están en inglés.")}
+
+<script src="../local.js"></script>
+<script src="../reps.js"></script>
+</body>
+</html>
+'''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
+print("Spanish reps page written")
+
 
 
 # Every page's intro band is a named region, so screen reader users can jump
