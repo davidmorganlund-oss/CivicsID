@@ -27,7 +27,7 @@ has a `timezone` (Mountain unless it says otherwise), each event carries a
 
 | Source | County | Platform | Connector | Notes |
 |---|---|---|---|---|
-| Idaho Legislature | Statewide | Its own calendar feed | `ics` | Interim committees now, standing committees in session |
+| Idaho Legislature | Statewide | Standing-committee agenda PDFs (plus its old calendar feed, offline since Nov. 22, 2026) | `legislature` | Committees moved to a calendar whose feed robots.txt disallows, so the posted agendas are read; shows each committee's next meeting during the session |
 | City of Meridian | Ada | CivicClerk | `civicclerk` | |
 | City of Kuna | Ada | CivicPlus | `civicplus` | |
 | City of Star | Ada | CivicPlus | `civicplus` | |

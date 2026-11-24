@@ -863,3 +863,62 @@ def test_civicplus_meetings_link_agenda_center():
     assert events[3]["agenda_url"] == ""                           # no agenda by that name
     assert events[4]["agenda_url"] == ""                           # two agendas could be it, so neither is linked
     assert events[5]["agenda_url"] == ""                           # a bare "Council" never matches an empty name
+
+
+def test_legislature_committee_agendas(monkeypatch):
+    src = {"id": "legislature", "name": "Idaho Legislature", "area": "statewide", "county": "Statewide",
+           "force_category": "legislature", "timezone": "America/Boise",
+           "agendas": "https://legislature.idaho.gov/sessioninfo/agenda/",
+           "url": "https://legislature.idaho.gov/feeds/my-calendar-ics/"}
+    tz = ZoneInfo("America/Boise")
+    hjud = ("AGENDA\nHOUSE JUDICIARY, RULES & ADMINISTRATION COMMITTEE\n5:45 P.M. or Upon Recess\nRoom EW42\n"
+            "Wednesday, January 20, 2027\nFor members of the public to observe the meeting, please click on the following link:\n"
+            "https://www.idahoptv.org/shows/idahoinsession/ew42/\nSUBJECT DESCRIPTION PRESENTER\n"
+            "S 1448 Material harmful to minors Rep. Skaug\nSen. Lakey\nH 12 Relating to sales tax on groceries\n")
+    (e,) = build.normalize_legislature_agenda(src, [hjud], "https://x.org/standingcommittees/HJUD.pdf",
+                                              date(2027, 1, 12), date(2027, 2, 12), tz)
+    assert e["title"] == "House Judiciary, Rules & Administration Committee"
+    assert e["start"] == "2027-01-20T17:45:00-07:00" and not e["all_day"]
+    assert e["location"] == "Room EW42, Idaho State Capitol, Boise" and e["note"] == "or Upon Recess"
+    assert e["agenda_url"] == "https://x.org/standingcommittees/HJUD.pdf"
+    assert e["highlights"][0] == "S 1448: Material harmful to minors Rep. Skaug"
+    # "Subject to call of the Chair" with no time and no bills isn't a meeting.
+    saga = ("AGENDA\nSENATE AGRICULTURAL AFFAIRS COMMITTEE\nRoom WW53\nThursday, January 21, 2027\n"
+            "SUBJECT DESCRIPTION PRESENTER\nSubject to call of the Chair\n")
+    assert build.normalize_legislature_agenda(src, [saga], "u", date(2027, 1, 12), date(2027, 2, 12), tz) == []
+    # Two pages of one meeting merge; a later meeting outside the window is left out.
+    sedu = ("AGENDA\nSENATE EDUCATION COMMITTEE\n3:00 P.M.\nRoom WW55\nMonday, January 25, 2027\n"
+            "SUBJECT DESCRIPTION PRESENTER\nS 1001 Relating to school facilities\n")
+    (s1,) = build.normalize_legislature_agenda(src, [sedu, sedu.replace("S 1001", "S 1002"), sedu.replace("January 25", "March 25")],
+                                               "u/SEDU.pdf", date(2027, 1, 12), date(2027, 2, 12), tz)
+    assert s1["highlights"] == ["S 1001: Relating to school facilities", "S 1002: Relating to school facilities"]
+    cancelled = sedu.replace("3:00 P.M.", "3:00 P.M.\nMEETING CANCELED")
+    assert build.normalize_legislature_agenda(src, [cancelled], "u", date(2027, 1, 12), date(2027, 2, 12), tz)[0]["cancelled"]
+
+    # The agenda index links each committee's PDF; the dead feed doesn't sink the source.
+    index = ('<a href="https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2027/standingcommittees/HJUD.pdf">House Judiciary</a>'
+             '<a href="/wp-content/uploads/sessioninfo/2027/standingcommittees/SEDU.pdf">Senate Education</a>'
+             '<a href="https://legislature.idaho.gov/sessioninfo/agenda/hcal">Reading calendar</a>')
+    texts = {"HJUD.pdf": [hjud], "SEDU.pdf": [sedu]}
+
+    class Resp:
+        def __init__(self, text="", content=b""):
+            self.text, self.content = text, content
+
+    def fake_get(url, params=None):
+        if url == src["agendas"]:
+            return Resp(text=index)
+        if url.endswith(".pdf"):
+            return Resp(content=url.rsplit("/", 1)[-1].encode())
+        raise RuntimeError("404 Client Error: Not Found")
+
+    class Reader:
+        def __init__(self, stream):
+            self.pages = [type("P", (), {"extract_text": lambda self, t=t: t})() for t in texts[stream.read().decode()]]
+
+    import types
+    monkeypatch.setattr(build, "get", fake_get)
+    monkeypatch.setitem(sys.modules, "pypdf", types.SimpleNamespace(PdfReader=Reader))
+    got = build.fetch_legislature(src, date(2027, 1, 12), date(2027, 2, 12), tz)
+    assert [g["title"] for g in got] == ["House Judiciary, Rules & Administration Committee", "Senate Education Committee"]
+    assert got[1]["agenda_url"] == "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2027/standingcommittees/SEDU.pdf"

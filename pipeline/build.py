@@ -1834,7 +1834,111 @@ def legislature_bills(text):
     return out
 
 
+# Standing-committee agendas. In November 2026 the Legislature took down its
+# My Calendar feed and moved committees to an All-in-One Event Calendar whose
+# views and export feed robots.txt asks automated readers to leave alone. The
+# agenda PDFs each committee posts (linked from /sessioninfo/agenda/) are open
+# to readers, so during the session those are read instead: one PDF per
+# committee, holding its next meeting.
+
+LEG_AGENDA_LINK = re.compile(r'href\s*=\s*"([^"]*/standingcommittees/[^"/]+\.pdf)"', re.I)
+LEG_DAY = re.compile(r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+"
+                     r"((?:January|February|March|April|May|June|July|August|September|October|November|December)"
+                     r"\s+\d{1,2},\s*\d{4})")
+LEG_COMMITTEE = re.compile(r"^\s*((?:SENATE|HOUSE|JOINT)\b[^\n]*?COMMITTEE)\s*$", re.M)
+LEG_CLOCK = re.compile(r"\b(\d{1,2}:\d{2}\s*[AP]\.?\s?M\.?)([^\n]*)", re.I)
+LEG_ROOM = re.compile(r"^\s*((?:Room|Rm\.?)\s+[^\n]{1,40}|[^\n]{0,40}Auditorium[^\n]{0,30})\s*$", re.M | re.I)
+LEG_SMALL = {"and", "of", "the", "on", "for", "to", "&"}
+
+
+def leg_title(name):
+    words = " ".join(name.split()).lower().split(" ")
+    return " ".join(w if (i and w in LEG_SMALL) else "-".join(p[:1].upper() + p[1:] for p in w.split("-"))
+                    for i, w in enumerate(words))
+
+
+def normalize_legislature_agenda(src, pages, pdf_url, start_day, end_day, tz):
+    """One committee's agenda PDF (its pages' text) -> meetings in the window.
+    Each page carries the committee header, so meetings are read page by page
+    and merged by date; a meeting with no time and no bills ("Subject to call
+    of the Chair") is left out."""
+    meetings = {}
+    for text in pages:
+        header = re.split(r"SUBJECT\s+DESCRIPTION", text, maxsplit=1)[0]
+        day = LEG_DAY.search(header)
+        if not day:
+            continue
+        d = datetime.strptime(re.sub(r"\s*,\s*", ",", " ".join(day.group(1).split())), "%B %d,%Y").date()
+        m = meetings.setdefault(d, {"bills": [], "name": "", "clock": None, "when": "", "room": "", "cancelled": False})
+        name = LEG_COMMITTEE.search(header)
+        if name and not m["name"]:
+            m["name"] = leg_title(name.group(1))
+        clock = LEG_CLOCK.search(header)
+        if clock and m["clock"] is None:
+            m["clock"] = parse_clock(clock.group(1).replace(" ", ""))
+            m["when"] = " ".join(clock.group(2).split()).strip(" ,-")
+        room = LEG_ROOM.search(header)
+        if room and not m["room"]:
+            m["room"] = " ".join(room.group(1).split())
+        m["cancelled"] = m["cancelled"] or bool(re.search(r"will not meet|cancel+ed", header, re.I))
+        m["bills"] += [b for b in legislature_bills(text) if b not in m["bills"]]
+    events = []
+    code = re.sub(r"\.pdf$", "", pdf_url.rsplit("/", 1)[-1], flags=re.I)
+    for d, m in sorted(meetings.items()):
+        if not (start_day <= d <= end_day) or (m["clock"] is None and not m["bills"]):
+            continue
+        place = ", ".join(p for p in (m["room"], "Idaho State Capitol, Boise") if p)
+        ev = make_event(src, title=m["name"] or f"Legislative committee ({code})",
+                        start=datetime.combine(d, m["clock"] or time(0, 0), tz), all_day=m["clock"] is None,
+                        location=place, url=pdf_url, agenda_url=pdf_url, uid=f"{code}-{d.isoformat()}",
+                        note=m["when"], cancelled=m["cancelled"])
+        add_highlights(ev, m["bills"])
+        events.append(ev)
+    return events
+
+
+def fetch_legislature_agendas(src, start_day, end_day, tz):
+    import html as htmllib
+    import io
+    import pypdf
+    page = get(src["agendas"]).text
+    links = []
+    for href in LEG_AGENDA_LINK.findall(page):
+        url = urljoin(src["agendas"], htmllib.unescape(href).strip())
+        if url not in links:
+            links.append(url)
+    events = []
+    for url in links:
+        try:
+            reader = pypdf.PdfReader(io.BytesIO(get(url).content))
+            pages = [pg.extract_text() or "" for pg in reader.pages]
+        except Exception as exc:
+            print(f"[info] {src['id']}: agenda {url} not read: {exc}", file=sys.stderr)
+            continue
+        events += normalize_legislature_agenda(src, pages, url, start_day, end_day, tz)
+    return events
+
+
 def fetch_legislature(src, start_day, end_day, tz):
+    """Standing-committee agendas, plus the old calendar feed if it comes back.
+    Fails only when neither can be read."""
+    events = []
+    if src.get("agendas"):
+        events = fetch_legislature_agendas(src, start_day, end_day, tz)
+    if src.get("url"):
+        try:
+            feed = fetch_legislature_feed(src, start_day, end_day, tz)
+        except Exception as exc:
+            if not src.get("agendas"):
+                raise
+            print(f"[info] {src['id']}: calendar feed not read: {exc}", file=sys.stderr)
+        else:
+            have = {(e["title"].lower(), e["start"][:10]) for e in events}
+            events += [e for e in feed if (e["title"].lower(), e["start"][:10]) not in have]
+    return events
+
+
+def fetch_legislature_feed(src, start_day, end_day, tz):
     import io
     events = normalize_ics(src, get(src["url"]).content, start_day, end_day, tz)
     links = {}

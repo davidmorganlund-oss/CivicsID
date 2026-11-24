@@ -12,9 +12,16 @@ timezone: America/Boise
 sources:
   # Statewide: the Idaho Legislature's own calendar of committee meetings
   # (standing committees in session, interim committees the rest of the year).
+  # The Legislature's My Calendar feed has returned 404 since Nov. 22, 2026.
+  # Standing committees moved to an All-in-One Event Calendar
+  # (/committee-calendar/) whose views and export feed robots.txt disallows,
+  # so the committee agenda PDFs linked from /sessioninfo/agenda/ ("2026
+  # Reading Calendars & Committee Agendas") are read instead. The old feed is
+  # still tried each night in case it comes back.
   - id: legislature
     name: Idaho Legislature
     type: legislature
+    agendas: https://legislature.idaho.gov/sessioninfo/agenda/
     url: https://legislature.idaho.gov/feeds/my-calendar-ics/
     calendar: https://legislature.idaho.gov/calendar/
     county: Statewide
