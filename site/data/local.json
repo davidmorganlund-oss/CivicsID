@@ -28,6 +28,11 @@
      "name": "Meadows Valley Public Library",
      "kind": "library",
      "site": "https://meadowsvalley.lili.org/"
+    },
+    {
+     "name": "Council Valley District Library",
+     "kind": "library",
+     "site": "https://council.lili.org"
     }
    ],
    "schools": [
@@ -51,6 +56,11 @@
      "name": "Portneuf District Library",
      "kind": "library",
      "site": "https://www.portneuflibrary.org/"
+    },
+    {
+     "name": "South Bannock Library District",
+     "kind": "library",
+     "site": "https://www.southbannocklibrary.org/"
     }
    ],
    "schools": [
@@ -85,6 +95,11 @@
      "name": "St Maries Public Library",
      "kind": "library",
      "site": "https://stmarieslibrary.lili.org/"
+    },
+    {
+     "name": "Benewah County District Library (Tri-Community branch)",
+     "kind": "library",
+     "site": "http://tricommunity.lili.org/"
     }
    ],
    "schools": [
@@ -241,6 +256,16 @@
      "name": "Wilder District Library",
      "kind": "library",
      "site": "https://wilder.lili.org/"
+    },
+    {
+     "name": "Middleton Public Library",
+     "kind": "library",
+     "site": "https://www.mymidlib.org"
+    },
+    {
+     "name": "Patricia Romanko Public Library",
+     "kind": "library",
+     "site": "http://parma.lili.org/"
     }
    ],
    "schools": [
@@ -364,6 +389,13 @@
      "name": "Prairie Elementary School District 191",
      "site": "https://prairie191k8.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Glenns Ferry Public Library",
+     "kind": "library",
+     "site": "https://www.glennsferryidaho.org/city/departments/library/"
+    }
    ]
   },
   "Franklin": {
@@ -398,6 +430,11 @@
      "name": "Ola District Library",
      "kind": "library",
      "site": "https://olalibrary.org/"
+    },
+    {
+     "name": "Emmett Public Library",
+     "kind": "library",
+     "site": "https://www.cityofemmett.org/library-about"
     }
    ]
   },
@@ -421,6 +458,18 @@
      "name": "Wendell School District 232",
      "site": "https://www.sd232.k12.id.us/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Sherburn Smith Memorial Library (Wendell Public Library)",
+     "kind": "library",
+     "site": "http://wendell.lili.org/"
+    },
+    {
+     "name": "Hagerman Public Library",
+     "kind": "library",
+     "site": "https://www.hagermanpubliclibrary.org"
+    }
    ]
   },
   "Idaho": {
@@ -434,8 +483,24 @@
      "site": "https://sd242.org/"
     },
     {
+     "name": "Grangeville School District 246 (formerly Mountain View School District 244)",
+     "site": "https://sd244.org/"
+    },
+    {
      "name": "Salmon River Joint School District 243",
      "site": "https://www.jsd243.org/"
+    }
+   ],
+   "districts": [
+    {
+     "name": "Grangeville Centennial Library",
+     "kind": "library",
+     "site": "http://grangeville.us/grangeville-centennial-library/"
+    },
+    {
+     "name": "Salmon River Public Library",
+     "kind": "library",
+     "site": "http://www.rigginsidaho.org/library.html"
     }
    ]
   },
@@ -456,6 +521,16 @@
      "name": "Roberts City Library",
      "kind": "library",
      "site": "https://roberts.lili.org/"
+    },
+    {
+     "name": "Jefferson County District Library (Menan Annis Grant branch)",
+     "kind": "library",
+     "site": "http://menanlibrary.weebly.com/"
+    },
+    {
+     "name": "Ririe Public Library",
+     "kind": "library",
+     "site": "https://ririelibrary.lili.org/"
     }
    ],
    "schools": [
@@ -520,6 +595,13 @@
      "name": "South Lemhi School District 292",
      "site": "https://www.leadoreschool.org/"
     }
+   ],
+   "districts": [
+    {
+     "name": "Lemhi County District Library (Salmon Public Library)",
+     "kind": "library",
+     "site": "https://salmonlibrary.org/"
+    }
    ]
   },
   "Lewis": {
@@ -547,6 +629,11 @@
      "name": "Richfield District Library",
      "kind": "library",
      "site": "https://richfield.lili.org/"
+    },
+    {
+     "name": "Shoshone Public Library",
+     "kind": "library",
+     "site": "https://shoshone.lili.org"
     }
    ],
    "schools": [
@@ -620,6 +707,10 @@
     }
    ],
    "schools": [
+    {
+     "name": "Culdesac Joint School District 342",
+     "site": "https://www.culsch.org/"
+    },
     {
      "name": "Lapwai School District 341",
      "site": "http://www.lapwai.org/"
@@ -891,6 +982,11 @@
   }
  },
  "cities": {
+  "Aberdeen": {
+   "county": "Bingham",
+   "site": "https://aberdeenidaho.us/",
+   "meetings": "https://aberdeenidaho.us/city-council.html"
+  },
   "Albion": {
    "county": "Cassia",
    "site": "https://albionidaho.gov"
@@ -1110,6 +1206,11 @@
    "site": "https://cityofdonnelly.org/",
    "meetings": "https://cityofdonnelly.org/"
   },
+  "Dover": {
+   "county": "Bonner",
+   "site": "https://cityofdover.id.gov/",
+   "meetings": "https://cityofdover.id.gov/public-documents/council-meeting-minutes/"
+  },
   "Downey": {
    "county": "Bannock",
    "site": "https://downeyidaho.us/",
@@ -1141,6 +1242,16 @@
    "council": "https://www.cityofeagle.org/312/City-Council",
    "meetings": "https://www.cityofeagle.org/305/City-Agendas-Videos"
   },
+  "East Hope": {
+   "county": "Bonner",
+   "site": "https://www.cityofeasthope.com/",
+   "meetings": "https://www.cityofeasthope.com/agendas-minutes"
+  },
+  "Elk River": {
+   "county": "Clearwater",
+   "site": "https://www.cityelkriver.org/",
+   "meetings": "https://cityelkriver.org/council-meeting-agendas-and-minutes/"
+  },
   "Emmett": {
    "county": "Gem",
    "site": "https://www.cityofemmett.org/",
@@ -1152,9 +1263,18 @@
    },
    "council": "https://www.cityofemmett.org/mayor-city-council"
   },
+  "Fairfield": {
+   "county": "Camas",
+   "site": "https://cityoffairfieldidaho.com/"
+  },
   "Fernan Lake Village": {
    "county": "Kootenai",
    "site": "https://www.fernanvillage.org/"
+  },
+  "Filer": {
+   "county": "Twin Falls",
+   "site": "https://www.cityoffiler.net/",
+   "meetings": "https://www.cityoffiler.net/o/cof/page/annual-council-agenda"
   },
   "Firth": {
    "county": "Bingham",
@@ -1232,6 +1352,10 @@
    },
    "council": "https://grangeville.us/mayor-and-city-council/"
   },
+  "Greenleaf": {
+   "county": "Canyon",
+   "site": "https://greenleaf-idaho.us/"
+  },
   "Hagerman": {
    "county": "Gooding",
    "site": "https://www.hagermanidaho.us/",
@@ -1303,6 +1427,11 @@
    "county": "Owyhee",
    "site": "https://cityofhomedale.org/"
   },
+  "Hope": {
+   "county": "Bonner",
+   "site": "https://hope-idaho.org/",
+   "meetings": "https://hope-idaho.org/city-council"
+  },
   "Horseshoe Bend": {
    "county": "Boise",
    "site": "https://www.horseshoebendidaho.org/",
@@ -1323,6 +1452,10 @@
     "checked": "2026-11-17"
    }
   },
+  "Inkom": {
+   "county": "Bannock",
+   "site": "https://inkomcity.org/"
+  },
   "Iona": {
    "county": "Bonneville",
    "site": "https://www.cityofiona.org/",
@@ -1332,6 +1465,11 @@
    "county": "Bonneville",
    "site": "https://www.cityofirwin.com/",
    "meetings": "https://www.cityofirwin.com/"
+  },
+  "Island Park": {
+   "county": "Fremont",
+   "site": "https://islandparkid.govoffice2.com/",
+   "meetings": "https://islandparkid.govoffice2.com/council-agendas"
   },
   "Jerome": {
    "county": "Jerome",
@@ -1425,9 +1563,18 @@
    },
    "council": "https://www.cityoflewiston.org/367/Mayor-City-Council"
   },
+  "Lewisville": {
+   "county": "Jefferson",
+   "site": "http://www.cityoflewisville.org/"
+  },
   "Mackay": {
    "county": "Custer",
    "site": "https://mackayidaho-city.com/"
+  },
+  "Malta": {
+   "county": "Cassia",
+   "site": "https://www.maltaidaho.org/",
+   "meetings": "https://www.maltaidaho.org/city-council"
   },
   "Marsing": {
    "county": "Owyhee",
@@ -1481,6 +1628,15 @@
     "note": "Appointed by the City Council in March 2026 after Mayor Jackie Hutchison died."
    },
    "council": "https://middleton.id.gov/departments/city-council"
+  },
+  "Midvale": {
+   "county": "Washington",
+   "site": "https://midvaleidaho.org/"
+  },
+  "Minidoka": {
+   "county": "Minidoka",
+   "site": "https://minidoka.city/",
+   "meetings": "https://minidoka.city/?page_id=88"
   },
   "Montpelier": {
    "county": "Bear Lake",
@@ -1543,6 +1699,10 @@
    "county": "Lewis",
    "site": "https://www.cityofnezperce.gov/",
    "meetings": "https://www.cityofnezperce.gov/news/city-council-meeting-changed-to-7-a-m-oct-13"
+  },
+  "Notus": {
+   "county": "Canyon",
+   "site": "https://notusidaho.org/index.html"
   },
   "Oakley": {
    "county": "Cassia",
@@ -1688,6 +1848,10 @@
    },
    "council": "https://cityofrigby.gov/mayor-and-city-council/"
   },
+  "Riggins": {
+   "county": "Idaho",
+   "site": "https://www.rigginsidaho.org/"
+  },
   "Ririe": {
    "county": "Jefferson",
    "site": "https://www.cityofririe.com/",
@@ -1697,6 +1861,11 @@
    "county": "Jefferson",
    "site": "https://cityofrobertsidaho.gov/",
    "meetings": "https://cityofrobertsidaho.gov/meeting-agendas-and-minutes"
+  },
+  "Rockland": {
+   "county": "Power",
+   "site": "https://www.rocklandcity.us/",
+   "meetings": "https://rocklandcity.us/council-mtg-agenda/"
   },
   "Rupert": {
    "county": "Minidoka",
@@ -1767,6 +1936,11 @@
    "site": "https://www.cityofstanthony.org/",
    "meetings": "https://www.cityofstanthony.org/page/city-council",
    "council": "https://www.cityofstanthony.org/page/city-council"
+  },
+  "St. Charles": {
+   "county": "Bear Lake",
+   "site": "https://stcharlesidaho.weebly.com/",
+   "meetings": "https://stcharlesidaho.weebly.com/publicnotices.html"
   },
   "St. Maries": {
    "county": "Benewah",
@@ -1843,6 +2017,11 @@
    "site": "https://wallace.id.gov/",
    "meetings": "https://wallace.id.gov/"
   },
+  "Wardner": {
+   "county": "Shoshone",
+   "site": "http://www.wardner.id.gov/",
+   "meetings": "http://www.wardner.id.gov/p/minutes.html"
+  },
   "Weippe": {
    "county": "Clearwater",
    "site": "https://cityofweippe.org/",
@@ -1878,6 +2057,10 @@
    "county": "Lewis",
    "site": "https://www.winchesterid.gov/",
    "meetings": "https://www.winchesterid.gov/meeting-agendas-and-minutes"
+  },
+  "Worley": {
+   "county": "Kootenai",
+   "site": "http://www.cityofworley.org/"
   }
  }
 }
