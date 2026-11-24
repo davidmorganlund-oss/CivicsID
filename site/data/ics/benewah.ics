@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Benewah County
 BEGIN:VEVENT
 UID:6b5832fabc30@civicsid
-DTSTAMP:20261124T085732Z
+DTSTAMP:20261124T121157Z
 DTSTART;VALUE=DATE:20261210
 SUMMARY:City Council Meeting (City of Plummer)
 LOCATION:Plummer City Hall
@@ -12,7 +12,7 @@ URL:https://www.cityofplummer.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d3623d209a30@civicsid
-DTSTAMP:20261124T085732Z
+DTSTAMP:20261124T121157Z
 DTSTART:20270106T010000Z
 DTEND:20270106T020000Z
 SUMMARY:Library Board of Trustees (Plummer Public Library)
@@ -21,7 +21,7 @@ URL:https://plummer.lili.org/about-us/board-of-trustees/
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5e8f2bba97@civicsid
-DTSTAMP:20261124T085732Z
+DTSTAMP:20261124T121157Z
 DTSTART;VALUE=DATE:20270114
 SUMMARY:City Council Meeting (City of Plummer)
 LOCATION:Plummer City Hall
