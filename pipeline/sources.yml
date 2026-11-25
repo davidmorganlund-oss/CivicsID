@@ -28,6 +28,7 @@ sources:
     area: statewide
     force_category: legislature
     homepage: https://legislature.idaho.gov/calendar
+    quiet_ok: true   # no meetings between sessions; a drop from 5+ to 0 still shows in the nightly checks
 
   # Boise moved its meetings to eScribe in late 2026; the Library Board of
   # Trustees publishes there too.

@@ -942,3 +942,18 @@ def test_streak_since_carries_and_clears():
     assert build.streak_since("2026-11-01", True, "2026-11-25") == "2026-11-01"
     assert build.streak_since("2026-11-01", False, "2026-11-25") == ""
 
+
+def test_alerts_list_quiet_sources_after_a_week():
+    import alerts
+    status = {"sources": [
+        {"id": "a", "state": "quiet", "quiet_since": "2026-11-18"},
+        {"id": "b", "state": "quiet", "quiet_since": "2026-11-20"},
+        {"id": "legislature", "state": "quiet", "quiet_since": "2026-04-01"},
+        {"id": "c", "state": "failing", "failing_since": "2026-11-22", "name": "C"},
+        {"id": "d", "state": "ok", "quiet_since": ""},
+    ]}
+    today = date(2026, 11, 24)
+    assert [s["id"] for s in alerts.quiet_sources(status, today, {"legislature"})] == ["a"]
+    assert [s["id"] for s in alerts.stuck_sources(status, today)] == ["c"]
+    text = alerts.body([], [{"id": "a", "name": "A", "county": "Ada", "quiet_since": "2026-11-18", "homepage": "https://example.org"}])
+    assert "no meetings since 2026-11-18" in text and "Failing" not in text

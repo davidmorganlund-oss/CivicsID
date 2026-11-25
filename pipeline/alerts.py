@@ -1,6 +1,7 @@
 """Open (or update, or close) one GitHub issue listing calendar sources that
-have failed for three days or more. GitHub emails the repository owner when
-the issue opens, so a broken city calendar doesn't go unnoticed.
+have failed for three days or more, or answered with no meetings for seven
+days or more. GitHub emails the repository owner when the issue opens, so a
+broken or stalled city calendar doesn't go unnoticed.
 
 Runs after build.py in the nightly workflow; needs the gh CLI and GH_TOKEN.
 """
@@ -11,12 +12,14 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-TITLE = "Calendar sources need attention"
+TITLE = "Calendar feeds needing attention"
+OLD_TITLES = ("Calendar sources need attention",)  # earlier name; an open one is renamed
 UPKEEP_TITLE = "Hand-entered schedules need new dates"
 ROOT = Path(__file__).resolve().parent.parent
 STATUS = ROOT / "site" / "data" / "status.json"
 SOURCES = ROOT / "pipeline" / "sources.yml"
 DAYS = 3
+QUIET_DAYS = 7  # a source can list nothing for a week (holidays, agendas posted late)
 AHEAD = 21  # warn this many days before a hand-entered date list runs out
 
 
@@ -30,14 +33,35 @@ def stuck_sources(status, today):
             if s.get("state") == "failing" and s.get("failing_since") and s["failing_since"] <= cutoff]
 
 
-def body(stuck):
-    lines = ["These calendars have not answered for three days or more. CivicsID keeps showing the "
-             "last meetings it read from them, so their listings are going stale.", ""]
-    for s in stuck:
-        lines.append(f"- **{s['name']}** ({s.get('county', '')} County), failing since {s['failing_since']}. "
-                     f"Last good read: {s.get('last_success') or 'never'}. Error: `{s.get('error', '')[:200]}`")
-    lines += ["", "If a site now refuses automated readers, remove it from `pipeline/sources.yml` "
-              "rather than working around the block. This issue closes itself when every source answers again."]
+def quiet_sources(status, today, quiet_ok=()):
+    """Sources that answered with no meetings every night for QUIET_DAYS or
+    more (status.json's quiet_since). Sources marked quiet_ok in sources.yml,
+    like the Legislature between sessions, are left out."""
+    cutoff = (today - timedelta(days=QUIET_DAYS - 1)).isoformat()
+    return [s for s in status["sources"]
+            if s.get("state") == "quiet" and s.get("quiet_since") and s["quiet_since"] <= cutoff
+            and s["id"] not in quiet_ok]
+
+
+def body(stuck, quiet=()):
+    lines = []
+    if stuck:
+        lines += ["**Failing.** These calendars have not answered for three days or more. CivicsID keeps showing the "
+                  "last meetings it read from them, so their listings are going stale.", ""]
+        for s in stuck:
+            lines.append(f"- **{s['name']}** (`{s['id']}`, {s.get('county', '')} County), failing since {s['failing_since']}. "
+                         f"Last good read: {s.get('last_success') or 'never'}. Error: `{s.get('error', '')[:200]}`")
+        lines.append("")
+    if quiet:
+        lines += [f"**Quiet.** These calendars answer but have listed no meetings for {QUIET_DAYS} days or more. "
+                  "That can be a holiday break or agendas posted late, or a moved calendar or a changed page layout.", ""]
+        for s in quiet:
+            lines.append(f"- **{s['name']}** (`{s['id']}`, {s.get('county', '')} County), no meetings since "
+                         f"{s['quiet_since']}. Check {s.get('homepage') or 'the source'}.")
+        lines.append("")
+    lines += ["If a site now refuses automated readers, remove it from `pipeline/sources.yml` "
+              "rather than working around the block. A source that is quiet by design can be marked "
+              "`quiet_ok: true` there. This issue closes itself when the list is empty."]
     return "\n".join(lines)
 
 
@@ -66,14 +90,14 @@ def upkeep_items(cfg, today):
     return items
 
 
-def quiet(text):
+def quiet_text(text):
     """Meeting names come from outside sites; keep a stray "@name" in one
     from pinging a real GitHub user."""
     return re.sub(r"@(?=[A-Za-z0-9])", "@\u2060", text)
 
 
 def sync_issue(title, lines, closing):
-    lines = [quiet(line) for line in lines]
+    lines = [quiet_text(line) for line in lines]
     found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{title}" in:title',
                           "--json", "number,title"))
     issue = next((i["number"] for i in found if i["title"] == title), None)
@@ -90,7 +114,8 @@ def sync_issue(title, lines, closing):
 
 def main():
     import yaml
-    items = upkeep_items(yaml.safe_load(SOURCES.read_text()), date.today())
+    cfg = yaml.safe_load(SOURCES.read_text())
+    items = upkeep_items(cfg, date.today())
     roster = ROOT / "site" / "data" / "county_officials.json"
     if roster.exists():
         meta = json.loads(roster.read_text())
@@ -104,21 +129,29 @@ def main():
     sync_issue("Data or link problems to look at", (["The nightly checks found these. Listings that look wrong may be a parsing or time zone "
                                                    "problem; broken links are pages that moved (checked Mondays).", ""] + found) if found else [],
                "Tonight's data and link checks came back clean.")
-    stuck = stuck_sources(json.loads(STATUS.read_text()), date.today())
-    found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{TITLE}" in:title',
-                          "--json", "number,title"))
-    issue = next((i["number"] for i in found if i["title"] == TITLE), None)
-    if stuck and issue is None:
-        gh("issue", "create", "--title", TITLE, "--body", body(stuck))
-        print(f"opened an issue for {len(stuck)} source(s)")
-    elif stuck:
-        gh("issue", "edit", str(issue), "--body", body(stuck))
-        print(f"updated issue #{issue}: {len(stuck)} source(s)")
+    status = json.loads(STATUS.read_text())
+    stuck = stuck_sources(status, date.today())
+    quiet_ok = {s["id"] for s in cfg["sources"] if s.get("quiet_ok")}
+    quiet = quiet_sources(status, date.today(), quiet_ok)
+    issue = None
+    for title in (TITLE, *OLD_TITLES):
+        found = json.loads(gh("issue", "list", "--state", "open", "--search", f'"{title}" in:title',
+                              "--json", "number,title"))
+        issue = next((i["number"] for i in found if i["title"] == title), None)
+        if issue is not None:
+            break
+    text = quiet_text(body(stuck, quiet))
+    if (stuck or quiet) and issue is None:
+        gh("issue", "create", "--title", TITLE, "--body", text)
+        print(f"opened an issue for {len(stuck)} failing and {len(quiet)} quiet source(s)")
+    elif stuck or quiet:
+        gh("issue", "edit", str(issue), "--title", TITLE, "--body", text)
+        print(f"updated issue #{issue}: {len(stuck)} failing and {len(quiet)} quiet source(s)")
     elif issue is not None:
-        gh("issue", "close", str(issue), "--comment", "Every calendar source is answering again.")
+        gh("issue", "close", str(issue), "--comment", "Every calendar source is answering and listing meetings again.")
         print(f"closed issue #{issue}")
     else:
-        print("all sources healthy or failing for less than three days")
+        print(f"no source failing {DAYS}+ days or quiet {QUIET_DAYS}+ days")
     return 0
 
 
