@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T15:08:25-07:00</updated>
+  <updated>2026-11-25T00:59:37-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:d0f9631ed72f:new</id>
+    <title>New meeting: Special Meeting with Executive Session/BOCC &amp; Sheriff (2026-12-01 14:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.bonnercountyid.gov/events/102921/"/>
+    <summary>Bonner County · 2026-12-01 14:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:ce1ab49dc0af:new</id>
     <title>New meeting: AAB Meeting (2027-01-22 10:00)</title>
@@ -63,38 +70,10 @@
     <summary>Bonner County · 2026-11-30 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
   </entry>
   <entry>
-    <id>tag:civicsid.org,2026:9d328515364c:agenda</id>
-    <title>Agenda posted: Special Meeting w/Executive Session - Human Resources (2026-11-24 14:00)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/meetingfiles/102517/agendas/be5e12c6f9c9470884a80893fe38bf80.pdf"/>
-    <summary>Bonner County · 2026-11-24 14:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:2a119f84306e:agenda</id>
-    <title>Agenda posted: Bonner County - Business Meeting (2026-11-24 09:00)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/meetingfiles/99431/agendas/5ca001b5809f47bb8587950dafc3106f.pdf"/>
-    <summary>Bonner County · 2026-11-24 09:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
     <id>tag:civicsid.org,2026:0862ff452b41:new</id>
     <title>New meeting: Bonner County Business Meeting (2027-01-19 09:00)</title>
     <updated>2026-11-20T12:00:00Z</updated>
     <link href="https://www.bonnercountyid.gov/events/102251/"/>
     <summary>Bonner County · 2027-01-19 09:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:2e61d1bda62b:new</id>
-    <title>New meeting: Special Meeting - Solid Waste (Continued from 11.18.2026) (2026-11-24 10:00)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/events/102608/"/>
-    <summary>Bonner County · 2026-11-24 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:2e61d1bda62b:agenda</id>
-    <title>Agenda posted: Special Meeting - Solid Waste (Continued from 11.18.2026) (2026-11-24 10:00)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://www.bonnercountyid.gov/meetingfiles/102608/agendas/24a1930122dc4e1ea1c633daccc64282.pdf"/>
-    <summary>Bonner County · 2026-11-24 10:00 (PT) · Bonner County Administrative Building, 1500 US-2, Sandpoint</summary>
   </entry>
 </feed>

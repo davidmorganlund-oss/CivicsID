@@ -4,7 +4,7 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T15:08:25-07:00</updated>
+  <updated>2026-11-25T00:59:37-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
   <entry>
     <id>tag:civicsid.org,2026:cdd43811e9b5:agenda</id>
@@ -84,20 +84,6 @@
     <summary>Kootenai County · 2026-12-01 11:00 (PT) · 451 N Government Way</summary>
   </entry>
   <entry>
-    <id>tag:civicsid.org,2026:cdfe5a5cef7b:agenda</id>
-    <title>Agenda posted: BOCC: Business Meeting (2026-11-24 14:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_11242026-6170"/>
-    <summary>Kootenai County · 2026-11-24 14:00 (PT) · 451 Government Way</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:33d0fb5b8c31:agenda</id>
-    <title>Agenda posted: BOCC: Status Update (2026-11-24 10:00)</title>
-    <updated>2026-11-24T12:00:00Z</updated>
-    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_11242026-6169"/>
-    <summary>Kootenai County · 2026-11-24 10:00 (PT) · 451 Government Way</summary>
-  </entry>
-  <entry>
     <id>tag:civicsid.org,2026:ef7361bdbb60:new</id>
     <title>New meeting: Hearing Examiner: Community Development - Public Hearing (2027-01-21 18:00)</title>
     <updated>2026-11-22T12:00:00Z</updated>
@@ -145,20 +131,6 @@
     <updated>2026-11-21T12:00:00Z</updated>
     <link href="https://www.kcgov.us/Calendar.aspx?EID=5416"/>
     <summary>Kootenai County · 2027-01-20 15:30 (PT) · 451 N Government Way</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:51867af4fa2f:new</id>
-    <title>New meeting: City Council Meeting (2026-11-24 17:00)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://meetings.boardbook.org/Public/Agenda/2366?meeting=776157"/>
-    <summary>City of Hayden · 2026-11-24 17:00 (PT) · Hayden City Hall Council Chambers, 8930 N. Government Way · On the agenda: Contract with Kootenai County for Law Enforcement Services; Resolution Adopting Sewer Collection System Capitalization Fee Update Report; Resolution to Adopt the 2026 Hayden Veterans Commission Standard Operating Procedures Manual</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:c98d67f31834:new</id>
-    <title>New meeting: City Council Meeting (2026-11-24 16:00)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://meetings.boardbook.org/Public/Agenda/2366?meeting=779537"/>
-    <summary>City of Hayden · 2026-11-24 16:00 (PT) · Hayden City Hall Council Chambers, 8930 N. Government Way</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:38a1ee441737:new</id>

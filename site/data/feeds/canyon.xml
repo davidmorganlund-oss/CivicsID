@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-24T15:08:25-07:00</updated>
+  <updated>2026-11-25T00:59:37-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:92e9e38c4bb2:new</id>
+    <title>New meeting: Board of County Commissioners (2026-12-15 13:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-12-15"/>
+    <summary>Canyon County · 2026-12-15 13:30 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: Public hearing to consider a request by Brian and Nichole Bohner, represented by Ryan Martin,</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:a7589b3890fd:new</id>
     <title>New meeting: Nampa Library Board of Trustees Monthly Meeting (2027-01-13 16:00)</title>
@@ -33,13 +40,6 @@
     <updated>2026-11-21T12:00:00Z</updated>
     <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-26"/>
     <summary>Canyon County · 2026-11-26 08:00 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: County Offices Closed in Observance of Thanksgiving</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:7ef62345ed21:new</id>
-    <title>New meeting: Board of County Commissioners (2026-11-24 09:30)</title>
-    <updated>2026-11-21T12:00:00Z</updated>
-    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-11-24"/>
-    <summary>Canyon County · 2026-11-24 09:30 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: Meeting with County Attorneys for a Legal Staff Update and to Consider Action Items; Meeting to Consider Matters Related to County Assistance</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:e1107f95e627:new</id>

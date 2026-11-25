@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Butte County
 BEGIN:VEVENT
 UID:4543555e829e@civicsid
-DTSTAMP:20261124T220825Z
+DTSTAMP:20261125T075937Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
@@ -12,7 +12,7 @@ URL:https://buttecountyid.us/butte-county-public-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:7db6d3c7814b@civicsid
-DTSTAMP:20261124T220825Z
+DTSTAMP:20261125T075937Z
 DTSTART;VALUE=DATE:20261221
 SUMMARY:School Board Meeting (Butte County Joint School District 111)
 LOCATION:Modular behind Butte High School\, 120 South Water St.\, Arco
@@ -20,7 +20,7 @@ URL:https://www.butteschooldistrict.org/district_office/school_board
 END:VEVENT
 BEGIN:VEVENT
 UID:093f63b4cad4@civicsid
-DTSTAMP:20261124T220825Z
+DTSTAMP:20261125T075937Z
 DTSTART;VALUE=DATE:20261228
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
@@ -28,7 +28,7 @@ URL:https://buttecountyid.us/butte-county-public-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:ed9f8335e047@civicsid
-DTSTAMP:20261124T220825Z
+DTSTAMP:20261125T075937Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Board of County Commissioners (Butte County)
 LOCATION:
