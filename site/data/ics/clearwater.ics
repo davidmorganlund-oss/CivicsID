@@ -4,7 +4,7 @@ PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Clearwater County
 BEGIN:VEVENT
 UID:812ace37c813@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261130T160000Z
 DTEND:20261130T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -13,7 +13,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:211478faac84@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261207T160000Z
 DTEND:20261207T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -22,7 +22,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:10f0e2172339@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261209T010000Z
 DTEND:20261209T020000Z
 SUMMARY:Library Board of Trustees (Clearwater County Free Library District)
@@ -32,7 +32,7 @@ URL:https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:64f282d6f641@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261209T020000Z
 DTEND:20261209T030000Z
 SUMMARY:City Council Meeting (City of Orofino)
@@ -41,7 +41,7 @@ URL:https://cityoforofino.org/document-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:efd3fd6d19c8@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261214T160000Z
 DTEND:20261214T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -50,7 +50,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:23afda5579e1@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261221T160000Z
 DTEND:20261221T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -59,7 +59,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:465f17b74fb6@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261223T020000Z
 DTEND:20261223T030000Z
 SUMMARY:City Council Meeting (City of Orofino)
@@ -68,7 +68,7 @@ URL:https://cityoforofino.org/document-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:2901b5ba32f4@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20261228T160000Z
 DTEND:20261228T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -77,7 +77,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:bc127de19fc0@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20270104T160000Z
 DTEND:20270104T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -86,7 +86,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:b885c7e1c1cb@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20270111T160000Z
 DTEND:20270111T170000Z
 SUMMARY:Board of County Commissioners (Clearwater County)
@@ -95,7 +95,7 @@ URL:https://www.clearwatercounty.org/meetings_and_amp_agenda_s/index.php
 END:VEVENT
 BEGIN:VEVENT
 UID:e2fafe14207f@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20270113T010000Z
 DTEND:20270113T020000Z
 SUMMARY:Library Board of Trustees (Clearwater County Free Library District)
@@ -105,7 +105,7 @@ URL:https://ccfldatweippe.lili.org/about-us/board-of-trustees/board-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b298c380eb@civicsid
-DTSTAMP:20261125T082122Z
+DTSTAMP:20261125T121730Z
 DTSTART:20270113T020000Z
 DTEND:20270113T030000Z
 SUMMARY:City Council Meeting (City of Orofino)
