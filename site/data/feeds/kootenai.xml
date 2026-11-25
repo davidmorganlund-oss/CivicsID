@@ -4,8 +4,29 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T00:59:37-07:00</updated>
+  <updated>2026-11-25T01:21:22-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:9858faee498b:new</id>
+    <title>New meeting: BOCC: Fair Board Quarterly Update (2027-01-19 15:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/Calendar.aspx?EID=5024"/>
+    <summary>Kootenai County · 2027-01-19 15:00 (PT) · 451 N Government Way</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:b5ec2688cce6:new</id>
+    <title>New meeting: Planning &amp; Zoning Commission Meeting (2026-12-16 17:30)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.postfalls.gov/Calendar.aspx?EID=1555"/>
+    <summary>City of Post Falls · 2026-12-16 17:30 (PT) · City Council Chambers, 408 N Spokane Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:1de27b0330bb:agenda</id>
+    <title>Agenda posted: North Idaho Fair Advisory Board Meeting (2026-12-08 17:00)</title>
+    <updated>2026-11-25T12:00:00Z</updated>
+    <link href="https://www.kcgov.us/AgendaCenter/ViewFile/Agenda/_12082026-6176"/>
+    <summary>Kootenai County · 2026-12-08 17:00 (PT) · North Idaho Fairgrounds</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:cdd43811e9b5:agenda</id>
     <title>Agenda posted: BOCC: Status Update (2026-12-22 10:00)</title>
