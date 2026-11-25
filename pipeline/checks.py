@@ -43,7 +43,7 @@ def sanity(events, status, previous):
 
 def site_links():
     urls = set()
-    for page in list((SITE / "guides").glob("*.html")) + list((SITE / "es" / "guides").glob("*.html")) + [SITE / "legislature.html", SITE / "privacy.html"]:
+    for page in list((SITE / "guides").glob("*.html")) + list((SITE / "es" / "guides").glob("*.html")) + [SITE / "legislature.html", SITE / "privacy.html", SITE / "about.html", SITE / "es" / "about.html"]:
         urls.update(re.findall(r'href="(https?://[^"#]+)"', page.read_text()))
     local = json.loads((SITE / "data" / "local.json").read_text())
     for group in ("counties", "cities"):
