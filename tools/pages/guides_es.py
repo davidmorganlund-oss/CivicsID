@@ -13,15 +13,15 @@ G["speak-at-a-public-meeting"] = dict(
   <p>La Ley de Reuniones Abiertas de Idaho (Código de Idaho, Título 74, Capítulo 2) se aplica a los órganos de gobierno de condados, ciudades, distritos escolares, distritos especiales y juntas y comisiones estatales.</p>
   <ul>
     <li><strong>Puede asistir.</strong> Las reuniones de un órgano de gobierno están abiertas al público, y las decisiones deben tomarse en público (§ 74-203).</li>
-    <li><strong>Recibe aviso.</strong> Una reunión ordinaria requiere por lo menos cinco días naturales de aviso y una agenda publicada con 48 horas de anticipación. Una reunión especial requiere 24 horas de aviso de ambas cosas (§ 74-204).</li>
-    <li><strong>La agenda tiene que ser real.</strong> En general, el órgano solo puede decidir lo que está en la agenda, y los asuntos que se votarán deben marcarse como "action items" (puntos de acción).</li>
-    <li><strong>Las sesiones a puerta cerrada son limitadas.</strong> Solo se permiten por razones que la ley enumera, como contratar personal, la disciplina de un empleado específico, comprar terrenos o demandas pendientes. Requieren un voto nominal de dos tercios, y no se puede tomar ninguna decisión final a puerta cerrada (§ 74-206).</li>
+    <li><strong>Recibe aviso.</strong> Una reunión ordinaria requiere por lo menos cinco días calendario de aviso y una agenda publicada con 48 horas de anticipación. Una reunión especial requiere 24 horas de aviso de ambas cosas. Un órgano que se reúne con un horario fijo puede publicar ese horario una vez al año, pero cada reunión todavía necesita su agenda con 48 horas de anticipación (§ 74-204).</li>
+    <li><strong>La agenda tiene que ser real.</strong> En general, el órgano solo puede decidir lo que está en la agenda, y los asuntos que se votarán deben marcarse como "action items" (puntos de acción). Agregar algo tarde requiere una votación y una razón de por qué no se pudo incluir antes.</li>
+    <li><strong>Las sesiones a puerta cerrada son limitadas.</strong> Solo se permiten por razones que la ley enumera, como contratar personal, la disciplina de un empleado específico, comprar terrenos o demandas pendientes. Requieren un voto nominal de dos tercios que indique la razón, y no se puede tomar ninguna decisión final a puerta cerrada (§ 74-206).</li>
     <li><strong>Hay actas.</strong> Las actas escritas deben registrar quién estuvo presente, cada moción y cada votación, y estar disponibles al público (§ 74-205).</li>
-    <li><strong>Puede grabar.</strong> Puede grabar audio o video de una reunión abierta, y no lo pueden sacar por hacerlo (§ 74-203(6)).</li>
+    <li><strong>Puede grabar.</strong> Puede grabar audio o video de una reunión abierta, y no pueden expulsarle de la reunión por hacerlo (§ 74-203(6)).</li>
   </ul>
 
   <h2>Lo que no le garantiza</h2>
-  <p><strong>La Ley de Reuniones Abiertas le da el derecho a observar, no el derecho a hablar.</strong> Un órgano no está obligado a recibir comentarios del público en una reunión ordinaria. La mayoría de los concejos municipales y juntas escolares lo hacen por decisión propia, según sus propias reglas.</p>
+  <p><strong>La Ley de Reuniones Abiertas le da el derecho a observar, no el derecho a hablar.</strong> Un órgano no está obligado a recibir comentarios del público en una reunión ordinaria. La mayoría de los concejos municipales y juntas escolares lo hacen por decisión propia, según sus propias reglas. Muchas comisiones de condado lo hacen con menos frecuencia.</p>
   <p><strong>Las audiencias públicas son diferentes.</strong> Cuando una ley exige una audiencia, el órgano debe dejar que la gente testifique. Eso incluye el presupuesto anual, la mayoría de las decisiones de zonificación y uso de suelo, y muchos aumentos de tarifas. Si quiere asegurarse de ser escuchado, una audiencia pública es el lugar.</p>
 
   <h2>Antes de la reunión</h2>
@@ -30,13 +30,13 @@ G["speak-at-a-public-meeting"] = dict(
     <li><strong>Lea la agenda.</strong> Busque el asunto que le interesa y anote su número o título, y si es un punto de acción o una audiencia pública. Casi todas las agendas están en inglés; puede pedirle ayuda al secretario (clerk).</li>
     <li><strong>Averigüe cómo recibe comentarios ese órgano.</strong> Cada uno pone sus propias reglas: si hay que inscribirse antes o en la puerta, cuánto tiempo le dan y si puede hablar por teléfono o video. Llame al secretario si el sitio web no lo dice.</li>
     <li><strong>Pida un intérprete con tiempo.</strong> Muchas ciudades y condados ofrecen interpretación si se pide con anticipación. Pregunte al secretario unos días antes.</li>
-    <li><strong>Si no hay período de comentarios,</strong> envíe un correo a los miembros antes de la reunión.</li>
+    <li><strong>Si no hay período de comentarios,</strong> envíe un correo a los miembros antes de la reunión, o pregunte al secretario cómo poner un asunto en una agenda futura.</li>
   </ol>
 
   <h2>Qué decir</h2>
   <p>El tiempo suele ser corto, a menudo dos o tres minutos, así que escríbalo y mida el tiempo.</p>
   <ol>
-    <li><strong>Quién es usted.</strong> Su nombre y que vive, trabaja o tiene un negocio en la comunidad.</li>
+    <li><strong>Quién es usted.</strong> Su nombre y que vive, trabaja o tiene un negocio en la comunidad. En una audiencia, por lo general le pedirán su dirección para el registro.</li>
     <li><strong>De qué habla.</strong> Nombre el asunto de la agenda.</li>
     <li><strong>Qué quiere que hagan.</strong> Votar a favor, en contra, cambiar algo específico o aplazarlo.</li>
     <li><strong>Una razón.</strong> Un ejemplo personal breve convence más que una lista de argumentos.</li>
@@ -50,7 +50,8 @@ G["speak-at-a-public-meeting"] = dict(
     <li><strong>Esté atento a la votación.</strong> La decisión puede tomarse en una reunión posterior.</li>
   </ul>
 
-  <p>Si un órgano no cumple con la ley, vea <a href="open-meeting-law.html">la Ley de Reuniones Abiertas de Idaho</a>.</p>
+  <h2>Si un órgano no cumple las reglas</h2>
+  <p>Una decisión tomada en una reunión que no cumplió la Ley de Reuniones Abiertas se puede anular. Primero avise al órgano por escrito: entonces tiene 14 días para responder y puede corregir el problema volviendo a tomar la decisión en público. Las quejas sobre órganos locales van al fiscal del condado (county prosecuting attorney), y las quejas sobre órganos estatales van al Fiscal General (Attorney General). Una persona afectada por la decisión también puede ir a la corte, pero solo dentro de 30 días a partir de la decisión. Vea <a href="open-meeting-law.html">la Ley de Reuniones Abiertas de Idaho</a> para más detalles.</p>
 """,
     sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH2/", "Código de Idaho, Título 74, Capítulo 2: Ley de Reuniones Abiertas (en inglés)"),
              (OML, "Manual de la Ley de Reuniones Abiertas de Idaho, julio de 2026, Fiscal General (en inglés)")])
@@ -61,24 +62,30 @@ G["open-meeting-law"] = dict(
     body="""
   <h2>A quién se aplica</h2>
   <p>La ley se aplica a los órganos de gobierno de agencias estatales y locales: concejos municipales, comisiones de condado, juntas escolares, juntas de bibliotecas y de distritos de carreteras, y las comisiones y comités que toman decisiones o hacen recomendaciones (Código de Idaho §§ 74-202(4)&ndash;(5)). No se aplica a los tribunales, a un funcionario que actúa solo, ni a grupos privados como organizaciones sin fines de lucro o asociaciones de propietarios.</p>
-  <p>Una <strong>reunión</strong> es cualquier encuentro de un quórum para tomar una decisión o deliberar sobre ella, sea formal, informal o social (§ 74-202(6)). Los miembros no pueden evitar la ley reuniéndose en grupos más pequeños o pasando opiniones por medio de otra persona, y los intercambios por correo o mensajes de texto entre un quórum también pueden contar.</p>
+  <p>Una <strong>reunión</strong> es cualquier encuentro de un quórum para tomar una decisión o deliberar sobre ella, sea formal, informal o social (§ 74-202(6)). Los miembros no pueden evitar la ley reuniéndose en grupos más pequeños o pasando opiniones por medio de otra persona, y los intercambios por correo o mensajes de texto entre un quórum también pueden contar. Deliberar incluye intercambiar información u opiniones sobre una decisión pendiente. El consejo del Fiscal General a los órganos públicos: "cuando tenga dudas, abra la reunión" ("when in doubt, open the meeting").</p>
 
   <h2>Aviso y agendas</h2>
   <ul>
-    <li><strong>Reuniones ordinarias:</strong> por lo menos 5 días naturales de aviso de la reunión y 48 horas de aviso de la agenda (§ 74-204(1)). Los órganos que se reúnen al menos una vez al mes pueden publicar su calendario anual en su lugar.</li>
+    <li><strong>Reuniones ordinarias:</strong> por lo menos 5 días calendario de aviso de la reunión y 48 horas de aviso de la agenda (§ 74-204(1)). Los órganos que se reúnen al menos una vez al mes pueden publicar su calendario anual en su lugar.</li>
     <li><strong>Reuniones especiales:</strong> por lo menos 24 horas de aviso de la reunión y de la agenda (§ 74-204(2)). Las verdaderas emergencias son una excepción, y el órgano debe explicar la emergencia al inicio de la reunión.</li>
     <li>Los avisos se publican en la oficina de la agencia y en su sitio web o redes sociales, si los tiene.</li>
-    <li>Las agendas deben indicar los temas específicos, y todo lo que se vaya a votar debe marcarse como <strong>punto de acción</strong> ("action item") (§ 74-204(4)).</li>
+    <li>Las agendas deben indicar los temas específicos, y todo lo que se vaya a votar debe marcarse como <strong>punto de acción</strong> ("action item") (§ 74-204(4)). Agregar un asunto tarde requiere una moción que explique por qué no estaba en la agenda, y la decisión final sobre un asunto agregado tarde por lo general requiere una emergencia.</li>
   </ul>
 
   <h2>Sesiones a puerta cerrada ("executive sessions")</h2>
-  <p>Un órgano solo puede cerrar parte de una reunión por las razones que enumera el § 74-206(1), y se interpretan de manera estricta. Incluyen contratar, evaluar o disciplinar a un empleado específico; comprar una propiedad; hablar con su abogado sobre un litigio pendiente o probable; y registros que están exentos de divulgación.</p>
-  <p>Para cerrar la sesión, el órgano debe votar con una <strong>mayoría de dos tercios en votación nominal</strong>, citando la razón específica. <strong>No se puede tomar ninguna decisión final a puerta cerrada</strong> (§ 74-206). La votación tiene que ser en público.</p>
+  <p>Un órgano solo puede cerrar parte de una reunión por las razones que enumera el § 74-206(1), y se interpretan de manera estricta. Incluyen:</p>
+  <ul>
+    <li>Contratar, evaluar o disciplinar a un empleado específico (no las políticas generales de personal).</li>
+    <li>Comprar una propiedad que no sea de una agencia pública.</li>
+    <li>Hablar con su abogado sobre un litigio pendiente o probable.</li>
+    <li>Registros que están exentos de divulgación, negociaciones laborales y algunas otras razones.</li>
+  </ul>
+  <p>Para cerrar la sesión, el órgano debe votar con una <strong>mayoría de dos tercios en votación nominal</strong>, citando la razón específica, y una vez adentro no puede pasar a otros temas. <strong>No se puede tomar ninguna decisión final a puerta cerrada</strong> (§ 74-206). La votación tiene que ser en público.</p>
 
   <h2>Sus derechos</h2>
   <ul>
     <li><strong>Asistir.</strong> Se permiten reglas para mantener el orden, pero no reglas que hagan imposible asistir.</li>
-    <li><strong>Grabar.</strong> Puede grabar reuniones abiertas en audio, video o fotos, y no lo pueden sacar por hacerlo (§ 74-203(6)).</li>
+    <li><strong>Grabar.</strong> Puede grabar reuniones abiertas en audio, video o fotos, y no pueden expulsarle de la reunión por hacerlo (§ 74-203(6)).</li>
     <li><strong>Actas.</strong> Cada reunión requiere actas escritas con los presentes, las mociones y los resultados de las votaciones, disponibles al público en un plazo razonable (§ 74-205). No se permiten votaciones secretas (§ 74-203(1)).</li>
     <li><strong>Un lugar físico.</strong> Se permiten reuniones remotas, pero por lo menos un miembro o el director de la agencia debe estar en el lugar anunciado para que el público pueda asistir (§ 74-203(5)).</li>
   </ul>
@@ -87,11 +94,13 @@ G["open-meeting-law"] = dict(
   <h2>Cuando un órgano no cumple la ley</h2>
   <ol>
     <li><strong>Avise por escrito.</strong> El órgano tiene 14 días para responder públicamente y, si está de acuerdo, otros 14 días para corregirlo declarando nulas las decisiones de esa reunión (§ 74-208(7)).</li>
-    <li><strong>Presente una queja.</strong> El fiscal del condado (county prosecuting attorney) hace cumplir la ley para los órganos locales; el Fiscal General (Attorney General), para las agencias estatales (§ 74-208(5)). Los miembros que violan la ley a sabiendas pueden recibir multas personales.</li>
-    <li><strong>Vaya a la corte.</strong> Cualquier persona afectada puede demandar. Una demanda para anular una decisión debe presentarse dentro de <strong>30 días</strong>; otras demandas, dentro de 180 días (§ 74-208(6)).</li>
+    <li><strong>Presente una queja.</strong> El fiscal del condado (county prosecuting attorney) hace cumplir la ley para los órganos locales; el Fiscal General (Attorney General), para las agencias estatales (§ 74-208(5)). Los miembros que violan la ley a sabiendas pueden recibir multas personales: hasta $1,500, o $2,500 si lo repiten dentro de un año, y hasta $250 por participar en una reunión que no cumple la ley (§ 74-208(2)&ndash;(4)).</li>
+    <li><strong>Vaya a la corte.</strong> Cualquier persona afectada por una violación puede demandar en la división de magistrados de la corte de distrito (magistrate court) del condado donde se reúne el órgano. Una demanda para anular una decisión debe presentarse dentro de <strong>30 días</strong> a partir de la decisión; otras demandas, dentro de 180 días a partir de la violación (§ 74-208(6)). Las demandas privadas pueden anular decisiones, pero no pueden obtener multas ni indemnización por daños.</li>
   </ol>
+  <p>El Manual de la Ley de Reuniones Abiertas del Fiscal General, gratuito, tiene la ley completa y respuestas a decenas de preguntas comunes. El enlace está abajo (en inglés).</p>
 """,
     sources=[(OML, "Manual de la Ley de Reuniones Abiertas de Idaho, julio de 2026, Fiscal General (en inglés)"),
+             ("https://www.ag.idaho.gov/office-resources/manuals/", "Página de manuales del Fiscal General (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH2/", "Código de Idaho, Título 74, Capítulo 2 (en inglés)")])
 
 G["public-records-requests"] = dict(
@@ -99,16 +108,16 @@ G["public-records-requests"] = dict(
     lede="Correos electrónicos, contratos, presupuestos, informes policiales, paquetes de reuniones: casi todo lo que escriben los gobiernos de Idaho pertenece al público. Así se piden, cuánto cuestan, cuándo deben responder y qué hacer si le dicen que no.",
     body="""
   <h2>Qué puede pedir</h2>
-  <p>Un registro público es cualquier documento sobre asuntos públicos que una agencia estatal o local prepara, posee, usa o guarda, en cualquier forma: papel, correo electrónico, mensajes de texto, hojas de cálculo, fotos o grabaciones (Código de Idaho § 74-101(13)). La ley cubre agencias estatales y todas las agencias locales: condados, ciudades, distritos escolares y distritos especiales.</p>
+  <p>Un registro público es cualquier documento sobre asuntos públicos que una agencia estatal o local prepara, posee, usa o guarda, en cualquier forma: papel, correo electrónico, mensajes de texto, hojas de cálculo, fotos o grabaciones (Código de Idaho § 74-101(13)). La ley cubre las agencias estatales, la Legislatura y los registros administrativos de las cortes, y todas las agencias locales: condados, ciudades, distritos escolares y distritos especiales (§ 74-101).</p>
   <p>Cualquier persona puede pedirlos (§ 74-102(1)). En general, la agencia no puede preguntarle para qué los quiere. Tampoco tiene que crear un documento que no existe, así que pida documentos, no respuestas a preguntas.</p>
 
   <h2>Cómo hacer la solicitud</h2>
   <ol>
-    <li><strong>Busque al encargado de registros</strong> ("records custodian"). Cada agencia debe tener uno. Busque "public records request" en el sitio web de la agencia; muchas tienen un formulario en línea.</li>
-    <li><strong>Hágalo por escrito.</strong> El correo electrónico sirve. Diga claramente que es una solicitud de registros públicos. Puede escribir en español, pero la respuesta y los documentos probablemente estarán en inglés.</li>
-    <li><strong>Describa los documentos con detalle,</strong> con un rango de fechas. Mientras más específica sea, más rápida y barata será la respuesta.</li>
-    <li><strong>Incluya sus datos de contacto.</strong> La ley pide su nombre, dirección postal, correo y teléfono, y una declaración escrita de si vive en Idaho (§ 74-102(4)). La residencia cambia los plazos y costos. Significa haber vivido en Idaho por lo menos 30 días seguidos.</li>
-    <li><strong>Diga cómo los quiere.</strong> Puede pedir copias electrónicas o revisarlos en persona.</li>
+    <li><strong>Busque al encargado de registros</strong> ("records custodian"). Cada agencia debe nombrar por lo menos uno (§ 74-102(16)). Busque "public records request" en el sitio web de la agencia; muchas tienen un formulario en línea. Envíe su solicitud al encargado: una solicitud enviada a la persona equivocada puede no poner en marcha el plazo (§ 74-103(1)).</li>
+    <li><strong>Hágalo por escrito.</strong> El correo electrónico sirve (§ 74-102(4)). Diga claramente que es una solicitud de registros públicos. Puede escribir en español, pero la respuesta y los documentos probablemente estarán en inglés.</li>
+    <li><strong>Describa los documentos con detalle,</strong> con un rango de fechas. "Los correos entre el administrador de la ciudad y el director de parques sobre el parque de Main Street, del 1 de enero al 31 de marzo de 2026" recibe una respuesta más rápida y más barata que "todo sobre el parque".</li>
+    <li><strong>Incluya sus datos de contacto.</strong> La ley pide su nombre, dirección postal, correo y teléfono, y una declaración escrita de si vive en Idaho (§ 74-102(4)). La residencia cambia los plazos y costos. Significa haber vivido en Idaho por lo menos 30 días seguidos (§ 74-101(15)).</li>
+    <li><strong>Diga cómo los quiere.</strong> Si los documentos existen en forma electrónica, puede pedir copias electrónicas (§ 74-102(15)). También puede pedir revisarlos en persona en lugar de comprar copias.</li>
   </ol>
   <div class="callout">
     <p><strong>Una solicitud sencilla (en inglés, para enviar a la agencia)</strong></p>
@@ -117,29 +126,41 @@ G["public-records-requests"] = dict(
 
   <h2>Plazos</h2>
   <ul>
-    <li><strong>Residentes de Idaho:</strong> la agencia tiene <strong>3 días hábiles</strong> para aceptar o negar. Si necesita más tiempo, debe avisarle por escrito y entregarlos dentro de <strong>10 días hábiles</strong> (§ 74-103(2)).</li>
-    <li><strong>No residentes:</strong> 21 días, que pueden extenderse a 35.</li>
-    <li>Si pasa el plazo sin respuesta, la solicitud se considera negada (§ 74-103(3)).</li>
+    <li><strong>Residentes de Idaho:</strong> la agencia tiene <strong>3 días hábiles</strong> para aceptar o denegar. Si necesita más tiempo para encontrar o copiar los documentos, debe avisarle por escrito y entregarlos dentro de <strong>10 días hábiles</strong> (§ 74-103(2)).</li>
+    <li><strong>No residentes:</strong> 21 días, que pueden extenderse a 35 (§ 74-103(2)).</li>
+    <li>Si pasa el plazo sin respuesta, la solicitud se considera denegada (§ 74-103(3)), y usted puede ir a la corte (vea abajo).</li>
   </ul>
 
   <h2>Costo</h2>
   <ul>
-    <li><strong>Para residentes de Idaho, las primeras dos horas de trabajo y las primeras 100 páginas son gratis</strong> (§ 74-102(10)(a)). Después, la agencia puede cobrar el costo real.</li>
-    <li>Los cobros deben estar detallados, no en una sola cantidad.</li>
-    <li><strong>Exención de pago:</strong> la agencia debe eximirle si los documentos ayudan al público a entender al gobierno, la solicitud no es principalmente para su beneficio personal y el costo le impediría obtenerlos (§ 74-102(10)(f)).</li>
+    <li><strong>Para residentes de Idaho, las primeras dos horas de trabajo y las primeras 100 páginas son gratis</strong> (§ 74-102(10)(a)). Después, la agencia puede cobrar el costo real de las copias y el tiempo del personal, a la tarifa del empleado con el sueldo más bajo que pueda hacer el trabajo.</li>
+    <li>Los cobros deben estar detallados: costo por página, tarifa por hora y tiempo real. No se permite cobrar una sola cantidad global (§ 74-102(10)(h)).</li>
+    <li>La agencia puede pedir un depósito antes de empezar, y debe devolverle lo que no use (§ 74-102(12)).</li>
+    <li><strong>Exención de pago:</strong> la agencia debe eximirle del pago si los documentos ayudarán de manera importante al público a entender al gobierno, la solicitud no es principalmente para su beneficio personal y el costo le impediría obtenerlos (§ 74-102(10)(f)). Si es su caso, pida la exención en su solicitud.</li>
+    <li>A los no residentes se les puede cobrar el costo real desde la primera página.</li>
   </ul>
+  <p>Consejo: pedir copias electrónicas, o revisar los documentos en persona, por lo general cuesta menos que el papel.</p>
 
   <h2>Lo que pueden negar</h2>
-  <p>La ley tiene excepciones, y las agencias deben aplicarlas de manera estricta. Si un documento tiene partes exentas, deben tacharlas y entregarle el resto. Excepciones comunes: expedientes de personal (aunque el puesto y el salario de cada empleado público son públicos), investigaciones policiales activas, números de Seguro Social y asesoría legal.</p>
+  <p>La ley enumera excepciones, y las agencias deben aplicarlas de manera estricta. Cuando un documento tiene información exenta, la agencia debe tachar las partes exentas y entregarle el resto; no puede retener todo el documento solo por eso. Excepciones comunes:</p>
+  <ul>
+    <li><strong>Expedientes de personal,</strong> excepto que el puesto, el salario, el historial de empleo y el lugar de trabajo de cada empleado público son públicos (§ 74-106(1)).</li>
+    <li><strong>Investigaciones policiales activas,</strong> en la medida en que entregarlas interferiría con ellas, pondría a alguien en peligro o invadiría la privacidad. Los datos básicos de un incidente y de un arresto siguen siendo públicos, y se puede ver más cuando la investigación ya no está activa (§ 74-124).</li>
+    <li><strong>Datos de identificación personal,</strong> como los números de Seguro Social (§ 74-106).</li>
+    <li><strong>Asesoría legal y documentos de litigios,</strong> secretos comerciales, y avalúos o estimaciones de ofertas antes de una compra o de la apertura de ofertas (§§ 74-104, 74-107).</li>
+  </ul>
+  <p>Los registros sobre usted mismo son diferentes: por lo general puede verlos aunque estarían exentos para otra persona, y puede pedirle a la agencia que los corrija (§ 74-113).</p>
 
   <h2>Si le dicen que no</h2>
   <ol>
-    <li><strong>Revise la carta de negación.</strong> Debe ser por escrito, citar la ley específica y explicarle su derecho a apelar (§ 74-103).</li>
-    <li><strong>Intente aclarar o reducir la solicitud.</strong> Una llamada al encargado puede resolver mucho.</li>
-    <li><strong>Vaya a la corte si es necesario.</strong> Puede presentar una petición en la corte de distrito del condado donde están los documentos dentro de <strong>180 días</strong> (§ 74-115). La corte debe fijar una audiencia dentro de 28 días.</li>
+    <li><strong>Revise la carta de denegación.</strong> Debe ser por escrito, citar la ley específica en la que se basa, decir si un abogado la revisó y explicarle su derecho a apelar (§ 74-103(4)&ndash;(5)).</li>
+    <li><strong>Intente aclarar o reducir la solicitud.</strong> Muchas denegaciones y estimaciones de costo altas vienen de solicitudes demasiado amplias. Una llamada al encargado puede resolver mucho.</li>
+    <li><strong>Vaya a la corte si es necesario.</strong> Puede presentar una petición en la corte de distrito del condado donde están los documentos dentro de <strong>180 días</strong> a partir de la denegación (§ 74-115(1)). No tiene que pasar antes por una apelación interna. La corte debe fijar una audiencia dentro de 28 días y puede revisar los documentos en privado para decidir. Si alguna de las partes actuó sin fundamento, la corte puede ordenar el pago de los honorarios de abogados (§ 74-116), y a un funcionario que niega de mala fe una solicitud legítima se le puede multar con hasta $1,000 (§ 74-117).</li>
   </ol>
+  <p>La oficina del Fiscal General publica un manual gratuito con la ley completa, cartas de ejemplo y respuestas a preguntas comunes. Es la mejor referencia, y el enlace está abajo (en inglés).</p>
 """,
     sources=[(PRM, "Manual de la Ley de Registros Públicos de Idaho, julio de 2026, Fiscal General (en inglés)"),
+             ("https://www.ag.idaho.gov/office-resources/manuals/", "Página de manuales del Fiscal General (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/", "Código de Idaho, Título 74, Capítulo 1 (en inglés)")])
 
 G["contact-your-representatives"] = dict(
@@ -147,12 +168,13 @@ G["contact-your-representatives"] = dict(
     lede="Un mensaje corto y concreto de alguien que vive en el distrito sí se lee. Así se escoge la oficina correcta y esto es lo que debe decir el mensaje.",
     body="""
   <h2>Empiece con el nivel de gobierno correcto</h2>
+  <p>La manera más rápida de no llegar a ningún lado es preguntarle a la oficina equivocada. Como guía general:</p>
   <ul>
     <li><strong>Ciudad:</strong> zonificación y permisos de construcción dentro de la ciudad, calles y banquetas, policía municipal, parques, agua y drenaje.</li>
-    <li><strong>Condado:</strong> elecciones, avalúos de propiedad, el alguacil (sheriff) y la cárcel, el juzgado, y el uso de suelo fuera de la ciudad. Las licencias de manejo las da la oficina del alguacil del condado.</li>
-    <li><strong>Distrito de carreteras:</strong> en muchas partes de Idaho, un distrito electo aparte se encarga de los caminos locales. En el condado de Ada, ACHD maneja casi todas las calles.</li>
+    <li><strong>Condado:</strong> elecciones, avalúos de propiedad, el alguacil (sheriff) y la cárcel, el juzgado, y el uso de suelo fuera de la ciudad. Las licencias de manejo las da la oficina del alguacil del condado, y el registro de vehículos el tasador (assessor) del condado, según las reglas del estado.</li>
+    <li><strong>Distrito de carreteras:</strong> en muchas partes de Idaho, un distrito electo aparte se encarga de los caminos locales. En el condado de Ada, el Distrito de Carreteras del Condado de Ada (Ada County Highway District, ACHD) maneja casi todas las calles locales, dentro y fuera de las ciudades.</li>
     <li><strong>Estado:</strong> financiamiento escolar, carreteras estatales, prisiones, Medicaid, parques estatales y las leyes estatales.</li>
-    <li><strong>Federal:</strong> Seguro Social y Medicare, beneficios para veteranos, inmigración, pasaportes, impuestos federales y las tierras federales.</li>
+    <li><strong>Federal:</strong> Seguro Social y Medicare, beneficios para veteranos, inmigración, pasaportes, impuestos federales, y los bosques nacionales y otras tierras federales que cubren gran parte de Idaho.</li>
   </ul>
   <p>¿No sabe quiénes le representan? Use <a href="../reps.html">la búsqueda por dirección</a>.</p>
 
@@ -168,16 +190,17 @@ G["contact-your-representatives"] = dict(
   <h2>Correo, teléfono o en persona</h2>
   <ul>
     <li><strong>El correo electrónico</strong> es lo más fácil de enviar y de dar seguimiento. La dirección de cada legislador está en el sitio web de la Legislatura.</li>
-    <li><strong>Una llamada</strong> es rápida. Durante la sesión, el Centro de Información Legislativa es la puerta de entrada: 208-332-1000, o 800-626-0471 sin costo.</li>
-    <li><strong>Fuera de la sesión,</strong> los legisladores están en sus distritos, y muchos tienen reuniones comunitarias. A menudo es el mejor momento para ser escuchado.</li>
+    <li><strong>Una llamada</strong> es rápida. Los legisladores de Idaho son de medio tiempo y la mayoría comparte personal, así que durante la sesión el Centro de Información Legislativa es la puerta de entrada: 208-332-1000, o 800-626-0471 sin costo.</li>
+    <li><strong>Fuera de la sesión,</strong> los legisladores están en sus distritos. Muchos dan un número de casa o de celular y tienen reuniones comunitarias. A menudo es el mejor momento para ser escuchado.</li>
     <li><strong>En persona</strong> funciona mejor a nivel local. Vea <a href="speak-at-a-public-meeting.html">cómo hablar en una reunión pública local</a>.</li>
   </ul>
 
   <h2>Cuando necesita ayuda, no un voto</h2>
-  <p>Si tiene un problema con una agencia de gobierno, las oficinas de los funcionarios electos a menudo pueden ayudar. Los miembros del Congreso tienen personal que atiende problemas con agencias federales. Llame a la oficina y pida ayuda con un caso de constituyente ("constituent services").</p>
+  <p>Si tiene un problema con una agencia de gobierno, las oficinas de los funcionarios electos a menudo pueden ayudar. Los miembros del Congreso tienen personal que atiende problemas con agencias federales. Los legisladores estatales pueden preguntarle a una agencia estatal por su caso, y la oficina del Gobernador también recibe solicitudes de constituyentes. Llame a la oficina y pida ayuda con un caso de constituyente ("constituent services").</p>
 """,
     sources=[("https://legislature.idaho.gov/legislators/whosmylegislator/", "Who's My Legislator, Legislatura de Idaho (en inglés)"),
-             ("https://legislature.idaho.gov/resources/committeetestimony/", "Cómo testificar ante comités legislativos (en inglés)")])
+             ("https://legislature.idaho.gov/resources/committeetestimony/", "Cómo testificar ante comités legislativos (en inglés)"),
+             ("https://legislature.idaho.gov/legislators/congressional-delegation/", "La delegación de Idaho en el Congreso, Legislatura de Idaho (en inglés)")])
 
 G["local-government"] = dict(
     cat="Local", title="Cómo funciona el gobierno local",
@@ -192,7 +215,7 @@ G["local-government"] = dict(
     <li><strong>Tesorero (treasurer):</strong> cobra los impuestos a la propiedad.</li>
     <li><strong>Alguacil (sheriff):</strong> la policía fuera de las ciudades, la cárcel del condado y las licencias de manejo.</li>
     <li><strong>Fiscal del condado (prosecuting attorney):</strong> acusa los delitos ante la corte y es el abogado del condado.</li>
-    <li><strong>Médico forense (coroner):</strong> investiga las muertes.</li>
+    <li><strong>Forense del condado (coroner):</strong> investiga las muertes.</li>
   </ul>
   <p>Si usted vive fuera de los límites de una ciudad, el condado es su gobierno local para la planeación, la zonificación y los permisos de construcción.</p>
 
@@ -245,7 +268,7 @@ G["your-neighborhood"] = dict(
   <h2>Entérese de lo que se planea</h2>
   <ul>
     <li><strong>Esté atento a los avisos sobre uso de suelo.</strong> Los cambios de zonificación, los fraccionamientos y los permisos de uso especial requieren una audiencia pública. El aviso se publica, se envía por correo a los dueños de propiedades cercanas y, por lo general, se pone en la propiedad unas dos semanas antes. Si le llega uno, la fecha de la audiencia que aparece ahí es su oportunidad de testificar.</li>
-    <li><strong>Pida registros.</strong> Bajo la Ley de Registros Públicos de Idaho, cualquier persona puede pedirle sus registros a una agencia estatal o local. La agencia debe aceptar o negar la solicitud dentro de tres días hábiles, o avisarle que necesita hasta diez. Las primeras dos horas de trabajo del personal y las primeras 100 páginas son gratis.</li>
+    <li><strong>Pida registros.</strong> Bajo la Ley de Registros Públicos de Idaho, cualquier persona puede pedirle sus registros a una agencia estatal o local. Si usted vive en Idaho, la agencia debe aceptar o denegar la solicitud dentro de tres días hábiles, o avisarle que necesita hasta diez, y las primeras dos horas de trabajo del personal y las primeras 100 páginas son gratis. Desde un cambio a la ley en 2025, las personas que no viven en Idaho esperan hasta 21 días, que pueden extenderse a 35, y no reciben horas ni páginas gratis. Vea <a href="public-records-requests.html">cómo pedir registros públicos</a>.</li>
     <li><strong>Lea el plan integral (comprehensive plan).</strong> Cada ciudad y cada condado tiene uno, con un mapa del tipo de crecimiento que se planea en cada lugar. Las decisiones de zonificación deben seguirlo, así que es el mejor argumento que puede llevar a una audiencia.</li>
     <li><strong>Revise los planes de caminos.</strong> Los distritos de carreteras y el Idaho Transportation Department (el departamento de transporte del estado) publican listas de proyectos para varios años. Es más fácil lograr que un proyecto entre en la lista que agregarlo después.</li>
   </ul>
@@ -261,7 +284,7 @@ G["your-neighborhood"] = dict(
   <p>Cuando un problema necesita una decisión, y no solo una reparación, llévelo a su concejo municipal, a los comisionados del condado o al distrito de carreteras. Vea <a href="speak-at-a-public-meeting.html">cómo hablar en una reunión pública local</a> y <a href="problem-to-policy.html">cómo convertir un problema personal en una propuesta de política pública</a>.</p>
 """,
     sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/SECT74-103/", "Código de Idaho § 74-103, respuesta a una solicitud de registros públicos, Legislatura de Idaho (en inglés)"),
-             ("https://www.ag.idaho.gov/content/uploads/2022/01/Public-Records-Law-Jan-2022.pdf", "Manual de la Ley de Registros Públicos de Idaho, Fiscal General (en inglés)"),
+             (PRM, "Manual de la Ley de Registros Públicos de Idaho, julio de 2026, Fiscal General (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH2/", "Código de Idaho, Título 74, Capítulo 2: Ley de Reuniones Abiertas, Legislatura de Idaho (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/", "Código de Idaho: Título 67, Capítulo 65, planeación local del uso de suelo, Legislatura de Idaho (en inglés)")])
 
@@ -286,14 +309,15 @@ G["local-ballot-measures"] = dict(
   <h2>Cuándo aparecen en la boleta</h2>
   <ul>
     <li><strong>Las medidas escolares</strong> solo pueden aparecer en mayo o en noviembre. La Legislatura eliminó las fechas de elección de marzo y agosto.</li>
-    <li><strong>Las medidas de la ciudad y del condado</strong> van el tercer martes de mayo o el día de la elección de noviembre.</li>
+    <li><strong>Los bonos y los impuestos (levies) de la ciudad y del condado</strong> van el tercer martes de mayo o el día de la elección de noviembre.</li>
+    <li><strong>Las iniciativas y los referendos de la ciudad</strong> se votan solo en la elección de noviembre de los años impares (Código de Idaho § 34-1801B).</li>
   </ul>
 
   <h2>Iniciativas y referendos locales</h2>
   <p>Los votantes de las ciudades y los condados de Idaho pueden proponer una ordenanza, u obligar a que se vote sobre una que el concejo o los comisionados acaban de aprobar.</p>
   <ul>
     <li><strong>Firmas:</strong> el 20 por ciento del número de personas que votaron en la última elección general de la ciudad (para una ciudad) o en la última elección general del condado (para un condado).</li>
-    <li><strong>Plazo para un referendo:</strong> dentro de los 60 días después de que se aprueba la ordenanza.</li>
+    <li><strong>Plazo para un referendo:</strong> para una ciudad, dentro de los 60 días después de que se publica la ordenanza (Código de Idaho § 34-1801B). Pregunte al secretario (clerk) del condado cuál es el plazo para un condado.</li>
     <li><strong>Límites:</strong> las iniciativas locales no se pueden usar para decisiones de zonificación.</li>
     <li><strong>Para aprobarse:</strong> mayoría simple.</li>
   </ul>
@@ -304,9 +328,12 @@ G["local-ballot-measures"] = dict(
     <li><strong>Revise si reemplaza algo.</strong> Un impuesto que "renueva" uno que está por vencer quizás no suba lo que usted paga. Uno nuevo sí lo subirá.</li>
     <li><strong>Busque su boleta de muestra</strong> con el secretario (clerk) de su condado o en VoteIdaho.gov.</li>
     <li><strong>Vaya a la audiencia.</strong> La junta tiene que votar en una reunión pública para poner una medida en la boleta, mucho antes de la elección.</li>
+    <li><strong>Revise quién puede votar y firmar.</strong> Para votar o firmar una petición en Idaho, debe ser ciudadano de EE. UU., tener por lo menos 18 años, haber vivido en Idaho y en su condado por lo menos 30 días y estar registrado para votar (Código de Idaho § 34-402). Los residentes permanentes (green card) y otras personas que no son ciudadanas no pueden votar ni firmar peticiones, ni siquiera en elecciones locales.</li>
   </ul>
 """,
-    sources=[("https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho", "Leyes sobre las medidas locales en la boleta en Idaho, Ballotpedia (en inglés)"),
+    sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title34/T34CH18/SECT34-1801B/", "Código de Idaho § 34-1801B, iniciativas y referendos de las ciudades, Legislatura de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/title34/t34ch4/sect34-402", "Código de Idaho § 34-402, quién puede votar, Legislatura de Idaho (en inglés)"),
+             ("https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho", "Leyes sobre las medidas locales en la boleta en Idaho, Ballotpedia (en inglés)"),
              ("https://ballotpedia.org/School_bond_and_tax_elections_in_Idaho", "Elecciones de bonos e impuestos escolares en Idaho, Ballotpedia (en inglés)"),
              ("https://www.idahoednews.org/top-news/emerging-outliers-school-facility-measures-grow-harder-to-pass/", "Medidas para instalaciones escolares y el porcentaje que necesitan para aprobarse, Idaho Education News, junio de 2026 (en inglés)"),
              ("https://voteidaho.gov/county-clerk/", "Oficinas electorales de los condados, Secretaría de Estado de Idaho (en inglés)")])
@@ -354,7 +381,7 @@ G["read-a-bill-or-agenda"] = dict(
 
   <h2>Cómo leer el proyecto de ley</h2>
   <ol>
-    <li><strong>Empiece con la declaración de propósito ("Statement of Purpose").</strong> Cada proyecto de ley de Idaho viene con una página que explica lo que hace y una nota fiscal ("fiscal note") que calcula cuánto cuesta. Las dos las escribe quien patrocina el proyecto, así que léalas como los argumentos de esa persona, no como un análisis neutral.</li>
+    <li><strong>Empiece con la declaración de propósito ("Statement of Purpose").</strong> Cada proyecto de ley de Idaho viene con una página que explica lo que hace y una estimación del impacto fiscal ("fiscal note") que calcula cuánto cuesta. Las dos las escribe quien patrocina el proyecto, así que léalas como los argumentos de esa persona, no como un análisis neutral.</li>
     <li><strong>Lea el título.</strong> La oración larga de arriba nombra cada sección de la ley que toca el proyecto.</li>
     <li><strong>Busque las marcas.</strong> El texto <u>subrayado</u> se agrega a la ley. El texto <s>tachado</s> se quita. El texto normal es la ley actual que se queda igual.</li>
     <li><strong>Revise la última sección.</strong> Dice cuándo entra en vigor la ley. La mayoría entra en vigor el 1 de julio. Una "cláusula de emergencia" ("emergency clause") hace que entre en vigor en cuanto el Gobernador la firma.</li>
@@ -419,7 +446,7 @@ G["volunteer-and-public-service"] = dict(
   <h2>Sea voluntario</h2>
   <ul>
     <li><strong>Serve Idaho</strong> es la comisión del Gobernador para el servicio y el voluntariado. Maneja los programas de AmeriCorps en Idaho y orienta a la gente hacia oportunidades de voluntariado en todo el estado.</li>
-    <li><strong>Trabaje en los centros de votación.</strong> Los secretarios (clerks) de los condados contratan trabajadores electorales para cada elección. Es un trabajo pagado, toma un día largo y a los secretarios casi siempre les falta gente. Comuníquese con la oficina electoral de su condado.</li>
+    <li><strong>Trabaje en los centros de votación.</strong> Los secretarios (clerks) de los condados contratan trabajadores electorales para cada elección. Es un trabajo pagado, toma un día largo y a los secretarios casi siempre les falta gente. Los trabajadores electorales deben ser ciudadanos de EE. UU., tener por lo menos 16 años y saber leer y escribir en inglés, según la Secretaría de Estado de Idaho. Comuníquese con la oficina electoral de su condado.</li>
     <li><strong>Su biblioteca, su escuela y sus parques.</strong> La mayoría acepta voluntarios directamente. Los grupos de Amigos de la Biblioteca (Friends of the Library) y las organizaciones de padres de familia son lugares fáciles para empezar.</li>
     <li><strong>Búsqueda y rescate, bomberos y ambulancias.</strong> Gran parte del Idaho rural depende de personal de emergencia voluntario, que por lo general se organiza por medio de la oficina del alguacil (sheriff) o del distrito de bomberos local.</li>
     <li><strong>Los parques estatales y Fish and Game</strong> (el departamento de pesca y caza de Idaho) tienen programas de voluntariado, desde anfitriones de campamentos hasta proyectos para proteger el hábitat de la fauna.</li>
@@ -443,6 +470,7 @@ G["volunteer-and-public-service"] = dict(
     sources=[("https://serve.idaho.gov/", "Serve Idaho, la comisión del Gobernador para el servicio y el voluntariado (en inglés)"),
              ("https://dhr.idaho.gov/information-about-state-careers/", "Información sobre empleos en el estado, Idaho Division of Human Resources (en inglés)"),
              ("https://idahoworks.gov/", "IdahoWorks, Idaho Department of Labor (en inglés)"),
+             ("https://voteidaho.gov/poll-workers/", "Cómo ser trabajador electoral, Secretaría de Estado de Idaho (en inglés)"),
              ("https://voteidaho.gov/county-clerk/", "Oficinas electorales de los condados, Secretaría de Estado de Idaho (en inglés)"),
              ("https://www.usajobs.gov/", "USAJOBS, empleos del gobierno federal (en inglés)")])
 
@@ -521,7 +549,7 @@ G["legislature"] = dict(
   <ul>
     <li><strong>Cada miembro puede presentar proyectos por su cuenta solo en las primeras semanas:</strong> hasta el día 12 en el Senado y el día 20 en la Cámara de Representantes. Después, los proyectos tienen que venir de un comité, y después del día 36 en la Cámara solo de ciertos comités.</li>
     <li><strong>Los líderes fijan fechas meta</strong> cada año para pasar proyectos de una cámara a la otra. Muchas veces se atrasan.</li>
-    <li><strong>El final de la sesión va muy rápido.</strong> En las últimas semanas, los proyectos se pueden escuchar y aprobar con muy poco aviso.</li>
+    <li><strong>El final de la sesión va muy rápido.</strong> En las últimas semanas, los proyectos pueden recibir audiencia y aprobarse con muy poco aviso.</li>
   </ul>
 
   <h2>El comité de presupuesto</h2>
@@ -530,7 +558,7 @@ G["legislature"] = dict(
   <h2>Dónde cuenta su voz</h2>
   <ul>
     <li><strong>Antes de la sesión.</strong> En el verano y el otoño los legisladores deciden qué proyectos van a patrocinar. Están en casa y es fácil comunicarse con ellos.</li>
-    <li><strong>El presidente del comité.</strong> Un proyecto que nunca tiene audiencia nunca llega a votación. Si usted quiere que un proyecto se escuche, o que no se escuche, el presidente es quien decide.</li>
+    <li><strong>El presidente del comité.</strong> Un proyecto que nunca tiene audiencia nunca llega a votación. Si usted quiere que un proyecto reciba audiencia, o que no la reciba, el presidente es quien decide.</li>
     <li><strong>La audiencia del comité.</strong> Es el único paso con testimonio del público. Vea <a href="weigh-in-on-a-state-bill.html">cómo opinar sobre un proyecto de ley estatal</a>.</li>
     <li><strong>Sus tres legisladores,</strong> antes de la votación en el pleno.</li>
     <li><strong>La oficina del Gobernador,</strong> una vez que el proyecto pasó por ambas cámaras.</li>
@@ -552,7 +580,7 @@ G["weigh-in-on-a-state-bill"] = dict(
   <h2>2. Dé su testimonio en la audiencia del comité</h2>
   <p>La audiencia del comité es el único momento en que habla el público.</p>
   <ol>
-    <li><strong>Encuentre la audiencia.</strong> Cada comité publica una agenda con los proyectos que va a escuchar. Las agendas están en el sitio web de la Legislatura y en el <a href="../index.html?cat=legislature">calendario</a>.</li>
+    <li><strong>Encuentre la audiencia.</strong> Cada comité publica una agenda con los proyectos que va a tratar en audiencia. Las agendas están en el sitio web de la Legislatura y en el <a href="../index.html?cat=legislature">calendario</a>.</li>
     <li><strong>Inscríbase.</strong> La agenda y la página web del comité tienen un enlace a un formulario de inscripción para dar testimonio (en inglés). Le pedirán su nombre, su dirección, el grupo que representa si es el caso, si está a favor o en contra, y si estará en persona o a distancia.</li>
     <li><strong>El testimonio a distancia depende del comité.</strong> La mayoría de los presidentes de comité permiten testimonio por video o por teléfono, pero no todos, y no en todas las reuniones. El formulario de inscripción indica si se ofrece.</li>
     <li><strong>Cuente con dos o tres minutos.</strong> El presidente pone el límite de tiempo y puede limitar el total de testimonios. Inscribirse no garantiza que le llamen.</li>
@@ -625,7 +653,7 @@ G["state-budgets"] = dict(
 """,
     sources=[("https://dfm.idaho.gov/citizens/budget-process/", "El proceso del presupuesto, División de Administración Financiera de Idaho (en inglés)"),
              ("https://legislature.idaho.gov/lso/bpa/process/", "El proceso del presupuesto y las leyes que lo rigen, Oficina de Servicios Legislativos de Idaho (en inglés)"),
-             ("https://legislature.idaho.gov/sessioninfo/2026/joint/jfac", "Comité Conjunto de Finanzas y Asignaciones (JFAC), Legislatura de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/committees/joint-standing/", "Comités conjuntos permanentes, incluido el Comité Conjunto de Finanzas y Asignaciones (JFAC), Legislatura de Idaho (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idconst/", "Constitución de Idaho, Artículo VII, Legislatura de Idaho (en inglés)")])
 
 G["boards-and-commissions"] = dict(
@@ -753,8 +781,8 @@ G["state-agencies"] = dict(
   <h2>Escuelas y seguridad pública</h2>
   <ul>
     <li><strong>Escuelas de kínder a 12.º grado:</strong> primero su distrito escolar local, y luego el <a href="https://www.sde.idaho.gov/" rel="noopener">State Department of Education</a> (Departamento de Educación del Estado).</li>
-    <li><strong>Colegios y universidades:</strong> la <a href="https://boardofed.idaho.gov/" rel="noopener">State Board of Education</a> (Junta de Educación del Estado).</li>
-    <li><strong>Prisiones estatales, libertad a prueba y libertad condicional (probation y parole):</strong> <a href="https://www.idoc.idaho.gov/" rel="noopener">Department of Correction</a> (Departamento de Corrección). Las cárceles del condado las maneja el alguacil.</li>
+    <li><strong>Universidades y colegios comunitarios:</strong> la <a href="https://boardofed.idaho.gov/" rel="noopener">State Board of Education</a> (Junta de Educación del Estado).</li>
+    <li><strong>Prisiones estatales, libertad a prueba y libertad condicional (probation y parole):</strong> <a href="https://www.idoc.idaho.gov/" rel="noopener">Department of Correction</a> (Departamento Correccional). Las cárceles del condado las maneja el alguacil.</li>
     <li><strong>Carreteras estatales y patrulla de caminos:</strong> el Departamento de Transporte y la <a href="https://isp.idaho.gov/" rel="noopener">Idaho State Police</a> (Policía Estatal de Idaho).</li>
   </ul>
 
@@ -772,7 +800,7 @@ G["state-agencies"] = dict(
 """,
     sources=[("https://www.idaho.gov/", "Idaho.gov, el sitio web oficial del estado y su directorio de agencias (en inglés)"),
              ("https://gov.idaho.gov/contact/contact-us/", "Contacte a la oficina del Gobernador (en inglés)"),
-             ("https://www.ag.idaho.gov/content/uploads/2022/01/Public-Records-Law-Jan-2022.pdf", "Manual de la Ley de Registros Públicos de Idaho, Fiscal General de Idaho (en inglés)")])
+             (PRM, "Manual de la Ley de Registros Públicos de Idaho, julio de 2026, Fiscal General de Idaho (en inglés)")])
 
 G["running-for-office"] = dict(
     cat="Estado", title="Cómo postularse a un cargo público",
@@ -790,13 +818,14 @@ G["running-for-office"] = dict(
 
   <h2>Quién puede postularse</h2>
   <p>Para la mayoría de los cargos, debe ser un votante registrado que vive en el distrito que quiere representar. Algunos cargos tienen requisitos adicionales: los legisladores deben haber vivido en su distrito por un año, el Gobernador debe tener por lo menos 30 años, y los fiscales y jueces deben ser abogados. Las páginas para candidatos de la Secretaría de Estado de Idaho (Secretary of State), en inglés, explican las reglas de cada cargo.</p>
+  <p>Un votante registrado es un ciudadano de EE. UU. de por lo menos 18 años que ha vivido en Idaho y en el condado por lo menos 30 días y se ha registrado (Código de Idaho § 34-402). Los residentes permanentes (green card) y otras personas que no son ciudadanas no pueden registrarse, así que no pueden votar, firmar peticiones ni postularse a estos cargos.</p>
 
   <h2>Registrar su candidatura</h2>
   <ul>
     <li><strong>Dónde:</strong> los candidatos a cargos federales, estatales, legislativos y judiciales se registran con el Secretario de Estado. Los candidatos del condado se registran con el secretario del condado, los de la ciudad con el secretario municipal, y los de distritos con el distrito o con el secretario del condado.</li>
     <li><strong>Cuándo:</strong> para la primaria de mayo, el período de registro dura unas dos semanas, a finales de febrero y principios de marzo. Los candidatos a la ciudad y a la junta escolar se registran a finales del verano de los años impares. Las fechas exactas se fijan en cada ciclo, y la fecha límite no se mueve.</li>
     <li><strong>Cuota o firmas:</strong> para la mayoría de los cargos con partido, puede pagar una cuota de registro o entregar firmas en una petición. En 2026 la cuota fue de $30 para la Legislatura y $40 para comisionado del condado, o 50 y 5 firmas. Los candidatos independientes deben registrarse por petición.</li>
-    <li><strong>Los candidatos por escrito (write-in)</strong> deben presentar una declaración de intención, o sus votos no se cuentan.</li>
+    <li><strong>Los candidatos no inscritos en la boleta, cuyo nombre el votante escribe a mano (write-in),</strong> deben presentar una declaración de intención, o sus votos no se cuentan.</li>
   </ul>
 
   <h2>Las primarias de los partidos</h2>
@@ -805,7 +834,9 @@ G["running-for-office"] = dict(
   <h2>El dinero</h2>
   <ul>
     <li><strong>Lleve cuenta de todo desde el primer día,</strong> incluido su propio dinero.</li>
-    <li><strong>Nombre a un tesorero de campaña (political treasurer).</strong> La Secretaría de Estado lo exige, y también exige informes, en cuanto usted recauda o gasta $500. Usted puede ser su propio tesorero.</li>
+    <li><strong>Nombre a un tesorero de campaña (political treasurer) antes de recibir o gastar dinero.</strong> Todo candidato debe nombrar a un tesorero y darle el nombre y la dirección del tesorero a la Secretaría de Estado antes de recibir una contribución o hacer un gasto (Código de Idaho § 67-6603). Usted puede ser su propio tesorero.</li>
+    <li><strong>Abra una cuenta bancaria aparte para la campaña.</strong> Desde el 1 de julio de 2026 (proyecto de ley H 930), el dinero de la campaña tiene que estar en su propia cuenta de cheques y no se puede mezclar con ningún otro dinero. Si usted le presta a su campaña más de $1,000 de su propio dinero, el préstamo tiene que depositarse en esa cuenta y reportarse. El dinero de la campaña solo se puede invertir en cuentas de efectivo, como certificados de depósito (CDs) o cuentas del mercado monetario (money market), no en acciones.</li>
+    <li><strong>Sepa cuándo empiezan los informes.</strong> Los candidatos a cargos judiciales y locales no tienen que presentar informes hasta que recauden o gasten $500 (Código de Idaho § 67-6608). Los demás candidatos no tienen ese mínimo. Un grupo que recibe y gasta más de $1,000 en un año para apoyar o atacar a candidatos o medidas es un comité político, con su propio tesorero y sus propios informes (Código de Idaho § 67-6602).</li>
     <li><strong>Presente sus informes en línea</strong> en el Sunshine Portal de la Secretaría de Estado (en inglés), para cargos de cualquier nivel.</li>
     <li><strong>Conozca los límites.</strong> Las guías de la Secretaría de Estado indican $1,000 por donante por elección para cargos legislativos y $5,000 para cargos estatales. Confirme las cifras actuales antes de recaudar dinero.</li>
   </ul>
@@ -822,6 +853,9 @@ G["running-for-office"] = dict(
              ("https://voteidaho.gov/candidate-filing/", "Registro de candidatos, Secretaría de Estado de Idaho (en inglés)"),
              ("https://voteidaho.gov/county-clerk/", "Oficinas de elecciones de los condados, Secretaría de Estado de Idaho (en inglés)"),
              ("https://archive.voteidaho.gov/download/cf_guide_local.pdf", "Guía de finanzas de campaña para candidatos a cargos locales, Secretaría de Estado de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH66/SECT67-6603/", "Código de Idaho § 67-6603, el tesorero de campaña, Legislatura de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH66/SECT67-6608/", "Código de Idaho § 67-6608, el mínimo de $500 para candidatos judiciales y locales, Legislatura de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/sessioninfo/2026/legislation/H0930", "Proyecto de ley H 930 (2026), cuentas de campaña y préstamos del candidato, Legislatura de Idaho (en inglés)"),
              ("https://sunshine.voteidaho.gov/", "Sunshine Portal, Secretaría de Estado de Idaho (en inglés)")])
 
 G["state-initiatives"] = dict(
@@ -838,7 +872,7 @@ G["state-initiatives"] = dict(
   <h2>Cuántas firmas</h2>
   <ul>
     <li><strong>El seis por ciento de los votantes registrados en todo el estado,</strong> contados a la fecha de la última elección general.</li>
-    <li><strong>Y el seis por ciento en cada uno de por lo menos 18 de los 35 distritos legislativos.</strong> Las firmas de Boise solas no bastan para calificar una medida.</li>
+    <li><strong>Y el seis por ciento en cada uno de por lo menos 18 de los 35 distritos legislativos.</strong> Las firmas de Boise solas no bastan para que una medida llegue a la boleta.</li>
   </ul>
   <p>La Secretaría de Estado de Idaho (Secretary of State) publica las cifras exactas de cada ciclo. Las campañas juntan mucho más que el mínimo, porque los secretarios (clerks) de los condados descartan las firmas que no coinciden con un votante registrado en esa dirección.</p>
 
@@ -855,7 +889,7 @@ G["state-initiatives"] = dict(
   <h2>Si le piden que firme</h2>
   <ul>
     <li><strong>Puede leerla primero.</strong> La persona que recolecta firmas debe mostrarle los títulos de la boleta y ofrecerle una copia de la medida y del resumen de su impacto fiscal.</li>
-    <li><strong>Debe ser un votante registrado,</strong> y firma con su propio nombre y dirección.</li>
+    <li><strong>Debe ser un votante calificado:</strong> ciudadano de EE. UU., de por lo menos 18 años, que ha vivido en Idaho y en su condado por lo menos 30 días y está registrado para votar (Código de Idaho § 34-402). Los residentes permanentes (green card) y otras personas que no son ciudadanas no pueden firmar. Usted firma con su propio nombre y dirección.</li>
     <li><strong>Puede cambiar de opinión.</strong> Puede quitar su nombre antes de que la petición llegue al secretario del condado, o pedírselo por escrito al secretario antes de que se verifiquen las firmas.</li>
     <li><strong>Firmar no es votar.</strong> Solo dice que la pregunta debe estar en la boleta.</li>
   </ul>
@@ -878,6 +912,7 @@ G["state-initiatives"] = dict(
     sources=[("https://voteidaho.gov/initiative-filing-requirements/", "Requisitos para presentar una iniciativa, Secretaría de Estado de Idaho (en inglés)"),
              ("https://voteidaho.gov/?p=3109", "Iniciativas y enmiendas, actuales y pasadas, Secretaría de Estado de Idaho (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/", "Código de Idaho, Título 34, Capítulo 18: Elecciones de iniciativa y referendo, Legislatura de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/title34/t34ch4/sect34-402", "Código de Idaho § 34-402, quién puede votar, Legislatura de Idaho (en inglés)"),
              ("https://legislature.idaho.gov/statutesrules/idconst/", "Constitución de Idaho, Artículo III, Sección 1 y Artículo XX, Legislatura de Idaho (en inglés)")])
 
 G["federal-offices"] = dict(
@@ -955,13 +990,14 @@ G["courts"] = dict(
     <li><strong>Observar.</strong> Las audiencias en las cortes están abiertas al público, con pocas excepciones, como los casos de menores.</li>
     <li><strong>Buscar un caso.</strong> El iCourt Portal de Idaho (en inglés) tiene los expedientes públicos de los casos de todos los condados.</li>
     <li><strong>Recibir ayuda sin abogado.</strong> La Court Assistance Office (Oficina de Asistencia de la Corte) ofrece formularios y orientación a las personas que se representan a sí mismas, con una oficina en la mayoría de los juzgados. Puede preguntar en la corte si hay un intérprete disponible.</li>
-    <li><strong>Servir como jurado.</strong> Los nombres se sacan de las listas de registro de votantes y de licencias de manejo. Su empleador no lo puede despedir por servir.</li>
-    <li><strong>Votar.</strong> Los jueces aparecen en su boleta. Las elecciones con más de un candidato son raras, y por eso las que hay importan más.</li>
+    <li><strong>Servir como jurado.</strong> Los nombres se sacan de las listas de registro de votantes y de licencias de manejo. Para ser jurado hay que ser ciudadano de EE. UU., tener por lo menos 18 años y vivir en el condado (Código de Idaho § 2-209). Como las listas de licencias de manejo incluyen a personas que no son ciudadanas, alguien que no es ciudadano puede recibir una citación. No la ignore: responda a la corte e indique que no es ciudadano de EE. UU. Su empleador no puede despedirle por servir.</li>
+    <li><strong>Votar.</strong> Los jueces aparecen en su boleta. Las elecciones con más de un candidato son raras, y por eso las que hay importan más. Solo los ciudadanos de EE. UU. de 18 años o más que estén registrados pueden votar en Idaho (Código de Idaho § 34-402).</li>
   </ul>
 """,
     sources=[("https://isc.idaho.gov/about-the-courts", "Acerca de las cortes, Corte Suprema de Idaho (en inglés)"),
              ("https://archive.sos.idaho.gov/blue_book/blue_book_2025-2026.pdf", "The Blue Book of Idaho, 2025-2026, sección del poder judicial, Secretaría de Estado de Idaho (en inglés)"),
              ("https://courtselfhelp.idaho.gov/", "Court Assistance Office (Oficina de Asistencia de la Corte), Corte Suprema de Idaho (en inglés)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title2/T2CH2/SECT2-209", "Código de Idaho § 2-209, requisitos para ser jurado, Legislatura de Idaho (en inglés)"),
              ("https://www.uscourts.gov/about-federal-courts", "Acerca de las cortes federales, United States Courts (en inglés)")])
 
 G["constitution"] = dict(
