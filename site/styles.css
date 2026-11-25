@@ -16,7 +16,7 @@
   --wheat: #F3E3C8; --wheat-light: #F6EBDA; --tan: #B8874A; --tan-light: #D8BE98; --cream: #FBF6EE;
 
   --ground: var(--cream); --ink: #2E1D1A; --petrol: var(--garnet); --muted: rgb(74 40 34 / 0.75);
-  --line: rgb(184 135 74 / 0.35); --chip-line: #C9A57A; --tint: var(--wheat-light); --card: #FFFFFF;
+  --line: rgb(184 135 74 / 0.35); --chip-line: #A87A41; --tint: var(--wheat-light); --card: #FFFFFF;
   --accent: var(--garnet); --accent-soft: var(--wheat-light); --accent-ink: var(--garnet-dark);
   --alert-soft: var(--garnet-light); --alert-ink: var(--garnet);
   --focus: var(--garnet-medium);
