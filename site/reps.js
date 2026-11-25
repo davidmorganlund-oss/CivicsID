@@ -55,7 +55,10 @@
       usRep: 'U.S. Representative', noUsRep: 'No representative listed.', usSens: 'U.S. Senators', noUsSens: 'No senators listed.',
       tooShort: 'Enter a street address with a city or ZIP code, like 700 W Jefferson St, Boise.',
       looking: 'Looking up your districts…',
-      notFound: 'We could not find that address. Check the spelling, include the city or ZIP code, and leave off apartment numbers.',
+      notFound: 'We could not find that address. Check the street number and the ZIP code, and leave off apartment numbers. If it still doesn’t work, try a nearby street address. Some government buildings aren’t in the Census Bureau’s address list.',
+      termBefore: 'New state legislators take office December 1, 2026. County officers elected in November take office January 11, 2027. Until those dates, the people now in office are still serving.',
+      termLegDone: 'New state legislators took office December 1, 2026. Our list can lag by a few weeks, so confirm names with the Legislature. County officers elected in November take office January 11, 2027.',
+      termCountyDone: 'County officers elected in November took office January 11, 2027. The county names on this page come from the 2025–2026 Blue Book until we update them, so confirm with the county before you call.',
       down: 'The address lookup is not responding right now. You can use the Legislature’s ', downEnd: ' page instead.',
       party: {}, office: {},
       dEyebrow: 'Your districts', dTitle: 'Every district you live in',
@@ -91,7 +94,10 @@
       usRep: 'Representante federal', noUsRep: 'No hay representante en la lista.', usSens: 'Senadores federales', noUsSens: 'No hay senadores en la lista.',
       tooShort: 'Escriba una dirección con la ciudad o el código postal, como 700 W Jefferson St, Boise.',
       looking: 'Buscando sus distritos…',
-      notFound: 'No pudimos encontrar esa dirección. Revise la ortografía, incluya la ciudad o el código postal y omita el número de apartamento.',
+      notFound: 'No pudimos encontrar esa dirección. Revise el número de la calle y el código postal, y omita el número de apartamento. Si aún no funciona, pruebe con una dirección cercana. Algunos edificios de gobierno no están en la lista de direcciones de la Oficina del Censo.',
+      termBefore: 'Los legisladores estatales nuevos asumen el cargo el 1 de diciembre de 2026. Los funcionarios del condado elegidos en noviembre asumen el cargo el 11 de enero de 2027. Hasta esas fechas, siguen en funciones quienes ocupan los cargos ahora.',
+      termLegDone: 'Los legisladores estatales nuevos asumieron el cargo el 1 de diciembre de 2026. Nuestra lista puede tardar unas semanas en actualizarse, así que confirme los nombres con la Legislatura. Los funcionarios del condado elegidos en noviembre asumen el cargo el 11 de enero de 2027.',
+      termCountyDone: 'Los funcionarios del condado elegidos en noviembre asumieron el cargo el 11 de enero de 2027. Los nombres del condado en esta página vienen del Blue Book 2025–2026 hasta que los actualicemos, así que confirme con el condado antes de llamar.',
       down: 'La búsqueda de direcciones no responde en este momento. Puede usar la página de la Legislatura ', downEnd: '.',
       party: { Republican: 'Partido Republicano', Democrat: 'Partido Demócrata', Independent: 'Independiente' },
       office: { Assessor: 'Tasador(a)', Clerk: 'Secretario(a) del condado', Coroner: 'Forense del condado (coroner)', Prosecutor: 'Fiscal', Sheriff: 'Sheriff', Treasurer: 'Tesorero(a)' },
@@ -105,6 +111,32 @@
       dMissing: 'No aparecen aquí: distritos de comisionados del condado, distritos del concejo municipal, precintos electorales, subdistritos de carreteras, distritos de riego y distritos de conservación de suelos y agua. La secretaría del condado puede indicárselos.'
     }
   }[LANG];
+
+  // Swearing-in days after the 2026 election. From election day until a few
+  // weeks after the last one, a note above the results names the dates.
+  // Update after each general election: legislators take office December 1,
+  // county officers are sworn in on the second Monday of January (Idaho Code 59-404).
+  var TERMS = { election: '2026-11-03', legislature: '2026-12-01', county: '2027-01-11', until: '2027-02-08' };
+
+  function boiseToday() {
+    try { return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Boise' }); } catch (e) {}
+    var d = new Date();
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
+
+  function termNote(today) {
+    if (today < TERMS.election || today >= TERMS.until) return '';
+    if (today < TERMS.legislature) return S.termBefore;
+    if (today < TERMS.county) return S.termLegDone;
+    return S.termCountyDone;
+  }
+
+  // Ten-digit U.S. numbers read as (208) 332-1075; anything else stays as it is.
+  function fmtPhone(s) {
+    var d = String(s).replace(/\D/g, '');
+    if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
+    return d.length === 10 ? '(' + d.slice(0, 3) + ') ' + d.slice(3, 6) + '-' + d.slice(6) : s;
+  }
 
   var officials = null;
   var localData = null;
@@ -207,7 +239,7 @@
     if (p.seat) li.appendChild(el('span', 'muted', ' · ' + S.seat + p.seat));
     if (p.party) li.appendChild(el('span', 'muted', ' · ' + (S.party[p.party] || p.party)));
     var contact = el('div', 'contact');
-    if (p.phone) contact.appendChild(link('tel:' + p.phone.replace(/[^\d+]/g, ''), p.phone));
+    if (p.phone) contact.appendChild(link('tel:' + p.phone.replace(/[^\d+]/g, ''), fmtPhone(p.phone)));
     if (p.email) contact.appendChild(link('mailto:' + p.email, p.email));
     if (safeUrl(p.url)) contact.appendChild(link(p.url, S.website));
     if (contact.children.length) li.appendChild(contact);
@@ -370,6 +402,13 @@
     fed.appendChild(el('h4', null, S.usSens));
     people(fed, congress.senators, S.noUsSens);
     out.appendChild(fed);
+  }
+
+  var note = termNote(boiseToday());
+  if (note) {
+    var termP = el('p', 'term-note', note);
+    termP.setAttribute('role', 'note');
+    $('results').parentNode.insertBefore(termP, $('results'));
   }
 
   $('lookup').addEventListener('submit', function (ev) {
