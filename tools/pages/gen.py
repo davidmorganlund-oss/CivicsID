@@ -51,13 +51,13 @@ def head(title, up, desc, share=None, lang="en", scripts=""):
 <body>'''
 
 
-NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", "My reps", "Main"),
-       "es": ("Calendario comunitario", "Calendario", "Participa", "Mis representantes", "Mis reps", "Principal")}
+NAV = {"en": ("Community Calendar", "Calendar", "Engage", "My representatives", "My reps", "Main", "Legislature", "Legislature"),
+       "es": ("Calendario comunitario", "Calendario", "Participe", "Mis representantes", "Mis reps", "Principal", "Legislatura (en inglés)", "Legislatura")}
 
 
 def top(up, current, lang="en", alt=None, reps_up=None):
     """alt: link to this page in the other language."""
-    cal, cal_s, eng, reps, reps_s, main = NAV[lang]
+    cal, cal_s, eng, reps, reps_s, main, leg, leg_s = NAV[lang]
     notice = NOTICE if lang == "en" else '<aside class="notice" aria-label="Acerca de CivicsID">Un proyecto de BarNone, una organización sin fines de lucro. No está afiliado a ninguna agencia de gobierno.</aside>'
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
@@ -67,6 +67,10 @@ def top(up, current, lang="en", alt=None, reps_up=None):
         return f'    <a href="{up}{href}"{cur}>{label}</a>'
     reps_href = (reps_up or up) + "reps.html"
     reps_link = a("reps.html", reps, "reps", reps_s).replace(f'href="{up}reps.html"', f'href="{reps_href}"')
+    # The Legislature page is English only; Spanish pages link to it from /es/.
+    leg_link = a("legislature.html", leg, "legislature", leg_s if leg_s != leg else None)
+    if lang == "es":
+        leg_link = leg_link.replace(f'href="{up}legislature.html"', f'href="{up}../legislature.html" hreflang="en"')
     return f'''{notice}
 
 <header class="top"><div class="wrap">
@@ -74,6 +78,7 @@ def top(up, current, lang="en", alt=None, reps_up=None):
   <nav aria-label="{main}">
 {a("index.html", cal, "calendar", cal_s)}
 {a("engage.html", eng, "engage")}
+{leg_link}
 {reps_link}
   </nav>
 </div></header>'''
@@ -83,8 +88,57 @@ def footer(up, first):
     return f'''<footer><div class="wrap">
   <p>{first}</p>
   {BY.format(up=up)}
-  <p class="footer-links"><a href="mailto:{REPORT}?subject=CivicsID%3A%20report%20a%20problem">Report a problem or a missing meeting</a> · <a href="{up}privacy.html">Privacy</a></p>
+  <p class="footer-links"><a href="{up}about.html">About</a> · <a href="{up}privacy.html">Privacy</a> · <a href="{up}about.html#accessibility">Accessibility</a> · <a href="mailto:{REPORT}?subject=CivicsID%3A%20report%20a%20problem">Report a problem or a missing meeting</a></p>
 </div></footer>'''
+
+
+# Search and share descriptions for guides whose lede runs past 160 characters,
+# so search results don't cut them off mid-sentence. The lede stays on the page.
+DESC = {
+    "local-government": "Most of the government you deal with day to day is local: your county, your city, your school district and special districts. Here is how they work.",
+    "speak-at-a-public-meeting": "City councils, county commissioners, school boards and highway districts make most local decisions. What Idaho law gives you, and how to use two minutes well.",
+    "local-ballot-measures": "Bonds, levies and local initiatives put taxing and spending decisions in front of voters. Idaho sets some of the highest bars in the country to pass them.",
+    "two-minute-pitch": "Public comment, a talk with a legislator, a meeting with a commissioner: most chances to make your case last about two minutes. Here is how to use them.",
+    "legislature": "105 part-time legislators write Idaho's laws and budget in about three months each winter. Who they are, how the session runs, and where your voice counts.",
+    "state-budgets": "Idaho passes a separate spending bill for each agency, all written by one committee. Here is the yearly budget cycle and when each part is open to you.",
+    "boards-and-commissions": "Boards of residents make or shape hundreds of Idaho decisions, from zoning to licenses to hunting seasons. Most seats are appointed, and many go unfilled.",
+    "state-initiatives": "Idaho voters can write state laws and overturn laws the Legislature passes. The signature rules are among the toughest in the West. Here is how each path works.",
+    "courts": "Most people meet the courts through a traffic ticket, a family matter, a small claim or jury duty. Here is how Idaho's courts and the federal courts are set up.",
+    "federal-agencies": "When a federal agency is stuck, slow or about to decide something that affects you, there are ways through. In Idaho, with so much federal land, it's common.",
+    "federal-budget": "The federal budget funds national forests, highways, veterans' care and the Idaho National Laboratory. Here is how it gets made and where public input fits.",
+    "public-records-requests": "Most of what Idaho governments write down belongs to the public. How to ask for records, what it costs, how fast they must answer, and what to do about a no.",
+    "open-meeting-law": "When a public body meets on public business, Idaho law says you get to see it. What that guarantees, what it doesn't, and what to do when a body breaks it.",
+}
+DESC_ES = {
+    "speak-at-a-public-meeting": "Concejos, comisionados del condado, juntas escolares y distritos de carreteras deciden mucho. Lo que la ley de Idaho le garantiza y cómo aprovechar dos minutos.",
+    "open-meeting-law": "Cuando un órgano público se reúne para decidir asuntos públicos, la ley de Idaho dice que usted puede verlo. Qué garantiza, qué no y qué hacer si no se cumple.",
+    "public-records-requests": "Casi todo lo que escriben los gobiernos de Idaho es público. Cómo pedir registros, cuánto cuestan, cuándo deben responder y qué hacer si le dicen que no.",
+    "local-government": "Casi todo el gobierno con el que usted trata es local: su condado, su ciudad, su distrito escolar y algunos distritos especiales. Así funciona cada uno.",
+    "local-ballot-measures": "Los bonos, los impuestos (levies) y las iniciativas locales se deciden en las urnas. Idaho tiene algunos de los requisitos más altos del país para aprobarlos.",
+    "two-minute-pitch": "Un comentario público, una charla con un legislador, una reunión con un comisionado: casi todas las oportunidades de defender su causa duran dos minutos.",
+    "media-literacy": "Antes de compartir algo o ir a una reunión, vale la pena saber si lo que leyó es cierto. Estos hábitos toman un minuto y detectan la mayoría de los problemas.",
+    "legislature": "Ciento cinco legisladores de medio tiempo escriben las leyes y el presupuesto de Idaho cada invierno. Quiénes son, cómo es la sesión y dónde cuenta su voz.",
+    "weigh-in-on-a-state-bill": "La sesión legislativa de Idaho es corta y las audiencias se programan rápido. Cuatro maneras de decirle a la Legislatura lo que piensa, y los plazos clave.",
+    "state-budgets": "Idaho aprueba un proyecto de gastos aparte para cada agencia, y todos los escribe un solo comité. Este es el ciclo de cada año y cuándo puede participar usted.",
+    "boards-and-commissions": "Juntas de residentes toman o influyen cientos de decisiones en Idaho, desde la zonificación hasta las temporadas de caza. Muchos puestos se quedan vacíos.",
+    "campaign-finance": "La Ley Sunshine de Idaho obliga a candidatos, comités políticos y cabilderos a reportar de dónde viene su dinero y a dónde va. Todo se puede buscar en línea.",
+    "running-for-office": "Idaho tiene miles de cargos electos, muchos sin competencia. Qué cargos se eligen y cuándo, cómo registrar su candidatura y las reglas sobre el dinero.",
+    "state-initiatives": "Los votantes de Idaho pueden escribir leyes estatales y anular leyes de la Legislatura. Las reglas sobre firmas están entre las más estrictas del Oeste.",
+    "courts": "Casi todos llegan a la corte por una multa, un asunto familiar, un reclamo menor o el servicio de jurado. Así se organizan las cortes de Idaho y las federales.",
+    "federal-agencies": "Si un trámite con una agencia federal está detenido o va lento, hay maneras de avanzar. En Idaho, con tanta tierra federal, pasa a menudo.",
+    "federal-budget": "El presupuesto federal paga bosques nacionales, carreteras, la atención a veteranos y el Laboratorio Nacional de Idaho. Así se hace y dónde opina el público.",
+}
+# Shorter browser-tab titles for Spanish guides whose full title runs long. The page heading keeps the full title.
+TITLE_ES = {
+    "media-literacy": "Cómo distinguir la buena información de la mala",
+    "problem-to-policy": "De un problema personal a una política pública",
+    "two-minute-pitch": "Prepare una presentación de dos minutos",
+}
+for _d in (DESC, DESC_ES):
+    for _k, _v in _d.items():
+        assert len(_v) <= 160, (_k, len(_v))
+for _k, _v in TITLE_ES.items():
+    assert len(_v + " | CivicsID") <= 60, (_k, len(_v))
 
 
 # ---------- guides ----------
@@ -92,7 +146,7 @@ ALL = {**guides_a.G, **guides_b.G, **guides_c.G}
 for slug, g in ALL.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     script = '\n<script src="../local.js"></script>' if 'class="near-you"' in g["body"] else ""
-    page = f'''{head(g["title"] + " | CivicsID", "../", g["lede"])}
+    page = f'''{head(g["title"] + " | CivicsID", "../", DESC.get(slug, g["lede"]))}
 <a class="skip" href="#guide">Skip to guide</a>
 {top("../", "engage", alt=("../es/guides/" + slug + ".html") if slug in guides_es.G else "../es/engage.html")}
 
@@ -259,7 +313,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 ''')
 
 # ---------- representatives ----------
-(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsID", "", "Enter an Idaho street address to see every district you live in, your state legislators and members of Congress, plus where to find your city and county officials.", scripts=REPS_SCRIPTS)}
+(SITE / "reps.html").write_text(f'''{head("Who represents you | CivicsID", "", "Enter an Idaho street address to see every district you live in, your state legislators and members of Congress, and where to find city and county officials.", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Skip to results</a>
 {top("", "reps", alt="es/reps.html")}
 
@@ -283,7 +337,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
   <p class="muted" style="margin-top: 24px">Not sure what to say once you have a name? Read <a href="guides/contact-your-representatives.html">how to contact the people who represent you</a>.</p>
 </main>
 
-{footer("", "State legislators come from Open States, a public roster built from the Idaho Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover all 44 counties where we could confirm a website, and city links cover some of Idaho's larger cities.")}
+{footer("", "State legislators come from Open States, a public roster built from the Idaho Legislature's member pages, and members of Congress from a public roster. Both are refreshed nightly. County links cover 43 of Idaho's 44 counties (we could not confirm a website for Benewah County). City links cover 198 cities, using the state's directory of city clerks where a city has no website of its own.")}
 
 <script src="local.js"></script>
 <script src="districts.js"></script>
@@ -295,7 +349,7 @@ print(len(ALL), "guides written")
 
 (SITE / "legislature.html").write_text(f'''{head("The Idaho Legislature, day by day | CivicsID", "", "Every Idaho Legislature committee meeting coming up, with agendas, the bills on them, and how to testify in person or remotely.", "The Idaho Legislature, day by day")}
 <a class="skip" href="#hearings">Skip to hearings</a>
-{top("", "calendar")}
+{top("", "legislature", alt="es/index.html")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Idaho Legislature</p>
@@ -359,19 +413,19 @@ def footer_es(up, first):
     return f'''<footer><div class="wrap">
   <p>{first}</p>
   {FOOT_ES.format(up=up)}
-  <p class="footer-links"><a href="mailto:{REPORT}?subject=CivicsID%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a> · <a href="{up}es/privacy.html">Privacidad</a></p>
+  <p class="footer-links"><a href="{up}es/about.html">Acerca de CivicsID</a> · <a href="{up}es/privacy.html">Privacidad</a> · <a href="{up}es/about.html#accesibilidad">Accesibilidad</a> · <a href="mailto:{REPORT}?subject=CivicsID%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a></p>
 </div></footer>'''
 
 
 for slug, g in guides_es.G.items():
     sources = "\n".join(f'    <li><a href="{html.escape(u, quote=True)}" rel="noopener">{html.escape(t)}</a></li>' for u, t in g["sources"])
     script = '\n<script src="../../local.js"></script>' if 'class="near-you"' in g["body"] else ""
-    (ES / "guides" / f"{slug}.html").write_text(f'''{head(g["title"] + " | CivicsID", "../../", g["lede"], lang="es")}
+    (ES / "guides" / f"{slug}.html").write_text(f'''{head(TITLE_ES.get(slug, g["title"]) + " | CivicsID", "../../", DESC_ES.get(slug, g["lede"]), lang="es")}
 <a class="skip" href="#guide">Ir a la guía</a>
 {top("../", "engage", lang="es", alt="../../guides/" + slug + ".html")}
 
 <main class="wrap narrow guide" id="guide">
-  <p class="eyebrow"><a href="../engage.html">Participa</a> · {g["cat"]}</p>
+  <p class="eyebrow"><a href="../engage.html">Participe</a> · {g["cat"]}</p>
   <h1>{html.escape(g["title"])}</h1>
   <p class="lede">{html.escape(g["lede"])}</p>
 {g["body"].strip(chr(10))}
@@ -439,12 +493,12 @@ for i, (heading, items) in enumerate(ES_SECTIONS):
         rows.append(f'    <li><a href="{href}">{html.escape(label)}<span>{html.escape(blurb)}</span></a></li>')
     es_blocks.append(f'  <h2{style}>{heading}</h2>\n  <ul class="guide-links">\n' + "\n".join(rows) + "\n  </ul>")
 assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
-(ES / "engage.html").write_text(f'''{head("Participa | CivicsID", "../", "Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar.", lang="es")}
+(ES / "engage.html").write_text(f'''{head("Participe | CivicsID", "../", "Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar.", lang="es")}
 <a class="skip" href="#guides">Ir a las guías</a>
 {top("", "engage", lang="es", alt="../engage.html")}
 
 <section class="hero plain"><div class="wrap">
-  <h1>Participa: cómo tomar parte, desde su cuadra hasta el Congreso.</h1>
+  <h1>Participe: cómo tomar parte, desde su cuadra hasta el Congreso.</h1>
   <p class="lede">Guías en lenguaje sencillo sobre cómo funciona el gobierno en Idaho y dónde puede participar. Cada guía cita sus fuentes para que usted pueda verificarlas. Muchas de las páginas oficiales que citamos están solo en inglés.</p>
 </div></section>
 
@@ -457,7 +511,7 @@ assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
 </html>
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 
-(ES / "index.html").write_text(f'''{head("Participa en Idaho | CivicsID", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.", "Participa en Idaho: lo que su comunidad decide esta semana", lang="es")}
+(ES / "index.html").write_text(f'''{head("Participe en Idaho | CivicsID", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.", "Participe en Idaho: lo que su comunidad decide esta semana", lang="es")}
 <a class="skip" href="#events">Ir a las reuniones</a>
 {top("", "calendar", lang="es", alt="../index.html")}
 
@@ -509,8 +563,13 @@ assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
       <h2>Dos zonas horarias</h2>
       <p>Cada reunión aparece en su hora local: hora de la Montaña para casi todo Idaho, hora del Pacífico para el norte del estado.</p>
     </div>
+    <div class="card">
+      <h2>La Legislatura, día a día</h2>
+      <p>Las audiencias de los comités, con sus agendas y proyectos de ley, y cómo inscribirse para testificar. La sesión empieza el 11 de enero.</p>
+      <a class="link" href="../legislature.html" hreflang="en">Vea esta semana en el Capitolio (en inglés)</a>
+    </div>
     <div class="card warm">
-      <span class="eyebrow">Participa</span>
+      <span class="eyebrow">Participe</span>
       <h2>¿Primera vez en una reunión pública?</h2>
       <p>Lo que la ley de Idaho le permite, qué decir en dos minutos y qué pasa después.</p>
       <a class="link" href="guides/speak-at-a-public-meeting.html">Leer la guía</a>
@@ -586,7 +645,7 @@ PRIV_ES = """
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("privacy pages written")
 
-(ES / "reps.html").write_text(f'''{head("Quién le representa | CivicsID", "../", "Escriba una dirección de Idaho para ver todos los distritos donde vive, sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios de su ciudad y condado.", lang="es", scripts=REPS_SCRIPTS)}
+(ES / "reps.html").write_text(f'''{head("Quién le representa | CivicsID", "../", "Escriba una dirección de Idaho para ver sus distritos, sus legisladores estatales y miembros del Congreso, y dónde encontrar a los funcionarios locales.", lang="es", scripts=REPS_SCRIPTS)}
 <a class="skip" href="#results">Ir a los resultados</a>
 {top("", "reps", lang="es", alt="../reps.html")}
 
@@ -610,7 +669,7 @@ print("privacy pages written")
   <p class="muted" style="margin-top: 24px">¿No sabe qué decir cuando ya tiene un nombre? Lea <a href="guides/contact-your-representatives.html">cómo comunicarse con quienes le representan</a>.</p>
 </main>
 
-{footer_es("../", "Los legisladores estatales vienen de Open States, una lista pública basada en las páginas de miembros de la Legislatura de Idaho, y los miembros del Congreso de una lista pública. Ambas se actualizan cada noche. Los enlaces de condados cubren los 44 condados donde pudimos confirmar un sitio web, y los de ciudades cubren algunas de las ciudades más grandes de Idaho. Los sitios enlazados están en inglés.")}
+{footer_es("../", "Los legisladores estatales vienen de Open States, una lista pública basada en las páginas de miembros de la Legislatura de Idaho, y los miembros del Congreso de una lista pública. Ambas se actualizan cada noche. Los enlaces de condados cubren 43 de los 44 condados de Idaho (no pudimos confirmar un sitio web para el condado de Benewah). Los de ciudades cubren 198 ciudades, con el directorio estatal de secretarios municipales cuando una ciudad no tiene sitio web propio. Los sitios enlazados están en inglés.")}
 
 <script src="../local.js"></script>
 <script src="../districts.js"></script>
@@ -619,6 +678,76 @@ print("privacy pages written")
 </html>
 '''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
 print("Spanish reps page written")
+
+
+# ---------- About, with the accessibility statement (English and Spanish) ----------
+ABOUT_EN = """
+  <h2>Who runs it</h2>
+  <p>CivicsID is a service of BarNone, Inc., an independent nonprofit. It is not a government website. It is not affiliated with any government agency, and it does not speak for any public office. It doesn't take sides on candidates, parties, bills or ballot measures.</p>
+
+  <h2>Where the meetings come from</h2>
+  <p>Every listing comes from a public body's own published calendar: city and county meeting portals, school district and library board pages, and the Idaho Legislature's committee agendas. Each night, CivicsID reads those calendars and updates the site. Every meeting links back to the host's own page.</p>
+  <p>Some public bodies publish a regular schedule ("the first and third Monday at 5 p.m.") instead of a calendar. Those meetings are marked as coming from the host's regular schedule, because they can be cancelled or moved without the change reaching us.</p>
+
+  <h2>How current it is</h2>
+  <p>Listings refresh every night. <strong>Always confirm with the host before you go.</strong> Agendas, times and rooms change, sometimes the same day.</p>
+  <p>The guides are written in plain language and list their sources so you can check them yourself. They are general information, not legal advice.</p>
+
+  <h2>Found a mistake or a missing meeting?</h2>
+  <p><a class="link" href="mailto:{REPORT}?subject=CivicsID%3A%20report%20a%20problem">Report a problem or a missing meeting</a></p>
+  <p class="muted">Email {REPORT}. Tell us what's wrong and where, and include a link to the right information if you have one.</p>
+
+  <h2>Privacy</h2>
+  <p>CivicsID has no accounts, no ads, no cookies and no tracking. The county and city you pick are saved only in your own browser. <a href="{up}privacy.html">Read the privacy page</a>.</p>
+
+  <h2 id="accessibility">Accessibility</h2>
+  <p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1, level AA. Pages work with a keyboard and screen readers, text meets contrast standards, and the site works on phones. If something gets in your way, please <a href="mailto:{REPORT}?subject=CivicsID%3A%20accessibility">tell us</a> and we'll fix it.</p>
+"""
+ABOUT_ES = """
+  <h2>Quién lo administra</h2>
+  <p>CivicsID es un servicio de BarNone, Inc., una organización independiente sin fines de lucro. No es un sitio de gobierno. No está afiliado a ninguna agencia de gobierno y no habla en nombre de ningún cargo público. No toma partido sobre candidatos, partidos, proyectos de ley ni medidas en la boleta.</p>
+
+  <h2>De dónde vienen las reuniones</h2>
+  <p>Cada reunión viene del calendario que publica la propia entidad pública: los portales de reuniones de ciudades y condados, las páginas de las juntas escolares y de bibliotecas, y las agendas de los comités de la Legislatura de Idaho. Cada noche, CivicsID lee esos calendarios y actualiza el sitio. Cada reunión tiene un enlace a la página de la entidad.</p>
+  <p>Algunas entidades publican un calendario habitual ("el primer y el tercer lunes a las 5 p. m.") en lugar de un calendario de reuniones. Esas reuniones se marcan como tomadas del calendario habitual de la entidad, porque se pueden cancelar o mover sin que nos llegue el cambio.</p>
+
+  <h2>Qué tan actualizado está</h2>
+  <p>Las reuniones se actualizan cada noche. <strong>Siempre confirme con la entidad antes de ir.</strong> Las agendas, los horarios y las salas cambian, a veces el mismo día. Los nombres de las reuniones y las agendas vienen de cada entidad y están en inglés.</p>
+  <p>Las guías están escritas en lenguaje sencillo y citan sus fuentes para que usted pueda verificarlas. Son información general, no asesoría legal.</p>
+
+  <h2>¿Encontró un error o falta una reunión?</h2>
+  <p><a class="link" href="mailto:{REPORT}?subject=CivicsID%3A%20reportar%20un%20problema">Reportar un problema o una reunión que falta</a></p>
+  <p class="muted">Escriba a {REPORT}. Díganos qué está mal y dónde, e incluya un enlace a la información correcta si lo tiene. Puede escribir en español.</p>
+
+  <h2>Privacidad</h2>
+  <p>CivicsID no tiene cuentas, anuncios, cookies ni rastreo. El condado y la ciudad que elige se guardan solo en su propio navegador. <a href="{up}privacy.html">Lea la página de privacidad</a>.</p>
+
+  <h2 id="accesibilidad">Accesibilidad</h2>
+  <p>Buscamos cumplir con las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1, nivel AA. Las páginas funcionan con teclado y con lectores de pantalla, el texto cumple con los estándares de contraste y el sitio funciona en teléfonos. Si algo le impide usar el sitio, por favor <a href="mailto:{REPORT}?subject=CivicsID%3A%20accesibilidad">díganoslo</a> y lo corregiremos.</p>
+"""
+(SITE / "about.html").write_text(f'''{head("About | CivicsID", "", "Who runs CivicsID, where its meeting listings come from, how current they are, how to report a mistake, and our accessibility statement.")}
+<a class="skip" href="#about">Skip to content</a>
+{top("", "", alt="es/about.html")}
+<main class="wrap narrow guide" id="about">
+  <h1>About CivicsID</h1>
+{ABOUT_EN.format(REPORT=REPORT, up="")}
+</main>
+{footer("", "CivicsID is free to use and asks nothing of you.")}
+</body>
+</html>
+''')
+(ES / "about.html").write_text(f'''{head("Acerca de CivicsID | CivicsID", "../", "Quién administra CivicsID, de dónde vienen las reuniones, qué tan actualizadas están, cómo reportar un error y nuestra declaración de accesibilidad.", lang="es")}
+<a class="skip" href="#about">Ir al contenido</a>
+{top("", "", lang="es", alt="../about.html")}
+<main class="wrap narrow guide" id="about">
+  <h1>Acerca de CivicsID</h1>
+{ABOUT_ES.format(REPORT=REPORT, up="")}
+</main>
+{footer_es("../", "CivicsID es gratis y no le pide nada.")}
+</body>
+</html>
+'''.replace('href="styles.css"', 'href="../styles.css"').replace('src="barnone-phoenix.png"', 'src="../barnone-phoenix.png"'))
+print("about pages written")
 
 
 

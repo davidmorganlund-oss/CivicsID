@@ -140,7 +140,7 @@ G["speak-at-a-public-meeting"] = dict(
   <p>A decision made at a meeting that broke the Open Meetings Law can be thrown out. Tell the board in writing first: it then has 14 days to respond and can fix the problem by redoing the decision in the open. Complaints about local boards go to the county prosecuting attorney, and complaints about state boards go to the Attorney General. A person affected by the decision can also go to court, but only within 30 days.</p>
 """,
     sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH2/", "Idaho Code Title 74, Chapter 2, Open Meetings Law (Idaho Legislature)"),
-             ("https://ag.idaho.gov/content/uploads/2022/01/Open-Meeting-Law-Jan-2022.pdf", "Idaho Open Meeting Law Manual (Idaho Attorney General)"),
+             ("https://www.ag.idaho.gov/content/uploads/2026/07/OpenMeeting.pdf", "Idaho Open Meeting Law Manual, July 2026 (Idaho Attorney General)"),
              ("https://idcounties.org/wp-content/uploads/2025/10/Idaho-Open-Meeting-Law-2025.pdf", "Idaho Open Meeting Law, 2025 training summary (Idaho Association of Counties)")])
 
 G["your-neighborhood"] = dict(
@@ -159,7 +159,7 @@ G["your-neighborhood"] = dict(
   <h2>Find out what's planned</h2>
   <ul>
     <li><strong>Watch for land use notices.</strong> Rezones, subdivisions and special use permits require a public hearing. Notice is published, mailed to nearby property owners and usually posted on the property about two weeks ahead. If you get one, the hearing date on it is your chance to testify.</li>
-    <li><strong>Ask for records.</strong> Under Idaho's Public Records Act, anyone can ask a state or local agency for its records. The agency must grant or deny the request within three working days, or tell you it needs up to ten. The first two hours of staff time and the first 100 pages are free.</li>
+    <li><strong>Ask for records.</strong> Under Idaho's Public Records Act, anyone can ask a state or local agency for its records. If you are an Idaho resident, the agency must grant or deny the request within three working days, or tell you it needs up to ten, and the first two hours of staff time and the first 100 pages are free. Since a 2025 change to the law, people who don't live in Idaho wait up to 21 days, extendable to 35, and get no free hours or pages. See <a href="public-records-requests.html">how to request public records</a>.</li>
     <li><strong>Read the comprehensive plan.</strong> Every city and county has one, with a map of what kind of growth is planned where. Zoning decisions are supposed to follow it, so it is the best argument you can bring to a hearing.</li>
     <li><strong>Check the road plans.</strong> Highway districts and the Idaho Transportation Department publish multi-year project lists. Getting a project onto the list is easier than adding it later.</li>
   </ul>
@@ -175,7 +175,7 @@ G["your-neighborhood"] = dict(
   <p>When a problem needs a decision, not just a repair, bring it to your city council, county commissioners or highway district. See <a href="speak-at-a-public-meeting.html">how to speak at a local public meeting</a> and <a href="problem-to-policy.html">turning a personal problem into a policy ask</a>.</p>
 """,
     sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/SECT74-103/", "Idaho Code 74-103, response to a public records request (Idaho Legislature)"),
-             ("https://www.ag.idaho.gov/content/uploads/2022/01/Public-Records-Law-Jan-2022.pdf", "Idaho Public Records Law Manual (Idaho Attorney General)"),
+             ("https://www.ag.idaho.gov/content/uploads/2026/07/PublicRecordsLaw.pdf", "Idaho Public Records Law Manual, July 2026 (Idaho Attorney General)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH2/", "Idaho Code Title 74, Chapter 2, Open Meetings Law (Idaho Legislature)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/", "Idaho Statutes: Title 67, Chapter 65, Local Land Use Planning (Idaho Legislature)")])
 
@@ -200,14 +200,15 @@ G["local-ballot-measures"] = dict(
   <h2>When they're on the ballot</h2>
   <ul>
     <li><strong>School measures</strong> can appear only in May or November. The Legislature removed the March and August election dates.</li>
-    <li><strong>City and county measures</strong> go on the third Tuesday in May or the November election day.</li>
+    <li><strong>City and county bonds and levies</strong> go on the third Tuesday in May or the November election day.</li>
+    <li><strong>City initiatives and referendums</strong> are voted on only at the November election in odd-numbered years (Idaho Code 34-1801B).</li>
   </ul>
 
   <h2>Local initiatives and referendums</h2>
   <p>Voters in Idaho cities and counties can propose an ordinance, or force a vote on one the council or commissioners just passed.</p>
   <ul>
     <li><strong>Signatures:</strong> 20 percent of the number of people who voted in the last general city election (for a city) or the last general county election (for a county).</li>
-    <li><strong>Referendum deadline:</strong> within 60 days after the ordinance passes.</li>
+    <li><strong>Referendum deadline:</strong> for a city, within 60 days after the ordinance is published (Idaho Code 34-1801B). Ask the county clerk for a county's deadline.</li>
     <li><strong>Limits:</strong> local initiatives can't be used for zoning decisions.</li>
     <li><strong>Passing:</strong> a simple majority.</li>
   </ul>
@@ -218,9 +219,12 @@ G["local-ballot-measures"] = dict(
     <li><strong>Check whether it replaces something.</strong> A levy that "renews" an expiring one may not raise your bill. A new one will.</li>
     <li><strong>Find your sample ballot</strong> through your county clerk or VoteIdaho.gov.</li>
     <li><strong>Go to the hearing.</strong> The board has to vote in a public meeting to put a measure on the ballot, well before the election.</li>
+    <li><strong>Check who can vote and sign.</strong> To vote or sign a petition in Idaho, you must be a U.S. citizen, at least 18, living in Idaho and your county for at least 30 days, and registered to vote (Idaho Code 34-402). Permanent residents (green card holders) and other noncitizens can't vote or sign petitions, even in local elections.</li>
   </ul>
 """,
-    sources=[("https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho", "Laws governing local ballot measures in Idaho (Ballotpedia)"),
+    sources=[("https://legislature.idaho.gov/statutesrules/idstat/Title34/T34CH18/SECT34-1801B/", "Idaho Code 34-1801B, city initiatives and referendums (Idaho Legislature)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/title34/t34ch4/sect34-402", "Idaho Code 34-402, who can vote (Idaho Legislature)"),
+             ("https://ballotpedia.org/Laws_governing_local_ballot_measures_in_Idaho", "Laws governing local ballot measures in Idaho (Ballotpedia)"),
              ("https://ballotpedia.org/School_bond_and_tax_elections_in_Idaho", "School bond and tax elections in Idaho (Ballotpedia)"),
              ("https://www.idahoednews.org/top-news/emerging-outliers-school-facility-measures-grow-harder-to-pass/", "School facility measures and their approval thresholds (Idaho Education News, June 2026)"),
              ("https://voteidaho.gov/county-clerk/", "County elections offices (Idaho Secretary of State)")])
@@ -333,7 +337,7 @@ G["volunteer-and-public-service"] = dict(
   <h2>Volunteer</h2>
   <ul>
     <li><strong>Serve Idaho</strong> is the Governor's commission on service and volunteerism. It runs AmeriCorps programs in Idaho and points people toward volunteer opportunities around the state.</li>
-    <li><strong>Work the polls.</strong> County clerks hire poll workers for every election. It is paid, it takes one long day, and clerks are almost always short of people. Contact your county elections office.</li>
+    <li><strong>Work the polls.</strong> County clerks hire poll workers for every election. It is paid, it takes one long day, and clerks are almost always short of people. Poll workers must be U.S. citizens, at least 16, and able to read and write English, according to the Secretary of State. Contact your county elections office.</li>
     <li><strong>Your library, school and parks.</strong> Most take volunteers directly. Friends of the Library groups and parent organizations are easy places to start.</li>
     <li><strong>Search and rescue, fire and ambulance.</strong> Much of rural Idaho depends on volunteer responders, usually organized through the sheriff's office or the local fire district.</li>
     <li><strong>State parks and Fish and Game</strong> both run volunteer programs, from campground hosts to habitat projects.</li>
@@ -357,6 +361,7 @@ G["volunteer-and-public-service"] = dict(
     sources=[("https://serve.idaho.gov/", "Serve Idaho, the Governor's Commission on Service and Volunteerism"),
              ("https://dhr.idaho.gov/information-about-state-careers/", "Information about state careers (Idaho Division of Human Resources)"),
              ("https://idahoworks.gov/", "IdahoWorks (Idaho Department of Labor)"),
+             ("https://voteidaho.gov/poll-workers/", "Become an election worker (Idaho Secretary of State)"),
              ("https://voteidaho.gov/county-clerk/", "County elections offices (Idaho Secretary of State)"),
              ("https://www.usajobs.gov/", "USAJOBS")])
 

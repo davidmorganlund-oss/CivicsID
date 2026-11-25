@@ -143,7 +143,7 @@ G["state-budgets"] = dict(
 """,
     sources=[("https://dfm.idaho.gov/citizens/budget-process/", "Budget process (Idaho Division of Financial Management)"),
              ("https://legislature.idaho.gov/lso/bpa/process/", "The budget process, with the statutes behind it (Idaho Legislative Services Office)"),
-             ("https://legislature.idaho.gov/sessioninfo/2026/joint/jfac", "Joint Finance-Appropriations Committee (Idaho Legislature)"),
+             ("https://legislature.idaho.gov/committees/joint-standing/", "Joint standing committees, including the Joint Finance-Appropriations Committee (Idaho Legislature)"),
              ("https://legislature.idaho.gov/statutesrules/idconst/", "Idaho Constitution, Article VII (Idaho Legislature)")])
 
 G["boards-and-commissions"] = dict(
@@ -290,7 +290,7 @@ G["state-agencies"] = dict(
 """,
     sources=[("https://www.idaho.gov/", "Idaho.gov, the state's official website and agency directory"),
              ("https://gov.idaho.gov/contact/contact-us/", "Contact the Governor's office"),
-             ("https://www.ag.idaho.gov/content/uploads/2022/01/Public-Records-Law-Jan-2022.pdf", "Idaho Public Records Law Manual (Idaho Attorney General)")])
+             ("https://www.ag.idaho.gov/content/uploads/2026/07/PublicRecordsLaw.pdf", "Idaho Public Records Law Manual, July 2026 (Idaho Attorney General)")])
 
 G["running-for-office"] = dict(
     cat="State", title="Running for office",
@@ -308,6 +308,7 @@ G["running-for-office"] = dict(
 
   <h2>Who can run</h2>
   <p>For most offices you must be a registered voter living in the district you want to represent. Some offices add requirements: legislators must have lived in their district for a year, the Governor must be at least 30, and prosecutors and judges must be lawyers. The Secretary of State's candidate pages list the rules for each office.</p>
+  <p>A registered voter is a U.S. citizen, at least 18, who has lived in Idaho and the county for at least 30 days and has registered (Idaho Code 34-402). Permanent residents (green card holders) and other noncitizens can't register, so they can't vote, sign petitions or run for these offices.</p>
 
   <h2>Filing</h2>
   <ul>
@@ -323,7 +324,9 @@ G["running-for-office"] = dict(
   <h2>Money</h2>
   <ul>
     <li><strong>Track everything from day one,</strong> including your own money.</li>
-    <li><strong>Name a political treasurer.</strong> The Secretary of State requires one, and requires reporting, once you raise or spend $500. You can be your own treasurer.</li>
+    <li><strong>Name a political treasurer before you take or spend any money.</strong> Every candidate must appoint a treasurer and give the treasurer's name and address to the Secretary of State before receiving a contribution or making an expenditure (Idaho Code 67-6603). You can be your own treasurer.</li>
+    <li><strong>Open a separate campaign bank account.</strong> Since July 1, 2026 (House Bill 930), campaign money has to go in its own checking account and can't be mixed with any other money. If you lend your campaign more than $1,000 of your own money, the loan has to go into that account and be reported. Campaign money can be invested only in cash accounts such as CDs or money market accounts, not stocks.</li>
+    <li><strong>Know when reports start.</strong> Candidates for judicial and local offices don't have to file reports until they raise or spend $500 (Idaho Code 67-6608). Other candidates have no such threshold. A group that takes in and spends more than $1,000 in a year to support or oppose candidates or measures is a political committee, with its own treasurer and reports (Idaho Code 67-6602).</li>
     <li><strong>Report online</strong> through the Secretary of State's Sunshine Portal, at every level of office.</li>
     <li><strong>Know the limits.</strong> The Secretary of State's guides list $1,000 per donor per election for legislative races and $5,000 for statewide ones. Confirm the current figures before you raise money.</li>
   </ul>
@@ -340,6 +343,9 @@ G["running-for-office"] = dict(
              ("https://voteidaho.gov/candidate-filing/", "Candidate filing (Idaho Secretary of State)"),
              ("https://voteidaho.gov/county-clerk/", "County elections offices (Idaho Secretary of State)"),
              ("https://archive.voteidaho.gov/download/cf_guide_local.pdf", "Campaign finance guide for local office candidates (Idaho Secretary of State)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH66/SECT67-6603/", "Idaho Code 67-6603, political treasurer (Idaho Legislature)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH66/SECT67-6608/", "Idaho Code 67-6608, the $500 reporting threshold for judicial and local candidates (Idaho Legislature)"),
+             ("https://legislature.idaho.gov/sessioninfo/2026/legislation/H0930", "House Bill 930 (2026), campaign accounts and candidate loans (Idaho Legislature)"),
              ("https://sunshine.voteidaho.gov/", "Sunshine Portal (Idaho Secretary of State)")])
 
 G["state-initiatives"] = dict(
@@ -373,7 +379,7 @@ G["state-initiatives"] = dict(
   <h2>If you're asked to sign</h2>
   <ul>
     <li><strong>You can read it first.</strong> The circulator must show you the ballot titles and offer you a copy of the measure and its fiscal impact summary.</li>
-    <li><strong>You must be a registered voter,</strong> and you sign with your own name and address.</li>
+    <li><strong>You must be a qualified voter:</strong> a U.S. citizen, at least 18, living in Idaho and your county for at least 30 days, and registered to vote (Idaho Code 34-402). Permanent residents (green card holders) and other noncitizens can't sign. You sign with your own name and address.</li>
     <li><strong>You can change your mind.</strong> You can take your name off before the petition goes to the county clerk, or ask the clerk in writing before signatures are verified.</li>
     <li><strong>Signing isn't voting.</strong> It only says the question should be on the ballot.</li>
   </ul>
@@ -396,6 +402,7 @@ G["state-initiatives"] = dict(
     sources=[("https://voteidaho.gov/initiative-filing-requirements/", "Initiative filing requirements (Idaho Secretary of State)"),
              ("https://voteidaho.gov/?p=3109", "Initiatives and amendments, current and past (Idaho Secretary of State)"),
              ("https://legislature.idaho.gov/statutesrules/idstat/", "Idaho Code Title 34, Chapter 18, Initiative and Referendum Elections (Idaho Legislature)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/title34/t34ch4/sect34-402", "Idaho Code 34-402, who can vote (Idaho Legislature)"),
              ("https://legislature.idaho.gov/statutesrules/idconst/", "Idaho Constitution, Article III, Section 1 and Article XX (Idaho Legislature)")])
 
 G["federal-offices"] = dict(
@@ -473,13 +480,14 @@ G["courts"] = dict(
     <li><strong>Watch.</strong> Court hearings are open to the public, with narrow exceptions such as juvenile cases.</li>
     <li><strong>Look up a case.</strong> Idaho's iCourt Portal has public case records from every county.</li>
     <li><strong>Get help without a lawyer.</strong> The Court Assistance Office provides forms and guidance for people representing themselves, with an office in most courthouses.</li>
-    <li><strong>Serve on a jury.</strong> Names are drawn from voter registration and driver's license lists. Employers can't fire you for serving.</li>
-    <li><strong>Vote.</strong> Judges are on your ballot. Contested races are rare, which makes the ones that happen matter more.</li>
+    <li><strong>Serve on a jury.</strong> Names are drawn from voter registration and driver's license lists. Jurors must be U.S. citizens, at least 18, and live in the county (Idaho Code 2-209). Because driver's license lists include people who aren't citizens, a noncitizen can still get a summons. Don't ignore it: respond to the court and say that you are not a U.S. citizen. Employers can't fire you for serving.</li>
+    <li><strong>Vote.</strong> Judges are on your ballot. Contested races are rare, which makes the ones that happen matter more. Only U.S. citizens who are at least 18 and registered can vote in Idaho (Idaho Code 34-402).</li>
   </ul>
 """,
     sources=[("https://isc.idaho.gov/about-the-courts", "About the courts (Idaho Supreme Court)"),
              ("https://archive.sos.idaho.gov/blue_book/blue_book_2025-2026.pdf", "The Blue Book of Idaho, 2025-2026, judicial branch section (Idaho Secretary of State)"),
              ("https://courtselfhelp.idaho.gov/", "Court Assistance Office (Idaho Supreme Court)"),
+             ("https://legislature.idaho.gov/statutesrules/idstat/Title2/T2CH2/SECT2-209", "Idaho Code 2-209, juror qualifications (Idaho Legislature)"),
              ("https://www.uscourts.gov/about-federal-courts", "About federal courts (United States Courts)")])
 
 G["constitution"] = dict(

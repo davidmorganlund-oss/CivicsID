@@ -16,7 +16,7 @@
   --wheat: #F3E3C8; --wheat-light: #F6EBDA; --tan: #B8874A; --tan-light: #D8BE98; --cream: #FBF6EE;
 
   --ground: var(--cream); --ink: #2E1D1A; --petrol: var(--garnet); --muted: rgb(74 40 34 / 0.75);
-  --line: rgb(184 135 74 / 0.35); --chip-line: #C9A57A; --tint: var(--wheat-light); --card: #FFFFFF;
+  --line: rgb(184 135 74 / 0.35); --chip-line: #A87A41; --tint: var(--wheat-light); --card: #FFFFFF;
   --accent: var(--garnet); --accent-soft: var(--wheat-light); --accent-ink: var(--garnet-dark);
   --alert-soft: var(--garnet-light); --alert-ink: var(--garnet);
   --focus: var(--garnet-medium);
@@ -167,6 +167,7 @@ footer p { margin: 0; flex: 1 1 320px; }
 .agenda li.more-items { list-style: none; margin-left: -18px; color: var(--muted); font-size: 14px; }
 
 .notice-card { margin-top: 12px; }
+.term-note { background: var(--accent-soft); border-left: 4px solid var(--accent); border-radius: 6px; padding: 14px 18px; margin: 0 0 20px; }
 .notice-card h3 { margin: 0 0 8px; font-family: var(--display); font-size: 1.15rem; }
 .notice-card p { margin: 0 0 12px; }
 

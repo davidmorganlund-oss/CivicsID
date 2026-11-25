@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://civicsid.org/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/about.html"/>
+  </url>
+  <url>
     <loc>https://civicsid.org/engage.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/engage.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/engage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/engage.html"/>
+  </url>
+  <url>
+    <loc>https://civicsid.org/es/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://civicsid.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://civicsid.org/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://civicsid.org/about.html"/>
   </url>
   <url>
     <loc>https://civicsid.org/es/engage.html</loc>

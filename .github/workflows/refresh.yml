@@ -39,7 +39,7 @@ jobs:
       - name: Build the representatives roster
         shell: bash   # with pipefail, so a crash shows up instead of hiding behind tee
         run: python pipeline/officials.py | tee -a "$GITHUB_STEP_SUMMARY"
-      - name: Flag calendars that keep failing
+      - name: Flag calendars that keep failing or stay quiet
         if: always()
         continue-on-error: true
         env:
