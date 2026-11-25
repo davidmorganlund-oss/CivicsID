@@ -66,14 +66,27 @@ def body(stuck, quiet=()):
 
 
 def upkeep_items(cfg, today):
-    """Hand-entered schedules whose list of dates runs out soon, and sources
-    with a 'review_by' date (a planned change, like a portal move) that is due."""
+    """Hand-entered schedules whose list of dates runs out soon, sources with a
+    'review_by' date (a planned change, like a portal move) that is due, and
+    sources whose 'next_dates_due' date (when the host should post its next
+    dates) has arrived."""
     horizon = today + timedelta(days=AHEAD)
     items = []
     for src in cfg["sources"]:
         review = src.get("review_by")
         if review and date.fromisoformat(str(review)) <= horizon:
             items.append(f"- **{src['name']}** (`{src['id']}`): {src.get('review_note', 'planned change due')} (by {review}).")
+        # next_dates_due: a person checked and the host hasn't published its next
+        # dates yet. Hold the run-out warnings until the day they are expected,
+        # then say what was found.
+        due = src.get("next_dates_due")
+        if due:
+            due = date.fromisoformat(str(due))
+            if today < due:
+                continue
+            items.append(f"- **{src['name']}** (`{src['id']}`): {src.get('next_dates_note', 'next dates were expected by now')} "
+                         f"(expected by {due}). Check {src.get('homepage', '')}.")
+            continue
         ruled = {m["title"] for m in src.get("meetings", []) if m.get("when")}
         for mtg in src.get("meetings", []):
             if mtg.get("one_off"):

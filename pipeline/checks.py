@@ -28,7 +28,7 @@ def sanity(events, status, previous):
     for src, start, title in dupes[:15]:
         lines.append(f"- Listed twice: **{title}** from `{src}` at {start}.")
     for e in events:
-        if e.get("all_day"):
+        if e.get("all_day") or e.get("time_checked"):  # a person already looked (sources.yml time_checked)
             continue
         hour = int(e["start"][11:13])
         if hour < 6 or hour >= 22:
