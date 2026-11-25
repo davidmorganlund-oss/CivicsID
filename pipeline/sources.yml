@@ -180,8 +180,10 @@ sources:
     homepage: https://www.cdaid.org/government/mayor-and-council/council-meeting-schedule/
     meetings:
       - title: City Council Meeting
+        # "The Council meets the first and third Tuesday of each month at 6:00pm,
+        # unless otherwise noticed, in the Library Community Room."
+        # (https://www.cdaid.org/government/mayor-and-council/, checked Nov. 25, 2026)
         when: 1st, 3rd Tuesday
-        until: 2026-12-15       # the last date on the city's published 2026 schedule
         time: "18:00"
         location: Coeur d'Alene Public Library Community Room
         category: council
@@ -299,7 +301,7 @@ sources:
         category: council
         url: https://www.rathdrum.gov/calendar
       - title: Planning & Zoning Commission Meeting
-        dates: [2026-11-18, 2026-12-16]
+        dates: [2026-11-18, 2026-12-16, 2027-01-20, 2027-02-17]  # Jan. and Feb. from the commission page, Nov. 25
         time: "17:30"
         location: Rathdrum City Hall, 8047 W. Main Street
         category: council
@@ -446,6 +448,11 @@ sources:
     area: countywide
     timezone: America/Los_Angeles
     homepage: https://www.bonnercountyid.gov/meetings
+    # The county's own listing says 11:00 PM; most likely a typo for 11 a.m.,
+    # but unconfirmed, so the host's time stays with a caution (Nov. 25, 2026).
+    time_checked:
+      - url: https://www.bonnercountyid.gov/events/102245/
+        note: "The county lists this workshop at 11 p.m., which may be a typo. Confirm the time with Bonner County before you go."
 
   - id: valley-county
     name: Valley County
@@ -1388,6 +1395,17 @@ sources:
         location: Council Chambers, 1123 Lake Street
         category: council
         url: https://www.sandpointidaho.gov/city-council
+      # Sandpoint City Code 1-5-1: regular meetings "on the first and third
+      # Wednesdays of each and every month" (the next day when that's a
+      # holiday), convening "promptly at five-thirty o'clock (5:30) p.m. at the
+      # city hall". https://library.municode.com/id/sandpoint/codes/code_of_ordinances?nodeId=TIT1AD_CH5MACO_1-5-1MECO
+      - title: City Council Meeting
+        when: 1st, 3rd Wednesday
+        from: 2027-01-01
+        time: "17:30"
+        location: Council Chambers, 1123 Lake Street
+        category: council
+        url: https://www.sandpointidaho.gov/meetings
       # "meets on the first and third Tuesday of each month at 5:30 p.m. in
       # Council Chambers, 1123 Lake Street"
       - title: Planning and Zoning Commission Meeting
@@ -1952,6 +1970,11 @@ sources:
     county: Twin Falls
     area: Twin Falls
     homepage: https://www.tfsd.org/page/school-board
+    # The district's adopted schedule runs "from January 2026 through January
+    # 2027" (checked Nov. 25, 2026); the board sets the next one at its Jan. 11
+    # organizational meeting.
+    next_dates_due: 2027-01-12
+    next_dates_note: "The 2027 board schedule should be adopted at the Jan. 11 organizational meeting; add its dates"
     meetings:
       - title: Board of Trustees Regular Meeting
         dates: [2026-12-14]
@@ -2078,11 +2101,21 @@ sources:
     area: Moscow
     timezone: America/Los_Angeles
     homepage: https://www.msd281.org/page/board-meetings-minutes-notices
+    # The posted "Schedule of Board Meetings for Feb. 2026 - Jan. 2027" ends
+    # with the Jan. 27 annual meeting (checked Nov. 25, 2026).
+    next_dates_due: 2027-01-28
+    next_dates_note: "The posted board schedule ended Jan. 27, 2027; add the new year's dates"
     meetings:
       - title: Board of Trustees Regular Meeting
         dates: [2026-12-16]
         time: "19:00"
         location: Moscow High School, 402 East 5th St. (use 3rd Street entrance)
+        category: school
+        url: https://www.msd281.org/page/board-meetings-minutes-notices
+      - title: Board of Trustees Annual Meeting & Regular Board Meeting
+        dates: [2027-01-27]
+        time: "19:00"
+        location: District Office, 650 N. Cleveland St.
         category: school
         url: https://www.msd281.org/page/board-meetings-minutes-notices
 
@@ -2493,8 +2526,18 @@ sources:
         url: https://www.sd365.us/board-trustees
       - title: Board of Trustees Annual Meeting
         dates: [2027-01-12]
+        one_off: true
         time: "19:00"
         location: Rimrock School Library
+        category: school
+        url: https://www.sd365.us/board-trustees
+      # "board meetings held at 7:00 p.m. on the second Tuesday of every month
+      # in the board room unless otherwise posted" (district board page, Nov. 25, 2026)
+      - title: Board of Trustees Regular Meeting
+        when: 2nd Tuesday
+        from: 2027-02-01
+        time: "19:00"
+        location: District board room (unless otherwise posted)
         category: school
         url: https://www.sd365.us/board-trustees
 
@@ -3251,7 +3294,11 @@ sources:
     county: Latah
     area: Kendrick
     timezone: America/Los_Angeles
-    homepage: https://www.sd283.org/
+    homepage: https://www.sd283.org/schoolboard
+    # Only the "2026 Board Meeting Calendar" is posted, and the district
+    # calendar shows no January board meeting yet (checked Nov. 25, 2026).
+    next_dates_due: 2026-12-17
+    next_dates_note: "The 2027 board meeting calendar wasn't posted as of Nov. 25; add its dates"
     meetings:
       - title: Board of Trustees Meeting
         dates: [2026-12-16]

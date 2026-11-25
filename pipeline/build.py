@@ -2148,6 +2148,14 @@ def apply_source_rules(src, events):
                 e["category"] = src["default_category"]
     if src.get("drop_uncategorized"):
         events = [e for e in events if e["category"] != "other"]
+    # time_checked: listings whose odd start time a person has looked at. The
+    # host's own time stays, with a caution added for visitors, and the nightly
+    # odd-hour check stops flagging it. Each entry: {url: <listing page>, note: ...}
+    checked = {c["url"]: c.get("note", "") for c in src.get("time_checked", [])}
+    for e in events:
+        if e.get("url") in checked:
+            e["time_checked"] = True
+            e["note"] = " ".join(x for x in (checked[e["url"]], e.get("note", "")) if x)
     return events
 
 
@@ -2164,7 +2172,7 @@ def suspicious_times(events) -> list:
     the source. They stay on the calendar; status.json lists them for a look."""
     out = []
     for e in events:
-        if e.get("all_day"):
+        if e.get("all_day") or e.get("time_checked"):
             continue
         hour = int(e["start"][11:13])
         if hour >= LATE_HOUR or hour < EARLY_HOUR:

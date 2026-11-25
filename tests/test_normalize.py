@@ -555,6 +555,11 @@ def test_upkeep_items():
     items = alerts.upkeep_items(cfg, date(2026, 11, 17))
     assert len(items) == 1 and "Fremont County" in items[0] and "2026-11-23" in items[0]
     assert len(alerts.upkeep_items(cfg, date(2026, 12, 30))) == 2
+    held = {"sources": [{"id": "k", "name": "Kendrick", "homepage": "h", "next_dates_due": "2026-12-17",
+                         "next_dates_note": "2027 calendar not posted", "meetings": [{"title": "Board", "dates": ["2026-12-16"]}]}]}
+    assert alerts.upkeep_items(held, date(2026, 11, 25)) == []
+    due = alerts.upkeep_items(held, date(2026, 12, 17))
+    assert len(due) == 1 and "2027 calendar not posted" in due[0] and "2026-12-17" in due[0]
 
 
 def test_sanity_checks():
@@ -565,6 +570,12 @@ def test_sanity_checks():
     status = {"sources": [{"id": "c", "name": "C", "count": 0, "state": "quiet"}]}
     out = checks.sanity(events, status, {"sources": [{"id": "c", "count": 9}]})
     assert any("Listed twice" in x for x in out) and any("Odd hour" in x for x in out) and any("Went quiet" in x for x in out)
+    events[2]["time_checked"] = True
+    assert not any("Odd hour" in x for x in checks.sanity(events, status, None))
+    src = {"time_checked": [{"url": "https://c.gov/e/1", "note": "Check the time."}]}
+    ev = [{"url": "https://c.gov/e/1", "note": "Teams link", "category": "council"}, {"url": "https://c.gov/e/2", "note": "", "category": "council"}]
+    out = build.apply_source_rules(src, ev)
+    assert out[0]["time_checked"] and out[0]["note"] == "Check the time. Teams link" and "time_checked" not in out[1]
 
 
 def test_whats_new_feed(tmp_path):
