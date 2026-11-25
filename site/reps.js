@@ -12,12 +12,16 @@
   // Local governments with a council or commission page we have checked.
   var LOCAL = {
     places: {
-      Boise: { label: 'Boise public meetings', url: 'https://www.cityofboise.org/departments/city-clerk/public-meetings/', note: 'Council and commission meetings, agendas and how to take part' },
-      Meridian: { label: 'Meridian public meetings', url: 'https://meridiancity.org/publicmeeting', note: 'How to watch and testify at council and planning meetings' }
+      Boise: { label: 'Boise public meetings', url: 'https://www.cityofboise.org/departments/city-clerk/public-meetings/', note: 'Council and commission meetings, agendas and how to take part',
+               label_es: 'Reuniones públicas de Boise (en inglés)', note_es: 'Reuniones del concejo y de las comisiones, agendas y cómo participar' },
+      Meridian: { label: 'Meridian public meetings', url: 'https://meridiancity.org/publicmeeting', note: 'How to watch and testify at council and planning meetings',
+                  label_es: 'Reuniones públicas de Meridian (en inglés)', note_es: 'Cómo ver las reuniones del concejo y de planificación y testificar en ellas' }
     },
     counties: {
-      Ada: { label: 'Ada County Board of Commissioners', url: 'https://adacounty.id.gov/commissioners/', note: 'Members, agendas and county boards' },
-      Kootenai: { label: 'Kootenai County Board of County Commissioners', url: 'https://www.kcgov.us/487/Board-of-County-Commissioners', note: 'Members and meetings' }
+      Ada: { label: 'Ada County Board of Commissioners', url: 'https://adacounty.id.gov/commissioners/', note: 'Members, agendas and county boards',
+             label_es: 'Junta de Comisionados del Condado de Ada (en inglés)', note_es: 'Miembros, agendas y juntas del condado' },
+      Kootenai: { label: 'Kootenai County Board of County Commissioners', url: 'https://www.kcgov.us/487/Board-of-County-Commissioners', note: 'Members and meetings',
+                  label_es: 'Junta de Comisionados del Condado de Kootenai (en inglés)', note_es: 'Miembros y reuniones' }
     }
   };
 
@@ -90,10 +94,10 @@
       notFound: 'No pudimos encontrar esa dirección. Revise la ortografía, incluya la ciudad o el código postal y omita el número de apartamento.',
       down: 'La búsqueda de direcciones no responde en este momento. Puede usar la página de la Legislatura ', downEnd: '.',
       party: { Republican: 'Partido Republicano', Democrat: 'Partido Demócrata', Independent: 'Independiente' },
-      office: { Assessor: 'Tasador(a)', Clerk: 'Secretario(a) del condado', Coroner: 'Médico forense', Prosecutor: 'Fiscal', Sheriff: 'Sheriff', Treasurer: 'Tesorero(a)' },
+      office: { Assessor: 'Tasador(a)', Clerk: 'Secretario(a) del condado', Coroner: 'Forense del condado (coroner)', Prosecutor: 'Fiscal', Sheriff: 'Sheriff', Treasurer: 'Tesorero(a)' },
       dEyebrow: 'Sus distritos', dTitle: 'Todos los distritos donde vive',
       dCongress: 'Cámara de Representantes federal', dLeg: 'Legislatura estatal', dLegNote: 'Usted elige a un senador estatal y a dos representantes estatales de este distrito.',
-      dSchool: 'Distrito escolar', dSchoolNote: 'Fideicomisarios electos dirigen sus escuelas públicas.',
+      dSchool: 'Distrito escolar', dSchoolNote: 'Una junta escolar electa (trustees) dirige sus escuelas públicas.',
       dTribal: 'Tierra tribal', dTribalNote: 'Esta dirección está en tierra tribal. El gobierno de la tribu atiende a sus miembros aquí.',
       dLooking: 'Buscando distritos de bomberos, ambulancia, carreteras, bibliotecas y otros distritos especiales…',
       dFailed: 'La búsqueda de distritos especiales no respondió, así que faltan los distritos de bomberos, carreteras, bibliotecas y otros. Intente de nuevo en unos minutos.',
@@ -266,8 +270,8 @@
     if (!entry && place) { extraLinks(card, place); return card; }
     if (entry) {
       var p = el('p');
-      p.appendChild(link(entry.url, entry.label));
-      p.appendChild(document.createTextNode(': ' + entry.note + '.'));
+      p.appendChild(link(entry.url, (LANG === 'es' && entry.label_es) || entry.label));
+      p.appendChild(document.createTextNode(': ' + ((LANG === 'es' && entry.note_es) || entry.note) + '.'));
       card.appendChild(p);
     } else {
       card.appendChild(el('p', 'muted', fallback));
@@ -333,11 +337,11 @@
     }
 
     out.appendChild(city
-      ? localCard('city', S.cityOf(city), LANG === 'en' ? LOCAL.places[city] : null, S.cityFallback, localData && localData.cities[city])
+      ? localCard('city', S.cityOf(city), LOCAL.places[city], S.cityFallback, localData && localData.cities[city])
       : localCard('city', S.outside, null, S.unincorporated));
 
     if (county) {
-      var cc = localCard('county', S.countyOf(county), LANG === 'en' ? LOCAL.counties[county] : null, S.countyFallback, localData && localData.counties[county]);
+      var cc = localCard('county', S.countyOf(county), LOCAL.counties[county], S.countyFallback, localData && localData.counties[county]);
       addCountyOfficials(cc, county);
       out.appendChild(cc);
     }
