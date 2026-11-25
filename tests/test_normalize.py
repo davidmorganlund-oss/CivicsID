@@ -922,3 +922,23 @@ def test_legislature_committee_agendas(monkeypatch):
     got = build.fetch_legislature(src, date(2027, 1, 12), date(2027, 2, 12), tz)
     assert [g["title"] for g in got] == ["House Judiciary, Rules & Administration Committee", "Senate Education Committee"]
     assert got[1]["agenda_url"] == "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2027/standingcommittees/SEDU.pdf"
+
+
+def test_suspicious_times_flags_late_night_starts():
+    events = [
+        {"source": "bonner-county", "title": "Workshop", "start": "2026-12-15T23:00:00-08:00"},
+        {"source": "boise", "title": "Early", "start": "2026-12-16T05:59:00-07:00"},
+        {"source": "boise", "title": "Breakfast", "start": "2026-12-16T06:00:00-07:00"},
+        {"source": "boise", "title": "Council", "start": "2026-12-16T21:59:00-07:00"},
+        {"source": "boise", "title": "Holiday", "start": "2026-12-25T00:00:00-07:00", "all_day": True},
+    ]
+    found = build.suspicious_times(events)
+    assert [f["title"] for f in found] == ["Workshop", "Early"]
+    assert found[0] == {"source": "bonner-county", "title": "Workshop", "start": "2026-12-15T23:00:00-08:00"}
+
+
+def test_streak_since_carries_and_clears():
+    assert build.streak_since("", True, "2026-11-25") == "2026-11-25"
+    assert build.streak_since("2026-11-01", True, "2026-11-25") == "2026-11-01"
+    assert build.streak_since("2026-11-01", False, "2026-11-25") == ""
+

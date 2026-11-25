@@ -8,7 +8,9 @@ as local wall-clock times with a "tz" label ("MT" or "PT").
 
 Outputs (in site/data/):
   events.json    upcoming events, soonest first
-  status.json    per-source health, so a quiet or broken source is visible
+  status.json    per-source health, so a quiet or broken source is visible,
+                 with the date each quiet or failing streak began, and any
+                 meetings listed between 10 PM and 6 AM (suspicious_times)
   ics/*.ics      subscribable calendars: statewide, the Legislature, one per county
 
 Run:  python pipeline/build.py
@@ -2153,6 +2155,29 @@ def county_slug(county: str) -> str:
     return re.sub(r"[^a-z]+", "-", county.lower()).strip("-")
 
 
+LATE_HOUR, EARLY_HOUR = 22, 6  # 10 PM and 6 AM, the source's local time
+
+
+def suspicious_times(events) -> list:
+    """Meetings that start between 10 PM and 6 AM local time. Public bodies
+    almost never meet then, so it usually means a time zone or AM/PM slip in
+    the source. They stay on the calendar; status.json lists them for a look."""
+    out = []
+    for e in events:
+        if e.get("all_day"):
+            continue
+        hour = int(e["start"][11:13])
+        if hour >= LATE_HOUR or hour < EARLY_HOUR:
+            out.append({"source": e["source"], "title": e["title"], "start": e["start"]})
+    return out
+
+
+def streak_since(previous_date: str, active: bool, today: str) -> str:
+    """The day a streak (say, a source answering with no meetings) began:
+    carried over from last night while it lasts, cleared when it ends."""
+    return (previous_date or today) if active else ""
+
+
 def load_previous_status() -> dict:
     try:
         return {s["id"]: s for s in json.loads((OUT / "status.json").read_text())["sources"]}
@@ -2185,6 +2210,8 @@ def main() -> int:
             status.update(ok=True, count=len(found), last_success=status["checked"], error="", failing_since="")
             # A source that answers but lists nothing is suspicious, not fine.
             status["state"] = "ok" if found else "quiet"
+            status["quiet_since"] = streak_since(previous.get(src["id"], {}).get("quiet_since", ""),
+                                                 not found, now.date().isoformat())
         except Exception as exc:  # one bad source must not sink the rest
             # Keep showing what we had, so a one-night outage doesn't blank a city.
             # Not when the site's robots.txt now asks us to stay out, though:
@@ -2192,7 +2219,7 @@ def main() -> int:
             found = [] if isinstance(exc, RobotsBlocked) else [
                 e for e in old_events if e["source"] == src["id"]
                 and datetime.fromisoformat(e["start"]).date() >= start_day]
-            status.update(ok=False, count=len(found), state="failing",
+            status.update(ok=False, count=len(found), state="failing", quiet_since="",
                           failing_since=previous.get(src["id"], {}).get("failing_since") or now.date().isoformat(),
                           last_success=previous.get(src["id"], {}).get("last_success", ""),
                           error=f"{type(exc).__name__}: {exc}"[:300])
@@ -2240,7 +2267,8 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     stamp = now.isoformat(timespec="seconds")
     (OUT / "events.json").write_text(json.dumps({"generated": stamp, "events": events}, indent=1))
-    (OUT / "status.json").write_text(json.dumps({"generated": stamp, "sources": statuses}, indent=1))
+    (OUT / "status.json").write_text(json.dumps({"generated": stamp, "sources": statuses,
+                                                 "suspicious_times": suspicious_times(events)}, indent=1))
     # One subscribable calendar per county, one for the Legislature
     # (statewide.ics) and one with everything (idaho.ics).
     (OUT / "ics").mkdir(exist_ok=True)
