@@ -824,7 +824,9 @@ for rel in pages:
     '<?xml version="1.0" encoding="UTF-8"?>\n'
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     + "\n".join(entries) + "\n</urlset>\n")
-(SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
+# The per-county feeds and calendar files are for feed readers and calendar apps,
+# not search: many are nearly empty and look alike, so search engines skip them.
+(SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /data/feeds/\nDisallow: /data/ics/\n\nSitemap: {SITE_URL}sitemap.xml\n")
 print(f"search pieces written: {len(pages)} pages in the sitemap")
 
 
