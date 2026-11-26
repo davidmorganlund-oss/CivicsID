@@ -113,7 +113,7 @@ G["speak-at-a-public-meeting"] = dict(
 
   <h2>Before the meeting</h2>
   <ol>
-    <li><strong>Find the meeting.</strong> The <a href="../index.html">calendar</a> lists what's coming up near you.</li>
+    <li><strong>Find the meeting.</strong> The <a href="../">calendar</a> lists what's coming up near you.</li>
     <li><strong>Read the agenda.</strong> Find the item you care about and note its number or title, and whether it is an action item or a public hearing.</li>
     <li><strong>Check how this body takes comment.</strong> Every body sets its own rules: whether you sign up ahead or at the door, how long you get, and whether you can speak by phone or video. Call the clerk if the website doesn't say.</li>
     <li><strong>If there's no comment period,</strong> email the members before the meeting, or ask the clerk how to get an item on a future agenda.</li>
@@ -324,7 +324,7 @@ G["media-literacy"] = dict(
   <p>Local reporters cover city councils, school boards and county decisions that national outlets never will. Many Idaho towns have lost their daily paper. Supporting the local news you still have, and reading it, is one of the easiest ways to stay informed about decisions close to home.</p>
 
   <h2>Go to the source on government</h2>
-  <p>For local and state decisions, the primary sources are usually online: meeting agendas and recordings, the Legislature's bill pages and live video, and agency reports. The <a href="../index.html">calendar</a> links to each meeting's official page. For elections, your county clerk and VoteIdaho.gov are the official word on dates, polling places and results.</p>
+  <p>For local and state decisions, the primary sources are usually online: meeting agendas and recordings, the Legislature's bill pages and live video, and agency reports. The <a href="../">calendar</a> links to each meeting's official page. For elections, your county clerk and VoteIdaho.gov are the official word on dates, polling places and results.</p>
 """,
     sources=[("https://www.newslit.org/", "News Literacy Project"),
              ("https://voteidaho.gov/", "VoteIdaho.gov (Idaho Secretary of State)"),
