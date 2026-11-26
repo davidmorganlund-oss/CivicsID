@@ -44,6 +44,10 @@ def head(title, up, desc, share=None, lang="en", scripts=""):
 <link rel="icon" href="{up}favicon.ico" sizes="32x32">
 <link rel="icon" href="{up}icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="{up}apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="CivicsID">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 {FONTS.format(up=up)}
 <link rel="stylesheet" href="{up}styles.css">
 <script src="{up}app-install.js" defer></script>
@@ -285,7 +289,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
       <a class="link" id="subscribe" href="data/ics/statewide.ics">Subscribe to Idaho Legislature committee meetings</a>
       <p style="margin-top: 14px">Want to hear when something changes? The <a id="feed" href="data/feeds/statewide.xml">what's-new feed</a> lists new meetings, newly posted agendas and cancellations. Add it to a feed reader, or to a free feed-to-email service to get it by email.</p>
     </div>
-    <div class="card">
+    <div class="card" id="app-tip">
       <h2>Use it like an app</h2>
       <p>Add CivicsID to your home screen and it opens like an app, even without a signal. On iPhone, tap Share, then <strong>Add to Home Screen</strong>. On Android, tap the menu, then <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
     </div>
@@ -557,7 +561,7 @@ assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
       <a class="link" id="subscribe" href="../data/ics/statewide.ics">Suscribirse a las reuniones de comités de la Legislatura</a>
       <p style="margin-top: 14px">¿Quiere saber cuándo cambia algo? El <a id="feed" href="../data/feeds/statewide.xml">canal de novedades</a> muestra reuniones nuevas, agendas recién publicadas y cancelaciones. Agréguelo a un lector de noticias o a un servicio gratuito que lo envíe por correo.</p>
     </div>
-    <div class="card">
+    <div class="card" id="app-tip">
       <h2>Úselo como aplicación</h2>
       <p>Agregue CivicsID a su pantalla de inicio y se abrirá como una aplicación, incluso sin señal. En iPhone, toque Compartir y luego <strong>Agregar a pantalla de inicio</strong>. En Android, toque el menú y luego <strong>Instalar aplicación</strong>.</p>
     </div>
