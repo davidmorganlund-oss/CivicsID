@@ -9,6 +9,14 @@ Sources (both public and meant for reuse):
 Idaho has 35 legislative districts. Each elects one senator and two
 representatives, in House seats A and B.
 
+Members elected in November take office December 1, but Open States can take
+weeks to list them. From that day, pipeline/elected_2026.csv (the winners on
+the Idaho Secretary of State's official 2026 general election results) fills
+any seat where Open States still shows someone else. A seat where Open States
+already names the winner keeps its Open States entry, so once Open States has
+caught up the override changes nothing. It stops on ELECTED_UNTIL, so a later
+appointment to fill a vacancy is never overwritten for long.
+
 Never fails the nightly run: if a source is down, the last good file is kept.
 """
 from __future__ import annotations
@@ -18,7 +26,8 @@ import io
 import json
 import re
 import sys
-from datetime import datetime
+import unicodedata
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -27,6 +36,9 @@ UA = "CivicsID/0.1 (BarNone nonprofit civic calendar; contact via barnoneinc.org
 LEGISLATORS = "https://data.openstates.org/people/current/id.csv"
 CONGRESS = "https://raw.githubusercontent.com/unitedstates/congress-legislators/gh-pages/legislators-current.json"
 PARTY = {"Democratic": "Democrat"}
+ELECTED = Path(__file__).resolve().parent / "elected_2026.csv"
+ELECTED_FROM = date(2026, 12, 1)    # Idaho Code 67-404: legislators take office December 1
+ELECTED_UNTIL = date(2027, 3, 1)    # safety stop; Open States has always caught up well before this
 
 
 def parse_legislators(csv_text: str) -> dict:
@@ -54,6 +66,49 @@ def parse_legislators(csv_text: str) -> dict:
         seats["senate"].sort(key=lambda p: p["name"])
         seats["house"].sort(key=lambda p: (p.get("seat", ""), p["name"]))
     return districts
+
+
+def name_key(name: str) -> str:
+    """First initial and last name, lowercased, without accents, nicknames or suffixes.
+
+    The results page and Open States spell some names differently
+    ('Richard (Rick) Cheatum', 'Doug "Doug O" Okuniewicz'), so a seat's holder
+    is compared by first initial and last name. The initial matters: in 2026
+    Jane Sauter won the House seat Mark Sauter held.
+    """
+    name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    name = re.sub(r'"[^"]*"|\([^)]*\)', " ", name)
+    words = [w for w in re.findall(r"[a-z'-]+", name) if w not in {"jr", "sr", "ii", "iii", "iv"}]
+    while len(words) > 1 and len(words[0]) == 1:  # 'C. Scott Grow' goes by Scott
+        words = words[1:]
+    return f"{words[0][0]} {words[-1]}" if words else ""
+
+
+def apply_elected(legislators: dict, elected_csv: str) -> tuple[dict, int]:
+    """Put the November winners in any seat where the roster still shows someone else.
+
+    Returns the updated roster and how many seats changed. New entries have no
+    phone or email: the Legislature assigns those when members take office, and
+    Open States brings them in when it lists the new members.
+    """
+    out = json.loads(json.dumps(legislators))
+    changed = 0
+    for row in csv.DictReader(io.StringIO(elected_csv)):
+        district, chamber, seat = row["district"].strip(), row["chamber"].strip(), row["seat"].strip().upper()
+        name = row["name"].strip()
+        seats = out.setdefault(district, {"senate": [], "house": []})
+        members = seats[chamber]
+        here = [p for p in members if chamber == "senate" or p.get("seat") == seat]
+        if here and name_key(here[0]["name"]) == name_key(name):
+            continue
+        entry = {"name": name, "party": PARTY.get(row["party"], row["party"]), "phone": "", "email": ""}
+        if chamber == "house":
+            entry["seat"] = seat
+        seats[chamber] = [p for p in members if p not in here] + [entry]
+        seats["senate"].sort(key=lambda p: p["name"])
+        seats["house"].sort(key=lambda p: (p.get("seat", ""), p["name"]))
+        changed += 1
+    return out, changed
 
 
 def parse_congress(rows: list, state: str = "ID") -> dict:
@@ -104,6 +159,14 @@ def main() -> int:
               f"in {len(found)} districts")
     except Exception as exc:
         print(f"[warn] legislators: {type(exc).__name__}: {exc}"[:300], file=sys.stderr)
+
+    if ELECTED_FROM <= now.date() < ELECTED_UNTIL:
+        try:
+            elected, changed = apply_elected(data["legislators"], ELECTED.read_text(encoding="utf-8"))
+            data["legislators"] = elected
+            print(f"members elected in 2026: {changed} seats filled from {ELECTED.name}")
+        except Exception as exc:
+            print(f"[warn] elected 2026: {type(exc).__name__}: {exc}"[:300], file=sys.stderr)
 
     try:
         congress = parse_congress(get(CONGRESS).json())
