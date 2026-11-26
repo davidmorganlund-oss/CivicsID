@@ -4,8 +4,29 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:e74667b68155:new</id>
+    <title>New meeting: Pocatello Mayor's Youth Advisory Council Meeting (2027-01-25 15:15)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.pocatello.gov/Calendar.aspx?EID=11040"/>
+    <summary>City of Pocatello · 2027-01-25 15:15 (MT) · Council Chambers, 911 N 7th Ave</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:691b653776f1:new</id>
+    <title>New meeting: City Council Meeting (2026-12-02 18:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://cityofchubbuck.us/event/city-council-meeting-114/"/>
+    <summary>City of Chubbuck · 2026-12-02 18:00 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:4ebad09eeb42:new</id>
+    <title>New meeting: Council Study Session (2026-12-02 16:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://cityofchubbuck.us/event/council-study-session-27/"/>
+    <summary>City of Chubbuck · 2026-12-02 16:00 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:c513f2584e5b:new</id>
     <title>New meeting: City Council Meeting (2027-01-21 18:00)</title>

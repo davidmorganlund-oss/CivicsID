@@ -4,7 +4,20 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:167e5952da56:new</id>
+    <title>New meeting: Board of County Commissioners (2026-12-01 08:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.gemcounty.org/11-30%20%26%2012-1-26%20Commissioner%20Agenda.pdf"/>
+    <summary>Gem County · 2026-12-01 08:30 (MT) · Commissioners Meeting Room, Gem County Courthouse, 415 E. Main St, Emmett · On the agenda: Valor health center gem county healthcare history wall unveiling</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:167e5952da56:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-12-01 08:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.gemcounty.org/11-30%20%26%2012-1-26%20Commissioner%20Agenda.pdf"/>
+    <summary>Gem County · 2026-12-01 08:30 (MT) · Commissioners Meeting Room, Gem County Courthouse, 415 E. Main St, Emmett · On the agenda: Valor health center gem county healthcare history wall unveiling</summary>
+  </entry>
 </feed>

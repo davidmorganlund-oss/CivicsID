@@ -4,8 +4,43 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:56e48bc12af0:new</id>
+    <title>New meeting: City Council Meeting (2027-01-25 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6204/overview"/>
+    <summary>City of Twin Falls · 2027-01-25 17:00 (MT) · 203 Main Ave E , Council Chambers, Twin Falls</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:65e9d9c6e122:new</id>
+    <title>New meeting: Board of County Commissioners (2026-12-01 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/commissioners/agenda/"/>
+    <summary>Twin Falls County · 2026-12-01 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications; Commissioner minutes; 2. Consideration of a BLM Noxious Weeds Contract; 3. Consideration of a Seller Representation Agreement with Cherie Vollmer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:65e9d9c6e122:agenda</id>
+    <title>Agenda posted: Board of County Commissioners (2026-12-01 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://twinfallscounty.org/wp-content/uploads/Tuesday-12.1.26.pdf"/>
+    <summary>Twin Falls County · 2026-12-01 09:00 (MT) · Twin Falls County Commissioners, 630 Addison Ave W., Twin Falls · On the agenda: Consideration of County Assistance applications; Commissioner minutes; 2. Consideration of a BLM Noxious Weeds Contract; 3. Consideration of a Seller Representation Agreement with Cherie Vollmer</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:888429694a68:new</id>
+    <title>New meeting: City Council Meeting (2026-11-30 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6991/overview"/>
+    <summary>City of Twin Falls · 2026-11-30 17:00 (MT) · 203 Main Ave E , Council Chambers, Twin Falls</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:888429694a68:cancelled</id>
+    <title>Cancelled: City Council Meeting (2026-11-30 17:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://twinfallsid.portal.civicclerk.com/event/6991/overview"/>
+    <summary>City of Twin Falls · 2026-11-30 17:00 (MT) · 203 Main Ave E , Council Chambers, Twin Falls</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:8d02311391a3:new</id>
     <title>New meeting: Historic Preservation Commission - Special Meeting (2026-12-14 14:00)</title>

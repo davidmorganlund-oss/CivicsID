@@ -4,8 +4,22 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:0b37a46cd2b0:new</id>
+    <title>New meeting: Parks and Recreation Commission (2027-01-25 17:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://cdalibrary.libcal.com/event/17667176"/>
+    <summary>City of Coeur d'Alene · 2027-01-25 17:30 (PT) · Community Room (Room 116)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:a46a60aaa8de:new</id>
+    <title>New meeting: General Services/ Public Works (2027-01-25 12:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://cdalibrary.libcal.com/event/17666995"/>
+    <summary>City of Coeur d'Alene · 2027-01-25 12:00 (PT) · Community Room (Room 116)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:9858faee498b:new</id>
     <title>New meeting: BOCC: Fair Board Quarterly Update (2027-01-19 15:00)</title>

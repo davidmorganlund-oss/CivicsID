@@ -4,7 +4,20 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:632a87d167fb:new</id>
+    <title>New meeting: Regular Session Board of County Commissioners (2026-11-30 10:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.goodingcounty.org/AgendaCenter"/>
+    <summary>Gooding County · 2026-11-30 10:00 (MT) · 145 7th Avenue East, Gooding</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:632a87d167fb:agenda</id>
+    <title>Agenda posted: Regular Session Board of County Commissioners (2026-11-30 10:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.goodingcounty.org/AgendaCenter/ViewFile/Agenda/_11302026-928"/>
+    <summary>Gooding County · 2026-11-30 10:00 (MT) · 145 7th Avenue East, Gooding</summary>
+  </entry>
 </feed>

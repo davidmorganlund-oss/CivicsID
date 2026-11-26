@@ -4,8 +4,36 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:2990f3277967:new</id>
+    <title>New meeting: Recreation Advisory Council meeting (2027-01-25 17:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.valleycountyid.gov/events/17724/"/>
+    <summary>Valley County · 2027-01-25 17:30 (MT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:01b3cdd0cc75:new</id>
+    <title>New meeting: Special City Council Meeting (2026-12-04 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/Calendar.aspx?EID=2394"/>
+    <summary>City of McCall · 2026-12-04 09:00 (MT) · Hershberger Room, 218 Park Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:cf16184b5410:agenda</id>
+    <title>Agenda posted: Regular City Council Meeting (2026-12-03 17:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/AgendaCenter/ViewFile/Agenda/_12032026-485?html=true"/>
+    <summary>City of McCall · 2026-12-03 17:30 (MT) · Community Room, 218 Park Street</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:9746580912ab:new</id>
+    <title>New meeting: Special City Council Meeting (2026-12-02 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.mccall.id.us/Calendar.aspx?EID=2393"/>
+    <summary>City of McCall · 2026-12-02 09:00 (MT) · Hershberger Room, 218 Park Street</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:3bae29746936:new</id>
     <title>New meeting: Board of County Commissioners Meeting (2027-01-19 09:00)</title>

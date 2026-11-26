@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:a9269b09b06e:new</id>
+    <title>New meeting: Board of County Commissioners (2026-12-01 09:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://agenda.canyoncounty.id.gov/Agenda/Index?date=2026-12-01"/>
+    <summary>Canyon County · 2026-12-01 09:30 (MT) · County Courthouse, 1115 Albany Street, Caldwell · On the agenda: Meeting with County Attorneys for a Legal Staff Update and to Consider Action Items; Meeting to Consider Matters Related to County Assistance; Meeting with DSD for General Business</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:92e9e38c4bb2:new</id>
     <title>New meeting: Board of County Commissioners (2026-12-15 13:30)</title>

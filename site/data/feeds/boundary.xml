@@ -4,7 +4,20 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
-
+  <entry>
+    <id>tag:civicsid.org,2026:d8b95fc07bd3:new</id>
+    <title>New meeting: City Council Regular Meeting Agenda (PDF) (2026-12-01)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnersferry.id.gov/AgendaCenter"/>
+    <summary>City of Bonners Ferry · 2026-12-01 (PT)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:d8b95fc07bd3:agenda</id>
+    <title>Agenda posted: City Council Regular Meeting Agenda (PDF) (2026-12-01)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnersferry.id.gov/AgendaCenter/ViewFile/Agenda/_12012026-170"/>
+    <summary>City of Bonners Ferry · 2026-12-01 (PT)</summary>
+  </entry>
 </feed>

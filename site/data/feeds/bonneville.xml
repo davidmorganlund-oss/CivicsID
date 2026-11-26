@@ -4,8 +4,36 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-25T05:17:30-07:00</updated>
+  <updated>2026-11-26T05:14:50-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:9e054a82c2f4:new</id>
+    <title>New meeting: Board of Commissioners Planning &amp; Zoning Meeting (2026-12-16 13:30)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
+    <summary>Bonneville County · 2026-12-16 13:30 (MT) · Commissioners Hearing Room, Bonneville County Courthouse</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:35ab00652f8b:new</id>
+    <title>New meeting: Board of Equalization (2026-12-02 10:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
+    <summary>Bonneville County · 2026-12-02 10:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse · On the agenda: Hearing &amp; Decision regarding Grand Teton Gastroenterology - PP1GRA-TEG01 (ACTION ITEM)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c15f40ee9e3c:new</id>
+    <title>New meeting: Board of Commissioners Regular Meeting (2026-12-02 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
+    <summary>Bonneville County · 2026-12-02 09:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse · On the agenda: Review/Approval of Claims, as needed; Upcoming Events:; Commissioner Fleet Status Review; Indigent Services: Executive Session IC 74-206(1)(d) Consider records that are exempt from public disclosure (ACTION ITEM)</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:c6712d0a600f:new</id>
+    <title>New meeting: Board of Commissioners Regular Meeting (2026-12-01 09:00)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
+    <summary>Bonneville County · 2026-12-01 09:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse · On the agenda: Review/Approval of Claims, as needed; Authorization of Cancellation of Landfill Fees; Documents to Add Vehicles to Lease with United Fleet Services for the Sheriff's Office (ACTION ITEM); Tech Department Budget</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:c08da582f930:new</id>
     <title>New meeting: Board of Commissioner Regular Meeting with Public Works (2027-01-19 10:00)</title>
@@ -33,13 +61,6 @@
     <updated>2026-11-18T12:00:00Z</updated>
     <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
     <summary>Bonneville County · 2026-12-22 10:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse</summary>
-  </entry>
-  <entry>
-    <id>tag:civicsid.org,2026:c19011d595ca:new</id>
-    <title>New meeting: BOCC Quarterly Meeting with Board of Guardians (2026-12-18 09:00)</title>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
-    <summary>Bonneville County · 2026-12-18 09:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:39e2ee704997:new</id>
@@ -116,6 +137,6 @@
     <title>New meeting: Board of Commissioner Public Works Meeting (2026-12-01 10:00)</title>
     <updated>2026-11-18T12:00:00Z</updated>
     <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
-    <summary>Bonneville County · 2026-12-01 10:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse</summary>
+    <summary>Bonneville County · 2026-12-01 10:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse · On the agenda: Decision on Change Order #9 for 49th North Widening Project - Continued from 11/24/26 (ACTION ITEM); Decision on Change Order #10 for 49th North Widening Project - Continued from 11/24/26 (ACTION ITEM); Discussion &amp;/or Decision on Cost Sharing Agreement with Department of Fish &amp; Game for Road Closure Signs (ACTION ITEM); Discussion &amp;/or Decision on Temporary Scale Lease for Transfer Station during Improvement Construction - Continued from Discussion on 11/24/26 (ACTION ITEM)</summary>
   </entry>
 </feed>
