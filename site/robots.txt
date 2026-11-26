@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /data/feeds/
+Disallow: /data/ics/
 
 Sitemap: https://civicsid.org/sitemap.xml
