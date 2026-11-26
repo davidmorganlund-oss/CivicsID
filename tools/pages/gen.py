@@ -62,6 +62,8 @@ def top(up, current, lang="en", alt=None, reps_up=None):
     switch = (f'\n  <a class="lang-switch" href="{alt}" lang="{"es" if lang == "en" else "en"}" hreflang="{"es" if lang == "en" else "en"}">{"Español" if lang == "en" else "English"}</a>' if alt else "")
     def a(href, label, key, short=None):
         cur = ' aria-current="page"' if key == current else ""
+        if href == "index.html":  # link the calendar by its folder address, the one search engines index
+            href = "" if up else "./"
         if short:  # a shorter label on phones; the full name stays for screen readers
             return f'    <a href="{up}{href}"{cur} aria-label="{label}"><span class="full">{label}</span><span class="short">{short}</span></a>'
         return f'    <a href="{up}{href}"{cur}>{label}</a>'
@@ -74,7 +76,7 @@ def top(up, current, lang="en", alt=None, reps_up=None):
     return f'''{notice}
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="{up}index.html">Civics<span>ID</span></a>{switch}
+  <a class="brand" href="{up or './'}">Civics<span>ID</span></a>{switch}
   <nav aria-label="{main}">
 {a("index.html", cal, "calendar", cal_s)}
 {a("engage.html", eng, "engage")}
@@ -241,7 +243,7 @@ assert listed == set(ALL), (listed ^ set(ALL))
 # ---------- calendar ----------
 (SITE / "index.html").write_text(f'''{head("Get Engaged, Idaho | CivicsID", "", "See what your city council, county commissioners, library board and the Idaho Legislature are deciding this week, and how to make your voice heard.", "Get Engaged, Idaho: what your community is deciding this week")}
 <a class="skip" href="#events">Skip to events</a>
-{top("", "calendar", alt="es/index.html")}
+{top("", "calendar", alt="es/")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Community Calendar</p>
@@ -349,7 +351,7 @@ print(len(ALL), "guides written")
 
 (SITE / "legislature.html").write_text(f'''{head("The Idaho Legislature, day by day | CivicsID", "", "Every Idaho Legislature committee meeting coming up, with agendas, the bills on them, and how to testify in person or remotely.", "The Idaho Legislature, day by day")}
 <a class="skip" href="#hearings">Skip to hearings</a>
-{top("", "legislature", alt="es/index.html")}
+{top("", "legislature", alt="es/")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Idaho Legislature</p>
@@ -513,7 +515,7 @@ assert es_listed == set(guides_es.G), (es_listed ^ set(guides_es.G))
 
 (ES / "index.html").write_text(f'''{head("Participe en Idaho | CivicsID", "../", "Vea lo que deciden esta semana su concejo municipal, los comisionados del condado, la junta de la biblioteca y la Legislatura de Idaho, y cómo hacerse escuchar.", "Participe en Idaho: lo que su comunidad decide esta semana", lang="es")}
 <a class="skip" href="#events">Ir a las reuniones</a>
-{top("", "calendar", lang="es", alt="../index.html")}
+{top("", "calendar", lang="es", alt="../")}
 
 <section class="hero"><div class="wrap">
   <p class="eyebrow light">Calendario comunitario</p>
@@ -832,16 +834,16 @@ print(f"search pieces written: {len(pages)} pages in the sitemap")
 # stays out of the sitemap and carries no canonical address.
 (SITE / "404.html").write_text(f'''{head("Page not found | CivicsID", "/", "That page isn't here. Head back to the CivicsID calendar, guides or representatives lookup.").replace("</head>", '<meta name="robots" content="noindex">' + chr(10) + "</head>")}
 <a class="skip" href="#notfound">Skip to content</a>
-{top("/", "", alt="/es/index.html")}
+{top("/", "", alt="/es/")}
 <main class="wrap narrow guide" id="notfound">
   <h1>We can't find that page.</h1>
   <p>The address may be mistyped, or the page may have moved. Here's where most people are headed:</p>
   <ul>
-    <li><a href="/index.html">Community Calendar</a>: what your city, county, school board and the Legislature are deciding.</li>
+    <li><a href="/">Community Calendar</a>: what your city, county, school board and the Legislature are deciding.</li>
     <li><a href="/engage.html">Engage</a>: plain-language guides to taking part.</li>
     <li><a href="/reps.html">My representatives</a>: who represents you, by address.</li>
   </ul>
-  <p lang="es">¿Busca la versión en español? Vaya al <a href="/es/index.html" hreflang="es">calendario en español</a>.</p>
+  <p lang="es">¿Busca la versión en español? Vaya al <a href="/es/" hreflang="es">calendario en español</a>.</p>
   <p class="muted">Followed a link on this site to get here? <a href="mailto:{REPORT}?subject=CivicsID%3A%20broken%20link">Tell us</a> and we'll fix it.</p>
 </main>
 {footer("/", "CivicsID is free to use and asks nothing of you.")}

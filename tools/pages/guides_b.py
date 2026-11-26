@@ -21,7 +21,7 @@ G["legislature"] = dict(
     <li><strong>It starts in early January.</strong> The session opens on the Monday closest to January 9. In 2027 that is January 11. The Governor gives the State of the State address and releases a budget proposal that day.</li>
     <li><strong>There's no fixed end date.</strong> The session runs until the work is done, usually around three months, ending in late March or April.</li>
     <li><strong>Everything dies at the end.</strong> A bill that hasn't passed when the Legislature adjourns is dead. It has to be introduced again the next year.</li>
-    <li><strong>Between sessions,</strong> interim committees study specific issues and the budget committee meets a few times. Those meetings are on the <a href="../index.html?cat=legislature">calendar</a>.</li>
+    <li><strong>Between sessions,</strong> interim committees study specific issues and the budget committee meets a few times. Those meetings are on the <a href="../?cat=legislature">calendar</a>.</li>
   </ul>
 
   <h2>How a bill moves</h2>
@@ -70,7 +70,7 @@ G["weigh-in-on-a-state-bill"] = dict(
   <h2>2. Testify at the committee hearing</h2>
   <p>The committee hearing is the one point where the public speaks.</p>
   <ol>
-    <li><strong>Find the hearing.</strong> Each committee posts an agenda listing the bills it will hear. Agendas are on the Legislature's website and on the <a href="../index.html?cat=legislature">calendar</a>.</li>
+    <li><strong>Find the hearing.</strong> Each committee posts an agenda listing the bills it will hear. Agendas are on the Legislature's website and on the <a href="../?cat=legislature">calendar</a>.</li>
     <li><strong>Register.</strong> The agenda and the committee's web page link to a testimony registration form. You'll give your name, address, any group you represent, whether you're for or against, and whether you'll be there in person or remote.</li>
     <li><strong>Remote testimony depends on the committee.</strong> Most chairs allow testimony by video or phone, but not all, and not at every meeting. The registration form shows whether it is offered.</li>
     <li><strong>Expect two or three minutes.</strong> The chair sets the time limit and can cap the total testimony. Registering doesn't guarantee you'll be called.</li>
@@ -179,7 +179,7 @@ G["boards-and-commissions"] = dict(
 
   <h2>Before you apply</h2>
   <ul>
-    <li><strong>Go to a meeting first.</strong> You'll see what the board really does and how much reading it takes. The <a href="../index.html">calendar</a> lists many of them.</li>
+    <li><strong>Go to a meeting first.</strong> You'll see what the board really does and how much reading it takes. The <a href="../">calendar</a> lists many of them.</li>
     <li><strong>Know the rules you'd be under.</strong> Board members are covered by Idaho's open meetings, public records and ethics laws. You can't decide matters you have a financial stake in.</li>
     <li><strong>You don't need to be an expert.</strong> Most boards want residents who show up, read the packet and ask good questions.</li>
   </ul>
@@ -335,7 +335,7 @@ G["running-for-office"] = dict(
   <h2>Where to start</h2>
   <ul>
     <li><strong>Call your county clerk's elections office.</strong> They'll tell you which seats are up, when filing opens and what forms you need.</li>
-    <li><strong>Go to the meetings</strong> of the board you'd join. The <a href="../index.html">calendar</a> lists many of them.</li>
+    <li><strong>Go to the meetings</strong> of the board you'd join. The <a href="../">calendar</a> lists many of them.</li>
     <li><strong>Consider an appointed seat first.</strong> See <a href="boards-and-commissions.html">serve on a board or commission</a>.</li>
   </ul>
 """,

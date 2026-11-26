@@ -26,7 +26,7 @@ G["speak-at-a-public-meeting"] = dict(
 
   <h2>Antes de la reunión</h2>
   <ol>
-    <li><strong>Encuentre la reunión.</strong> El <a href="../index.html">calendario</a> muestra lo que viene cerca de usted.</li>
+    <li><strong>Encuentre la reunión.</strong> El <a href="../">calendario</a> muestra lo que viene cerca de usted.</li>
     <li><strong>Lea la agenda.</strong> Busque el asunto que le interesa y anote su número o título, y si es un punto de acción o una audiencia pública. Casi todas las agendas están en inglés; puede pedirle ayuda al secretario (clerk).</li>
     <li><strong>Averigüe cómo recibe comentarios ese órgano.</strong> Cada uno pone sus propias reglas: si hay que inscribirse antes o en la puerta, cuánto tiempo le dan y si puede hablar por teléfono o video. Llame al secretario si el sitio web no lo dice.</li>
     <li><strong>Pida un intérprete con tiempo.</strong> Muchas ciudades y condados ofrecen interpretación si se pide con anticipación. Pregunte al secretario unos días antes.</li>
@@ -433,7 +433,7 @@ G["media-literacy"] = dict(
   <p>Los reporteros locales cubren los concejos municipales, las juntas escolares y las decisiones del condado que los medios nacionales nunca van a cubrir. Muchos pueblos de Idaho se han quedado sin su periódico diario. Apoyar las noticias locales que todavía tiene, y leerlas, es una de las maneras más fáciles de estar al tanto de las decisiones que se toman cerca de usted.</p>
 
   <h2>Vaya a la fuente cuando se trata del gobierno</h2>
-  <p>Para las decisiones locales y estatales, las fuentes originales casi siempre están en internet: las agendas y grabaciones de las reuniones, las páginas de los proyectos de ley de la Legislatura y su video en vivo, y los informes de las agencias. El <a href="../index.html">calendario</a> tiene un enlace a la página oficial de cada reunión. Para las elecciones, el secretario (clerk) de su condado y VoteIdaho.gov son la palabra oficial sobre fechas, lugares de votación y resultados.</p>
+  <p>Para las decisiones locales y estatales, las fuentes originales casi siempre están en internet: las agendas y grabaciones de las reuniones, las páginas de los proyectos de ley de la Legislatura y su video en vivo, y los informes de las agencias. El <a href="../">calendario</a> tiene un enlace a la página oficial de cada reunión. Para las elecciones, el secretario (clerk) de su condado y VoteIdaho.gov son la palabra oficial sobre fechas, lugares de votación y resultados.</p>
 """,
     sources=[("https://www.newslit.org/", "News Literacy Project, organización de alfabetización en noticias (en inglés)"),
              ("https://voteidaho.gov/", "VoteIdaho.gov, Secretaría de Estado de Idaho (en inglés)"),
@@ -531,7 +531,7 @@ G["legislature"] = dict(
     <li><strong>Empieza a principios de enero.</strong> La sesión legislativa abre el lunes más cercano al 9 de enero. En 2027 es el 11 de enero. Ese día el Gobernador da el discurso sobre el Estado del Estado ("State of the State") y presenta su propuesta de presupuesto.</li>
     <li><strong>No tiene fecha fija de cierre.</strong> La sesión dura hasta que se termina el trabajo, normalmente unos tres meses, y acaba a finales de marzo o en abril.</li>
     <li><strong>Todo muere al final.</strong> Un proyecto de ley que no se aprobó cuando la Legislatura cierra la sesión queda muerto. Hay que volver a presentarlo el año siguiente.</li>
-    <li><strong>Entre sesiones,</strong> los comités interinos estudian temas específicos y el comité de presupuesto se reúne algunas veces. Esas reuniones están en el <a href="../index.html?cat=legislature">calendario</a>.</li>
+    <li><strong>Entre sesiones,</strong> los comités interinos estudian temas específicos y el comité de presupuesto se reúne algunas veces. Esas reuniones están en el <a href="../?cat=legislature">calendario</a>.</li>
   </ul>
 
   <h2>Cómo avanza un proyecto de ley</h2>
@@ -580,7 +580,7 @@ G["weigh-in-on-a-state-bill"] = dict(
   <h2>2. Dé su testimonio en la audiencia del comité</h2>
   <p>La audiencia del comité es el único momento en que habla el público.</p>
   <ol>
-    <li><strong>Encuentre la audiencia.</strong> Cada comité publica una agenda con los proyectos que va a tratar en audiencia. Las agendas están en el sitio web de la Legislatura y en el <a href="../index.html?cat=legislature">calendario</a>.</li>
+    <li><strong>Encuentre la audiencia.</strong> Cada comité publica una agenda con los proyectos que va a tratar en audiencia. Las agendas están en el sitio web de la Legislatura y en el <a href="../?cat=legislature">calendario</a>.</li>
     <li><strong>Inscríbase.</strong> La agenda y la página web del comité tienen un enlace a un formulario de inscripción para dar testimonio (en inglés). Le pedirán su nombre, su dirección, el grupo que representa si es el caso, si está a favor o en contra, y si estará en persona o a distancia.</li>
     <li><strong>El testimonio a distancia depende del comité.</strong> La mayoría de los presidentes de comité permiten testimonio por video o por teléfono, pero no todos, y no en todas las reuniones. El formulario de inscripción indica si se ofrece.</li>
     <li><strong>Cuente con dos o tres minutos.</strong> El presidente pone el límite de tiempo y puede limitar el total de testimonios. Inscribirse no garantiza que le llamen.</li>
@@ -689,7 +689,7 @@ G["boards-and-commissions"] = dict(
 
   <h2>Antes de solicitar</h2>
   <ul>
-    <li><strong>Vaya primero a una reunión.</strong> Verá lo que la junta hace en realidad y cuánto hay que leer. El <a href="../index.html">calendario</a> muestra muchas de ellas.</li>
+    <li><strong>Vaya primero a una reunión.</strong> Verá lo que la junta hace en realidad y cuánto hay que leer. El <a href="../">calendario</a> muestra muchas de ellas.</li>
     <li><strong>Conozca las reglas que tendría que seguir.</strong> Los miembros de las juntas están sujetos a las leyes de Idaho sobre reuniones abiertas, registros públicos y ética. No puede decidir asuntos en los que tenga un interés económico.</li>
     <li><strong>No necesita ser experto.</strong> La mayoría de las juntas quieren residentes que asistan, lean los documentos de la reunión y hagan buenas preguntas.</li>
   </ul>
@@ -845,7 +845,7 @@ G["running-for-office"] = dict(
   <h2>Por dónde empezar</h2>
   <ul>
     <li><strong>Llame a la oficina de elecciones del secretario de su condado.</strong> Le dirán qué cargos se eligen, cuándo abre el registro y qué formularios necesita. Puede pedir un intérprete si lo necesita.</li>
-    <li><strong>Vaya a las reuniones</strong> de la junta a la que quiere entrar. El <a href="../index.html">calendario</a> muestra muchas de ellas.</li>
+    <li><strong>Vaya a las reuniones</strong> de la junta a la que quiere entrar. El <a href="../">calendario</a> muestra muchas de ellas.</li>
     <li><strong>Considere primero un cargo por nombramiento.</strong> Vea <a href="boards-and-commissions.html">cómo servir en una junta o comisión</a>.</li>
   </ul>
 """,
