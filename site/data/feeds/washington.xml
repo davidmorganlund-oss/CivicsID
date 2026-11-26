@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-26T05:14:50-07:00</updated>
+  <updated>2026-11-26T09:52:07-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:6fa3053a8093:new</id>
+    <title>New meeting: Washington County Commissioners (2027-01-25 08:45)</title>
+    <updated>2026-11-26T12:00:00Z</updated>
+    <link href="https://www.co.washington.id.us/m/calendar/event/detail/1513"/>
+    <summary>Washington County · 2027-01-25 08:45 (MT)</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:3c8e0f92780d:agenda</id>
     <title>Agenda posted: Washington County Commissioners (2026-11-30 08:45)</title>
@@ -17,7 +24,7 @@
     <id>tag:civicsid.org,2026:e66cec0306b6:new</id>
     <title>New meeting: Washington County Commissioners (2027-01-18 08:45)</title>
     <updated>2026-11-19T12:00:00Z</updated>
-    <link href="https://www.co.washington.id.us/Calendar.aspx?EID=1512"/>
+    <link href="https://www.co.washington.id.us/m/calendar/event/detail/1512"/>
     <summary>Washington County · 2027-01-18 08:45 (MT)</summary>
   </entry>
 </feed>
