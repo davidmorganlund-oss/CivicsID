@@ -4,8 +4,15 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-26T11:17:46-07:00</updated>
+  <updated>2026-11-27T05:10:45-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:22504ff2f26a:new</id>
+    <title>New meeting: Board of Commissioner Regular Meeting with Public Works (2027-01-26 10:00)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://www.bonnevillecountyidaho.gov/calendar"/>
+    <summary>Bonneville County · 2027-01-26 10:00 (MT) · Commissioners Hearing Room, Bonneville County Courthouse</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:9e054a82c2f4:new</id>
     <title>New meeting: Board of Commissioners Planning &amp; Zoning Meeting (2026-12-16 13:30)</title>

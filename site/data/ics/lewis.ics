@@ -3,9 +3,9 @@ VERSION:2.0
 PRODID:-//CivicsID//Public meetings//EN
 X-WR-CALNAME:CivicsID Lewis County
 BEGIN:VEVENT
-UID:7bc1866a3bdb@civicsid
-DTSTAMP:20261126T181746Z
-DTSTART;VALUE=DATE:20261207
+UID:6e6888ca9682@civicsid
+DTSTAMP:20261127T121045Z
+DTSTART;VALUE=DATE:20261130
 SUMMARY:Board of Lewis County Commissioners (Regular Business Meeting) (Lew
  is County)
 LOCATION:Lewis County Courthouse\, 510 Oak St\, Nezperce

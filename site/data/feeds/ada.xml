@@ -4,8 +4,36 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-26T11:17:46-07:00</updated>
+  <updated>2026-11-27T05:10:45-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:f4f864fc9339:new</id>
+    <title>New meeting: City Council Regular Meeting (2027-01-26 18:00)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://meridianid.portal.civicclerk.com/event/50/overview"/>
+    <summary>City of Meridian · 2027-01-26 18:00 (MT) · Meridian City Hall</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:6fac1304e749:new</id>
+    <title>New meeting: City Council Work Session (2027-01-26 16:30)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://meridianid.portal.civicclerk.com/event/103/overview"/>
+    <summary>City of Meridian · 2027-01-26 16:30 (MT) · Meridian City Hall</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:908882d0be90:new</id>
+    <title>New meeting: Historic Preservation Commission (2027-01-25 18:00)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-25 18:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:6712a682f368:new</id>
+    <title>New meeting: Historic Preservation Commission Work Session (2027-01-25 17:45)</title>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-25 17:45 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:91fbd9714286:agenda</id>
     <title>Agenda posted: Airport Commission (2026-12-02 09:00)</title>
@@ -122,7 +150,7 @@
     <id>tag:civicsid.org,2026:80c377858b6f:new</id>
     <title>New meeting: Kuna City Regular Council Meeting (2027-01-19 18:00)</title>
     <updated>2026-11-20T12:00:00Z</updated>
-    <link href="https://www.kunacity.id.gov/m/calendar/event/detail/4473"/>
+    <link href="https://www.kunacity.id.gov/Calendar.aspx?EID=4473"/>
     <summary>City of Kuna · 2027-01-19 18:00 (MT) · Kuna City Hall Chambers</summary>
   </entry>
   <entry>
