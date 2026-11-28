@@ -4,8 +4,36 @@
   <subtitle>New meetings, newly posted agendas and cancellations, from CivicsID</subtitle>
   <id>https://civicsid.org/</id>
   <link href="https://civicsid.org/"/>
-  <updated>2026-11-27T05:10:45-07:00</updated>
+  <updated>2026-11-28T04:58:58-07:00</updated>
   <author><name>CivicsID (BarNone)</name></author>
+  <entry>
+    <id>tag:civicsid.org,2026:f14df3ae40b3:new</id>
+    <title>New meeting: City Council Regular Evening Meeting (2027-01-26 18:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-26 18:00 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:eeb2b3daac36:new</id>
+    <title>New meeting: City Council Work Session (2027-01-26 15:30)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://pub-cityofboise.escribemeetings.com/"/>
+    <summary>City of Boise · 2027-01-26 15:30 (MT) · City Hall - Maryanne Jordan City Council Chambers, 150 N. Capitol Blvd</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:62706fb19d39:agenda</id>
+    <title>Agenda posted: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-12-01 09:15)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C12+December%5C12-01-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <summary>Ada County · 2026-12-01 09:15 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
+  </entry>
+  <entry>
+    <id>tag:civicsid.org,2026:d7bc57f62658:agenda</id>
+    <title>Agenda posted: Board of County Commissioners: Open Business Meeting (2026-12-01 09:00)</title>
+    <updated>2026-11-28T12:00:00Z</updated>
+    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C12+December%5C12-01-26_Open_Business_Mtg.pdf&amp;puid=null"/>
+    <summary>Ada County · 2026-12-01 09:00 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
+  </entry>
   <entry>
     <id>tag:civicsid.org,2026:f4f864fc9339:new</id>
     <title>New meeting: City Council Regular Meeting (2027-01-26 18:00)</title>
@@ -45,14 +73,14 @@
     <id>tag:civicsid.org,2026:62706fb19d39:new</id>
     <title>New meeting: Board of County Commissioners: Emergency Medical Services District Open Business Meeting (2026-12-01 09:15)</title>
     <updated>2026-11-25T12:00:00Z</updated>
-    <link href="https://adacounty.id.gov/commissioners/"/>
+    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C12+December%5C12-01-26_Open_Business_Mtg.pdf&amp;puid=null"/>
     <summary>Ada County · 2026-12-01 09:15 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
   <entry>
     <id>tag:civicsid.org,2026:d7bc57f62658:new</id>
     <title>New meeting: Board of County Commissioners: Open Business Meeting (2026-12-01 09:00)</title>
     <updated>2026-11-25T12:00:00Z</updated>
-    <link href="https://adacounty.id.gov/commissioners/"/>
+    <link href="https://apps.adacounty.id.gov/AdaFileBrowse/Home/OpenDocument?papp=BOCCAgendas&amp;doc=%5C2026%5C12+December%5C12-01-26_Open_Business_Mtg.pdf&amp;puid=null"/>
     <summary>Ada County · 2026-12-01 09:00 (MT) · Commissioners' Conference Room 3255, Ada County Courthouse, 200 W. Front St, Boise</summary>
   </entry>
   <entry>
